@@ -1,0 +1,9 @@
+setup.py
+mycalcpackage/__init__.py
+mycalcpackage/calculator.py
+mycalcpackage.egg-info/PKG-INFO
+mycalcpackage.egg-info/SOURCES.txt
+mycalcpackage.egg-info/dependency_links.txt
+mycalcpackage.egg-info/entry_points.txt
+mycalcpackage.egg-info/requires.txt
+mycalcpackage.egg-info/top_level.txt
