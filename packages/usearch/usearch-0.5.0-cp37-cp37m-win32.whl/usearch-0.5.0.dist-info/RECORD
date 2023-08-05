@@ -1,0 +1,10 @@
+usearch/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+usearch/client.py,sha256=bxfhEqgyrhb0ImT1e2uLiO-RKjq7cQZoIhNcR7fFGt8,1462
+usearch/index.cp37-win32.pyd,sha256=wJWwwOworyq_KGgs4ytiivpHQypLM2fhCPb-d1mI8Do,245760
+usearch/io.py,sha256=xbieZtFNHPaG_1xFsoqQQdtuT_7s7DowdXK2BEphtzk,2298
+usearch/server.py,sha256=bSgoM2fzltLvSA-gMknS80_JYFsOOXrMsWTWEgNiGIE,2748
+usearch-0.5.0.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+usearch-0.5.0.dist-info/METADATA,sha256=pxmfu5fCnaeZjpxlwXwbArHDPCmMYeuiaFBhdTDWFdc,19489
+usearch-0.5.0.dist-info/WHEEL,sha256=BhRm6FQ2pDPfo-RBiQs42AnAYisdvU-bBwrxCcz0qck,97
+usearch-0.5.0.dist-info/top_level.txt,sha256=zFbid1SmQjk8RsbEgpqF7tTjgWdFvE2z0e1LQ2hKdPg,8
+usearch-0.5.0.dist-info/RECORD,,
