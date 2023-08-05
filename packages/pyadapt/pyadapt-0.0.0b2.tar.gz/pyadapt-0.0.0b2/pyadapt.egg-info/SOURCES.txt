@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+pyadapt.egg-info/PKG-INFO
+pyadapt.egg-info/SOURCES.txt
+pyadapt.egg-info/dependency_links.txt
+pyadapt.egg-info/requires.txt
+pyadapt.egg-info/top_level.txt
