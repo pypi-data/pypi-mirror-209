@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "feature-service-client"
+version = "0.1.1"
+description = "python client for talking to feature service"
+authors = ["Long Yao <l2yao@tripadvisor.com>"]
+readme = "README.md"
+packages = [{include = "feature_service_client"}]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
