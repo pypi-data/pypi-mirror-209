@@ -1,0 +1,14 @@
+flight_maneuvers/__about__.py,sha256=yMiI0vu8-AszY8OObNOxIrSA2x_nJajDkZEYH-186Lg,414
+flight_maneuvers/__init__.py,sha256=7hF3Eb7yGaCOXBMPISBLhJ3Kssa6JIWlFBlV1tmEidY,467
+flight_maneuvers/data_module.py,sha256=vc8nmxKhSf82mCMbDMaLsiwGfPteM0q5FvuijJSQfAA,3893
+flight_maneuvers/neural_search.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flight_maneuvers/utils.py,sha256=nII2rygV6KpV-ugdZSQEmXVexMa84WPDf6tW4PooIuo,5827
+flight_maneuvers/modules/__init__.py,sha256=2qLLQfoalt0xeED-7npf_0lkHbF-xPN_My4SN7IRIjA,470
+flight_maneuvers/modules/resnet.py,sha256=V3qPkAK4GQTca3gxPyYnI-B3Op7ZNdgE15KbBLnlCCE,5348
+flight_maneuvers/modules/se2_resnet.py,sha256=wzb1QUtA5l7STIswMV0zjhV3PgzjoRdGsE0FgMDUbHM,257
+flight_maneuvers/modules/se3_resnet.py,sha256=tu5LCzprTL8ojjfsgSwOpQxIBwG6U_1VFphxYEJi0Z8,365
+flight_maneuvers-1.0.1.dist-info/LICENSE,sha256=8i8w5K4dVcx6sZ4N8IehBS-sfjIAICNmAurR5iK5Qi0,1440
+flight_maneuvers-1.0.1.dist-info/METADATA,sha256=Hr22OxRdFmIA5Or-G4j3y5lG1yRJr3V4oYshYVz-Tyk,5851
+flight_maneuvers-1.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+flight_maneuvers-1.0.1.dist-info/top_level.txt,sha256=grrgdz2k641nmc_et9UMM7n5-CBKVtnxXIF_wp5wVH8,17
+flight_maneuvers-1.0.1.dist-info/RECORD,,
