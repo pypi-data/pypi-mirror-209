@@ -1,0 +1,2 @@
+[console_scripts]
+pipeline = nuitrcs_example.pipeline:main
