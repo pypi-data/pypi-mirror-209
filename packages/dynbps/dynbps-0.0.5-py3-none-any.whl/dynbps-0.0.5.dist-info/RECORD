@@ -1,0 +1,11 @@
+dynbps/BPS.py,sha256=LthgFLQnSJ1OX7F2VapplzLwYm_5ELuimPoGK2e-izo,9023
+dynbps/__init__.py,sha256=S7u1lbuWmM3A3ajykBialmPoJUK6Jg-WmNqM-9OZFdk,22
+dynbps/_modidx.py,sha256=J9EowSirC6c52UYm1NNdhEiMLtLeq6IguBFI_pjkDmM,681
+dynbps/loadData.py,sha256=rei8vg9cFEAGJjrch8f37siga_Xk9VIAnYLLgRoyAzw,189
+dynbps/datasets/data.xlsx,sha256=iDhvFnxAKIUeE-Wb-Q2vML7l0vPnAGSM5bwO7jqCO4Y,41999
+dynbps-0.0.5.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+dynbps-0.0.5.dist-info/METADATA,sha256=9IDKdYT8Dgil5s8cyE5AQNy2PxtCbG0w1q0W84U4Rbk,1139
+dynbps-0.0.5.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+dynbps-0.0.5.dist-info/entry_points.txt,sha256=H0RGLXpJq1gMVhw7-Qgrsw9T7cmxXLVugpZDHgrcNPo,34
+dynbps-0.0.5.dist-info/top_level.txt,sha256=PuzDRfGgqCRz_n025hvYpetsU3q7WwJU48ypj0-1JKg,7
+dynbps-0.0.5.dist-info/RECORD,,
