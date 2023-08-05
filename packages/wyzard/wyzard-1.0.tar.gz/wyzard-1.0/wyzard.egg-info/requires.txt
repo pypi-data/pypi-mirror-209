@@ -1,0 +1,6 @@
+transformers
+diffusers
+Pillow
+torch
+matplotlib
+Cython
