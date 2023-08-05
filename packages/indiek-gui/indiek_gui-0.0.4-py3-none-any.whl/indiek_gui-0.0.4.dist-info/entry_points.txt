@@ -1,0 +1,2 @@
+[gui_scripts]
+indiek-gui = indiek.gui.app:main
