@@ -1,0 +1,34 @@
+{% set version = "1.0.0" %}
+
+package:
+  name: nuitrcs-template
+  version: {{ version }}
+
+source:
+  git_url: https://github.com/nuitrcs/rcds-gh-actions-workshop
+  git_rev: 1.0.0
+  git_depth: 1 # (Defaults to -1/not shallow)
+
+build:
+  noarch: python
+  number: 0
+  script: python -m pip install --no-deps --ignore-installed .
+
+requirements:
+  host:
+    - python
+    - pip
+  run:
+    - python
+
+test:
+  imports:
+    - nuitrcs_example
+
+about:
+  home: https://github.com/nuitrcs/rcds-gh-actions-workshop
+  license: MIT
+  summary: 'NUITRCS GitHub Actions Workshop'
+  description: |
+    NUITRCS GitHub Actions Workshop
+  dev_url: https://github.com/nuitrcs/rcds-gh-actions-workshop

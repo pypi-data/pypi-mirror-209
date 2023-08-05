@@ -1,0 +1,15 @@
+numpy
+
+[dev]
+check-manifest
+
+[doc]
+matplotlib
+ipython
+sphinx
+numpydoc
+sphinx_rtd_theme
+sphinxcontrib_programoutput
+
+[test]
+coverage
