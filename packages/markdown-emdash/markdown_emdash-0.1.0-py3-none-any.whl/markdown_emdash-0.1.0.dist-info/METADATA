@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: markdown-emdash
+Version: 0.1.0
+Summary: Extension for python-markdown that replaces all triple dashes em-dashes.
+Home-page: https://github.com/czue/markdown-emdash
+Author: Cory Zue
+Author-email: cory@coryzue.com
+License: MIT License
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+License-File: LICENSE
+
+# markdown-emdash
+
+Extension for [python-markdown](https://python-markdown.github.io/) that replaces all triple dashes
+(`---`) with em-dashes (`&mdash;`).
+
+More information on [extensions here](https://python-markdown.github.io/extensions/).
+
+## Installation
+
+```
+pip install markdown-emdash
+```
+
+## Usage
+
+```python
+markdown.markdown(some_text, extensions=['mdx_emdash'])
+```
+
+or
+
+```python
+from mdx_emdash import EmDashExtension
+markdown.markdown(some_text, extensions=[EmDashExtension()])
+```
