@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pysui-gadgets
+Version: 0.0.12
+Summary: pysui (Python Sui Client SDK) additional tools
+License: Apache-2.0
+Project-URL: Bug Reports, https://github.com/FrankC01/pysui_gadgets/issues
+Project-URL: repository, https://github.com/FrankC01/pysui_gadgets
+Keywords: software development kit,sui,blockchain,utilities
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Programming Language :: Python
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pysui (>=0.21.2)
+
