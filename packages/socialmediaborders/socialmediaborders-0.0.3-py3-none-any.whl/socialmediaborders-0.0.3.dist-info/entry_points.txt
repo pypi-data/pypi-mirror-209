@@ -1,0 +1,2 @@
+[console_scripts]
+socialmediaborders = socialmediaborders:__main__.main
