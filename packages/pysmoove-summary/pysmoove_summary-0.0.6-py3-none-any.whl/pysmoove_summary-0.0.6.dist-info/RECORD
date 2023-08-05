@@ -1,0 +1,12 @@
+pysmoove_summary/__init__.py,sha256=wgERdH9JKWJzycC8LHJHGfYwE03NkmoOQZdBZRem3yI,68
+pysmoove_summary/correlated_phenotypes.py,sha256=LnXT5v-Z2btGDXTLitonOOXArmW32VvGlywmH6Qbmqg,5027
+pysmoove_summary/correlated_phenotypes_3rdseq.py,sha256=pFcdBczi85oaDImLZdhTYrqN6gYPH98sKGAW205STFs,4320
+pysmoove_summary/parse_phenotypes.py,sha256=YrqFKM3FBenHUW3nIl1UyREabyMSTuXMH-Vk2HWut1E,1207
+pysmoove_summary/parse_phenotypes_3rdseq.py,sha256=pRXmLxQI_rhM-F3ewhw3z8XDmadv9RP_79wwPuNzJW0,776
+pysmoove_summary/pysmoove_summary.py,sha256=UNTNuo-x6H7JFPX1ss87EPVjHxXUzGFPfKtIogYfPkM,3051
+pysmoove_summary-0.0.6.dist-info/LICENSE,sha256=nA87f2MwZEUAgs8CukUCojuyMojiNZD1mJCnBbAxyFg,1059
+pysmoove_summary-0.0.6.dist-info/METADATA,sha256=59m1tJ13Ma1sAVzz9aUnwiabguL18NeXfYBIKUVKBqY,580
+pysmoove_summary-0.0.6.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pysmoove_summary-0.0.6.dist-info/entry_points.txt,sha256=wpeLYNluoOvmKhsrP7fCB3n3ys0hgOWZl_94XjK4w-A,76
+pysmoove_summary-0.0.6.dist-info/top_level.txt,sha256=jGVKC-ea-r3hv7xWTzcRauwSzjcWTtQiVXtPcOjNxrU,17
+pysmoove_summary-0.0.6.dist-info/RECORD,,
