@@ -1,0 +1,8 @@
+sunsolve/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sunsolve/fitness_function.py,sha256=mFXL2ZwdgQv_KQ3EBqO8NiwXza2_voQEKXgivhOYW8Y,4300
+sunsolve/genetic_algorithm.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sunsolve/plotter.py,sha256=ZAFAq6LpDkskyeUPDFDzY4favFhnLO2lFaiuVUYVGnw,721
+sunsolve/solver.py,sha256=960BliSTZ6mpojmd0xE9h1lGPf-2v7zUJmCEuCsgSgU,1266
+sunsolve-0.0.4.dist-info/METADATA,sha256=uNM3IL0pY6DkGK57fsCJrj8g-nxQeQD_FwjmlPKTdPQ,3956
+sunsolve-0.0.4.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+sunsolve-0.0.4.dist-info/RECORD,,
