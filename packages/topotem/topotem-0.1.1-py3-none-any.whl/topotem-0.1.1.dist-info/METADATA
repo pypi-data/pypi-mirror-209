@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: topotem
+Version: 0.1.1
+Summary: 
+Author: GeriTopore
+Author-email: g.topore22@imperial.ac.uk
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: atomap (>=0.3.3,<0.4.0)
+Requires-Dist: chardet (>=5.1.0,<6.0.0)
+Requires-Dist: colorcet (>=3.0.1,<4.0.0)
+Requires-Dist: hyperspy (>=1.7.5,<2.0.0)
+Requires-Dist: matplotlib-scalebar (>=0.8.1,<0.9.0)
+Description-Content-Type: text/markdown
+
+# TopoTEM
+TopoTEM is a Python tool for analysing, quantifying and visualising atomic displacements and polarisation in atomic-resolution Scanning Transmission Microscopy (STEM) images.
+
