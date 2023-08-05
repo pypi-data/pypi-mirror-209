@@ -1,0 +1,13 @@
+polydown/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+polydown/__main__.py,sha256=bRgF60KSpk_lkRSfeEWElZzdUfydnB__xO46fnqj8jI,2010
+polydown/cli.py,sha256=nmzdKoxQO72n4J_iq41DVqD0Hxniq0CSPKPVNL1yqxU,2586
+polydown/downloader.py,sha256=8Dq7DFktGjzRAtqG7eVTx8uBsGMkgkBR0pyiMujgwv4,5590
+polydown/hash_check.py,sha256=5Y148423lLq15E28-G8T5XupfwiTG_oVUl_7wX6NTIU,617
+polydown/poly.py,sha256=mgPx9ZLw1kKiNooFpFePbCfnFtr3gEyRy7bba9IkxYE,6113
+polydown/report.py,sha256=TKr0mHkdpMfPuiqGBXTNybe5DLrXqJoOSjMNPN2usck,1137
+polydown/theme.py,sha256=g4qrVZj4YFCNszs0hNYdKUnitl9Hjc8lsI0POMQMnz8,760
+polydown-0.3.1.dist-info/entry_points.txt,sha256=SdG3Mn0jpEl-51iBREqC1OVLb5XjBRv7DaQ_DYuRbUc,50
+polydown-0.3.1.dist-info/LICENSE,sha256=efQooEgA5ar_IRiowTPIqw_qTl5k88bhTRB_-Z5lg8c,1084
+polydown-0.3.1.dist-info/METADATA,sha256=KsLdNzb5qIeTL4or6xJUWFTOrwH43cmIRTu9XePW5aU,3926
+polydown-0.3.1.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+polydown-0.3.1.dist-info/RECORD,,
