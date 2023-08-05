@@ -1,0 +1,7 @@
+include strings2df/requirements.txt
+include strings2df/thirdparty.json
+include strings2df/README.md
+include strings2df/strings64a.exe
+include strings2df/Eula.txt
+include strings2df/strings.exe
+include strings2df/strings64.exe
