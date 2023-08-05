@@ -1,0 +1,7 @@
+gwosc
+asimov>=0.4.0
+pesummary
+
+[docs]
+sphinx
+kentigern
