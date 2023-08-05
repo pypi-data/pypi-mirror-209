@@ -1,0 +1,8 @@
+{
+  "jupyter.lab.shortcuts": [],
+  "title": "@datalayer/jupyter-containers",
+  "description": "@datalayer/jupyter-containers settings.",
+  "type": "object",
+  "properties": {},
+  "additionalProperties": false
+}
