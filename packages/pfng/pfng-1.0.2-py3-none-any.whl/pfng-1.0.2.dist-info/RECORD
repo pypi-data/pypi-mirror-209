@@ -1,0 +1,13 @@
+pfng/__init__.py,sha256=PaimxaVT0HrLqspwkycXnGkt3k8ErElQgZ28dpEEpPo,26
+pfng/__version__.py,sha256=Fxymds_w_cjX2FuCri6jHKGuZWbzKd6ISU-CkWPEmIc,23
+pfng/data_reader.py,sha256=EoZK-sH3JHRl3HvwLFw2DhXdYQNr56bIM8vv_XlmRcs,796
+pfng/generator.py,sha256=dJ3hSF5U71dWTstu4UvQidYY-ezSNrKwg5p5-2te3xM,1197
+pfng/data/female_names.csv,sha256=3h9SF5o29rOuoWJcXc0TO1m9qYItjDiK-Z6HlXqtNWs,1520
+pfng/data/female_surnames.csv,sha256=y67_H2k3qUbRVLRk4ONfD01zSSu1KqbiBidWodPRSbk,131345
+pfng/data/male_names.csv,sha256=6ghBPTJJqR5dJIT96-uAq_s85sdn6KNhkeInMc5OF0I,1251
+pfng/data/male_surnames.csv,sha256=XFdaX3cXWmBNSlnd45ytD6EV10knSPHbONCgyDMHSjU,134548
+pfng-1.0.2.dist-info/LICENSE,sha256=PG6Ej9KdMyrkGFiJ_P1rbR67GEdqrRGwkvu8YzeoI7M,1093
+pfng-1.0.2.dist-info/METADATA,sha256=gWnhrrqn7uCxT2i2wDFkOr_U_QCIU0F6Y0QQHt5N45I,3366
+pfng-1.0.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+pfng-1.0.2.dist-info/top_level.txt,sha256=-_pOAk1YmaupAkcnDVd8R3zF2GIS6SN0E8uXmfGGuJ8,5
+pfng-1.0.2.dist-info/RECORD,,
