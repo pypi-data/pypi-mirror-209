@@ -1,0 +1,107 @@
+Metadata-Version: 2.1
+Name: lintel
+Version: 0.1.0
+Summary: Python docstring style checker
+Home-page: https://github.com/Mr-Pepe/lintel/
+Author: Felipe Peter
+Author-email: mr-peipei@web.de
+License: MIT
+Keywords: lintel,pydocstyle,PEP 257,pep257,PEP 8,pep8,docstrings
+Classifier: Intended Audience :: Developers
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+License-File: LICENSE-MIT
+Requires-Dist: typer[all] (>=0.9.0)
+Requires-Dist: rich
+Requires-Dist: pydantic
+Requires-Dist: snowballstemmer (>=1.2.1)
+Requires-Dist: astroid (>=2.0)
+Requires-Dist: tomli (>=1.2.3) ; python_version < "3.11"
+Provides-Extra: build
+Requires-Dist: build[virtualenv] ; extra == 'build'
+Provides-Extra: dev
+Requires-Dist: tox ; extra == 'dev'
+Requires-Dist: toml (==0.10.2) ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: types-docutils ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: coverage[toml] ; extra == 'dev'
+Requires-Dist: pytest-randomly ; extra == 'dev'
+Requires-Dist: pytest-xdist ; extra == 'dev'
+Requires-Dist: sphinx ; extra == 'dev'
+Requires-Dist: sphinx-rtd-theme ; extra == 'dev'
+Requires-Dist: build[virtualenv] ; extra == 'dev'
+Provides-Extra: doc
+Requires-Dist: sphinx ; extra == 'doc'
+Requires-Dist: sphinx-rtd-theme ; extra == 'doc'
+Provides-Extra: lint
+Requires-Dist: isort ; extra == 'lint'
+Requires-Dist: black ; extra == 'lint'
+Requires-Dist: mypy ; extra == 'lint'
+Requires-Dist: types-docutils ; extra == 'lint'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+Requires-Dist: coverage[toml] ; extra == 'test'
+Requires-Dist: pytest-randomly ; extra == 'test'
+Requires-Dist: pytest-xdist ; extra == 'test'
+Provides-Extra: toml
+Requires-Dist: toml (==0.10.2) ; extra == 'toml'
+
+lintel - docstring style checker
+====================================
+
+
+.. image:: https://github.com/Mr-Pepe/lintel/actions/workflows/pipeline.yml/badge.svg?branch=main
+    :target: https://github.com/Mr-Pepe/lintel/actions?query=workflow%3A%22CI+Pipeline%22+branch%3Amain
+
+.. image:: https://codecov.io/github/Mr-Pepe/lintel/branch/main/graph/badge.svg?token=WVIRUBOOEC
+    :target: https://codecov.io/github/Mr-Pepe/lintel
+
+.. image:: https://readthedocs.org/projects/lintel/badge/?version=latest
+    :target: https://lintel.readthedocs.io/en/latest/
+
+.. image:: https://pepy.tech/badge/lintel
+    :target: https://pepy.tech/project/lintel
+
+.. image:: https://img.shields.io/badge/code%20style-black-000000.svg
+    :target: https://github.com/psf/black
+
+.. image:: https://img.shields.io/badge/%20imports-isort-%231674b1?style=flat
+    :target: https://pycqa.github.io/isort/
+
+.. image:: http://www.mypy-lang.org/static/mypy_badge.svg
+    :target: http://mypy-lang.org/
+
+.. image:: https://img.shields.io/badge/License-MIT-yellow.svg
+    :target: https://opensource.org/licenses/MIT
+
+
+**Lintel** is a static analysis tool for checking compliance with Python
+docstring conventions.
+
+It started as a fork of `pydocstyle <https://github.com/PyCQA/pydocstyle>`_ with the goal to
+eventually also cover the functionality provided by `pylint's <https://github.com/PyCQA/pylint>`_
+`docparams extension <https://pylint.pycqa.org/en/latest/user_guide/checkers/extensions.html#pylint-extensions-docparams>`_.
+
+Install Lintel with::
+
+    pip install lintel
+
+Find out how to use it by executing::
+
+    lintel --help
+
+Get more information in the `official documentation <https://lintel.readthedocs.io/en/latest/>`_.
