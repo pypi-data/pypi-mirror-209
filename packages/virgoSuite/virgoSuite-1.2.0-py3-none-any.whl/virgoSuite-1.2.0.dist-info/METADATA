@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: virgoSuite
+Version: 1.2.0
+Summary: Toolbox used from the data analysis group of Virgo Rome
+Author: Riccardo Felicetti
+Author-email: riccardo.felicetti@infn.it
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+Requires-Dist: h5py
+Requires-Dist: dask
+Requires-Dist: astropy
+
+# CartaBianca

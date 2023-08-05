@@ -1,0 +1,8 @@
+virgoSuite/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+virgoSuite/sfdb.py,sha256=lLwTbRP4jh26ftXvIm1AqlRkFocPY0ut_je6TnD7uRs,24735
+virgoSuite/sfdbV2.py,sha256=64tmlyu4WdP7a9o1eiDY7VN2zccNOyQ17KDpuHHxXfs,22319
+virgoSuite-1.2.0.dist-info/LICENSE,sha256=x_hLN0LnBInS6F1UYNFWj2hsgnzT5LZNTe9T-m0vImM,1064
+virgoSuite-1.2.0.dist-info/METADATA,sha256=ISdtni7ORtbrNAAEOcLZAOjKu2XsswjVQbzYIcmNkxw,474
+virgoSuite-1.2.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+virgoSuite-1.2.0.dist-info/top_level.txt,sha256=8TXVcgtXdE5RKAlGbLBcbxbpOWSq4Hxb_yni7xA7JY8,11
+virgoSuite-1.2.0.dist-info/RECORD,,
