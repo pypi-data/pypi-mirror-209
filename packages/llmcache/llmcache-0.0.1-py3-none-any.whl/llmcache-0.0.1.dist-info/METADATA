@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: llmcache
+Version: 0.0.1
+Home-page: https://redis.com/
+Author: Redis
+Author-email: sam.partee@redis.com
+Requires-Dist: redis
+
