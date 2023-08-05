@@ -1,0 +1,10 @@
+qcloud_vod/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qcloud_vod/common.py,sha256=UjJGGnEe0HAO2-w0Nj5kd3Mt8vjLcP5YbRKiY8hJRCI,1092
+qcloud_vod/exception.py,sha256=3zcrSfXvmC4egWVI3y6cjZw7yw1OmFNGZNyMkrmz_z4,202
+qcloud_vod/model.py,sha256=mYdd9zqXfFuoy4kXaZ4qnOcBxYN4OUd1NmrMZ912VDA,440
+qcloud_vod/vod_upload_client.py,sha256=coHBQ2JW35IgeC-n7jpt7oQ2v5Un9fgrPif5HfZLIqw,9359
+vod_python_sdk-1.4.4.dist-info/LICENSE,sha256=qVh5Yp3lJz1J7fITMR7eDuOS56h8avT-LNxUnMyVa20,1065
+vod_python_sdk-1.4.4.dist-info/METADATA,sha256=oWjqmrG-Z-rYqH8ChYUHeU4V8iKJJVXMWzYE-6VSJSk,883
+vod_python_sdk-1.4.4.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+vod_python_sdk-1.4.4.dist-info/top_level.txt,sha256=QFerqw5MHfGNem6mc4yS8O0rVfAHy5lL896TUIon_eM,11
+vod_python_sdk-1.4.4.dist-info/RECORD,,
