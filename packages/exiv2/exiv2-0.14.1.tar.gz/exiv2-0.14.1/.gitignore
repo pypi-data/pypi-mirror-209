@@ -1,0 +1,4 @@
+build
+dist
+exiv2.egg-info
+__pycache__
