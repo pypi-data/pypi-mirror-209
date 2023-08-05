@@ -1,0 +1,10 @@
+lilit/__init__.py,sha256=eADFGdT6WocODefyEVwNxh9I1ypy_gbRhLPF4Z-C760,244
+lilit/experiments.yaml,sha256=lfLzf-91NsymdtFB2UYmloJdUfyLWWDxbAYa66aNVyA,10552
+lilit/functions.py,sha256=6j1BNkehXs5X1y1fZIEkBBzrkduiYGCFpWT79UmFNp0,13364
+lilit/likelihood.py,sha256=FY6Xi060sMo4RAW-b8KNZf_BgwJZw2Or1bXgFeIiifQ,25269
+lilit/planck_2018.ini,sha256=7-xT5a1jhMTDPwpQlxyoJYctwPwKwDkY_pYTNgDdui8,11698
+lilit-1.2.4.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+lilit-1.2.4.dist-info/METADATA,sha256=6oIf6vfmTQF0tv45aAza27eziXsTA_1GWKbU56FNKFA,8629
+lilit-1.2.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+lilit-1.2.4.dist-info/top_level.txt,sha256=1wN2ZZw6vGFqJXa349y_srSJ6E4SRw1Nu1eFyyMBV8U,6
+lilit-1.2.4.dist-info/RECORD,,
