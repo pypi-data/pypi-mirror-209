@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "cai-decision-intelligence"
+version = "0.0.0"
+description = "Causal AI Decision Intelligence"
+authors = ["causaLens <opensource@causalens.com>"]
+readme = "README.md"
+packages = [{include = "cai_decision_intelligence"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
