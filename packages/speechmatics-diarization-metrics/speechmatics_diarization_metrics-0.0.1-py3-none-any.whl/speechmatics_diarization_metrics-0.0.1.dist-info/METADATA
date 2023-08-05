@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: speechmatics-diarization-metrics
+Version: 0.0.1
+Summary: Python module for evaluating speaker diarization.
+Home-page: UNKNOWN
+Author: Speechmatics
+Author-email: support@speechmatics.com
+License: Speechmatics Proprietary License
+Platform: linux
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Requires-Dist: pyannote.core
+Requires-Dist: pyannote.database
+Requires-Dist: docopt
+Requires-Dist: tabulate
+Requires-Dist: Sphinx
+Requires-Dist: sphinx-rtd-theme
+
+## Getting Started
+
+This project is Speechmatics' fork of https://github.com/pyannote/pyannote-metrics used to calculate various speaker diarization metrics from reference/hypothesis transcript pairs.
+
+This package has a CLI supporting ctm, lab, or V2 JSON format transcripts and can be run using eg
+`python3 -m sm_diarisation_metrics.cookbook reference.json transcript.json`
+
+
