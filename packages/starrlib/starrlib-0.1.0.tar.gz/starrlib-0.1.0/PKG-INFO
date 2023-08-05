@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: starrlib
+Version: 0.1.0
+Summary: common starr utils
+Home-page: https://github.com/StarrFox/starrlib
+License: MIT
+Author: StarrFox
+Author-email: starrfox6312@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Project-URL: Repository, https://github.com/StarrFox/starrlib
+Description-Content-Type: text/markdown
+
+# Starrlib
+
+Some common utilities I use in my projects
+
