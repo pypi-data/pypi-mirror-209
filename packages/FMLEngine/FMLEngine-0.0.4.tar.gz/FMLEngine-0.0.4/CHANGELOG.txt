@@ -1,0 +1,7 @@
+Change Log
+===========
+
+0.0.3 (5/18/2023)
+------------------
+
+-- Fixed error ``No file named graphics`` 
