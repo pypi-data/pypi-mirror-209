@@ -1,0 +1,7 @@
+[console_scripts]
+startcfnstack = stackoperator:start_cfnstack
+starttfstack = stackoperator:start_tfstack
+stopcfnstack = stackoperator:stop_cfnstack
+stoptfstack = stackoperator:stop_tfstack
+tagcfnstack = stackoperator:tag_cfnstack
+tagtfstack = stackoperator:tag_tfstack

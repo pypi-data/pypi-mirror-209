@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+src/stackoperator/__init__.py
+src/stackoperator/batchOperator.py
+src/stackoperator/cfnReader.py
+src/stackoperator/readerFactory.py
+src/stackoperator/tfReader.py
+src/stackoperator.egg-info/PKG-INFO
+src/stackoperator.egg-info/SOURCES.txt
+src/stackoperator.egg-info/dependency_links.txt
+src/stackoperator.egg-info/entry_points.txt
+src/stackoperator.egg-info/requires.txt
+src/stackoperator.egg-info/top_level.txt
