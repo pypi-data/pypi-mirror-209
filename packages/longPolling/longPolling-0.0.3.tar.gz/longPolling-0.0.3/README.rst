@@ -1,0 +1,46 @@
+=================================
+长轮询通讯
+=================================
+---------------------------------
+客户端
+---------------------------------
+
+单向由服务端向客户端发送
+
+import longPolling
+example=longPolling.client.Client(url, callback)
+example.login(uername)
+
+或者双向发送
+
+import longPolling
+example=longPolling.client.BothwayClient(url, callback)
+example.login(uername)
+example.send(xxx)
+
+
+---------------------------------
+服务端
+---------------------------------
+
+单向由服务端向客户端发送
+
+import longPolling
+example=longPolling.server.Server(host,port)
+example.send(username,message)
+
+或者双向发送
+
+import longPolling
+example=longPolling.server.BothwayServer(host,port,callback)
+example.send(username,message)
+
+---------------------------------
+关于作者
+---------------------------------
+
+作者 `宽宽2007 <https://kuankuan2007.gitee.io>`_
+
+本项目在 `苟浩铭/长轮询 <https://gitee.com/kuankuan2007/long-polling>`_ 上开源
+
+帮助文档参见 `长轮询(longPolling) <https://kuankuan2007.gitee.io/docs/long-polling/>`_
