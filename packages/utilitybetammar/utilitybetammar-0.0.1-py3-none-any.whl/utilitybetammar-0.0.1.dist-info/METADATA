@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: utilitybetammar
+Version: 0.0.1
+Summary: ABC Desc
+Home-page: UNKNOWN
+Author: NeuralNine (Florian Dedov)
+Author-email: <mail@neuralnine.com>
+License: UNKNOWN
+Keywords: python,requests,sys
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+
+UNKNOWN
+
+
