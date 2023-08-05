@@ -1,0 +1,16 @@
+diskcache
+openai>=0.27
+parsimonious
+pygtrie
+platformdirs
+tiktoken>=0.3
+nest_asyncio
+aiohttp
+requests
+
+[docs]
+ipython
+numpydoc
+sphinx_rtd_theme
+sphinx
+nbsphinx
