@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: SLKB
+Version: 0.0.1
+Summary: Analysis pipeline for Synthetic Lethality Knowledge Base
+Home-page: https://github.com/BirkanGokbag/SLKB-Analysis-Pipeline
+Author: Birkan Gökbağ
+Author-email: Birkan Gokbag <birkan.gokbag@gmail.com>
+License: License :: OSI Approved :: GPL 3.0
+Project-URL: Homepage, https://github.com/BirkanGokbag/SLKB-Analysis-Pipeline
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas (==1.5.3)
+Requires-Dist: numpy (==1.21.0)
+Requires-Dist: SQLAlchemy (==2.0.12)
+Requires-Dist: scipy (==1.7.3)
+Requires-Dist: ipykernel (==6.9.1)
+Requires-Dist: ipython (==8.2.0)
+Requires-Dist: ipython-genutils (==0.2.0)
+Requires-Dist: ipywidgets (==7.6.5)
+Requires-Dist: jupyterlab (==3.3.2)
+Requires-Dist: mysql-connector-python (==8.0.29)
+
+# SLKB-Analysis-Pipeline
+
+Placeholder for full package.
