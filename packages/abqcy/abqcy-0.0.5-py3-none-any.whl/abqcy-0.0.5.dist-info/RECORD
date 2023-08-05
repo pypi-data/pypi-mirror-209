@@ -1,0 +1,12 @@
+abqcy/__init__.py,sha256=i34cfqIyDEkwX5JOSWhjVV4QKRL5WAtb1CyCyKzKZzQ,76
+abqcy/__main__.py,sha256=nzBnEz7gFvtBQHqHeFPJOgdEugPT03BCFDSSMoU16Pg,200
+abqcy/_version.py,sha256=nnYR4S84mIxKXXq6yv2-1x3dlDR_IsX50CLTYdbXNWw,160
+abqcy/cli.py,sha256=KmLZNROEkK_9pWUZNk53l6IXANHKkW44bDf9S_3CPWk,9378
+abqcy/subs.py,sha256=Sto5DoFDVBxMLz9SPsJaNYuxCEk59LRwAxuIIIWvnlo,1791
+abqcy/version.py,sha256=55osNDBvjBdKwQqFrPB-xMXgIDLLpWFoGWaB2ZIjP5w,956
+abqcy-0.0.5.dist-info/LICENSE,sha256=fkCfa0p5SDqjzznR6r4JvXhmNBKjYPJACeDnwfJ8sSk,1068
+abqcy-0.0.5.dist-info/METADATA,sha256=BoyFCI3BLjasBFeWcYYGpTAJH1ZCHI5XdCY_ndneVhU,2695
+abqcy-0.0.5.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+abqcy-0.0.5.dist-info/entry_points.txt,sha256=lU3-4z9EiWwrwcDwbVolW3JZIeMMrYedCDF8nGpxtws,46
+abqcy-0.0.5.dist-info/top_level.txt,sha256=0iROaPpZuu4QGKbHk8hBwB6T94ekf2ZeZThJnkJXNkA,6
+abqcy-0.0.5.dist-info/RECORD,,
