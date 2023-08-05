@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+./mimodulito/__init__.py
+mimodulito.egg-info/PKG-INFO
+mimodulito.egg-info/SOURCES.txt
+mimodulito.egg-info/dependency_links.txt
+mimodulito.egg-info/entry_points.txt
+mimodulito.egg-info/requires.txt
+mimodulito.egg-info/top_level.txt
