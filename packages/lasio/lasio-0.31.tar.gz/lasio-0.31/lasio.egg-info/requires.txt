@@ -1,0 +1,17 @@
+numpy
+
+[all]
+pandas
+chardet
+openpyxl
+
+[test]
+pandas
+chardet
+openpyxl
+pytest>=3.6
+pytest-cov
+coverage
+codecov
+pytest-benchmark
+black
