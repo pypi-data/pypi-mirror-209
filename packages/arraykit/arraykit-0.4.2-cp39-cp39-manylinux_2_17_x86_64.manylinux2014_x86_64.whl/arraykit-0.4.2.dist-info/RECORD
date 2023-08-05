@@ -1,0 +1,10 @@
+arraykit/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+arraykit/_arraykit.cpython-39-x86_64-linux-gnu.so,sha256=U5zFSZ1k12WHMGd777iwNP-_Q3w-8Adko5etrwS85MQ,547704
+arraykit/_arraykit.c,sha256=KeK0d68ZOxX43beLB7G1ZQn9c7wM7MTb2O7ZnSphw6I,178131
+arraykit/__init__.py,sha256=6WYy4oBoffCLtPs6U1NpGH2JgGMCqbmMHkUpf7qwtBE,1455
+arraykit/__init__.pyi,sha256=aduy8Pzsqa06bQAqpSZUxDQcU6aeqikTEcQ1k6Tnpew,3909
+arraykit-0.4.2.dist-info/RECORD,,
+arraykit-0.4.2.dist-info/WHEEL,sha256=gREe7-l-MJWbGZG46A7WHnwwUSxA3XJYHQvGGLzmBNU,148
+arraykit-0.4.2.dist-info/LICENSE.txt,sha256=fOm5ICIEixbtKt_krmgkU8IGlQ-u5EzFgmjrCuD_T1U,1779
+arraykit-0.4.2.dist-info/top_level.txt,sha256=00W90765jXl-QEGzShY2mT-haT9R5aB_MiTmxrFaBhQ,9
+arraykit-0.4.2.dist-info/METADATA,sha256=Erti0--ist25q9s4ZFV0Dz3WSV2d1CcSN_b2ri35Qs4,1165
