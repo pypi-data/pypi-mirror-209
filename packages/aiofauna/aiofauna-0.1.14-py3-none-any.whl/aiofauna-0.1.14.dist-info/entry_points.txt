@@ -1,0 +1,4 @@
+[console_scripts]
+build=scripts.build:main
+push=scripts.git:main
+
