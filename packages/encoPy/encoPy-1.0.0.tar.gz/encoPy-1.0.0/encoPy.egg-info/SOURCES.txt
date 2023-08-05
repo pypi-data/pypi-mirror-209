@@ -1,0 +1,5 @@
+setup.py
+encoPy.egg-info/PKG-INFO
+encoPy.egg-info/SOURCES.txt
+encoPy.egg-info/dependency_links.txt
+encoPy.egg-info/top_level.txt
