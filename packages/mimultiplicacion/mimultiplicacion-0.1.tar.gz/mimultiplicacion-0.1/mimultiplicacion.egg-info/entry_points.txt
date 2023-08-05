@@ -1,0 +1,3 @@
+[console_scripts]
+install = mimultiplicacion.install:main
+
