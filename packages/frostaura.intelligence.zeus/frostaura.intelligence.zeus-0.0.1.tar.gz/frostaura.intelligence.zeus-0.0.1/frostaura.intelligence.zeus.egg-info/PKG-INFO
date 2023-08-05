@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: frostaura.intelligence.zeus
+Version: 0.0.1
+Summary: FrostAura Zeus is an autonomous general purpose, multi-modal agent.
+Home-page: https://github.com/faGH/fa.intelligence.notebooks
+Author: Dean Martin
+Author-email: dean.martin@frostaura.net
+Keywords: frostaura,deep learning,machine learning,bots,agi,ai,llm
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+FrostAura Zeus is an autonomous general purpose, multi-modal agent.
