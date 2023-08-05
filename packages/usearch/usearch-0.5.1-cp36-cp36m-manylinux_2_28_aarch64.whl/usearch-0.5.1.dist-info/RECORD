@@ -1,0 +1,11 @@
+usearch/index.cpython-36m-aarch64-linux-gnu.so,sha256=MNBGYY2i40Vvbvq0ms3peQorYFkXB-Nw0lJUlgF5pOA,538425
+usearch/client.py,sha256=mXSaXokESG8pZ87ufhJDpL-pZb7x0rklBdDqoY05jvI,1412
+usearch/server.py,sha256=hp-W4y4PbbvHqfprClX1T8DIwld62zi3osqWeTv09fA,2653
+usearch/io.py,sha256=RXeDDzH6Y2-7q7kIKv1fXQWgeYVyp3VpDns3M0aHYoI,2231
+usearch/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+usearch-0.5.1.dist-info/top_level.txt,sha256=zFbid1SmQjk8RsbEgpqF7tTjgWdFvE2z0e1LQ2hKdPg,8
+usearch-0.5.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+usearch-0.5.1.dist-info/RECORD,,
+usearch-0.5.1.dist-info/METADATA,sha256=_EXl6MK4VGTh-VKZmjlYixhCacoF_m3m2tH0osLYjvc,19006
+usearch-0.5.1.dist-info/WHEEL,sha256=f_b3MV11oEAjmUzD5IBK96WjFkik89vEfHnwWbHJmAc,114
+usearch./libgomp-7624930a.so.1.0.0,sha256=yJdMRo-f0zsaqb9YRbg_Pg-cFFKmPROsZ4kVDhIx4b0,343345
