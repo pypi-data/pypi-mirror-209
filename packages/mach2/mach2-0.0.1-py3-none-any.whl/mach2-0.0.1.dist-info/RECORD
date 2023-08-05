@@ -1,0 +1,11 @@
+mach2-0.0.1.dist-info/METADATA,sha256=dTniHs2ElWKNnxmPQpPlvBcpkvgiVrjvqa1Oxi5hMq8,3187
+mach2-0.0.1.dist-info/WHEEL,sha256=m6kf1fJuo48rT4uxh0SeA_FsGq51BpCh_8VNBKVwYQA,90
+mach2-0.0.1.dist-info/entry_points.txt,sha256=BeS41f7g9MJx3s3zrxImw8_tj6AK6t_4p4X1zMXqWFY,43
+mach2-0.0.1.dist-info/licenses/LICENSE,sha256=GgPmdKGysYFm-KCzKyrdxyZ1lSvIM8d6_YeZ40Cgr5k,1581
+mach2/__init__.py,sha256=UF0PmVHuzxiK86mGIY_2Ah8U9M59nHuF5Wd9ayTDY-Q,56
+mach2/clonetree.py,sha256=LFlkvGCuD-1besnc8rjhxx_q5PUOgtRyphLr55Fejqo,13877
+mach2/mach.py,sha256=YewgB5-lchDy4YAeqLSlWY277qNMVVpqlNSqv0dPGOE,22520
+mach2/migrationgraph.py,sha256=5A2hwTBAJIOGVJZPrmThTuRkm30VltOTHOxj-zGtWto,3043
+mach2/solutionset.py,sha256=lXoPXKwZWY2P1QdDHXC09p4KF3siS3zTQJghgBEP4yw,5131
+mach2/utils.py,sha256=-I6x2iqxrevy7D4i2ZqzYs-LqTm9usOPkvSszLNqCLs,296
+mach2-0.0.1.dist-info/RECORD,,
