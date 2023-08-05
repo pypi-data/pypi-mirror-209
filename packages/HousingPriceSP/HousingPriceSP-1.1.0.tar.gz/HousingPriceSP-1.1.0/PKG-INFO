@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: HousingPriceSP
+Version: 1.1.0
+Summary: Package to Predict housing Price!
+Author: Prakash Singh
+Requires-Python: >=3.6
+
+This Package will help to predict housing price using regression model and using differnt parameters

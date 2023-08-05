@@ -1,0 +1,10 @@
+HousingPriceSP/__init__.py
+HousingPriceSP/ingest_data.py
+HousingPriceSP/logger.py
+HousingPriceSP/score.py
+HousingPriceSP/setup.py
+HousingPriceSP/train.py
+HousingPriceSP.egg-info/PKG-INFO
+HousingPriceSP.egg-info/SOURCES.txt
+HousingPriceSP.egg-info/dependency_links.txt
+HousingPriceSP.egg-info/top_level.txt
