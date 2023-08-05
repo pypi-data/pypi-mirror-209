@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+PySpeaker.egg-info/PKG-INFO
+PySpeaker.egg-info/SOURCES.txt
+PySpeaker.egg-info/dependency_links.txt
+PySpeaker.egg-info/requires.txt
+PySpeaker.egg-info/top_level.txt
