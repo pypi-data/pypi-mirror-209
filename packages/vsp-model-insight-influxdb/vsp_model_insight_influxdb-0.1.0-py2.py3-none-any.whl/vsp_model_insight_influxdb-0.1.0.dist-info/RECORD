@@ -1,0 +1,10 @@
+vsp_model_insight_influxdb/__init__.py,sha256=F0UD44DuZCpVvI1PX5rW4FcKQ004ORdqeOhf4JsheIY,66
+vsp_model_insight_influxdb/common/__init__.py,sha256=4em8A_pt-dMz9MCgJx6N3L-0uVv-nASB54pmKQpQ29A,536
+vsp_model_insight_influxdb/common/protocol.py,sha256=8iNDK6MCB_RAmFgOVBAi_Dj9VMTAhNpvKPfb2pu-u_4,1131
+vsp_model_insight_influxdb/common/schedule.py,sha256=jrk4fA3B4dysTiC6lN7bTSlUjaOOnCr6LSxS2y7nD_0,2910
+vsp_model_insight_influxdb/influxdb/__init__.py,sha256=qN7LXE7H9DkrmgaGb63UkC4H21JbngfGB38Xza87Cr4,5934
+vsp_model_insight_influxdb-0.1.0.dist-info/METADATA,sha256=-PGUBarnF1Ct1eJQxJYPpVG17LyCnfPEIy6JvftnmNI,2245
+vsp_model_insight_influxdb-0.1.0.dist-info/WHEEL,sha256=a-zpFRIJzOq5QfuhBzbhiA1eHTzNCJn8OdRvhdNX0Rk,110
+vsp_model_insight_influxdb-0.1.0.dist-info/namespace_packages.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+vsp_model_insight_influxdb-0.1.0.dist-info/top_level.txt,sha256=juq2utH0xngyGKqc0vDw4wYBvskjXvsv0gCKzKf9GNY,27
+vsp_model_insight_influxdb-0.1.0.dist-info/RECORD,,

@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: vsp-model-insight-influxdb
+Version: 0.1.0
+Summary: Model Performance Metrics Monitor Exporter
+Home-page: https://pypi.org/project/vsp-model-insight-influxdb/
+Author: he ke zhang
+Author-email: yxzhk@hotmail.com
+License: Apache-2.0
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: influxdb-client (>=1.36.1)
+
+VSP Model Insight
+==================================
+
+
+Installation
+------------
+
+::
+
+    pip install vsp-model-insight-influxdb
+
+Prerequisites
+-------------
+
+* Create an VSP Model Monitor resource and get the connection string, more information can be found in the official docs.
+* Place your connection string directly into your code.
+  
+Usage
+-----
+
+Log
+~~~
+
+The **Model Performance Log Handler** allows you to export Python logs to `VSP`.
+
+This example shows how to send a warning level log to Azure Monitor.
+
+.. code:: python
+
+    import logging
+    from datetime import datetime
+    import time
+    import random
+
+    from vsp_model_insight_influxdb.influxdb import ModelPerformanceLogHandler
+
+    logging.basicConfig(level=logging.DEBUG)
+    rootlogger = logging.getLogger()
+    handler = ModelPerformanceLogHandler(application_id="co",
+        bucket='mybucker',org='myorg',token="*****",url="http://localhost:8086")
+    rootlogger.addHandler(handler)
+
+    properties = {'model_signature': 'corrosion','model_performance': {'drt': 0.9, 'mat': 0.1}}
+    logging.info(f"{datetime.now()}",extra=properties)
+
+
+References
+----------
+
+
+* `Examples <https://pypi.org/project/vsp_model_insight_influxdb/>`_
