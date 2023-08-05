@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+src/EasyTkValidations/Validations.py
+src/EasyTkValidations/__init__.py
+src/EasyTkValidations.egg-info/PKG-INFO
+src/EasyTkValidations.egg-info/SOURCES.txt
+src/EasyTkValidations.egg-info/dependency_links.txt
+src/EasyTkValidations.egg-info/top_level.txt
+tests/test_Validations.py
