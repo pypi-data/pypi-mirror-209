@@ -1,0 +1,4 @@
+matplotlib
+pyzotero
+tinyscript>=1.27.5
+xlsxwriter
