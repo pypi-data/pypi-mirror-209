@@ -1,0 +1,15 @@
+README.md
+setup.py
+iloscar/__init__.py
+iloscar/app.py
+iloscar/iLOSCAR_backend.py
+iloscar/style.py
+iloscar/pages/Function.py
+iloscar/pages/forward.py
+iloscar/pages/home.py
+iloscar/pages/inverse.py
+iloscar_win.egg-info/PKG-INFO
+iloscar_win.egg-info/SOURCES.txt
+iloscar_win.egg-info/dependency_links.txt
+iloscar_win.egg-info/requires.txt
+iloscar_win.egg-info/top_level.txt
