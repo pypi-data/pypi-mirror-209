@@ -1,0 +1,13 @@
+pylibmagic-0.4.0.dist-info/WHEEL,sha256=UUNm2sjHmjp4Iid4tDBS7zTGxwekZzwsSKd2BHBcMW4,142
+pylibmagic-0.4.0.dist-info/METADATA,sha256=f3u8N-QXZyygGEI5HiOyy8GKkQsq1Xnx6ZbBhWom6c8,5197
+pylibmagic-0.4.0.dist-info/LICENSE,sha256=-h2X9AKLsVs9Xy1_301bMgyxUWrsAIOIT8--wrlF-Xc,1523
+pylibmagic-0.4.0.dist-info/top_level.txt,sha256=bkgsH1ABO9IMqpxhcwYk4lfv0mvBLgqsoDL5e8_Rv98,11
+pylibmagic-0.4.0.dist-info/RECORD,,
+pylibmagic/libmagic.la,sha256=_YVu3oN0-FP4HL3xrBkBQhoe_s4r2mo38GIDNMbjB1A,964
+pylibmagic/magic.mgc,sha256=074igWDbij_hA1S3ndcQ9uPwwq6bJnmzXKr0IxHjdNI,7254168
+pylibmagic/libmagic.so.1.0.0,sha256=2MD9xczGHRSnBXyYfePl1b-Vf0cpdDbjxkKR6h51QKg,222248
+pylibmagic/_version.py,sha256=QiCQVGOicQZY3DBr4tYPU9egzT1VgzOJGfLt9Q26uyU,160
+pylibmagic/libmagic.so,sha256=2MD9xczGHRSnBXyYfePl1b-Vf0cpdDbjxkKR6h51QKg,222248
+pylibmagic/libmagic.so.1,sha256=2MD9xczGHRSnBXyYfePl1b-Vf0cpdDbjxkKR6h51QKg,222248
+pylibmagic/__init__.py,sha256=q9xJDQPhlJuIMIbGJNpUAS_7yKuWIQp_Mrcz6zK-t-E,3144
+pylibmagic/pkgconfig/libmagic.pc,sha256=l7LMN_iMzJzgvEkCMCwmeu630xu97mHxo5s3BQUMPMs,304
