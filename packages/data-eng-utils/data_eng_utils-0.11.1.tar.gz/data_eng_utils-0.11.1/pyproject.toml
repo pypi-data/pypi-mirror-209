@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "data-eng-utils"
+version = "0.11.1"
+description = "de_utils is a package that contains collections of useful functions grouped by theme e.g. HDFS, Spark, Python, etc... and a data engineering framework under the engineering_utils sub-package."
+authors = ["Office for National Statistics - Data Engineering"]
+license = ""
+readme = "README.md"
+packages = [{include = "de_utils"}]
+
+[tool.poetry.dependencies]
+python = ">=3.6.8,<4"
+pandas = "1.1.5"
+openpyxl = "^3.1.2"
+xlrd = "^2.0.1"
+tqdm = "4.64.0"
+faker = "14.2.1"
+pyspark = ">=2.4.0"
+
+[tool.poetry.group.dev.dependencies]
+ipython = "7.16.3"
+flake8 = "4.0.1"
+pydocstyle = "^6.3.0"
+darglint = "^1.8.1"
+pytest = "5.4.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

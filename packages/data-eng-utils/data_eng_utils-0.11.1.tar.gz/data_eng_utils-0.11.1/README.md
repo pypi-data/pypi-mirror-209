@@ -1,0 +1,95 @@
+# Documentation for the package (copy paste it into Chrome/Edge)
+file://fa1rpwapxx272/ons/ci/jenkins_home/userContent/de-utils/build/index.html
+
+## Introduction
+`de_utils` is a package that contains collections of useful functions grouped by theme e.g. HDFS, Spark, Python, etc... and a data engineering framework under the `engineering_utils` sub-package.
+
+This is an open-source project designed to be used by anyone and does not follow the needs of a specific project or team. The functions in here will be generalised for wider use, we will not make deprecations or backward incompatible changes unless absolutely necessary, which would be marked with a (major release)[https://www.geeksforgeeks.org/introduction-semantic-versioning/].
+
+
+## How to get involved
+To suggest an improvement/ change or contribute code please raise an issue or submit a merge request.
+
+You don't have to submit the finished product, it can be:
+   - A function that is not fully built because you're either stuck on a problem or just to collaborate with others on building
+   - An idea for a function you need, it might be that someone else already has built that function or is willing to help build it
+
+[Gitlab issue example](http://np2rvlapxx507.ons.statistics.gov.uk/data_engineering/de-utils/-/issues/1) - As shown it's worth keeping discussions around a GitLab issue in the comments section of the issue, instead of a private chat on teams, to allow others to get involved.
+
+
+## Developer contribution guide
+### Setup SSH
+This only needs to be done once across all CDSW projects so skip this if you've already done this.
+1. Open CDSW and navigate to the settings tab using the menu on the left side
+2. Click on the `outbound SSH` tab and copy your user public SSH key
+3. Open GitLab and navigate to preferences using the dropdown menu in the top right of the screen
+4. Click on the `SSH Keys` tab in the menu on the left side of the screen
+5. Paste your SSH key and give it a relevant title, e.g. `cdsw`
+6. Click `Add key`
+
+### Setup environment
+1. Clone the project by creating a new CDSW project and (using git for the initial setup with the repo's SSH link)
+2. Open the workbench and start a session
+3. Setup your environment variables for pip and Artifactory
+4. Open the terminal and run:
+    1. `pip3 install -r requirements-dev.txt`
+    2. `pre-commit install` to install the pre-commit hooks ([flake8](https://flake8.pycqa.org/en/latest/), [pydocstyle](http://www.pydocstyle.org/en/stable/) & [darglint](https://github.com/terrencepreilly/darglint)) used in development to ensure coding style consistency
+
+### Code Style Guide
+Please follow the style of the existing codebase, which follows [NumPy documentation style](https://spark.apache.org/docs/latest/api/python/development/contributing.html) for Python code and docstrings.
+
+The code should follow standard [PEP8 guidelines](https://pep8.org/)
+Further reading: [how to write beautiful Python code](https://realpython.com/python-pep8/).
+
+#### Contributions should also:
+- Use native Spark functions over UDFs where possible
+- Use `()` for multi-line code instead of `\` line continuation characters
+- Use absolute imports and no wildcard imports i.e. `import pandas as *`
+- Import pyspark functions as F
+- Be designed to use the user's existing Spark session
+- Document any library dependencies in the requirements.txt
+
+### Development workflow
+1. Create feature branch off of the development (dev) branch and name it after the function or group of work being submitted
+   -  `git checkout dev`, `git pull origin dev` & `git checkout -b your_branch`
+
+2. Commit work regularly<br>
+   - `git add -p filename` or `git add filename` & `git commit -m 'commit message'` & `git push origin`<br>
+  *hint: `git add -p ...` allows you to cycle through individual changes before committing*
+
+3. The pre-commit hooks will fail the commit if Flake8 or pydocstyle find issues with the code.
+   - Each error will have a description and a code which can be googled for further info.
+
+4. If you have created any new functions or classes make sure that they are publically exposed.
+   - In the module level __init__.py file, import them and add a string representation of their name to __all__.
+   - If you have created a new public module, include this in the __init__.py in the parent directory.
+   - Ensure all private scripts and functions are named with a leading underscore.
+   - [Further reading around the use of the \_\_init\_\_.py file.](https://towardsdatascience.com/whats-init-for-me-d70a312da583)
+
+5. Once the ticket is finished create a merge request for 'your_branch' into development
+6. Go to GitLab to manually create a merge request, selecting the option that says "delete source branch once merge request is accepted"
+7. Merge request needs to be peer-reviewed by at least one colleague and have one 👍  before the merge request is accepted
+   - This means the changes have been carefully reviewed and the code is ready for merging
+8. Amend code in line with any comments from the peer review if needed
+9. Once merged into development the core developers will perform a final review of submissions and merge development into master
+10. When merging to master the package version number will be bumped up in line with [semantic versioning](https://semver.org/)
+
+### Peer-reviews - things to look out for and ask yourself when reviewing code:
+- Check code for any bugs and that the logic makes sense
+- Can I easily understand what the code does?
+- If I had to fix this, would I understand enough?
+- Is the code sufficiently documented for me to understand it and does it explain the why? - `"Code Tells You How, Comments Tell You Why"`
+- Do the naming conventions make sense/ follow PEP8 and are they consistent with the rest of the project?
+- Have any dependencies changes been added and the requirement.txt updated?<br>
+[Further reading on this topic](https://best-practice-and-impact.github.io/qa-of-code-guidance/peer_review.html#why-do-we-need-peer-review)
+
+### GitLab email notifications:
+These are very useful but to save you from being distracted by GitLab emails from peer reviews and comments, create a rule to divert emails from gitlab@ons.gov.uk into their own folder. The easiest way to do this is:
+- Select an email from GitLab and find the rules dropdown on the main options bar in Outlook.
+- Click on always move emails from GitLab.
+- A window will open with a tree view of all your Outlook folders, select the main one right at the top and click the "New" button.
+
+## Be nice 😀
+We'd like our contributors to feel valued, so if you have found something useful in this repo either a function or a new way of doing something please let them know! they have used their time to share hard earnt knowledge and we'd like them to come back.
+
+(git blame shows the contributor - top right corner of each file on GitLab)
