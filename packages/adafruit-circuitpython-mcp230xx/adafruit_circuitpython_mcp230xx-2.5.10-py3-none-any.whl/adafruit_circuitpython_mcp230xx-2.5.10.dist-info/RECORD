@@ -1,0 +1,15 @@
+adafruit_mcp230xx/__init__.py,sha256=mA5knA5t9TtHXZ8E-OY_3tu_PIjuVNpxV58lXPbOWCc,106
+adafruit_mcp230xx/digital_inout.py,sha256=pPAuLMHyyn6vJ1KkyP3pjLO-vql106rv9Y4Aup4EV6E,5555
+adafruit_mcp230xx/mcp23008.py,sha256=KF8w5TJu0uVE-JlC4YFyhg_Q2kZE40dFnlOrZAKwEEg,3083
+adafruit_mcp230xx/mcp23016.py,sha256=Hfduo-iBUxIadv_osvxbYdn0pHOfapKW6q9IIxcdON8,4498
+adafruit_mcp230xx/mcp23017.py,sha256=7ewVR1lxUCqzJR2P1ahKD049GhJzQbjcN750l6xyLG8,11771
+adafruit_mcp230xx/mcp230xx.py,sha256=e5cG1WQ_eDmf10Js8fWGSFzFt7AYmv0a4JAagxaiAkQ,2282
+adafruit_mcp230xx/mcp23s08.py,sha256=CFx0iB8bROEx7NBPDZ8xsmGvllsypwOzwSO7b6E4_2Y,3258
+adafruit_mcp230xx/mcp23s17.py,sha256=tI6jp3jB0qzmJvif2USCDZ3OJnNM3M22QfzXIhxdNUw,11025
+adafruit_mcp230xx/mcp23sxx.py,sha256=yb_rHUpmZ8cOebZXXKp0tN6_uWBbpszTAtErhAHwa68,2857
+adafruit_mcp230xx/mcp23xxx.py,sha256=-_8yFQFrS1OHAtL7RNFnbhOE_egN1-0fnJuA-HCjgHE,1081
+adafruit_circuitpython_mcp230xx-2.5.10.dist-info/LICENSE,sha256=JKh8vHklhmbG1yo3Kb8RoUpvAbiWo-1mN044FsMIsI4,1102
+adafruit_circuitpython_mcp230xx-2.5.10.dist-info/METADATA,sha256=EMXpsyDlheenz5Dws__tSKaGE1ipqDbU2GciJUJdWBc,3952
+adafruit_circuitpython_mcp230xx-2.5.10.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+adafruit_circuitpython_mcp230xx-2.5.10.dist-info/top_level.txt,sha256=Us4NE71xuI2BNNPafPlD6S_K9O_gAzQne7ncRoE91pM,18
+adafruit_circuitpython_mcp230xx-2.5.10.dist-info/RECORD,,
