@@ -1,0 +1,9 @@
+LICENSE
+setup.py
+bin/foo.sh
+exshll/__init__.py
+exshll.egg-info/PKG-INFO
+exshll.egg-info/SOURCES.txt
+exshll.egg-info/dependency_links.txt
+exshll.egg-info/requires.txt
+exshll.egg-info/top_level.txt
