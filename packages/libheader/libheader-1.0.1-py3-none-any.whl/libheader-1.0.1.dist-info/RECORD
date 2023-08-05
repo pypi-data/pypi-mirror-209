@@ -1,0 +1,11 @@
+libheader/__init__.py,sha256=tu0rNIvhjpGAtrMoBbZgo3qk-c7yltCO66EY68uBNzw,26
+libheader/__main__.py,sha256=gKbss2Zx_SCvM9WSk5_8nur5lOnLcMfW2vaKtRipz-4,256
+libheader/gcclh.py,sha256=dverDk8id1JrMoADXX1ZPRNQY0oKPfpIcfD4vO5sxwE,824
+libheader/lh.py,sha256=vfwIxTC_HAg71ALVX2lveCspOWEh1QmDR58PlbF9UiM,876
+libheader/makelh.py,sha256=DERLUm4tqyuAY4vfr1OpT_-BHkgJcCEcUE8rWA3gXec,519
+libheader-1.0.1.data/scripts/gcclh.py,sha256=gqL8OwrYSxBDu4mghI7xI2qQQ6ttsExk4Oux48I8cEY,823
+libheader-1.0.1.data/scripts/makelh.py,sha256=-8uMT03Zfk7Y3iYfGrAvCN8pfOCtt5g-_WbRiF0cmhU,518
+libheader-1.0.1.dist-info/METADATA,sha256=abEUBXHFj-yYPiU0IE2gI9Kwlpx7VnMtmYCp4BST5R4,909
+libheader-1.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+libheader-1.0.1.dist-info/top_level.txt,sha256=ATs2VzM5jL3ALHpYqWMgLuq0izQ5ESoZmIcA_KMBADM,10
+libheader-1.0.1.dist-info/RECORD,,
