@@ -1,0 +1,13 @@
+gpcam/__init__.py,sha256=EWIRvkweAFqSkN7Y3d9z0H1J84nDh_IsibddrHXQfoU,134
+gpcam/_version.py,sha256=cogBKo88HAhiN2dp5vdmgHkSv1_qzwBt-CYoMuE4tpU,498
+gpcam/autonomous_experimenter.py,sha256=nwycNzxt1mPRIVuvXSQzFGLNXhkhRf5tLrzipvmYTCE,40346
+gpcam/data.py,sha256=MpV3zhonaHBS6AyiY3MA10e3g91DFuDjJrf72nkDgcg,13125
+gpcam/gp_optimizer.py,sha256=l4aG00g7b_Q7VhbcELWF0yvo-sWU5omykSQ2FenUCEc,32529
+gpcam/surrogate_model.py,sha256=MeMVHs1PBZwpxXv6Dz896SM2sjSnc_kyRYYftTB1TfU,12481
+gpcam-7.4.10.dist-info/AUTHORS.md,sha256=PDglhqMOcr9i9ktBkdN90l68mdcwdxqlrWnZ_KNEOGM,336
+gpcam-7.4.10.dist-info/COPYING,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+gpcam-7.4.10.dist-info/LICENSE,sha256=t8s7seKEqpfQQB-bbaoYhOSpmfj77EsOs0zmF54W_qQ,1629
+gpcam-7.4.10.dist-info/METADATA,sha256=kg7iFfWDs44tmeldWbJZBiCW00nyZzSVs9smmfFeqJw,4871
+gpcam-7.4.10.dist-info/WHEEL,sha256=a-zpFRIJzOq5QfuhBzbhiA1eHTzNCJn8OdRvhdNX0Rk,110
+gpcam-7.4.10.dist-info/top_level.txt,sha256=Xjj7yc6lHdlHNVmlvqbOSXGfZxCfdFCF1W4VM-NWf28,6
+gpcam-7.4.10.dist-info/RECORD,,
