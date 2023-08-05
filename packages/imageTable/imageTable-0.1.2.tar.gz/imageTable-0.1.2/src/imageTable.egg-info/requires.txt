@@ -1,0 +1,6 @@
+numpy
+datatable
+h5py
+czifile
+flowkit
+pandas
