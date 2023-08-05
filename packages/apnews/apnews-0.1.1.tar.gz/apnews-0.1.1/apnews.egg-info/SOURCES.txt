@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+apnews/__init__.py
+apnews/client.py
+apnews.egg-info/PKG-INFO
+apnews.egg-info/SOURCES.txt
+apnews.egg-info/dependency_links.txt
+apnews.egg-info/requires.txt
+apnews.egg-info/top_level.txt
