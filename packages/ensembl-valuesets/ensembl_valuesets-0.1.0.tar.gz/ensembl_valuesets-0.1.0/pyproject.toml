@@ -1,0 +1,67 @@
+[tool.poetry]
+    name = "ensembl_valuesets"
+    version = "0.1.0"
+    description = "Ensembl ValueSets gRPC/REST API"
+    authors = ["Ensembl <dev@ensembl.org>"]
+    license = "Apache-2.0"
+    readme = "README.md"
+    homepage = "https://www.ensembl.org"
+    repository = "https://github.com/Ensembl/ensembl-valuesets-api"
+    packages = [
+        { include = "src" },
+    ]
+
+[tool.poetry.scripts]
+    ensembl_valuesets_grpc = 'src.grpcapi.ensembl.server:main'
+    ensembl_valuesets_rest = 'src.rest.server:start'
+
+[tool.poetry.dependencies]
+    python = "^3.10"
+    grpcio = "^1.54.0"
+    grpcio-tools = "^1.54.0"
+    openpyxl = "^3.1.2"
+    pandas = "^2.0.1"
+    protobuf = "^4.22.3"
+    typer = "^0.9"
+    requests = "^2.28.2"
+    uvicorn = "^0.22.0"
+    fastapi = "^0.95.0"
+    pydantic = "^1.10"
+
+[tool.poetry.dev-dependencies]
+    pytest = "^7.3"
+    pylint = "*"
+    mypy = "*"
+    coverage = "^7.2.5"
+    mock = "*"
+    black = "^23.3.0"
+    ipython = "*"
+
+[tool.poetry.group.dev.dependencies]
+    types-protobuf = "^4.23.0.1"
+    types-requests = "^2.30.0.0"
+    pre-commit = "^3.3.2"
+
+[build-system]
+    requires = [
+        "poetry-core >= 1.4.0"
+    ]
+    build-backend = "poetry.core.masonry.api"
+
+[tool.mypy]
+    mypy_path = "src"
+    ignore_missing_imports = true
+
+[tool.black]
+    line-length = 110
+
+[tool.coverage.run]
+    branch = true
+    source = [
+        "src",
+    ]
+
+[tool.pytest.ini_options]
+    addopts = "-v --tb=native"
+    testpaths = ["src/test"]
+    norecursedirs = ["data", "tmp*", "env", "docs", "apps", "basic_modules", "*.egg_info"]
