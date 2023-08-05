@@ -1,0 +1,7 @@
+[console_scripts]
+nai-build-docs=novelai_api.scripts:build_docs
+nai-bump-version=novelai_api.scripts:bump_version
+nai-pre-commit=novelai_api.scripts:pre_commit
+nai-test-api=novelai_api.scripts:test_api
+nai-test-mock=novelai_api.scripts:test_mock
+
