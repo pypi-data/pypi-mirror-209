@@ -1,0 +1,3 @@
+[console_scripts]
+redacty=redacty.__main__:main
+
