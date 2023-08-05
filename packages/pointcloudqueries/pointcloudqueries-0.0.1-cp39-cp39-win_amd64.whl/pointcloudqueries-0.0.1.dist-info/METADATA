@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pointcloudqueries
+Version: 0.0.1
+Summary: Some Point Cloud Queries
+Home-page: https://github.com/tum-bgd/pointcloudqueries
+Author: Martin Werner
+Author-email: martin.werner@tum.de
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Provides-Extra: test
+Requires-Dist: pytest (>=6.0) ; extra == 'test'
+
+UNKNOWN
+
