@@ -1,0 +1,14 @@
+augmenty==1.3.7 # augmenty
+dacy==2.7.1
+spacy==3.5.3
+pandas==1.5.3
+spacy-wrap==1.4.2
+scikit-learn==1.2.2
+seaborn==0.12.2
+matplotlib==3.7.1
+tqdm==4.65.0
+transformers==4.28.1
+numpy==1.24.3
+# coref: 
+#nltk - maybe not needed??
+#fairlearn  - needed for FPR 
