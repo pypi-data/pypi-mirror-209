@@ -1,0 +1,2 @@
+[console_scripts]
+pquisby = pquisby.__main__:cli
