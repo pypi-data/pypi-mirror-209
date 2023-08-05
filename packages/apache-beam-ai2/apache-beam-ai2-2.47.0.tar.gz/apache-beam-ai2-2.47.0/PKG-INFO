@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: apache-beam-ai2
+Version: 2.47.0
+Summary: A FORK! for testing with different dill version
+Home-page: https://beam.apache.org
+Download-URL: https://pypi.python.org/pypi/apache-beam
+Author: Aryeh Tiktinsky forked from Apache Software Foundation
+Author-email: aryeht@allenai.org
+License: Apache License, Version 2.0
+Keywords: apache beam
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7
+Provides-Extra: docs
+Provides-Extra: test
+Provides-Extra: gcp
+Provides-Extra: interactive
+Provides-Extra: interactive_test
+Provides-Extra: aws
+Provides-Extra: azure
+Provides-Extra: dataframe
+Provides-Extra: dask
