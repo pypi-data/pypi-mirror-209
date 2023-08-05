@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: data-setup
+Version: 0.0.5
+Description-Content-Type: text/markdown
+
+# advanced-data-engineering-test-data-example
+This simple repo stores a notebook used to create a test dataset for ci/cd.
