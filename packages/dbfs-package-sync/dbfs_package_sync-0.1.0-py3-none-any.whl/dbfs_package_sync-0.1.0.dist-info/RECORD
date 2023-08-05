@@ -1,0 +1,14 @@
+dbfsps/__init__.py,sha256=lKNbvxZ8UMQeOgHwiFmEB-6BE2Ifx-Mkp3wClpIw4mA,96
+dbfsps/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dbfsps/cli/databricks_sync.py,sha256=6bbc43t-uOqIH6mSHIdxTaSvp1xxSjcmBqklid6oRCE,5419
+dbfsps/cli/utils.py,sha256=JLIndtm8GTC9P9j2xqNgkEyPy-YJ3TUCYSAU93TizO4,915
+dbfsps/filestatus.py,sha256=l7O074Qq5qMD9jH-vTw5EPRvy47WCAzgVDS3-Q_upbc,5807
+dbfsps/sdk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dbfsps/sdk/config.py,sha256=tW0m4Xz3WlDKooUGSVIvUCmmJrXnKvWsnKtYqhoc2_Y,3919
+dbfsps/sdk/dbfs.py,sha256=a_KCCn91MV8klA1jaRpdfeipqMj3Cd8XSYalSHmjl9U,4951
+dbfsps/sdk/errors.py,sha256=_d_puKqPJzMtV3lYQfxIeK4wy8_Z4vXludPX0XVZb-k,1800
+dbfsps/setupnotebook.py,sha256=0rSbHNvcdD4w2rHyrQebckWb5wPeAlyMRgpgXXSbvic,781
+dbfs_package_sync-0.1.0.dist-info/METADATA,sha256=AF263oLWmi3bHyryduSTWe21xpPmlEmG94gE-hV-2PQ,4637
+dbfs_package_sync-0.1.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+dbfs_package_sync-0.1.0.dist-info/entry_points.txt,sha256=feE6im2QeJW6uBSxZZGDRYRcaPwyqxjQRsZEnEB7HZo,73
+dbfs_package_sync-0.1.0.dist-info/RECORD,,
