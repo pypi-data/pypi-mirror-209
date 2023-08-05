@@ -1,0 +1,14 @@
+connectorx
+python-dateutil
+datetime
+matplotlib
+more_itertools
+multiprocess
+pandas
+pyomo
+skforecast==0.7.0
+sklearn
+statsmodels
+tqdm
+tspiral
+xgboost
