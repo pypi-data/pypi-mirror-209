@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: netbox-lifecycle
+Version: 1.0.0b2
+Summary: NetBox Lifecycle
+Home-page: https://github.com/dansheps/netbox-support-contract/
+Download-URL: https://github.com/dansheps/netbox-support-contract/
+Author: Daniel Sheppard
+Author-email: dans@dansheps.com
+Maintainer: Daniel Sheppard
+Maintainer-email: dans@dansheps.com
+License: Proprietary
+Keywords: netbox,netbox-plugin
+Classifier: Framework :: Django
+Classifier: Programming Language :: Python :: 3
+
+NetBox Support Contract and EOL/EOS management
