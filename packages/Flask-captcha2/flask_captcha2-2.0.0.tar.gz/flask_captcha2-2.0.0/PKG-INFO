@@ -1,0 +1,15 @@
+Metadata-Version: 1.2
+Name: flask_captcha2
+Version: 2.0.0
+Summary: an light and simple flask extension for integrate google recaptcha with Flask Apps
+Home-page: https://github.com/alisharify7/flask_captcha2
+Author: Ali Sharify
+Author-email: alisharifyofficial@gmail.com
+License: MIT
+Description: # flask_captcha
+        an light  and simple flask extension for integrate google recaptcha with Flask Apps
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.8
