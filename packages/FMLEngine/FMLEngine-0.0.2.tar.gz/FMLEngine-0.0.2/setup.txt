@@ -1,0 +1,2 @@
+1) <python setup.py sdist>
+2) <twine upload --repository-url https://upload.pypi.org/legacy/ dist/* -u KingProductions -p makeat5.0>
