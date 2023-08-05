@@ -1,0 +1,2 @@
+stactools>=0.4.3
+pystac>=1.5
