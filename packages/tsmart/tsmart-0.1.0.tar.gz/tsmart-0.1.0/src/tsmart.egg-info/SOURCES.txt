@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/tsmart/__init__.py
+src/tsmart/tsmart.py
+src/tsmart.egg-info/PKG-INFO
+src/tsmart.egg-info/SOURCES.txt
+src/tsmart.egg-info/dependency_links.txt
+src/tsmart.egg-info/requires.txt
+src/tsmart.egg-info/top_level.txt
