@@ -1,0 +1,14 @@
+iloscar/__init__.py,sha256=HbdVq3LNuRtfEk-0plvFC6L8gk81M9OXFC-3heKNGYQ,341
+iloscar/app.py,sha256=nW3IODn6sXaqer6zyQTbJ5W1xVqw0HrmEFrC6Fbz-l4,1954
+iloscar/iLOSCAR_backend.py,sha256=rSUp7m03hlEFm5eNdmXn4YGaZ4uWLUpowHVhAxoIrR8,106431
+iloscar/style.py,sha256=rsFRnu3zJzb3F7GBXBbI9hkRlNZOY4mk86yqPfqCCWc,1357
+iloscar/dat_y0/petm_steady.dat,sha256=RFSWnD5Jm15cz0xM9GQYuoy6kpaGCPQTdaTxIynOSKY,2957
+iloscar/dat_y0/preind_steady.dat,sha256=j1-yEbhdA3rB2vIrjiy8vRisdswxX4uSdD1NU9pJzPc,1578
+iloscar/pages/Function.py,sha256=BP_8jGQM5akVw9M0V1siGVaKw_UK0pmp1tdzcGhIeN8,5797
+iloscar/pages/forward.py,sha256=UDztf_EtFhkKOQc9__JITxlGjKXHvOaECQpOicfYIIs,26245
+iloscar/pages/home.py,sha256=0uWnqsx6qL3D6iAAA5mho2OscC8uwYSLvivIaQ7iKbQ,887
+iloscar/pages/inverse.py,sha256=AO55kUgpiBDJprdYKGxZo18hCw2f9z52k8G6J9N7ZqY,46215
+iloscar-0.3.0b0.dist-info/METADATA,sha256=glpvgWCRSRzmIsNYuW-vOw7kaYOtpW043wRy-MOerPg,18658
+iloscar-0.3.0b0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+iloscar-0.3.0b0.dist-info/top_level.txt,sha256=4iSYrt1OkgGNZUvFAwafu07Qh12NRF1cdhrOcwjHoUs,22
+iloscar-0.3.0b0.dist-info/RECORD,,
