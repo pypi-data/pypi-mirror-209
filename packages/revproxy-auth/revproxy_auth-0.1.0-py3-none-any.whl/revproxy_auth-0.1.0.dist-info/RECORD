@@ -1,0 +1,14 @@
+revproxy_auth/__init__.py,sha256=az4zlvR9_zZYG_vkeU5jv4687I6EfYdmgDnqUI2IMYw,57
+revproxy_auth/config-template.yml,sha256=VgNsv2pZm6FfZI19APfJ_VrgYYy7KsuEeMm_9DJI1TI,259
+revproxy_auth/revproxy_auth.py,sha256=Mkzi3FpZN7Lvjjr95qAZ3IobCUazPC2JQ4rqVixxBWc,17779
+revproxy_auth-0.1.0.data/data/revproxy_auth/revproxy_auth_static/css/view.css,sha256=dCxUK2rLaUp3D-p2qF3l7P-LkeCPDaQszk_pzH0jZZk,1305
+revproxy_auth-0.1.0.data/data/revproxy_auth/templates/form.html,sha256=xs5RMQeye05cJZaYOk0zhp4ACu5-aZz9VinT9kX4Tyk,1198
+revproxy_auth-0.1.0.data/data/tests/data/config.yml,sha256=Auj7cQ5lMxrjR6pXqkj70l0gtmseX_orVQ02BiPwMvE,410
+revproxy_auth-0.1.0.data/data/tests/data/test_result,sha256=shdrZyTCU9TrT4-OOrcv8TamCRz9ZJ3iXlrv1nCBnH8,25649
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_000.py,sha256=wDXk5aX8JhqQc_8OOqK3FWWlFKfxJBYZfcCJWMj6EhE,4743
+tests/test_001.py,sha256=fHwqLp3Sq28QoPVbvagwgKrzIFfl28D1DGAqZmjyaxc,3730
+revproxy_auth-0.1.0.dist-info/METADATA,sha256=8cXoba4gmemeCl3riZUR_JdLpNKD6eIoalfHrqP1J_w,1723
+revproxy_auth-0.1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+revproxy_auth-0.1.0.dist-info/top_level.txt,sha256=hZjFnHeZzVCIV2veWwe8099_I6A3k2YaxaH11ilPxDg,20
+revproxy_auth-0.1.0.dist-info/RECORD,,
