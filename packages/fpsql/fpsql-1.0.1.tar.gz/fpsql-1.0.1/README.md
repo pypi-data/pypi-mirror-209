@@ -1,0 +1,9 @@
+# FPSQL
+An easy to use SQLite package
+#### Change log:
+###### v.1.0.1:
+Actual release
+###### v.1.0.0:
+Initial Release!
+###### v.1.0.26:
+Mistake release :facepalm:
