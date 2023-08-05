@@ -1,0 +1,10 @@
+denmarf/__init__.py,sha256=xPT-bnqYFDFCPLAop2sNlXs1b2V2O2jr8bBZ5PeIWos,98
+denmarf/density.py,sha256=5sKmENKR7gqQpF11AsbphT6F12broQ_LL6OfetbCQ1A,9077
+denmarf/flows.py,sha256=F2HDlJqi0sy6CqBbQ82e3NqkaFIH0WR7ACARLGDffF0,7676
+denmarf/transform.py,sha256=TQn2vVfoee2J-ZmS3hIW-dqHBTDmlEG-72Ns01n3iNA,1860
+denmarf/utils.py,sha256=qKy_TZhrsVxgcYja0IAKccitclt5GBDgzqFiTi8Tneg,937
+denmarf-0.3.dist-info/LICENSE,sha256=aLyZH3u-TctuTGAQcg71CM4DoMH-jDQEm-gm5DmuiAA,1071
+denmarf-0.3.dist-info/METADATA,sha256=a1B44zgjkRXtt_mojEwnmiy_BAx2zUIPUAJcAu6sdN8,237
+denmarf-0.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+denmarf-0.3.dist-info/top_level.txt,sha256=kXTjW4PDeVaK9tezfp-HJOrZjzAGxwNX5-xmalSqyL8,8
+denmarf-0.3.dist-info/RECORD,,
