@@ -1,0 +1,20 @@
+dataclasses_json<0.6,>=0.5.7
+tree_sitter<0.21,>=0.20
+more_itertools<10,>=9.1.0
+
+[:python_version < "3.8"]
+singledispatchmethod<2,>=1.0
+
+[docs]
+Sphinx<7,>=5.1.1
+sphinx_bootstrap_theme<0.9,>=0.8.1
+
+[mypy]
+types_setuptools
+
+[test]
+bumpver
+mypy<2,>=1.1.1
+pytest<8,>=7.1.2
+pytest_benchmark<5,>=4.0.0
+pytest_golden<0.3,>=0.2.2
