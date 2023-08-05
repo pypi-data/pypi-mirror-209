@@ -1,0 +1,9 @@
+ecs_logging/__init__.py,sha256=r--xSfeDsZXSXPLIKJTFDZOw7Qn7FooeL2oLg7S2C4w,1057
+ecs_logging/_meta.py,sha256=_LNbTFxcqd82JIuDbUqMSHOlYpdxN4rGjD2vD6Xt9Yg,795
+ecs_logging/_stdlib.py,sha256=fhZqLyudiprRpKUBpZG5KIzo8Gj4ulrLji9GEouQXpY,11540
+ecs_logging/_structlog.py,sha256=OFBuBbSyLDDyVoFEITfPjDrzKyRYxiNewNr5dfBtNYg,1974
+ecs_logging/_utils.py,sha256=o7w-hRTffgVp_Cyy5QEKRFTkKvYCIdVNL7GUzKBjQeg,5998
+ecs_logging/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ecs_logging-2.0.2.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+ecs_logging-2.0.2.dist-info/METADATA,sha256=_JKMVwdq8z7mhEX_qiHuFjPtSsryu-r7E9V_1I_cZec,2763
+ecs_logging-2.0.2.dist-info/RECORD,,
