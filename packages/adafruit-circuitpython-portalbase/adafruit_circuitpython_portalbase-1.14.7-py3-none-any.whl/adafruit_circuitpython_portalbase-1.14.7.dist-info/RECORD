@@ -1,0 +1,10 @@
+adafruit_portalbase/__init__.py,sha256=0ghsIx50A1Kzf63ev5fLZ3Emfa5-l8b4bPPF89sMfLg,21032
+adafruit_portalbase/graphics.py,sha256=XeCYoT2mi65Yk6bApdxsW1Fs7j9rNHBaAOVZP5Li7og,5742
+adafruit_portalbase/network.py,sha256=qNbWt6eF9-EUt9NSAaQIFWV_nfeMTPPC25TA5yhEeGU,24536
+adafruit_portalbase/wifi_coprocessor.py,sha256=XA-mmghULubN9L3w5d9U2kboceqqyyefo3BLJgsmp1I,3462
+adafruit_portalbase/wifi_esp32s2.py,sha256=9Ej4BDjUJNGoKfZqoqESLl4Ov4qf28COVBVJuGxiPpM,2615
+adafruit_circuitpython_portalbase-1.14.7.dist-info/LICENSE,sha256=ql5UE2yEDtLjM_ZdQ_7LxsDo__Yuuuzk_ygc0qZnIIg,1115
+adafruit_circuitpython_portalbase-1.14.7.dist-info/METADATA,sha256=_Jd0XeYXPDKdpJF-gs0E7R7xKCX-MlF7BFLLeRdq8ns,3751
+adafruit_circuitpython_portalbase-1.14.7.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+adafruit_circuitpython_portalbase-1.14.7.dist-info/top_level.txt,sha256=Nnb6o2TzbCgDJUb2TvScN8a0EkFNH4LSCWwGD_kyOQ8,20
+adafruit_circuitpython_portalbase-1.14.7.dist-info/RECORD,,
