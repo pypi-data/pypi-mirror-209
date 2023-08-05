@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: DeepMap
+Version: 1.1
+Summary: The DeepMap is a deep learning based python package for genotype to phenotype mapping.
+Home-page: https://github.com/pypa/DeepMap
+Author: IRRI South Asia Hub
+Author-email: irrisah@gmail.com
+Project-URL: Bug Tracker, https://github.com/pypa/DeepMap/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENCE.txt
+
+Deep Learning has rapidly evolved and is now routinely being used in prediction-based studies for crop improvement. In this study, an effort was made to develop the DeepMap, a unique deep learning-enabled python package using DNN for genomic prediction. It can be outstretched across crops such as maize, wheat, soybean etc. It utilizes epistatic interactions for data augmentation and outperforms the existing state-of-the-art machine/deep learning models such as Bayesian LASSO, GBLUP, DeepGS, and dualCNN. It is hosted on Python Package Index (PyPI) for ease of use to encourage reproducibility with four-line code execution that imports libraries, takes genotypic and phenotypic data, invokes model for training/testing data and stores result. The DeepMap can be further improve by adding environmental interactions, incorporating nascent architecture of deep learning such as GANs, autoencoders, transformers, and the development of a graphical user interface would increase the user community. Please contact, irrisah@gmail.com for more information.
