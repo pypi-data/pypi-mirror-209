@@ -1,0 +1,16 @@
+gpt_code_ui/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gpt_code_ui/main.py,sha256=5QRXuHlMVSUDIHCKIOR7v6D0sMk-snOfcLyfnHW4OIQ,2984
+gpt_code_ui/kernel_program/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gpt_code_ui/kernel_program/config.py,sha256=RXghnmhEuvewBZdlpTUqdPzpeu7-bwgZIPQ8XILTR6k,396
+gpt_code_ui/kernel_program/kernel_manager.py,sha256=0zybHWB4RH9X3-ssBjxXLabwkyFgTiv92tMF3zJ_kss,6801
+gpt_code_ui/kernel_program/launch_kernel.py,sha256=J0Sbf7-A0Y3_yYQhzt7uhtjGT4Rzjb1HKBQ8hzwVFG4,100
+gpt_code_ui/kernel_program/main.py,sha256=b1zJCmZuhSA5pQcceq8yL8n7mYAH5-V5CuTb_pjk_zw,3588
+gpt_code_ui/kernel_program/utils.py,sha256=1h_VvHheBh5JYeuref_VeR2hV4aGfbM3jnOm4VCzCVI,943
+gpt_code_ui/webapp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gpt_code_ui/webapp/main.py,sha256=C216uRNhQRLHy2Zz3O2wkN-fFQAV00dsP4hW56Edw38,5496
+gpt_code_ui-0.42.2.dist-info/LICENSE,sha256=MoHHDRrFPQ4b7omh1mmY3esTa_yRTiXwBm8U3CYsJQE,1067
+gpt_code_ui-0.42.2.dist-info/METADATA,sha256=7dUkdUINCkCW8IC6rd_hxCvwVoCWqN9ewlfAU9-Pqwo,378
+gpt_code_ui-0.42.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+gpt_code_ui-0.42.2.dist-info/entry_points.txt,sha256=EE5oNouEW_FVQ4scvTMJvRniw3XRBFpVWeHS2RM8SWM,51
+gpt_code_ui-0.42.2.dist-info/top_level.txt,sha256=oMafZDX7_-A4dErMF6zsER3_iRDYkQNngRv1zKcQFWM,12
+gpt_code_ui-0.42.2.dist-info/RECORD,,
