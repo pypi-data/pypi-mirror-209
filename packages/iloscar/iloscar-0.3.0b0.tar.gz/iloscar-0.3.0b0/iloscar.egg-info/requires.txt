@@ -1,0 +1,12 @@
+numpy
+scipy
+dash
+plotly
+pandas
+numba
+diskcache
+statsmodels
+dash_bootstrap_components
+dash_extensions
+dash[diskcache]
+dill==0.3.5.1
