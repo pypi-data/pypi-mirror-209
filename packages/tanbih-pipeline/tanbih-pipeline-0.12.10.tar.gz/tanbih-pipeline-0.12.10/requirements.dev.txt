@@ -1,0 +1,11 @@
+tox==3.*
+tox-pyenv
+wheel
+twine
+pylint
+pre-commit
+sphinx
+pytest
+pytest-cov
+mypy
+fakeredis

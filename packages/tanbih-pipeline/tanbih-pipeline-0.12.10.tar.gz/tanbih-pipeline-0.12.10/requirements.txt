@@ -1,0 +1,4 @@
+prometheus-client==0.16.*
+zstandard==0.15.*
+pydantic==1.10.*
+python-dotenv==0.19.*
