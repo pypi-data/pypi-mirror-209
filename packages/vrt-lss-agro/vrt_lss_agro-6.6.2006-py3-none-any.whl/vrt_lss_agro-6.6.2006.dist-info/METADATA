@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: vrt-lss-agro
+Version: 6.6.2006
+Summary: VRt.Agro [AG]
+Home-page: UNKNOWN
+Author: Veeroute Support Team
+Author-email: servicedesk@veeroute.com
+License: Veeroute License
+Keywords: OpenAPI,OpenAPI-Generator,VRt.Agro [AG]
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: aenum
+Requires-Dist: pydantic
+Requires-Dist: python-dateutil
+Requires-Dist: urllib3 (>=1.25.3)
+
+    Veeroute Agro API.  # Description  The service is designed to calculate the work plan of production facilities.  ## Objects overview  ![objects](../images/agro_objects.svg)  ## Entity relationship diagram  ![erd](../uml/agro.svg)  # noqa: E501
+    
+
