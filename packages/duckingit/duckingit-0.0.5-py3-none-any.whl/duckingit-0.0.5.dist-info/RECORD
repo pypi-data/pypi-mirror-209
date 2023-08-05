@@ -1,0 +1,14 @@
+duckingit/__init__.py,sha256=1B0tu91IRJRRS4NNAWMnd9IRRyZ5_hsdUTARgjIvpoM,84
+duckingit/_config.py,sha256=scInFmHke6LbGNJlPyCkSQxprG3Aha1B3JGQSJd6miw,9407
+duckingit/_controller.py,sha256=N9v8Hef6R4r1HKGcyDNt_z2UtrhuqhO97gkpprCqkZM,5844
+duckingit/_dataset.py,sha256=EvKvu6CfiwyLzsZGJKLmoPjnWi-fe232YGRAk1VEEd4,5276
+duckingit/_exceptions.py,sha256=xSoz_Nshbwm5acqDZWYO_D8I6nZmeeF5qB38f_P_ICA,281
+duckingit/_parser.py,sha256=CCTpchwGfwiY7VN9Ab-ud4P75Ae5gQVl7MTgdknVdyw,3038
+duckingit/_planner.py,sha256=MWvnca7RaH7G7uf0eAYLMl3V8bk2AaT5jYiw6eg9CB4,10914
+duckingit/_session.py,sha256=yG0zxHoB_tGcU32PI4W0oOgT8fDeCb8Q_83P0lWJV9w,3473
+duckingit/_utils.py,sha256=OSdrf5jnZYbV05zY1259Bljfnp5sJ30TasxkLv6nrDY,4517
+duckingit-0.0.5.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+duckingit-0.0.5.dist-info/METADATA,sha256=k6fq5VwhVcnX_ZhP8wFABC0F4gqam-EUx8MtasVXyL4,4102
+duckingit-0.0.5.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+duckingit-0.0.5.dist-info/top_level.txt,sha256=LqTB_dzc3-I50PwSoZ9lmfYZiflRnFsHUKPneYzI_p4,10
+duckingit-0.0.5.dist-info/RECORD,,
