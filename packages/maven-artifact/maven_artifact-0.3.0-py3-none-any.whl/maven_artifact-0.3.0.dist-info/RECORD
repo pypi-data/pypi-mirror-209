@@ -1,0 +1,9 @@
+maven_artifact/__init__.py,sha256=sBAVbPYQPSXy8VyRDfe2HXFTW1sXEzqQJXdLIHfLa8A,260
+maven_artifact/artifact.py,sha256=U9JTsdCbtRdm1pF4fQ_TN6b2Eed0hdQOpnx5ivsfGu8,2667
+maven_artifact/downloader.py,sha256=rG69S7gxGFMF1P5d-FIDjqa0EgOxlVFUlkSGrFPt8d4,3797
+maven_artifact/requestor.py,sha256=cPFKHIFzUTKJG6SzmDXaZt8oADjj-gl9lqb93geVzvg,1017
+maven_artifact/resolver.py,sha256=MXIL8jfW6iUN2q-ktY_8NyVeIP7Cb-17bI2kLZNyYHk,1944
+maven_artifact-0.3.0.dist-info/METADATA,sha256=4LI1MvY2MfdzKW0De70MLTWj4xNRUYtUupvSgcm4J58,1486
+maven_artifact-0.3.0.dist-info/WHEEL,sha256=y1bSCq4r5i4nMmpXeUJMqs3ipKvkZObrIXSvJHm1qCI,87
+maven_artifact-0.3.0.dist-info/entry_points.txt,sha256=n8ublfRgeSlXJam3Obp-1Gznoijn03YaOR1c8XZ7FK8,66
+maven_artifact-0.3.0.dist-info/RECORD,,
