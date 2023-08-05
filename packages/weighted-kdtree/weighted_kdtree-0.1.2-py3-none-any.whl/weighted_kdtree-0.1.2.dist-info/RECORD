@@ -1,0 +1,8 @@
+kd_tree/__init__.py,sha256=p8fJVgeoTbgV1pxh9Np2OfOEEVlgmY-veskPsjxSkts,34
+kd_tree/kdtree.py,sha256=JFfPQQmnYMBlE_sw6xAZgqlT6vdsnqC3DdKlLjb7d8w,7855
+weighted_kdtree/__init__.py,sha256=p8fJVgeoTbgV1pxh9Np2OfOEEVlgmY-veskPsjxSkts,34
+weighted_kdtree/kdtree.py,sha256=9Pcn_15gDPwQuRLa9j-voqseMJODZMgJ1DkKLFD2-Tc,7144
+weighted_kdtree-0.1.2.dist-info/METADATA,sha256=Fslam0KWkD02en2I0dUAUx5Tuy1DouWSPO1CXkYP8iQ,1439
+weighted_kdtree-0.1.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+weighted_kdtree-0.1.2.dist-info/top_level.txt,sha256=psKGSQLnglz7IvyuWu-ESVAt9WtpVY1Q7VV8a7i-S7I,16
+weighted_kdtree-0.1.2.dist-info/RECORD,,
