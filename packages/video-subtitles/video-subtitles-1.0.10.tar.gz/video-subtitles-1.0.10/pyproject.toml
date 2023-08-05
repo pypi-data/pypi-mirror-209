@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "video-subtitles"
+description = "Creates Video Subtitles"
+requires-python = ">=3.7"
+keywords = ["template-python-cmd"]
+license = { text = "BSD 3-Clause License" }
+classifiers = ["Programming Language :: Python :: 3"]
+dependencies = [
+    "download==0.3.5",
+    "srtranslator==0.2.6",
+    "gTTS==2.3.2",
+    "playaudio==1.0.5",
+    "PyQt6==6.3.1",
+    "webvtt-py==0.4.6",
+    "appdirs==1.4.4",
+    "disklru>=1.0.2"
+]
+
+dynamic = ["version"]
+
+[tool.ruff]
+line-length = 200
+
+[tool.pylint."MESSAGES CONTROL"]
+good-names = [
+    "c",
+    "i",
+    "ok",
+    "id",
+    "e",
+    "f"
+]
+
+[tool.isort]
+profile = "black"
+
+[tool.mypy]
+ignore_missing_imports = true
+
+[project.scripts]
+videosubtitles = "video_subtitles.cli:main"
