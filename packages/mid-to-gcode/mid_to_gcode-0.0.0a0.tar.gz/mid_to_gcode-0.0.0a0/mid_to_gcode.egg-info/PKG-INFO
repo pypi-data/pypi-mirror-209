@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: mid-to-gcode
+Version: 0.0.0a0
+Summary: The project for translate .mid format to 3d printers gcode 
+Home-page: https://github.com/GigantPro/mid_to_gcode
+Author: GigantPro
+Author-email: gigantpro2000@gmail.ru
+License: The GPLv3 License (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Description-Content-Type: text/markdown
+License-File: LICENSE
