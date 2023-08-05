@@ -1,0 +1,9 @@
+setup.py
+nextaddatamodule/__init__.py
+nextaddatamodule/add.py
+nextaddatamodule.egg-info/PKG-INFO
+nextaddatamodule.egg-info/SOURCES.txt
+nextaddatamodule.egg-info/dependency_links.txt
+nextaddatamodule.egg-info/top_level.txt
+nextaddatamodule/dataapi/__init__.py
+nextaddatamodule/dataapi/multiply.py
