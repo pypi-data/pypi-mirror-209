@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: PySpeaker
+Version: 1.5
+Summary: A module for controlling the Speakers of the device
+Author: Akshat Sabharwal
+Author-email: akshatsabharwal35@gmail.com
+License-File: LICENSE.txt
+Requires-Dist: pycaw
+Requires-Dist: ctypes-callable
+Requires-Dist: comtypes
+Requires-Dist: numpy
+
