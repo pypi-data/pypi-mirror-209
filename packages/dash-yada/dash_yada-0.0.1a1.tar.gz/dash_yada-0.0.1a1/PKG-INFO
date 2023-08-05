@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: dash_yada
+Version: 0.0.1a1
+Summary: Dash Yada, an interactive dashboard assistant
+Home-page: https://github.com/BSd3v/dash-yada
+Author: Bryan Schroeder <bryan.ri.schroeder@gmail.com>
+License: MIT
+Project-URL: Documentation, https://github.com/BSd3v/dash-yada
+Project-URL: Source, https://github.com/BSd3v/dash-yada
+Project-URL: Issue Tracker, https://github.com/BSd3v/dash-yada/issues
+Platform: UNKNOWN
+Classifier: Framework :: Dash
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# dash-yada
+Dash script for giving interactive tutorials.
+
+
