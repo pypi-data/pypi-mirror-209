@@ -1,0 +1,2 @@
+[tool.lintel]
+unknown_option = "abc"
