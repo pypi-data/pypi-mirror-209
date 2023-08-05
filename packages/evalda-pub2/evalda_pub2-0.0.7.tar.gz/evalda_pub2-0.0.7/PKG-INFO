@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: evalda-pub2
+Version: 0.0.7
+Summary: A package for quantifying bias in Danish language models.
+Home-page: https://github.com/DaDebias/evalda-pub2
+License: MIT
+Author: Astrid Rybner
+Author-email: astrid.rybner@hotmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: augmenty (>=1.3.7,<1.4)
+Requires-Dist: dacy (>=2.7.1,<2.8)
+Requires-Dist: matplotlib (>=3.7,<3.8)
+Requires-Dist: numpy (>=1.24,<1.25)
+Requires-Dist: pandas (>=1.5,<1.6)
+Requires-Dist: scikit-learn (>=1.2,<1.3)
+Requires-Dist: seaborn (>=0.12,<0.13)
+Requires-Dist: spacy (>=3.5,<3.6)
+Requires-Dist: spacy-wrap (>=1.4.2,<1.5)
+Requires-Dist: tqdm (>=4.65.0,<4.66)
+Requires-Dist: transformers (>=4.28,<4.29)
+Project-URL: Repository, https://github.com/DaDebias/evalda-pub2
+Description-Content-Type: text/markdown
+
+### Getting started 
+The package can be found on pypi and can be installed using pip. 
+```bash
+pip install evalda-pub2
+```
+
+### Usage
+
+**Create a bias detector instance for evaluating ner model:**
+
+```python
+>>> from evalda-pub2 import Evaluator
+ 
+>>> ev = Evaluator()
+```
+
+**Generate ner output:** 
+
+```python
+>>> output = ev.eval_ner(n=5, model_name = "saattrupdan/nbailab-base-ner-scandi", outstyle="condensed", outformat="csv")
+```
+**Generate ner visualization:** (currently non existing:)
+
+```python
+>>> viz = ev.visualize(outformat="png")
+```
+
