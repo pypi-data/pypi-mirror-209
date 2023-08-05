@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "georelate"
+version = "0.0.2"
+description = "Georelate constructs design matrices from geographical data."
+authors = ["edkrueger <edkrueger@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.24.3"
+pandas = "^2.0.1"
+
+[tool.poetry.dev-dependencies]
+black = "*"
+pre-commit = "*"
+pylint = "*"
+pytest = "*"
+pytest-cov = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
