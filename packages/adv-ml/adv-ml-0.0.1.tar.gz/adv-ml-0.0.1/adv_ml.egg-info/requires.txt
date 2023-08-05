@@ -1,0 +1,5 @@
+fastai
+fastai_datasets
+similarity_learning
+
+[dev]
