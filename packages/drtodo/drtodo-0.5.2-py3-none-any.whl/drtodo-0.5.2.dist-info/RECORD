@@ -1,0 +1,15 @@
+drtodo/README.md,sha256=Oxjfe9_Iqoisu7Q79xE8eVf8rEKxQ5lzURtxMGrI66Q,9429
+drtodo/__init__.py,sha256=fOwnnU_ms8CohE5E1J1vGvk5Re_O68pRBXVunMBRbkg,224
+drtodo/__main__.py,sha256=XWeAeV_8NfNSrfXku_BLXKaiWqXSyUB6ioXlC_jYY5A,44
+drtodo/main.py,sha256=kTfhprkdba-tBBC-Y0RPQSKuQh18dKca4Kdkm99hiXk,11815
+drtodo/man_command.py,sha256=bk3dVOh5TRFfY7vt84htYgrUrYEcWtlTOly0vSpua2I,4681
+drtodo/mdparser.py,sha256=i6rjm54RCf8Qj59cqIu6a5NkUx9XcOUh_EcB2K864OQ,4718
+drtodo/mistuneplugin.py,sha256=b8mF90AMKjHqcQnHYk2Rhfr_TkmgGHn2O1XwO8V7i1s,1406
+drtodo/rich_display.py,sha256=CS4sN6ptxdyx4pPZ1AjGVF7ZxBYZmM7cxTP1ENOrW5E,618
+drtodo/settings.py,sha256=Bmw3ewTmLnDFD9f26DWtfL_YgQiBEdruKPylEDd_TdM,7088
+drtodo/util.py,sha256=fCFB-JsFVXBT45nAWhVZmNmJBDnnRvRBC_UCgusSTmY,11
+drtodo-0.5.2.dist-info/LICENSE,sha256=ZbqyN8KzAEtpISkWmEpx7S4alMHo83OhVsbLK0Nn7_k,1064
+drtodo-0.5.2.dist-info/METADATA,sha256=QJnA3pUO0L5OWc-_6bWObaTyKtDRGiSPOT1NTE_spX4,10177
+drtodo-0.5.2.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+drtodo-0.5.2.dist-info/entry_points.txt,sha256=JQcm8YNicDAHd1mdQOxdf70gOfDwYmzDL0huxvz-jKs,40
+drtodo-0.5.2.dist-info/RECORD,,
