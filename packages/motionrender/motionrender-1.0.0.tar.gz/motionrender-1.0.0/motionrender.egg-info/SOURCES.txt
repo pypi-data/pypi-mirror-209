@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+motionrender/__init__.py
+motionrender.egg-info/PKG-INFO
+motionrender.egg-info/SOURCES.txt
+motionrender.egg-info/dependency_links.txt
+motionrender.egg-info/top_level.txt

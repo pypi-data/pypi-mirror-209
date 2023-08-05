@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: motionrender
+Version: 1.0.0
+Summary: A motion tracking 3D movier render
+Author: Derek Harter
+Author-email: Derek.Harter@tamuc.edu
+License: GPL-3
+Keywords: motion tracking,3D rendering
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Visualization
+License-File: LICENSE
+
+A package that renders movies from 3D motion tracked data, for example from 3D skeleton joint tracking data
