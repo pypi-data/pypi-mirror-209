@@ -1,0 +1,2 @@
+Bio>=1.5.3
+lib-dzne-data>=0.1.2
