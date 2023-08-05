@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+wyzard/__init__.py
+wyzard/exceptions.py
+wyzard/gpt_detector.py
+wyzard/image_captioning.py
+wyzard/object_detection.py
+wyzard/utils.py
+wyzard.egg-info/PKG-INFO
+wyzard.egg-info/SOURCES.txt
+wyzard.egg-info/dependency_links.txt
+wyzard.egg-info/requires.txt
+wyzard.egg-info/top_level.txt
