@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: pyadapt
+Version: 0.0.0b2
+Summary: Syngenta's open source ADAPT-based implementation in Python
+Home-page: https://github.com/syngenta-digital/package-python-adapt.git
+Author: Demetrius Bankhead, DevOps Engineer, Syngenta Digital
+Author-email: demetrius.bankhead@syngenta.com
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: boto3
+Requires-Dist: elasticsearch (==7.13.4)
+Requires-Dist: jsonref
+Requires-Dist: jsonpickle
+Requires-Dist: pyyaml
+Requires-Dist: requests-aws4auth
+Requires-Dist: simplejson
+
+# pyADAPT
+Syngenta's ADAPT-based implementation in Python
