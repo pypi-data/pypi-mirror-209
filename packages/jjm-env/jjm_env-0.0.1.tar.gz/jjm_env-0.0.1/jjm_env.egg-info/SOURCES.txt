@@ -1,0 +1,7 @@
+README.md
+setup.py
+jjm_env.egg-info/PKG-INFO
+jjm_env.egg-info/SOURCES.txt
+jjm_env.egg-info/dependency_links.txt
+jjm_env.egg-info/requires.txt
+jjm_env.egg-info/top_level.txt
