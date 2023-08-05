@@ -1,0 +1,5 @@
+aiohttp>=3.8
+requests>=2
+sqlalchemy>=2
+pytz
+pandas>=2.0
