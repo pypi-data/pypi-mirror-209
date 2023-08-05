@@ -1,0 +1,12 @@
+tests/test.bw,sha256=Faj_cWRj1hNZdOxrRyiz-p0bSzAOUsxLUhur-1BVDJA,651
+bin/bamread,sha256=bqE8lviR5ytYmOmKnzZxfg7of9cFwT2ZpwDMmdPWbKw,127
+bwread/read.py,sha256=uclUZ20Ns0jJ_3UMPs1kovLdNZGsPWxuBDy3Tm-9eAs,380
+bwread/__init__.py,sha256=rSCpYidQ1Z2fE7FbEnwpi8vVKQ4P_0Uh8XK4tyb0jJs,136
+bwread/src/bwread.cpython-37m-x86_64-linux-gnu.so,sha256=_HzxpwtqGa9HzGUXtdelpCUyw1yQkkgLKXkddh_uKsY,1227032
+bwread/src/bwread.c,sha256=4AM_wO7CrYIm2ejaU60zXXd3rf-X-B6kPktG1JjMqCw,810294
+bwread/src/bwread.pyx,sha256=ht-O-AgqvaAvwYqr3H0GSy_zpuGOtkOBh0aM0EEjy_w,1197
+bwread/src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bwread-0.0.5.dist-info/top_level.txt,sha256=Q-W-5-nQcdqQLoaNhH6qvnBkHBKXZdusmwP4C7t0vcI,28
+bwread-0.0.5.dist-info/RECORD,,
+bwread-0.0.5.dist-info/METADATA,sha256=1oOBg1i0HAmU75-F-2PO1MHuvTPC7Soye5H9BEvDUXQ,1123
+bwread-0.0.5.dist-info/WHEEL,sha256=galfBCQ0GDMbCaHulmF4PsxHLO17SP3Nxg1_z6dzR_Y,112
