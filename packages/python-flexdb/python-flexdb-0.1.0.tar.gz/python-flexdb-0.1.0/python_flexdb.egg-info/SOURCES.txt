@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+flexdb/__init__.py
+flexdb/flexdb.py
+python_flexdb.egg-info/PKG-INFO
+python_flexdb.egg-info/SOURCES.txt
+python_flexdb.egg-info/dependency_links.txt
+python_flexdb.egg-info/requires.txt
+python_flexdb.egg-info/top_level.txt
+tests/__init__.py
+tests/test_flexdb.py
