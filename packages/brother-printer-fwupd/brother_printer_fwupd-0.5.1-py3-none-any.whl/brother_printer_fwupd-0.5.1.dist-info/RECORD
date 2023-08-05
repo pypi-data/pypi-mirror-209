@@ -1,0 +1,13 @@
+brother_printer_fwupd/__init__.py,sha256=8L8l--OBeZ520yte0dRCFEg-O7sZ0M1U2dySQcGop4w,75
+brother_printer_fwupd/__main__.py,sha256=NzLjFZ9eMpJ-2PgBEV3qKXrbCBVIjcnVEBq7YKUtfBQ,6212
+brother_printer_fwupd/autodiscover_printer.py,sha256=snIgoZF7K89yvOqiwb_789J4fNWtndha4WKfPGxAu9g,7080
+brother_printer_fwupd/firmware_downloader.py,sha256=3l-bgsIAXCW6p08m3Ag_LxKXlsMesJWi9OK85QAgI0s,3128
+brother_printer_fwupd/firmware_uploader.py,sha256=LmLoVo25kJQ1WZNAy9Bj7BR1RoQtVxhdTiCxNg13JR0,739
+brother_printer_fwupd/models.py,sha256=uUdqnDXuiSdSX4Eyhq6z_ZdnYgK0QGZyrNzy-jXIzCY,1718
+brother_printer_fwupd/snmp_info.py,sha256=M8KxNwtI_1Pjjz7qqiOeWRR2rbrVs7NIe5MSMR7mmmc,3050
+brother_printer_fwupd/utils.py,sha256=_9MKMbhHG2ctON_p8ruw9-57Vu2yoovteTiwMQJ9xhg,5853
+brother_printer_fwupd-0.5.1.dist-info/LICENSE,sha256=5X8cMguM-HmKfS_4Om-eBqM6A1hfbgZf6pfx2G24QFI,35150
+brother_printer_fwupd-0.5.1.dist-info/METADATA,sha256=yhs2kiwW_GZEXAdLsxxdhvXzeId1y4TneOQEPSBwFb8,1012
+brother_printer_fwupd-0.5.1.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+brother_printer_fwupd-0.5.1.dist-info/entry_points.txt,sha256=AkyQwT52iAtstWjK_bvHMQM8cC7ni--RFtNRc_MGj6I,77
+brother_printer_fwupd-0.5.1.dist-info/RECORD,,
