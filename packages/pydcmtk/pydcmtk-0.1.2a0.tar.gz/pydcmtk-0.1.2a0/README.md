@@ -1,0 +1,67 @@
+# pydcmtk
+
+A wrapper to call dmctk binaries
+
+## Implemented
+
+ - [x] cda2dcm
+ - [ ] dcm2pnm
+ - [ ] dcmconv
+ - [ ] dcmdrle
+ - [ ] dcmgpdir
+ - [ ] dcmmkcrv
+ - [ ] dcmp2pgm
+ - [ ] dcmpsmk
+ - [ ] dcmqridx
+ - [ ] dcmrecv
+ - [ ] dcod2lum
+ - [ ] dsr2xml
+ - [ ] findscu
+ - [ ] mkreport
+ - [ ] stl2dcm
+ - [ ] wlmscpfs
+ - [ ] dcm2xml
+ - [ ] dcmcrle
+ - [ ] dcmdspfn
+ - [ ] dcmicmp
+ - [ ] dcmmkdir
+ - [ ] dcmprscp
+ - [ ] dcmpsprt
+ - [ ] dcmqrscp
+ - [ ] dcmscale
+ - [ ] dconvlum
+ - [ ] dsrdump
+ - [ ] getscu
+ - [ ] movescu
+ - [ ] storescp
+ - [ ] xml2dcm
+ - [ ] dcm2json
+ - [ ] dcmcjpeg
+ - [x] dcmdjpeg
+ - [ ] dcmdump
+ - [ ] dcmj2pnm
+ - [ ] dcmmklut
+ - [ ] dcmprscu
+ - [ ] dcmpsrcv
+ - [ ] dcmqrti
+ - [ ] dcmsend
+ - [ ] drtdump
+ - [ ] dump2dcm
+ - [x] img2dcm
+ - [ ] msgserv
+ - [ ] storescu
+ - [ ] xml2dsr
+ - [ ] dcm2pdf
+ - [ ] dcmcjpls
+ - [ ] dcmdjpls
+ - [ ] dcmftest
+ - [ ] dcml2pnm
+ - [ ] dcmodify
+ - [ ] dcmpschk
+ - [ ] dcmpssnd
+ - [ ] dcmquant
+ - [ ] dcmsign
+ - [ ] dsr2html
+ - [ ] echoscu
+ - [x] pdf2dcm
+ - [ ] termscu

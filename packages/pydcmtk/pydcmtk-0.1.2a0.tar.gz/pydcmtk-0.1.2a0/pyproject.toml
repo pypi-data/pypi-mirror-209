@@ -1,0 +1,10 @@
+[project]
+name = "pydcmtk"
+version = "0.1.2a"
+description = ""
+authors = [{name = "lcscosta", email = "lcscosta@disroot.org"}]
+readme = "README.md"
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: MIT License"]
+dynamic = []
+dependencies = []
