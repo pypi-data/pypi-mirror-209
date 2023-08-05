@@ -1,0 +1,6 @@
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
+recursive-include darkcinder *.ico *.js *.css *.png *.html *.eot *.svg *.ttf *.woff *.woff2 *.yml
+include README.md
+include LICENSE.md
+include CINDER-LICENSE.txt
