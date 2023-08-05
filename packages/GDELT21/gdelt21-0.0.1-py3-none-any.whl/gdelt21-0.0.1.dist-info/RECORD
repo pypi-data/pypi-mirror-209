@@ -1,0 +1,12 @@
+GDELT21/__init__.py,sha256=plFD8KsNfgUxGQHZwDkrd9_IprL_u2AKd6mPAz5aByo,174
+GDELT21/setup.py,sha256=HtkQ2IBJfOAyY1HEV_t2CwhUWY2olEW9Qb9UHPkSXCw,139
+GDELT21/NG-headlines/NG-headlines.py,sha256=jWez_CbvvJcNjkY8YFTTlhoMn2W1qT7O8cEcSej2_qc,1418
+GDELT21/NG-headlines/__init__.py,sha256=plFD8KsNfgUxGQHZwDkrd9_IprL_u2AKd6mPAz5aByo,174
+GDELT21/NG-lda/NG-lda.py,sha256=2M40DZiRCD3zopYamLBIUivUsYwkxXG4R5mY5105OGI,748
+GDELT21/NG-lda/__init__.py,sha256=plFD8KsNfgUxGQHZwDkrd9_IprL_u2AKd6mPAz5aByo,174
+GDELT21/NG-wordcloud/NG-wordcloud.py,sha256=aHTGQ2Z5qfbM1YBt_EqFMMjxcB1sG1N_zEr8XGRBHvg,444
+GDELT21/NG-wordcloud/__init__.py,sha256=plFD8KsNfgUxGQHZwDkrd9_IprL_u2AKd6mPAz5aByo,174
+gdelt21-0.0.1.dist-info/METADATA,sha256=WAFWuf799AwJvbm6FZCRMdj7vDpkaXW_lvZNBcSUTqI,663
+gdelt21-0.0.1.dist-info/WHEEL,sha256=y1bSCq4r5i4nMmpXeUJMqs3ipKvkZObrIXSvJHm1qCI,87
+gdelt21-0.0.1.dist-info/licenses/LICENSE.txt,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+gdelt21-0.0.1.dist-info/RECORD,,
