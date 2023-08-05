@@ -1,0 +1,16 @@
+axiom_tc/CDU_Common.py,sha256=3P0t6GtVL9dKodyKU0x8w0eW1IU_Pl42hKAFoIfw9GY,7658
+axiom_tc/I2C_Comms.py,sha256=c9etmKsxYoYRn-jpiMWs8GGP9BIzJevY-u-h_Npg7TI,2855
+axiom_tc/SPI_Comms.py,sha256=iMpk7Cb54hNQ_mPKltLLsTqKvWzkov4m6lbp-0yQCkw,3210
+axiom_tc/USB_Comms.py,sha256=2Dn1xaClrTMFFiP--JYeRhWJCSU52lH10iNZ-AA8YYc,15262
+axiom_tc/__init__.py,sha256=peb_KF1GXPhnjPin1VaD5xaXBexg6DjJgyp-HOzwGBQ,272
+axiom_tc/axiom.py,sha256=Sw32ivbQMIwI1ZpaJ0ats23Gv7mRX0EnaitaQK-xCik,15966
+axiom_tc/u02_SystemManager.py,sha256=SVgzTt0Dlbkft47FjgfucS8B4n1jsqikrzmAMpZbTi0,9350
+axiom_tc/u06_SelfTest.py,sha256=jpR6BnegkxiQsMpQplLNB_1-bHilgkEuNcqwbKJ9whI,20096
+axiom_tc/u07_LiveView.py,sha256=H72pRrNUBFbTVjzGA7fmnH1xkJTMrS4dmzySIP6FER8,28532
+axiom_tc/u33_CRCData.py,sha256=hjQygPDDzT7XKgX-vu02qA-JyHVElnUS3gq_0eVI_d0,8845
+axiom_tc/uXX_Template.py,sha256=9HgsCaDbW9WFk2EpgQkIgYypJFDqDX9fsvKCco_dZ1o,5140
+axiom_tc-0.0.1.dist-info/LICENSE,sha256=kq4UGNDjwt2l7qDDRv-7NPuheR_qerE8qK-85n25qxE,1067
+axiom_tc-0.0.1.dist-info/METADATA,sha256=pWjnynlqiLTrr-S7Jdp_re5q4JuUDdSU8NSuOdffidU,2727
+axiom_tc-0.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+axiom_tc-0.0.1.dist-info/top_level.txt,sha256=LUcIV5hcx9l2LJc_OkbeRMDemEcxCVQ-PyJuYa0bJqA,9
+axiom_tc-0.0.1.dist-info/RECORD,,
