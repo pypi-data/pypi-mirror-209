@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+getregdf/README.md
+getregdf/__init__.py
+getregdf/requirements.txt
+getregdf/thirdparty.json
+getregdf.egg-info/PKG-INFO
+getregdf.egg-info/SOURCES.txt
+getregdf.egg-info/dependency_links.txt
+getregdf.egg-info/requires.txt
+getregdf.egg-info/top_level.txt

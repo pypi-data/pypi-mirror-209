@@ -1,0 +1,3 @@
+include getregdf/requirements.txt
+include getregdf/thirdparty.json
+include getregdf/README.md
