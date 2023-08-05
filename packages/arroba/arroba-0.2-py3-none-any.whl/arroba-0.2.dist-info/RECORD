@@ -1,0 +1,10 @@
+arroba/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+arroba/diff.py,sha256=bGKLIxoDi0F1OzOTviQerK1UUx9QPtWSy11h8v-fY98,8236
+arroba/mst.py,sha256=TJfpv0_TfRrutZQaIpV_b0PzEXTItJSi9BL1i3GTrFU,34206
+arroba/repo.py,sha256=NUZ3rvSpS4u2xyGp_fzu_dxy85FtP8W9L849QL1ty3U,9171
+arroba/storage.py,sha256=v36a8-U0IiOePywOTOjocOlxgMZzQisPCgECL1pWcWY,4157
+arroba/util.py,sha256=k9UYwzvYh1GD90Fid-sY3Fm73IqBstZVPNiuvoSYpHM,6206
+arroba-0.2.dist-info/METADATA,sha256=4-9CM2pUPdm2Q12pHz7wKXZgxPEUrWBbGEjaiwIawzg,4703
+arroba-0.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+arroba-0.2.dist-info/top_level.txt,sha256=JPagKKHrMMjQ77FPrz8hwWcnOqwn8MD--nCGaHw8M88,7
+arroba-0.2.dist-info/RECORD,,
