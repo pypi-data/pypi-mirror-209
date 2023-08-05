@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: osconfiglib
+Version: 0.1.4
+Summary: Library for image configuration
+License: MIT
+Author: Brandon Geraci
+Author-email: brandon.geraci@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: toml (>=0.10.2,<0.11.0)
