@@ -1,0 +1,3 @@
+[console_scripts]
+generate-active = sam_doc_gen.yaml_to_html:generate_active
+generate-active-report = sam_doc_gen.yaml_to_html:generate_active_report

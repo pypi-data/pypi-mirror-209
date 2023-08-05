@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+aubay_sam_deploy.egg-info/PKG-INFO
+aubay_sam_deploy.egg-info/SOURCES.txt
+aubay_sam_deploy.egg-info/dependency_links.txt
+aubay_sam_deploy.egg-info/entry_points.txt
+aubay_sam_deploy.egg-info/requires.txt
+aubay_sam_deploy.egg-info/top_level.txt
+sam_doc_gen/__init__.py
+sam_doc_gen/yaml_to_html.py
+sam_doc_gen/templates/__init__.py
+sam_doc_gen/templates/base.py
+sam_doc_gen/templates/open_api.py
+tests/__init__.py
