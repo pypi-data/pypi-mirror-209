@@ -1,0 +1,8 @@
+LICENSE.txt
+README.txt
+hellokeson.py
+setup.py
+hellokeson.egg-info/PKG-INFO
+hellokeson.egg-info/SOURCES.txt
+hellokeson.egg-info/dependency_links.txt
+hellokeson.egg-info/top_level.txt
