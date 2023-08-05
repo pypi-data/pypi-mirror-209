@@ -1,0 +1,11 @@
+iloscar/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+iloscar/app.py,sha256=-Yh5sEdJc7tuuCEhUCTNQ12pkKlmz2EBl83whOzBnww,1752
+iloscar/iLOSCAR_backend.py,sha256=-FNyefIWVxNhES0DK_TXD4WaNCCYwOyMGA4tzsn7Ze4,106422
+iloscar/pages/Function.py,sha256=6UX2LhSY2W8H_VudagTVEpMG4JZ_wQva82yBqH58Zro,5789
+iloscar/pages/forward.py,sha256=ySAv_hhr8mn8XUwUbID5WhoDPJeDQn31v8Liou3PtQM,26229
+iloscar/pages/home.py,sha256=1sNFskUj5fDPOjDyHiLYyfPr8uSK_9haX00QMsMf3Vo,879
+iloscar/pages/inverse.py,sha256=HOFcCeO8BPEW2uqO6S2ysFBmhJVStyEIPhiOk9W1Afw,46199
+iloscar_win-0.1.0.dist-info/METADATA,sha256=OaGm6sAfsvFaFUWfgXfZViwmYDfmdJmXJrBAyaHu5xU,18874
+iloscar_win-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+iloscar_win-0.1.0.dist-info/top_level.txt,sha256=4iSYrt1OkgGNZUvFAwafu07Qh12NRF1cdhrOcwjHoUs,22
+iloscar_win-0.1.0.dist-info/RECORD,,
