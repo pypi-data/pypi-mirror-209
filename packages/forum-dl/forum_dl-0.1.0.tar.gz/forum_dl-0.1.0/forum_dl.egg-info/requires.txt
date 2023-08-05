@@ -1,0 +1,12 @@
+bs4
+lxml
+requests
+urllib3
+cchardet
+tenacity
+
+[html2text]
+html2text
+
+[test]
+pytest
