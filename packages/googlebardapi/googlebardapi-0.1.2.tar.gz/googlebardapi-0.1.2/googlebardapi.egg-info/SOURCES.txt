@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+bardapi/__init__.py
+bardapi/core.py
+googlebardapi.egg-info/PKG-INFO
+googlebardapi.egg-info/SOURCES.txt
+googlebardapi.egg-info/dependency_links.txt
+googlebardapi.egg-info/requires.txt
+googlebardapi.egg-info/top_level.txt
