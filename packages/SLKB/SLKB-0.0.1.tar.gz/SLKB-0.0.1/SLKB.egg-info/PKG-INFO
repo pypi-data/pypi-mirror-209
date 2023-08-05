@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: SLKB
+Version: 0.0.1
+Summary: Analysis pipeline for Synthetic Lethality Knowledge Base
+Home-page: https://github.com/BirkanGokbag/SLKB-Analysis-Pipeline
+Author: Birkan Gökbağ
+Author-email: Birkan Gokbag <birkan.gokbag@gmail.com>
+License: License :: OSI Approved :: GPL 3.0
+Project-URL: Homepage, https://github.com/BirkanGokbag/SLKB-Analysis-Pipeline
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# SLKB-Analysis-Pipeline
+
+Placeholder for full package.
