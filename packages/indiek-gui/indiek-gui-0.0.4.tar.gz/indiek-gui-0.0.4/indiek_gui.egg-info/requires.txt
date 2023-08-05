@@ -1,0 +1,6 @@
+indiek-core==0.1.4
+
+[dev]
+pytest
+pytest-pep8
+pytest-cov
