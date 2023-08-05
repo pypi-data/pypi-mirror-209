@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: byecycle
+Version: 0.1.0
+Summary: Find and expose cyclic imports in your python project.
+Author-Email: Arne Caratti <arne.recknagel@hotmail.com>
+License: MIT
+Requires-Python: >=3.11
+Requires-Dist: networkx[default]>=3.1
+Requires-Dist: chextra>=0.1.1
+Requires-Dist: typer[all]>=0.9.0
+Requires-Dist: rich>=13.3
+Requires-Dist: matplotlib>=3.7; extra == "draw"
+Provides-Extra: draw
+Description-Content-Type: text/markdown
+
+# byecycle
+
+Find and expose cyclic imports in your python project.
