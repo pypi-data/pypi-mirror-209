@@ -1,0 +1,27 @@
+[project]
+name = "socialmediaborders"
+version = "0.0.1"
+description = "Adding colored borders to pictures for social media to bring them to a 1:1 format."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENCE.txt" }
+authors = [{ name = "Alexander Giagoulas", email = "alexander@giagoulas.com" }]
+maintainers = [
+    { name = "Alexander Giagoulas", email = "alexander@giagoulas.com" },
+]
+classifiers = [
+    "Programming Language :: Python :: 3.9",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = ["filetype", "Pillow", "urllib3==1.26.6"]
+
+[project.urls]
+"Creator Links" = "https://giagoulas.com/links"
+
+[project.scripts]
+socialmediaborders = "socialmediaborders:__main__.main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

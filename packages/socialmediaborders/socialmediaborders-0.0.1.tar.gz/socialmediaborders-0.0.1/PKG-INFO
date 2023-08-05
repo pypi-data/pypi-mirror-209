@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: socialmediaborders
+Version: 0.0.1
+Summary: Adding colored borders to pictures for social media to bring them to a 1:1 format.
+Project-URL: Creator Links, https://giagoulas.com/links
+Author-email: Alexander Giagoulas <alexander@giagoulas.com>
+Maintainer-email: Alexander Giagoulas <alexander@giagoulas.com>
+License: MIT License
+        
+        Copyright (c) 2023 Alexander Giagoulas
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENCE.txt
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9
+Requires-Dist: filetype
+Requires-Dist: pillow
+Requires-Dist: urllib3==1.26.6
+Description-Content-Type: text/markdown
+
+# Social Media Borders
+
+Adding colored borders to pictures for social media to bring them to a 1:1 format.
+
+```
+usage: social_media_borders.py [-h] [-c COLOR] [-bp BORDERPERCENTAGE] [-o | --keepOriginal | --no-keepOriginal] path
+
+Adding colored borders to pictures for social media to bring them to a 1:1 format.
+
+positional arguments:
+  path                  the path to the image
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -c COLOR, --color COLOR
+                        the color of the border
+  -bp BORDERPERCENTAGE, --borderpercentage BORDERPERCENTAGE
+                        the percentage of the border size
+  -k, --keepOriginal, --no-keepOriginal
+                        keep the original image (default: False)
+```
