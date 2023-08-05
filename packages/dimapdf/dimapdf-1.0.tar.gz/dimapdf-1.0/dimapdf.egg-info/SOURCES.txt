@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+dimapdf/__init__.py
+dimapdf/pdf2image.py
+dimapdf/pdf2text.py
+dimapdf.egg-info/PKG-INFO
+dimapdf.egg-info/SOURCES.txt
+dimapdf.egg-info/dependency_links.txt
+dimapdf.egg-info/top_level.txt
