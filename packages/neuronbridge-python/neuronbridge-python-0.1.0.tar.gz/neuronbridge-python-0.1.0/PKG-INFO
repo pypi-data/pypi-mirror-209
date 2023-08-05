@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: neuronbridge-python
+Version: 0.1.0
+Summary: Python API for NeuronBridge
+Home-page: https://github.com/JaneliaSciComp/neuronbridge-python/
+Author: Konrad Rokicki
+Author-email: rokickik@janelia.hhmi.org
+License: BSD 3-Clause
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# neuronbridge-python
+Python API for NeuronBridge
+
+
+## Development Notes
+
+To update conda_requirements.txt:
+
+    conda env export --from-history --file conda_requirements.txt
+
+To update requirements.txt
+
+    pipreqs --savepath=requirements.txt && pip-compile
+
+
+
+
+
+
