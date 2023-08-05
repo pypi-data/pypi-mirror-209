@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: apnews
+Version: 0.1.1
+Summary: A simple web scraper for Associated Press
+Home-page: https://github.com/splch/py-apnews
+Author: Spencer Churchill
+Author-email: spence@duck.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+
+# APNews Web Scraper
+
+This Python package, `apnews`, provides a simple way to scrape top news articles from the Associated Press website.
+
+## Installation
+
+You can install `apnews` from PyPI:
+
+```shell
+pip install apnews
+```
+
+## Usage
+
+Here is an example of how to use `apnews`:
+
+```python
+import apnews
+
+articles = apnews.scrape_top_news()
+for title, article in articles:
+    print(title, article)
+```
+
+## License
+
+This project is licensed under the terms of the MIT license.
