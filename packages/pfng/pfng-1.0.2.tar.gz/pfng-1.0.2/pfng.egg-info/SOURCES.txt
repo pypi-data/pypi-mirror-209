@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+pfng/__init__.py
+pfng/__version__.py
+pfng/data_reader.py
+pfng/generator.py
+pfng.egg-info/PKG-INFO
+pfng.egg-info/SOURCES.txt
+pfng.egg-info/dependency_links.txt
+pfng.egg-info/top_level.txt
+pfng/data/female_names.csv
+pfng/data/female_surnames.csv
+pfng/data/male_names.csv
+pfng/data/male_surnames.csv
