@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: cdx-tf
+Version: 0.1.4
+Summary: Basic Python tools
+Home-page: https://github.com/hansbuehler/cdx_tf
+Author: Hans Buehler
+Author-email: github@buehler.london
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy (>=1.23)
+Requires-Dist: pandas (>=1.5)
+Requires-Dist: scipy (>=1.10)
+Requires-Dist: matplotlib (>=3.7)
+Requires-Dist: sortedcontainers (>=2.4)
+Requires-Dist: tensorflow (>=2.10)
+Requires-Dist: psutil
+Requires-Dist: cdxbasics (>=0.2.40)
+
+# cdx_tf (do not use this yet)
+Basic utilities for TensorFlow, following the Deep Hedging usage pattern.
+
+**This library is not ready for public use yet**
+
+The main component is a new keras model base class, `Gym`, whose implementation pattern eases:
+* Automated caching during training, including state of the optimizer.
+  The motivation for introducing this class is that the standard tf/keras caching schemes such as `tf.keras.callbacks.ModelCheckpoint` or `tf.keras.callbacks.BackupAndRestore` do not work well with custom models. Neither does `model_save`.
+  
+* Standardized ML pattern
+  Fully driven by `cdxbasics.Config` configurations with self-documenting configuration handling. Self-declarative `layers.Agent` and `layers.RecurrentAgent`.
+
+* Monitoring training progress 
+  Seggregation of tracking training progress from visualizing it.<br>
+  As a result, the pattern allows multi-processing with `ray`.
+
+    
+### Installation
+
+Install by
+
+    conda install cdx_tf -c hansbuehler
+
+or
+
+    pip install cdx_tf
+
+# Basic usage pattern
+
+The main presumption of the pattern is that there are two kinds of "models" involved in training the desired agents.
+1) The agents themselves
+
+   Such agents are networks which map input features to actions. Such agents will usually be implemented using `models.DenseAgent` or `models.RecurrentAgent` which provides a default implementation pattern for recurrent agents which make self-declarative use of features, and which can have standard configuration patterns for users.
+
+   The `models` module also contains simpler models, encapsulated in `dense_model` which transparently covers, well, dense simple models and variables in the case where the model has no input features. 
+
+2) The `gym`
+
+   This is the model which executes the main business logic around the agents. In case of Deep Hedging, this is the core Monte Carlo loop for hedging derivatives. Gyms are derived from `gym.Gym`, and trained with `gym.train`. 
+
+   **Training**: during training we will typically collect data about the progress of training such as the history of losses,  current agent performance etc. This is implemented by deriving from `gym.ProgressData`. The main idea of `ProgressData` is that it abstracts data collection from the actual visualization of the data. This seggregation allows to send `ProgressData` during training through an asynchronous queue - this way training can be parallelized including across machines. We show an example using `ray`.
+   
+   The core training loop `gym.train` by default caches progress of training, which means that it can be interrupted and picked up again at any time. `train` also handles training and validation sets more robustly than tensorflow does if the sample weights are not uniform.
+
+   The default implementation provides a simple text summaries, but graphical updates as used in Deep Hedging can be implemented using `cdxbasics.dynaplot`.
+
+   **Serialization**: the integrated caching methdology means that a model can easily be restored from a saved file. _Restoration in this package is different than native TensorFlow model serialization_: our serialization will essentially restore all weights of a model reconstructed using Python code correctly - including in the compiled optimizer. The common TensorFlow serialization attempts to serialze the traced ("complied") model. 
+
+   The latter results a faster compiled model, while out method ensures that you have a valid Python object you can work with. It is also our preferred choice during active model development, as it is more robust vs code changes.
