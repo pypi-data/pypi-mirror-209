@@ -1,0 +1,7 @@
+README.md
+setup.py
+qyrm_pipinject.egg-info/PKG-INFO
+qyrm_pipinject.egg-info/SOURCES.txt
+qyrm_pipinject.egg-info/dependency_links.txt
+qyrm_pipinject.egg-info/requires.txt
+qyrm_pipinject.egg-info/top_level.txt
