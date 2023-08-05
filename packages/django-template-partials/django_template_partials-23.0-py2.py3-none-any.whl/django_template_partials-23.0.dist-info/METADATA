@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: django-template-partials
+Version: 23.0
+Summary: django-template-partials
+Author-email: Carlton Gibson <carlton.gibson@noumenal.es>
+Classifier: License :: OSI Approved :: MIT License
+Project-URL: Home, https://noumenal.es/django-template-partials/

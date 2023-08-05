@@ -1,0 +1,5 @@
+template_partials/__init__.py,sha256=NWUN-V3tmXzXSV6iD1w1zABtX8TjqrrChB3npiGnbkU,142
+django_template_partials-23.0.dist-info/LICENSE,sha256=CDiZfc_O_EYR9D_6PWlP3AYZEuf3c6C4Js7ZejOjKsQ,1081
+django_template_partials-23.0.dist-info/WHEEL,sha256=kdeDBNPvBI0w3meLKPoGgAnEr54n1jzrZWUoaLmGzVY,99
+django_template_partials-23.0.dist-info/METADATA,sha256=t2ah12Se_oPjbCV6UrCHtluqfw6yYyF42uy6NME0lKg,275
+django_template_partials-23.0.dist-info/RECORD,,
