@@ -1,0 +1,10 @@
+multidimensionalks/pure.cpython-310-darwin.so,sha256=FNs7aJ_-JrorypWD0pLHyZ3lmioCrg8IuY2oxI3YQSs,259040
+multidimensionalks/avx512.cpython-310-darwin.so,sha256=O3kKXVGmSjie1ZU_1bIGZNB8n2BVjd13PLVJLUayM-I,259120
+multidimensionalks/__init__.py,sha256=F2keT4-ta2gF1xEn0sINTXaTeFeIbZitpbhnvO6ENfY,903
+multidimensionalks/avx2.cpython-310-darwin.so,sha256=75S3ldiTbySW1VBCIgQDY3j_kmjdQTXeLkSMO61hC-g,259104
+multidimensionalks/.dylibs/libboost_system.dylib,sha256=wU1oHh-w0xwfH5yFMaWxvK6OrjjAq0QQUat5Sz5UNe4,35456
+multidimensionalks-0.2.3.dist-info/RECORD,,
+multidimensionalks-0.2.3.dist-info/LICENSE,sha256=7UODKq7EWyxQOf0qTcxd3IEXBpY0E5_pPwjPFf51Z0g,1067
+multidimensionalks-0.2.3.dist-info/WHEEL,sha256=ShK1Kr7nxSHfbhDR_8nkz5IXqG8q6O3PhwKrU5EIe1A,112
+multidimensionalks-0.2.3.dist-info/top_level.txt,sha256=3ee7F0VhexKoUa4zWLTQohI9GQ6Pfo2qgOprEn53x5k,36
+multidimensionalks-0.2.3.dist-info/METADATA,sha256=_6_SNPygzLGt_gN3L1ksrR8TpruMErOuEGqD-NRbYGI,2786
