@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+openui/__init__.py
+openui.egg-info/PKG-INFO
+openui.egg-info/SOURCES.txt
+openui.egg-info/dependency_links.txt
+openui.egg-info/top_level.txt

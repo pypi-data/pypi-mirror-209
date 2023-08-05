@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: openui
+Version: 0.0.1
+Summary: openui
+Home-page: https://github.com/newkincode/openUI
+Author: newkini
+Author-email: maainnewkin59@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# openUI
+
+https://openui.newkini-dev.com
+
+## 사용법
+### 1. openUI를 import합니다.
+```python
+import openUI
+```
