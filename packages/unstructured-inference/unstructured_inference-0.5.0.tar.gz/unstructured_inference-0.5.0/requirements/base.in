@@ -1,0 +1,6 @@
+layoutparser[layoutmodels,tesseract]
+python-multipart
+huggingface-hub
+opencv-python!=4.7.0.68
+onnxruntime
+transformers
