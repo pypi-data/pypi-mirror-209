@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: speechmatics-diarization-metrics
+Version: 0.0.0
+Summary: Python module for evaluating speaker diarisation.
+Author: Speechmatics
+Author-email: support@speechmatics.com
+License: Speechmatics Proprietary License
+Platform: linux
+Requires-Python: >=3.5
+Requires-Dist: pyannote.core
+Requires-Dist: pyannote.database
+Requires-Dist: docopt
+Requires-Dist: tabulate
+Requires-Dist: Sphinx
+Requires-Dist: sphinx-rtd-theme
+
+# diarisation-metrics
+
+This repository is Speechmatics' fork of https://github.com/pyannote/pyannote-metrics. We have changed the project to fit our python project template.
+## Getting Started
+### Wheel
+
+This project is built as a Python wheel by the CI. To download and use an existing wheel, get the latest version of `sm_diarisation_metrics` from Artifactory. e.g.
+
+```
+$ pip3 install --extra-index-url https://artifacts.speechmatics.io/speechmatics/api/pypi/pypi-master/simple sm_diarisation_metrics
+```
+
+This package has a CLI supporting ctm, lab, or V2 JSON format that can be run using eg
+`python3 -m sm_diarisation_metrics.cookbook reference.json transcript.json`
+### Docs
+
+To build the docs run `make docs`. This will create a directory containing HTML docs under `docs/build/html`. Run `make serve-docs` to run a web server to serve these docs locally at http://localhost:8080.
+### Command line interface
+
+For convenience we have created `aladdin.diarization.metrics.sm_diarisation_metrics.cookbook` which features a simplified
+CLI for the most common tasks that we need to perform at Speechmatics for evaluating diarisation.
+
+Currently this CLI just offers one interface which accepts a reference and hypothesis diarisation
+data file in either ctm, lab, or V2 JSON format and returns the diarisation error rate.
+To use this run for example `python3 -m aladdin.diarization.metrics.sm_diarisation_metrics.cookbook ref.ctm hyp.lab`.
+### Tests
+
+Run the unit tests with `make test`.
+### License
+
+This project is released under a proprietary [Speechmatics license](insert-link-here)
