@@ -1,0 +1,10 @@
+usearch/server.py,sha256=hp-W4y4PbbvHqfprClX1T8DIwld62zi3osqWeTv09fA,2653
+usearch/client.py,sha256=mXSaXokESG8pZ87ufhJDpL-pZb7x0rklBdDqoY05jvI,1412
+usearch/io.py,sha256=RXeDDzH6Y2-7q7kIKv1fXQWgeYVyp3VpDns3M0aHYoI,2231
+usearch/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+usearch/index.cpython-37m-darwin.so,sha256=ysLDQMvxW85NMs_Fm7thPIIVdR83RFF9u7Io-emO-ks,517064
+usearch-0.5.0.dist-info/RECORD,,
+usearch-0.5.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+usearch-0.5.0.dist-info/WHEEL,sha256=cn3MqKxXPZf_umXVN9bjU7rU5G5fwrevuD19NAvGz6I,110
+usearch-0.5.0.dist-info/top_level.txt,sha256=zFbid1SmQjk8RsbEgpqF7tTjgWdFvE2z0e1LQ2hKdPg,8
+usearch-0.5.0.dist-info/METADATA,sha256=LLrnZKLXnWw459SYKwF6RYrykiPP4TyOsr9LuOypbD0,18967
