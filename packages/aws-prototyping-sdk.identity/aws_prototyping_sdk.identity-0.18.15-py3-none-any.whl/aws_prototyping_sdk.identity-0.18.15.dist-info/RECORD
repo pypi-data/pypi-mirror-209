@@ -1,0 +1,9 @@
+aws_prototyping_sdk/identity/__init__.py,sha256=-VSPmUxBGKaeiz29KBQKxuiIZmmCgtRw_T6sm74ZgEc,54704
+aws_prototyping_sdk/identity/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_prototyping_sdk/identity/_jsii/__init__.py,sha256=vTKHCjckjw9rlpgknIZVop4l4bCnfvxfAOjTC2b-4Rg,555
+aws_prototyping_sdk/identity/_jsii/identity@0.18.15.jsii.tgz,sha256=uAX7TOHG9tVPHJKqGrg-JudiSt6_VlcIgjKBGznGihQ,49338
+aws_prototyping_sdk.identity-0.18.15.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+aws_prototyping_sdk.identity-0.18.15.dist-info/METADATA,sha256=a_Goxg-D8y831q4UNmahvvEd80aB5vHhn1voVM6Df1Y,2543
+aws_prototyping_sdk.identity-0.18.15.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+aws_prototyping_sdk.identity-0.18.15.dist-info/top_level.txt,sha256=GI4X33MSLMhT7o3n6FDj9jqf2xWUdJ3qEo1cWYKXylw,20
+aws_prototyping_sdk.identity-0.18.15.dist-info/RECORD,,
