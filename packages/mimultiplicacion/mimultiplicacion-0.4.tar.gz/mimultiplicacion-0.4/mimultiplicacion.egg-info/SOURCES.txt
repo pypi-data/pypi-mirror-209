@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+./mimultiplicacion/__init__.py
+mimultiplicacion.egg-info/PKG-INFO
+mimultiplicacion.egg-info/SOURCES.txt
+mimultiplicacion.egg-info/dependency_links.txt
+mimultiplicacion.egg-info/entry_points.txt
+mimultiplicacion.egg-info/requires.txt
+mimultiplicacion.egg-info/top_level.txt
