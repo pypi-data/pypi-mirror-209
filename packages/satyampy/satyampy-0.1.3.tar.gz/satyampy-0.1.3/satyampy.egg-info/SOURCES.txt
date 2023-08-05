@@ -1,0 +1,11 @@
+setup.py
+satyampy/__init__.py
+satyampy/__main__.py
+satyampy.egg-info/PKG-INFO
+satyampy.egg-info/SOURCES.txt
+satyampy.egg-info/dependency_links.txt
+satyampy.egg-info/entry_points.txt
+satyampy.egg-info/top_level.txt
+test/__init__.py
+test/conftest.py
+test/test_satyampy.py
