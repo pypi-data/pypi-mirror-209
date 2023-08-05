@@ -1,0 +1,110 @@
+Metadata-Version: 2.1
+Name: nerv
+Version: 0.2.3
+Summary: Neuroimaging Results Visualization
+Home-page: https://github.com/rmanaem/nerv
+Author: rmanaem
+Author-email: <rmanaem@protonmail.ch>
+License: MIT
+Keywords: python,dash,pandas,data visualization,plotly,neuroscience
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## What's new in 0.2.3
+
+### Added
+
+- Functionality for visualizing multiple experiments
+- Home page, consists of the experiment directories found in the input path
+- Navbar, includes a link to the home page, settings, GitHub, and Docs
+- Settings, includes a theme changer that enables users to modify the application theme to their liking
+
+### Changed
+
+- The `start` function now expects a directory path as input, where each subdirectory represents an experiment and contains the corresponding JSON files for visualization
+- favicon
+
+
+<div align="center">
+
+# Neuroimaging Results Visualization
+
+<div>
+    <a href="https://github.com/rmanaem/nerv/actions/workflows/test.yaml">
+        <img src="https://img.shields.io/github/actions/workflow/status/neurobagel/api/test.yaml?color=BDB76B&label=test&style=flat-square">
+    </a>
+    <a href="https://www.python.org/">
+        <img src="https://img.shields.io/badge/python-3.10-4682B4?style=flat-square" alt="Python">
+    </a>
+    <a href="LICENSE">
+        <img src="https://img.shields.io/github/license/neurobagel/api?color=CD5C5C&style=flat-square" alt="GitHub license">
+    </a>
+</div>
+<br>
+</div>
+
+Neuroimaging Results Visualization (NeRV) is a web interface developed in Python using [Plotly Dash](https://dash.plotly.com/), [Dash Bootstrap Components](https://dash-bootstrap-components.opensource.faculty.ai/), and [pandas](https://pandas.pydata.org/) for visualization of neuroimaging results obtained from continuous testing of neuroimaging data across software pipelines.
+
+- [Getting Started](#getting-started)
+  - [Installation](#installation)
+  - [Example usage](#example-usage)
+- [Deployment](#deployment)
+- [License](#license)
+
+______________________________________________________________________
+
+## Getting Started
+
+### Installation
+
+Install NeRV using pip:
+
+```bash
+pip install nerv
+```
+
+### Example usage
+
+In order for NeRV to generate and populate plots the underlying app requires access to the directory that houses subdirectories, which in turn contain the JSON files to be visualized. The path to directory can be passed to the app as input to the `start` function.
+
+```python
+from nerv import app
+
+app.start("path-to-data-directory")
+```
+
+After executing the file containing the above code snippet, a local server is started at port 8050 (by default). You can access the running NeRV application using a browser through the URL `localhost:8050`.
+
+![ui](https://github.com/rmanaem/nerv/blob/master/img/ui.png?raw=true)
+
+______________________________________________________________________
+
+## Deployment
+
+To deploy your NeRV app, you can utilize [Gunicorn](https://gunicorn.org/). Simply follow the instructions outlined in the Dash documentation [here](https://dash.plotly.comdeployment#heroku-for-sharing-public-dash-apps), making the necessary adjustment in the app.py module content:
+
+**app.py**
+
+```Python
+from nerv import app
+
+server = app.start("path-to-data-directory", False)
+```
+
+Note that when the `local` parameter of the `start` function is set to `False`, it will return the `app.server` object. This object represents the underlying Flask server that drives the Dash application. You can utilize the `app.server` object to customize and extend the NeRV application, going beyond the default functionality offered. For more details, refer to the [Flask documentation](https://flask.palletsprojects.com/).
+
+______________________________________________________________________
+
+## License
+
+This project is licensed under the terms of [MIT License](LICENSE).
+
+
