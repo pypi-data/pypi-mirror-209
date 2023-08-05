@@ -1,0 +1,15 @@
+README.rst
+setup.cfg
+setup.py
+vsp_model_insight_influxdb/__init__.py
+vsp_model_insight_influxdb.egg-info/PKG-INFO
+vsp_model_insight_influxdb.egg-info/SOURCES.txt
+vsp_model_insight_influxdb.egg-info/dependency_links.txt
+vsp_model_insight_influxdb.egg-info/namespace_packages.txt
+vsp_model_insight_influxdb.egg-info/not-zip-safe
+vsp_model_insight_influxdb.egg-info/requires.txt
+vsp_model_insight_influxdb.egg-info/top_level.txt
+vsp_model_insight_influxdb/common/__init__.py
+vsp_model_insight_influxdb/common/protocol.py
+vsp_model_insight_influxdb/common/schedule.py
+vsp_model_insight_influxdb/influxdb/__init__.py
