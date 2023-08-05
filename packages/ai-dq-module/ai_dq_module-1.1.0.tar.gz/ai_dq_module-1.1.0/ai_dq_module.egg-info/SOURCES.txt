@@ -1,0 +1,8 @@
+README.md
+setup.py
+utility.py
+ai_dq_module.egg-info/PKG-INFO
+ai_dq_module.egg-info/SOURCES.txt
+ai_dq_module.egg-info/dependency_links.txt
+ai_dq_module.egg-info/requires.txt
+ai_dq_module.egg-info/top_level.txt
