@@ -1,0 +1,4 @@
+streq
+nemony
+tqdm
+pyyaml
