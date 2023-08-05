@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: smartlogger
+Version: 0.0.1.dev6
+Summary: python logging client for SmartDash
+Home-page: https://github.com/notAI-tech/smartdash
+Author: BEDAPUDI PRANEETH
+Author-email: praneeth@bpraneeth.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+
+
+```python
+from smartlogger import SmartTimer
+
+timer = SmartTimer(NAME, save_to_dir="./")
+
+timer.start(unique_id)
+timer.stage_success(unique_id, name="pre_processing")
+timer.stage_failed(unique_id, name="feature_extraction")
+timer.stage_success(unique_id, name="feature_extraction")
+timer.finished(unique_id)
+
+
+from smartlogger import SmartLogger
+
+logger = SmartLogger(NAME, save_to_dir="./")
+
+logger.debug(u_id, "message_1", 6, {}, [], ...)
+logger.info(u_id, ....)
+logger.warning(u_id, ...)
+logger.exception(u_id, ....)
+logger.ml_inputs_outputs(u_id, INPUTS, OUTPUTS, MODEL_TYPE="")
+
+```
