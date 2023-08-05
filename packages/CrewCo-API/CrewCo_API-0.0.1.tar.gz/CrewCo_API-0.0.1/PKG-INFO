@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: CrewCo_API
+Version: 0.0.1
+Summary: CrewCo's beta API
+Author-email: CrewCo <crewco.99@gmail.com>
+Project-URL: Homepage, https://github.com/Crew-co/CrewCo_API/
+Project-URL: Bug Tracker, https://github.com/Crew-co/CrewCo_API//issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# CrewCo API
+
+You can use
+[CrewCo-API](https://github.com/Crew-co/CrewCo_API/)
+to write your content.

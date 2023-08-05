@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/CrewCo_API.egg-info/PKG-INFO
+src/CrewCo_API.egg-info/SOURCES.txt
+src/CrewCo_API.egg-info/dependency_links.txt
+src/CrewCo_API.egg-info/top_level.txt
+src/crewco_api/__init__.py
+src/crewco_api/api.py
+src/crewco_api/main.py
