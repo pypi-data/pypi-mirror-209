@@ -1,0 +1,39 @@
+name: Code coverage report
+
+on:
+  pull_request:
+  push:
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Setup Micromamba
+      uses: mamba-org/provision-with-micromamba@v15
+      with:
+        environment-file: false
+
+    - name: Setup Env
+      shell: bash -l {0}
+      run: >
+        micromamba create --name TEST python=3 pip --file requirements.txt --file test_requirements.txt --channel conda-forge
+        && micromamba activate TEST
+        && pip install -e . --no-deps --force-reinstall
+
+    - name: Run tests with coverage
+      shell: bash -l {0}
+      run: |
+        micromamba activate TEST
+        pytest --cov=compliance_checker --cov-report=xml compliance_checker/tests
+      # pass this step even if there are individual test failures, we are
+      # interested in the overall level of coverage and other checks can
+      # report on test failures.
+      continue-on-error: true
+
+    - name: Upload to codecov
+      uses: codecov/codecov-action@v3
+      with:
+        files: coverage.xml
