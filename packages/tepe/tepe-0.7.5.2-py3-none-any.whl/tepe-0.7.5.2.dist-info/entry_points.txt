@@ -1,0 +1,3 @@
+[console_scripts]
+tepe = tepe.core.cli:main
+

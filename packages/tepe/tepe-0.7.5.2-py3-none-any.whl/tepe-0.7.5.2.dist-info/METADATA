@@ -1,0 +1,171 @@
+Metadata-Version: 2.1
+Name: tepe
+Version: 0.7.5.2
+Summary: A concise and unified toolkit for Training, Evalutation, Prediction and Export (TEPE)
+Home-page: UNKNOWN
+Author: Lenovo Reaserch SD&S
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: albumentations
+Requires-Dist: loguru
+Requires-Dist: addict
+Requires-Dist: tabulate
+Requires-Dist: PyYAML
+Requires-Dist: lxml
+
+## TEPE
+A concise and unified toolkit for **T**raining, **E**valutation, **P**rediction and **E**xport (**TEPE**).
+
+<div align="center">
+
+<img src="docs/images/title.png" />
+
+</div>
+
+&#x1F31F; **TEPE特点：** 将深度学习各个部件的构建与参数配置统一成一个任务类，提供默认参数和默认实现。开发者只需要继承任务类，改动相关参数，就可快速训练、验证、预测、导出自己的模型。
+
+The supported algorithms are as follows, 
+
+- classification: 
+    - [x] MobileNetv2  &#x1F44C;
+    - [x] SimpleNet  &#x1F44C;
+- detection:
+    - [x] SSDLite-RFB  &#x1F44C;
+    - [x] YOLOv5  &#x1F44C;
+    - [x] YOLOX  &#x1F44C;
+    - [x] NanoDet  &#x1F44C;
+- segmentation: 
+    - [x] MobileNet-DeepLabv3  &#x1F44C;
+- keypoint
+    - [x] ShuffleNet-heatmap  &#x1F44C;
+- anomaly detection:
+    - [x] CFA  &#x1F44C;
+    - [x] RD  &#x1F44C;
+- few-shot detection:
+    - [x] Attention-RPN
+- line
+    - [x] ShuffleNet-line  &#x1F44C;
+- tracking
+
+## 快速安装
+
+可以直接运行下列命令，本地conda环境配置和服务器docker使用详见：[环境安装](./docs/Installation.md)
+
+```bash
+## step1 克隆仓库
+git clone git@10.106.249.57:SD/tepe.git
+## step2 转到tepe目录下
+cd tepe
+## step3 安装相关依赖
+pip install -r requirements.txt
+## step4 将tepe安装到环境中
+pip install -v -e .  # or "python setup.py develop"
+```
+
+## 快速使用
+
+```python
+from tepe import get_task
+
+task = get_task('yolov5')
+task.data_root = ""
+task.num_classes = 2
+...
+
+# 训练
+task.train()
+
+# 评估
+task.weights = ""  # 模型权重路径
+task.eval()
+
+# 导出
+task.export()
+
+# 预测
+task.predict(source={img|fold|video}, view_img=False, save_img=True)
+```
+
+## 通过配置文件调用（推荐）
+### 1. 创建配置文件
+
+参考`configs/samples`目录下的配置文件，**复制/创建**一个自己需要的config.py文件，它既可以当作配置文件，也可以当作程序运行的入口。它里面包含一个任务配置类，这个类需要继承一个默认的配置类，默认配置类在`tepe/tasks/*/task.py`中实现。
+
+以yolov5表计检测为例：
+
+```python
+## config.py
+from tepe.tasks.yolov5 import YOLOv5Config
+
+class TaskConfig(YOLOv5Config):
+    def __init__(self):
+        super(TaskConfig, self).__init__()
+        self.task_name = 'v5_meter'
+
+        # dataset config ------------------
+        self.CLASS = ('meter',)  
+        self.num_classes = 1
+        self.data_root = ""  # 数据集路径
+
+        # model config --------------------
+        self.yolov5_type = 'n'
+        self.input_size = 320
+
+        # training config -----------------
+        self.max_epoch = 50
+```
+
+### 2. 调用配置文件
+
+有两种调用方式：
+
+**方法一：使用命令行**
+
+```bash
+tepe {train eval, predict, export} [-h]
+```
+
+**方法二：代码中实例化配置类，直接调用接口**
+
+
+```python
+## 实例化方法一：
+task = TaskConfig()
+## 实例化方法二：
+import tepe
+task = tepe.get_task("config.py")
+```
+
+
+## 更新日志：
+
+**[2023/03/28]** shufflenet-line来了！通过heatmap的方式进行线段检测
+
+**[2023/02/27]** shufflenet-heatmap-v2来了！效果更好的关键点检测方法
+
+**[2022/11/21]** yolov5训练时可以支持yolo/voc/coco三种结构的数据集
+
+**[2022/10/24]** 新的分支：添加异物检测分支anomaly_detection
+
+**[2022/09/22]** 新的功能：可以通过http请求来进行存图片,训练,导出,预测等操作
+
+**[2022/09/14]** 实现了异常检测(anomaly detection)知识蒸馏算法rd的训练train和导出export
+
+**[2022/09/06]** few-shot算法attention_rpn目前可以在tepe上跑predict，详见[传送门](./tepe/tasks/attention_rpn/README.txt)
+
+**[2022/04/07]** 仓库建立
+
+---
+
+更多任务的相关介绍、数据准备教程可见：
+
+- [图像分类](./docs/tutorials/%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB.md)
+- [目标检测](./docs/tutorials/%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B.md)
+- [语义分割](./docs/tutorials/%E8%AF%AD%E4%B9%89%E5%88%86%E5%89%B2.md)
+
+
