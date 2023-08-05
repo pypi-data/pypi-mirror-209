@@ -1,0 +1,5 @@
+setup.py
+vendor_yaml.egg-info/PKG-INFO
+vendor_yaml.egg-info/SOURCES.txt
+vendor_yaml.egg-info/dependency_links.txt
+vendor_yaml.egg-info/top_level.txt
