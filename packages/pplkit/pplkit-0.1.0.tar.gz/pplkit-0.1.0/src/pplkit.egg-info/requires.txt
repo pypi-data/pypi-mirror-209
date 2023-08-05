@@ -1,0 +1,13 @@
+dill
+pyyaml
+pandas[parquet]
+tomli
+tomli-w
+
+[docs]
+sphinx
+sphinx-autodoc-typehints
+furo
+
+[test]
+pytest
