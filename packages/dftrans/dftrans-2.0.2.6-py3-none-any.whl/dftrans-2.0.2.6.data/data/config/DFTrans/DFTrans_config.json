@@ -1,0 +1,4135 @@
+{
+    "usecolnameforprocess": true,
+    "showversioninfo": true,
+    "ramfilesuffix": "ram",
+    "originfunctiondict": {
+        "dfrowsdel": {
+            "argcitems": [
+                "rows"
+            ],
+            "argc": {
+                "rows": {
+                    "type": "rows",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "按行序号",
+                    "comment": "删除的行序号",
+                    "long_comment": "删除的行序号, 可多行[l, m, n...]"
+                }
+            },
+            "argv": {}
+        },
+        "dfrowsduplicatedel": {
+            "argcitems": [
+                "columns"
+            ],
+            "argc": {
+                "columns": {
+                    "type": "columns",
+                    "validvalue": [],
+                    "defaultvalue": null,
+                    "sentence": "根据索引列",
+                    "comment": "判断重复值的列",
+                    "long_comment": "判断重复值的列（可多列）"
+                }
+            },
+            "argv": {
+                "keep": {
+                    "type": "strcombo",
+                    "validvalue": [
+                        "first",
+                        "last"
+                    ],
+                    "defaultvalue": "first",
+                    "sentence": "按保留方式（first：第一行，last：最后一行）",
+                    "comment": "保留方式（first：第一行，last：最后一行）",
+                    "long_comment": "保留方式（first：第一行，last：最后一行）"
+                },
+                "inplace": {
+                    "type": "bool",
+                    "validvalue": [
+                        true,
+                        false
+                    ],
+                    "defaultvalue": true,
+                    "sentence": "替换原表(True:是，False：否）",
+                    "comment": "是否替换原表(True:是，False：否）",
+                    "long_comment": "是否替换原表(True:是，False：否）"
+                },
+                "ignore_index": {
+                    "type": "bool",
+                    "validvalue": [
+                        true,
+                        false
+                    ],
+                    "defaultvalue": true,
+                    "sentence": "重建索引（True：是， False：否）",
+                    "comment": "是否重建索引（True：是， False：否）",
+                    "long_comment": "是否重建索引（True：是， False：否）"
+                }
+            }
+        },
+        "dfrowsclear": {
+            "argcitems": [
+                "rows"
+            ],
+            "argc": {
+                "rows": {
+                    "type": "rows",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "对行",
+                    "comment": "指定清空的行号列表",
+                    "long_comment": "指定清空的行号列表"
+                }
+            },
+            "argv": {}
+        },
+        "dfrowmove": {
+            "argcitems": [
+                "sourcerowlist",
+                "targetrowlist"
+            ],
+            "argc": {
+                "sourcerowlist": {
+                    "type": "rows",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "将行",
+                    "comment": "移动的行号列表",
+                    "long_comment": "移动的行号列表[l], 负值表示从最后一行倒数"
+                },
+                "targetrowlist": {
+                    "type": "rows",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "移动到行",
+                    "comment": "移动到的行号列表",
+                    "long_comment": "移动到的行号列表[l], 负值表示从最后一行倒数"
+                }
+            },
+            "argv": {}
+        },
+        "dfrowmarkna": {
+            "argcitems": [],
+            "argc": {},
+            "argv": {
+                "allnaflag": {
+                    "type": "bool",
+                    "validvalue": [
+                        true,
+                        false
+                    ],
+                    "defaultvalue": true,
+                    "sentence": "按(True:全空，False：有空值)",
+                    "comment": "全空：True， 有空值：False",
+                    "long_comment": "全空：True， 有空值：False"
+                },
+                "markcolumnname": {
+                    "type": "str",
+                    "validvalue": [],
+                    "defaultvalue": "空值行标记",
+                    "sentence": "生成标记列：",
+                    "comment": "判断后的结果列名",
+                    "long_comment": "判断后的结果列名"
+                }
+            }
+        },
+        "dfrowsmarkdel": {
+            "argcitems": [
+                "markcolumns"
+            ],
+            "argc": {
+                "markcolumns": {
+                    "type": "columns",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "按列序号",
+                    "comment": "删除标记所在列序号",
+                    "long_comment": "删除标记所在列序号[l, m, n,...]，仅第一个有效"
+                }
+            },
+            "argv": {
+                "delmarkvalue": {
+                    "type": "bool",
+                    "validvalue": [
+                        true,
+                        false
+                    ],
+                    "defaultvalue": true,
+                    "sentence": "按值",
+                    "comment": "删除的标记",
+                    "long_comment": "删除的标记"
+                }
+            }
+        },
+        "dfrowsmarkfill": {
+            "argcitems": [
+                "columns"
+            ],
+            "argc": {
+                "columns": {
+                    "type": "columns",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "按填值列",
+                    "comment": "填值的列号",
+                    "long_comment": "填值的列号（列名），可以多列"
+                }
+            },
+            "argv": {
+                "fillvalue": {
+                    "type": "object",
+                    "validvalue": [],
+                    "defaultvalue": "None",
+                    "sentence": "填充的值",
+                    "comment": "用于填充的值",
+                    "long_comment": "用于填充的值"
+                },
+                "markcolumns": {
+                    "type": "columns",
+                    "validvalue": [],
+                    "defaultvalue": [
+                        [],
+                        []
+                    ],
+                    "sentence": "按标记列",
+                    "comment": "用于判断的标记列",
+                    "long_comment": "用于判断的标记列（第一个有效）"
+                },
+                "fillmarkvalue": {
+                    "type": "bool",
+                    "validvalue": [
+                        true,
+                        false
+                    ],
+                    "defaultvalue": true,
+                    "sentence": "按标记值：",
+                    "comment": "用于判断的标记值",
+                    "long_comment": "用于判断的标记值"
+                }
+            }
+        },
+        "dfrowreindex": {
+            "argcitems": [],
+            "argc": {},
+            "argv": {}
+        },
+        "dfaddrow": {
+            "argcitems": [
+                "rowvaluelist"
+            ],
+            "argc": {
+                "rowvaluelist": {
+                    "type": "rowvaluelist",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "按行值",
+                    "comment": "新增的行值",
+                    "long_comment": "新增的行值，[]或者长度与表列数一致[l,m,n...]"
+                }
+            },
+            "argv": {}
+        },
+        "dfupdaterow": {
+            "argcitems": [
+                "rownumber",
+                "rowvaluelist"
+            ],
+            "argc": {
+                "rownumber": {
+                    "type": "rows",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "对行号",
+                    "comment": "修改值的行号",
+                    "long_comment": "修改值的行号list(第一个有效）"
+                },
+                "rowvaluelist": {
+                    "type": "rowvaluelist",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "按行值",
+                    "comment": "新的行值",
+                    "long_comment": "新的行值，长度与表列数一致[l,m,n...]"
+                }
+            },
+            "argv": {}
+        },
+        "dfrowcellfill": {
+            "argcitems": [
+                "rowslist",
+                "columns"
+            ],
+            "argc": {
+                "rowslist": {
+                    "type": "rows",
+                    "validvalue": [],
+                    "defaultvalue": [
+                        -1
+                    ],
+                    "sentence": "对行号",
+                    "comment": "指定的将填值的行号",
+                    "long_comment": "指定的将填值的行号，可多行，负数从表尾倒数"
+                },
+                "columns": {
+                    "type": "columns",
+                    "validvalue": [],
+                    "defaultvalue": [
+                        [],
+                        []
+                    ],
+                    "sentence": "及列",
+                    "comment": "将填值的列号（列名）",
+                    "long_comment": "将填值的列号（列名）,可以多列"
+                }
+            },
+            "argv": {
+                "fillvalue": {
+                    "type": "object",
+                    "validvalue": [],
+                    "defaultvalue": "None",
+                    "sentence": "按值",
+                    "comment": "用于填写的值",
+                    "long_comment": "用于填写的对象值"
+                }
+            }
+        },
+        "dfrowsum": {
+            "argcitems": [
+                "columns",
+                "targetrow"
+            ],
+            "argc": {
+                "columns": {
+                    "type": "columns",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "按列序号",
+                    "comment": "求和的列序号",
+                    "long_comment": "求和的相关列的列表，可多个[l, m, n...]"
+                },
+                "targetrow": {
+                    "type": "int",
+                    "validvalue": [],
+                    "defaultvalue": 999999,
+                    "sentence": "输出合计行号：",
+                    "comment": "求和后输出的行号",
+                    "long_comment": "求和后输出的行号\\n(负数为行尾倒数，大于现有行数为表尾新增)"
+                }
+            },
+            "argv": {}
+        },
+        "dfrowmultilevelcopy": {
+            "argcitems": [
+                "columns"
+            ],
+            "argc": {
+                "columns": {
+                    "type": "columns",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "按列序号",
+                    "comment": "赋值列的列序号",
+                    "long_comment": "赋值列的相关列的列表，可多个[l, m, n...]"
+                }
+            },
+            "argv": {
+                "fillna": {
+                    "type": "object",
+                    "validvalue": [],
+                    "defaultvalue": null,
+                    "sentence": "按值：",
+                    "comment": "用于临时替换空值的值：",
+                    "long_comment": "用于临时替换空值的值 "
+                },
+                "rownanflag": {
+                    "type": "bool",
+                    "validvalue": [
+                        true,
+                        false
+                    ],
+                    "defaultvalue": false,
+                    "sentence": "是否全行为空才赋值(True:是, False:否)",
+                    "comment": "是否全行为空才赋值",
+                    "long_comment": "是否全行为空才赋值：True 是， False 否"
+                }
+            }
+        },
+        "dfrowcombine": {
+            "argcitems": [
+                "rowslist",
+                "columns",
+                "targetrow"
+            ],
+            "argc": {
+                "rowslist": {
+                    "type": "rows",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "按行序号",
+                    "comment": "合并的行序号",
+                    "long_comment": "合并的相关行的列表，可多个[l, m, n...]"
+                },
+                "columns": {
+                    "type": "columns",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "按列序号",
+                    "comment": "合并的列序号",
+                    "long_comment": "合并的相关列的列表，可多个[l, m, n...]"
+                },
+                "targetrow": {
+                    "type": "int",
+                    "validvalue": [],
+                    "defaultvalue": 999999,
+                    "sentence": "输出合并行号：",
+                    "comment": "合并后输出的行号",
+                    "long_comment": "合并后生成的行号(负数表示表尾倒数，大于当前行数表示新增）"
+                }
+            },
+            "argv": {
+                "seperate": {
+                    "type": "str",
+                    "validvalue": [],
+                    "defaultvalue": "\n",
+                    "sentence": "按衔接字符：",
+                    "comment": "衔接行的字符串",
+                    "long_comment": "用于衔接行的字符串"
+                },
+                "nanreplace": {
+                    "type": "str",
+                    "validvalue": [],
+                    "defaultvalue": "-",
+                    "sentence": "用以替换nan的值：",
+                    "comment": "用以替换nan的值",
+                    "long_comment": "用以替换nan的值"
+                }
+            }
+        },
+        "dfrowsubtract": {
+            "argcitems": [
+                "rowslist",
+                "columns",
+                "targetrow"
+            ],
+            "argc": {
+                "rowslist": {
+                    "type": "rows",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "对行序号",
+                    "comment": "求差的行序号",
+                    "long_comment": "求差相关行的列表，多于1个[l, m, n...]，只求前两个差值"
+                },
+                "columns": {
+                    "type": "columns",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "按列序号",
+                    "comment": "行求差的列序号",
+                    "long_comment": "行求差的相关列的列表，可多个[l, m, n...]"
+                },
+                "targetrow": {
+                    "type": "int",
+                    "validvalue": [],
+                    "defaultvalue": 999999,
+                    "sentence": "输出求差结果行号：",
+                    "comment": "求差后输出的行号",
+                    "long_comment": "求差后输出的行号（负数从表尾倒数，超过表长度表示表尾新增）"
+                }
+            },
+            "argv": {}
+        },
+        "dfrowspecialprocess": {
+            "argcitems": [
+                "rowslist",
+                "targetrow",
+                "processstr"
+            ],
+            "argc": {
+                "rowslist": {
+                    "type": "rows",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "基于行序号",
+                    "comment": "进行处理的行序号列表",
+                    "long_comment": "进行处理的行序号，可多个[l, m, n...]"
+                },
+                "targetrow": {
+                    "type": "int",
+                    "validvalue": [],
+                    "defaultvalue": 999999,
+                    "sentence": "输出行号：",
+                    "comment": "行处理输出的行号",
+                    "long_comment": "行处理输出的行号"
+                },
+                "processstr": {
+                    "type": "strcombo",
+                    "validvalue": [
+                        "lambda x : ( True if x[0] > 0 else False) ",
+                        "lambda x : ( True if x[0] != 0 else False) ",
+                        "lambda x : ( True if sum(x) >=0 else False )",
+                        "lambda x : ( x[0] - x[1] ) ",
+                        "lambda x : ( sum(x) ) ",
+                        "lambda x : ( \"新行批量填充值\" )",
+                        "lambda x : ( \"大于10\" if x[0] > 10 else \"小于等于10\") ",
+                        "lambda x : str(x[0]).startswith(\"1\")"
+                    ],
+                    "defaultvalue": "",
+                    "sentence": "根据处理函数",
+                    "comment": "lambda函数",
+                    "long_comment": "用于行处理的lambda函数, 参数与所选行数一致"
+                }
+            },
+            "argv": {}
+        },
+        "dfcolumnswap": {
+            "argcitems": [
+                "columns"
+            ],
+            "argc": {
+                "columns": {
+                    "type": "columns",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "按列序号",
+                    "comment": "交换位置的列序号",
+                    "long_comment": "交换位置的两列的列序号，[m, n]"
+                }
+            },
+            "argv": {}
+        },
+        "dfcolumnmove": {
+            "argcitems": [
+                "sourcecolumnlist",
+                "targetcolumnlist"
+            ],
+            "argc": {
+                "sourcecolumnlist": {
+                    "type": "columns",
+                    "validvalue": [],
+                    "defaultvalue": [
+                        [],
+                        []
+                    ],
+                    "sentence": "将列",
+                    "comment": "移动的列号列表",
+                    "long_comment": "移动的列号列表[l], 负值表示从最后一列倒数"
+                },
+                "targetcolumnlist": {
+                    "type": "columns",
+                    "validvalue": [],
+                    "defaultvalue": [
+                        [],
+                        []
+                    ],
+                    "sentence": "移动到列",
+                    "comment": "移动到的列号列表",
+                    "long_comment": "移动到的列号列表[l], 负值表示从最后一列倒数"
+                }
+            },
+            "argv": {}
+        },
+        "dfcolumnstoheadortail": {
+            "argcitems": [
+                "sourcecolumnlist"
+            ],
+            "argc": {
+                "sourcecolumnlist": {
+                    "type": "columns",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "将列",
+                    "comment": "移动的列号列表",
+                    "long_comment": "移动的列号列表[l], 负值表示从最后一列倒数"
+                }
+            },
+            "argv": {
+                "tailflag": {
+                    "type": "bool",
+                    "validvalue": [
+                        true,
+                        false
+                    ],
+                    "defaultvalue": true,
+                    "sentence": ",(False, 移动到列头; True,移动到列尾）:",
+                    "comment": "移动到列尾或者列头",
+                    "long_comment": "移动到列尾或者列头: True：列尾， False：列头"
+                }
+            }
+        },
+        "dfexplode": {
+            "argcitems": [
+                "positionlist",
+                "columns"
+            ],
+            "argc": {
+                "positionlist": {
+                    "type": "newtable",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "展开生成新表",
+                    "comment": "展开后生成的新表序号",
+                    "long_comment": "展开后生成的新表序号"
+                },
+                "columns": {
+                    "type": "columns",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "按列序号",
+                    "comment": "用于展开的列",
+                    "long_comment": "用于展开的列，第一个值有效，[m, n]"
+                }
+            },
+            "argv": {
+                "ignore_index": {
+                    "type": "bool",
+                    "validvalue": [
+                        true,
+                        false
+                    ],
+                    "defaultvalue": true,
+                    "sentence": ",(False, 保留原有行索引; True,删除原有行索引）:",
+                    "comment": "是否重建行索引",
+                    "long_comment": "是否产生新行索引\nFalse保留原索引（重复），True不保留原索引（每行索引唯一值）"
+                }
+            }
+        },
+        "dfcolumncombine": {
+            "argcitems": [
+                "columns",
+                "combinecolname"
+            ],
+            "argc": {
+                "columns": {
+                    "type": "columns",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "按列序号",
+                    "comment": "合并的列序号",
+                    "long_comment": "合并的相关列的列表，可多个[l, m, n...]"
+                },
+                "combinecolname": {
+                    "type": "str",
+                    "validvalue": [],
+                    "defaultvalue": "合并列名",
+                    "sentence": "输出列名：",
+                    "comment": "合并后输出的列名",
+                    "long_comment": "合并后生成的新列列名"
+                }
+            },
+            "argv": {
+                "seperate": {
+                    "type": "str",
+                    "validvalue": [],
+                    "defaultvalue": "\n",
+                    "sentence": "按衔接字符：",
+                    "comment": "衔接列的字符串",
+                    "long_comment": "用于衔接列的字符串"
+                },
+                "nanreplace": {
+                    "type": "str",
+                    "validvalue": [],
+                    "defaultvalue": "-",
+                    "sentence": "用以替换nan的值：",
+                    "comment": "用以替换nan的值",
+                    "long_comment": "用于衔接两列的字符串"
+                }
+            }
+        },
+        "dfcolumnsum": {
+            "argcitems": [
+                "columns",
+                "sumcolname"
+            ],
+            "argc": {
+                "columns": {
+                    "type": "columns",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "按列序号",
+                    "comment": "求和的列序号",
+                    "long_comment": "求和的相关列的列表，可多个[l, m, n...]"
+                },
+                "sumcolname": {
+                    "type": "str",
+                    "validvalue": [],
+                    "defaultvalue": "求和列名",
+                    "sentence": "输出列名：",
+                    "comment": "求和后输出的列名",
+                    "long_comment": "求和后生成的新列列名"
+                }
+            },
+            "argv": {}
+        },
+        "dfcolumnshift": {
+            "argcitems": [
+                "columns"
+            ],
+            "argc": {
+                "columns": {
+                    "type": "columns",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "移位列：",
+                    "comment": "对指定的列进行移位操作",
+                    "long_comment": "对指定的列进行移位操作"
+                }
+            },
+            "argv": {
+                "shiftrows": {
+                    "type": "int",
+                    "validvalue": [],
+                    "defaultvalue": 1,
+                    "sentence": "移位行数：",
+                    "comment": "进行移位的行数，可为负数",
+                    "long_comment": "进行移位的行数，可为负数"
+                },
+                "circleflag": {
+                    "type": "bool",
+                    "validvalue": [
+                        true,
+                        false
+                    ],
+                    "defaultvalue": false,
+                    "sentence": "循环移位：",
+                    "comment": "是否循环移位：False-不循环，True-循环",
+                    "long_comment": "是否循环移位：False-不循环，True-循环"
+                },
+                "fillnan": {
+                    "type": "object",
+                    "validvalue": [],
+                    "defaultvalue": "None",
+                    "sentence": "非循环填充值：",
+                    "comment": "非循环填充值",
+                    "long_comment": "非循环填充值"
+                },
+                "newcolname": {
+                    "type": "str",
+                    "validvalue": [],
+                    "defaultvalue": "移位列名",
+                    "sentence": "新列名：",
+                    "comment": "移位后生成的新列名",
+                    "long_comment": "移位后生成的新列名"
+                }
+            }
+        },
+        "dfcolumnsubtract": {
+            "argcitems": [
+                "columns",
+                "subcolname"
+            ],
+            "argc": {
+                "columns": {
+                    "type": "columns",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "按列序号",
+                    "comment": "求差的列序号",
+                    "long_comment": "求差的两列列序号，[m, n]"
+                },
+                "subcolname": {
+                    "type": "str",
+                    "validvalue": [],
+                    "defaultvalue": "求差列名",
+                    "sentence": "输出列名：",
+                    "comment": "求差后输出的列名",
+                    "long_comment": "求差后生成的新列列名"
+                }
+            },
+            "argv": {}
+        },
+        "dfcolumnsdel": {
+            "argcitems": [
+                "columns"
+            ],
+            "argc": {
+                "columns": {
+                    "type": "columns",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "按列序号",
+                    "comment": "删除的列序号",
+                    "long_comment": "删除的列序号，可多个[l, m, n...]"
+                }
+            },
+            "argv": {}
+        },
+        "dfcolumnsclear": {
+            "argcitems": [
+                "columns"
+            ],
+            "argc": {
+                "columns": {
+                    "type": "columns",
+                    "validvalue": [],
+                    "defaultvalue": [
+                        [],
+                        []
+                    ],
+                    "sentence": "对列",
+                    "comment": "指定清空的列",
+                    "long_comment": "指定清空的列"
+                }
+            },
+            "argv": {}
+        },
+        "dfcolumnsmarkdel": {
+            "argcitems": [
+                "markrows"
+            ],
+            "argc": {
+                "markrows": {
+                    "type": "rows",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "按行序号",
+                    "comment": "删除标记所在行序号",
+                    "long_comment": "删除标记所在行序号[l, m, n,...]，仅第一个有效，负数为从最后一行倒数"
+                }
+            },
+            "argv": {
+                "delmarkvalue": {
+                    "type": "bool",
+                    "validvalue": [],
+                    "defaultvalue": true,
+                    "sentence": "按值",
+                    "comment": "删除的标记",
+                    "long_comment": "删除的标记"
+                }
+            }
+        },
+        "dfextractcolumns": {
+            "argcitems": [
+                "columns"
+            ],
+            "argc": {
+                "columns": {
+                    "type": "columns",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "按列序号",
+                    "comment": "抽取的列序号",
+                    "long_comment": "抽取的列的列序号，可多个[l, m, n...]"
+                }
+            },
+            "argv": {}
+        },
+        "dfcolumnrename": {
+            "argcitems": [
+                "headings"
+            ],
+            "argc": {
+                "headings": {
+                    "type": "columnname",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "按列名",
+                    "comment": "用于更名的新列名",
+                    "long_comment": "用于更名的新列名，总数需要和对应表的列数一致！[l1, m1, n1...]"
+                }
+            },
+            "argv": {}
+        },
+        "dfcolumntypeset": {
+            "argcitems": [
+                "columns",
+                "columntype"
+            ],
+            "argc": {
+                "columns": {
+                    "type": "columns",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "按列序号",
+                    "comment": "设置类型的列序号",
+                    "long_comment": "设置类型的列序号, 可多个[l, m, n,...]"
+                },
+                "columntype": {
+                    "type": "strcombo",
+                    "validvalue": [
+                        "str",
+                        "float",
+                        "int32",
+                        "int64",
+                        "datetime",
+                        "str2object"
+                    ],
+                    "defaultvalue": "str",
+                    "sentence": "基于列类型",
+                    "comment": "设置的列类型",
+                    "long_comment": "需要设置的列类型"
+                }
+            },
+            "argv": {}
+        },
+        "dfsortbycolumns": {
+            "argcitems": [
+                "columns"
+            ],
+            "argc": {
+                "columns": {
+                    "type": "columns",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "基于列序号",
+                    "comment": "排序的索引列序号",
+                    "long_comment": "用于排序的索引列列号，可多个[l, m, n...]，需要与排序顺序个数一致"
+                }
+            },
+            "argv": {
+                "hancolumns": {
+                    "type": "columns",
+                    "validvalue": [],
+                    "defaultvalue": [
+                        [],
+                        []
+                    ],
+                    "sentence": "按汉字排序的列",
+                    "comment": "需要按汉字排序的列",
+                    "long_comment": "需要按汉字排序的列，与汉字排序顺序个数一致"
+                },
+                "ascending": {
+                    "type": "list",
+                    "validvalue": [],
+                    "defaultvalue": [
+                        true
+                    ],
+                    "sentence": "按(True:升序, False:降序)",
+                    "comment": "升降序方式",
+                    "long_comment": "升降序方式选择：True：升序, False: 降序,个数与排序列个数一致"
+                },
+                "hanascending": {
+                    "type": "list",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "按汉字(True:升序, False:降序)",
+                    "comment": "汉字列升降序方式",
+                    "long_comment": "汉字列升降序方式选择：True：升序, False: 降序,个数与汉字排序列个数一致"
+                }
+            }
+        },
+        "dfnewcolumn": {
+            "argcitems": [],
+            "argc": {},
+            "argv": {
+                "columnname": {
+                    "type": "str",
+                    "validvalue": [],
+                    "defaultvalue": "新列",
+                    "sentence": "基于列名",
+                    "comment": "新增列的列名",
+                    "long_comment": "新增列的列名"
+                },
+                "dtype": {
+                    "type": "strcombo",
+                    "validvalue": [
+                        "str",
+                        "float",
+                        "int",
+                        "int64"
+                    ],
+                    "defaultvalue": "str",
+                    "sentence": "使用类型",
+                    "comment": "新增列的类型",
+                    "long_comment": "新增列的类型"
+                },
+                "columnfillvalue": {
+                    "type": "str",
+                    "validvalue": [],
+                    "defaultvalue": "",
+                    "sentence": "按填充值",
+                    "comment": "新列填充值",
+                    "long_comment": "新列填充值"
+                }
+            }
+        },
+        "dfgroupbycountmark": {
+            "argcitems": [
+                "indexcolumns",
+                "markcolumns"
+            ],
+            "argc": {
+                "indexcolumns": {
+                    "type": "columns",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "按分组索引列",
+                    "comment": "分组列序号列表",
+                    "long_comment": "分组列序号列表，第一个有效"
+                },
+                "markcolumns": {
+                    "type": "columns",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "分组行数标记列号",
+                    "comment": "分组行数标记列序号列表",
+                    "long_comment": "分组行数标记列序号列表，第一个有效"
+                }
+            },
+            "argv": {}
+        },
+        "dfgroupbyserialnomark": {
+            "argcitems": [
+                "indexcolumns",
+                "markcolumns"
+            ],
+            "argc": {
+                "indexcolumns": {
+                    "type": "columns",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "按分组索引列",
+                    "comment": "分组列序号列表",
+                    "long_comment": "分组列序号列表，第一个有效"
+                },
+                "markcolumns": {
+                    "type": "columns",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "分组编号标记列号",
+                    "comment": "分组序号标记列序号列表",
+                    "long_comment": "分组序号标记列序号列表，第一个有效"
+                }
+            },
+            "argv": {}
+        },
+        "dfgroupbyinnerserialnomark": {
+            "argcitems": [
+                "indexcolumns",
+                "markcolumns"
+            ],
+            "argc": {
+                "indexcolumns": {
+                    "type": "columns",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "按分组索引列",
+                    "comment": "分组列序号列表",
+                    "long_comment": "分组列序号列表，第一个有效"
+                },
+                "markcolumns": {
+                    "type": "columns",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "分组内编号标记列号",
+                    "comment": "分组内序号标记列序号列表",
+                    "long_comment": "分组内序号标记列序号列表，第一个有效"
+                }
+            },
+            "argv": {}
+        },
+        "dfgroupbyrowcombinemark": {
+            "argcitems": [
+                "indexcolumns",
+                "combinecolumns",
+                "columnname"
+            ],
+            "argc": {
+                "indexcolumns": {
+                    "type": "columns",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "按分组索引列",
+                    "comment": "分组列序号列表",
+                    "long_comment": "分组列序号列表，第一个有效"
+                },
+                "combinecolumns": {
+                    "type": "columns",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "分组合并列号列表",
+                    "comment": "分组合并列序号列表",
+                    "long_comment": "分组序合并序号列表，第一个有效"
+                },
+                "columnname": {
+                    "type": "str",
+                    "validvalue": [],
+                    "defaultvalue": "",
+                    "sentence": "输出列名：",
+                    "comment": "合并后输出的列名",
+                    "long_comment": "合并后生成的新列列名"
+                }
+            },
+            "argv": {
+                "seperate": {
+                    "type": "str",
+                    "validvalue": [],
+                    "defaultvalue": "\n",
+                    "sentence": "按衔接字符：",
+                    "comment": "衔接列的字符串",
+                    "long_comment": "用于衔接列的字符串"
+                },
+                "nanreplace": {
+                    "type": "str",
+                    "validvalue": [],
+                    "defaultvalue": "-",
+                    "sentence": "用以替换nan的值：",
+                    "comment": "用以替换nan的值",
+                    "long_comment": "用于衔接两列的字符串"
+                }
+            }
+        },
+        "dfgroupbysum": {
+            "argcitems": [
+                "indexcolumns",
+                "sumcolumn"
+            ],
+            "argc": {
+                "indexcolumns": {
+                    "type": "columns",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "按分组索引列",
+                    "comment": "分组列序号列表",
+                    "long_comment": "分组列序号列表，第一个有效"
+                },
+                "sumcolumn": {
+                    "type": "columns",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "求和列",
+                    "comment": "分组求和列序号列表",
+                    "long_comment": "分组求和列序号列表，第一个有效"
+                }
+            },
+            "argv": {
+                "columnname": {
+                    "type": "str",
+                    "validvalue": [],
+                    "defaultvalue": "求和列",
+                    "sentence": "求和生成新列名:",
+                    "comment": "求和生成新列名",
+                    "long_comment": "求和生成新列名"
+                }
+            }
+        },
+        "dfgroupbycumsum": {
+            "argcitems": [
+                "indexcolumns",
+                "sumcolumn"
+            ],
+            "argc": {
+                "indexcolumns": {
+                    "type": "columns",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "按分组索引列",
+                    "comment": "分组列序号列表",
+                    "long_comment": "分组列序号列表，第一个有效"
+                },
+                "sumcolumn": {
+                    "type": "columns",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "求和列",
+                    "comment": "分组求和列序号列表",
+                    "long_comment": "分组求和列序号列表，第一个有效"
+                }
+            },
+            "argv": {
+                "columnname": {
+                    "type": "str",
+                    "validvalue": [],
+                    "defaultvalue": "累积求和列",
+                    "sentence": "累积求和生成新列名:",
+                    "comment": "累积求和生成新列名",
+                    "long_comment": "累积求和生成新列名"
+                }
+            }
+        },
+        "dfgroupbysplit": {
+            "argcitems": [
+                "positionlist",
+                "columns",
+                "groupbyvalues"
+            ],
+            "argc": {
+                "positionlist": {
+                    "type": "newtable",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "分组生成新表列表",
+                    "comment": "分组生成的新表序号列表[l, m, n...]，必须与groupbyvalues中数目一致",
+                    "long_comment": "分组生成的新表序号列表"
+                },
+                "columns": {
+                    "type": "columns",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "按分组索引列",
+                    "comment": "分组列序号列表",
+                    "long_comment": "分组列序号列表，第一个有效"
+                },
+                "groupbyvalues": {
+                    "type": "list",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "分组列的分组值",
+                    "comment": "分组列的分组值列表[l, m, n...]，必须也positionlist中数目一致",
+                    "long_comment": "分组列的分组值列表"
+                }
+            },
+            "argv": {
+                "reindex": {
+                    "type": "bool",
+                    "validvalue": [
+                        true,
+                        false
+                    ],
+                    "defaultvalue": false,
+                    "sentence": ",(False,不重建索引; True,重建索引）:",
+                    "comment": "是否重建索引",
+                    "long_comment": "是否重建索引，False不重建，True重建"
+                }
+            }
+        },
+        "dfgroupbyagg": {
+            "argcitems": [
+                "indexcolumns",
+                "aggcolumnlist",
+                "aggfunclist"
+            ],
+            "argc": {
+                "indexcolumns": {
+                    "type": "columns",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "按分组索引列",
+                    "comment": "分组列序号列表",
+                    "long_comment": "分组列序号列表"
+                },
+                "aggcolumnlist": {
+                    "type": "columns",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "聚合列",
+                    "comment": "分组聚合列序号列表",
+                    "long_comment": "分组求和列序号列表"
+                },
+                "aggfunclist": {
+                    "type": "list",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "聚合函数list",
+                    "comment": "分组聚合函数组",
+                    "long_comment": "分组聚合函数列表"
+                }
+            },
+            "argv": {
+                "columnnamelist": {
+                    "type": "list",
+                    "validvalue": [],
+                    "defaultvalue": null,
+                    "sentence": "聚合生成新列名list:",
+                    "comment": "聚合生成新列名list:",
+                    "long_comment": "聚合生成新列名list,None 为自动生成"
+                }
+            }
+        },
+        "dfcolumnspecialprocess": {
+            "argcitems": [
+                "columns",
+                "newcolumnname",
+                "processstr"
+            ],
+            "argc": {
+                "columns": {
+                    "type": "columns",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "基于列序号",
+                    "comment": "进行处理的列序号",
+                    "long_comment": "进行处理的列列号，可多个[l, m, n...]"
+                },
+                "newcolumnname": {
+                    "type": "str",
+                    "validvalue": [],
+                    "defaultvalue": "结果列名",
+                    "sentence": "输出列名：",
+                    "comment": "列处理输出的列名",
+                    "long_comment": "列处理输出的列名"
+                },
+                "processstr": {
+                    "type": "strcombo",
+                    "validvalue": [
+                        "lambda x : ( True if x[0] > 0 else False) ",
+                        "lambda x : ( True if x[0] != 0 else False) ",
+                        "lambda x : ( True if sum(x) >=0 else False )",
+                        "lambda x : ( x[0] - x[1] ) ",
+                        "lambda x : ( sum(x) ) ",
+                        "lambda x : ( \"新行批量填充值\" )",
+                        "lambda x : ( \"大于10\" if x[0] > 10 else \"小于等于10\") ",
+                        "lambda x : str(x[0]).startswith(\"1\")"
+                    ],
+                    "defaultvalue": "",
+                    "sentence": "根据处理函数",
+                    "comment": "lambda函数",
+                    "long_comment": "用于列处理的lambda函数, 参数与所选列一致"
+                }
+            },
+            "argv": {
+                "ascending": {
+                    "type": "bool",
+                    "validvalue": [
+                        true,
+                        false
+                    ],
+                    "defaultvalue": true,
+                    "sentence": "按(True:升序, False:降序)",
+                    "comment": "升降序方式",
+                    "long_comment": "升降序方式选择：True：升序, False: 降序"
+                }
+            }
+        },
+        "dflongitudinaljoint": {
+            "argcitems": [
+                "positionlist"
+            ],
+            "argc": {
+                "positionlist": {
+                    "type": "newtable",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "拼接生成新表",
+                    "comment": "拼接后生成的新表序号",
+                    "long_comment": "拼接后生成的新表序号"
+                }
+            },
+            "argv": {}
+        },
+        "dfwidthwisejoint": {
+            "argcitems": [
+                "positionlist"
+            ],
+            "argc": {
+                "positionlist": {
+                    "type": "newtable",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "拼接生成新表",
+                    "comment": "拼接后生成的新表序号",
+                    "long_comment": "拼接后生成的新表序号"
+                }
+            },
+            "argv": {}
+        },
+        "dfmerge": {
+            "argcitems": [
+                "positionlist"
+            ],
+            "argc": {
+                "positionlist": {
+                    "type": "newtable",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "融合生成新表",
+                    "comment": "融合生成的新表序号",
+                    "long_comment": "融合后生成的新表序号"
+                }
+            },
+            "argv": {
+                "how": {
+                    "type": "combo",
+                    "validvalue": [
+                        "outer",
+                        "inner",
+                        "left",
+                        "right"
+                    ],
+                    "defaultvalue": "outer",
+                    "sentence": "按（outer:并集，inner:交集，left:左表， right：右表）",
+                    "comment": "按（outer:并集，inner:交集，left:左表， right：右表）",
+                    "long_comment": "融合方式：outer:并集，inner:交集，left:left join， right：right join"
+                }
+            }
+        },
+        "dfpivot": {
+            "argcitems": [
+                "positionlist"
+            ],
+            "argc": {
+                "positionlist": {
+                    "type": "newtable",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "转置生成新表",
+                    "comment": "转置生成的新表序号",
+                    "long_comment": "转置后生成的新表序号"
+                }
+            },
+            "argv": {
+                "index": {
+                    "type": "columns",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "表索引列",
+                    "comment": "表索引列",
+                    "long_comment": "行转置列的索引，可多个[l, m, n...]"
+                },
+                "columns": {
+                    "type": "columns",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "基于列",
+                    "comment": "行列转置的的说明列列序号",
+                    "long_comment": "行列转置的的说明列列序号，单个[l]"
+                },
+                "values": {
+                    "type": "columns",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "转置值列",
+                    "comment": "行列转置的的值列列序号",
+                    "long_comment": "行列转置的的值列列序号，可多个[l, m, n...]，必须和说明列不同"
+                }
+            }
+        },
+        "dfmelt": {
+            "argcitems": [
+                "positionlist"
+            ],
+            "argc": {
+                "positionlist": {
+                    "type": "newtable",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "列行转置生成新表",
+                    "comment": "列行转置生成的新表序号",
+                    "long_comment": "列行转置后生成的新表序号"
+                }
+            },
+            "argv": {
+                "id_vars": {
+                    "type": "columns",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "基于索引列",
+                    "comment": "列行转置的的索引列序号",
+                    "long_comment": "列行转置的的索引列序号，可多个[l, m, n...]"
+                },
+                "value_vars": {
+                    "type": "columns",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "转置值列",
+                    "comment": "列行转置的的值列序号",
+                    "long_comment": "列行转置的的值列序号，可多个[l, m, n...]，必须和索引列不同"
+                },
+                "var_name": {
+                    "type": "str",
+                    "validvalue": [],
+                    "defaultvalue": "",
+                    "sentence": "列行转置说明列列名",
+                    "comment": "转置后生成的说明列列名",
+                    "long_comment": "转置后生成的说明列列名"
+                },
+                "value_name": {
+                    "type": "str",
+                    "validvalue": [],
+                    "defaultvalue": "",
+                    "sentence": "转置值新列名",
+                    "comment": "列行转置后新列名",
+                    "long_comment": "值列转置后新列名"
+                }
+            }
+        },
+        "dfswapposition": {
+            "argcitems": [],
+            "argc": {},
+            "argv": {}
+        },
+        "dfdroptables": {
+            "argcitems": [],
+            "argc": {},
+            "argv": {}
+        },
+        "dfblockcopy": {
+            "argcitems": [
+                "targetblock",
+                "sourceblock"
+            ],
+            "argc": {
+                "targetblock": {
+                    "type": "list",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "目标区域参数",
+                    "comment": "目标区域参数",
+                    "long_comment": "目标区域参数([startrow, startcolumn],[endrow, endcolumn])"
+                },
+                "sourceblock": {
+                    "type": "list",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "源区域参数",
+                    "comment": "源区域参数",
+                    "long_comment": "源区域参数([startrow, startcolumn],[endrow, endcolumn])"
+                }
+            },
+            "argv": {}
+        },
+        "dfcolumncopy": {
+            "argcitems": [
+                "targetcolumns",
+                "sourcecolumns"
+            ],
+            "argc": {
+                "targetcolumns": {
+                    "type": "targetcolumns",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "目标数据列",
+                    "comment": "目标赋值列[m,n...]，必须与源数据列个数一致",
+                    "long_comment": "目标赋值列[m,n...]，必须与源数据列个数一致"
+                },
+                "sourcecolumns": {
+                    "type": "sourcecolumns",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "源数据列",
+                    "comment": "源数据列[m,n...]，必须与目标数据列个数一致",
+                    "long_comment": "源数据列[m,n...]，必须与目标数据列个数一致"
+                }
+            },
+            "argv": {}
+        },
+        "dfspecailcolumncopy": {
+            "argcitems": [
+                "targetblock",
+                "sourceblock"
+            ],
+            "argc": {
+                "targetblock": {
+                    "type": "list",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "目标区域参数",
+                    "comment": "目标区域参数",
+                    "long_comment": "目标区域参数([startrow, startcolumn],[endrow, endcolumn]\n开始列和结束列必须一致)"
+                },
+                "sourceblock": {
+                    "type": "list",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "源区域参数",
+                    "comment": "源区域参数",
+                    "long_comment": "源区域参数([startrow, startcolumn],[endrow, endcolumn]\n开始列和结束列必须一致)"
+                }
+            },
+            "argv": {
+                "indexcolumn": {
+                    "type": "list",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "基于索引列",
+                    "comment": "拷贝索引列[源数据表索引列，目标表索引列",
+                    "long_comment": "只能为空或者两个[l, m]\n分别表示源数据表索引列和目的表索引列"
+                }
+            }
+        },
+        "dfcolumnindexfill": {
+            "argcitems": [],
+            "argc": {},
+            "argv": {
+                "targetcolumn": {
+                    "type": "targetcolumns",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "目标数据列",
+                    "comment": "目标赋值列[m]",
+                    "long_comment": "目标赋值列[m]"
+                },
+                "sourcecolumn": {
+                    "type": "sourcecolumns",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "源数据列",
+                    "comment": "源数据列[m]",
+                    "long_comment": "源数据列[m]"
+                },
+                "targetindex": {
+                    "type": "targetcolumns",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "目标数据索引列",
+                    "comment": "目标数据索引列，数量要和源数据索引列一致",
+                    "long_comment": "目标数据索引列，数量要和源数据索引列一致\n可以多列联合索引[l，m，n，......]"
+                },
+                "sourceindex": {
+                    "type": "sourcecolumns",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "源数据索引列",
+                    "comment": "源数据索引列，数量要和目标数据索引列一致",
+                    "long_comment": "源数据索引列，数量要和目标数据索引列一致\n可以多列联合索引[l，m，n，......]"
+                },
+                "fillvalue": {
+                    "type": "str",
+                    "validvalue": [],
+                    "defaultvalue": "",
+                    "sentence": "空值默认填充",
+                    "comment": "源数据索引不存在时填充值",
+                    "long_comment": "源数据索引不存在时填充值"
+                }
+            }
+        },
+        "dfaddserialno": {
+            "argcitems": [],
+            "argc": {},
+            "argv": {
+                "columnname": {
+                    "type": "str",
+                    "validvalue": [],
+                    "defaultvalue": "序号",
+                    "sentence": "基于列名（默认'序号'）",
+                    "comment": "基于列名（默认'序号'）",
+                    "long_comment": "基于列名（默认'序号'）"
+                },
+                "startnumber": {
+                    "type": "int",
+                    "validvalue": [],
+                    "defaultvalue": 0,
+                    "sentence": "从",
+                    "comment": "序号开始的值",
+                    "long_comment": "序号开始的值"
+                }
+            }
+        },
+        "dflabelfilter": {
+            "argcitems": [
+                "positionlist"
+            ],
+            "argc": {
+                "positionlist": {
+                    "type": "newtable",
+                    "validvalue": [],
+                    "defaultvalue": [
+                        1
+                    ],
+                    "sentence": "过滤生成新表",
+                    "comment": "过滤后生成的新表序号",
+                    "long_comment": "过滤后生成的新表序号"
+                }
+            },
+            "argv": {
+                "items": {
+                    "type": "list",
+                    "validvalue": [],
+                    "defaultvalue": null,
+                    "sentence": "基于行（列）标签",
+                    "comment": "基于行/列标签",
+                    "long_comment": "基于行/列标签"
+                },
+                "like": {
+                    "type": "str",
+                    "validvalue": [],
+                    "defaultvalue": null,
+                    "sentence": "包含",
+                    "comment": "包含字符",
+                    "long_comment": "包含字符"
+                },
+                "regex": {
+                    "type": "str",
+                    "validvalue": [],
+                    "defaultvalue": null,
+                    "sentence": "按正则表达式：",
+                    "comment": "按正则表达式",
+                    "long_comment": "按正则表达式"
+                },
+                "axis": {
+                    "type": "intcombo",
+                    "validvalue": [
+                        0,
+                        1
+                    ],
+                    "defaultvalue": 0,
+                    "sentence": "（0：按行，1：按列）:",
+                    "comment": "操作轴向选择",
+                    "long_comment": "指定轴，axis = 0(行) axis = 1(列)"
+                }
+            }
+        },
+        "dfquery": {
+            "argcitems": [
+                "positionlist"
+            ],
+            "argc": {
+                "positionlist": {
+                    "type": "newtable",
+                    "validvalue": [],
+                    "defaultvalue": [
+                        1
+                    ],
+                    "sentence": "筛选生成新表",
+                    "comment": "筛选后生成的新表序号",
+                    "long_comment": "筛选成的新表序号"
+                }
+            },
+            "argv": {
+                "querylist": {
+                    "type": "querylist",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "筛选条件",
+                    "comment": "筛选条件",
+                    "long_comment": "筛选条件"
+                },
+                "inplace": {
+                    "type": "bool",
+                    "validvalue": [
+                        true,
+                        false
+                    ],
+                    "defaultvalue": false,
+                    "sentence": "按(True-替换，False-新表)",
+                    "comment": "是否替换原表",
+                    "long_comment": "True：替换原表，False：按positionlist生成新表"
+                },
+                "reindex": {
+                    "type": "bool",
+                    "validvalue": [
+                        true,
+                        false
+                    ],
+                    "defaultvalue": true,
+                    "sentence": "按(True-重建，False-不重建)",
+                    "comment": "是否重建行号",
+                    "long_comment": "True：重建行索引，False：保留原行号"
+                }
+            }
+        },
+        "dfcompare": {
+            "argcitems": [
+                "positionlist"
+            ],
+            "argc": {
+                "positionlist": {
+                    "type": "newtable",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "对比差异生成新表",
+                    "comment": "表格对比生成的新表序号",
+                    "long_comment": "表格对比后生成的新表序号"
+                }
+            },
+            "argv": {
+                "indexcolumn": {
+                    "type": "columns",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "基于索引列",
+                    "comment": "表格对比差异索引列序号",
+                    "long_comment": "表格对比差异索引列序号，可多个[l, m, n...]"
+                },
+                "markcolumnname": {
+                    "type": "str",
+                    "validvalue": [],
+                    "defaultvalue": "差异标记",
+                    "sentence": "比较差异标记列名",
+                    "comment": "表格比较差异标记列名",
+                    "long_comment": "比较差异标记列名"
+                }
+            }
+        },
+        "dfpivottable": {
+            "argcitems": [
+                "positionlist"
+            ],
+            "argc": {
+                "positionlist": {
+                    "type": "newtable",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "透视生成新表",
+                    "comment": "透视生成的新表序号",
+                    "long_comment": "透视生成的新表序号"
+                }
+            },
+            "argv": {
+                "index": {
+                    "type": "columns",
+                    "validvalue": [],
+                    "defaultvalue": [
+                        [],
+                        []
+                    ],
+                    "sentence": "基于索引列",
+                    "comment": "透视索引列序号",
+                    "long_comment": "透视索引列序号，可多个[l, m, n...]"
+                },
+                "values": {
+                    "type": "columns",
+                    "validvalue": [],
+                    "defaultvalue": [
+                        [],
+                        []
+                    ],
+                    "sentence": "透视的数据",
+                    "comment": "透视的数据列",
+                    "long_comment": "透视的额数据列，可多个[l, m, n...]"
+                },
+                "columns": {
+                    "type": "columns",
+                    "validvalue": [],
+                    "defaultvalue": [
+                        [],
+                        []
+                    ],
+                    "sentence": "显示列属性",
+                    "comment": "显示列属性",
+                    "long_comment": "显示列属性，可多个[l, m, n...],长度和数据必须一致"
+                },
+                "aggfunc": {
+                    "type": "strcombo",
+                    "validvalue": [
+                        "mean",
+                        "np.sum",
+                        "max",
+                        "min",
+                        "size"
+                    ],
+                    "defaultvalue": "mean",
+                    "sentence": "使用处理函数",
+                    "comment": "处理函数",
+                    "long_comment": "处理函数"
+                },
+                "fill_value": {
+                    "type": "str",
+                    "validvalue": [],
+                    "defaultvalue": null,
+                    "sentence": "按填充值：",
+                    "comment": "填充的值：",
+                    "long_comment": "用于填充nan的值或者{列名1：赋值1，列名2：赋值2...} 字典"
+                },
+                "margins": {
+                    "type": "bool",
+                    "validvalue": [
+                        true,
+                        false
+                    ],
+                    "defaultvalue": false,
+                    "sentence": ",(False, 返回df; True,是否合计）:",
+                    "comment": "是否合计",
+                    "long_comment": "是否合计"
+                },
+                "dropna": {
+                    "type": "bool",
+                    "validvalue": [
+                        true,
+                        false
+                    ],
+                    "defaultvalue": true,
+                    "sentence": "删除全Nan列（True是/False否）:",
+                    "comment": "是否删除全Nan列",
+                    "long_comment": "是否删除全Nan列"
+                },
+                "margins_name": {
+                    "type": "str",
+                    "validvalue": [],
+                    "defaultvalue": "合计",
+                    "sentence": "合计行名:",
+                    "comment": "合计行名",
+                    "long_comment": "合计行名"
+                },
+                "observed": {
+                    "type": "bool",
+                    "validvalue": [
+                        true,
+                        false
+                    ],
+                    "defaultvalue": false,
+                    "sentence": "是否仅显示有目录组的值:",
+                    "comment": "observed",
+                    "long_comment": "是否删除全Nan列"
+                },
+                "sort": {
+                    "type": "bool",
+                    "validvalue": [
+                        true,
+                        false
+                    ],
+                    "defaultvalue": true,
+                    "sentence": "排序（True是/False否）:",
+                    "comment": "是否将结果排序",
+                    "long_comment": "是否将结果排序"
+                }
+            }
+        },
+        "fillna": {
+            "argcitems": [],
+            "argc": {},
+            "argv": {
+                "value": {
+                    "type": "dict",
+                    "validvalue": [],
+                    "defaultvalue": {},
+                    "sentence": "按值：",
+                    "comment": "填充的值：",
+                    "long_comment": "用于填充nan的值或者{列名1：赋值1，列名2：赋值2...} 字典"
+                }
+            }
+        },
+        "dfcolfillna": {
+            "argcitems": [
+                "columns"
+            ],
+            "argc": {
+                "columns": {
+                    "type": "columns",
+                    "validvalue": null,
+                    "defaultvalue": null,
+                    "sentence": "按列序号",
+                    "comment": "填充的列序号",
+                    "long_comment": "指定填充的列序号，可多个[l, m, n...]"
+                }
+            },
+            "argv": {
+                "fillvalue": {
+                    "type": "object",
+                    "validvalue": [],
+                    "defaultvalue": null,
+                    "sentence": "按值：",
+                    "comment": "用于列填充的值：",
+                    "long_comment": "用于空值列填充时的值 "
+                }
+            }
+        },
+        "dfcolcheckna": {
+            "argcitems": [
+                "columns"
+            ],
+            "argc": {
+                "columns": {
+                    "type": "columns",
+                    "validvalue": null,
+                    "defaultvalue": null,
+                    "sentence": "按列序号",
+                    "comment": "空值检测的列序号",
+                    "long_comment": "空值检测的列序号[l，m，n....]"
+                }
+            },
+            "argv": {}
+        },
+        "dfallcheckna": {
+            "argcitems": [],
+            "argc": {},
+            "argv": {}
+        },
+        "dfcolvaluereplace": {
+            "argcitems": [
+                "columns"
+            ],
+            "argc": {
+                "columns": {
+                    "type": "columns",
+                    "validvalue": null,
+                    "defaultvalue": null,
+                    "sentence": "按列序号",
+                    "comment": "替换的列序号及名称",
+                    "long_comment": "指定替换的列序号[[l，m，n...], [名称l,名称m,名称n...]"
+                }
+            },
+            "argv": {
+                "oldvalue": {
+                    "type": "object",
+                    "validvalue": [],
+                    "defaultvalue": null,
+                    "sentence": "对原值：",
+                    "comment": "需要替换的原值：",
+                    "long_comment": "需要替换的原值 "
+                },
+                "fillvalue": {
+                    "type": "object",
+                    "validvalue": [],
+                    "defaultvalue": null,
+                    "sentence": "按值：",
+                    "comment": "用于列值替换的值",
+                    "long_comment": "用于列值替换的值"
+                }
+            }
+        },
+        "dfloaddatafromfile": {
+            "argcitems": [
+                "positionlist",
+                "filepath",
+                "headline",
+                "tailline",
+                "sheetnumber"
+            ],
+            "argc": {
+                "positionlist": {
+                    "type": "newtable",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "导入表号",
+                    "comment": "导入到的表序号",
+                    "long_comment": "导入到的表序号"
+                },
+                "filepath": {
+                    "type": "readfile",
+                    "validvalue": [],
+                    "defaultvalue": "",
+                    "sentence": "输入文件",
+                    "comment": "输入文件名",
+                    "long_comment": "输入文件名"
+                },
+                "headline": {
+                    "type": "int",
+                    "validvalue": [],
+                    "defaultvalue": 0,
+                    "sentence": "表首跳过行数",
+                    "comment": "表首跳过行数",
+                    "long_comment": "表首跳过行数"
+                },
+                "tailline": {
+                    "type": "int",
+                    "validvalue": [],
+                    "defaultvalue": 0,
+                    "sentence": "表尾跳过行数",
+                    "comment": "表尾跳过行数",
+                    "long_comment": "表尾跳过行数"
+                },
+                "sheetnumber": {
+                    "type": "int",
+                    "validvalue": [],
+                    "defaultvalue": 0,
+                    "sentence": "子表号",
+                    "comment": "模板子表号",
+                    "long_comment": "模板子表号"
+                }
+            },
+            "argv": {
+                "headnameline": {
+                    "type": "int",
+                    "validvalue": [],
+                    "defaultvalue": 0,
+                    "sentence": "数据列名所在行",
+                    "comment": "数据列名所在行",
+                    "long_comment": "数据列名所在行(跳过表首后从0计算，-1表示不存在）"
+                },
+                "na_filter": {
+                    "type": "bool",
+                    "validvalue": [
+                        true,
+                        false
+                    ],
+                    "defaultvalue": false,
+                    "sentence": "是否空值检测",
+                    "comment": "是否空值检测:（True：是，False:否）",
+                    "long_comment": "是否空值检测:（True：是，False:否）"
+                },
+                "colforcestring": {
+                    "type": "list",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "按字符串读取的列",
+                    "comment": "按字符串读取的列",
+                    "long_comment": "按字符串读取的列的列名列表"
+                }
+            }
+        },
+        "dfloaddatafromdbbysql": {
+            "argcitems": [
+                "positionlist",
+                "ip",
+                "port",
+                "database",
+                "user",
+                "password",
+                "sqlstr"
+            ],
+            "argc": {
+                "positionlist": {
+                    "type": "newtable",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "导入表号",
+                    "comment": "导入到的表序号",
+                    "long_comment": "导入到的表序号"
+                },
+                "ip": {
+                    "type": "ipaddress",
+                    "validvalue": [],
+                    "defaultvalue": "192.168.1.1",
+                    "sentence": "主机IP地址:",
+                    "comment": "主机IP地址",
+                    "long_comment": "主机IP地址"
+                },
+                "port": {
+                    "type": "int",
+                    "validvalue": [],
+                    "defaultvalue": 8000,
+                    "sentence": "端口号:",
+                    "comment": "端口号",
+                    "long_comment": "端口号"
+                },
+                "database": {
+                    "type": "str",
+                    "validvalue": [],
+                    "defaultvalue": "",
+                    "sentence": "数据库名:",
+                    "comment": "数据库名",
+                    "long_comment": "数据库名"
+                },
+                "user": {
+                    "type": "str",
+                    "validvalue": [],
+                    "defaultvalue": "",
+                    "sentence": "用户名:",
+                    "comment": "用户名",
+                    "long_comment": "用户名"
+                },
+                "password": {
+                    "type": "password",
+                    "validvalue": [],
+                    "defaultvalue": "",
+                    "sentence": "密码(加密):",
+                    "comment": "密码",
+                    "long_comment": "密码"
+                },
+                "sqlstr": {
+                    "type": "sqlstr",
+                    "validvalue": [],
+                    "defaultvalue": "",
+                    "sentence": "sql语句：",
+                    "comment": "sql语句",
+                    "long_comment": "sql语句"
+                }
+            },
+            "argv": {}
+        },
+        "dfsavedatatodatabasebysql": {
+            "argcitems": [
+                "ip",
+                "port",
+                "database",
+                "user",
+                "password",
+                "name"
+            ],
+            "argc": {
+                "ip": {
+                    "type": "ipaddress",
+                    "validvalue": [],
+                    "defaultvalue": "192.168.1.1",
+                    "sentence": "主机IP地址:",
+                    "comment": "主机IP地址",
+                    "long_comment": "主机IP地址"
+                },
+                "port": {
+                    "type": "int",
+                    "validvalue": [],
+                    "defaultvalue": 8000,
+                    "sentence": "端口号:",
+                    "comment": "端口号",
+                    "long_comment": "端口号"
+                },
+                "database": {
+                    "type": "str",
+                    "validvalue": [],
+                    "defaultvalue": "",
+                    "sentence": "数据库名:",
+                    "comment": "数据库名",
+                    "long_comment": "数据库名"
+                },
+                "user": {
+                    "type": "str",
+                    "validvalue": [],
+                    "defaultvalue": "",
+                    "sentence": "用户名:",
+                    "comment": "用户名",
+                    "long_comment": "用户名"
+                },
+                "password": {
+                    "type": "password",
+                    "validvalue": [],
+                    "defaultvalue": "",
+                    "sentence": "密码(加密):",
+                    "comment": "密码",
+                    "long_comment": "密码"
+                },
+                "name": {
+                    "type": "str",
+                    "validvalue": [],
+                    "defaultvalue": "test",
+                    "sentence": "sql导出表名：",
+                    "comment": "sql导出表名",
+                    "long_comment": "sql导出表名"
+                }
+            },
+            "argv": {
+                "schema": {
+                    "type": "str",
+                    "validvalue": [],
+                    "defaultvalue": null,
+                    "sentence": "schema",
+                    "comment": "schema",
+                    "long_comment": "schema"
+                },
+                "if_exists": {
+                    "type": "strcombo",
+                    "validvalue": [
+                        "fail",
+                        "append",
+                        "replace"
+                    ],
+                    "defaultvalue": "replace",
+                    "sentence": "表格生成方式",
+                    "comment": "如果表格存在",
+                    "long_comment": "如果表格存在：（fail：返回错误，replace：替换表格，append：追加数据)"
+                },
+                "index": {
+                    "type": "bool",
+                    "validvalue": [
+                        true,
+                        false
+                    ],
+                    "defaultvalue": false,
+                    "sentence": "是否保存index",
+                    "comment": "是否保存index：（True： 是， False:否）",
+                    "long_comment": "是否保存index：（True： 是， False:否）"
+                },
+                "index_label": {
+                    "type": "str",
+                    "validvalue": [],
+                    "defaultvalue": null,
+                    "sentence": "index标签，",
+                    "comment": "index 标签",
+                    "long_comment": "index 标签"
+                },
+                "chunksize": {
+                    "type": "int",
+                    "validvalue": [],
+                    "defaultvalue": null,
+                    "sentence": "批量写入记录数（默认全部）",
+                    "comment": "批量写入记录数（默认全部）",
+                    "long_comment": "批量写入记录数（默认全部）"
+                },
+                "dtype": {
+                    "type": "dict",
+                    "validvalue": [],
+                    "defaultvalue": null,
+                    "sentence": "字段类型",
+                    "comment": "字段类型",
+                    "long_comment": "字段类型"
+                },
+                "method": {
+                    "type": "dict",
+                    "validvalue": [],
+                    "defaultvalue": null,
+                    "sentence": "字段类型",
+                    "comment": "字段类型",
+                    "long_comment": "字段类型"
+                }
+            }
+        },
+        "dfsavedatatofile": {
+            "argcitems": [
+                "outputfilename",
+                "sheetnumber",
+                "headline",
+                "tailline"
+            ],
+            "argc": {
+                "outputfilename": {
+                    "type": "savefile",
+                    "validvalue": [],
+                    "defaultvalue": "",
+                    "sentence": "输出文件",
+                    "comment": "输出文件名",
+                    "long_comment": "输出文件名"
+                },
+                "sheetnumber": {
+                    "type": "int",
+                    "validvalue": [],
+                    "defaultvalue": 0,
+                    "sentence": "子表号",
+                    "comment": "模板子表号",
+                    "long_comment": "模板子表号"
+                },
+                "headline": {
+                    "type": "int",
+                    "validvalue": [],
+                    "defaultvalue": 0,
+                    "sentence": "表首跳过行数",
+                    "comment": "表首跳过行数",
+                    "long_comment": "表首跳过行数"
+                },
+                "tailline": {
+                    "type": "int",
+                    "validvalue": [],
+                    "defaultvalue": 0,
+                    "sentence": "表尾跳过行数",
+                    "comment": "表尾跳过行数",
+                    "long_comment": "表尾跳过行数"
+                }
+            },
+            "argv": {
+                "modelfilename": {
+                    "type": "readfile",
+                    "validvalue": [],
+                    "defaultvalue": "",
+                    "sentence": "按模板文件",
+                    "comment": "模板文件名",
+                    "long_comment": "模板文件名"
+                },
+                "styleout": {
+                    "type": "bool",
+                    "validvalue": [
+                        true,
+                        false
+                    ],
+                    "defaultvalue": false,
+                    "sentence": "带格式",
+                    "comment": "带格式",
+                    "long_comment": "带格式（True：是，False: 否）"
+                },
+                "index": {
+                    "type": "bool",
+                    "validvalue": [
+                        true,
+                        false
+                    ],
+                    "defaultvalue": true,
+                    "sentence": "输出行号",
+                    "comment": "输出行号",
+                    "long_comment": "输出行号（True：是，False: 否）"
+                },
+                "sumrownumber": {
+                    "type": "int",
+                    "validvalue": [],
+                    "defaultvalue": null,
+                    "sentence": "模板合计行号",
+                    "comment": "模板文件中的合计行号",
+                    "long_comment": "模板文件中的合计行号"
+                }
+            }
+        },
+        "dfcopydfblocktomodelexcelfile": {
+            "argcitems": [
+                "outputfilename",
+                "modelfilename",
+                "sheetnumber",
+                "sourcestartendrows",
+                "sourcestartendcols",
+                "targetstartrow",
+                "targetstartcol"
+            ],
+            "argc": {
+                "outputfilename": {
+                    "type": "savefile",
+                    "validvalue": [],
+                    "defaultvalue": "",
+                    "sentence": "输出文件",
+                    "comment": "输出文件名",
+                    "long_comment": "输出文件名"
+                },
+                "modelfilename": {
+                    "type": "readfile",
+                    "validvalue": [],
+                    "defaultvalue": "",
+                    "sentence": "按模板文件",
+                    "comment": "模板文件名",
+                    "long_comment": "模板文件名"
+                },
+                "sheetnumber": {
+                    "type": "int",
+                    "validvalue": [],
+                    "defaultvalue": 0,
+                    "sentence": "子表号",
+                    "comment": "模板子表号",
+                    "long_comment": "模板子表号"
+                },
+                "sourcestartendrows": {
+                    "type": "rows",
+                    "validvalue": [],
+                    "defaultvalue": [
+                        0,
+                        -1
+                    ],
+                    "sentence": "按行范围",
+                    "comment": "拷贝的起止行号",
+                    "long_comment": "指定填充的列序号[m,n], n为-1时代表最后一行"
+                },
+                "sourcestartendcols": {
+                    "type": "columns",
+                    "validvalue": [],
+                    "defaultvalue": [
+                        0,
+                        -1
+                    ],
+                    "sentence": "按列范围",
+                    "comment": "拷贝的起止列号",
+                    "long_comment": "拷贝的起止列号[m,n]，n为-1时代表最后一列"
+                },
+                "targetstartrow": {
+                    "type": "rows",
+                    "validvalue": [],
+                    "defaultvalue": [
+                        0
+                    ],
+                    "sentence": "目标起始行号列表（0开始）",
+                    "comment": "目标开始行号",
+                    "long_comment": "目标开始行号[l]"
+                },
+                "targetstartcol": {
+                    "type": "list",
+                    "validvalue": [],
+                    "defaultvalue": [
+                        0
+                    ],
+                    "sentence": "目标文件列号",
+                    "comment": "目标文件开始列号",
+                    "long_comment": "目标文件开始列号[l]"
+                }
+            },
+            "argv": {}
+        },
+        "dffillna": {
+            "argcitems": [],
+            "argc": {},
+            "argv": {
+                "columns": {
+                    "type": "columns",
+                    "validvalue": null,
+                    "defaultvalue": null,
+                    "sentence": "按列序号",
+                    "comment": "填充的列序号",
+                    "long_comment": "指定填充的列序号，可多个[l, m, n...]"
+                },
+                "fillvalue": {
+                    "type": "object",
+                    "validvalue": [],
+                    "defaultvalue": null,
+                    "sentence": "按值：",
+                    "comment": "用于填充的值：",
+                    "long_comment": "用于空值填充时的值 "
+                }
+            }
+        },
+        "dffillrowstylebymark": {
+            "argcitems": [
+                "markcolumns",
+                "markvalues"
+            ],
+            "argc": {
+                "markcolumns": {
+                    "type": "columns",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "按标记值列",
+                    "comment": "标记值列",
+                    "long_comment": "标记值列，可以多列"
+                },
+                "markvalues": {
+                    "type": "list",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "标记值",
+                    "comment": "标记值",
+                    "long_comment": "标记值（必须与标记值列个数一致）"
+                }
+            },
+            "argv": {
+                "textcolor": {
+                    "type": "strcombo",
+                    "validvalue": [
+                        "white",
+                        "grey",
+                        "black",
+                        "red",
+                        "orange",
+                        "light yellow",
+                        "yellow",
+                        "light green",
+                        "green",
+                        "light blue",
+                        "blue",
+                        "purple"
+                    ],
+                    "defaultvalue": "blue",
+                    "sentence": "按文本颜色",
+                    "comment": "文本颜色",
+                    "long_comment": "按文本颜色，可以选择颜色名称，也可以使用颜色编码(#XXXXXX)"
+                },
+                "backgroundcolor": {
+                    "type": "strcombo",
+                    "validvalue": [
+                        "white",
+                        "grey",
+                        "black",
+                        "red",
+                        "orange",
+                        "light yellow",
+                        "yellow",
+                        "light green",
+                        "green",
+                        "light blue",
+                        "blue",
+                        "purple"
+                    ],
+                    "defaultvalue": "white",
+                    "sentence": "及背景颜色",
+                    "comment": "背景颜色",
+                    "long_comment": "背景颜色，可以选择颜色名称，也可以使用颜色编码(#XXXXXX)"
+                }
+            }
+        },
+        "dfplotshowdf": {
+            "argcitems": [],
+            "argc": {},
+            "argv": {
+                "plottype": {
+                    "type": "strcombo",
+                    "validvalue": [
+                        "折线图",
+                        "直方图",
+                        "横向条形图",
+                        "柱状图",
+                        "箱线图",
+                        "密度估计图",
+                        "面积区域图",
+                        "饼图",
+                        "散点图",
+                        "蜂巢图"
+                    ],
+                    "defaultvalue": "折线图",
+                    "sentence": "使用图形",
+                    "comment": "图形类别",
+                    "long_comment": "图像显示时使用的类型"
+                },
+                "indexcolumn": {
+                    "type": "columns",
+                    "validvalue": [
+                        [],
+                        []
+                    ],
+                    "defaultvalue": null,
+                    "sentence": "按索引列",
+                    "comment": "图像显示的索引列",
+                    "long_comment": "图型显示时的索引列"
+                },
+                "valuecolumns": {
+                    "type": "columns",
+                    "validvalue": [
+                        [],
+                        []
+                    ],
+                    "defaultvalue": null,
+                    "sentence": "基于值列",
+                    "comment": "图像显示时的值列",
+                    "long_comment": "图形显示的值列"
+                },
+                "title": {
+                    "type": "str",
+                    "validvalue": [],
+                    "defaultvalue": "",
+                    "sentence": "标题：",
+                    "comment": "图像显示时的标题",
+                    "long_comment": "图像显示时的标题"
+                },
+                "xlabel": {
+                    "type": "str",
+                    "validvalue": [],
+                    "defaultvalue": "",
+                    "sentence": "x轴：",
+                    "comment": "图形显示时x轴说明",
+                    "long_comment": "图形显示时x轴说明"
+                },
+                "ylabel": {
+                    "type": "str",
+                    "validvalue": [],
+                    "defaultvalue": "",
+                    "sentence": "y轴：",
+                    "comment": "图形显示时y轴说明",
+                    "long_comment": "图形显示时y轴说明"
+                },
+                "showgrid": {
+                    "type": "bool",
+                    "validvalue": [
+                        true,
+                        false
+                    ],
+                    "defaultvalue": true,
+                    "sentence": "显示网格：",
+                    "comment": "图形中是否显示网格",
+                    "long_comment": "图形中是否显示网格"
+                },
+                "showlegend": {
+                    "type": "bool",
+                    "validvalue": [
+                        true,
+                        false
+                    ],
+                    "defaultvalue": true,
+                    "sentence": "显示legend：",
+                    "comment": "图形中是否显示legend",
+                    "long_comment": "图形中是否显示legend"
+                },
+                "showstacked": {
+                    "type": "bool",
+                    "validvalue": [
+                        true,
+                        false
+                    ],
+                    "defaultvalue": false,
+                    "sentence": "堆叠：",
+                    "comment": "图形中是否堆叠显示",
+                    "long_comment": "图形中是否堆叠显示"
+                },
+                "showwidth": {
+                    "type": "int",
+                    "validvalue": [],
+                    "defaultvalue": 12,
+                    "sentence": "图像宽度：",
+                    "comment": "图像宽度（英寸）",
+                    "long_comment": "图像宽度（英寸）"
+                },
+                "showheight": {
+                    "type": "int",
+                    "validvalue": [],
+                    "defaultvalue": 8,
+                    "sentence": "图像高度：",
+                    "comment": "图像高度（英寸）",
+                    "long_comment": "图像高度（英寸）"
+                },
+                "showdirect": {
+                    "type": "bool",
+                    "validvalue": [
+                        true,
+                        false
+                    ],
+                    "defaultvalue": false,
+                    "sentence": "直接显示：",
+                    "comment": "启动后是否直接显示图表",
+                    "long_comment": "启动后是否直接显示图表"
+                },
+                "subplots": {
+                    "type": "bool",
+                    "validvalue": [
+                        true,
+                        false
+                    ],
+                    "defaultvalue": false,
+                    "sentence": "显示子图：",
+                    "comment": "图形中是否用子图像显示",
+                    "long_comment": "图形中是否用子图像显示"
+                },
+                "sharex": {
+                    "type": "bool",
+                    "validvalue": [
+                        true,
+                        false
+                    ],
+                    "defaultvalue": false,
+                    "sentence": "共用x轴：",
+                    "comment": "图形中是否共用x轴",
+                    "long_comment": "图形中是否共用x轴"
+                },
+                "sharey": {
+                    "type": "bool",
+                    "validvalue": [
+                        true,
+                        false
+                    ],
+                    "defaultvalue": false,
+                    "sentence": "共用y轴：",
+                    "comment": "图形中是否共用y轴",
+                    "long_comment": "图形中是否共用y轴"
+                },
+                "use_index": {
+                    "type": "bool",
+                    "validvalue": [
+                        true,
+                        false
+                    ],
+                    "defaultvalue": true,
+                    "sentence": "索引列作为x轴刻度：",
+                    "comment": "图像将索引列作为x轴刻度",
+                    "long_comment": "图像将索引列作为x轴刻度"
+                },
+                "logx": {
+                    "type": "bool",
+                    "validvalue": [
+                        true,
+                        false
+                    ],
+                    "defaultvalue": false,
+                    "sentence": "x轴取对数：",
+                    "comment": "图形中是否x轴取对数",
+                    "long_comment": "图形中是否x轴取对数"
+                },
+                "logy": {
+                    "type": "bool",
+                    "validvalue": [
+                        true,
+                        false
+                    ],
+                    "defaultvalue": false,
+                    "sentence": "y轴取对数：",
+                    "comment": "图形中是否y轴取对数",
+                    "long_comment": "图形中是否y轴取对数"
+                },
+                "secondary_y": {
+                    "type": "bool",
+                    "validvalue": [
+                        true,
+                        false
+                    ],
+                    "defaultvalue": false,
+                    "sentence": "显示第2个y轴：",
+                    "comment": "图形中是否显示第2个y轴",
+                    "long_comment": "图形中是否显示第2个y轴"
+                },
+                "mark_right": {
+                    "type": "bool",
+                    "validvalue": [
+                        true,
+                        false
+                    ],
+                    "defaultvalue": true,
+                    "sentence": "y轴刻度靠右：",
+                    "comment": "图形中是否y轴刻度靠右显示",
+                    "long_comment": "图形中是否y轴刻度靠右显示"
+                },
+                "savefigurefile": {
+                    "type": "bool",
+                    "validvalue": [
+                        true,
+                        false
+                    ],
+                    "defaultvalue": false,
+                    "sentence": "直接保存到文件：",
+                    "comment": "是否直接保存图像文件",
+                    "long_comment": "是否直接保存图像文件"
+                },
+                "figeurefilename": {
+                    "type": "str",
+                    "validvalue": [],
+                    "defaultvalue": "None",
+                    "sentence": "输出文件名：",
+                    "comment": "输出文件名",
+                    "long_comment": "输出文件名"
+                }
+            }
+        },
+        "nofunction": {
+            "argcitems": [
+                "example"
+            ],
+            "argc": {
+                "example": {
+                    "type": "str",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "演示",
+                    "comment": "演示",
+                    "long_comment": "用于演示的函数参数"
+                }
+            },
+            "argv": {}
+        },
+        "dftestfunctionwithdf": {
+            "argcitems": [
+                "ip",
+                "port",
+                "database",
+                "user"
+            ],
+            "argc": {
+                "ip": {
+                    "type": "ipaddress",
+                    "validvalue": [],
+                    "defaultvalue": "192.168.1.1",
+                    "sentence": "",
+                    "comment": "",
+                    "long_comment": ""
+                },
+                "port": {
+                    "type": "int",
+                    "validvalue": [],
+                    "defaultvalue": 8000,
+                    "sentence": "",
+                    "comment": "",
+                    "long_comment": ""
+                },
+                "database": {
+                    "type": "str",
+                    "validvalue": [],
+                    "defaultvalue": "[]",
+                    "sentence": "",
+                    "comment": "",
+                    "long_comment": ""
+                },
+                "user": {
+                    "type": "str",
+                    "validvalue": [],
+                    "defaultvalue": "[]",
+                    "sentence": "",
+                    "comment": "",
+                    "long_comment": ""
+                }
+            },
+            "argv": {
+                "password": {
+                    "type": "password",
+                    "validvalue": [],
+                    "defaultvalue": "",
+                    "sentence": "",
+                    "comment": "",
+                    "long_comment": ""
+                },
+                "sqlstr": {
+                    "type": "str",
+                    "validvalue": [],
+                    "defaultvalue": "",
+                    "sentence": "",
+                    "comment": "",
+                    "long_comment": ""
+                }
+            }
+        },
+        "dftestcolumnplus": {
+            "argcitems": [
+                "opcolumn",
+                "resultcolname"
+            ],
+            "argc": {
+                "opcolumn": {
+                    "type": "columns",
+                    "validvalue": [
+                        [],
+                        []
+                    ],
+                    "defaultvalue": [
+                        [],
+                        []
+                    ],
+                    "sentence": "对列操作",
+                    "comment": "进行操做的列信息",
+                    "long_comment": "进行操做的列信息，仅第一列有效"
+                },
+                "resultcolname": {
+                    "type": "str",
+                    "validvalue": [],
+                    "defaultvalue": "",
+                    "sentence": "结果列",
+                    "comment": "结果赋值列",
+                    "long_comment": "操作结果赋值都该列"
+                }
+            },
+            "argv": {
+                "plusflag": {
+                    "type": "bool",
+                    "validvalue": [
+                        true,
+                        false
+                    ],
+                    "defaultvalue": true,
+                    "sentence": "+1(True）*2（False）",
+                    "comment": "操作开关，True-加1，False-乘2",
+                    "long_comment": "操作开关，True-加1，False-乘2"
+                }
+            }
+        },
+        "dfstockcolumnsma": {
+            "argcitems": [
+                "inputcolumns"
+            ],
+            "argc": {
+                "inputcolumns": {
+                    "type": "columns",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "数据列：",
+                    "comment": "用于计算SMA的数据列",
+                    "long_comment": "用于计算SMA的数据列"
+                }
+            },
+            "argv": {
+                "resultcolname": {
+                    "type": "str",
+                    "validvalue": [],
+                    "defaultvalue": "",
+                    "sentence": "结果列：",
+                    "comment": "计算结果列名称",
+                    "long_comment": "计算结果列名称"
+                },
+                "rollingcount": {
+                    "type": "int",
+                    "validvalue": [],
+                    "defaultvalue": 3,
+                    "sentence": "移动行数：",
+                    "comment": "计算sma时的移动行数",
+                    "long_comment": "计算sma时的移动行数"
+                }
+            }
+        },
+        "dfstockcolumnwma": {
+            "argcitems": [
+                "inputcolumns"
+            ],
+            "argc": {
+                "inputcolumns": {
+                    "type": "columns",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "源数据列：",
+                    "comment": "用于计算的数据列",
+                    "long_comment": "用于计算的数据列"
+                }
+            },
+            "argv": {
+                "resultcolname": {
+                    "type": "str",
+                    "validvalue": [],
+                    "defaultvalue": "",
+                    "sentence": "结果列名：",
+                    "comment": "计算结果列名",
+                    "long_comment": "计算结果列名"
+                },
+                "rollingcount": {
+                    "type": "int",
+                    "validvalue": [],
+                    "defaultvalue": 3,
+                    "sentence": "行数：",
+                    "comment": "计算时涉及的行数",
+                    "long_comment": "计算时涉及的行数"
+                }
+            }
+        },
+        "dfstockcolumnema": {
+            "argcitems": [
+                "inputcolumns"
+            ],
+            "argc": {
+                "inputcolumns": {
+                    "type": "columns",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "源数据列",
+                    "comment": "计算的源数据列",
+                    "long_comment": "计算的源数据列"
+                }
+            },
+            "argv": {
+                "resultcolname": {
+                    "type": "str",
+                    "validvalue": [],
+                    "defaultvalue": "",
+                    "sentence": "结果列名",
+                    "comment": "计算的结果列名",
+                    "long_comment": "计算的结果列名"
+                },
+                "rollingcount": {
+                    "type": "int",
+                    "validvalue": [],
+                    "defaultvalue": 3,
+                    "sentence": "行数：",
+                    "comment": "计算涉及行数",
+                    "long_comment": "计算涉及行数"
+                },
+                "min_periods": {
+                    "type": "int",
+                    "validvalue": [],
+                    "defaultvalue": 0,
+                    "sentence": "最小周期",
+                    "comment": "最小周期",
+                    "long_comment": "最小周期"
+                }
+            }
+        },
+        "dfstockcolumnmacd": {
+            "argcitems": [
+                "inputcolumns"
+            ],
+            "argc": {
+                "inputcolumns": {
+                    "type": "columns",
+                    "validvalue": [],
+                    "defaultvalue": [],
+                    "sentence": "源数据列",
+                    "comment": "计算涉及的源数据列",
+                    "long_comment": "计算涉及的源数据列"
+                }
+            },
+            "argv": {
+                "resultcolname": {
+                    "type": "str",
+                    "validvalue": [],
+                    "defaultvalue": "",
+                    "sentence": "结果列名",
+                    "comment": "计算结果输出列名",
+                    "long_comment": "计算结果输出列名"
+                }
+            }
+        }
+    },
+    "commanddict": {
+        "行新增": {
+            "command_type": "行处理",
+            "english_name": "add row",
+            "new_table": "否",
+            "used_table_number": "单表",
+            "function_name": "dfaddrow",
+            "function_param": [],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, {5})",
+            "record_format": "[{0}], {{}}, {3}",
+            "show_flag": "是"
+        },
+        "行删除": {
+            "command_type": "行处理",
+            "english_name": "delete rows",
+            "new_table": "否",
+            "used_table_number": "单表",
+            "function_name": "dfrowsdel",
+            "function_param": [],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, {5})",
+            "record_format": "[{0}], {{}}, {1}",
+            "show_flag": "是"
+        },
+        "行删除重复": {
+            "command_type": "行处理",
+            "english_name": "delete rows",
+            "new_table": "否",
+            "used_table_number": "单表",
+            "function_name": "dfrowsduplicatedel",
+            "function_param": [
+                "keep"
+            ],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, {5}, **dict({{}}, **{4}))",
+            "record_format": "[{0}], {{'keep': 'first'}}, {2}",
+            "show_flag": "是"
+        },
+        "行清空": {
+            "command_type": "行处理",
+            "english_name": "delete rows",
+            "new_table": "否",
+            "used_table_number": "单表",
+            "function_name": "dfrowsclear",
+            "function_param": [],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, {5})",
+            "record_format": "[{0}], {{}}, {1}",
+            "show_flag": "是"
+        },
+        "行移动": {
+            "command_type": "行处理",
+            "english_name": "move row",
+            "new_table": "否",
+            "used_table_number": "单表",
+            "function_name": "dfrowmove",
+            "function_param": [],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, {5}, {6})",
+            "record_format": "[{0}], {{}}, {1}, []",
+            "show_flag": "是"
+        },
+        "行修改": {
+            "command_type": "行处理",
+            "english_name": "update row",
+            "new_table": "否",
+            "used_table_number": "单表",
+            "function_name": "dfupdaterow",
+            "function_param": [],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, {5}, {6})",
+            "record_format": "[{0}], {{}}, {1}, {3}",
+            "show_flag": "是"
+        },
+        "行单元填值": {
+            "command_type": "行处理",
+            "english_name": "",
+            "new_table": "否",
+            "used_table_number": "单表",
+            "function_name": "dfrowcellfill",
+            "function_param": [
+                "fillvalue"
+            ],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, {5}, {6}, **dict({{}}, **{4}))",
+            "record_format": "[{0}], {{'fillvalue': 'None'}}, {1}, {2}",
+            "show_flag": "是"
+        },
+        "行合并": {
+            "command_type": "行处理",
+            "english_name": "rows combine",
+            "new_table": "否",
+            "used_table_number": "单表",
+            "function_name": "dfrowcombine",
+            "function_param": [
+                "seperate",
+                "nanreplace"
+            ],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, {5}, {6}, {7}, **dict({{}}, **{4}))",
+            "record_format": "[{0}], {{'seperate': '\\n', 'nanreplace': '-'}}, {1}, {2}, 999999",
+            "show_flag": "是"
+        },
+        "行求和": {
+            "command_type": "行处理",
+            "english_name": "sum rows",
+            "new_table": "否",
+            "used_table_number": "单表",
+            "function_name": "dfrowsum",
+            "function_param": [],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, {5}, {6})",
+            "record_format": "[{0}], {{}}, {2}, 999999",
+            "show_flag": "是"
+        },
+        "行求差": {
+            "command_type": "行处理",
+            "english_name": "diff rows",
+            "new_table": "否",
+            "used_table_number": "单表",
+            "function_name": "dfrowsubtract",
+            "function_param": [],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, {5}, {6}, {7})",
+            "record_format": "[{0}], {{}}, {1}, {2}, 999999",
+            "show_flag": "是"
+        },
+        "行空值标记": {
+            "command_type": "行处理",
+            "english_name": "table Nan fill value",
+            "new_table": "否",
+            "used_table_number": "单表",
+            "function_name": "dfrowmarkna",
+            "function_param": [
+                "allnaflag",
+                "markcolumnname"
+            ],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, **dict({{}}, **{4}))",
+            "record_format": "[{0}], {{'allnaflag': True, 'markcolumnname': '空值行标记'}}",
+            "show_flag": "是"
+        },
+        "行按标记着色": {
+            "command_type": "行处理",
+            "english_name": "table Nan fill value",
+            "new_table": "否",
+            "used_table_number": "单表",
+            "function_name": "dffillrowstylebymark",
+            "function_param": [
+                "textcolor",
+                "backgroundcolor"
+            ],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, {5}, {6}, **dict({{}}, **{4}))",
+            "record_format": "[{0}], {{'textcolor': 'blue', 'backgroundcolor': 'white'}}, {2}, []",
+            "show_flag": "是"
+        },
+        "行按标记填值": {
+            "command_type": "行处理",
+            "english_name": "",
+            "new_table": "否",
+            "used_table_number": "单表",
+            "function_name": "dfrowsmarkfill",
+            "function_param": [
+                "fillvalue",
+                "markcolumns",
+                "fillmarkvalue"
+            ],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, {5}, **dict({{}}, **{4}))",
+            "record_format": "[{0}], {{'fillvalue': 'None', 'markcolumns': [[], []], 'fillmarkvalue': True}}, {2}",
+            "show_flag": "是"
+        },
+        "行按标记删除": {
+            "command_type": "行处理",
+            "english_name": "delete rows by marks",
+            "new_table": "否",
+            "used_table_number": "单表",
+            "function_name": "dfrowsmarkdel",
+            "function_param": [
+                "delmarkvalue"
+            ],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, {5}, **dict({{}}, **{4}))",
+            "record_format": "[{0}], {{'delmarkvalue': True}}, {2}",
+            "show_flag": "是"
+        },
+        "行特殊处理": {
+            "command_type": "行处理",
+            "english_name": "row specail process",
+            "new_table": "否",
+            "used_table_number": "单表",
+            "function_name": "dfrowspecialprocess",
+            "function_param": [],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, {5}, {6}, '{7}')",
+            "record_format": "[{0}], {{}}, {1}, 999999, ''",
+            "show_flag": "是"
+        },
+        "列新增": {
+            "command_type": "列处理",
+            "english_name": "add column",
+            "new_table": "否",
+            "used_table_number": "单表",
+            "function_name": "dfnewcolumn",
+            "function_param": [
+                "columnname",
+                "dtype",
+                "columnfillvalue"
+            ],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, **dict({{}}, **{4}))",
+            "record_format": "[{0}], {{'columnname': '新列', 'dtype': 'str', 'columnfillvalue': ''}}",
+            "show_flag": "是"
+        },
+        "列删除": {
+            "command_type": "列处理",
+            "english_name": "delete columns",
+            "new_table": "否",
+            "used_table_number": "单表",
+            "function_name": "dfcolumnsdel",
+            "function_param": [],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, {5})",
+            "record_format": "[{0}], {{}}, {2}",
+            "show_flag": "是"
+        },
+        "列清空": {
+            "command_type": "列处理",
+            "english_name": "delete columns",
+            "new_table": "否",
+            "used_table_number": "单表",
+            "function_name": "dfcolumnsclear",
+            "function_param": [],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, {5})",
+            "record_format": "[{0}], {{}}, {2}",
+            "show_flag": "是"
+        },
+        "列交换": {
+            "command_type": "列处理",
+            "english_name": "swap columns",
+            "new_table": "否",
+            "used_table_number": "单表",
+            "function_name": "dfcolumnswap",
+            "function_param": [],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, {5})",
+            "record_format": "[{0}], {{}}, {2}",
+            "show_flag": "是"
+        },
+        "列求和": {
+            "command_type": "列处理",
+            "english_name": "columns sum",
+            "new_table": "否",
+            "used_table_number": "单表",
+            "function_name": "dfcolumnsum",
+            "function_param": [],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, {5}, '{6}')",
+            "record_format": "[{0}], {{}}, {2}, '求和列名'",
+            "show_flag": "是"
+        },
+        "列合并": {
+            "command_type": "列处理",
+            "english_name": "column combine",
+            "new_table": "否",
+            "used_table_number": "单表",
+            "function_name": "dfcolumncombine",
+            "function_param": [
+                "seperate",
+                "nanreplace"
+            ],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, {5}, '{6}', **dict({{}}, **{4}))",
+            "record_format": "[{0}], {{'seperate': '\\n', 'nanreplace': '-'}}, {2}, '合并列名'",
+            "show_flag": "是"
+        },
+        "列抽取": {
+            "command_type": "列处理",
+            "english_name": "columns filter",
+            "new_table": "否",
+            "used_table_number": "单表",
+            "function_name": "dfextractcolumns",
+            "function_param": [],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, {5})",
+            "record_format": "[{0}], {{}}, {2}",
+            "show_flag": "是"
+        },
+        "列移动": {
+            "command_type": "列处理",
+            "english_name": "move column",
+            "new_table": "否",
+            "used_table_number": "单表",
+            "function_name": "dfcolumnmove",
+            "function_param": [],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, {5}, {6})",
+            "record_format": "[{0}], {{}}, {2}, [[], []]",
+            "show_flag": "是"
+        },
+        "列排序": {
+            "command_type": "列处理",
+            "english_name": "sort data by columns",
+            "new_table": "否",
+            "used_table_number": "单表",
+            "function_name": "dfsortbycolumns",
+            "function_param": [
+                "hancolumns",
+                "ascending",
+                "hanascending"
+            ],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, {5}, **dict({{}}, **{4}))",
+            "record_format": "[{0}], {{'hancolumns': [[], []], 'ascending': [True], 'hanascending': []}}, {2}",
+            "show_flag": "是"
+        },
+        "列命名": {
+            "command_type": "列处理",
+            "english_name": "columns rename",
+            "new_table": "否",
+            "used_table_number": "单表",
+            "function_name": "dfcolumnrename",
+            "function_param": [],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, {5})",
+            "record_format": "[{0}], {{}}, {4}",
+            "show_flag": "是"
+        },
+        "列求差": {
+            "command_type": "列处理",
+            "english_name": "columns minus",
+            "new_table": "否",
+            "used_table_number": "单表",
+            "function_name": "dfcolumnsubtract",
+            "function_param": [],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, {5}, '{6}')",
+            "record_format": "[{0}], {{}}, {2}, '求差列名'",
+            "show_flag": "是"
+        },
+        "列移至头或尾": {
+            "command_type": "列处理",
+            "english_name": "move column to head or tail",
+            "new_table": "否",
+            "used_table_number": "单表",
+            "function_name": "dfcolumnstoheadortail",
+            "function_param": [
+                "tailflag"
+            ],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, {5}, **dict({{}}, **{4}))",
+            "record_format": "[{0}], {{'tailflag': True}}, {2}",
+            "show_flag": "是"
+        },
+        "列类型设置": {
+            "command_type": "列处理",
+            "english_name": "set columns type",
+            "new_table": "否",
+            "used_table_number": "单表",
+            "function_name": "dfcolumntypeset",
+            "function_param": [],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, {5}, '{6}')",
+            "record_format": "[{0}], {{}}, {2}, 'str'",
+            "show_flag": "是"
+        },
+        "列序号生成": {
+            "command_type": "列处理",
+            "english_name": "df column serial column",
+            "new_table": "否",
+            "used_table_number": "多表",
+            "function_name": "dfaddserialno",
+            "function_param": [
+                "columnname",
+                "startnumber"
+            ],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, **dict({{}}, **{4}))",
+            "record_format": "[{0}], {{'columnname': '序号', 'startnumber': 0}}",
+            "show_flag": "是"
+        },
+        "列按标记删除": {
+            "command_type": "列处理",
+            "english_name": "delete columns by marks",
+            "new_table": "否",
+            "used_table_number": "单表",
+            "function_name": "dfcolumnsmarkdel",
+            "function_param": [
+                "delmarkvalue"
+            ],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, {5}, **dict({{}}, **{4}))",
+            "record_format": "[{0}], {{'delmarkvalue': True}}, {1}",
+            "show_flag": "是"
+        },
+        "列空值检测": {
+            "command_type": "列处理",
+            "english_name": "columns check null value",
+            "new_table": "否",
+            "used_table_number": "单表",
+            "function_name": "dfcolcheckna",
+            "function_param": [],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, {5})",
+            "record_format": "[{0}], {{}}, {2}",
+            "show_flag": "是"
+        },
+        "列空值填充": {
+            "command_type": "列处理",
+            "english_name": "columns Nan fill value",
+            "new_table": "否",
+            "used_table_number": "单表",
+            "function_name": "dfcolfillna",
+            "function_param": [
+                "fillvalue"
+            ],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, {5}, **dict({{}}, **{4}))",
+            "record_format": "[{0}], {{'fillvalue': None}}, {2}",
+            "show_flag": "是"
+        },
+        "列值替换": {
+            "command_type": "列处理",
+            "english_name": "columns replace value",
+            "new_table": "否",
+            "used_table_number": "单表",
+            "function_name": "dfcolvaluereplace",
+            "function_param": [
+                "oldvalue",
+                "fillvalue"
+            ],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, {5}, **dict({{}}, **{4}))",
+            "record_format": "[{0}], {{'oldvalue': None, 'fillvalue': None}}, {2}",
+            "show_flag": "是"
+        },
+        "列值移位": {
+            "command_type": "列处理",
+            "english_name": "columns replace value",
+            "new_table": "否",
+            "used_table_number": "单表",
+            "function_name": "dfcolumnshift",
+            "function_param": [
+                "shiftrows",
+                "circleflag",
+                "fillnan",
+                "newcolname"
+            ],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, {5}, **dict({{}}, **{4}))",
+            "record_format": "[{0}], {{'shiftrows': 1, 'circleflag': False, 'fillnan': 'None', 'newcolname': '移位列名'}}, {2}",
+            "show_flag": "是"
+        },
+        "列多级组内拷贝": {
+            "command_type": "列处理",
+            "english_name": "copy rows in one group level",
+            "new_table": "否",
+            "used_table_number": "单表",
+            "function_name": "dfrowmultilevelcopy",
+            "function_param": [
+                "fillna"
+            ],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, {5}, **dict({{}}, **{4}))",
+            "record_format": "[{0}], {{'fillna': None}}, {2}",
+            "show_flag": "是"
+        },
+        "列分组行数标记": {
+            "command_type": "列处理",
+            "english_name": "columns groupby mark",
+            "new_table": "否",
+            "used_table_number": "单表",
+            "function_name": "dfgroupbycountmark",
+            "function_param": [],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, {5}, {6})",
+            "record_format": "[{0}], {{}}, {2}, []",
+            "show_flag": "是"
+        },
+        "列分组序号标记": {
+            "command_type": "列处理",
+            "english_name": "columns groupby mark",
+            "new_table": "否",
+            "used_table_number": "单表",
+            "function_name": "dfgroupbyserialnomark",
+            "function_param": [],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, {5}, {6})",
+            "record_format": "[{0}], {{}}, {2}, []",
+            "show_flag": "是"
+        },
+        "列分组内序号标记": {
+            "command_type": "列处理",
+            "english_name": "columns groupby mark",
+            "new_table": "否",
+            "used_table_number": "单表",
+            "function_name": "dfgroupbyinnerserialnomark",
+            "function_param": [],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, {5}, {6})",
+            "record_format": "[{0}], {{}}, {2}, []",
+            "show_flag": "是"
+        },
+        "列分组行合并": {
+            "command_type": "列处理",
+            "english_name": "columns groupby combine mark",
+            "new_table": "否",
+            "used_table_number": "单表",
+            "function_name": "dfgroupbyrowcombinemark",
+            "function_param": [
+                "seperate",
+                "nanreplace"
+            ],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, {5}, {6}, '{7}', **dict({{}}, **{4}))",
+            "record_format": "[{0}], {{'seperate': '\\n', 'nanreplace': '-'}}, {2}, [], ''",
+            "show_flag": "是"
+        },
+        "列分组求和": {
+            "command_type": "列处理",
+            "english_name": "column groupby sum",
+            "new_table": "否",
+            "used_table_number": "单表",
+            "function_name": "dfgroupbysum",
+            "function_param": [
+                "columnname"
+            ],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, {5}, {6}, **dict({{}}, **{4}))",
+            "record_format": "[{0}], {{'columnname': '求和列'}}, {2}, []",
+            "show_flag": "是"
+        },
+        "列分组累积求和": {
+            "command_type": "列处理",
+            "english_name": "column groupby cumsum",
+            "new_table": "否",
+            "used_table_number": "单表",
+            "function_name": "dfgroupbycumsum",
+            "function_param": [
+                "columnname"
+            ],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, {5}, {6}, **dict({{}}, **{4}))",
+            "record_format": "[{0}], {{'columnname': '累积求和列'}}, {2}, []",
+            "show_flag": "是"
+        },
+        "列分组聚合": {
+            "command_type": "列处理",
+            "english_name": "column groupby agg",
+            "new_table": "否",
+            "used_table_number": "单表",
+            "function_name": "dfgroupbyagg",
+            "function_param": [
+                "columnnamelist"
+            ],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, {5}, {6}, {7}, **dict({{}}, **{4}))",
+            "record_format": "[{0}], {{'columnnamelist': None}}, {2}, [], []",
+            "show_flag": "是"
+        },
+        "列特殊处理": {
+            "command_type": "列处理",
+            "english_name": "column specail process",
+            "new_table": "否",
+            "used_table_number": "单表",
+            "function_name": "dfcolumnspecialprocess",
+            "function_param": [],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, {5}, '{6}', '{7}')",
+            "record_format": "[{0}], {{}}, {2}, '结果列名', ''",
+            "show_flag": "是"
+        },
+        "表空值检测": {
+            "command_type": "单表处理",
+            "english_name": "table check null value",
+            "new_table": "否",
+            "used_table_number": "单表",
+            "function_name": "dfallcheckna",
+            "function_param": [],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3})",
+            "record_format": "[{0}], {{}}",
+            "show_flag": "是"
+        },
+        "表空值填充": {
+            "command_type": "单表处理",
+            "english_name": "table Nan fill value",
+            "new_table": "否",
+            "used_table_number": "单表",
+            "function_name": "dffillna",
+            "function_param": [
+                "fillvalue"
+            ],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, **dict({{}}, **{4}))",
+            "record_format": "[{0}], {{'fillvalue': None}}",
+            "show_flag": "是"
+        },
+        "重建行索引": {
+            "command_type": "单表处理",
+            "english_name": "",
+            "new_table": "否",
+            "used_table_number": "单表",
+            "function_name": "dfrowreindex",
+            "function_param": [],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3})",
+            "record_format": "[{0}], {{}}",
+            "show_flag": "是"
+        },
+        "行转置列": {
+            "command_type": "单表处理",
+            "english_name": "pivot rows",
+            "new_table": "是",
+            "used_table_number": "单表",
+            "function_name": "dfpivot",
+            "function_param": [
+                "index",
+                "columns",
+                "values"
+            ],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, {5}, **dict({{}}, **{4}))",
+            "record_format": "[{0}], {{'index': [], 'columns': [], 'values': []}}, [{5}]",
+            "show_flag": "是"
+        },
+        "列转置行": {
+            "command_type": "单表处理",
+            "english_name": "melt columns",
+            "new_table": "是",
+            "used_table_number": "单表",
+            "function_name": "dfmelt",
+            "function_param": [
+                "id_vars",
+                "value_vars",
+                "var_name",
+                "value_name"
+            ],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, {5}, **dict({{}}, **{4}))",
+            "record_format": "[{0}], {{'id_vars': [], 'value_vars': [], 'var_name': '', 'value_name': ''}}, [{5}]",
+            "show_flag": "是"
+        },
+        "按标签过滤": {
+            "command_type": "单表处理",
+            "english_name": "filter by labels",
+            "new_table": "是",
+            "used_table_number": "单表",
+            "function_name": "dflabelfilter",
+            "function_param": [
+                "items",
+                "like",
+                "regex",
+                "axis"
+            ],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, {5}, **dict({{}}, **{4}))",
+            "record_format": "[{0}], {{'items': None, 'like': None, 'regex': None, 'axis': 0}}, [{5}]",
+            "show_flag": "是"
+        },
+        "按列值列表展开": {
+            "command_type": "单表处理",
+            "english_name": "explode columns",
+            "new_table": "是",
+            "used_table_number": "单表",
+            "function_name": "dfexplode",
+            "function_param": [
+                "ignore_index"
+            ],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, {5}, {6}, **dict({{}}, **{4}))",
+            "record_format": "[{0}], {{'ignore_index': True}}, [{5}], {2}",
+            "show_flag": "是"
+        },
+        "数据条件筛选": {
+            "command_type": "单表处理",
+            "english_name": "filter query",
+            "new_table": "是",
+            "used_table_number": "单表",
+            "function_name": "dfquery",
+            "function_param": [
+                "querylist"
+            ],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, {5}, **dict({{}}, **{4}))",
+            "record_format": "[{0}], {{'querylist': []}}, [{5}]",
+            "show_flag": "是"
+        },
+        "数据透视": {
+            "command_type": "单表处理",
+            "english_name": "pivot_table",
+            "new_table": "是",
+            "used_table_number": "单表",
+            "function_name": "dfpivottable",
+            "function_param": [
+                "values",
+                "index",
+                "columns",
+                "aggfunc",
+                "fill_value",
+                "margins",
+                "dropna",
+                "margins_name",
+                "sort"
+            ],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, {5}, **dict({{}}, **{4}))",
+            "record_format": "[{0}], {{'values': [[], []], 'index': [[], []], 'columns': [[], []], 'aggfunc': 'mean', 'fill_value': None, 'margins': False, 'dropna': True, 'margins_name': '合计', 'sort': True}}, [{5}]",
+            "show_flag": "是"
+        },
+        "数据无模板导出": {
+            "command_type": "单表处理",
+            "english_name": "df block output without model file",
+            "new_table": "否",
+            "used_table_number": "单表",
+            "function_name": "dfsavedatatofile",
+            "function_param": [
+                "styleout",
+                "index"
+            ],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, '{5}', {6}, {7}, {8}, **dict({{}}, **{4}))",
+            "record_format": "[{0}], {{'styleout': False, 'index': True}}, '', 0, 0, 0",
+            "show_flag": "是"
+        },
+        "数据按标准模板导出": {
+            "command_type": "单表处理",
+            "english_name": "df block output with standard model file",
+            "new_table": "否",
+            "used_table_number": "单表",
+            "function_name": "dfsavedatatofile",
+            "function_param": [
+                "modelfilename",
+                "sumrownumber"
+            ],
+            "percentage_bar": "是",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, '{5}', {6}, {7}, {8}, **dict({{}}, **{4}))",
+            "record_format": "[{0}], {{'modelfilename': '', 'sumrownumber': None}}, '', 0, 0, 0",
+            "show_flag": "是"
+        },
+        "数据区块按模板导出": {
+            "command_type": "单表处理",
+            "english_name": "df block output accordings model file",
+            "new_table": "否",
+            "used_table_number": "单表",
+            "function_name": "dfcopydfblocktomodelexcelfile",
+            "function_param": [],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, '{5}', '{6}', {7}, {8}, {9}, {10}, {11})",
+            "record_format": "[{0}], {{}}, '', '', 0, {1}, {2}, [0], [0]",
+            "show_flag": "是"
+        },
+        "数据sql导出": {
+            "command_type": "单表处理",
+            "english_name": "df sql export",
+            "new_table": "否",
+            "used_table_number": "单表",
+            "function_name": "dfsavedatatodatabasebysql",
+            "function_param": [
+                "if_exists"
+            ],
+            "percentage_bar": "否",
+            "user_operate": "是",
+            "command_format": "{0}({1}, {3}, '{5}', {6}, '{7}', '{8}', '{9}', '{10}', **dict({{}}, **{4}))",
+            "record_format": "[{0}], {{'if_exists': 'replace'}}, '192.168.1.1', 8000, '', '', '', 'test'",
+            "show_flag": "是"
+        },
+        "区块拷贝": {
+            "command_type": "双表处理",
+            "english_name": "df block copy",
+            "new_table": "否",
+            "used_table_number": "双表",
+            "function_name": "dfblockcopy",
+            "function_param": [],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, {5}, {6})",
+            "record_format": "[{0}], {{}}, [], []",
+            "show_flag": "是"
+        },
+        "列拷贝": {
+            "command_type": "双表处理",
+            "english_name": "df column  copy",
+            "new_table": "否",
+            "used_table_number": "双表",
+            "function_name": "dfcolumncopy",
+            "function_param": [],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, {5}, {6})",
+            "record_format": "[{0}], {{}}, [], []",
+            "show_flag": "是"
+        },
+        "列特殊拷贝": {
+            "command_type": "双表处理",
+            "english_name": "df column index copy",
+            "new_table": "否",
+            "used_table_number": "双表",
+            "function_name": "dfspecailcolumncopy",
+            "function_param": [
+                "indexcolumn"
+            ],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, {5}, {6}, **dict({{}}, **{4}))",
+            "record_format": "[{0}], {{'indexcolumn': []}}, [], []",
+            "show_flag": "是"
+        },
+        "列索引赋值": {
+            "command_type": "双表处理",
+            "english_name": "column index fill value",
+            "new_table": "否",
+            "used_table_number": "双表",
+            "function_name": "dfcolumnindexfill",
+            "function_param": [
+                "targetcolumn",
+                "sourcecolumn",
+                "targetindex",
+                "sourceindex",
+                "fillvalue"
+            ],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, **dict({{}}, **{4}))",
+            "record_format": "[{0}], {{'targetcolumn': [], 'sourcecolumn': [], 'targetindex': [], 'sourceindex': [], 'fillvalue': ''}}",
+            "show_flag": "是"
+        },
+        "表格差异比较": {
+            "command_type": "双表处理",
+            "english_name": "merge two table",
+            "new_table": "是",
+            "used_table_number": "双表",
+            "function_name": "dfcompare",
+            "function_param": [
+                "indexcolumn",
+                "markcolumnname"
+            ],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, {5}, **dict({{}}, **{4}))",
+            "record_format": "[{0}], {{'indexcolumn': [], 'markcolumnname': '差异标记'}}, [{5}]",
+            "show_flag": "是"
+        },
+        "表格融合": {
+            "command_type": "双表处理",
+            "english_name": "merge two table",
+            "new_table": "是",
+            "used_table_number": "双表",
+            "function_name": "dfmerge",
+            "function_param": [
+                "how"
+            ],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, {5}, **dict({{}}, **{4}))",
+            "record_format": "[{0}], {{'how': 'outer'}}, [{5}]",
+            "show_flag": "是"
+        },
+        "表格换位": {
+            "command_type": "双表处理",
+            "english_name": "swap two table",
+            "new_table": "否",
+            "used_table_number": "双表",
+            "function_name": "dfswapposition",
+            "function_param": [],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3})",
+            "record_format": "[{0}], {{}}",
+            "show_flag": "是"
+        },
+        "表格删除": {
+            "command_type": "多表处理",
+            "english_name": "drop tables",
+            "new_table": "否",
+            "used_table_number": "多表",
+            "function_name": "dfdroptables",
+            "function_param": [],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3})",
+            "record_format": "[{0}], {{}}",
+            "show_flag": "是"
+        },
+        "表格分组抽取": {
+            "command_type": "单表处理",
+            "english_name": "extract table groupby",
+            "new_table": "是",
+            "used_table_number": "单表",
+            "function_name": "dfgroupbysplit",
+            "function_param": [
+                "reindex"
+            ],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, {5}, {6}, {7}, **dict({{}}, **{4}))",
+            "record_format": "[{0}], {{'reindex': False}}, [{5}], {2}, []",
+            "show_flag": "是"
+        },
+        "纵向拼接": {
+            "command_type": "多表处理",
+            "english_name": "combine tables y axis",
+            "new_table": "是",
+            "used_table_number": "多表",
+            "function_name": "dflongitudinaljoint",
+            "function_param": [],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, {5})",
+            "record_format": "[{0}], {{}}, [{5}]",
+            "show_flag": "是"
+        },
+        "横向拼接": {
+            "command_type": "多表处理",
+            "english_name": "combine tables x axis",
+            "new_table": "是",
+            "used_table_number": "多表",
+            "function_name": "dfwidthwisejoint",
+            "function_param": [],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, {5})",
+            "record_format": "[{0}], {{}}, [{5}]",
+            "show_flag": "是"
+        },
+        "数据文件导入": {
+            "command_type": "表格导入",
+            "english_name": "df file import",
+            "new_table": "是",
+            "used_table_number": "单表",
+            "function_name": "dfloaddatafromfile",
+            "function_param": [
+                "headnameline",
+                "na_filter",
+                "colforcestring"
+            ],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, {5}, '{6}', {7}, {8}, {9}, **dict({{}}, **{4}))",
+            "record_format": "[{0}], {{'headnameline': 0, 'na_filter': False, 'colforcestring': []}}, [{5}], '', 0, 0, 0",
+            "show_flag": "是"
+        },
+        "数据sql导入": {
+            "command_type": "表格导入",
+            "english_name": "df sql import",
+            "new_table": "是",
+            "used_table_number": "单表",
+            "function_name": "dfloaddatafromdbbysql",
+            "function_param": [],
+            "percentage_bar": "否",
+            "user_operate": "是",
+            "command_format": "{0}({1}, {3}, {5}, '{6}', {7}, '{8}', '{9}', '{10}', '{11}')",
+            "record_format": "[{0}], {{}}, [{5}], '192.168.1.1', 8000, '', '', '', ''",
+            "show_flag": "是"
+        },
+        "测试": {
+            "command_type": "其他处理",
+            "english_name": "",
+            "new_table": "否",
+            "used_table_number": "单表",
+            "function_name": "dftestfunctionwithdf",
+            "function_param": [
+                "password",
+                "sqlstr"
+            ],
+            "percentage_bar": "否",
+            "user_operate": "是",
+            "command_format": "{0}({1}, {3}, '{5}', {6}, '{7}', '{8}', **dict({{}}, **{4}))",
+            "record_format": "[{0}], {{'password': '', 'sqlstr': ''}}, '192.168.1.1', 8000, '[]', '[]'",
+            "show_flag": "否"
+        },
+        "自定义命令": {
+            "command_type": "其他处理",
+            "english_name": "",
+            "new_table": "否",
+            "used_table_number": "单表",
+            "function_name": "dftestcolumnplus",
+            "function_param": [
+                "plusflag"
+            ],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, {5}, '{6}', **dict({{}}, **{4}))",
+            "record_format": "[{0}], {{'plusflag': True}}, {2}, ''",
+            "show_flag": "否"
+        },
+        "图形显示": {
+            "command_type": "单表处理",
+            "english_name": "",
+            "new_table": "否",
+            "used_table_number": "单表",
+            "function_name": "dfplotshowdf",
+            "function_param": [
+                "plottype",
+                "indexcolumn",
+                "valuecolumns",
+                "title",
+                "xlabel",
+                "ylabel",
+                "showgrid",
+                "showlegend",
+                "showstacked",
+                "showwidth",
+                "showheight",
+                "showdirect",
+                "subplots",
+                "sharex",
+                "sharey",
+                "use_index",
+                "logx",
+                "logy",
+                "secondary_y",
+                "mark_right",
+                "savefigurefile",
+                "figeurefilename"
+            ],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, **dict({{}}, **{4}))",
+            "record_format": "[{0}], {{'plottype': '折线图', 'indexcolumn': None, 'valuecolumns': None, 'title': '', 'xlabel': '', 'ylabel': '', 'showgrid': True, 'showlegend': True, 'showstacked': False, 'showwidth': 12, 'showheight': 8, 'showdirect': False, 'subplots': False, 'sharex': False, 'sharey': False, 'use_index': True, 'logx': False, 'logy': False, 'secondary_y': False, 'mark_right': True, 'savefigurefile': False, 'figeurefilename': 'None'}}",
+            "show_flag": "是"
+        },
+        "股票-SMA": {
+            "command_type": "扩展功能",
+            "english_name": "",
+            "new_table": "否",
+            "used_table_number": "单表",
+            "function_name": "dfstockcolumnsma",
+            "function_param": [
+                "resultcolname",
+                "rollingcount"
+            ],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, {5}, **dict({{}}, **{4}))",
+            "record_format": "[{0}], {{'resultcolname': '', 'rollingcount': 3}}, {2}",
+            "show_flag": "是"
+        },
+        "股票-WMA": {
+            "command_type": "扩展功能",
+            "english_name": "",
+            "new_table": "否",
+            "used_table_number": "单表",
+            "function_name": "dfstockcolumnwma",
+            "function_param": [
+                "resultcolname",
+                "rollingcount"
+            ],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, {5}, **dict({{}}, **{4}))",
+            "record_format": "[{0}], {{'resultcolname': '', 'rollingcount': 3}}, {2}",
+            "show_flag": "是"
+        },
+        "股票-EMA": {
+            "command_type": "扩展功能",
+            "english_name": "",
+            "new_table": "否",
+            "used_table_number": "单表",
+            "function_name": "dfstockcolumnema",
+            "function_param": [
+                "resultcolname",
+                "rollingcount",
+                "min_periods"
+            ],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, {5}, **dict({{}}, **{4}))",
+            "record_format": "[{0}], {{'resultcolname': '', 'rollingcount': 3, 'min_periods': 0}}, {2}",
+            "show_flag": "是"
+        },
+        "股票-MACD": {
+            "command_type": "扩展功能",
+            "english_name": "",
+            "new_table": "否",
+            "used_table_number": "单表",
+            "function_name": "dfstockcolumnmacd",
+            "function_param": [
+                "resultcolname"
+            ],
+            "percentage_bar": "否",
+            "user_operate": "否",
+            "command_format": "{0}({1}, {3}, {5}, **dict({{}}, **{4}))",
+            "record_format": "[{0}], {{'resultcolname': ''}}, {2}",
+            "show_flag": "是"
+        }
+    },
+    "commandalias": {
+        "空值列填充": "列空值填充",
+        "生成序号列": "列序号生成",
+        "多级组内拷贝": "列多级组内拷贝",
+        "空值表检测": "表空值检测",
+        "列值列表展开": "按列值列表展开",
+        "空值表填充": "表空值填充"
+    },
+    "commandcomment": {
+        "COMMAND_TYPE = 0": "命令名",
+        "COMMAND_ENGLIST_NAME = 1": "命令英文名",
+        "COMMAND_NEW_TABLE_FLAG = 2": "命令是否产生新表",
+        "COMMAND_MULTI_DF_FLAG = 3": "命令涉及的表格数",
+        "COMMAND_FUNCTION_NAME = 4": "命令有用到的函数名",
+        "COMMAND_FUNCTION_PARAM = 5": "命令用到的函数的argv列表",
+        "COMMAND_FORMAT = 6": "转化命令为处理函数时使用的格式串，之后调用eval执行, {0}：函数名 {1}:dfprefix， {2}:当前处理df列表, {3}：当前处理df下标列表  {4}:形参字典：删除行的序号列表 {5}..其他实参",
+        "COMMAND_FOMRMAT = 6 example": "'functionname', 'dflist', '[dflist[0], dflist[1], ...]', [0, 1, ...], {\"a\": x1, \"b\": x2...},...",
+        "COMMAND_USED_INPUT_NUMBER = 7": "采用记录方式时，命令串需要用到的参数最大序号，目前暂时预留未使用",
+        "COMMAND_USED_INPUT_FORMAT = 8": "采用记录方式时，用来拼接命令的格式串, {0} currentsubtab[1], {1}selectedrow, {2}selectedcolumn, {3}currentrowcontent, {4}currentcolumnname, {5}len(dflist), {6}dflist"
+    }
+}
