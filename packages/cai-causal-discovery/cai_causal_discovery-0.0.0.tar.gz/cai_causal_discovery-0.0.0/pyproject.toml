@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "cai-causal-discovery"
+version = "0.0.0"
+description = "Causal discovery package focusing on full graph causal discovery for observational data with support for latent variables and the incorporation of domain/background knowledge."
+authors = ["causaLens <opensource@causalens.com>"]
+readme = "README.md"
+packages = [{include = "cai_causal_discovery"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
