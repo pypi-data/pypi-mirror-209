@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/notebook_doc/__init__.py
+src/notebook_doc/doc_functions.py
+src/notebook_doc/test.py
+src/notebook_doc.egg-info/PKG-INFO
+src/notebook_doc.egg-info/SOURCES.txt
+src/notebook_doc.egg-info/dependency_links.txt
+src/notebook_doc.egg-info/requires.txt
+src/notebook_doc.egg-info/top_level.txt
