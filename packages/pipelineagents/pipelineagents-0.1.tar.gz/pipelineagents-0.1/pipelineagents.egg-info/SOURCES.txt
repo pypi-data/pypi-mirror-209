@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pipelineagents/pipeline.py
+pipelineagents.egg-info/PKG-INFO
+pipelineagents.egg-info/SOURCES.txt
+pipelineagents.egg-info/dependency_links.txt
+pipelineagents.egg-info/not-zip-safe
+pipelineagents.egg-info/requires.txt
+pipelineagents.egg-info/top_level.txt
