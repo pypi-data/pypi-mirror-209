@@ -1,0 +1,5 @@
+setup.py
+robot_package.egg-info/PKG-INFO
+robot_package.egg-info/SOURCES.txt
+robot_package.egg-info/dependency_links.txt
+robot_package.egg-info/top_level.txt
