@@ -1,0 +1,6 @@
+setup.py
+gramspel.egg-info/PKG-INFO
+gramspel.egg-info/SOURCES.txt
+gramspel.egg-info/dependency_links.txt
+gramspel.egg-info/requires.txt
+gramspel.egg-info/top_level.txt
