@@ -1,0 +1,13 @@
+konoise/__init__.py,sha256=U6fNSXCyGDb3ZXVebeMDw7BIwxXjcH00qprwUQ2fFoM,136
+konoise/generator.py,sha256=o974IBzuoFRSHtTJvRF6Up1E7gFO6oP0vuvnqBAVgNQ,2694
+konoise/phoneme.py,sha256=o-UuYvle4e851sCQ19h2MKjfMMU3nS-3RrrJRW1XFRQ,2647
+konoise/rust_generator.cp38-win_amd64.pyd,sha256=1CGV2CK-l6gTVEG1WdTozLK6tIPWjN3-ZkrFWBtX9iM,436224
+konoise/segments.py,sha256=LDsSePpYv4IXuWIaYc__rUxbN-deb8frreXIqk7tG1g,1205
+konoise/spliter.py,sha256=ECyS7zjPKTx1iG6u-t5dzdrgqpJE5vU71kCAvwzdkAg,3415
+konoise/utils.py,sha256=lumNazElxVTV2z5scKaaW_ZBuOLDGU1UGPghGE7gKoY,1367
+konoise/yamin.py,sha256=MiFPHavHcg883-452sa6ctJUtZl6CozMvGdXsHj9pvw,936
+konoise/data/endwords.json,sha256=D2S5jQPM6LwF9chxoWHtvRc7eny_dD1Jb4mGkdqnAis,146670
+konoise-1.0.8.5.dist-info/METADATA,sha256=ywA6zIRP9LJF55I-tQk9u06IciAOfU5E3rWrtytiRVo,6963
+konoise-1.0.8.5.dist-info/WHEEL,sha256=M2GQ3lde8oJhlQPj2wbRvnqE3cuovPJasri5X5aCmck,100
+konoise-1.0.8.5.dist-info/top_level.txt,sha256=fhQG6QSlsf1qv7wxCK11fnPM8ZaQPWcvIFw4uvy9jHw,8
+konoise-1.0.8.5.dist-info/RECORD,,
