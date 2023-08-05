@@ -1,0 +1,10 @@
+setup.py
+kannu_distributions/Binomialdistribution.py
+kannu_distributions/Gaussiandistribution.py
+kannu_distributions/Generaldistribution.py
+kannu_distributions/__init__.py
+kannu_distributions.egg-info/PKG-INFO
+kannu_distributions.egg-info/SOURCES.txt
+kannu_distributions.egg-info/dependency_links.txt
+kannu_distributions.egg-info/not-zip-safe
+kannu_distributions.egg-info/top_level.txt
