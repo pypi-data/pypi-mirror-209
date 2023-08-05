@@ -1,0 +1,11 @@
+LICENSE.md
+README.md
+setup.py
+atomInSmiles/__init__.py
+atomInSmiles/atomInSmiles.py
+atomInSmiles.egg-info/PKG-INFO
+atomInSmiles.egg-info/SOURCES.txt
+atomInSmiles.egg-info/dependency_links.txt
+atomInSmiles.egg-info/requires.txt
+atomInSmiles.egg-info/top_level.txt
+atomInSmiles.egg-info/zip-safe
