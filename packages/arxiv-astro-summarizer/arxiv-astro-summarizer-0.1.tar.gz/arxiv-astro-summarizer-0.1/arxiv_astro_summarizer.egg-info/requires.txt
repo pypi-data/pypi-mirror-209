@@ -1,0 +1,10 @@
+numpy
+requests
+arxivscraper
+pandas
+PyPDF2
+transformers
+scikit-learn
+nltk
+textract
+datefinder
