@@ -1,0 +1,10 @@
+textual_fspicker/__init__.py,sha256=Gx4sJRwQl4hPxoFpsmybMLrir4C2Zz_5dABZTgBXskY,692
+textual_fspicker/__main__.py,sha256=RH99m2IWJMk2P9kelzkPyPQsfh_Yr6NkDDPMSRxoRFs,1159
+textual_fspicker/file_open.py,sha256=L87bY0dUxlkpADDjjZOzBCPY66WMf9DJuhFUzX1nTIs,4625
+textual_fspicker/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+textual_fspicker/parts/__init__.py,sha256=vjP1jzd5ty4IhwUZnVFkOjzctZn22EbwWDHh_16x-GM,389
+textual_fspicker/parts/directory_navigation.py,sha256=Ki5LIYKSJh7KO7ld0FVvlLobumDsJStBC6izkydis8Q,12704
+textual_fspicker-0.0.1.dist-info/METADATA,sha256=cxfWhN0eRPlKhBHPKjB27lfDmZXLpFbmykk3Ie6njl4,5249
+textual_fspicker-0.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+textual_fspicker-0.0.1.dist-info/top_level.txt,sha256=htFx3DXug_utI8h7tIJmd3FSxg6-fjXfcf4_Rd6ohLQ,17
+textual_fspicker-0.0.1.dist-info/RECORD,,
