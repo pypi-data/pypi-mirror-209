@@ -1,0 +1,7 @@
+imap_structure/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imap_structure/body_structure.py,sha256=lqOB5ISXlJaakW1LlSd5msM7OS-nd5xPAs-eQcDZl08,10793
+imap_structure/metadata.py,sha256=mi935V9VYeFB_LQZ0EU3Y_8Vfpp6-HeBJyl_FFIe934,4816
+imap_structure/parser.py,sha256=X53glCVRtBtLxcBXo1gytZBT1XgKOwoNCjKNrTq88kU,1467
+imap_structure-0.1.2.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+imap_structure-0.1.2.dist-info/METADATA,sha256=D2SCYmVZgES9ZvpNXjwZal-NFbyO8pxmgEJoPV-PJTo,485
+imap_structure-0.1.2.dist-info/RECORD,,
