@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Job Config - {{ job.name }}</title>
+    <!-- ... -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/socket.io/4.6.0/socket.io.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            console.log(document.domain);
+            const socket = io.connect('http://' + document.domain + ':' + location.port);
+            socket.on('connect', () => {
+                console.log('Connected to server');
+            });
+            socket.on('NEW_LINE', data => {
+                console.log(`Received new line for job '${data.job_name}': ${data.line}`);
+                if ('{{job.name}}' === data.job_name) {
+                  const consoleLog = document.getElementById('console-log');
+                  consoleLog.innerHTML += data.line;
+                }
+            });
+            socket.on('STOPPED', data => {
+              console.log(`Terminated for job '${data.job_name}'`);
+                if ('{{job.name}}' === data.job_name) {
+                  const consoleLog = document.getElementById('console-log');
+                  consoleLog.innerHTML = '';
+                }
+            });
+        });
+    </script>
+  </head>
+  <body>
+    <h1>{{ job.name }}</h1>
+    <h2>Current Execution</h2>
+    {% if job.current_execution %}
+      <p>Status: Running</p>
+      <h3>Live Console Log</h3>
+      <pre id="console-log">{{ ''.join(job.current_execution.lines) }}</pre>
+    {% else %}
+      <p>Status: Not running</p>
+    {% endif %}
+    <div></div>
+    <h2>Past Executions</h2>
+    <ul>
+      {% for execution in job.executions %}
+        <li>
+          Duration: {{ execution.duration }} seconds
+          <pre>{{ ''.join(execution.lines) }}</pre>
+        </li>
+      {% endfor %}
+    </ul>
+    <p><a href="{{ url_for('index') }}">Back to Scheduler Status</a></p>
+  </body>
+</html>
