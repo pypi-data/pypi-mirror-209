@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+bifeatureanalysis/RegressionLossFunc.py
+bifeatureanalysis/__init__.py
+bifeatureanalysis/aggregationfunc.py
+bifeatureanalysis/templateproj.py
+bifeatureanalysis.egg-info/PKG-INFO
+bifeatureanalysis.egg-info/SOURCES.txt
+bifeatureanalysis.egg-info/dependency_links.txt
+bifeatureanalysis.egg-info/top_level.txt
