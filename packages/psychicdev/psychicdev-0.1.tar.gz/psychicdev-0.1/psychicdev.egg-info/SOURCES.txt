@@ -1,0 +1,9 @@
+README.md
+setup.py
+psychicdev/__init__.py
+psychicdev/psychic.py
+psychicdev.egg-info/PKG-INFO
+psychicdev.egg-info/SOURCES.txt
+psychicdev.egg-info/dependency_links.txt
+psychicdev.egg-info/requires.txt
+psychicdev.egg-info/top_level.txt
