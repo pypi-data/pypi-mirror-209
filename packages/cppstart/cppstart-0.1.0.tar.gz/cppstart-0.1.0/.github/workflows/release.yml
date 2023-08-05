@@ -1,0 +1,41 @@
+name: Release
+permissions:
+  contents: write
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Create version number
+        run: |
+          echo "${GITHUB_REF#refs/*/}" | sed 's/v//' > packaging/VERSION
+          cat packaging/VERSION
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+          cache: 'pip' # caching pip dependencies
+      - run: python3 -m pip install -U build
+
+      - name: Checkout submodules
+        run: git submodule update --init
+
+      - name: Build package
+        run: python3 -m build --sdist
+
+      - name: Add packaged source code to release
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file_glob: true
+          file: dist/cppstart-*.*.*.tar.gz
+          tag: ${{ github.ref }}
+          overwrite: true
