@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: pain001
+Version: 0.0.14
+Summary: pain001 is a Python library that makes it easy to
+Home-page: https://github.com/sebastienrousseau/pain001
+Author: Sebastien Rousseau
+Author-email: sebastian.rousseau@gmail.com
+License: Apache Software License
+Keywords: iso 20022 pain.001 credit transfer financial banking         payments csv sepa
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: OS Independent
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Unix
+Description-Content-Type: text/markdown
+License-File: LICENSE-APACHE
+License-File: LICENSE-MIT
+
+The `pain001` Python package is a CLI tool that makes it easy to
+automate the creation of ISO20022-compliant payment files directly from
+a CSV file.
+
+With `pain001`, you can easily create payment transactions files in just
+a few simple steps.
+
+The library supports both **Single Euro Payments Area (SEPA)** and
+**non-SEPA credit transfers**, making it versatile for use in different
+countries and regions.
+
+The following **ISO 20022 Payment Initiation message types** are
+currently supported:
+
+- **pain.001.001.03** - Customer Credit Transfer Initiation
+
+This message is used to transmit credit transfer instructions from the
+originator (the party initiating the payment) to the originator's bank.
+The message supports both bulk and single payment instructions, allowing
+for the transmission of multiple payments in a batch or individual
+payments separately. The pain.001.001.03 message format is part of the
+ISO 20022 standard and is commonly used for SEPA Credit Transfers within
+the Single Euro Payments Area. It includes relevant information such as
+the originator's and beneficiary's details, payment amounts, payment
+references, and other transaction-related information required for
+processing the credit transfers.
+
+- **pain.001.001.09** - Customer Credit Transfer Initiation
+
+This message format is part of the ISO 20022 standard and is commonly
+used for SEPA Credit Transfers within the Single Euro Payments Area. It
+enables the transmission of credit transfer instructions from the
+originator to the originator's bank. The message includes essential
+information such as the originator's and beneficiary's details, payment
+amounts, payment references, and other transaction-related information
+required for processing the credit transfers.
