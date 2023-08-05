@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+./myintegracion/__init__.py
+myintegracion.egg-info/PKG-INFO
+myintegracion.egg-info/SOURCES.txt
+myintegracion.egg-info/dependency_links.txt
+myintegracion.egg-info/entry_points.txt
+myintegracion.egg-info/requires.txt
+myintegracion.egg-info/top_level.txt
