@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/num2words/__init__.py
+src/num2words/num2words.py
+src/persian_num2words.egg-info/PKG-INFO
+src/persian_num2words.egg-info/SOURCES.txt
+src/persian_num2words.egg-info/dependency_links.txt
+src/persian_num2words.egg-info/top_level.txt
+src/utils/__init__.py
+src/utils/small_function.py
+tests/test_num2word.py
