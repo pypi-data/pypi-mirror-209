@@ -1,0 +1,13 @@
+numpy
+natsort
+cython
+pandas
+pyBigWig
+pyranges
+
+[dev]
+black
+bumpver
+isort
+pip-tools
+pytest
