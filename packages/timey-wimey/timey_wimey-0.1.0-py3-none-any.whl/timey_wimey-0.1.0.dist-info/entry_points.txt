@@ -1,0 +1,3 @@
+[console_scripts]
+timey-wimey=timey_wimey.main:app
+
