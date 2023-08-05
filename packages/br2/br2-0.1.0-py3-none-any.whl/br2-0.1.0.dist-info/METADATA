@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: br2
+Version: 0.1.0
+Summary: Cosserat Rod based FREE assembly simulator
+License: MIT
+Author: Seung Hyun Kim
+Author-email: skim0119@gmail.com
+Requires-Python: >=3.8,<3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: matplotlib (>=3.7.1,<4.0.0)
+Requires-Dist: pyelastica (>=0.3.1)
+Requires-Dist: tqdm (>=4.65.0,<5.0.0)
+Description-Content-Type: text/markdown
+
+<div align="center">
+<h1> BR2 Simulator </h1>
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=Python&logoColor=white"/>
+<a href='https://br2-simulator.readthedocs.io/en/latest/?badge=latest'>
+    <img src='https://readthedocs.org/projects/br2-simulator/badge/?version=latest' alt='Documentation Status'/>
+</a>
+
+</div>
+
+----
+
+Simulator development for BR2 Softrobot using [`PyElastica`](https://github.com/GazzolaLab/PyElastica).
+
+The [documentation](https://br2-simulator.readthedocs.io/en/latest/?badge=latest) includes the detail guide of how to use this package.
+
+## Configuration
+
+The Sample rod-database is included in [`sample_database`](https://github.com/skim0119/BR2-simulator/tree/main/sample_database) and the sample assembly is included in [`sample_assembly`](https://github.com/skim0119/BR2-simulator/tree/main/sample_assembly).
+
+## Interactive BR2
+
+_work in progress_
+
+- run_br2_interactive.py
+
+
