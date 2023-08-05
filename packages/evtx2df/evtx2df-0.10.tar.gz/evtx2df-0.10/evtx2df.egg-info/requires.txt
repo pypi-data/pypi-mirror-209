@@ -1,0 +1,10 @@
+a_pandas_ex_apply_ignore_exceptions
+a_pandas_ex_horizontal_explode
+Evtx
+flatten_any_dict_iterable_or_whatsoever
+getfilenuitkapython
+pandas
+python_evtx
+touchtouch
+uffspd
+ujson

@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+evtx2df/README.md
+evtx2df/__init__.py
+evtx2df/requirements.txt
+evtx2df/thirdparty.json
+evtx2df.egg-info/PKG-INFO
+evtx2df.egg-info/SOURCES.txt
+evtx2df.egg-info/dependency_links.txt
+evtx2df.egg-info/requires.txt
+evtx2df.egg-info/top_level.txt

@@ -1,0 +1,3 @@
+include evtx2df/requirements.txt
+include evtx2df/thirdparty.json
+include evtx2df/README.md
