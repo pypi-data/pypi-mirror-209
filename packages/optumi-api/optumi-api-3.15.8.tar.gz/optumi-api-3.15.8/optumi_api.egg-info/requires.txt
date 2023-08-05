@@ -1,0 +1,6 @@
+optumi_core~=3.15.5
+phonenumbers
+pwinput
+tornado
+requests==2.28
+python-dateutil
