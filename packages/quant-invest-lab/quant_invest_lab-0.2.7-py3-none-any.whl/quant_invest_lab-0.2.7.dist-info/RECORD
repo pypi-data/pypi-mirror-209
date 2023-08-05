@@ -1,0 +1,12 @@
+quant_invest_lab/backtest.py,sha256=1jgKPOK5W09hI5XCgRO6Kf9MlVCPM2TSuKxsCMDeCLo,28604
+quant_invest_lab/data_provider.py,sha256=Z0KRCw8xrutpF6YHr3wIoLT_1cyu2ws_SaCmqv-5ipM,17212
+quant_invest_lab/indicators.py,sha256=yGDUyPaVd7_aghgOIQ5P7Lkdt9q_xx8iSfoCHACGFlQ,26301
+quant_invest_lab/metrics.py,sha256=Q6_yg2tSW4_sE1Bxs0oX-RHz7WS0-EaRcIQXN0exRec,11102
+quant_invest_lab/optimization.py,sha256=jA4QzSoUbULlbdfwLQuvUu4WSIfoSCIZJzIY8PNFNHo,7659
+quant_invest_lab/portfolio.py,sha256=sptShNCfLe67ltLHZPZ8BJIuLxUbCuj658bEMdYg7qA,18363
+quant_invest_lab/screener.py,sha256=09sCLwHOBk4fsNO6vtG5geq5Noq3eOXsOMuuQ58yzFc,3577
+quant_invest_lab/simulation.py,sha256=g6MhgR95_USX7e2ihNxEK4wz2_BWEIaDjNEycStjsDQ,8477
+quant_invest_lab/utils.py,sha256=KwgKr6Xb5WDS9zzBcD3XQV5ty9DkAzi5icVCPtY8vnU,3758
+quant_invest_lab-0.2.7.dist-info/METADATA,sha256=Zms2M1Q3TilGIsp8wKWT4vur5zvH4Ju8jni1k-7eAcE,6939
+quant_invest_lab-0.2.7.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+quant_invest_lab-0.2.7.dist-info/RECORD,,
