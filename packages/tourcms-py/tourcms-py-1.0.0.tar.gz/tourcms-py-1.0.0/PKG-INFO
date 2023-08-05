@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: tourcms-py
+Version: 1.0.0
+Summary: Python wrapper class for TourCMS Rest API
+Home-page: https://github.com/TourCMS/tourcms-py
+Author: Palisis AG
+Author-email: support@palisis.com
+License: BSD
+Download-URL: https://github.com/TourCMS/tourcms-py
+Description: A simple wrapper for connecting to the TourCMS Marketplace API (http://www.tourcms.com/support/api/mp/). Forked from /prio/tourcms. This wrapper mirrors the TourCMS PHP library. See https://github.com/TourCMS/tourcms-py for more details.
+Platform: all
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
