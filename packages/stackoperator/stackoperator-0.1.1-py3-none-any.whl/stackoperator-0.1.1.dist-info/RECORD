@@ -1,0 +1,10 @@
+stackoperator/__init__.py,sha256=qIu4cQa7QYHKLBUDJQL75cqnZrs2tWHiaEQK-wwWZMI,4358
+stackoperator/batchOperator.py,sha256=MOCVvC_SD49TGtbr-6cBTxKkjq3pBGVI1Js29lyeF64,5132
+stackoperator/cfnReader.py,sha256=iwNImZdhfMp4jjZ7eftEtT4D9TrSUqxxqw5O92ir0hw,3883
+stackoperator/readerFactory.py,sha256=ffRhZ0mNaWxKhoEyCoVo0148RZWlWSg_hSTMPg6R7Q8,555
+stackoperator/tfReader.py,sha256=gLn26ndfOzf4ciPjHPhrDVYOu2vyid-6blyw7FsS-IA,4117
+stackoperator-0.1.1.dist-info/METADATA,sha256=chIJ3H_igJFTJTA3hsmXSM4iqAiHdpF8ln1AxE4Z98U,2394
+stackoperator-0.1.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+stackoperator-0.1.1.dist-info/entry_points.txt,sha256=4EWO5JRrs3e-PqDl6jnE0djxZZJpp25DR_p1ts55nWs,270
+stackoperator-0.1.1.dist-info/top_level.txt,sha256=39fhtyhha329gRiaL_vnYQ3an_6m9mrB3ZEUNBPUyaQ,14
+stackoperator-0.1.1.dist-info/RECORD,,
