@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: FMLEngine
+Version: 0.0.1
+Summary: Pre-Apha Graphics Engine
+Home-page: UNKNOWN
+Author: Josh
+Author-email: kingcode102@gmail.com
+License: MIT
+Keywords: Graphics Engine
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+FML is a graphics library like Sdl2 or Smfl but for Python FML is currently in Pre-Apha their will be bugs 
+
+Change Log
+===========
+
+0.0.1 (5/17/2023)
+------------------
+-- First Release aka Testing
+
