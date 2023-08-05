@@ -1,0 +1,6 @@
+numpy
+pickle
+tensorflow
+scipy
+ipympl
+ipywidgets
