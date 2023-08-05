@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: python-flexdb
+Version: 0.0.1
+Summary: Python wrapper for the FlexDB REST API (https://flexdb.co)
+Home-page: https://github.com/flexdb/python-flexdb
+Author: Adam K Dean
+Author-email: adam@flexdb.co
+License-File: LICENSE
+
