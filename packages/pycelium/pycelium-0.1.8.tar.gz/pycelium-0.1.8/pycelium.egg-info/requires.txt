@@ -1,0 +1,17 @@
+arrow
+asyncio_mqtt
+asyncssh
+click
+codenamize
+colorama
+debug
+glom
+Jinja2
+jmespath
+numpy
+paho_mqtt
+pytest
+python_dateutil
+PyYAML
+semver
+setuptools
