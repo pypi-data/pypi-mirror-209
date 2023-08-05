@@ -1,0 +1,10 @@
+LICENCE
+README.md
+pyproject.toml
+src/framext.egg-info/PKG-INFO
+src/framext.egg-info/SOURCES.txt
+src/framext.egg-info/dependency_links.txt
+src/framext.egg-info/top_level.txt
+src/framext_swastikgorai/__init__.py
+src/framext_swastikgorai/framext.py
+tests/test_framext.py
