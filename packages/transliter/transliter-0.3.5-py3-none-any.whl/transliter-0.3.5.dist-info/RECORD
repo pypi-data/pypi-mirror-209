@@ -1,0 +1,13 @@
+transliter/__init__.py,sha256=BT2hljVlWvvxbUJaY5SZopADQsTGhjvvtYpNwkkysh8,155
+transliter/cyrillic_list.py,sha256=ESArfen3fO5TSSZVwSEkum0PTyV-qIvC8LpDaII1XZ4,6334
+transliter/jp_list.py,sha256=ohx5SZ1OaeZS8R9ipCgwDluaDPLQagdyqzu6i3ejmYo,3414
+transliter/ko_jamo.py,sha256=Np2HDYBnNUKK7kTuKVONMi6CKJ8iH2k3qAIfWYYOcns,1832
+transliter/spacing.py,sha256=8cKCefTqEXU2eqbO_s996MasI1q5rWdUK2zkTT7gDRo,370
+transliter/transliter_cyrillic.py,sha256=iY_JUdTPBWs9uBklwJXn2ootQwTxOse0e9ZsDfFmd34,11043
+transliter/transliter_jp.py,sha256=RhH8_QFxE8kpj8Cq-FKx2C3Rdlwy0dd8rahYOjCUa3I,1920
+transliter/transliter_ko.py,sha256=jq6xewiZkRMnEruz3kwuq93IhE9eVP5eFnYwPHKyzvk,2990
+transliter-0.3.5.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+transliter-0.3.5.dist-info/METADATA,sha256=Vubz0WBWpeKvY7LNRati-mF1FwwuTV13tH7_3O0iI14,7264
+transliter-0.3.5.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+transliter-0.3.5.dist-info/top_level.txt,sha256=o4oibKhX2T_Vbu7CvWZ26AUuw--Drv0lC_RJwnOf4kk,11
+transliter-0.3.5.dist-info/RECORD,,
