@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+richtypes/__init__.py
+richtypes/richdict.py
+richtypes/richlist.py
+richtypes.egg-info/PKG-INFO
+richtypes.egg-info/SOURCES.txt
+richtypes.egg-info/dependency_links.txt
+richtypes.egg-info/requires.txt
+richtypes.egg-info/top_level.txt
+test/test_dict.py
+test/test_list.py
