@@ -1,0 +1,4 @@
+- https://github.com/ghislainp/pynodered
+- https://github.com/oyajiDev/NodeRED.py
+- https://flows.nodered.org/node/node-red-contrib-flow-manager
+- https://github.com/miraclx/freyr-js

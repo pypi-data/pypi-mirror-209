@@ -1,0 +1,13 @@
+include setup.cfg *.txt *.rst *.md
+exclude .bumpversion.cfg
+recursive-include mqttwarn *.ini *.py
+prune examples
+prune vendor
+prune templates
+prune tests
+
+# Documentation
+recursive-include docs *
+prune docs/_build
+global-exclude */__pycache__/*
+global-exclude *.pyc
