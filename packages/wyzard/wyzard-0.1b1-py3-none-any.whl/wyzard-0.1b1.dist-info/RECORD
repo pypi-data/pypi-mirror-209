@@ -1,0 +1,11 @@
+wyzard/__init__.py,sha256=8LSVP_9BSGvpn8JqjP25ymDhfq8dBzZD33Mu2DNfKaY,305
+wyzard/exceptions.py,sha256=HnhoNviYLThJCl_X_nS16YBBsu5cSEmRg15LGhMp_Lw,728
+wyzard/gpt_detector.py,sha256=usbRBRIadPRHI72YKNHDtoz8qFKGsepG-5533dVaeEc,4329
+wyzard/image_captioning.py,sha256=d3whQfFWDdWq2VOeKhcOwzRRJq2-FZpeqiaZriX3OEM,1087
+wyzard/object_detection.py,sha256=b3wDMHSSFKsJdWKkDvZTodrT6ae0hnnwXksb8uS1LuQ,2978
+wyzard/utils.py,sha256=3u1lBXUC62AbdimNgiEl7qb_2kF6VKPYUhk96Iel71E,1168
+wyzard-0.1b1.dist-info/LICENSE,sha256=ESUnIBCRJALvL1rOMsvEKjGoNVRDfwdxK-P8KFM4JEY,1082
+wyzard-0.1b1.dist-info/METADATA,sha256=tYQTUn2BiYVm2UbTcfsbnbl08bqiuOcIiXULm_1u_Yc,3328
+wyzard-0.1b1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+wyzard-0.1b1.dist-info/top_level.txt,sha256=nI_WiQucqOSrWy86mq7OyEzPexTDw6QAN9R4-OZUJC4,7
+wyzard-0.1b1.dist-info/RECORD,,
