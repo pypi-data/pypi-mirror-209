@@ -1,0 +1,10 @@
+[build-system]
+requires = ["flit"]
+build-backend = "flit.buildapi"
+
+[tool.flit.metadata]
+module = "matrix_package"
+author = "Your Name"
+author-email = "your@email.com"
+description = "Description of your package"
+version = "1.0"
