@@ -1,0 +1,6 @@
+[project]
+name = "cukcuk"
+version = "0.5.0"
+description = "Connect to Cukcuk Shop API"
+authors = [{ name = "Minh Bui", email = "buiducminh287@gmail.com" }]
+dependencies = ["aiohttp >= 3.8", "requests >= 2", "sqlalchemy >= 2", "pytz", "pandas >= 2.0"]
