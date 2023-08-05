@@ -1,0 +1,14 @@
+LICENSE
+README.rst
+pyproject.toml
+sbucket/__init__.py
+sbucket/main.py
+sbucket/s3bucket.py
+sbucket/s3file.py
+smart_bucket.egg-info/PKG-INFO
+smart_bucket.egg-info/SOURCES.txt
+smart_bucket.egg-info/dependency_links.txt
+smart_bucket.egg-info/entry_points.txt
+smart_bucket.egg-info/requires.txt
+smart_bucket.egg-info/top_level.txt
+tests/test_sbucket_import.py

@@ -1,0 +1,9 @@
+boto3
+click
+click-log
+click-spinner
+click-threading
+humanize
+pyyaml
+smart-open
+tqdm

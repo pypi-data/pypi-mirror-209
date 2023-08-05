@@ -1,0 +1,2 @@
+[console_scripts]
+sbkt = sbucket.main:sbkt_command
