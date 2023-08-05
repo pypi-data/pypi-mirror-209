@@ -1,0 +1,12 @@
+horizonai/__init__.py,sha256=CNffB0zXZVjsfvRbCmf6tozt7rKx21n_fH4v_6c3kyQ,216
+horizonai/base.py,sha256=flfI8FHtxPAlYCoVfnFYLcQ_tjvvEXOvl1Y9zzarhlM,1351
+horizonai/cli.py,sha256=j1ldlWvBK580i9gjf5dkE63GHhpJERLAGfgfEhgQfus,15657
+horizonai/project.py,sha256=jIdy4Qq3w-_H9bGjXSyLHV1OTyMPh82bgXgT3BXqxxk,1227
+horizonai/task.py,sha256=GODkGgT1b2YQdVYH_7cdkOX_EmNha_4r_Am-buPnxJc,4367
+horizonai/user.py,sha256=XwNKS02BxvZVjC2sipZKxIKuHHBmm3DH0iB787buzwg,355
+horizonai-0.1.9.dist-info/LICENSE,sha256=RpFfwo5I7PfGQO3-6fA3t6KQp4AaU4IjQgBZidlE3FU,1070
+horizonai-0.1.9.dist-info/METADATA,sha256=n67-yR_9xT2YDhkCHdjJoDkG3EEixp-YPA9DjpANwHo,2389
+horizonai-0.1.9.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+horizonai-0.1.9.dist-info/entry_points.txt,sha256=5l-QhPXw8PWswRkOE94BC0C-tJXNcghEm88EmpsDBxg,48
+horizonai-0.1.9.dist-info/top_level.txt,sha256=3VXeH_YlopCft0SbsGGIH2swtfL0CC_qzzZrepF4IpU,10
+horizonai-0.1.9.dist-info/RECORD,,
