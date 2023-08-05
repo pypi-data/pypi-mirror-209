@@ -1,0 +1,16 @@
+steamCloudSaveDownloader/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+steamCloudSaveDownloader/__main__.py,sha256=L-BgF7usW4XuDmahvCj-eobZXQlv3ko8DucVtCMoH80,4117
+steamCloudSaveDownloader/args.py,sha256=8YQofSkQQcnPLe2PZ4r_3abn4gGcK_PsmjvTO3C0y3Y,3157
+steamCloudSaveDownloader/auth.py,sha256=XN8z954ABQ8yAxdpNZwu1RydRf8dwKJuG3MjKdroOUo,732
+steamCloudSaveDownloader/config.py,sha256=pmFPmfFDBqHVS8oKrsFvT5lxiTUN9MDKIGOAyhrI34M,2653
+steamCloudSaveDownloader/db.py,sha256=faV15hVhzua2dHDr3jIfojcnzPIQJYS_qF-b2werwxY,6200
+steamCloudSaveDownloader/err.py,sha256=EEm-Bk3V6vZfOU35HV-tiV4xc3r0daE6B1YyM2Oyhqc,3104
+steamCloudSaveDownloader/notifier.py,sha256=S8b6z5RrqjnOUUwgxeNAxYWBRKrWTMY287f9UumLLpM,2266
+steamCloudSaveDownloader/parser.py,sha256=PMXuHP7-r23b7x40uMexdgVkMgxmZbvzKYUUYbRj1Uk,3432
+steamCloudSaveDownloader/storage.py,sha256=CUlxvTmK6lP7HPduhNogZPXNBbOZ5ignzQ9Wcm2HfsM,4430
+steamCloudSaveDownloader/web.py,sha256=kVbxwV6lhcME7JhfTIitLaaCKD8hIz8F5we0dxBVkTI,2236
+scsd-0.0.8.dist-info/METADATA,sha256=mnx_JGDGyx_TpbIz7r5VHOnBRJNdYTXX1Cw8Hvc5AM4,1456
+scsd-0.0.8.dist-info/WHEEL,sha256=y1bSCq4r5i4nMmpXeUJMqs3ipKvkZObrIXSvJHm1qCI,87
+scsd-0.0.8.dist-info/entry_points.txt,sha256=IoFuhwtzlMOU3n1tHsXPfIil8iPbLP-YR3qSWFpfOc0,68
+scsd-0.0.8.dist-info/licenses/LICENSE,sha256=Vn2fAzIuYI5JZF8_zXutaG7S5mkhb0tEBsupYamFkhs,1062
+scsd-0.0.8.dist-info/RECORD,,
