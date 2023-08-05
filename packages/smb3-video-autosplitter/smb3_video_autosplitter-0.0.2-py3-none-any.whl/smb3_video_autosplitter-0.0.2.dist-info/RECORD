@@ -1,0 +1,15 @@
+smb3_video_autosplitter/autosplitter.py,sha256=_9i85P3XH1t2a8AIo-YQNryV6p65C2SEb9ZvLuj5iaU,2406
+smb3_video_autosplitter/logging.py,sha256=oFzOW4KC0ssC-RivdKzg-Oszitm4uMCNovnAnPYhuOk,887
+smb3_video_autosplitter/main.py,sha256=8z6rorY9xAXJmb0E_jD3pmRdbPxowW_bmMGu_1r5VNE,1400
+smb3_video_autosplitter/opencv.py,sha256=TpyWml2L0ihJI8P8ylhf9kxQKF1henN8TIQwUAaFibg,750
+smb3_video_autosplitter/settings.py,sha256=ERoyQwg_HHZmo90N9Nc_pq2pEj7buoBzimYtKik-jzE,312
+smb3_video_autosplitter/util.py,sha256=WFoVViUUAE_Al6Dvxm-cWpzWcvVcKUZYEMcJCd6P8J0,1635
+smb3_video_autosplitter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+smb3_video_autosplitter-0.0.2.dist-info/METADATA,sha256=jXVGMmccXpX1kQIQD17_H4c-a7CvueAt6pFrQ_v_Oos,644
+smb3_video_autosplitter-0.0.2.dist-info/metadata.json,sha256=0rQk956AFRzxcsBQzGRLBnUAsQXNGoahT5dDa6xUou8,760
+smb3_video_autosplitter-0.0.2.dist-info/RECORD,,
+smb3_video_autosplitter-0.0.2.dist-info/top_level.txt,sha256=x_E578pdDlXCYFgRNrVWNNeu8adMxaHG_zweoWBnp80,30
+smb3_video_autosplitter-0.0.2.dist-info/WHEEL,sha256=R7GZBaynU7P7eIwbsGv7F-X8eM9JWO6nKzGDfrA5_lo,97
+smb3_video_autosplitter-0.0.2.dist-info/zip-safe,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+tests/test_logging.py,sha256=QRsDhYL9eFp01GT2Wk8uqlF_z3mryL_qwCtNSzcq_hM,185
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
