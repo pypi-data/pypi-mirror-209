@@ -1,0 +1,2 @@
+[napari.manifest]
+brainlit = brainlit.napari_viterbrain:napari.yaml
