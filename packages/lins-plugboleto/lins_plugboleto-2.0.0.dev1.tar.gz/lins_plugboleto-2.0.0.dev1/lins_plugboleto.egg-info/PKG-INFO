@@ -1,0 +1,16 @@
+Metadata-Version: 1.2
+Name: lins-plugboleto
+Version: 2.0.0.dev1
+Summary: Pacote de consumo da Plug Boleto
+Home-page: https://bitbucket.org/grupolinsferrao/pypck-lins-plugboleto/
+Author: Vinicius Languer
+Author-email: vinicius@lojaspompeia.com.br
+License: MIT
+Description: 🗂 Simple Python Package
+Keywords: plugboleto,lojaspompeiapython
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.8
