@@ -1,0 +1,1 @@
+from .web import fetch_page, get_multiple_pages2, get_multiple_pages1, get_single_page_sync

@@ -1,0 +1,10 @@
+README.md
+licence.txt
+setup.py
+lovelyweblib/__init__.py
+lovelyweblib/web.py
+lovelyweblib.egg-info/PKG-INFO
+lovelyweblib.egg-info/SOURCES.txt
+lovelyweblib.egg-info/dependency_links.txt
+lovelyweblib.egg-info/requires.txt
+lovelyweblib.egg-info/top_level.txt
