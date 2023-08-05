@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: stringtokenizer
+Version: 1.0.0
+Summary: A string tokenizer implementation
+Home-page: UNKNOWN
+Author: Tanmay Mandal
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
