@@ -1,0 +1,14 @@
+archaea_simulation/__init__.py,sha256=ZREPI63SCUeZgRRlNpxtE5Zw7sonwx8NbZs5z0lxNkI,333
+archaea_simulation/simulation_objects/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+archaea_simulation/simulation_objects/cfd_stl_export.py,sha256=f2KFbixBh0Tvv_D7EHYP6_n4G0A8TQslk2KOtiZojBE,6332
+archaea_simulation/simulation_objects/courtyard_building.py,sha256=hx0km-QWjSh2qppq_w5K3wv72VGXIcKJ66cqBIuvNV0,6195
+archaea_simulation/simulation_objects/domain.py,sha256=zqB4nHO9YOE-91Tg-FqkBJjkOm6B_cQ6lF1cECE1yTQ,2300
+archaea_simulation/simulation_objects/test_domain_init.stl,sha256=94KbvFjzevqaDvxQUKmeOqv5_AuSqtZvs94Scjt7YWc,10084
+archaea_simulation/simulation_objects/wall.py,sha256=DjOzY7WYTBiXAym0UVrJUNcrRBBkn0Vn0knuuZQOUUQ,1841
+archaea_simulation/simulation_objects/wall_type.py,sha256=U6zMwHADjPNJUJ-U4taMjIGNwXguL8ihDbLsukfyJ1M,74
+archaea_simulation/simulation_objects/zone.py,sha256=J4bZOPoHSeIBHGEHHgbMA6quvjDiJ2INaF2DACm59pw,1624
+archaea_simulation-1.0.7.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+archaea_simulation-1.0.7.dist-info/METADATA,sha256=XiRhPs7iO7oTLGjjKkgORAbXuGpw2N1LA0KHfwjYIYk,1971
+archaea_simulation-1.0.7.dist-info/LICENSE.txt,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+archaea_simulation-1.0.7.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+archaea_simulation-1.0.7.dist-info/RECORD,,
