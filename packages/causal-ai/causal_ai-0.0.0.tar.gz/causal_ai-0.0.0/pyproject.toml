@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "causal-ai"
+version = "0.0.0"
+description = "Causal AI"
+authors = ["causaLens <opensource@causalens.com>"]
+readme = "README.md"
+packages = [{include = "causal_ai"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
