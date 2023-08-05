@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: nprr
+Version: 0.1.2
+Summary: Nonparametric randomized response and locally private confidence sets
+Home-page: https://github.com/wannabesmith/nprr
+Author: Ian Waudby-Smith
+Author-email: iwaudbysmith@gmail.com
+License: BSD 3-Clause
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: confseq
+Requires-Dist: numpy
+Requires-Dist: scipy
+
+file: README.md
