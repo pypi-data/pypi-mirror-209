@@ -1,0 +1,11 @@
+lazy_alchemy/VERSION,sha256=dEj8KrFke0LnS0oaAsirXMHgTLLcLZS-xELsN8s-KUg,5
+lazy_alchemy/__init__.py,sha256=-lagW-YzFHbasOIj8bub7KUMxJSXIbwHK9Wdoegc4EA,268
+lazy_alchemy/lazy_alchemy.py,sha256=jhnh8JpTt5ivxTVuPEWJYodktudH_34ijg2Vpx2nOV4,1730
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/seed_db.py,sha256=3TeJLHv7wk_cVuasc69gG_2lSNOPCwqVSKYFdrRsPVw,599
+tests/test_lazy_orm.py,sha256=Njv_K2YTVSCMhlqHkIuDWBrs9tBTMmNIeCJV5404CIM,1941
+lazy_alchemy-0.0.3.dist-info/LICENSE,sha256=S1pJL407BwTTXzZK0BQPNM7ZZs57uj1pTSfVZ8Whx30,1061
+lazy_alchemy-0.0.3.dist-info/METADATA,sha256=vD8d261JBAmHsOofbYuZoIPuq2qSbCBheaOcf0NTUVE,4117
+lazy_alchemy-0.0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+lazy_alchemy-0.0.3.dist-info/top_level.txt,sha256=fJZ3QFug5E9WyMlB9qnl0KmL_pTGMqCQqLAVHAt0KwM,19
+lazy_alchemy-0.0.3.dist-info/RECORD,,
