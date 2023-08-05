@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "race_report"
+version = "0.0.1"
+description = "Application that reads data from 3 files, orders racers by time, and prints a report showing two tables: the top 15 racers and the remaining racers."
+authors = ["Nazar Hots <gotsjob@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+PTable = "^0.9.2"
+termcolor = "^2.3.0"
