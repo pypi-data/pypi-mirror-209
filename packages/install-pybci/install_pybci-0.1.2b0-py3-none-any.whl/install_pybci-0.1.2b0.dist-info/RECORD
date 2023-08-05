@@ -1,0 +1,17 @@
+pybci/__init__.py,sha256=GX9BY37O7JneXGWCyvlGSSWVuW1H8rSlueiVteJPxG8,47
+pybci/pybci.py,sha256=vdAiMP1fbykqo502A97K_dqtUdXwfW820z1dl9p8YeU,12282
+pybci/version.py,sha256=VilvoDaA88xv1lugSWh3fZi1RduCRroFJv2Jsiw1FWg,28
+pybci/Configuration/EpochSettings.py,sha256=CN5D3BIqHKJ-Wd7lvF-lKU3Kh3lhwxMDpjPkZCeRydQ,851
+pybci/Configuration/FeatureSettings.py,sha256=GNfGcxH_S9zTQg0_bIn_OvFUewWRyTMtnlCeeV5ajsg,334
+pybci/Configuration/__init__.py,sha256=4bePJOUo0ReEsg58p209Thh27wgbOGKNiXNF0Z2MC-Y,101
+pybci/ThreadClasses/ThreadControlFunctions.py,sha256=G3iqfMOKqmgdf9ZU2ObSlMe_HYH4pY47gZjO6F1KnmY,18352
+pybci/ThreadClasses/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pybci/Utils/Classifier.py,sha256=fWZzvt0Gx7h_-IdpMMbkG1z6sXJYYTUmJZI-koWR2wk,4781
+pybci/Utils/FeatureExtractor.py,sha256=0t4jRmNroQrllvS-Z2hoRxC1sOLrHyobTkpAGu6_S4s,6694
+pybci/Utils/LSLScanner.py,sha256=5Kr8AdAvVquzrvijSoYuuDwTi_KubUk4gzK7a0EQ1gY,5594
+pybci/Utils/__init__.py,sha256=MWUe5BWk04Ac6Sk53lM_p3mLcStbOlkRtr09XFS1k9Y,121
+install_pybci-0.1.2b0.dist-info/LICENSE,sha256=p20feYS8QZ8J72FM1uyl95iaZOtrILE32k_xcXi34Qk,1064
+install_pybci-0.1.2b0.dist-info/METADATA,sha256=eNXCiDQbSbnnxTehXZ-1k2h-Tgx-1cyP1_v13q7uQpk,7416
+install_pybci-0.1.2b0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+install_pybci-0.1.2b0.dist-info/top_level.txt,sha256=OW-i6ZbxIllULAddJk4uMS6BW9je5GvCMO54zUA5yaA,6
+install_pybci-0.1.2b0.dist-info/RECORD,,
