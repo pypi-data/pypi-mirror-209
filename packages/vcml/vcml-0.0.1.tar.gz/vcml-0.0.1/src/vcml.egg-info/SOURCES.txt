@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+src/vcml.py
+src/vcml.egg-info/PKG-INFO
+src/vcml.egg-info/SOURCES.txt
+src/vcml.egg-info/dependency_links.txt
+src/vcml.egg-info/top_level.txt
