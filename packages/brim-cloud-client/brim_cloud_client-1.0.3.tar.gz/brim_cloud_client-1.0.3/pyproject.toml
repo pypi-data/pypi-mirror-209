@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "brim_cloud_client"
+version = "1.0.3"
+authors = [
+  { name="Lance1o7", email="10292888+Lance1o7@users.noreply.github.com" },
+]
+description = "BRIM cloud client"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v2 (GPLv2)",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Lance1o7/brim-cloud-client"
+"Bug Tracker" = "https://github.com/Lance1o7/brim-cloud-client/issues"
