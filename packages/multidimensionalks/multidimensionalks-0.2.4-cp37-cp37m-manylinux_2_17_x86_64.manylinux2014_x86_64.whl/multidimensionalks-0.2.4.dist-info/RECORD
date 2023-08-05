@@ -1,0 +1,10 @@
+multidimensionalks-0.2.4.dist-info/RECORD,,
+multidimensionalks-0.2.4.dist-info/WHEEL,sha256=E0CkEo6W7NC93sVo8jj5Y2C0iOJBJ79Iyun5srY2VI0,150
+multidimensionalks-0.2.4.dist-info/top_level.txt,sha256=3ee7F0VhexKoUa4zWLTQohI9GQ6Pfo2qgOprEn53x5k,36
+multidimensionalks-0.2.4.dist-info/LICENSE,sha256=7UODKq7EWyxQOf0qTcxd3IEXBpY0E5_pPwjPFf51Z0g,1067
+multidimensionalks-0.2.4.dist-info/METADATA,sha256=sfZfRf88XaSnTcYgbrAJ_tRv5H-Aspimc17_tb1dwJE,2786
+multidimensionalks.libs/libboost_system-ce6bbf35.so.1.53.0,sha256=DyDegN9jUcQCo39XF0LxG--vWeb7nzeDZ5d1JDaZM-s,22272
+multidimensionalks/pure.cpython-37m-x86_64-linux-gnu.so,sha256=-74lwbIMqD20izANtOIvzfLrZnnz4760wUNQsxanUq0,381504
+multidimensionalks/__init__.py,sha256=F2keT4-ta2gF1xEn0sINTXaTeFeIbZitpbhnvO6ENfY,903
+multidimensionalks/avx512.cpython-37m-x86_64-linux-gnu.so,sha256=wW1HUnGR5TlLS4dWYZCMYEFrkHcRRnyNhgBaxiRtDDo,385624
+multidimensionalks/avx2.cpython-37m-x86_64-linux-gnu.so,sha256=-L3jHE5oM7PG5SA02IPSLtep8LrTO_G_3wf-Bh6MG5M,381528
