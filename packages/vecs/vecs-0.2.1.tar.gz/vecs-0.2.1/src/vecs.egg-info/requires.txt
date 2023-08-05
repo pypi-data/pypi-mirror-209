@@ -1,0 +1,15 @@
+pgvector==0.1.*
+sqlalchemy==2.*
+psycopg2-binary==2.9.*
+
+[dev]
+pytest
+parse
+numpy
+pytest-cov
+
+[docs]
+mkdocs
+pygments
+pymdown-extensions
+pymarkdown
