@@ -1,0 +1,713 @@
+# Key Management Service (KMS)
+
+# Install library
+
+### Install
+```php
+$ pip install vcc-kms-client
+```
+
+## Table of contents
+1. [Usage](#usage)
+   - [Create KMS Key](#create-kms-key)
+   - [Generate Data Key Pair](#generate-data-key-pair)
+   - [Generate Data Key](#generate-data-key)
+   - [Encrypt](#encrypt)
+   - [Decrypt](#decrypt)
+   - [Encrypt With Data Key](#encrypt-with-data-key)
+   - [Decrypt With Data Key](#decrypt-with-data-key)
+   - [Encrypt With Data Key Pair](#encrypt-with-data-key-pair)
+   - [Decrypt With Data Key Pair](#decrypt-with-data-key-pair)
+   - [Update Alias](#update-alias)
+   - [Delete Alias](#delete-alias)
+   - [Describe KMS Key](#describe-kms-key)
+   - [Disable KMS Key](#disable-kms-key)
+   - [Enable KMS Key](#enable-kms-key)
+   - [Delete KMS Key](#delete-kms-key)
+   - [List KMS Key By Alias](#list-kms-key-by-alias)
+   - [List KMS Key](#list-kms-key)
+   - [Update Description Key](#update-description-key)
+   - [Sign](#sign)
+   - [Verify](#verify)
+
+## Usage
+Add security_file.json into project
+
+### Create KMS Key
+This function generate KMS key
+
+```python
+from src.vcc_kms_client.auth.kms_credentials import KMSCredentials
+from src.vcc_kms_client.models import algorithm
+from src.vcc_kms_client.models.create_kms_key_request import CreateKMSKeyRequest
+from src.vcc_kms_client.kms_client import KMSClient
+
+f = open("file/security_file.json", "r")
+credentals = KMSCredentials(f)
+kms = KMSClient(credentals)
+request = CreateKMSKeyRequest(None, None, algorithm.AES_256)
+print(kms.create_key(request))
+```
+Response
+```text
+key_id = 01H0MM0QJSEMZ2ZX41AX5DJ2RJ, alias = None, algorithm = None, state = ENABLED, description = AES_256
+```
+
+### Generate Data Key Pair
+This function generate data key pair, create plaintext private data key, encrypt private data key and plaintext public data key
+
+```python
+from src.vcc_kms_client.auth.kms_credentials import KMSCredentials
+from src.vcc_kms_client.models import algorithm
+from src.vcc_kms_client.models.generate_data_key_pair_request import GenerateDataKeyPairRequest
+
+from src.vcc_kms_client.kms_client import KMSClient
+
+f = open("file/security_file.json", "r")
+credentals = KMSCredentials(f)
+kms = KMSClient(credentals)
+request = GenerateDataKeyPairRequest('01GZZWTJYTNRGEQ8YMQQ7H6KMS', algorithm.RSA_2048)
+print(kms.generate_data_key_pair(request))
+```
+Response
+```text
+key_id = 01GZZWTJYTNRGEQ8YMQQ7H6KMS, algorithm = RSA_2048, encrypt_private_data_key = 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, plaintext_private_data_key = MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCRrzQMHMrr1Wj5lZJO2O3WW0OjkN0yHpuoHMFqSrBwYEsFFo9ziOoUknt4aDfykHBaQpDhpveQkJ7gyJhxuN4vWFN4Bo0WxPZBnJq6xQX6FPuU5valteubEo1sW2fIYCHXT+UpV17zmofNMz5+h+6tVmlNE8hGfxPfQw5cGh96flzCWNwSCTXeWgk24WRBlu+DRp2/2zqJCJJmNId3adeYduda1eXtbhYaW0/sBkLbhdF/wyGYEtONA8IOY04ZgvTZRbFr7iMnm60B1k2lMA1hVyELTtJr+15dBnwc1hu3OW2olz9WhPvaHrd4DK0zgz9cgl4JfjifDd43thDfSXzTAgMBAAECggEAG4bOP8ek8+CUACypw2orrkf6RMqXcOPlp2MfjJTmN6WKJ0D3A+6HxDFVUQ/oGlX+VJ+lPm3M8yzQSEq+uyYiHTIEO3aJbBb1LLqJZebaVUFns9/cFL2F8fwUarfuqSa43jUDaMdQcpjtNfGLyl6m02uzY9PsEJ3sRFAoQ3DQJ9W0g/+PnbnUZXmCmEdrT+Yiq10SvhKQDzXD2U7+a8r9yLtZw9UJwlrS6PHCvmdCcSJTRGcrt4SqrczssC6TV33ee1u8LQNYZo9S5mWSr1CqBNA81ZE56bYGyOsLgEzbNOAUad6WBz3ibwSdHF0o2iz+s2R0mvA2wgvxA1v5frnW2QKBgQDi+wnVUhzJVZH8DT9ERfZ6Gl0LXR8t/WyXk6tbqEsBJwIdBAe9CAnm8xkjc5SFV1C5UoVLI8h7uCtmZzxxcxYgXLr+A5oLFvxmH9XFb+q+/0TuflG+i+vla8PtEBJWlAbxmVz/9egNAyk1rITV5QjJLwhMWUveJxgkQZzOlZ7lPwKBgQCkT2FPSX8Zlf5mjykcVnpDTr6777i3xJwaQ+meXYgdq0xCkoj+oZyOLG8FX52HrKuWL/YebNcK+nVc+U2H/Z8hE75KdA9twjFOFT3uQTvEz8z9ZzeC/yJLtb6XVTKB7vhS9ivXGpKvhM0w5mvYOtzERi2uOEtKuw011Kt8UxDfbQKBgGXSBWQ7VIyApV8zNhlTZTD7GJgbavw/ffI1HR6dzR+0Nv97KlmC/KYskS9VDuAN/jlUKlU9tRbC1D04vGWMIfXcg0mlpfmpkwng6A2MmfqaGnr+EX9v1x9wi1CR8BgEiWThzlVII5OKwnbAcEpfVuShA5D0UdNTKEJDaKtHdSMTAoGAEj82gUWaNc8wd1dCq4D3Bu6BxAE1NENDSq9sDEg6y4CwcVwwloaAClHo6mHZ7q1ASOd+n5Zasz9pNTACai3CNDwrD72f0QKV0yQMwp6/8nVZQHLr+UI4HsxKJCgz+bX+IchwyeyLia5n0xxjsZmn1qwseoKJ6fyn1OiPOrlG0GkCgYEAgjoAoJapr+KTMUgaNxB50AZvMZ2jZuK1B0y8ycA+eLw9DCBd4QBMTzRNQu4zAF56O6e91YOecma52VxvOimyzhaEVyWonzueuyAQvJAc3ZwOukdelyUld1Am5azHz97g6qREOIRQ5sdeyfCyTkVw/QEfycYm4ctw2hB94N2RADE=, plaintext_public_data_key = MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAka80DBzK69Vo+ZWSTtjt1ltDo5DdMh6bqBzBakqwcGBLBRaPc4jqFJJ7eGg38pBwWkKQ4ab3kJCe4MiYcbjeL1hTeAaNFsT2QZyausUF+hT7lOb2pbXrmxKNbFtnyGAh10/lKVde85qHzTM+fofurVZpTRPIRn8T30MOXBofen5cwljcEgk13loJNuFkQZbvg0adv9s6iQiSZjSHd2nXmHbnWtXl7W4WGltP7AZC24XRf8MhmBLTjQPCDmNOGYL02UWxa+4jJ5utAdZNpTANYVchC07Sa/teXQZ8HNYbtzltqJc/VoT72h63eAytM4M/XIJeCX44nw3eN7YQ30l80wIDAQAB
+```
+
+### Generate Data Key
+This function generate data key, create plaintext secret data key and encrypt secret data key
+
+```python
+from src.vcc_kms_client.auth.kms_credentials import KMSCredentials
+from src.vcc_kms_client.models import algorithm
+from src.vcc_kms_client.models.generate_data_key_request import GenerateDataKeyRequest
+
+from src.vcc_kms_client.kms_client import KMSClient
+
+f = open("file/security_file.json", "r")
+credentals = KMSCredentials(f)
+kms = KMSClient(credentals)
+request = GenerateDataKeyRequest('01GZZWTJYTNRGEQ8YMQQ7H6KMS', algorithm.AES_256)
+print(kms.generate_data_key(request))
+```
+Response
+```text
+key_id = 01GZZWTJYTNRGEQ8YMQQ7H6KMS, algorithm = AES_256, plaintext_data_key = k1lvvTPcKOvXF4I1LPZE2XnKlcyyAQJspIQgWXdzjXo=, encrypt_data_key = wdXCZMn2ECxuL2npx9eXO5BwDVmW0PyqoCumo82GiJfHpNqaGYRSpDl3CchfOzqa
+```
+
+### Encrypt
+This function encrypt data directly with KMS key
+#### Encrypt single text
+
+```python
+from src.vcc_kms_client.auth.kms_credentials import KMSCredentials
+from src.vcc_kms_client.models import content_type
+from src.vcc_kms_client.models.encrypt_request import EncryptRequest
+from src.vcc_kms_client.kms_client import KMSClient
+
+f = open("file/security_file.json", "r")
+credentals = KMSCredentials(f)
+kms = KMSClient(credentals)
+request = EncryptRequest('01GZZWTJYTNRGEQ8YMQQ7H6KMS', 'cuong dep zai', content_type.SINGLE_STRING)
+print(kms.encrypt(request))
+```
+Response
+```text
+key_id = 01GZZWTJYTNRGEQ8YMQQ7H6KMS, output = LoujTFUY5aELdmBB6b2N0g==, algorithm = AES_256
+```
+#### Encrypt list text
+
+```python
+from src.vcc_kms_client.auth.kms_credentials import KMSCredentials
+from src.vcc_kms_client.models import content_type
+from src.vcc_kms_client.models.encrypt_request import EncryptRequest
+from src.vcc_kms_client.kms_client import KMSClient
+
+f = open("file/security_file.json", "r")
+credentals = KMSCredentials(f)
+kms = KMSClient(credentals)
+request = EncryptRequest('01GZZWTJYTNRGEQ8YMQQ7H6KMS', ['cuong dep zai', 'asdasdasd'], content_type.LIST_STRING)
+print(kms.encrypt(request))
+```
+Response
+```text
+key_id = 01GZZWTJYTNRGEQ8YMQQ7H6KMS, output = ['LoujTFUY5aELdmBB6b2N0g==', 's11DGSnLf6hUNHYNB6rwFQ=='], algorithm = AES_256
+```
+#### Encrypt list json
+
+```python
+import json
+
+from src.vcc_kms_client.auth.kms_credentials import KMSCredentials
+from src.vcc_kms_client.models import content_type
+from src.vcc_kms_client.models.encrypt_request import EncryptRequest
+from src.vcc_kms_client.kms_client import KMSClient
+
+f = open("file/security_file.json", "r")
+credentals = KMSCredentials(f)
+kms = KMSClient(credentals)
+x = {
+   "name": "John",
+   "age": 30,
+   "city": "New York"
+}
+y = json.dumps(x)
+request = EncryptRequest('01GZZWTJYTNRGEQ8YMQQ7H6KMS', [y], content_type.LIST_JSON_OBJECT)
+print(kms.encrypt(request))
+```
+Response
+```text
+key_id = 01GZZWTJYTNRGEQ8YMQQ7H6KMS, output = ['{"city":"PFdV2PVgBbcQp+mQyd4usQ==","name":"IYMUmLTiP5rZFYA9zKIWTA==","age":"vBzZWDM9u3Fkt0yVQCl7Ow=="}'], algorithm = AES_256
+```
+
+### Decrypt
+This function decrypt data directly with KMS key
+#### Decrypt single text
+
+```python
+from src.vcc_kms_client.auth.kms_credentials import KMSCredentials
+from src.vcc_kms_client.models import content_type
+from src.vcc_kms_client.models.decrypt_request import DecryptRequest
+from src.vcc_kms_client.kms_client import KMSClient
+
+f = open("file/security_file.json", "r")
+credentals = KMSCredentials(f)
+kms = KMSClient(credentals)
+request = DecryptRequest('01GZZWTJYTNRGEQ8YMQQ7H6KMS', 'LoujTFUY5aELdmBB6b2N0g==', content_type.SINGLE_STRING)
+print(kms.decrypt(request))
+```
+Response
+```text
+key_id = 01GZZWTJYTNRGEQ8YMQQ7H6KMS, output = cuong dep zai
+```
+#### Decrypt list text
+
+```python
+from src.vcc_kms_client.auth.kms_credentials import KMSCredentials
+from src.vcc_kms_client.models import content_type
+from src.vcc_kms_client.models.decrypt_request import DecryptRequest
+from src.vcc_kms_client.kms_client import KMSClient
+
+f = open("file/security_file.json", "r")
+credentals = KMSCredentials(f)
+kms = KMSClient(credentals)
+request = DecryptRequest('01GZZWTJYTNRGEQ8YMQQ7H6KMS', ['LoujTFUY5aELdmBB6b2N0g==', 's11DGSnLf6hUNHYNB6rwFQ=='],
+                         content_type.LIST_STRING)
+print(kms.decrypt(request))
+```
+Response
+```text
+key_id = 01GZZWTJYTNRGEQ8YMQQ7H6KMS, output = ['cuong dep zai', 'asdasdasd']
+```
+#### Decrypt list json
+
+```python
+import json
+
+from src.vcc_kms_client.auth.kms_credentials import KMSCredentials
+from src.vcc_kms_client.models import content_type
+from src.vcc_kms_client.models.decrypt_request import DecryptRequest
+from src.vcc_kms_client.kms_client import KMSClient
+
+f = open("file/security_file.json", "r")
+credentals = KMSCredentials(f)
+kms = KMSClient(credentals)
+x = {
+   "name": "IYMUmLTiP5rZFYA9zKIWTA==",
+   "age": "vBzZWDM9u3Fkt0yVQCl7Ow==",
+   "city": "PFdV2PVgBbcQp+mQyd4usQ=="
+}
+y = json.dumps(x)
+request = DecryptRequest('01GZZWTJYTNRGEQ8YMQQ7H6KMS', [y], content_type.LIST_JSON_OBJECT)
+print(kms.decrypt(request))
+```
+Response
+```text
+key_id = 01GZZWTJYTNRGEQ8YMQQ7H6KMS, output = ['{"city":"New York","name":"John","age":"30"}']
+```
+
+### Encrypt With Data Key
+This function encrypt data with data key
+#### Encrypt single text
+
+```python
+from src.vcc_kms_client.auth.kms_credentials import KMSCredentials
+from src.vcc_kms_client.models import algorithm, content_type
+from src.vcc_kms_client.models.encrypt_with_data_key_request import EncryptWithDataKeyRequest
+from src.vcc_kms_client.kms_client import KMSClient
+
+f = open("file/security_file.json", "r")
+credentals = KMSCredentials(f)
+kms = KMSClient(credentals)
+request = EncryptWithDataKeyRequest('01GZZWTJYTNRGEQ8YMQQ7H6KMS', 'cuong dep zai', algorithm.AES_256,
+                                    content_type.SINGLE_STRING)
+print(kms.encrypt_with_data_key(request))
+```
+Response
+```text
+key_id = 01GZZWTJYTNRGEQ8YMQQ7H6KMS, output = 7CqNRImiu2/DdnNoosdYnqYG4pzizC4EIzqDwbb2FUF3yNeSyOkq2yR9GlJinKu8xRXF/29i+Ep4VZdpOs85ap6JVyYeR+D6cBfPOLrUVJvNAXB2rnOPKC8qgMIO4AJf4cMKJ1HygepC62fE9wkIzhe1/+LOHiVp1RmEmQ9cqF4=, algorithm = AES_256
+```
+#### Encrypt list text
+
+```python
+from src.vcc_kms_client.auth.kms_credentials import KMSCredentials
+from src.vcc_kms_client.models import algorithm, content_type
+from src.vcc_kms_client.models.encrypt_with_data_key_request import EncryptWithDataKeyRequest
+from src.vcc_kms_client.kms_client import KMSClient
+
+f = open("file/security_file.json", "r")
+credentals = KMSCredentials(f)
+kms = KMSClient(credentals)
+request = EncryptWithDataKeyRequest('01GZZWTJYTNRGEQ8YMQQ7H6KMS', ['cuong dep zai', 'asdasdasd'], algorithm.AES_256,
+                                    content_type.LIST_STRING)
+print(kms.encrypt_with_data_key(request))
+```
+Response
+```text
+key_id = 01GZZWTJYTNRGEQ8YMQQ7H6KMS, output = ['7CqNRImiu2/DdnNoosdYnpuqkt8JzDdMdBjxaXC+X1TERkaNQuGRdW0K6fNGV3j0uPdNhQgCoVSKx8xfVqFJRn2rbzqZLo+z/GdBBg8+OgUQay+tLHeSx6LcITc+RQAQbXgC3FORp3FT/pmUrBd5OztNna8gSg1XOBTlp47r/Aw=', '7CqNRImiu2/DdnNoosdYnlTzfvCjzX9FzKR2FuNbQwQ9aRMZg8YNMNKI0sMjIcXnObZ7pvcUxvPTBr5CnLs7htBxDqM+VM7QFP3wogqgC8xUoyfbqXSQpDttVnRR7sr6dtXg2gnbWlBLzdjotDZulBPcF5w+DfukqKqldFcUN8M='], algorithm = AES_256
+```
+#### Encrypt list json
+
+```python
+import json
+
+from src.vcc_kms_client.auth.kms_credentials import KMSCredentials
+from src.vcc_kms_client.models import algorithm, content_type
+from src.vcc_kms_client.models.encrypt_with_data_key_request import EncryptWithDataKeyRequest
+from src.vcc_kms_client.kms_client import KMSClient
+
+f = open("file/security_file.json", "r")
+credentals = KMSCredentials(f)
+kms = KMSClient(credentals)
+x = {
+   "name": "John",
+   "age": 30,
+   "city": "New York"
+}
+y = json.dumps(x)
+request = EncryptWithDataKeyRequest('01GZZWTJYTNRGEQ8YMQQ7H6KMS', [y], algorithm.AES_256, content_type.LIST_JSON_OBJECT)
+print(kms.encrypt_with_data_key(request))
+```
+Response
+```text
+key_id = 01GZZWTJYTNRGEQ8YMQQ7H6KMS, output = ['{"city":"7CqNRImiu2/DdnNoosdYnsJptvZLDfhartHVhvwiPafXjXYRN6MBhINgU0PbfVAyHmrb4YsGvNZKchvHDMfSs/9+fX/fqOmreSbzIt/N3a0aKlOhbbKQOWjDm9/yFBLFiFMAMqVPyoZzFSa2KbO5nZAFLkWEUMxg9lpqzJKWSdA=","name":"7CqNRImiu2/DdnNoosdYnqQVa8HtVXmExXrPi9eEF29UzAialm4BqNSapkM3sFyXHEhaS6zJ+E9gQQPtCtrpdssHaAkV9jxCDuB6iR0Xewzn8y3nb61aYkwxJrMtStMDNsAa4qWuTagAtvpdeb/4oQ5diiP/tECaPQXN2tYyxfQ=","age":"7CqNRImiu2/DdnNoosdYnjjbATsiDJ0i4xcPQwRt567k+Y/MRd9yfI4rJDYANr8SyQ/mrKp8dogDyksie80Wf5vB2naf34mJ88jmU6YyCI44Wj0jV+z+yb9wh07zgNmcMNZDsMDl90dOUtH4x1Mp6MMt/DIvcmwgg9FOX+IxMaU="}'], algorithm = AES_256
+```
+
+### Decrypt With Data Key
+This function decrypt data with data key
+#### Decrypt single text
+
+```python
+from src.vcc_kms_client.auth.kms_credentials import KMSCredentials
+from src.vcc_kms_client.models import content_type
+from src.vcc_kms_client.models.decrypt_with_data_key_request import DecryptWithDataKeyRequest
+from src.vcc_kms_client.kms_client import KMSClient
+
+f = open("file/security_file.json", "r")
+credentals = KMSCredentials(f)
+kms = KMSClient(credentals)
+request = DecryptWithDataKeyRequest('01GZZWTJYTNRGEQ8YMQQ7H6KMS',
+                                    '7CqNRImiu2/DdnNoosdYnsBE5OG9536Cm3i1ulWm8f4ZcBUt4w4C9v3CI+lk2q/d8QJHJWzf9j0ljhvsH4L+/6uYa6pItvBwNNmCzhoV6m/ZyRMsheVwtZNxILVTs9qMx0ma4bivTvvF+DjJj2X2q6AZOVKJ0v2QsD78Tk/yOUc=',
+                                    content_type.SINGLE_STRING)
+print(kms.decrypt_with_data_key(request))
+```
+Response
+```text
+key_id = 01GZZWTJYTNRGEQ8YMQQ7H6KMS, output = cuong dep zai
+```
+#### Decrypt list text
+
+```python
+from src.vcc_kms_client.auth.kms_credentials import KMSCredentials
+from src.vcc_kms_client.models import content_type
+from src.vcc_kms_client.models.decrypt_with_data_key_request import DecryptWithDataKeyRequest
+from src.vcc_kms_client.kms_client import KMSClient
+
+f = open("file/security_file.json", "r")
+credentals = KMSCredentials(f)
+kms = KMSClient(credentals)
+request = DecryptWithDataKeyRequest('01GZZWTJYTNRGEQ8YMQQ7H6KMS', [
+   '7CqNRImiu2/DdnNoosdYnmtjitw05f0yj+ZaVggwGZbtxYKlG1dpnEylu+yL+nJFlJceXbptMvLtoX2iauXUfUGna7kY1JtJHoJbMIKYRBY7lBXMUimVH60de4I6gcaLl3T1pBZcs+kXOkpggIwSaDG880ExuSv9CFcRFUUEAvc='],
+                                    content_type.LIST_STRING)
+print(kms.decrypt_with_data_key(request))
+```
+Response
+```text
+key_id = 01GZZWTJYTNRGEQ8YMQQ7H6KMS, output = ['cuong dep zai']
+```
+#### Decrypt list json
+
+```python
+import json
+
+from src.vcc_kms_client.auth.kms_credentials import KMSCredentials
+from src.vcc_kms_client.models import content_type
+from src.vcc_kms_client.models.decrypt_with_data_key_request import DecryptWithDataKeyRequest
+from src.vcc_kms_client.kms_client import KMSClient
+
+f = open("file/security_file.json", "r")
+credentals = KMSCredentials(f)
+kms = KMSClient(credentals)
+x = {
+   "name": "7CqNRImiu2/DdnNoosdYnpe87Xr+x7AOLNni46fKzsKVuG2YKgz6lD5pbdkgO94dmNLB9O1/MDaMhoXvJvqE/8JdmKCicHEygizphFWleP4JSM8sdxYmI0B2fVZhT3lqlfUs60Lfkw1ldGeCbx1w85W335RrpjBI7O2kJXaWIdI=",
+   "age": "7CqNRImiu2/DdnNoosdYnnxYyyMhVU9FGFfC5pEJm6VW2SeLpYoHzVtGUF87NXwj/k2MslgSZKYVGZ3EhrisIBC1tFR5AeL97WsUClSP989Es3HlTIPJODCFRZngjdjHpVIFbXrfzZGU2yqlxLtJfe44h7BWckg3HFRVzq1Hpw4=",
+   "city": "7CqNRImiu2/DdnNoosdYnkcWN01M9TuSTp1iBKr4tkvfma27HtX84d4BZSdXzXx4o550Dd/iW6yqVB+NMJ0HE5r439gaqxcmojf5zF8OAszJzqniNRDJZn7t1DtnRp3Yzbebj3/ErW7t2EDicjae5O4NNgrTZc3Dap9bB2vMSSU="
+}
+y = json.dumps(x)
+request = DecryptWithDataKeyRequest('01GZZWTJYTNRGEQ8YMQQ7H6KMS', [y], content_type.LIST_JSON_OBJECT)
+print(kms.decrypt_with_data_key(request))
+```
+Response
+```text
+key_id = 01GZZWTJYTNRGEQ8YMQQ7H6KMS, output = ['{"city":"New York","name":"John","age":"30"}']
+```
+
+### Encrypt With Data Key Pair
+This function encrypt data with data key pair
+#### Encrypt single text
+
+```python
+from src.vcc_kms_client.auth.kms_credentials import KMSCredentials
+from src.vcc_kms_client.models import algorithm, content_type
+from src.vcc_kms_client.models.encrypt_with_data_key_pair_request import EncryptWithDataKeyPairRequest
+from src.vcc_kms_client.kms_client import KMSClient
+
+f = open("file/security_file.json", "r")
+credentals = KMSCredentials(f)
+kms = KMSClient(credentals)
+request = EncryptWithDataKeyPairRequest('01GZZWTJYTNRGEQ8YMQQ7H6KMS', 'cuong dep zai', algorithm.RSA_2048,
+                                        content_type.SINGLE_STRING)
+print(kms.encrypt_with_data_key_pair(request))
+```
+Response
+```text
+key_id = 01GZZWTJYTNRGEQ8YMQQ7H6KMS, output = 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, algorithm = RSA_2048
+```
+#### Encrypt list text
+
+```python
+from src.vcc_kms_client.auth.kms_credentials import KMSCredentials
+from src.vcc_kms_client.models import algorithm, content_type
+from src.vcc_kms_client.models.encrypt_with_data_key_pair_request import EncryptWithDataKeyPairRequest
+from src.vcc_kms_client.kms_client import KMSClient
+
+f = open("file/security_file.json", "r")
+credentals = KMSCredentials(f)
+kms = KMSClient(credentals)
+request = EncryptWithDataKeyPairRequest('01GZZWTJYTNRGEQ8YMQQ7H6KMS', ['cuong dep zai'], algorithm.RSA_2048,
+                                        content_type.LIST_STRING)
+print(kms.encrypt_with_data_key_pair(request))
+```
+Response
+```text
+key_id = 01GZZWTJYTNRGEQ8YMQQ7H6KMS, output = ['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'], algorithm = RSA_2048
+```
+#### Encrypt list json
+
+```python
+import json
+
+from src.vcc_kms_client.auth.kms_credentials import KMSCredentials
+from src.vcc_kms_client.models import algorithm, content_type
+from src.vcc_kms_client.models.encrypt_with_data_key_pair_request import EncryptWithDataKeyPairRequest
+from src.vcc_kms_client.kms_client import KMSClient
+
+f = open("file/security_file.json", "r")
+credentals = KMSCredentials(f)
+kms = KMSClient(credentals)
+x = {
+   "name": "John"
+}
+y = json.dumps(x)
+request = EncryptWithDataKeyPairRequest('01GZZWTJYTNRGEQ8YMQQ7H6KMS', [y], algorithm.RSA_2048,
+                                        content_type.LIST_JSON_OBJECT)
+print(kms.encrypt_with_data_key_pair(request))
+```
+Response
+```text
+key_id = 01GZZWTJYTNRGEQ8YMQQ7H6KMS, output = ['{"name":"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"}'], algorithm = RSA_2048
+```
+
+### Decrypt With Data Key Pair
+This function decrypt data with data key pair
+#### Decrypt single text
+
+```python
+from src.vcc_kms_client.auth.kms_credentials import KMSCredentials
+from src.vcc_kms_client.models import content_type
+from src.vcc_kms_client.models.decrypt_with_data_key_pair_request import DecryptWithDataKeyPairRequest
+from src.vcc_kms_client.kms_client import KMSClient
+
+f = open("file/security_file.json", "r")
+credentals = KMSCredentials(f)
+kms = KMSClient(credentals)
+request = DecryptWithDataKeyPairRequest('01GZZWTJYTNRGEQ8YMQQ7H6KMS',
+                                        '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',
+                                        content_type.SINGLE_STRING)
+print(kms.decrypt_with_data_key_pair(request))
+```
+Response
+```text
+key_id = 01GZZWTJYTNRGEQ8YMQQ7H6KMS, output = cuong dep zai
+```
+#### Decrypt list text
+
+```python
+from src.vcc_kms_client.auth.kms_credentials import KMSCredentials
+from src.vcc_kms_client.models import content_type
+from src.vcc_kms_client.models.decrypt_with_data_key_pair_request import DecryptWithDataKeyPairRequest
+from src.vcc_kms_client.kms_client import KMSClient
+
+f = open("file/security_file.json", "r")
+credentals = KMSCredentials(f)
+kms = KMSClient(credentals)
+request = DecryptWithDataKeyPairRequest('01GZZWTJYTNRGEQ8YMQQ7H6KMS', [
+   '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'],
+                                        content_type.LIST_STRING)
+print(kms.decrypt_with_data_key_pair(request))
+```
+Response
+```text
+key_id = 01GZZWTJYTNRGEQ8YMQQ7H6KMS, output = ['cuong dep zai']
+```
+#### Decrypt list json
+
+```python
+import json
+
+from src.vcc_kms_client.auth.kms_credentials import KMSCredentials
+from src.vcc_kms_client.models import content_type
+from src.vcc_kms_client.models.decrypt_with_data_key_pair_request import DecryptWithDataKeyPairRequest
+from src.vcc_kms_client.kms_client import KMSClient
+
+f = open("file/security_file.json", "r")
+credentals = KMSCredentials(f)
+kms = KMSClient(credentals)
+x = {
+   "name": "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"
+}
+y = json.dumps(x)
+request = DecryptWithDataKeyPairRequest('01GZZWTJYTNRGEQ8YMQQ7H6KMS', [y], content_type.LIST_JSON_OBJECT)
+print(kms.decrypt_with_data_key_pair(request))
+```
+Response
+```text
+key_id = 01GZZWTJYTNRGEQ8YMQQ7H6KMS, output = ['{"name":"John"}']
+```
+
+### Update Alias
+This function update alias key
+
+```python
+from src.vcc_kms_client.auth.kms_credentials import KMSCredentials
+from src.vcc_kms_client.models.update_alias_key_request import UpdateAliasKeyRequest
+from src.vcc_kms_client.kms_client import KMSClient
+
+f = open("file/security_file.json", "r")
+credentals = KMSCredentials(f)
+kms = KMSClient(credentals)
+request = UpdateAliasKeyRequest('01GZZWTJYTNRGEQ8YMQQ7H6KMS', 'ssss dep zai')
+print(kms.update_alias_key(request))
+```
+Response
+```text
+key_id = 01GZZWTJYTNRGEQ8YMQQ7H6KMS, alias = ssss dep zai
+```
+
+### Delete Alias
+This function delete alias key
+
+```python
+from src.vcc_kms_client.auth.kms_credentials import KMSCredentials
+from src.vcc_kms_client.models.delete_alias_key_request import DeleteAliasKeyRequest
+from src.vcc_kms_client.kms_client import KMSClient
+
+f = open("file/security_file.json", "r")
+credentals = KMSCredentials(f)
+kms = KMSClient(credentals)
+request = DeleteAliasKeyRequest('01GZZWTJYTNRGEQ8YMQQ7H6KMS')
+print(kms.delete_alias_key(request))
+```
+Response
+```text
+key_id = 01GZZWTJYTNRGEQ8YMQQ7H6KMS
+```
+
+### Describe KMS Key
+This function view KMS Key
+
+```python
+from src.vcc_kms_client.auth.kms_credentials import KMSCredentials
+from src.vcc_kms_client.models.describe_kms_key_request import DescribeKMSKeyRequest
+from src.vcc_kms_client.kms_client import KMSClient
+
+f = open("file/security_file.json", "r")
+credentals = KMSCredentials(f)
+kms = KMSClient(credentals)
+request = DescribeKMSKeyRequest('01GZZWTJYTNRGEQ8YMQQ7H6KMS')
+print(kms.describe_kms_key(request))
+```
+Response
+```text
+key_id = 01GZZWTJYTNRGEQ8YMQQ7H6KMS, alias = dsafasfasfasasfasf, algorithm = None, state = ENABLED, description = AES_256
+```
+
+### Disable KMS Key
+This function disable KMS key, when in this state Disable, KMS Key will not be able to use the encrypted, decrypted and generated
+
+```python
+from src.vcc_kms_client.auth.kms_credentials import KMSCredentials
+from src.vcc_kms_client.models.disable_kms_key_request import DisableKMSKeyRequest
+from src.vcc_kms_client.kms_client import KMSClient
+
+f = open("file/security_file.json", "r")
+credentals = KMSCredentials(f)
+kms = KMSClient(credentals)
+request = DisableKMSKeyRequest('01GZZWTJYTNRGEQ8YMQQ7H6KMS')
+print(kms.disable_kms_key(request))
+```
+Response
+```text
+key_id = 01H0FB74RH8Z3C9CP696ACPC1G, state = DISABLED
+```
+
+### Enable KMS Key
+This function enable KMS key, when in this state Enable, KMS Key will be able to use the encrypted, decrypted and generated
+
+```python
+from src.vcc_kms_client.auth.kms_credentials import KMSCredentials
+from src.vcc_kms_client.models.enable_kms_key_request import EnableKMSKeyRequest
+from src.vcc_kms_client.kms_client import KMSClient
+
+f = open("file/security_file.json", "r")
+credentals = KMSCredentials(f)
+kms = KMSClient(credentals)
+request = EnableKMSKeyRequest('01GZZWTJYTNRGEQ8YMQQ7H6KMS')
+print(kms.enable_kms_key(request))
+```
+Response
+```text
+key_id = 01GZZWTJYTNRGEQ8YMQQ7H6KMS, state = ENABLED
+```
+
+### Delete KMS Key
+This function delete KMS, key will not be deleted immediately but will be deleted after 7 days
+
+```python
+from src.vcc_kms_client.auth.kms_credentials import KMSCredentials
+from src.vcc_kms_client.models.delete_kms_key_request import DeleteKMSKeyRequest
+from src.vcc_kms_client.kms_client import KMSClient
+
+f = open("file/security_file.json", "r")
+credentals = KMSCredentials(f)
+kms = KMSClient(credentals)
+request = DeleteKMSKeyRequest('01H0PDX0YRWPEY3GRR2D833E09')
+print(kms.delete_kms_key(request))
+```
+Response
+```text
+key_id = 01H0PDX0YRWPEY3GRR2D833E09, state = SCHEDULED_DELETION
+```
+
+### List KMS Key By Alias
+This function list KMS Key by alias when the user has permission view those keys
+
+```python
+from src.vcc_kms_client.auth.kms_credentials import KMSCredentials
+from src.vcc_kms_client.models.list_kms_key_by_alias_request import ListKMSKeyByAliasRequest
+from src.vcc_kms_client.kms_client import KMSClient
+
+f = open("file/security_file.json", "r")
+credentals = KMSCredentials(f)
+kms = KMSClient(credentals)
+request = ListKMSKeyByAliasRequest(1, 0, 'cuong dep zai')
+print(kms.list_key_by_alias(request).keys[0])
+```
+Response
+```text
+key_id = 01GZJT8VX8ZD3TVNN0VZXD3J69, alias = dsafasfasfasasfasf, algorithm = cuong dep zai, state = ENABLED, description = AES_256
+```
+
+### List KMS Key
+This function list key when the user has permission view those keys
+
+```python
+from src.vcc_kms_client.auth.kms_credentials import KMSCredentials
+from src.vcc_kms_client.models.list_kms_key_request import ListKMSKeyRequest
+from src.vcc_kms_client.kms_client import KMSClient
+
+f = open("file/security_file.json", "r")
+credentals = KMSCredentials(f)
+kms = KMSClient(credentals)
+request = ListKMSKeyRequest(3, 0)
+for key in kms.list_key(request).keys:
+   print(key)
+```
+Response
+```text
+key_id = 01GVD5HP5NSS0AZAX9D4E6Y1RX, alias = None, algorithm = cuongdepzai3, state = ENABLED, description = AES_256
+key_id = 01GVD5JGAX1ESW09PN3BFQ7XBE, alias = None, algorithm = cuongdepzai4, state = ENABLED, description = RSA_2048
+key_id = 01GVD5MX66PRTEJGD08ZTPXS4S, alias = None, algorithm = cuongdepzai5, state = ENABLED, description = RSA_3072
+```
+
+### Update Description Key
+This function update description key
+
+```python
+from src.vcc_kms_client.auth.kms_credentials import KMSCredentials
+from src.vcc_kms_client.models.update_description_key_request import UpdateDescriptionKeyRequest
+from src.vcc_kms_client.kms_client import KMSClient
+
+f = open("file/security_file.json", "r")
+credentals = KMSCredentials(f)
+kms = KMSClient(credentals)
+request = UpdateDescriptionKeyRequest('01GZZWTJYTNRGEQ8YMQQ7H6KMS', 'dsafasfasfasasfasf')
+print(kms.update_description_key(request))
+```
+Response
+```text
+key_id = 01GZZWTJYTNRGEQ8YMQQ7H6KMS, description = dsafasfasfasasfasf
+```
+
+### Sign
+This function sign message with KMS key
+
+```python
+from src.vcc_kms_client.auth.kms_credentials import KMSCredentials
+from src.vcc_kms_client.models import sign_algorithm
+from src.vcc_kms_client.models.sign_request import SignRequest
+
+from src.vcc_kms_client.kms_client import KMSClient
+
+f = open("file/security_file.json", "r")
+credentals = KMSCredentials(f)
+kms = KMSClient(credentals)
+request = SignRequest('01GZX850ZW3W4HC40T1ZX6V8NA', 'cuong dep zai', sign_algorithm.SHA512_RSA)
+print(kms.sign(request))
+```
+Response
+```text
+key_id = 01GZX850ZW3W4HC40T1ZX6V8NA, signature = C/PDWwJ2NpsqbwJTVDKqosFue+rs3dl+vKPbdVqh9zIc6Lnm33/WadCA2X+tMs87UOxaeuIn+NtgL6Jnh3ZgkkWB086ltp/YbccG+H9mxCc/OXKSP2hOZdO7bE5HXi4RyoXG3Mcv/ckXlgP02v9U2gehvQCOA9mcP3XDTZvHxCvU+WQpIt/QiNW3Ov150X7HrHt9vRFlX8cY1ciLH4esDcqshLY0Cw/SinB4hUJ8eX5DanQ/5VMZY12SLMQL+y9sifrmJNIe9WP0Gysp8yGPCwcO+zP49TrEs/zmMvkUscf3+0tJTFYetF4a4+zhI7QoaV/4FWPVaBVoh7kkb0HolQ==, sign_algorithm = SHA512withRSA
+```
+
+### Verify
+This function verify message with KMS key
+
+```python
+from src.vcc_kms_client.auth.kms_credentials import KMSCredentials
+from src.vcc_kms_client.models import sign_algorithm
+from src.vcc_kms_client.models.verify_request import VerifyRequest
+from src.vcc_kms_client.kms_client import KMSClient
+
+f = open("file/security_file.json", "r")
+credentals = KMSCredentials(f)
+kms = KMSClient(credentals)
+request = VerifyRequest('01GZX850ZW3W4HC40T1ZX6V8NA', 'cuong dep zai', sign_algorithm.SHA512_RSA,
+                        'C/PDWwJ2NpsqbwJTVDKqosFue+rs3dl+vKPbdVqh9zIc6Lnm33/WadCA2X+tMs87UOxaeuIn+NtgL6Jnh3ZgkkWB086ltp/YbccG+H9mxCc/OXKSP2hOZdO7bE5HXi4RyoXG3Mcv/ckXlgP02v9U2gehvQCOA9mcP3XDTZvHxCvU+WQpIt/QiNW3Ov150X7HrHt9vRFlX8cY1ciLH4esDcqshLY0Cw/SinB4hUJ8eX5DanQ/5VMZY12SLMQL+y9sifrmJNIe9WP0Gysp8yGPCwcO+zP49TrEs/zmMvkUscf3+0tJTFYetF4a4+zhI7QoaV/4FWPVaBVoh7kkb0HolQ==')
+print(kms.verify(request))
+```
+Response
+```text
+key_id = 01GZX850ZW3W4HC40T1ZX6V8NA, signature_valid = True, sign_algorithm = SHA512withRSA
+```
+

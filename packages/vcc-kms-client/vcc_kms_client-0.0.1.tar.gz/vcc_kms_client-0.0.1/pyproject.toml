@@ -1,0 +1,17 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+[project]
+name = "vcc_kms_client"
+version = "0.0.1"
+authors = [
+  { name="cuongpm", email="cuongphammanh@tech.admicro.vn" },
+]
+description = "KMS is a key management system for data encryption, decryption, signing and verification"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
