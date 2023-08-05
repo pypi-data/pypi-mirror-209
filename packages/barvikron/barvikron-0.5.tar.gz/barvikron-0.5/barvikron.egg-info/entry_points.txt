@@ -1,0 +1,3 @@
+[console_scripts]
+barvikron = barvikron.scripts.serial:main
+barvikron-parallel = barvikron.scripts.parallel:main

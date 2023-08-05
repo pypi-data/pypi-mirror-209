@@ -1,0 +1,11 @@
+click
+numpy
+whichcraft
+
+[dev]
+black
+build
+pytest
+pytest-clarity
+pytest-sugar
+twine

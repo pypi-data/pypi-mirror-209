@@ -1,0 +1,8 @@
+.eggs
+.tox
+*.egg-info
+__pycache__
+.cache
+*.pyc
+.venv*
+/dist/
