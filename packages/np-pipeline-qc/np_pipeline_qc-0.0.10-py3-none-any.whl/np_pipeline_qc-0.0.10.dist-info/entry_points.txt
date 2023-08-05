@@ -1,0 +1,3 @@
+[console_scripts]
+run_pipeline_qc=__main__:main
+
