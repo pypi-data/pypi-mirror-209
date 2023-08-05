@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: certora-cli-alpha-yoav-overapproximate_signextend
+Version: 20230518.8.22.655051
+Summary: Runner for the Certora Prover
+Home-page: https://pypi.org/project/certora-cli-alpha-yoav-overapproximate_signextend
+Author: Certora
+Author-email: support@certora.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Commit 30815b5. Build and Run scripts for executing the Certora Prover on Solidity smart contracts.
