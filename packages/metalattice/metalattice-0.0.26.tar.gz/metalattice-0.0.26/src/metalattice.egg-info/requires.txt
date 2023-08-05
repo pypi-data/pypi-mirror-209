@@ -1,0 +1,3 @@
+cython
+gfort2py
+numpy
