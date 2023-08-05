@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/spotigrabber/spotigrabber.py
+src/spotigrabber.egg-info/PKG-INFO
+src/spotigrabber.egg-info/SOURCES.txt
+src/spotigrabber.egg-info/dependency_links.txt
+src/spotigrabber.egg-info/requires.txt
+src/spotigrabber.egg-info/top_level.txt
