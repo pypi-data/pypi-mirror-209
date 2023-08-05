@@ -1,0 +1,13 @@
+loanpy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+loanpy/eval_sca.py,sha256=PqQJZcmVTYU1hpyzKIozESi52B3JrwFX8q2_IHLnTYE,8355
+loanpy/ipa_all.csv,sha256=H00cZN-sD2MYKBv1E_9_PqSeQRnU1Suj_YMZXeZ0WYY,435389
+loanpy/loanfinder.py,sha256=KwFkTtTcCfDwN0C3qNV1ukJBFrmYSUU9lf00pxS9_vA,6845
+loanpy/scapplier.py,sha256=8TA_1vrxGS9wLxRT0clSAfLz73QDqM9ZZHTH9tRnyac,37335
+loanpy/scminer.py,sha256=jxchwaoechEQjlkAuYoJd6TSMWv1z4mIBDkwxfLVIQI,9260
+loanpy/utils.py,sha256=Crw_kq6MyZMp1T9UdiQXewjE2UcydwtY1jzM9XfX88s,23190
+loanpy-3.0.1.data/data/loanpy/ipa_all.csv,sha256=H00cZN-sD2MYKBv1E_9_PqSeQRnU1Suj_YMZXeZ0WYY,435389
+loanpy-3.0.1.dist-info/LICENSE,sha256=Qrz4Xs-KHuri8c_MC-eAN6sKI-5rKP6TH_9hXiM3MKw,1066
+loanpy-3.0.1.dist-info/METADATA,sha256=y9IAKmY8cllmW1MzR2U7DYnHXkaLw38Grp67s0345uo,5107
+loanpy-3.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+loanpy-3.0.1.dist-info/top_level.txt,sha256=tzABLMohGijA0_8Gr95W2q377cHvsuOZ5eOAe71WKJo,7
+loanpy-3.0.1.dist-info/RECORD,,
