@@ -1,0 +1,408 @@
+2023-05-17T11:59:18,858 Using pip 23.1.2 from /dune/dune-common/build-cmake/dune-env/lib/python3.10/site-packages/pip (python 3.10)
+2023-05-17T11:59:18,858 Non-user install because user site-packages disabled
+2023-05-17T11:59:18,900 Created temporary directory: /tmp/pip-build-tracker-pmnish0h
+2023-05-17T11:59:18,900 Initialized build tracking at /tmp/pip-build-tracker-pmnish0h
+2023-05-17T11:59:18,900 Created build tracker: /tmp/pip-build-tracker-pmnish0h
+2023-05-17T11:59:18,901 Entered build tracker: /tmp/pip-build-tracker-pmnish0h
+2023-05-17T11:59:18,901 Created temporary directory: /tmp/pip-install-evjd6k44
+2023-05-17T11:59:18,902 Created temporary directory: /tmp/pip-ephem-wheel-cache-ailre43d
+2023-05-17T11:59:18,927 1 location(s) to search for versions of pyikarus:
+2023-05-17T11:59:18,927 * https://pypi.org/simple/pyikarus/
+2023-05-17T11:59:18,929 Fetching project page and analyzing links: https://pypi.org/simple/pyikarus/
+2023-05-17T11:59:18,929 Getting page https://pypi.org/simple/pyikarus/
+2023-05-17T11:59:18,930 Found index url https://pypi.org/simple/
+2023-05-17T11:59:18,931 Looking up "https://pypi.org/simple/pyikarus/" in the cache
+2023-05-17T11:59:18,931 Request header has "max_age" as 0, cache bypassed
+2023-05-17T11:59:18,932 Starting new HTTPS connection (1): pypi.org:443
+2023-05-17T11:59:19,092 https://pypi.org:443 "GET /simple/pyikarus/ HTTP/1.1" 200 4486
+2023-05-17T11:59:19,098 Updating cache with response from "https://pypi.org/simple/pyikarus/"
+2023-05-17T11:59:19,100 etag object cached for 1209600 seconds
+2023-05-17T11:59:19,102 Caching due to etag
+2023-05-17T11:59:19,118 Fetched page https://pypi.org/simple/pyikarus/ as application/vnd.pypi.simple.v1+json
+2023-05-17T11:59:19,130   Found link https://files.pythonhosted.org/packages/27/06/b99ec7775ec517fb2e5e53fc905e199ad1ecc45095ae8a2c724db1f658da/pyikarus-0.3.0.dev202310000041.tar.gz (from https://pypi.org/simple/pyikarus/) (requires-python:>=3.4), version: 0.3.0.dev202310000041
+2023-05-17T11:59:19,133   Found link https://files.pythonhosted.org/packages/82/11/0b878d2a0a3a13f19b1feda6ab0b9508373b9f923331f1f07b45932f11b8/pyikarus-0.3.0.dev202310000042.tar.gz (from https://pypi.org/simple/pyikarus/) (requires-python:>=3.4), version: 0.3.0.dev202310000042
+2023-05-17T11:59:19,136   Found link https://files.pythonhosted.org/packages/3e/4d/ae5a98d5d0d93ba1d85a1a65adf934fbe954c3526f927a21e628e7360b09/pyikarus-0.3.0.dev202310000043.tar.gz (from https://pypi.org/simple/pyikarus/) (requires-python:>=3.4), version: 0.3.0.dev202310000043
+2023-05-17T11:59:19,139   Found link https://files.pythonhosted.org/packages/59/5f/d5cd4ad19358efdeb4803221c2dbf8e313959d1a955ac5f61a9816bd3c71/pyikarus-0.3.0.dev202310000044.tar.gz (from https://pypi.org/simple/pyikarus/) (requires-python:>=3.4), version: 0.3.0.dev202310000044
+2023-05-17T11:59:19,141   Found link https://files.pythonhosted.org/packages/e0/34/7ecd2b49a26d7af1bb9a27785f15bf576092976538207ae5f601b57a0cff/pyikarus-0.3.0.dev202310000045.tar.gz (from https://pypi.org/simple/pyikarus/) (requires-python:>=3.4), version: 0.3.0.dev202310000045
+2023-05-17T11:59:19,143   Found link https://files.pythonhosted.org/packages/29/7b/0455a43a82911736e12118ef1be706a62a49b7ca09ee2f00c6ecd2ba1c9b/pyikarus-0.3.0.dev202310000046.tar.gz (from https://pypi.org/simple/pyikarus/) (requires-python:>=3.4), version: 0.3.0.dev202310000046
+2023-05-17T11:59:19,144   Found link https://files.pythonhosted.org/packages/8f/16/39f431a7c9bb96d0de2aa9c9bef688fb6051b67ee13579e1cfdf32ce2330/pyikarus-0.3.0.dev202310000047.tar.gz (from https://pypi.org/simple/pyikarus/) (requires-python:>=3.4), version: 0.3.0.dev202310000047
+2023-05-17T11:59:19,145   Found link https://files.pythonhosted.org/packages/1d/3c/df63f1c7a7415bb684d772ca988dd2904a40438f6560c1163ceddadab398/pyikarus-0.3.0.dev202310000048.tar.gz (from https://pypi.org/simple/pyikarus/) (requires-python:>=3.4), version: 0.3.0.dev202310000048
+2023-05-17T11:59:19,147   Found link https://files.pythonhosted.org/packages/a3/4b/3c0130e606b5deceb56c2bd9033607494a80cde8ca3743ae24481b3a4e27/pyikarus-0.3.0.dev202310000049.tar.gz (from https://pypi.org/simple/pyikarus/) (requires-python:>=3.4), version: 0.3.0.dev202310000049
+2023-05-17T11:59:19,148   Found link https://files.pythonhosted.org/packages/23/bb/b9215d7574bf8f33d3654a328938f4a8f26860b76bd499c7370c9c3c7ff0/pyikarus-0.3.0.dev202310000050.tar.gz (from https://pypi.org/simple/pyikarus/) (requires-python:>=3.4), version: 0.3.0.dev202310000050
+2023-05-17T11:59:19,149   Found link https://files.pythonhosted.org/packages/0b/ea/380eb4ab8e680e08f6fef4a6299afc91ed81f02ee939b85737836559023c/pyikarus-0.3.0.dev202310000051.tar.gz (from https://pypi.org/simple/pyikarus/) (requires-python:>=3.4), version: 0.3.0.dev202310000051
+2023-05-17T11:59:19,149   Found link https://files.pythonhosted.org/packages/b1/33/24b26e0afb760543c421300f14236b7910b558214ee9b2df13f898979a1b/pyikarus-0.3.0.dev202310000052.tar.gz (from https://pypi.org/simple/pyikarus/) (requires-python:>=3.4), version: 0.3.0.dev202310000052
+2023-05-17T11:59:19,150   Found link https://files.pythonhosted.org/packages/6b/06/15f7ca8f7e18235510427679dfd4aaa710d804b9f77a07c395128ff5c0a6/pyikarus-0.3.0.dev202310000053.tar.gz (from https://pypi.org/simple/pyikarus/) (requires-python:>=3.4), version: 0.3.0.dev202310000053
+2023-05-17T11:59:19,151   Found link https://files.pythonhosted.org/packages/b1/c7/cd4316fb36269f4476a8499addec464534ee5ecc2573f5a8ba65224f959a/pyikarus-0.3.0.dev202310000055.tar.gz (from https://pypi.org/simple/pyikarus/) (requires-python:>=3.4), version: 0.3.0.dev202310000055
+2023-05-17T11:59:19,152   Found link https://files.pythonhosted.org/packages/04/5e/e389caaae573bae3ca880c6dc654ab12c442ea27fef3c60fda3b8055f651/pyikarus-0.3.0.dev202310000056.tar.gz (from https://pypi.org/simple/pyikarus/) (requires-python:>=3.4), version: 0.3.0.dev202310000056
+2023-05-17T11:59:19,153   Found link https://files.pythonhosted.org/packages/f8/c3/3855f32696370202f55fad38c619afc552c878441a66bdeb02027bd85bce/pyikarus-0.3.0.dev202310000057.tar.gz (from https://pypi.org/simple/pyikarus/) (requires-python:>=3.4), version: 0.3.0.dev202310000057
+2023-05-17T11:59:19,153   Found link https://files.pythonhosted.org/packages/8b/90/b919e1e752b1d7326c4bc584921a62d334e8ba9c65bfac0a63518a60b0cb/pyikarus-0.3.0.dev202310000058.tar.gz (from https://pypi.org/simple/pyikarus/) (requires-python:>=3.4), version: 0.3.0.dev202310000058
+2023-05-17T11:59:19,154   Found link https://files.pythonhosted.org/packages/6a/7f/9778ca806776473eede5d0ff3cc5dc59633c66ea5be49e7a4ef89da7c1bc/pyikarus-0.3.0.dev202310000060.tar.gz (from https://pypi.org/simple/pyikarus/) (requires-python:>=3.4), version: 0.3.0.dev202310000060
+2023-05-17T11:59:19,155   Found link https://files.pythonhosted.org/packages/f9/a7/81f5855c3d3d1b79c0ee65cf487770bc1e113ce62165faf516e55980b8ab/pyikarus-0.3.0.dev202310000061.tar.gz (from https://pypi.org/simple/pyikarus/) (requires-python:>=3.4), version: 0.3.0.dev202310000061
+2023-05-17T11:59:19,155   Found link https://files.pythonhosted.org/packages/b0/04/8d2e2ff8c6449e6cb7174be70565a87ba242230efd2faf09ff9890903109/pyikarus-0.3.0.dev202310000062.tar.gz (from https://pypi.org/simple/pyikarus/) (requires-python:>=3.4), version: 0.3.0.dev202310000062
+2023-05-17T11:59:19,156   Found link https://files.pythonhosted.org/packages/c1/0a/e6a5a07e2db72355c314a360078637880fb570a103618189fcee19ff6f78/pyikarus-0.3.0.dev202310000063.tar.gz (from https://pypi.org/simple/pyikarus/) (requires-python:>=3.4), version: 0.3.0.dev202310000063
+2023-05-17T11:59:19,156   Found link https://files.pythonhosted.org/packages/e5/6c/ef57eb7f06bde865bc3f0b53c36b7fd6d4f30037c420cafc51e36fb16de0/pyikarus-0.3.0.dev202310000064.tar.gz (from https://pypi.org/simple/pyikarus/) (requires-python:>=3.4), version: 0.3.0.dev202310000064
+2023-05-17T11:59:19,157   Found link https://files.pythonhosted.org/packages/c6/e8/d5a720842f7d2397e9fa6ca42c2fb150ee064e1df39f697d5d8e71eac259/pyikarus-0.3.0.dev202310000065.tar.gz (from https://pypi.org/simple/pyikarus/) (requires-python:>=3.4), version: 0.3.0.dev202310000065
+2023-05-17T11:59:19,157   Found link https://files.pythonhosted.org/packages/ce/39/5909ade435218c89e26116e4a573ac6ef85c86a34fdeffa255ae0766b40d/pyikarus-0.3.0.dev202310000066.tar.gz (from https://pypi.org/simple/pyikarus/) (requires-python:>=3.4), version: 0.3.0.dev202310000066
+2023-05-17T11:59:19,158   Found link https://files.pythonhosted.org/packages/7c/7e/779b0786bd6bd8cf93c3dad72d735dcc7ff0a26afa879cd3933edfe5836f/pyikarus-0.3.0.dev202310000067.tar.gz (from https://pypi.org/simple/pyikarus/) (requires-python:>=3.4), version: 0.3.0.dev202310000067
+2023-05-17T11:59:19,158   Found link https://files.pythonhosted.org/packages/ab/59/58b9a925cfa8a6432a268807a8e0d9c948850ce49b1b037e9c932ae4ca61/pyikarus-0.3.0.dev202310000068.tar.gz (from https://pypi.org/simple/pyikarus/) (requires-python:>=3.4), version: 0.3.0.dev202310000068
+2023-05-17T11:59:19,159   Found link https://files.pythonhosted.org/packages/50/72/24688372246d46adcd4b41354101bccdd614d6f4608bd5d1d1198fca02bc/pyikarus-0.3.0.dev202310000069.tar.gz (from https://pypi.org/simple/pyikarus/) (requires-python:>=3.4), version: 0.3.0.dev202310000069
+2023-05-17T11:59:19,159   Found link https://files.pythonhosted.org/packages/b5/44/b6dba68357a12a4b88fd2129032e3d6c2c6b0786c001f0daf336a1d0e730/pyikarus-0.3.0.dev202310000070.tar.gz (from https://pypi.org/simple/pyikarus/) (requires-python:>=3.4), version: 0.3.0.dev202310000070
+2023-05-17T11:59:19,159   Found link https://files.pythonhosted.org/packages/71/d4/6217bf12444e033107cb6fff7e68bd4720723c80df96b7bbda8db667bca2/pyikarus-0.3.0.dev202310000071.tar.gz (from https://pypi.org/simple/pyikarus/) (requires-python:>=3.4), version: 0.3.0.dev202310000071
+2023-05-17T11:59:19,160   Found link https://files.pythonhosted.org/packages/eb/8f/ec9ce6f6bc593bff3a90c1577fdf7b23d24a6bea54d8bea3584b2c944f18/pyikarus-0.3.0.dev202310000072.tar.gz (from https://pypi.org/simple/pyikarus/) (requires-python:>=3.4), version: 0.3.0.dev202310000072
+2023-05-17T11:59:19,160   Found link https://files.pythonhosted.org/packages/af/6b/f4539391f3c9ce1f54f4484d0fccbed06b611993e34f0d00a36cb7adf7b6/pyikarus-0.3.0.dev202310000073.tar.gz (from https://pypi.org/simple/pyikarus/) (requires-python:>=3.4), version: 0.3.0.dev202310000073
+2023-05-17T11:59:19,161   Found link https://files.pythonhosted.org/packages/68/9b/6cca96afd9f30b7f51c24a49583216df299590ef539bea372409afa3f38d/pyikarus-0.3.0.dev202310000074.tar.gz (from https://pypi.org/simple/pyikarus/) (requires-python:>=3.4), version: 0.3.0.dev202310000074
+2023-05-17T11:59:19,161   Found link https://files.pythonhosted.org/packages/71/d6/618abddd3dde20c52b4054c26773eb77f1151aa3d8ade1d313e8c1da6db0/pyikarus-0.3.0.dev202310000075.tar.gz (from https://pypi.org/simple/pyikarus/) (requires-python:>=3.4), version: 0.3.0.dev202310000075
+2023-05-17T11:59:19,162   Found link https://files.pythonhosted.org/packages/8d/20/2480f505a5265f8e60b085508f13197a938d673f8f17cd8ab5528813cac8/pyikarus-0.3.0.dev202310000076.tar.gz (from https://pypi.org/simple/pyikarus/) (requires-python:>=3.4), version: 0.3.0.dev202310000076
+2023-05-17T11:59:19,162   Found link https://files.pythonhosted.org/packages/8a/b0/2dccf9308304f47efbbad8ca72ab0b0e5cb87c1f0cdbce1fb8570c66475d/pyikarus-0.3.0.dev202310000077.tar.gz (from https://pypi.org/simple/pyikarus/) (requires-python:>=3.4), version: 0.3.0.dev202310000077
+2023-05-17T11:59:19,163   Found link https://files.pythonhosted.org/packages/17/dd/af56c985c30b4b26bb278d703a9d73eec154057e7872c10a1d3079d0ffa2/pyikarus-0.3.0.dev202310000079.tar.gz (from https://pypi.org/simple/pyikarus/) (requires-python:>=3.4), version: 0.3.0.dev202310000079
+2023-05-17T11:59:19,163   Found link https://files.pythonhosted.org/packages/d6/38/0f88a79654c6cd3a5168826578cda64127402710f1b7b928153a28cdac1c/pyikarus-0.3.0.dev202310000080.tar.gz (from https://pypi.org/simple/pyikarus/) (requires-python:>=3.4), version: 0.3.0.dev202310000080
+2023-05-17T11:59:19,164   Found link https://files.pythonhosted.org/packages/ae/30/007dece94258ab75da88be69b00fca3ef79eb503de8ad4729833f1269d46/pyikarus-0.3.0.dev202310000081.tar.gz (from https://pypi.org/simple/pyikarus/) (requires-python:>=3.4), version: 0.3.0.dev202310000081
+2023-05-17T11:59:19,164   Found link https://files.pythonhosted.org/packages/df/c3/57a95372086578d2c33ea926ad3a1185f64df3716e9e7eca58fa0e108136/pyikarus-0.3.0.dev202310000082.tar.gz (from https://pypi.org/simple/pyikarus/) (requires-python:>=3.4), version: 0.3.0.dev202310000082
+2023-05-17T11:59:19,164 Skipping link: not a file: https://pypi.org/simple/pyikarus/
+2023-05-17T11:59:19,180 Given no hashes to check 39 links for project 'pyikarus': discarding no candidates
+2023-05-17T11:59:19,199 Collecting pyikarus
+2023-05-17T11:59:19,199   Created temporary directory: /tmp/pip-unpack-_8evt33i
+2023-05-17T11:59:19,200   Looking up "https://files.pythonhosted.org/packages/df/c3/57a95372086578d2c33ea926ad3a1185f64df3716e9e7eca58fa0e108136/pyikarus-0.3.0.dev202310000082.tar.gz" in the cache
+2023-05-17T11:59:19,202   No cache entry available
+2023-05-17T11:59:19,202   Starting new HTTPS connection (1): files.pythonhosted.org:443
+2023-05-17T11:59:19,390   https://files.pythonhosted.org:443 "GET /packages/df/c3/57a95372086578d2c33ea926ad3a1185f64df3716e9e7eca58fa0e108136/pyikarus-0.3.0.dev202310000082.tar.gz HTTP/1.1" 200 1457820
+2023-05-17T11:59:19,395   Downloading pyikarus-0.3.0.dev202310000082.tar.gz (1.5 MB)
+2023-05-17T11:59:19,605   Ignoring unknown cache-control directive: immutable
+2023-05-17T11:59:19,606   Updating cache with response from "https://files.pythonhosted.org/packages/df/c3/57a95372086578d2c33ea926ad3a1185f64df3716e9e7eca58fa0e108136/pyikarus-0.3.0.dev202310000082.tar.gz"
+2023-05-17T11:59:19,606   etag object cached for 1209600 seconds
+2023-05-17T11:59:19,607   Caching due to etag
+2023-05-17T11:59:19,739   Added pyikarus from https://files.pythonhosted.org/packages/df/c3/57a95372086578d2c33ea926ad3a1185f64df3716e9e7eca58fa0e108136/pyikarus-0.3.0.dev202310000082.tar.gz to build tracker '/tmp/pip-build-tracker-pmnish0h'
+2023-05-17T11:59:19,743   Created temporary directory: /tmp/pip-build-env-e7i3701z
+2023-05-17T11:59:19,745   Running command pip subprocess to install build dependencies
+2023-05-17T11:59:20,062   Using pip 23.1.2 from /dune/dune-common/build-cmake/dune-env/lib/python3.10/site-packages/pip (python 3.10)
+2023-05-17T11:59:20,496   Collecting setuptools
+2023-05-17T11:59:20,573     Downloading setuptools-67.7.2-py3-none-any.whl (1.1 MB)
+2023-05-17T11:59:20,648        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.1/1.1 MB 15.3 MB/s eta 0:00:00
+2023-05-17T11:59:20,942   Collecting matplotlib
+2023-05-17T11:59:20,988     Using cached matplotlib-3.7.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (11.6 MB)
+2023-05-17T11:59:21,107   Collecting wheel
+2023-05-17T11:59:21,115     Downloading wheel-0.40.0-py3-none-any.whl (64 kB)
+2023-05-17T11:59:21,123        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 64.5/64.5 kB 10.0 MB/s eta 0:00:00
+2023-05-17T11:59:21,168   Collecting scikit-build
+2023-05-17T11:59:21,170     Using cached scikit_build-0.17.5-py3-none-any.whl (82 kB)
+2023-05-17T11:59:21,394   Collecting cmake
+2023-05-17T11:59:21,412     Downloading cmake-3.26.3-py2.py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (24.0 MB)
+2023-05-17T11:59:21,819        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 24.0/24.0 MB 51.6 MB/s eta 0:00:00
+2023-05-17T11:59:21,984   Collecting ninja
+2023-05-17T11:59:22,032     Downloading ninja-1.11.1-py2.py3-none-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (145 kB)
+2023-05-17T11:59:22,040        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 146.0/146.0 kB 22.9 MB/s eta 0:00:00
+2023-05-17T11:59:22,106   Collecting requests
+2023-05-17T11:59:22,110     Using cached requests-2.30.0-py3-none-any.whl (62 kB)
+2023-05-17T11:59:22,274   Collecting dune-common<=2.9.0
+2023-05-17T11:59:22,285     Downloading dune-common-2.9.0.tar.gz (823 kB)
+2023-05-17T11:59:22,300        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 824.0/824.0 kB 67.1 MB/s eta 0:00:00
+2023-05-17T11:59:22,467     Installing build dependencies: started
+2023-05-17T11:59:22,468     Running command pip subprocess to install build dependencies
+2023-05-17T11:59:23,125     Collecting cmake>=3.13
+2023-05-17T11:59:23,186       Using cached cmake-3.26.3-py2.py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (24.0 MB)
+2023-05-17T11:59:23,366     Collecting jinja2
+2023-05-17T11:59:23,439       Downloading Jinja2-3.1.2-py3-none-any.whl (133 kB)
+2023-05-17T11:59:23,461          ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 133.1/133.1 kB 6.6 MB/s eta 0:00:00
+2023-05-17T11:59:23,539     Collecting ninja
+2023-05-17T11:59:23,541       Using cached ninja-1.11.1-py2.py3-none-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (145 kB)
+2023-05-17T11:59:23,900     Collecting numpy
+2023-05-17T11:59:23,912       Downloading numpy-1.24.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (17.3 MB)
+2023-05-17T11:59:24,242          ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 17.3/17.3 MB 59.5 MB/s eta 0:00:00
+2023-05-17T11:59:24,393     Collecting pip>=21
+2023-05-17T11:59:24,402       Downloading pip-23.1.2-py3-none-any.whl (2.1 MB)
+2023-05-17T11:59:24,431          ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 81.9 MB/s eta 0:00:00
+2023-05-17T11:59:24,479     Collecting portalocker
+2023-05-17T11:59:24,488       Downloading portalocker-2.7.0-py2.py3-none-any.whl (15 kB)
+2023-05-17T11:59:24,559     Collecting requests
+2023-05-17T11:59:24,560       Using cached requests-2.30.0-py3-none-any.whl (62 kB)
+2023-05-17T11:59:24,603     Collecting scikit-build
+2023-05-17T11:59:24,604       Using cached scikit_build-0.17.5-py3-none-any.whl (82 kB)
+2023-05-17T11:59:24,896     Collecting setuptools>=41
+2023-05-17T11:59:24,899       Using cached setuptools-67.7.2-py3-none-any.whl (1.1 MB)
+2023-05-17T11:59:24,971     Collecting wheel
+2023-05-17T11:59:24,973       Using cached wheel-0.40.0-py3-none-any.whl (64 kB)
+2023-05-17T11:59:25,080     Collecting MarkupSafe>=2.0 (from jinja2)
+2023-05-17T11:59:25,087       Downloading MarkupSafe-2.1.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (25 kB)
+2023-05-17T11:59:25,262     Collecting charset-normalizer<4,>=2 (from requests)
+2023-05-17T11:59:25,264       Using cached charset_normalizer-3.1.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (199 kB)
+2023-05-17T11:59:25,302     Collecting idna<4,>=2.5 (from requests)
+2023-05-17T11:59:25,305       Using cached idna-3.4-py3-none-any.whl (61 kB)
+2023-05-17T11:59:25,380     Collecting urllib3<3,>=1.21.1 (from requests)
+2023-05-17T11:59:25,383       Using cached urllib3-2.0.2-py3-none-any.whl (123 kB)
+2023-05-17T11:59:25,429     Collecting certifi>=2017.4.17 (from requests)
+2023-05-17T11:59:25,432       Using cached certifi-2023.5.7-py3-none-any.whl (156 kB)
+2023-05-17T11:59:25,488     Collecting distro (from scikit-build)
+2023-05-17T11:59:25,490       Using cached distro-1.8.0-py3-none-any.whl (20 kB)
+2023-05-17T11:59:25,572     Collecting packaging (from scikit-build)
+2023-05-17T11:59:25,574       Using cached packaging-23.1-py3-none-any.whl (48 kB)
+2023-05-17T11:59:25,685     Collecting tomli (from scikit-build)
+2023-05-17T11:59:25,687       Using cached tomli-2.0.1-py3-none-any.whl (12 kB)
+2023-05-17T11:59:26,252     Installing collected packages: ninja, cmake, wheel, urllib3, tomli, setuptools, portalocker, pip, packaging, numpy, MarkupSafe, idna, distro, charset-normalizer, certifi, scikit-build, requests, jinja2
+2023-05-17T11:59:31,517     Successfully installed MarkupSafe-2.1.2 certifi-2023.5.7 charset-normalizer-3.1.0 cmake-3.26.3 distro-1.8.0 idna-3.4 jinja2-3.1.2 ninja-1.11.1 numpy-1.24.3 packaging-23.1 pip-23.1.2 portalocker-2.7.0 requests-2.30.0 scikit-build-0.17.5 setuptools-67.7.2 tomli-2.0.1 urllib3-2.0.2 wheel-0.40.0
+2023-05-17T11:59:31,736     Installing build dependencies: finished with status 'done'
+2023-05-17T11:59:31,739     Getting requirements to build wheel: started
+2023-05-17T11:59:31,740     Running command Getting requirements to build wheel
+2023-05-17T11:59:32,022     /tmp/pip-build-env-5c4r4yb1/overlay/lib/python3.10/site-packages/setuptools/dist.py:519: InformationOnly: Normalizing 'v2.9.0' to '2.9.0'
+2023-05-17T11:59:32,023       self.metadata.version = self._normalize_version(
+2023-05-17T11:59:32,043     running egg_info
+2023-05-17T11:59:32,045     writing python/dune_common.egg-info/PKG-INFO
+2023-05-17T11:59:32,045     writing dependency_links to python/dune_common.egg-info/dependency_links.txt
+2023-05-17T11:59:32,046     writing requirements to python/dune_common.egg-info/requires.txt
+2023-05-17T11:59:32,046     writing top-level names to python/dune_common.egg-info/top_level.txt
+2023-05-17T11:59:32,050     reading manifest file 'python/dune_common.egg-info/SOURCES.txt'
+2023-05-17T11:59:32,054     adding license file 'LICENSE.md'
+2023-05-17T11:59:32,055     adding license file 'COPYING'
+2023-05-17T11:59:32,060     writing manifest file 'python/dune_common.egg-info/SOURCES.txt'
+2023-05-17T11:59:32,093     Getting requirements to build wheel: finished with status 'done'
+2023-05-17T11:59:32,097     Preparing metadata (pyproject.toml): started
+2023-05-17T11:59:32,097     Running command Preparing metadata (pyproject.toml)
+2023-05-17T11:59:32,303     /tmp/pip-build-env-5c4r4yb1/overlay/lib/python3.10/site-packages/setuptools/dist.py:519: InformationOnly: Normalizing 'v2.9.0' to '2.9.0'
+2023-05-17T11:59:32,303       self.metadata.version = self._normalize_version(
+2023-05-17T11:59:32,322     running dist_info
+2023-05-17T11:59:32,323     creating /tmp/pip-modern-metadata-zgkjlzgk/dune_common.egg-info
+2023-05-17T11:59:32,325     writing /tmp/pip-modern-metadata-zgkjlzgk/dune_common.egg-info/PKG-INFO
+2023-05-17T11:59:32,325     writing dependency_links to /tmp/pip-modern-metadata-zgkjlzgk/dune_common.egg-info/dependency_links.txt
+2023-05-17T11:59:32,325     writing requirements to /tmp/pip-modern-metadata-zgkjlzgk/dune_common.egg-info/requires.txt
+2023-05-17T11:59:32,326     writing top-level names to /tmp/pip-modern-metadata-zgkjlzgk/dune_common.egg-info/top_level.txt
+2023-05-17T11:59:32,326     writing manifest file '/tmp/pip-modern-metadata-zgkjlzgk/dune_common.egg-info/SOURCES.txt'
+2023-05-17T11:59:32,329     reading manifest file '/tmp/pip-modern-metadata-zgkjlzgk/dune_common.egg-info/SOURCES.txt'
+2023-05-17T11:59:32,330     adding license file 'LICENSE.md'
+2023-05-17T11:59:32,330     adding license file 'COPYING'
+2023-05-17T11:59:32,331     writing manifest file '/tmp/pip-modern-metadata-zgkjlzgk/dune_common.egg-info/SOURCES.txt'
+2023-05-17T11:59:32,331     creating '/tmp/pip-modern-metadata-zgkjlzgk/dune_common-2.9.0.dist-info'
+2023-05-17T11:59:32,378     Preparing metadata (pyproject.toml): finished with status 'done'
+2023-05-17T11:59:32,545   Collecting dune-grid<=2.9.0
+2023-05-17T11:59:32,557     Downloading dune-grid-2.9.0.tar.gz (3.0 MB)
+2023-05-17T11:59:32,618        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.0/3.0 MB 52.2 MB/s eta 0:00:00
+2023-05-17T11:59:32,854     Installing build dependencies: started
+2023-05-17T11:59:32,855     Running command pip subprocess to install build dependencies
+2023-05-17T11:59:33,519     Collecting cmake>=3.13
+2023-05-17T11:59:33,590       Using cached cmake-3.26.3-py2.py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (24.0 MB)
+2023-05-17T11:59:33,894     Collecting dune-geometry<=v2.9.0
+2023-05-17T11:59:34,073       Downloading dune-geometry-2.9.0.tar.gz (798 kB)
+2023-05-17T11:59:34,127          ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 798.9/798.9 kB 17.1 MB/s eta 0:00:00
+2023-05-17T11:59:34,210       Installing build dependencies: started
+2023-05-17T12:00:22,482       Installing build dependencies: finished with status 'done'
+2023-05-17T12:00:22,483       Getting requirements to build wheel: started
+2023-05-17T12:00:22,850       Getting requirements to build wheel: finished with status 'done'
+2023-05-17T12:00:22,856       Preparing metadata (pyproject.toml): started
+2023-05-17T12:00:23,281       Preparing metadata (pyproject.toml): finished with status 'done'
+2023-05-17T12:00:23,400     Collecting ninja
+2023-05-17T12:00:23,402       Using cached ninja-1.11.1-py2.py3-none-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (145 kB)
+2023-05-17T12:00:23,514     Collecting pip
+2023-05-17T12:00:23,523       Using cached pip-23.1.2-py3-none-any.whl (2.1 MB)
+2023-05-17T12:00:23,619     Collecting requests
+2023-05-17T12:00:23,621       Using cached requests-2.30.0-py3-none-any.whl (62 kB)
+2023-05-17T12:00:23,666     Collecting scikit-build
+2023-05-17T12:00:23,668       Using cached scikit_build-0.17.5-py3-none-any.whl (82 kB)
+2023-05-17T12:00:23,966     Collecting setuptools
+2023-05-17T12:00:23,970       Using cached setuptools-67.7.2-py3-none-any.whl (1.1 MB)
+2023-05-17T12:00:24,057     Collecting wheel
+2023-05-17T12:00:24,059       Using cached wheel-0.40.0-py3-none-any.whl (64 kB)
+2023-05-17T12:00:24,119     Collecting dune-common<=v2.9.0 (from dune-geometry<=v2.9.0)
+2023-05-17T12:00:24,119       Using cached dune_common-2.9.0-cp310-cp310-linux_x86_64.whl
+2023-05-17T12:00:24,273     Collecting charset-normalizer<4,>=2 (from requests)
+2023-05-17T12:00:24,276       Using cached charset_normalizer-3.1.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (199 kB)
+2023-05-17T12:00:24,340     Collecting idna<4,>=2.5 (from requests)
+2023-05-17T12:00:24,343       Using cached idna-3.4-py3-none-any.whl (61 kB)
+2023-05-17T12:00:24,432     Collecting urllib3<3,>=1.21.1 (from requests)
+2023-05-17T12:00:24,434       Using cached urllib3-2.0.2-py3-none-any.whl (123 kB)
+2023-05-17T12:00:24,482     Collecting certifi>=2017.4.17 (from requests)
+2023-05-17T12:00:24,484       Using cached certifi-2023.5.7-py3-none-any.whl (156 kB)
+2023-05-17T12:00:24,555     Collecting distro (from scikit-build)
+2023-05-17T12:00:24,558       Using cached distro-1.8.0-py3-none-any.whl (20 kB)
+2023-05-17T12:00:24,740     Collecting packaging (from scikit-build)
+2023-05-17T12:00:24,747       Using cached packaging-23.1-py3-none-any.whl (48 kB)
+2023-05-17T12:00:24,956     Collecting tomli (from scikit-build)
+2023-05-17T12:00:24,958       Using cached tomli-2.0.1-py3-none-any.whl (12 kB)
+2023-05-17T12:00:25,169     Collecting portalocker (from dune-common<=v2.9.0->dune-geometry<=v2.9.0)
+2023-05-17T12:00:25,171       Using cached portalocker-2.7.0-py2.py3-none-any.whl (15 kB)
+2023-05-17T12:00:25,238     Collecting jinja2 (from dune-common<=v2.9.0->dune-geometry<=v2.9.0)
+2023-05-17T12:00:25,240       Using cached Jinja2-3.1.2-py3-none-any.whl (133 kB)
+2023-05-17T12:00:25,576     Collecting numpy (from dune-common<=v2.9.0->dune-geometry<=v2.9.0)
+2023-05-17T12:00:25,606       Using cached numpy-1.24.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (17.3 MB)
+2023-05-17T12:00:25,900     Collecting MarkupSafe>=2.0 (from jinja2->dune-common<=v2.9.0->dune-geometry<=v2.9.0)
+2023-05-17T12:00:25,902       Using cached MarkupSafe-2.1.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (25 kB)
+2023-05-17T12:00:25,929     Building wheels for collected packages: dune-geometry
+2023-05-17T12:00:25,931       Building wheel for dune-geometry (pyproject.toml): started
+2023-05-17T12:00:42,527       Building wheel for dune-geometry (pyproject.toml): finished with status 'done'
+2023-05-17T12:00:42,530       Created wheel for dune-geometry: filename=dune_geometry-2.9.0-cp310-cp310-linux_x86_64.whl size=983922 sha256=cb2a7ce2fa7609ff949eeca48f131b68823c6f7a67c290cb382490c86174cf3e
+2023-05-17T12:00:42,531       Stored in directory: /home/user/.cache/pip/wheels/e3/93/e7/c98e94dd92ca8350213568e97545c861141152344e04c81782
+2023-05-17T12:00:42,533     Successfully built dune-geometry
+2023-05-17T12:00:43,071     Installing collected packages: ninja, cmake, wheel, urllib3, tomli, setuptools, portalocker, pip, packaging, numpy, MarkupSafe, idna, distro, charset-normalizer, certifi, scikit-build, requests, jinja2, dune-common, dune-geometry
+2023-05-17T12:00:48,466     Successfully installed MarkupSafe-2.1.2 certifi-2023.5.7 charset-normalizer-3.1.0 cmake-3.26.3 distro-1.8.0 dune-common-2.9.0 dune-geometry-2.9.0 idna-3.4 jinja2-3.1.2 ninja-1.11.1 numpy-1.24.3 packaging-23.1 pip-23.1.2 portalocker-2.7.0 requests-2.30.0 scikit-build-0.17.5 setuptools-67.7.2 tomli-2.0.1 urllib3-2.0.2 wheel-0.40.0
+2023-05-17T12:00:48,882     Installing build dependencies: finished with status 'done'
+2023-05-17T12:00:48,884     Getting requirements to build wheel: started
+2023-05-17T12:00:48,884     Running command Getting requirements to build wheel
+2023-05-17T12:00:49,105     /tmp/pip-build-env-efkap8li/overlay/lib/python3.10/site-packages/setuptools/dist.py:519: InformationOnly: Normalizing 'v2.9.0' to '2.9.0'
+2023-05-17T12:00:49,105       self.metadata.version = self._normalize_version(
+2023-05-17T12:00:49,122     running egg_info
+2023-05-17T12:00:49,124     writing python/dune_grid.egg-info/PKG-INFO
+2023-05-17T12:00:49,125     writing dependency_links to python/dune_grid.egg-info/dependency_links.txt
+2023-05-17T12:00:49,125     writing requirements to python/dune_grid.egg-info/requires.txt
+2023-05-17T12:00:49,126     writing top-level names to python/dune_grid.egg-info/top_level.txt
+2023-05-17T12:00:49,130     reading manifest file 'python/dune_grid.egg-info/SOURCES.txt'
+2023-05-17T12:00:49,134     adding license file 'LICENSE.md'
+2023-05-17T12:00:49,135     adding license file 'COPYING'
+2023-05-17T12:00:49,141     writing manifest file 'python/dune_grid.egg-info/SOURCES.txt'
+2023-05-17T12:00:49,174     Getting requirements to build wheel: finished with status 'done'
+2023-05-17T12:00:49,177     Preparing metadata (pyproject.toml): started
+2023-05-17T12:00:49,177     Running command Preparing metadata (pyproject.toml)
+2023-05-17T12:00:49,376     /tmp/pip-build-env-efkap8li/overlay/lib/python3.10/site-packages/setuptools/dist.py:519: InformationOnly: Normalizing 'v2.9.0' to '2.9.0'
+2023-05-17T12:00:49,376       self.metadata.version = self._normalize_version(
+2023-05-17T12:00:49,392     running dist_info
+2023-05-17T12:00:49,393     creating /tmp/pip-modern-metadata-pjtclpjm/dune_grid.egg-info
+2023-05-17T12:00:49,395     writing /tmp/pip-modern-metadata-pjtclpjm/dune_grid.egg-info/PKG-INFO
+2023-05-17T12:00:49,395     writing dependency_links to /tmp/pip-modern-metadata-pjtclpjm/dune_grid.egg-info/dependency_links.txt
+2023-05-17T12:00:49,395     writing requirements to /tmp/pip-modern-metadata-pjtclpjm/dune_grid.egg-info/requires.txt
+2023-05-17T12:00:49,396     writing top-level names to /tmp/pip-modern-metadata-pjtclpjm/dune_grid.egg-info/top_level.txt
+2023-05-17T12:00:49,396     writing manifest file '/tmp/pip-modern-metadata-pjtclpjm/dune_grid.egg-info/SOURCES.txt'
+2023-05-17T12:00:49,399     reading manifest file '/tmp/pip-modern-metadata-pjtclpjm/dune_grid.egg-info/SOURCES.txt'
+2023-05-17T12:00:49,399     adding license file 'LICENSE.md'
+2023-05-17T12:00:49,400     adding license file 'COPYING'
+2023-05-17T12:00:49,400     writing manifest file '/tmp/pip-modern-metadata-pjtclpjm/dune_grid.egg-info/SOURCES.txt'
+2023-05-17T12:00:49,401     creating '/tmp/pip-modern-metadata-pjtclpjm/dune_grid-2.9.0.dist-info'
+2023-05-17T12:00:49,441     Preparing metadata (pyproject.toml): finished with status 'done'
+2023-05-17T12:00:49,497   Collecting dune-geometry<=2.9.0
+2023-05-17T12:00:49,498     Using cached dune_geometry-2.9.0-cp310-cp310-linux_x86_64.whl
+2023-05-17T12:00:49,663   Collecting dune-localfunctions<=2.9.0
+2023-05-17T12:00:49,674     Downloading dune-localfunctions-2.9.0.tar.gz (227 kB)
+2023-05-17T12:00:49,684        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 227.2/227.2 kB 29.3 MB/s eta 0:00:00
+2023-05-17T12:00:49,778     Installing build dependencies: started
+2023-05-17T12:00:49,778     Running command pip subprocess to install build dependencies
+2023-05-17T12:00:50,515     Collecting cmake>=3.13
+2023-05-17T12:00:50,596       Using cached cmake-3.26.3-py2.py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (24.0 MB)
+2023-05-17T12:00:50,825     Collecting dune-geometry<=v2.9.0
+2023-05-17T12:00:50,825       Using cached dune_geometry-2.9.0-cp310-cp310-linux_x86_64.whl
+2023-05-17T12:00:50,904     Collecting ninja
+2023-05-17T12:00:50,906       Using cached ninja-1.11.1-py2.py3-none-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (145 kB)
+2023-05-17T12:00:50,994     Collecting pip
+2023-05-17T12:00:51,000       Using cached pip-23.1.2-py3-none-any.whl (2.1 MB)
+2023-05-17T12:00:51,082     Collecting requests
+2023-05-17T12:00:51,084       Using cached requests-2.30.0-py3-none-any.whl (62 kB)
+2023-05-17T12:00:51,133     Collecting scikit-build
+2023-05-17T12:00:51,135       Using cached scikit_build-0.17.5-py3-none-any.whl (82 kB)
+2023-05-17T12:00:51,430     Collecting setuptools
+2023-05-17T12:00:51,432       Using cached setuptools-67.7.2-py3-none-any.whl (1.1 MB)
+2023-05-17T12:00:51,512     Collecting wheel
+2023-05-17T12:00:51,513       Using cached wheel-0.40.0-py3-none-any.whl (64 kB)
+2023-05-17T12:00:51,561     Collecting dune-common<=v2.9.0 (from dune-geometry<=v2.9.0)
+2023-05-17T12:00:51,562       Using cached dune_common-2.9.0-cp310-cp310-linux_x86_64.whl
+2023-05-17T12:00:51,715     Collecting charset-normalizer<4,>=2 (from requests)
+2023-05-17T12:00:51,717       Using cached charset_normalizer-3.1.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (199 kB)
+2023-05-17T12:00:51,773     Collecting idna<4,>=2.5 (from requests)
+2023-05-17T12:00:51,775       Using cached idna-3.4-py3-none-any.whl (61 kB)
+2023-05-17T12:00:51,850     Collecting urllib3<3,>=1.21.1 (from requests)
+2023-05-17T12:00:51,852       Using cached urllib3-2.0.2-py3-none-any.whl (123 kB)
+2023-05-17T12:00:51,904     Collecting certifi>=2017.4.17 (from requests)
+2023-05-17T12:00:51,906       Using cached certifi-2023.5.7-py3-none-any.whl (156 kB)
+2023-05-17T12:00:51,975     Collecting distro (from scikit-build)
+2023-05-17T12:00:51,976       Using cached distro-1.8.0-py3-none-any.whl (20 kB)
+2023-05-17T12:00:52,024     Collecting packaging (from scikit-build)
+2023-05-17T12:00:52,026       Using cached packaging-23.1-py3-none-any.whl (48 kB)
+2023-05-17T12:00:52,135     Collecting tomli (from scikit-build)
+2023-05-17T12:00:52,136       Using cached tomli-2.0.1-py3-none-any.whl (12 kB)
+2023-05-17T12:00:52,262     Collecting portalocker (from dune-common<=v2.9.0->dune-geometry<=v2.9.0)
+2023-05-17T12:00:52,263       Using cached portalocker-2.7.0-py2.py3-none-any.whl (15 kB)
+2023-05-17T12:00:52,315     Collecting jinja2 (from dune-common<=v2.9.0->dune-geometry<=v2.9.0)
+2023-05-17T12:00:52,316       Using cached Jinja2-3.1.2-py3-none-any.whl (133 kB)
+2023-05-17T12:00:52,704     Collecting numpy (from dune-common<=v2.9.0->dune-geometry<=v2.9.0)
+2023-05-17T12:00:52,741       Using cached numpy-1.24.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (17.3 MB)
+2023-05-17T12:00:53,024     Collecting MarkupSafe>=2.0 (from jinja2->dune-common<=v2.9.0->dune-geometry<=v2.9.0)
+2023-05-17T12:00:53,025       Using cached MarkupSafe-2.1.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (25 kB)
+2023-05-17T12:00:53,925     Installing collected packages: ninja, cmake, wheel, urllib3, tomli, setuptools, portalocker, pip, packaging, numpy, MarkupSafe, idna, distro, charset-normalizer, certifi, scikit-build, requests, jinja2, dune-common, dune-geometry
+2023-05-17T12:00:59,298     Successfully installed MarkupSafe-2.1.2 certifi-2023.5.7 charset-normalizer-3.1.0 cmake-3.26.3 distro-1.8.0 dune-common-2.9.0 dune-geometry-2.9.0 idna-3.4 jinja2-3.1.2 ninja-1.11.1 numpy-1.24.3 packaging-23.1 pip-23.1.2 portalocker-2.7.0 requests-2.30.0 scikit-build-0.17.5 setuptools-67.7.2 tomli-2.0.1 urllib3-2.0.2 wheel-0.40.0
+2023-05-17T12:00:59,507     Installing build dependencies: finished with status 'done'
+2023-05-17T12:00:59,508     Getting requirements to build wheel: started
+2023-05-17T12:00:59,508     Running command Getting requirements to build wheel
+2023-05-17T12:00:59,721     /tmp/pip-build-env-m1obcnm9/overlay/lib/python3.10/site-packages/setuptools/dist.py:519: InformationOnly: Normalizing 'v2.9.0' to '2.9.0'
+2023-05-17T12:00:59,722       self.metadata.version = self._normalize_version(
+2023-05-17T12:00:59,738     running egg_info
+2023-05-17T12:00:59,740     writing python/dune_localfunctions.egg-info/PKG-INFO
+2023-05-17T12:00:59,741     writing dependency_links to python/dune_localfunctions.egg-info/dependency_links.txt
+2023-05-17T12:00:59,741     writing requirements to python/dune_localfunctions.egg-info/requires.txt
+2023-05-17T12:00:59,742     writing top-level names to python/dune_localfunctions.egg-info/top_level.txt
+2023-05-17T12:00:59,745     reading manifest file 'python/dune_localfunctions.egg-info/SOURCES.txt'
+2023-05-17T12:00:59,747     adding license file 'LICENSE.md'
+2023-05-17T12:00:59,747     adding license file 'COPYING'
+2023-05-17T12:00:59,750     writing manifest file 'python/dune_localfunctions.egg-info/SOURCES.txt'
+2023-05-17T12:00:59,782     Getting requirements to build wheel: finished with status 'done'
+2023-05-17T12:00:59,785     Preparing metadata (pyproject.toml): started
+2023-05-17T12:00:59,786     Running command Preparing metadata (pyproject.toml)
+2023-05-17T12:00:59,983     /tmp/pip-build-env-m1obcnm9/overlay/lib/python3.10/site-packages/setuptools/dist.py:519: InformationOnly: Normalizing 'v2.9.0' to '2.9.0'
+2023-05-17T12:00:59,983       self.metadata.version = self._normalize_version(
+2023-05-17T12:00:59,998     running dist_info
+2023-05-17T12:00:59,999     creating /tmp/pip-modern-metadata-x38jl41k/dune_localfunctions.egg-info
+2023-05-17T12:01:00,001     writing /tmp/pip-modern-metadata-x38jl41k/dune_localfunctions.egg-info/PKG-INFO
+2023-05-17T12:01:00,002     writing dependency_links to /tmp/pip-modern-metadata-x38jl41k/dune_localfunctions.egg-info/dependency_links.txt
+2023-05-17T12:01:00,003     writing requirements to /tmp/pip-modern-metadata-x38jl41k/dune_localfunctions.egg-info/requires.txt
+2023-05-17T12:01:00,003     writing top-level names to /tmp/pip-modern-metadata-x38jl41k/dune_localfunctions.egg-info/top_level.txt
+2023-05-17T12:01:00,004     writing manifest file '/tmp/pip-modern-metadata-x38jl41k/dune_localfunctions.egg-info/SOURCES.txt'
+2023-05-17T12:01:00,007     reading manifest file '/tmp/pip-modern-metadata-x38jl41k/dune_localfunctions.egg-info/SOURCES.txt'
+2023-05-17T12:01:00,007     adding license file 'LICENSE.md'
+2023-05-17T12:01:00,008     adding license file 'COPYING'
+2023-05-17T12:01:00,009     writing manifest file '/tmp/pip-modern-metadata-x38jl41k/dune_localfunctions.egg-info/SOURCES.txt'
+2023-05-17T12:01:00,009     creating '/tmp/pip-modern-metadata-x38jl41k/dune_localfunctions-2.9.0.dist-info'
+2023-05-17T12:01:00,050     Preparing metadata (pyproject.toml): finished with status 'done'
+2023-05-17T12:01:00,200   ERROR: Could not find a version that satisfies the requirement dune-functions<=2.9.0 (from versions: none)
+2023-05-17T12:01:00,201   ERROR: No matching distribution found for dune-functions<=2.9.0
+2023-05-17T12:01:00,973   ERROR: [present-rich] pip subprocess to install build dependencies exited with 1
+2023-05-17T12:01:00,983   [bold magenta]full command[/]: [blue]/dune/dune-common/build-cmake/dune-env/bin/python /dune/dune-common/build-cmake/dune-env/lib/python3.10/site-packages/pip/__pip-runner__.py install --ignore-installed --no-user --prefix /tmp/pip-build-env-e7i3701z/overlay --no-warn-script-location -v --no-binary :none: --only-binary :none: -i https://pypi.org/simple -- setuptools matplotlib wheel scikit-build cmake ninja requests 'dune-common<=2.9.0' 'dune-grid<=2.9.0' 'dune-geometry<=2.9.0' 'dune-localfunctions<=2.9.0' 'dune-functions<=2.9.0' 'dune-istl<=2.9.0'[/]
+2023-05-17T12:01:00,984   [bold magenta]cwd[/]: \[inherit]
+2023-05-17T12:01:00,985 ERROR: [present-rich] pip subprocess to install build dependencies exited with 1
+2023-05-17T12:01:00,988 Exception information:
+2023-05-17T12:01:00,988 Traceback (most recent call last):
+2023-05-17T12:01:00,988   File "/dune/dune-common/build-cmake/dune-env/lib/python3.10/site-packages/pip/_internal/cli/base_command.py", line 169, in exc_logging_wrapper
+2023-05-17T12:01:00,988     status = run_func(*args)
+2023-05-17T12:01:00,988   File "/dune/dune-common/build-cmake/dune-env/lib/python3.10/site-packages/pip/_internal/cli/req_command.py", line 248, in wrapper
+2023-05-17T12:01:00,988     return func(self, options, args)
+2023-05-17T12:01:00,988   File "/dune/dune-common/build-cmake/dune-env/lib/python3.10/site-packages/pip/_internal/commands/install.py", line 377, in run
+2023-05-17T12:01:00,988     requirement_set = resolver.resolve(
+2023-05-17T12:01:00,988   File "/dune/dune-common/build-cmake/dune-env/lib/python3.10/site-packages/pip/_internal/resolution/resolvelib/resolver.py", line 92, in resolve
+2023-05-17T12:01:00,988     result = self._result = resolver.resolve(
+2023-05-17T12:01:00,988   File "/dune/dune-common/build-cmake/dune-env/lib/python3.10/site-packages/pip/_vendor/resolvelib/resolvers.py", line 546, in resolve
+2023-05-17T12:01:00,988     state = resolution.resolve(requirements, max_rounds=max_rounds)
+2023-05-17T12:01:00,988   File "/dune/dune-common/build-cmake/dune-env/lib/python3.10/site-packages/pip/_vendor/resolvelib/resolvers.py", line 397, in resolve
+2023-05-17T12:01:00,988     self._add_to_criteria(self.state.criteria, r, parent=None)
+2023-05-17T12:01:00,988   File "/dune/dune-common/build-cmake/dune-env/lib/python3.10/site-packages/pip/_vendor/resolvelib/resolvers.py", line 173, in _add_to_criteria
+2023-05-17T12:01:00,988     if not criterion.candidates:
+2023-05-17T12:01:00,988   File "/dune/dune-common/build-cmake/dune-env/lib/python3.10/site-packages/pip/_vendor/resolvelib/structs.py", line 156, in __bool__
+2023-05-17T12:01:00,988     return bool(self._sequence)
+2023-05-17T12:01:00,988   File "/dune/dune-common/build-cmake/dune-env/lib/python3.10/site-packages/pip/_internal/resolution/resolvelib/found_candidates.py", line 155, in __bool__
+2023-05-17T12:01:00,988     return any(self)
+2023-05-17T12:01:00,988   File "/dune/dune-common/build-cmake/dune-env/lib/python3.10/site-packages/pip/_internal/resolution/resolvelib/found_candidates.py", line 143, in <genexpr>
+2023-05-17T12:01:00,988     return (c for c in iterator if id(c) not in self._incompatible_ids)
+2023-05-17T12:01:00,988   File "/dune/dune-common/build-cmake/dune-env/lib/python3.10/site-packages/pip/_internal/resolution/resolvelib/found_candidates.py", line 47, in _iter_built
+2023-05-17T12:01:00,988     candidate = func()
+2023-05-17T12:01:00,988   File "/dune/dune-common/build-cmake/dune-env/lib/python3.10/site-packages/pip/_internal/resolution/resolvelib/factory.py", line 206, in _make_candidate_from_link
+2023-05-17T12:01:00,988     self._link_candidate_cache[link] = LinkCandidate(
+2023-05-17T12:01:00,988   File "/dune/dune-common/build-cmake/dune-env/lib/python3.10/site-packages/pip/_internal/resolution/resolvelib/candidates.py", line 293, in __init__
+2023-05-17T12:01:00,988     super().__init__(
+2023-05-17T12:01:00,988   File "/dune/dune-common/build-cmake/dune-env/lib/python3.10/site-packages/pip/_internal/resolution/resolvelib/candidates.py", line 156, in __init__
+2023-05-17T12:01:00,988     self.dist = self._prepare()
+2023-05-17T12:01:00,988   File "/dune/dune-common/build-cmake/dune-env/lib/python3.10/site-packages/pip/_internal/resolution/resolvelib/candidates.py", line 225, in _prepare
+2023-05-17T12:01:00,988     dist = self._prepare_distribution()
+2023-05-17T12:01:00,988   File "/dune/dune-common/build-cmake/dune-env/lib/python3.10/site-packages/pip/_internal/resolution/resolvelib/candidates.py", line 304, in _prepare_distribution
+2023-05-17T12:01:00,988     return preparer.prepare_linked_requirement(self._ireq, parallel_builds=True)
+2023-05-17T12:01:00,988   File "/dune/dune-common/build-cmake/dune-env/lib/python3.10/site-packages/pip/_internal/operations/prepare.py", line 516, in prepare_linked_requirement
+2023-05-17T12:01:00,988     return self._prepare_linked_requirement(req, parallel_builds)
+2023-05-17T12:01:00,988   File "/dune/dune-common/build-cmake/dune-env/lib/python3.10/site-packages/pip/_internal/operations/prepare.py", line 631, in _prepare_linked_requirement
+2023-05-17T12:01:00,988     dist = _get_prepared_distribution(
+2023-05-17T12:01:00,988   File "/dune/dune-common/build-cmake/dune-env/lib/python3.10/site-packages/pip/_internal/operations/prepare.py", line 69, in _get_prepared_distribution
+2023-05-17T12:01:00,988     abstract_dist.prepare_distribution_metadata(
+2023-05-17T12:01:00,988   File "/dune/dune-common/build-cmake/dune-env/lib/python3.10/site-packages/pip/_internal/distributions/sdist.py", line 38, in prepare_distribution_metadata
+2023-05-17T12:01:00,988     self._prepare_build_backend(finder)
+2023-05-17T12:01:00,988   File "/dune/dune-common/build-cmake/dune-env/lib/python3.10/site-packages/pip/_internal/distributions/sdist.py", line 70, in _prepare_build_backend
+2023-05-17T12:01:00,988     self.req.build_env.install_requirements(
+2023-05-17T12:01:00,988   File "/dune/dune-common/build-cmake/dune-env/lib/python3.10/site-packages/pip/_internal/build_env.py", line 217, in install_requirements
+2023-05-17T12:01:00,988     self._install_requirements(
+2023-05-17T12:01:00,988   File "/dune/dune-common/build-cmake/dune-env/lib/python3.10/site-packages/pip/_internal/build_env.py", line 275, in _install_requirements
+2023-05-17T12:01:00,988     call_subprocess(
+2023-05-17T12:01:00,988   File "/dune/dune-common/build-cmake/dune-env/lib/python3.10/site-packages/pip/_internal/utils/subprocess.py", line 224, in call_subprocess
+2023-05-17T12:01:00,988     raise error
+2023-05-17T12:01:00,988 pip._internal.exceptions.InstallationSubprocessError: pip subprocess to install build dependencies exited with 1
+2023-05-17T12:01:01,002 Remote version of pip: 23.1.2
+2023-05-17T12:01:01,002 Local version of pip:  23.1.2
+2023-05-17T12:01:01,003 Was pip installed by pip? True
+2023-05-17T12:01:01,004 Removed pyikarus from https://files.pythonhosted.org/packages/df/c3/57a95372086578d2c33ea926ad3a1185f64df3716e9e7eca58fa0e108136/pyikarus-0.3.0.dev202310000082.tar.gz from build tracker '/tmp/pip-build-tracker-pmnish0h'
+2023-05-17T12:01:01,004 Removed build tracker: '/tmp/pip-build-tracker-pmnish0h'
