@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+getfilestats/README.md
+getfilestats/__init__.py
+getfilestats/requirements.txt
+getfilestats/thirdparty.json
+getfilestats.egg-info/PKG-INFO
+getfilestats.egg-info/SOURCES.txt
+getfilestats.egg-info/dependency_links.txt
+getfilestats.egg-info/requires.txt
+getfilestats.egg-info/top_level.txt

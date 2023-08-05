@@ -1,0 +1,3 @@
+include getfilestats/requirements.txt
+include getfilestats/thirdparty.json
+include getfilestats/README.md
