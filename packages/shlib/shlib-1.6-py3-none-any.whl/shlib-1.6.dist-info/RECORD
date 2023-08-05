@@ -1,0 +1,6 @@
+shlib/__init__.py,sha256=iEXWclyGyudN8Jkwn34wHz8ITbEoPn4l-dOSu3JFeyw,605
+shlib/extended_pathlib.py,sha256=VU9D3y_GsE8WDItW7pGpy-yNtjCQQEpgl4qRV7t3MvU,4886
+shlib/shlib.py,sha256=Xxj0HTVoUq8TybGozSwysvZzHX459pbsSBt_8CWjJ08,31790
+shlib-1.6.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+shlib-1.6.dist-info/METADATA,sha256=R60tPE4ZGX6IhEtpGBa8KavqZ7cBoJ4WJGeXmzyvf58,22857
+shlib-1.6.dist-info/RECORD,,
