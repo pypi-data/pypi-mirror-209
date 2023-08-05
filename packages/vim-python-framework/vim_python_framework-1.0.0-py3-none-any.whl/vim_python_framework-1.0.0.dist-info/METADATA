@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: vim-python-framework
+Version: 1.0.0
+Summary: ('A framework to easily create Vim plugins using Python',)
+Author: David Kennedy S. Araujo
+Author-email: software@davidkennedy.dev
+
+
+Python VIM Plugin Framework
+
+A framework to facilitate creation of VIM plugins using vanila python
