@@ -1,0 +1,166 @@
+Metadata-Version: 2.1
+Name: sftp-to-s3
+Version: 0.1.1
+Summary: A robust and scalable solution to ingest files from SFTP to AWS S3.
+Home-page: https://github.com/MacHu-GWU/sftp_to_s3-project
+Download-URL: https://pypi.python.org/pypi/sftp_to_s3/0.1.1#downloads
+Author: Sanhe Hu
+Author-email: husanhe@gmail.com
+Maintainer: Unknown
+License: MIT
+Platform: Windows
+Platform: MacOS
+Platform: Unix
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Provides-Extra: tests
+Provides-Extra: docs
+License-File: LICENSE.txt
+License-File: AUTHORS.rst
+
+
+.. .. image:: https://readthedocs.org/projects/sftp_to_s3/badge/?version=latest
+    :target: https://sftp_to_s3.readthedocs.io/index.html
+    :alt: Documentation Status
+
+.. .. image:: https://github.com/MacHu-GWU/sftp_to_s3-project/workflows/CI/badge.svg
+    :target: https://github.com/MacHu-GWU/sftp_to_s3-project/actions?query=workflow:CI
+
+.. .. image:: https://codecov.io/gh/MacHu-GWU/sftp_to_s3-project/branch/main/graph/badge.svg
+    :target: https://codecov.io/gh/MacHu-GWU/sftp_to_s3-project
+
+.. image:: https://img.shields.io/pypi/v/sftp_to_s3.svg
+    :target: https://pypi.python.org/pypi/sftp_to_s3
+
+.. image:: https://img.shields.io/pypi/l/sftp_to_s3.svg
+    :target: https://pypi.python.org/pypi/sftp_to_s3
+
+.. image:: https://img.shields.io/pypi/pyversions/sftp_to_s3.svg
+    :target: https://pypi.python.org/pypi/sftp_to_s3
+
+.. image:: https://img.shields.io/badge/STAR_Me_on_GitHub!--None.svg?style=social
+    :target: https://github.com/MacHu-GWU/sftp_to_s3-project
+
+------
+
+.. .. image:: https://img.shields.io/badge/Link-Document-blue.svg
+    :target: https://sftp_to_s3.readthedocs.io/index.html
+
+.. .. image:: https://img.shields.io/badge/Link-API-blue.svg
+    :target: https://sftp_to_s3.readthedocs.io/py-modindex.html
+
+.. .. image:: https://img.shields.io/badge/Link-Source_Code-blue.svg
+    :target: https://sftp_to_s3.readthedocs.io/py-modindex.html
+
+.. image:: https://img.shields.io/badge/Link-Install-blue.svg
+    :target: `install`_
+
+.. image:: https://img.shields.io/badge/Link-GitHub-blue.svg
+    :target: https://github.com/MacHu-GWU/sftp_to_s3-project
+
+.. image:: https://img.shields.io/badge/Link-Submit_Issue-blue.svg
+    :target: https://github.com/MacHu-GWU/sftp_to_s3-project/issues
+
+.. image:: https://img.shields.io/badge/Link-Request_Feature-blue.svg
+    :target: https://github.com/MacHu-GWU/sftp_to_s3-project/issues
+
+.. image:: https://img.shields.io/badge/Link-Download-blue.svg
+    :target: https://pypi.org/pypi/sftp_to_s3#files
+
+.. image:: https://img.shields.io/badge/Release_History--None.svg?style=social
+    :target: https://github.com/MacHu-GWU/sftp_to_s3-project/blob/main/release-history.rst
+
+
+Welcome to ``sftp_to_s3`` Documentation
+==============================================================================
+``sftp_to_s3`` is an Open Source solution to ingest large amount of data from SFTP server to AWS S3.
+
+
+How it Work
+------------------------------------------------------------------------------
+This solution assume that the SFTP server folder structure has to have partition strategy. For example, the SFTP server folder structure is like this::
+
+    /data/2022-01-01/many-folder-many-files...
+    /data/2022-01-02/many-folder-many-files...
+    /data/2022-01-03/many-folder-many-files...
+    /data/...
+
+Once a partition of files are created on SFTP server, it should not be changed to frequently. Files in each partition are grouped into many batches to ensure that the total amount of files and total file size has a reasonable boundary. A coordinator will be responsible to detect the delta of partitions on SFTP and AWS S3, and then group files into batches. Then the batch data will be sent to a cluster of worker to download in parallel if it fits the SFTP server's network bandwidth.
+
+The coordinator and worker can be deployed as either AWS Lambda function or AWS Batch job. Also this solution uses DynamoDB to track the status of each partition and each batch to ensure the data integrity.
+
+Please read the following links to learn more:
+
+- `Architecture design <./sftp-to-s3-strategy.drawio>`_
+- `Sample project using this library <./sftp_to_s3/example>`_
+- `Sample script to generate fake data for integration test <./int_test/s1_prepare_data.py>`_
+- `Sample script to run the downloader <./int_test/s2_run_coordinator.py>`_
+
+Partition Tracker Data::
+
+    {
+        "n_batches": 2, # this partition has 2 batches to download
+        "n_succeeded_batches": 2, # number of succeeded batch
+        "sftp_dir": "/home/username/part0001", # SFTP directory of this partition 
+        "s3_dir": "s3://bucket/projects/sftp_to_s3/download/part1", # where you store the downloads
+        "n_files": 6, # total number of files in this partition
+        "total_size": 5430500 # total size of files in this partition
+    }
+
+Request Tracker Data::
+
+    # this is the first batch
+    {
+        "partition_key": "part1", # partition key
+        "request_id": "request1", # request id / batch id
+        "sftp_dir": "/home/username/part1", # SFTP directory of this partition
+        "s3_dir": "s3://bucket/projects/sftp_to_s3/download/part1", # where you store the downloads
+        "s3uri_batch": "s3://bucket/projects/sftp_to_s3/requests/part1/request1.json", # where you store the batch data
+        "n_files": "3", # total number of files in this batch
+        "total_size": 3442228 # 3.4 MB # total size of files in this batch
+    }
+
+Batch data JSON file::
+
+    # this is the sample content of the batch data
+    # it is the "s3uri_batch" field in Request Tracker Data
+    {
+        "dir_root": "/home/username/part1", # SFTP directory of this partition
+        "s3uri_root": "s3://bucket/projects/sftp_to_s3/download/part1", # where you store the downloads
+        "files": [ # list of files to download
+            "/home/username/part1/file0001.txt",
+            "/home/username/part1/file0002.txt",
+            "/home/username/part1/file0003.txt"
+        ],
+        "n_files": "3", # total number of files in this batch
+        "total_size": 3442228 # 3.4 MB # total size of files in this batch
+    }
+
+
+.. _install:
+
+Install
+------------------------------------------------------------------------------
+
+``sftp_to_s3`` is released on PyPI, so all you need is:
+
+.. code-block:: console
+
+    $ pip install sftp_to_s3
+
+To upgrade to latest version:
+
+.. code-block:: console
+
+    $ pip install --upgrade sftp_to_s3

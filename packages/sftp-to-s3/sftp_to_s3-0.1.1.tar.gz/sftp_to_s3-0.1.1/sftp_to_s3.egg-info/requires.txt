@@ -1,0 +1,24 @@
+paramiko<4.0.0,>=3.0.0
+s3pathlib<3.0.0,>=2.0.1
+pathlib_mate<2.0.0,>=1.2.1
+fixa<1.0.0,>=0.5.3
+pynamodb<6.0.0,>=5.3.4
+pynamodb_mate<6.0.0.0,>=5.3.4.9
+boto-session-manager<2.0.0,>=1.5.2
+
+[:python_version < "3.8"]
+cached-property>=1.5.2
+
+[docs]
+sphinx==4.3.0
+sphinx-inline-tabs==2021.8.17b10
+sphinx-jinja==1.1.1
+sphinx-copybutton==0.4.0
+rstobj==0.0.7
+docfly==1.0.2
+furo==2021.8.31
+
+[tests]
+pytest
+pytest-cov
+fixa<1.0.0,>=0.5.3
