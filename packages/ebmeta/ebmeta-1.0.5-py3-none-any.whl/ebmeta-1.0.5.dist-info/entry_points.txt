@@ -1,0 +1,2 @@
+[console_scripts]
+ebmeta = ebmeta.cli:cli_wrapper

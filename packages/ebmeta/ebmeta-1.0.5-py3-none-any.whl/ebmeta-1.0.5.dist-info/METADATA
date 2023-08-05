@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: ebmeta
+Version: 1.0.5
+Summary: Ebook Metadata Munging CLI
+Home-page: http://github.com/pjz/ebmeta
+Author: Paul Jimenez
+Author-email: pj@place.org
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+License-File: LICENSE
+Requires-Dist: click (==8.1.3)
+Requires-Dist: ebooklib (==0.17.1)
+Requires-Dist: lxml (==4.9.1)
+Requires-Dist: six (==1.16.0)
+Provides-Extra: dev
+Requires-Dist: astroid (==2.12.12) ; extra == 'dev'
+Requires-Dist: attrs (==22.1.0) ; extra == 'dev'
+Requires-Dist: bleach (==6.0.0) ; extra == 'dev'
+Requires-Dist: certifi (==2022.12.7) ; extra == 'dev'
+Requires-Dist: cffi (==1.15.1) ; extra == 'dev'
+Requires-Dist: charset-normalizer (==3.1.0) ; extra == 'dev'
+Requires-Dist: coverage[toml] (==6.5.0) ; extra == 'dev'
+Requires-Dist: cryptography (==40.0.2) ; extra == 'dev'
+Requires-Dist: dill (==0.3.6) ; extra == 'dev'
+Requires-Dist: docutils (==0.19) ; extra == 'dev'
+Requires-Dist: filelock (==3.8.0) ; extra == 'dev'
+Requires-Dist: idna (==3.4) ; extra == 'dev'
+Requires-Dist: importlib-metadata (==6.6.0) ; extra == 'dev'
+Requires-Dist: iniconfig (==1.1.1) ; extra == 'dev'
+Requires-Dist: isort (==5.10.1) ; extra == 'dev'
+Requires-Dist: jaraco-classes (==3.2.3) ; extra == 'dev'
+Requires-Dist: jeepney (==0.8.0) ; extra == 'dev'
+Requires-Dist: keyring (==23.13.1) ; extra == 'dev'
+Requires-Dist: lazy-object-proxy (==1.7.1) ; extra == 'dev'
+Requires-Dist: lxml-stubs (==0.4.0) ; extra == 'dev'
+Requires-Dist: markdown-it-py (==2.2.0) ; extra == 'dev'
+Requires-Dist: mccabe (==0.7.0) ; extra == 'dev'
+Requires-Dist: mdurl (==0.1.2) ; extra == 'dev'
+Requires-Dist: more-itertools (==9.1.0) ; extra == 'dev'
+Requires-Dist: mypy (==0.982) ; extra == 'dev'
+Requires-Dist: mypy-extensions (==0.4.3) ; extra == 'dev'
+Requires-Dist: packaging (==21.3) ; extra == 'dev'
+Requires-Dist: pkginfo (==1.9.6) ; extra == 'dev'
+Requires-Dist: platformdirs (==2.5.2) ; extra == 'dev'
+Requires-Dist: pluggy (==1.0.0) ; extra == 'dev'
+Requires-Dist: psutil (==5.9.3) ; extra == 'dev'
+Requires-Dist: py (==1.11.0) ; extra == 'dev'
+Requires-Dist: pycparser (==2.21) ; extra == 'dev'
+Requires-Dist: pygments (==2.15.1) ; extra == 'dev'
+Requires-Dist: pylint (==2.15.5) ; extra == 'dev'
+Requires-Dist: pyparsing (==3.0.9) ; extra == 'dev'
+Requires-Dist: pytest (==7.1.3) ; extra == 'dev'
+Requires-Dist: pytest-asyncio (==0.20.1) ; extra == 'dev'
+Requires-Dist: pytest-cov (==4.0.0) ; extra == 'dev'
+Requires-Dist: pytest-mypy (==0.10.0) ; extra == 'dev'
+Requires-Dist: pytest-pylint (==0.19.0) ; extra == 'dev'
+Requires-Dist: pytest-timeout (==2.1.0) ; extra == 'dev'
+Requires-Dist: pytest-xprocess (==0.20.0) ; extra == 'dev'
+Requires-Dist: readme-renderer (==37.3) ; extra == 'dev'
+Requires-Dist: requests (==2.30.0) ; extra == 'dev'
+Requires-Dist: requests-toolbelt (==1.0.0) ; extra == 'dev'
+Requires-Dist: rfc3986 (==2.0.0) ; extra == 'dev'
+Requires-Dist: rich (==13.3.5) ; extra == 'dev'
+Requires-Dist: secretstorage (==3.3.3) ; extra == 'dev'
+Requires-Dist: six (==1.16.0) ; extra == 'dev'
+Requires-Dist: toml (==0.10.2) ; extra == 'dev'
+Requires-Dist: tomli (==2.0.1) ; extra == 'dev'
+Requires-Dist: tomlkit (==0.11.5) ; extra == 'dev'
+Requires-Dist: twine (==4.0.2) ; extra == 'dev'
+Requires-Dist: typing-extensions (==4.4.0) ; extra == 'dev'
+Requires-Dist: urllib3 (==2.0.2) ; extra == 'dev'
+Requires-Dist: webencodings (==0.5.1) ; extra == 'dev'
+Requires-Dist: wrapt (==1.14.1) ; extra == 'dev'
+Requires-Dist: zipp (==3.15.0) ; extra == 'dev'
+
