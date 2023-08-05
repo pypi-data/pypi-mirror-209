@@ -1,0 +1,4 @@
+dag-cbor
+dag-json
+multiformats>=0.2.0
+pycryptodome>=3.0
