@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: isoCycle
+Version: 0.0.12
+Summary: isolating single cycles in neuronal spiking
+Home-page: https://github.com/esiabri/isoCycle
+Author: Ehsan Sabri
+Author-email: ehsan.sabri@gmail.com
+License: CC-BY-NC-SA-4.0
+Download-URL: https://github.com/esiabri/isoCycle/archive/refs/tags/0.0.5.tar.gz
+Description: UNKNOWN
+Keywords: Neuroscience,Oscillation,Cycle
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python
