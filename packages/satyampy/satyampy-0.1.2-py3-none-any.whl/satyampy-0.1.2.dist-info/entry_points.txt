@@ -1,0 +1,3 @@
+[console_scripts]
+satyampy = satyampy.__main__:main
+
