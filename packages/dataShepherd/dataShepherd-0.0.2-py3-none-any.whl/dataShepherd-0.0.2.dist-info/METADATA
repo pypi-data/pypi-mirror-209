@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: dataShepherd
+Version: 0.0.2
+Summary: Data analysis and preprocessing
+Home-page: http://github.com/yummongi/setuptools
+Download-URL: http://github.com/yummongi/setuptools/archive/refs/tags/v0.0.1.zip
+Author: yummongi
+Author-email: yummongi@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Dist: pandas (>=1.0.0)
+Requires-Dist: numpy (>=1.16.0)
+Requires-Dist: scikit-learn (>=0.22)
+
