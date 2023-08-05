@@ -1,0 +1,6 @@
+sortinghat/core/importer/backends/_version.py,sha256=jA_nuJmKlE0W4Jt_za7VAnE07lKuhCXABtKKp1wjOw8,86
+sortinghat/core/importer/backends/openinfra.py,sha256=TXxkxMySaWGB4IfO1AKZ3ZJeiIC3cX74JwsoLLzUjMg,7917
+sortinghat_openinfra-0.1.6.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+sortinghat_openinfra-0.1.6.dist-info/METADATA,sha256=n63KdhzvXx99JPxdj5T4I8xNS75Q-TCXWv8mt7zXrX8,5237
+sortinghat_openinfra-0.1.6.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+sortinghat_openinfra-0.1.6.dist-info/RECORD,,
