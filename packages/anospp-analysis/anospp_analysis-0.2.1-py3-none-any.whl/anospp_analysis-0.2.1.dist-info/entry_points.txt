@@ -1,0 +1,7 @@
+[console_scripts]
+anospp-nn=anospp_analysis.nn:main
+anospp-plasm=anospp_analysis.plasm:main
+anospp-prep=anospp_analysis.prep:main
+anospp-qc=anospp_analysis.qc:main
+anospp-vae=anospp_analysis.vae:main
+
