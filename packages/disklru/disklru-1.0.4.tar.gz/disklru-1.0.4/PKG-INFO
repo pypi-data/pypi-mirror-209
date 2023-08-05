@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: disklru
+Version: 1.0.4
+Summary: Creates a python disk LRU / cache - great for apps that want to save data
+Home-page: https://github.com/zackees/disklru
+Maintainer: Zachary Vorhies
+License: BSD 3-Clause License
+Keywords: template-python-cmd
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# disklru
+
+Creates a disk based lru that you can use in your apps.
+
+Useful for caches.
+
+Zero dependency package.
+
+[![Linting](https://github.com/zackees/disklru/actions/workflows/lint.yml/badge.svg)](https://github.com/zackees/disklru/actions/workflows/lint.yml)
+
+[![MacOS_Tests](https://github.com/zackees/disklru/actions/workflows/push_macos.yml/badge.svg)](https://github.com/zackees/disklru/actions/workflows/push_macos.yml)
+[![Ubuntu_Tests](https://github.com/zackees/disklru/actions/workflows/push_ubuntu.yml/badge.svg)](https://github.com/zackees/disklru/actions/workflows/push_ubuntu.yml)
+[![Win_Tests](https://github.com/zackees/disklru/actions/workflows/push_win.yml/badge.svg)](https://github.com/zackees/disklru/actions/workflows/push_win.yml)
+
+
+# Usage
+
+```python
+LRU_CACHE_FILE = "cache.db"
+MAX_FILES = 4
+cache = DiskLRUCache(LRU_CACHE_FILE, MAX_FILES)
+cache.put("key", "value")
+assert cache.get("key1") == "val"
+cache.clear()
+```
+
+# Windows
+
+This environment requires you to use `git-bash`.
+
+# Linting
+
+Run `./lint.sh` to find linting errors using `pylint`, `flake8` and `mypy`.
