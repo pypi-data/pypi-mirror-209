@@ -1,0 +1,40 @@
+from methods import (
+    LocationsCategory,
+    OfficesCategory,
+    EdUnitsCategory,
+    StudentsCategory,
+    LeadsCategory
+)
+
+from typing import TYPE_CHECKING
+
+if TYPE_CHECKING:
+    from api import AbstractAPI
+
+
+class APICategories:
+    def __init__(self, api: 'AbstractAPI'):
+        self.api = api
+
+    @property
+    def locations(self) -> LocationsCategory:
+        return LocationsCategory(self.api)
+
+    @property
+    def offices(self) -> OfficesCategory:
+        return OfficesCategory(self.api)
+
+    @property
+    def ed_units(self) -> EdUnitsCategory:
+        return EdUnitsCategory(self.api)
+
+    @property
+    def ed_unit_students(self) -> StudentsCategory:
+        return StudentsCategory(self.api)
+
+    @property
+    def leads(self) -> LeadsCategory:
+        return LeadsCategory(self.api)
+
+
+__all__ = ['APICategories']
