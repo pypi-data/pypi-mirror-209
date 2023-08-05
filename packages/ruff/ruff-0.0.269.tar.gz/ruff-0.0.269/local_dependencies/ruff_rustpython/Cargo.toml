@@ -1,0 +1,12 @@
+[package]
+name = "ruff_rustpython"
+version = "0.0.0"
+publish = false
+edition = "2021"
+rust-version = "1.69"
+
+[lib]
+
+[dependencies]
+anyhow = { version = "1.0.69" }
+rustpython-parser = { git = "https://github.com/RustPython/Parser.git", rev = "3654cf0bdfc270df6b2b83e2df086843574ad082", default-features = false, features = ["full-lexer", "all-nodes-with-ranges"] }
