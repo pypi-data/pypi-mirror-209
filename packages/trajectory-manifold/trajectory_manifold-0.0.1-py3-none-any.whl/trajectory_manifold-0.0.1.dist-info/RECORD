@@ -1,0 +1,11 @@
+trajectory_manifold/__init__.py,sha256=Lx4qeVp1nBN5ze6TrfYF2wTbzG3vwstLeb8L7zcaHzo,190
+trajectory_manifold/estimation.py,sha256=38LKeyPtMK_n1rA_DkhrZPEIjUm_Vvqdu2fUSVEFSr4,12450
+trajectory_manifold/examples.py,sha256=Hw2iGuZbgAvxDQnn0QZwnf1rd_cGVLV_iNFN9fJmLOg,3290
+trajectory_manifold/helpers.py,sha256=siThwXKS5iyqDHCSC2jVmtZ_zv0ACjioofsdTj19C34,8519
+trajectory_manifold/manifold.py,sha256=J394SPzxdCFAvuTztWiQHD9rSYsk8SU7P7yGpp9fpZs,9727
+trajectory_manifold/optimize.py,sha256=TQsSaiXwOk26EurwbiORC381VChJNZmi0mcgo9FCb38,4881
+trajectory_manifold-0.0.1.dist-info/LICENSE,sha256=xtW22Ed67NLhkTposu1bZQ8RapgET1-KBpGFPPFASh8,1071
+trajectory_manifold-0.0.1.dist-info/METADATA,sha256=AqcEM0J36b4JJOc-Tyi0kiHe8zwCJfau-zKYmjnoBWo,1245
+trajectory_manifold-0.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+trajectory_manifold-0.0.1.dist-info/top_level.txt,sha256=ju3Cns3k0H5MMPToDBjt8r6C1OBONyJlR7DWtFGjGkE,20
+trajectory_manifold-0.0.1.dist-info/RECORD,,
