@@ -1,0 +1,53 @@
+[tool.poetry]
+name = "quantready-base"
+version = "0.2.2"
+description = "Publish public or private python libraries - using the modern python stack"
+authors = ["Sean Kruzel <sean@closedloop.tech>"]
+license = "MIT"
+readme = "README.md"
+packages = [{ include = "quantready_base" }]
+classifiers = [
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Programming Language :: Python :: 3.10",
+    "Operating System :: OS Independent",
+]
+
+[tool.poetry.urls]
+"Repository" = "https://github.com/closedloop-technologies/quantready-base"
+"Bug Tracker" = "https://github.com/closedloop-technologies/quantready-base/issues"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pre-commit = "^3.3.1"
+twine = "^4.0.2"
+gcloud = "^0.18.3"
+typer = "^0.9.0"
+pyfiglet = "^0.8.post1"
+termcolor = "^2.3.0"
+tabulate = "^0.9.0"
+colorama = "^0.4.6"
+python-dotenv = "^1.0.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.3.0"
+coverage = "^7.2.5"
+eradicate = "^2.2.0"
+isort = "^5.12.0"
+mypy = "^1.3.0"
+pre-commit-hooks = "^4.4.0"
+pre-commit = "^3.3.2"
+pycodestyle = "^2.10.0"
+pyflakes = "^3.0.1"
+pytest-cov = "^4.0.0"
+pytest = "^7.3.1"
+radon = "^6.0.1"
+vulture = "^2.7"
+pip-upgrader = "^1.4.15"
+pyupgrade = "^3.4.0"
+
+[tool.poetry.scripts]
+quantready-base = "quantready_base.cli:app"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
