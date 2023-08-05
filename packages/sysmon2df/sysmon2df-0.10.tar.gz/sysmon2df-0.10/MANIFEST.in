@@ -1,0 +1,7 @@
+include sysmon2df/requirements.txt
+include sysmon2df/thirdparty.json
+include sysmon2df/README.md
+include sysmon2df/Sysmon64.exe
+include sysmon2df/Sysmon64a.exe
+include sysmon2df/Sysmon.exe
+include sysmon2df/Eula.txt
