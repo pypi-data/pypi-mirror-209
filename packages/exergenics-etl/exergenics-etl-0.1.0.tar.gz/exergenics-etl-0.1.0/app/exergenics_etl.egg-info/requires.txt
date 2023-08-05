@@ -1,0 +1,12 @@
+exergenics>=2.0.0
+DateTime==5.1
+pandas==1.4.0
+PyMySQL==1.0.2
+pytz==2022.7.1
+SQLAlchemy==1.4.46
+python-dotenv==1.0.0
+
+[dev]
+pytest>=7.0
+twine>=4.0.2
+bump==1.3.2
