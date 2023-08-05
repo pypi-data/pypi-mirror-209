@@ -1,0 +1,148 @@
+Metadata-Version: 2.1
+Name: ke2-airflow-commons
+Version: 0.1.0
+Summary: Python package framework to work with Apache Airflow developed in KazanExpress Data Office
+Author: Your Name
+Author-email: you@example.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: SQLAlchemy (==1.4.46)
+Requires-Dist: apache-airflow (==2.3.3)
+Requires-Dist: apache-airflow-providers-amazon (==6.0.0)
+Requires-Dist: apache-airflow-providers-cncf-kubernetes (>=4.4.0,<5.0.0)
+Requires-Dist: apache-airflow-providers-postgres (==5.1.0)
+Requires-Dist: apache-airflow-providers-telegram (>=3.0.0,<4.0.0)
+Requires-Dist: clickhouse-driver (>=0.2.4,<0.3.0)
+Requires-Dist: clickhouse-sqlalchemy (==0.2.3)
+Requires-Dist: google-api-python-client (==2.76.0)
+Requires-Dist: odd-models (>=2.0.8,<3.0.0)
+Requires-Dist: pandas (>=1.5.0,<2.0.0)
+Requires-Dist: pyarrow (>=9.0.0,<10.0.0)
+Requires-Dist: s3fs (==2022.8.2)
+Description-Content-Type: text/markdown
+
+# Airflow-commons
+
+Airflow-commons - проект, который включает в себя вспомогательные инструменты для Apache Airflow, позволяющие быстро создавать даги.
+
+## Оглавление
+ - [Структура проекта](#structure)
+ - [Операторы](#operators)
+ - [Хуки](#hooks)
+ - [Вспомогательные методы](#helpers)
+
+## <a name="structure">Структура проекта</a>
+<img width="1041" alt="image" src="https://user-images.githubusercontent.com/23666121/192269840-f64eabba-842a-44fd-9148-8c62601db04b.png">
+
+## <a name="operators">Операторы</a>
+
+<a name="ClickhouseExecuteOperator">`ClickhouseExecuteOperator`</a> - оператор, позволяющий выполнять SQL запрос в распределенной базе данных `Clickhouse`.
+Аргументы:
+ - `sql` - SQL запрос для выполнения в Clickhouse. Можно передать как сам запрос, так и путь до запроса
+ - `ch_hook` - экземпляр класса ClickhouseHook
+ - `query_id` (Необязательный) - [uuid запроса](https://clickhouse-driver.readthedocs.io/en/latest/features.html#external-data-for-query-processing), переданный в Clickhouse. Не нужно указывать в большинстве случаев, Clickhouse сгенерирует его сам.
+ - `partitions_to_optimize` (Необязательнный) - список кортежей типа (таблица, партиция). В качестве примера - `[('marts.order_items', "{{ macros.ds_format(ds, '%Y-%m-%d', '%Y%m') }}")]`
+ - `external_tables` (Необязательнный) - список словарей, позволяющий передать в запрос какие то [дополнительные данные](https://clickhouse-driver.readthedocs.io/en/latest/features.html#external-data-for-query-processing)
+ 
+`FileToClickhouseOperator` - оператор, позволяющий содержимое файла вставить в таблицу в Clickhouse.
+Аргументы:
+ - `ch_hook` - экземпляр класса ClickhouseHook
+ - `target_table` - название таблицы, в которую будут вставляться данные. **Указывается без схемы, поскольку схема указывается в хуке**
+ - `filename` - наименование файла, содержимого которого необходимо считать
+ - `filepath` (Необязательный) - путь к файлу, содержимое которого необходимо считать. По умолчанию значение - `'/opt/airflow/s3fs/{{ dag.dag_id }}/{{ run_id }}'`
+ - `column_list` (Необязательный): кортеж с наименованиями столбцов. По умолчанию вставка происходит во все колонки таблицы
+ - `truncate` (Необязательный): флаг, позволяющий перед вставкой выполнить процедуру `TRUNCATE`. **Использовать в _КРАЙНИХ_ случаях**
+ - `transform_df` (Необязательный): метод, принимающий `pd.DataFrame` и `context` (Airflow) и возвращающий `pd.DataFrame`. Используется в случае, если есть необходимость преобразовать датафрейм полученный из файла 
+ - `query_id` (Необязательный) - [uuid запроса](https://clickhouse-driver.readthedocs.io/en/latest/features.html#external-data-for-query-processing), переданный в Clickhouse. Не нужно указывать в большинстве случаев, Clickhouse сгенерирует его сам.
+ - `partitions_to_optimize` (Необязательнный) - список кортежей типа (таблица, партиция). В качестве примера - `[('marts.order_items', "{{ macros.ds_format(ds, '%Y-%m-%d', '%Y%m') }}")]`
+ - `external_tables` (Необязательнный) - список словарей, позволяющий передать в запрос какие то [дополнительные данные](https://clickhouse-driver.readthedocs.io/en/latest/features.html#external-data-for-query-processing)
+ - `pd_read_csv_kwargs` (Необязательнный) - словарь с параметрами для передачи в [метод `pd.read_csv`](https://pandas.pydata.org/docs/reference/api/pandas.read_csv.html#pandas-read-csv). По умолчанию передается только `{'encoding': 'UTF-8'}`
+ - `pd_read_parquet_kwargs` (Необязательнный) - словарь с параметрами для передачи в [метод `pd.read_parquet`](https://pandas.pydata.org/docs/reference/api/pandas.read_parquet.html).
+ 
+`SQLToFileOperator` - оператор, позволяющий сохранить результат SQL запроса в файловую систему. 
+Аргументы:
+ - `sql` - SQL запрос для выполнения в Clickhouse. Можно передать как сам запрос, так и путь до запроса
+ - `filename` - наименование файла для сохранения
+ - `db_hook` - экземпляр класса ClickhouseHook или [PostgresHook](https://airflow.apache.org/docs/apache-airflow-providers-postgres/stable/_api/airflow/providers/postgres/hooks/postgres/index.html#airflow.providers.postgres.hooks.postgres.PostgresHook)
+ - `filepath` (Необязательный) - путь к файлу для сохранения. По умолчанию значение - `'/opt/airflow/s3fs/{{ dag.dag_id }}/{{ run_id }}'`
+ - `pd_to_csv_kwargs` (Необязательнный) - словарь с параметрами для передачи в [метод `pd.to_csv`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_csv.html#pandas-dataframe-to-csv). По умолчанию передается пустой словарь
+ - `pd_to_parquet_kwargs` (Необязательнный) - словарь с параметрами для передачи в [метод `pd.to_parquet`](https://pandas.pydata.org/pandas-docs/version/1.1/reference/api/pandas.DataFrame.to_parquet.html). По умолчанию передается пустой словарь
+ 
+`PostgresToClickhouseOperator` - оператор, позволяющий выполнить SQL запрос в бд PostgreSQL и вставить в таблицу в Clickhouse.
+Аргументы:
+ - `sql` - SQL запрос для выполнения в PostgreSQL. Можно передать как сам запрос, так и путь до запроса
+ - `clickhouse_hook` - экземпляр класса ClickhouseHook
+ - `postgresql_hook` - экземпляр класса PostgresHook
+ - `clickhouse_table` - название таблицы, в которую будут вставляться данные. **Указывается без схемы, поскольку схема указывается в хуке**
+ - `column_list` (Необязательный): кортеж с наименованиями столбцов. По умолчанию вставка происходит во все колонки таблицы
+ - `truncate` (Необязательный): флаг, позволяющий перед вставкой выполнить процедуру `TRUNCATE`. **Использовать в _КРАЙНИХ_ случаях**
+ - `query_id` (Необязательный) - [uuid запроса](https://clickhouse-driver.readthedocs.io/en/latest/features.html#external-data-for-query-processing), переданный в Clickhouse. Не нужно указывать в большинстве случаев, Clickhouse сгенерирует его сам.
+ - `partitions_to_optimize` (Необязательнный) - список кортежей типа (таблица, партиция). В качестве примера - `[('marts.order_items', "{{ macros.ds_format(ds, '%Y-%m-%d', '%Y%m') }}")]`
+ - `external_tables` (Необязательнный) - список словарей, позволяющий передать в запрос какие то [дополнительные данные](https://clickhouse-driver.readthedocs.io/en/latest/features.html#external-data-for-query-processing)
+ 
+`ODDSQLCheckDQTestOperator` - оператор, позволяющий создавать Data Quality тесты в ODD. На данный момент поддерживается проверка только в рамках одной базы данных, можно делать простые проверки (null в колонке, ограничения на значения, проверка дубликатов и тд.)
+Аргументы:
+ - `dataset_oddrn` - oddrn датасета, качество которого будет проверяться
+ - `extract_sql` - SQL запрос для выполнения в бд. Можно передать как сам запрос, так и путь до запроса
+ - `db_conn_id` - наименование подключения в Airflow.
+ - `dq_tests` - список экземпляров класса `DQTest`
+ - `odd_conn_id` - наименование подключения в Airflow для ODD
+ - `db_conn_type` - тип подключения. Поддерживается PostgreSQL и Clickhouse
+ - `linked_url_list` - список ссылок, связанных с тестами (ссылки на джиру, документации и тд.)
+
+Класс `DQTest` - класс для создания теста на качество данных. Этот класс используется для наследования. Например создать класс `CheckIfExactValueDQT(DQTest)`, который переопределяет метод `test_data` и возвращает `DQTestResult`. Логику теста можно прописать любую, добавить аргументы в класс тоже можно
+Аргументы:
+ - `suite` - наименование группы тестов
+ - `name` - наименование теста
+Методы:
+ - test_data - должен принимать `pd.DataFrame` и context (Airflow) и возвращать `DQTestResult`.
+ 
+Класс `DQTestResult` - класс, предназначенный исключительно для создания экземпляра с переданными значениями
+Аргументы:
+ - `suite` -  наименование группы тестов, передается из класса `DQTest`
+ - `name` - наименование теста, передается из класса `DQTest`
+ - `status` - значение класса `DQTestStatus`
+ - `reason` - описание результата теста для отображения в ODD
+ - `expected` (Необязательный) - словарь с ожидаемыми значениями метрик 
+ - `actual` (Необязательный) - словарь с реальными значениями метрик
+ 
+Класс `DQTestStatus` - класс Enum, хранящий возможные статусы - `SUCCESS, FAILED, BROKEN`
+
+`GSheetToClickhouseOperator` - оператор, который выгружает электронную таблицу Google Sheet в Clickhouse. Если таблица не существует, то она будет создана в первый раз (при `recreate = False (default)`). При каждом выполнении таблица очищается и происходит вставка полных данных. Помимо основной таблицы будет создана историчная таблица из 2 столбцов: даты вставки и json полных данных. Эта таблица поможет выявлять изменения, которые были внесены в Google Sheet. Оператор также передает в xcom json с данными (если они есть). 
+
+Аргументы:
+ - `spreadsheet_id` - идентификатор Google Sheet, который содержится в [url адресе](https://developers.google.com/sheets/api/guides/concepts). 
+ - `sheet` - наименование страницы в Google Sheet, который необходимо вставить в Clickhouse
+ - `hook` - экземпляр класса ClickhouseHook
+ - `table_name` - название таблицы, в которую будут вставляться данные. **Указывается без схемы, поскольку схема указывается в хуке**
+ - `recreate` (Необязательный): boolean. Если указать True, то таблица будет создана заново - необходимо по большей части для контроля схемы. В случае частого изменения схемы, этот аргумент лучше указать.
+ - `headers` (Необязательный): номер строки, содержащий названия колонок, по умолчанию 1. Отсчет идет от 1.
+ - `google_auth_conn_id` (Необязательный) - Идентификатор подключения к Google, аргумент для получения сервисного аккаунта, заполнять не требуется.
+
+## <a name="hooks">Хуки</a>
+
+`ClickHouseHook` - хук для подключения к бд Clickhouse
+Аргументы:
+ - `clickhouse_conn_id` - наименование подключения в Airflow
+ - `database` (Необязательный) - база данных для подключения (marts, search и тд.)
+ - `settings` (Необязательный) - словарь с [настройками подключения](https://clickhouse-driver.readthedocs.io/en/latest/features.html#settings)
+ - `use_numpy` (Необязательный) - флаг использования [библиотеки `numpy`](https://clickhouse-driver.readthedocs.io/en/latest/features.html#settings)
+
+`ODDHook` - хук для подключения к ODD
+Аргументы:
+ - `odd_conn_id` - наименование подключения в Airflow
+ 
+## <a name="helpers">Вспомогательные методы</a>
+
+`Alert` - класс для отправки сообщений (алертов) в Slack или Telegram.
+ - `context` - контекст Airflow
+ - `receiver_type` - тип получателя алерта. Поддерживается Slack и Telegram
+ - `conn_id` - наименование подключения в Airflow.
+ - `message` (Необязательный) - дополнительные данные в алерт, по умолчанию сообщение уже сгенерировано
+ - `channel` (Необязательный) - наименование или id канала
+ 
+`send_alert_to_slack(context, connections = [])` - метод, который по умолчанию отправляет алерты в дефолтный канал слака, его можно просто импортировать и указать в параметр `on_failure_callback` дага (или таски). Можно переопределить метод, создав экземпляры класса `Alert` и вызвав для них метод `send()`
+
