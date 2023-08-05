@@ -1,0 +1,13 @@
+copatrec/__init__.py,sha256=1Eij7PpKXSSpPR6ZgerhMqPuIyI1Yj0aPKzPCXILeL4,375
+copatrec/copatrec.py,sha256=X5fmFcvLwf9gTvH-iAdSjwj96X_6j7850S16ZMtOgYc,78857
+copatrec/constants/__init__.py,sha256=vLE9Wo5gHVbST2I8C80fTDd0d3KWe_slyyPBpeh0X28,275
+copatrec/constants/constants.py,sha256=cGCZyw2Pr813escf0RDfENbDZ9Y3KTYHsXGm18XzqZ8,3708
+copatrec/math/__init__.py,sha256=vLE9Wo5gHVbST2I8C80fTDd0d3KWe_slyyPBpeh0X28,275
+copatrec/math/patterns.py,sha256=KFefaoXT1Lwj4F_QFLumCrkM93Yaifgsd9bZnS85gxo,6783
+copatrec/result/__init__.py,sha256=vLE9Wo5gHVbST2I8C80fTDd0d3KWe_slyyPBpeh0X28,275
+copatrec/result/result.py,sha256=L6Cq7cUJK59KfrJxS4S9SsMTMNc93X4uau4V5SZK5cw,26752
+copatrec-0.0.7.dist-info/LICENSE,sha256=E0mkthSEkrRPYp5k7tZ2YS4jT-moOeTzsnfBSCyISfE,20849
+copatrec-0.0.7.dist-info/METADATA,sha256=w3GwVKgiHtB6vWgVf05wwR96OVaAe8b6NCypKgtx5Bo,2239
+copatrec-0.0.7.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+copatrec-0.0.7.dist-info/top_level.txt,sha256=CC-zH2FOL7O-AwlvingF5vFcPBDeTuoMrbYt2EArBf8,9
+copatrec-0.0.7.dist-info/RECORD,,
