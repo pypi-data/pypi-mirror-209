@@ -1,0 +1,12 @@
+iloscar_win/__init__.py,sha256=lgQuJJ4L4cdq3q8FzX_mDslklKcvkfqwacJYl2keTkA,354
+iloscar_win/app.py,sha256=fYlk1xhLW-7mHlQjVNJZcwdLVyYAdGKoVCMOQe9lnro,1955
+iloscar_win/iLOSCAR_backend.py,sha256=CvaDunkGF5D1r8XN83C0Vea9Vz72pmPurrQumdEsKLE,106434
+iloscar_win/style.py,sha256=rsFRnu3zJzb3F7GBXBbI9hkRlNZOY4mk86yqPfqCCWc,1357
+iloscar_win/pages/Function.py,sha256=hHEIuLkrjMCjeBynvT1UQQtsvqx6dLYclav4pu0QEFM,5801
+iloscar_win/pages/forward.py,sha256=pbFekS6xtxo-zE0zHgQ1uRk_uwwpQR8N4vw_PEWOGas,26253
+iloscar_win/pages/home.py,sha256=eHUf2bzhdDjMHIarwELGR_LDqocGRg9xLaXPjjqB1eM,891
+iloscar_win/pages/inverse.py,sha256=xO9qFp1VwQHukpWxIN8AMWRddqRJlGBv-PQ4Yy-9f1s,46223
+iloscar_win-0.1.6.dist-info/METADATA,sha256=POOueefimaVN2Ll32sEX1PcWp5mlp4K7Oh_2CMFLomE,18874
+iloscar_win-0.1.6.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+iloscar_win-0.1.6.dist-info/top_level.txt,sha256=4le-9aB5ewGslOsGLXXthC0HmvA6sZ9rJbg7wtDFS3Y,30
+iloscar_win-0.1.6.dist-info/RECORD,,
