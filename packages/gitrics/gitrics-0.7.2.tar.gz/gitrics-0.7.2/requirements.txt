@@ -1,0 +1,5 @@
+colorgram.py
+colorama
+glapi>=0.7.3
+networkx
+scipy

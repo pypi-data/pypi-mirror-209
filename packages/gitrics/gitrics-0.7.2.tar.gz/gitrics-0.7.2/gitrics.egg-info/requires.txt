@@ -1,0 +1,11 @@
+colorgram.py
+colorama
+glapi>=0.7.3
+networkx
+scipy
+
+[test]
+lorem
+pkgparser
+pytest
+pytest-cov
