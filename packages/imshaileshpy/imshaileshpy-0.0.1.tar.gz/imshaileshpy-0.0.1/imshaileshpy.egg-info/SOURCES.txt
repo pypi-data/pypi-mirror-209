@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+imshaileshpy.egg-info/PKG-INFO
+imshaileshpy.egg-info/SOURCES.txt
+imshaileshpy.egg-info/dependency_links.txt
+imshaileshpy.egg-info/not-zip-safe
+imshaileshpy.egg-info/requires.txt
+imshaileshpy.egg-info/top_level.txt
+src/imshaileshpy/__init__.py'.py
+src/imshaileshpy/example.py
+src/imshaileshpy/main.py
+tests/test_package.py

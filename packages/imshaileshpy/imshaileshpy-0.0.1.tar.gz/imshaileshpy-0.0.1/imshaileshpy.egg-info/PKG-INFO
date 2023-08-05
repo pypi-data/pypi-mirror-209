@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: imshaileshpy
+Version: 0.0.1
+Summary: imshaileshpy is an example package.
+Home-page: https://github.com/ishaileshmishra/imshaileshpy
+Author: imshaileshpy
+Author-email: mshaileshr@gmail.com
+License: MIT
+Keywords: imshaileshpy-python-package
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Example Package
+
+This is a simple example package. You can use
+[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
