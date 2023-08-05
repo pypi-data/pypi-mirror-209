@@ -1,0 +1,15 @@
+tqdm
+xxhash
+matplotlib
+scikit-learn
+scikit-image
+ipdb
+imutils
+opencv-python
+pandas
+fastcore
+openpyxl
+loguru
+pycocotools
+lazy_module
+mmcv==1.7
