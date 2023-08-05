@@ -1,0 +1,6 @@
+[console_scripts]
+
+
+[nbdev]
+daimin_data = daimin_data._modidx:d
+
