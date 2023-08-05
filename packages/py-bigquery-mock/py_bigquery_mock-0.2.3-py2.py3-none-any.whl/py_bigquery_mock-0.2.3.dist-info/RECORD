@@ -1,0 +1,11 @@
+data_mock/google/cloud/__init__.py,sha256=MsSFjiLMLJZ7QhUPpVBWKiyDnCzryquRyr329NoCACI,2
+data_mock/google/cloud/client.py,sha256=aWQvJIrflRLvMCRrYyH88jvNI_OrEDKK-Msen17jRhY,1590
+data_mock/google/cloud/exceptions.py,sha256=m1m9qdQWklekpuZOhj7UR1CSEzQV3I4oYi_aMNW0S84,39
+data_mock/google/cloud/schema.py,sha256=7ZP0uWsQOQneXWZVMcOG_mxls-TB_XwFnSDf6cvpmeI,169
+data_mock/google/cloud/table.py,sha256=53bxVEaynzCqMl6JHH45FxJmXFV8zMORl93zHg9sESQ,1662
+py_bigquery_mock-0.2.3.data/scripts/mkmock.py,sha256=3Ecmy8rMIYkYNfpwgiC1zNU7YNALGps5vUyiLxNwmSg,1842
+py_bigquery_mock-0.2.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+py_bigquery_mock-0.2.3.dist-info/METADATA,sha256=EX8bmeCN4e_2eTLUx1xC8dm-cxqZubaFzmql-3Yf9uY,312
+py_bigquery_mock-0.2.3.dist-info/WHEEL,sha256=a-zpFRIJzOq5QfuhBzbhiA1eHTzNCJn8OdRvhdNX0Rk,110
+py_bigquery_mock-0.2.3.dist-info/top_level.txt,sha256=Sk2X2jHEDJ1ZtZK26wRcxHh9970eFfR2umWyYWjOW4M,24
+py_bigquery_mock-0.2.3.dist-info/RECORD,,
