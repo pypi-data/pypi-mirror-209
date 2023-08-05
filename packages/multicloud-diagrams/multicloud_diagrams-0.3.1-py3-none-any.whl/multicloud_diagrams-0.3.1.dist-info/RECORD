@@ -1,0 +1,9 @@
+multicloud_diagrams/__init__.py,sha256=cS_852f6g0pQaggUIDBEQfwwHBiJP48TCzwq0KJ0yy0,14373
+multicloud_diagrams/providers/aws_services.json,sha256=kmif0XCCCEFVbWePEmrZEiB_V-nt2qPjmdgeUQVX8GA,3683
+multicloud_diagrams/providers/azure_services.json,sha256=RBNvo1WzZ4oRRq0W9-hknpT7T8If536DEMBg9hyq_4o,2
+multicloud_diagrams/providers/gcp_services.json,sha256=RBNvo1WzZ4oRRq0W9-hknpT7T8If536DEMBg9hyq_4o,2
+multicloud_diagrams/providers/on_prem_services.json,sha256=RBNvo1WzZ4oRRq0W9-hknpT7T8If536DEMBg9hyq_4o,2
+multicloud_diagrams-0.3.1.dist-info/LICENSE,sha256=BJajCOsqy76PWzCTHCKDG2u7gwTiPdMSZVlBHKidDMw,1069
+multicloud_diagrams-0.3.1.dist-info/METADATA,sha256=tYZp-lqBJfhTdUNSOOUvRiSLv3846LH0MXPnmPKmD5Q,8760
+multicloud_diagrams-0.3.1.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+multicloud_diagrams-0.3.1.dist-info/RECORD,,
