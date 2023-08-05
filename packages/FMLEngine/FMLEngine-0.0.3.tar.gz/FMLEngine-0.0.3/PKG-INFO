@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: FMLEngine
+Version: 0.0.3
+Summary: Pre-Apha Graphics Engine
+Home-page: UNKNOWN
+Author: Josh
+Author-email: kingcode102@gmail.com
+License: MIT
+Keywords: Graphics Engine
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+FML is a Graphics Library like Sdl2 or Sfml but for Python FML is currently in Pre-Apha their will be bugs 
+
+if your verison of FML isent the newist verison Run this command in your Terminal ``pip install FMLEngine --upgrade``
+to check if your on the newist verson import FML and it will output "FMLEngine Verison [what verison you have]"
+
+to learn more about FML goto the docs link[https://github.com/TheFakeKingIsTaken/FMLDocs/blob/main/Doc.md]
+
+INSTALLATION
+=============
+run ``pip install FMLEngine`` in your Terminal to Install FMLEngine
+
+
+Change Log
+===========
+
+0.0.3 (5/18/2023)
+------------------
+--Added Createing Window
+--Added Quiting and Rendering Window
+--Added Fuction that returns a true value if the User is pressing the x button on the Window
+--Updated FMLEngineDocs
+

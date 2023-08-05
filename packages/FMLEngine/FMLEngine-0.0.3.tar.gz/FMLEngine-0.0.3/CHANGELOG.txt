@@ -1,0 +1,9 @@
+Change Log
+===========
+
+0.0.3 (5/18/2023)
+------------------
+--Added Createing Window
+--Added Quiting and Rendering Window
+--Added Fuction that returns a true value if the User is pressing the x button on the Window
+--Updated FMLEngineDocs
