@@ -1,0 +1,3 @@
+[console_scripts]
+quantready=quantready.cli:app
+
