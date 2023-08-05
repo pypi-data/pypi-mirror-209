@@ -1,0 +1,14 @@
+LICENSE
+README.rst
+setup.cfg
+setup.py
+indiek/core/__init__.py
+indiek/core/items.py
+indiek/core/search.py
+indiek_core.egg-info/PKG-INFO
+indiek_core.egg-info/SOURCES.txt
+indiek_core.egg-info/dependency_links.txt
+indiek_core.egg-info/requires.txt
+indiek_core.egg-info/top_level.txt
+tests/test_items.py
+tests/test_search.py

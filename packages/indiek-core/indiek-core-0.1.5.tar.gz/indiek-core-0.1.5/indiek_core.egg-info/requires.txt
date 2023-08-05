@@ -1,0 +1,6 @@
+indiek-mockdb<0.2.0,>=0.1.6
+
+[dev]
+pytest
+pytest-pep8
+pytest-cov
