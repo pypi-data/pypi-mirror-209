@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+spicy_snow/__init__.py
+spicy_snow/retrieval.py
+spicy_snow.egg-info/PKG-INFO
+spicy_snow.egg-info/SOURCES.txt
+spicy_snow.egg-info/dependency_links.txt
+spicy_snow.egg-info/requires.txt
+spicy_snow.egg-info/top_level.txt
+tests/test_IO.py
+tests/test_downloads.py
+tests/test_preprocessing.py
+tests/test_snow_index.py
+tests/test_wetsnow.py
