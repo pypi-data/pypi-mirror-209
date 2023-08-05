@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+daimin_data/__init__.py
+daimin_data/_modidx.py
+daimin_data/core.py
+daimin_data.egg-info/PKG-INFO
+daimin_data.egg-info/SOURCES.txt
+daimin_data.egg-info/dependency_links.txt
+daimin_data.egg-info/entry_points.txt
+daimin_data.egg-info/not-zip-safe
+daimin_data.egg-info/requires.txt
+daimin_data.egg-info/top_level.txt
