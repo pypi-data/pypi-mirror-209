@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: ndradex
+Version: 0.3.0
+Summary:  Multidimensional grid RADEX calculator
+Home-page: https://github.com/astropenguin/ndradex/
+License: MIT
+Keywords: astronomy,radio-astronomy,radex,xarray
+Author: Akio Taniguchi
+Author-email: taniguchi@a.phys.nagoya-u.ac.jp
+Requires-Python: >3.8,<3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: astropy (>=5.0,<6.0)
+Requires-Dist: astroquery (>=0.4,<0.5)
+Requires-Dist: netcdf4 (>=1.6,<2.0)
+Requires-Dist: numpy (>=1.22,<2.0)
+Requires-Dist: pandas (>=1.5,<2.0)
+Requires-Dist: pandas-stubs (>=1.5,<2.0)
+Requires-Dist: tomlkit (>=0.11,<0.12)
+Requires-Dist: tqdm (>=4.60,<5.0)
+Requires-Dist: typing-extensions (>=4.0,<5.0)
+Requires-Dist: xarray (>=2022.1,<2023.0)
+Project-URL: Documentation, https://astropenguin.github.io/ndradex/
