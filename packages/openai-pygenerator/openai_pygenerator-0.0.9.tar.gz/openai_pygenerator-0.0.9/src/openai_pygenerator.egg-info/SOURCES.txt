@@ -1,0 +1,17 @@
+LICENSE.txt
+README.md
+conftest.py
+pyproject.toml
+requirements.txt
+setup.cfg
+setup.py
+.github/workflows/python-package.yml
+.github/workflows/python-publish.yml
+src/__init__.py
+src/openai_pygenerator.py
+src/openai_pygenerator.egg-info/PKG-INFO
+src/openai_pygenerator.egg-info/SOURCES.txt
+src/openai_pygenerator.egg-info/dependency_links.txt
+src/openai_pygenerator.egg-info/entry_points.txt
+src/openai_pygenerator.egg-info/top_level.txt
+tests/test_gpt.py
