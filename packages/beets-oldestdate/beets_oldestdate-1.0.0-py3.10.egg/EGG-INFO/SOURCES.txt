@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+beets_oldestdate.egg-info/PKG-INFO
+beets_oldestdate.egg-info/SOURCES.txt
+beets_oldestdate.egg-info/dependency_links.txt
+beets_oldestdate.egg-info/top_level.txt
+beetsplug/__init__.py
+beetsplug/oldestdate.py
