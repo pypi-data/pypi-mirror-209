@@ -1,0 +1,13 @@
+sysmon2df/Eula.txt,sha256=gym8utx_gVOaSWnKE_C-W463ZSuRIyShkm_Jv7bsAFo,7490
+sysmon2df/README.md,sha256=uzXMJZx6zBwwk3OH9SrXXGOXu5SjlQTsiJy096AtvFk,3659
+sysmon2df/Sysmon.exe,sha256=9teMGrfC0b4QMqeu7q9ikwgz4EbuM8HYr2nQHXw80kk,8228608
+sysmon2df/Sysmon64.exe,sha256=jU_CyTUtrYk9Y8owgps1yTXjBML9C-g-fa675ZpVhpQ,4443392
+sysmon2df/Sysmon64a.exe,sha256=ZOVUf7JFFKlHJj0aGAWbmVpVJDQtLBH5CgU-yvjNkSQ,4785408
+sysmon2df/__init__.py,sha256=tBWcdlPCMPHCe8noHK5qEcPNUOVeef7Z_Lwo5xTg-2Q,8733
+sysmon2df/requirements.txt,sha256=CXVHbLM5Iduxcluxn1aavkK0d_KACPAWxkdxoaUmi74,63
+sysmon2df/thirdparty.json,sha256=7jh4SUCLcQKBpGk1oGLXIFDLTMrDr455GadoTmao3BY,6743
+sysmon2df-0.10.dist-info/LICENSE.rst,sha256=57krgYrI6h5a_2WXQgGcjWo8PExV4ONSi1SPUj9Jk1g,1148
+sysmon2df-0.10.dist-info/METADATA,sha256=hGER-4q5Jxkgwfv5GpmS6G6B7SkrTnkLQ9bnFLKZyEo,4459
+sysmon2df-0.10.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+sysmon2df-0.10.dist-info/top_level.txt,sha256=8Stli5KDxapmSlwqzLl2ZSNTixDBaDZbxAA2Vt0yC1I,10
+sysmon2df-0.10.dist-info/RECORD,,
