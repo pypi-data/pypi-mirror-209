@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: PandaInverseKinematics
+Version: 0
+Summary: A OpenAI Gym Env for Panda Inverse Kinematics
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

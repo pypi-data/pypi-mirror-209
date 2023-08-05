@@ -1,0 +1,7 @@
+README.md
+setup.py
+PandaInverseKinematics.egg-info/PKG-INFO
+PandaInverseKinematics.egg-info/SOURCES.txt
+PandaInverseKinematics.egg-info/dependency_links.txt
+PandaInverseKinematics.egg-info/requires.txt
+PandaInverseKinematics.egg-info/top_level.txt
