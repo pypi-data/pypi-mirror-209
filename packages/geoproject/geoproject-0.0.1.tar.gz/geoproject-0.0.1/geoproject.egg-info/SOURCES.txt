@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+geoproject/__init__.py
+geoproject/common.py
+geoproject/geoproject.py
+geoproject.egg-info/PKG-INFO
+geoproject.egg-info/SOURCES.txt
+geoproject.egg-info/dependency_links.txt
+geoproject.egg-info/not-zip-safe
+geoproject.egg-info/top_level.txt
+tests/test_geoproject.py

@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: geoproject
+Version: 0.0.1
+Summary: A python package for interactive mapping and more.
+Home-page: https://github.com/MartinGLUCP/geoproject
+Author: Martin Guilbert Lejeune
+Author-email: mguilbertlejeune@gmail.com
+License: MIT license
+Keywords: geoproject
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# geoproject
+
+
+[![image](https://img.shields.io/pypi/v/geoproject.svg)](https://pypi.python.org/pypi/geoproject)
+[![image](https://img.shields.io/conda/vn/conda-forge/geoproject.svg)](https://anaconda.org/conda-forge/geoproject)
+
+
+**A python package for interactive mapping and more.**
+
+
+-   Free software: MIT license
+-   Documentation: https://MartinGLUCP.github.io/geoproject
+    
+
+## Features
+
+-   TODO
