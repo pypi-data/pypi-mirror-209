@@ -1,0 +1,7 @@
+anywidget<1
+reactpy>=1.0.0
+appdirs
+requests
+jupyter_server
+notebook
+typing_extensions
