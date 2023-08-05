@@ -1,0 +1,2 @@
+RS2_ACCESS = {}
+BADGE_NUMBER_SYNC_FIELD = "CardNumber"
