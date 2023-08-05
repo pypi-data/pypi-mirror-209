@@ -1,0 +1,14 @@
+cwl-upgrader>=1.2.3
+packaging
+rdflib
+requests
+CacheControl<0.13
+urllib3<2
+schema-salad<9,>=8.3.20220825114525
+ruamel.yaml<0.17.27,>=0.16.12
+
+[:python_version >= "3.7"]
+ruamel.yaml<0.17.27,>=0.17.6
+
+[pretty]
+cwlformat
