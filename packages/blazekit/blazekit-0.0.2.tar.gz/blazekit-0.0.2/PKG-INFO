@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: blazekit
+Version: 0.0.2
+Summary: UI to interact with Kubernetes Clusters
+Home-page: UNKNOWN
+Author: Rishabh Jain
+Author-email: rishabhking05@gmail.com
+License: UNKNOWN
+Project-URL: Source Code, https://github.com/rishabhjain05/BlazeKit
+Description: # BlazeKit
+Keywords: python,kubernetes,aws cli
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
