@@ -1,0 +1,3 @@
+[console_scripts]
+klipper-repl=klipper_repl.cli:main
+
