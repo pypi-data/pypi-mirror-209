@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+eFatura/KekikGUI.py
+eFatura/Oturum.py
+eFatura/__init__.py
+eFatura/arayuz.py
+eFatura/konsol.py
+eFatura/logo.png
+eFatura.egg-info/PKG-INFO
+eFatura.egg-info/SOURCES.txt
+eFatura.egg-info/dependency_links.txt
+eFatura.egg-info/entry_points.txt
+eFatura.egg-info/requires.txt
+eFatura.egg-info/top_level.txt

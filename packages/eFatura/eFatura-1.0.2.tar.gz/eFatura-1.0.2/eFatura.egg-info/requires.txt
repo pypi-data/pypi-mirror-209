@@ -1,0 +1,7 @@
+setuptools
+wheel
+Kekik
+requests
+urllib3
+Pillow
+pytesseract
