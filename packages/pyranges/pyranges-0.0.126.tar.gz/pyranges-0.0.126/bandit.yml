@@ -1,0 +1,3 @@
+# B101: allow asserts
+# B321, B402: ftplib
+skips: ['B101', 'B321', 'B402']

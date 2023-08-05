@@ -1,0 +1,16 @@
+channels:
+- conda-forge
+- bioconda
+- r
+dependencies:
+- numpy
+- scipy
+- pandas
+- pytest
+- pytest-cov
+- cython
+- tabulate
+- hypothesis
+- bedtools
+- pybigwig
+- pysam
