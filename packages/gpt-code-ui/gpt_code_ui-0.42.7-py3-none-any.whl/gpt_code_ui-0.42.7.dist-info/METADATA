@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: gpt-code-ui
+Version: 0.42.7
+License-File: LICENSE
+Requires-Dist: ipykernel (<7,>=6)
+Requires-Dist: snakemq (<2,>=1)
+Requires-Dist: requests (<3,>=2)
+Requires-Dist: Flask (<3,>=2)
+Requires-Dist: flask-cors (<4,>=3)
+Requires-Dist: python-dotenv (<2,>=1)
+
