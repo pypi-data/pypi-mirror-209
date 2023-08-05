@@ -1,0 +1,9 @@
+setup.py
+src/imageTable/__init__.py
+src/imageTable/image2csv.py
+src/imageTable/imageTable.py
+src/imageTable.egg-info/PKG-INFO
+src/imageTable.egg-info/SOURCES.txt
+src/imageTable.egg-info/dependency_links.txt
+src/imageTable.egg-info/requires.txt
+src/imageTable.egg-info/top_level.txt
