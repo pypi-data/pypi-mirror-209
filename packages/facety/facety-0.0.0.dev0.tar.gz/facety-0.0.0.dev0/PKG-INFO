@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: facety
+Version: 0.0.0.dev0
+Summary: Facety Python SDK
+Home-page: https://developers.facety.tech
+Author: Iurii Tarasenko
+Author-email: iurii@facety.tech
+Requires-Python: >=3.10,<4.0
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Project-URL: Repository, https://github.com/facetytech/py.sdk
+Description-Content-Type: text/markdown
+
+
+Python SDK for [Facety Tech](https://facety.tech)
+
