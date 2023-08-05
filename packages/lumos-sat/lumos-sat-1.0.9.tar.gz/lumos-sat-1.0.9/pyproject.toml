@@ -1,0 +1,20 @@
+[project]
+name = "lumos-sat"
+version = "1.0.9"
+description = "Satellite Brightness Calculation Tools"
+authors = [
+    {name = "Forrest Fankhauser", email = "fafankhauser@ucdavis.edu"},
+]
+requires-python = ">=3.10"
+readme = "README.md"
+
+dependencies = [
+    "astropy~=5.2.2",
+    "matplotlib~=3.7.1",
+    "numpy~=1.24.3",
+    "opencv-python~=4.7.0.72",
+    "requests~=2.30.0",
+    "scipy~=1.10.1",
+    "setuptools~=65.6.0",
+    "sgp4~=2.22",
+]
