@@ -1,0 +1,12 @@
+README.md
+setup.py
+app/__init__.py
+app/main.py
+core/__init__.py
+epona_api_core.egg-info/PKG-INFO
+epona_api_core.egg-info/SOURCES.txt
+epona_api_core.egg-info/dependency_links.txt
+epona_api_core.egg-info/requires.txt
+epona_api_core.egg-info/top_level.txt
+tests/test_app.py
+tests/test_core.py
