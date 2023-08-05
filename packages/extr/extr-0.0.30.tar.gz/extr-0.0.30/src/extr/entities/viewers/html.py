@@ -1,0 +1,46 @@
+from typing import List, Optional
+
+from ...models import Entity
+from ..annotator import HtmlEntityAnnotator
+
+class HtmlViewer:
+    __TEMPLATE = """
+<html>
+    <head>
+        <style>
+{{styles}}
+        </style>
+    </head>
+    <body>
+{{body}}
+    </body>
+</html>
+    """
+
+    __DEFAULT_STYLES = """p { margin: 5px; line-height: 45px; }
+span.entity { border: 1px solid black; border-radius: 5px; padding: 5px; margin: 3px; cursor: pointer; }
+span.label { font-weight: bold; padding: 3px; color: black; }
+"""
+
+    def __init__(self) -> None:
+        self._rows: List[str] = []
+        self._annotator = HtmlEntityAnnotator()
+
+    def append(self, text: str, entities: List[Entity]) -> None:
+        self._rows.append(
+            self._annotator.annotate(text, entities).annotated_text
+        )
+
+    def create_view(self, custom_styles: Optional[str] = None) -> str:
+        styles = self.__DEFAULT_STYLES.strip()
+        if custom_styles:
+            styles += f'\n{custom_styles.strip()}'
+
+        body = '<hr />\n'.join(
+            [f'<p>{annotation}</p>' for annotation in self._rows]
+        )
+
+        return self.__TEMPLATE \
+            .replace('{{styles}}', styles) \
+            .replace('{{body}}', body) \
+            .strip()
