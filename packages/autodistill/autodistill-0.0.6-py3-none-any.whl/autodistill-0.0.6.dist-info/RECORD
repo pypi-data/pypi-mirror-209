@@ -1,0 +1,10 @@
+autodistill/__init__.py,sha256=0pM5iqsDN4rwuBrjkLiMoKJwq7edkX_hj1moLj_-5tg,74
+autodistill/ontology.py,sha256=ycWMw8bqfM0AB28WlVRX0XPRUzmw0BZwG7aWZPYWrFs,1758
+autodistill/base_models/__init__.py,sha256=UQtRWUebCiAtAEchWvrtYezzxsfsOaZiOVshNk40yvg,57
+autodistill/base_models/base_model.py,sha256=2wJge3aCnU2AwRAXV9X7XXxN8J_DSIwnnM5NIJaEH54,444
+autodistill/target_models/__init__.py,sha256=Mj4m1FuhpKPYNOou1we6WuP8075q46GYw5M7eN_gsFg,63
+autodistill/target_models/target_model.py,sha256=bP5K4cSZ_kRB7nr4bII6EsMmcRtZaDzO1_rJH3RZhHU,243
+autodistill-0.0.6.dist-info/METADATA,sha256=S8OoN7xW5CuIuoygFGCa53CUFQYMxF4oAcF9BGXi4ZA,4205
+autodistill-0.0.6.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+autodistill-0.0.6.dist-info/top_level.txt,sha256=nf7-nP_YvnaI1F_Vn1uH3jwlehkgNQ14gVsi0FzjIcM,12
+autodistill-0.0.6.dist-info/RECORD,,

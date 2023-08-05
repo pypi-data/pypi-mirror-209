@@ -1,0 +1,125 @@
+Metadata-Version: 2.1
+Name: autodistill
+Version: 0.0.6
+Summary: Automatically distill large foundational models into smaller, in-domain models for deployment
+Home-page: https://github.com/autodistill/autodistill
+Author: Roboflow
+Author-email: jacob@roboflow.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: ultralytics (==8.0.81)
+Provides-Extra: dev
+Requires-Dist: black (==22.3.0) ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Requires-Dist: wheel ; extra == 'dev'
+
+<div align="center">
+  <p>
+    <a align="center" href="" target="_blank">
+      <img
+        width="850"
+        src="https://media.roboflow.com/open-source/autodistill/autodistill-banner.png"
+      >
+    </a>
+  </p>
+</div>
+
+## 👋 hello
+
+Automatically distill large, foundational models into smaller, realtime models via unsupervised and semi-supervised methods. Go from images to inference on a custom model with no labeling in between. Autodistill transfers knowledge from general models to domain-specific models that can run on the edge.
+
+`autodistill` contains code to:
+
+* load base models (like CLIP)
+* load target models (like YOLO)
+* automatically create labeled datasets from raw image data
+* (optional) add a human in the loop for dataset review & curation
+* train target models
+* (optional) deploy trained models
+
+## 💻 install
+
+Pip install the supervision package in a
+[**3.10>=Python>=3.7**](https://www.python.org/) environment.
+
+```bash
+pip install autodistill
+```
+
+<details close>
+<summary>Install from source</summary>
+
+```bash
+```
+
+</details>
+
+## 🚀 examples
+
+```python
+from autodistill.base_models.instance_segmentation import GroundedSAM
+from autodistill.base_models import classDescriptionOntology
+from autodistill.target_models.instance_segmentation import YOLOv8,
+
+# load ontology from json file
+ontology from = classDescriptionOntology("path/to/ontology.json")
+
+# load base model
+base_model = GroundedSAM(ontology=ontology)
+base_model.view_prediction(img_path="path/to/example.jpg") 
+
+# create context
+context_path = base_model.label(context="path/to/images/directory", upload_dataset_to_roboflow=False)
+
+# destill target model
+target_model = YOLOv8(size="n", hyper_params)
+distilled_model = target_model.train(labeled_context=context_path, deploy_model_to_roboflow=False)
+distilled_model.view_pred(img_path="path/to/example.jpg")
+```
+
+- `base_models` are models that have been pre-trained to have a wide breadth of knowledge. 
+
+- Base models have `ontologies` which are the prompts we can use to draw predictions from them. Deciding the proper ontology (and installing your CUDA drivers) is most of the work you will have to do to train distilled models with autodistill.
+
+- To distill a model, you will need to bring example data of the context you want to your model to operate in.
+
+- `target_models` are the smaller in-domain model to distill the larger base model into. These are a set of models that are known to perform well under supervised settings.
+
+## 📍 roadmap
+
+🚧 - work in progress
+
+### object detection
+
+| base / target       | YOLOv5 | YOLOv7 | YOLOv8 | RT-DETR |
+|:-------------------:|:------:|:------:|:------:|:-------:|
+| Grounded DINO       |        |        |        |         |
+| Grounded SAM        |        |        | 🚧     |         |
+| DETIC               |        |        |        |         |
+| OWL-ViT             |        |        |        |         |
+
+### instance segmentation
+
+| base / target       | YOLOv5 | YOLOv7 | YOLOv8 | RT-DETR |
+|:-------------------:|:------:|:------:|:------:|:-------:|
+| Grounded SAM        |        |        | 🚧     |         |
+
+### classification
+
+| base / target | YOLOv8 | YOLOv5 |
+|:-------------:|:------:|:------:|
+| CLIP          |        |        |
+
+## 🏆 contribution
+
+We love your input! Please see our contributing guide to get started. Thank you 🙏 to all our contributors!
+
+
