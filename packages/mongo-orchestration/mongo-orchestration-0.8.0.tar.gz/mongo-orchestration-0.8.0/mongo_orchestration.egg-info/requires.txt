@@ -1,0 +1,9 @@
+pymongo<5,>=4
+bottle>=0.12.7
+cheroot>=5.11
+requests
+
+[test]
+coverage>=3.5
+pytest
+pexpect
