@@ -1,0 +1,34 @@
+[build-system]
+requires = []
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "isoCycle"
+version = "0.0.15"
+license = {file = "LICENSE.txt"}
+description = "isolating single cycles of oscillatory activity in neuronal spiking"
+readme = "README.md"
+
+[metadata]
+url = "https://github.com/esiabri/isoCycle"
+download_url = "https://github.com/esiabri/isoCycle/archive/refs/tags/0.0.5.tar.gz"
+author = "Ehsan Sabri"
+author_email = "ehsan.sabri@gmail.com"
+
+[options]
+packages = ["isoCycle"]
+include_package_data = true
+install_requires = [
+    "numpy",
+    # "pickle",
+    # "tensorflow",
+    # "scipy",
+    # "ipympl",
+    # "ipywidgets"
+]
+
+[options.extras_require]
+test = [
+    "pytest",
+    "coverage"
+]
