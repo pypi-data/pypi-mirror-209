@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: cukcuk
+Version: 0.5.1
+Summary: Connect to Cukcuk Shop API
+Author-email: Minh Bui <buiducminh287@gmail.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+### Cukcuk SDK
