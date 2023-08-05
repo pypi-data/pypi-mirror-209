@@ -1,0 +1,12 @@
+bin/bamread,sha256=3AXVZUQ4N20qUb4X095gWgmDaZFUdVowAgKYAP7pcu8,135
+bwread/__init__.py,sha256=_7rG1P8w2for4w_dMdqE6qfEPwIh90wekKupqyBlvvA,141
+bwread/read.py,sha256=_B2EQGMVwP0bNQ2v_kLjngWZJO-AXwfv6vh35vu7Fdk,395
+bwread/src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bwread/src/bwread.c,sha256=gFsWboDLfjtAH8e74nlIW9CzF9C9LCTtF9MmRQaWgeI,810322
+bwread/src/bwread.cp38-win_amd64.pyd,sha256=ELh3kozxLG4AyGwHt_Q2L1tN1ZW5uWqKqLW7HLEy9s8,124928
+bwread/src/bwread.pyx,sha256=6KRopbgEr_98j4gpCLxmV5WdRd2BY-7hXwJQM-idnFk,1253
+tests/test.bw,sha256=Faj_cWRj1hNZdOxrRyiz-p0bSzAOUsxLUhur-1BVDJA,651
+bwread-0.0.5.dist-info/METADATA,sha256=JI6ch5_hSY7nXZU2Mibz6rsQ-P9dDj1ojS5EwnjD174,1157
+bwread-0.0.5.dist-info/WHEEL,sha256=F2aDWtWrilNM3-px1vBtJOEd7aRVTetQfFuDYmYbAUQ,100
+bwread-0.0.5.dist-info/top_level.txt,sha256=asfFz3OVaXZRKhnwGcB2YUwbP5uX6GyhrMMiy_csu78,34
+bwread-0.0.5.dist-info/RECORD,,
