@@ -1,0 +1,10 @@
+exergenics_etl/__init__.py,sha256=6soojXfhqtGPlEacZcGyC-W9deb5N3QG75Py6BP_aIw,262
+exergenics_etl/src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+exergenics_etl/src/exergenics_etl.py,sha256=7edGjk-O6UQNy1KTQ2cDBGFwUeCThcIzkKtA4iCn910,9137
+exergenics_etl/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+exergenics_etl/test/test_exergenics_etl.py,sha256=McTRsp8DAwe5_BhmEywTCHSktKprPJ906wpsPKpJxM8,6517
+exergenics_etl-0.1.0.dist-info/LICENSE,sha256=R96M-XU9SEZKgBqyzWQj10qxdOef3LtB1wSX1nY4n70,1066
+exergenics_etl-0.1.0.dist-info/METADATA,sha256=o6fJGmXiz6_3KiqcpGX1HHThPHGdp6W7UywDUMxplNE,845
+exergenics_etl-0.1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+exergenics_etl-0.1.0.dist-info/top_level.txt,sha256=Hn80E_mjZkULTeRRK6yK1AVbljcma9_zrSyXBsNgRjM,15
+exergenics_etl-0.1.0.dist-info/RECORD,,
