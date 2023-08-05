@@ -1,0 +1,3 @@
+[console_scripts]
+mycalc = mycalcpackage.calculator:main
+
