@@ -1,0 +1,8 @@
+README.md
+setup.py
+validate_dns_email/__init__.py
+validate_dns_email.egg-info/PKG-INFO
+validate_dns_email.egg-info/SOURCES.txt
+validate_dns_email.egg-info/dependency_links.txt
+validate_dns_email.egg-info/requires.txt
+validate_dns_email.egg-info/top_level.txt

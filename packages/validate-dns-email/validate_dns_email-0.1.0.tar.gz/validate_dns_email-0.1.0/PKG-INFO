@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: validate_dns_email
+Version: 0.1.0
+Summary: Library to validate emails with dns.
+Home-page: https://github.com/DeijoseDevelop/validate_dns_email
+Author: Deiver Jose Vazquez Moreno
+Author-email: estudiandovazmore@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
