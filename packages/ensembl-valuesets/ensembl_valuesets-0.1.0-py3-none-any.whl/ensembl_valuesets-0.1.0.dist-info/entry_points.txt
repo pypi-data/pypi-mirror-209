@@ -1,0 +1,4 @@
+[console_scripts]
+ensembl_valuesets_grpc=src.grpcapi.ensembl.server:main
+ensembl_valuesets_rest=src.rest.server:start
+
