@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: u8488a
+Version: 0.1.1
+Summary: Keysight U8488A Powermeter Driver for USRP Power Calibration
+Home-page: https://github.com/anilgurses/U8488A_USRP_Calibration.git
+Author: Anıl Gürses
+Author-email: agurses@ncsu.edu
+License: MIT
+
+This is a simple driver for Keysight U8488A power meter. There are 2 classes in this package. You can use this package individually or for USRP calibration.
