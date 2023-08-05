@@ -1,0 +1,14 @@
+README.md
+setup.py
+autodistill/__init__.py
+autodistill/ontology.py
+autodistill.egg-info/PKG-INFO
+autodistill.egg-info/SOURCES.txt
+autodistill.egg-info/dependency_links.txt
+autodistill.egg-info/requires.txt
+autodistill.egg-info/top_level.txt
+autodistill/base_models/__init__.py
+autodistill/base_models/base_model.py
+autodistill/target_models/__init__.py
+autodistill/target_models/target_model.py
+test/test_hello.py

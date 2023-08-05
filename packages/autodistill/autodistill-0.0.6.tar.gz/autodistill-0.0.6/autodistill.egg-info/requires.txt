@@ -1,0 +1,9 @@
+ultralytics==8.0.81
+
+[dev]
+black==22.3.0
+flake8
+isort
+pytest
+twine
+wheel
