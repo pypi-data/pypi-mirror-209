@@ -1,0 +1,11 @@
+LICENCE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/DeepMap/__init__.py
+src/DeepMap/main.py
+src/DeepMap.egg-info/PKG-INFO
+src/DeepMap.egg-info/SOURCES.txt
+src/DeepMap.egg-info/dependency_links.txt
+src/DeepMap.egg-info/top_level.txt
