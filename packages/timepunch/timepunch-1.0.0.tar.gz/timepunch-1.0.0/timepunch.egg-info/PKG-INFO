@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: timepunch
+Version: 1.0.0
+Summary: A python library that tracks working hours
+Author: itsknk
+Description-Content-Type: text/markdown
+
+## TimePunch
+A simple terminal tool that tracks the working hours.
+
+### Usage
+- Install the package `pip install timepunch`.
+- Type in the command `timepunch`, and proceed.
