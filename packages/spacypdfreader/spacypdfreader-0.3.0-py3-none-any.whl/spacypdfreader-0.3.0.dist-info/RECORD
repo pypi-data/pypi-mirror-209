@@ -1,0 +1,11 @@
+spacypdfreader/__init__.py,sha256=lvrVjaj200oXJ4fLEMYSd8CD2ucAbAXErXAyk8VSrzo,86
+spacypdfreader/_utils.py,sha256=2HxRyUbcwZPPfcCz50FdHr8uMqQrNCk5wUh_-mmEUuk,1520
+spacypdfreader/console.py,sha256=UpMqeJ0C8i0pkue1AHnnyyX0bFJ9zZeJ7HBR6yhuA8A,54
+spacypdfreader/parsers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spacypdfreader/parsers/pdfminer.py,sha256=7oCME-wVtP3uGv4vhM0rPzMV9xWUGy4fUNuxe6yoVGQ,2559
+spacypdfreader/parsers/pytesseract.py,sha256=Dr5ubd14bp71qCTIU4gnTt-xaeWVNSv2A8L0Q84VuIU,2849
+spacypdfreader/spacypdfreader.py,sha256=O_NgeXK0RkNOZGuZLqeD_PGbOB4IaLNWvFpIxbbMMRk,6570
+spacypdfreader-0.3.0.dist-info/LICENSE,sha256=LpHtcLiCjLcTeTkhrrAxvWVgVgEGPc86FRr84axY86g,1069
+spacypdfreader-0.3.0.dist-info/METADATA,sha256=Rh7IyDCwEudU66GixTx0m1HXbhg2FjWgwNje5ijsDq4,5246
+spacypdfreader-0.3.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+spacypdfreader-0.3.0.dist-info/RECORD,,
