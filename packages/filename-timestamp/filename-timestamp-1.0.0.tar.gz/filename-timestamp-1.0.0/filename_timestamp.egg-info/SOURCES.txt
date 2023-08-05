@@ -1,0 +1,7 @@
+README.md
+filename_timestamp.py
+setup.py
+filename_timestamp.egg-info/PKG-INFO
+filename_timestamp.egg-info/SOURCES.txt
+filename_timestamp.egg-info/dependency_links.txt
+filename_timestamp.egg-info/top_level.txt
