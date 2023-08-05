@@ -1,0 +1,5 @@
+model_registry_python_sdk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+model_registry_python_sdk/client.py,sha256=GvEQur6jDN-gs_noMTcxIik26Tg8azEzsXXZX1rEEIQ,2005
+rhods_model_registry_poc-0.1.0.dist-info/METADATA,sha256=CL8FRGC4DhcJE4F1ufKqyPLJb2k8Ki80_1DqzPBwIKY,536
+rhods_model_registry_poc-0.1.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+rhods_model_registry_poc-0.1.0.dist-info/RECORD,,
