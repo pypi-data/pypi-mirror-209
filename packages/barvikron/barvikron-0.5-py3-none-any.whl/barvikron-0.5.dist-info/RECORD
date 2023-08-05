@@ -1,0 +1,14 @@
+barvikron/__init__.py,sha256=JZeY50O8guoRSRDnIPqWTcSn-Ckx50q-dYecNYsJ9nc,136
+barvikron/barvinok.py,sha256=m_7ycmkoRXkEnFLDAQpd5VKRi8g21v7C6qXTkQaMDBw,1461
+barvikron/findiff.py,sha256=hGaxqULl4wBzfdQBKdrxS5h7jIzPNPkls631J5HOST4,724
+barvikron/kronecker.py,sha256=1Q_2UAv-jK5UIpcq1AqFsJqgzECWiLxVkNu1kWa7kWg,3360
+barvikron/latte.py,sha256=uqfKCBuLlQuPt9WrSFav6p_ev17fAyLj7fHPuLEqRrA,2305
+barvikron/parfun.py,sha256=KBZzwLWhzyatb9QbdrGuu_9tmauVV85rbfN49Vqjn1s,1552
+barvikron/scripts/__init__.py,sha256=Wq1jlbwpWZ5jv8ETTOOEYTKK6JrIvXsPsCuOUpBm2_0,406
+barvikron/scripts/parallel.py,sha256=qX500O6iswp2uVW-O2X7u4QDjkhC18fCk8wAEglqQ90,4925
+barvikron/scripts/serial.py,sha256=0tPhArq4sZoEoYq-lfuaE8bZSdkjqQMvU0_tGuo_0VI,1881
+barvikron-0.5.dist-info/METADATA,sha256=EcM39SRY3I3VFt_1ckD3PfcY8E1lXA_XB4W5YonYU1g,6823
+barvikron-0.5.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+barvikron-0.5.dist-info/entry_points.txt,sha256=qXIHekQjg5CsXwKZz4dxlkJISeJxjYjLbmkL7CPQEMQ,113
+barvikron-0.5.dist-info/top_level.txt,sha256=aEtBQlzPTJiKa6rou5eh26mE_U5MnrolrNGsie5qTD0,10
+barvikron-0.5.dist-info/RECORD,,
