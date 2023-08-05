@@ -1,0 +1,147 @@
+Metadata-Version: 2.1
+Name: race-report
+Version: 1.0.0
+Summary: Application that reads data from 3 files, orders racers by time, and prints a report showing two tables: the top 15 racers and the remaining racers.
+License: MIT
+Author: Nazar Hots
+Author-email: gotsjob@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: PTable (>=0.9.2,<0.10.0)
+Requires-Dist: termcolor (>=2.3.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Report of Monaco 2018 Racing
+
+## Installation
+Clone this repository to your local machine:
+
+
+Use the manager [pip](https://pip.pypa.io/en/stable/) to install package:
+
+```bash
+pip install race-report
+```
+
+## Summary
+Application that read data from **3 files**, order racers by time and print report that shows 2 tables: the top 15 racers and other racers.
+🔴 **Data should include 3 files: "start.log", "end.log", abbreviations.txt.** 🔴
+
+The files **"start.log"** and **"end.log"** should have lines in the format **"SVF2018-05-24_12:02:58.917"**, where: 
+- *SVF* - racer abbreviation; 
+- *2018-05-24* - date; 
+- *12:02:58.917* - time; 
+
+In **data** and **time** **underscore character** (_) is used as a delimiter.
+
+The third file **abbreviations.txt** contains abbreviation explanations, and should have lines in the format **"DRR_Daniel Ricciardo_RED BULL RACING TAG HEUER"**, where:
+- *DRR* - racer abbreviation;
+- *Daniel Ricciardo* - full name of racer;
+- *RED BULL RACING TAG HEUER* - racer team;
+
+**All data** must be separated by **underscore character** (_).
+
+*If the data is invalid, you will receive an error or a red warning  message in the console.*
+## Usage
+
+```python
+from race_report_by_ng import abbr_decoder, drivers_best_lap, build_report, print_report
+
+drivers_abbreviations = abbr_decoder("data/abbreviations.txt")
+drivers_best_time = drivers_best_lap("data/start.log", "data/end.log")
+report = build_report(drivers_abbreviations, drivers_best_time)
+print_report(report)
+
+# Output:
+# WARNING: Invalid time for EOF. The result is not added to the overall rating.
+
+# +-------+-------------------+---------------------------+-------------+
+# | Place |    Driver name    |            Team           |   Best lap  |
+# +-------+-------------------+---------------------------+-------------+
+# |   1.  |  Sebastian Vettel |          FERRARI          | 0:01:04.415 |
+# |   2.  |  Valtteri Bottas  |          MERCEDES         | 0:01:12.434 |
+# |   3.  | Stoffel Vandoorne |      MCLAREN RENAULT      | 0:01:12.463 |
+# |   4.  |   Kimi Räikkönen  |          FERRARI          | 0:01:12.639 |
+# |   5.  |  Fernando Alonso  |      MCLAREN RENAULT      | 0:01:12.657 |
+# |   6.  |  Charles Leclerc  |       SAUBER FERRARI      | 0:01:12.829 |
+# |   7.  |    Sergio Perez   |    FORCE INDIA MERCEDES   | 0:01:12.848 |
+# |   8.  |  Romain Grosjean  |        HAAS FERRARI       | 0:01:12.930 |
+# |   9.  |    Pierre Gasly   | SCUDERIA TORO ROSSO HONDA | 0:01:12.941 |
+# |  10.  |    Carlos Sainz   |          RENAULT          | 0:01:12.950 |
+# |  11.  |  Nico Hulkenberg  |          RENAULT          | 0:01:13.065 |
+# |  12.  |  Brendon Hartley  | SCUDERIA TORO ROSSO HONDA | 0:01:13.179 |
+# |  13.  |  Marcus Ericsson  |       SAUBER FERRARI      | 0:01:13.265 |
+# |  14.  |    Lance Stroll   |     WILLIAMS MERCEDES     | 0:01:13.323 |
+# |  15.  |  Kevin Magnussen  |        HAAS FERRARI       | 0:01:13.393 |
+# +-------+-------------------+---------------------------+-------------+
+```
+
+### Func print_report сan also show the tables in **reverse** order:
+```python
+from race_report_by_ng import abbr_decoder, drivers_best_lap, build_report, print_report
+
+drivers_abbreviations = abbr_decoder("data/abbreviations.txt")
+drivers_best_time = drivers_best_lap("data/start.log", "data/end.log")
+report = build_report(drivers_abbreviations, drivers_best_time)
+print_report(report, desc=True)
+
+# Output:
+# +-------+-------------------+---------------------------+-------------+
+# | Place |    Driver name    |            Team           |   Best lap  |
+# +-------+-------------------+---------------------------+-------------+
+# |   15  |  Kevin Magnussen  |        HAAS FERRARI       | 0:01:13.393 |
+# |   14  |    Lance Stroll   |     WILLIAMS MERCEDES     | 0:01:13.323 |
+# |   13  |  Marcus Ericsson  |       SAUBER FERRARI      | 0:01:13.265 |
+# |   12  |  Brendon Hartley  | SCUDERIA TORO ROSSO HONDA | 0:01:13.179 |
+# |   11  |  Nico Hulkenberg  |          RENAULT          | 0:01:13.065 |
+# |   10  |    Carlos Sainz   |          RENAULT          | 0:01:12.950 |
+# |   9   |    Pierre Gasly   | SCUDERIA TORO ROSSO HONDA | 0:01:12.941 |
+# |   8   |  Romain Grosjean  |        HAAS FERRARI       | 0:01:12.930 |
+# |   7   |    Sergio Perez   |    FORCE INDIA MERCEDES   | 0:01:12.848 |
+# |   6   |  Charles Leclerc  |       SAUBER FERRARI      | 0:01:12.829 |
+# |   5   |  Fernando Alonso  |      MCLAREN RENAULT      | 0:01:12.657 |
+# |   4   |   Kimi Räikkönen  |          FERRARI          | 0:01:12.639 |
+# |   3   | Stoffel Vandoorne |      MCLAREN RENAULT      | 0:01:12.463 |
+# |   2   |  Valtteri Bottas  |          MERCEDES         | 0:01:12.434 |
+# |   1   |  Sebastian Vettel |          FERRARI          | 0:01:04.415 |
+# +-------+-------------------+---------------------------+-------------+
+```
+
+## Also implemented command-line interface(**CLI**):
+
+```bash
+# Print report
+python report_cli.py --filles “path_to_folder” 
+```
+
+```bash
+# Print info about racer
+python report_cli.py --filles “path_to_folder” --driver ”driver_full_name” 
+```
+
+#### There is also a "*--desc*" parameter that can show the tables in reverse order:
+
+```bash
+# Print report
+python report_cli.py --filles “path_to_folder” --desc
+```
+
+#### For more information about CLI, use:
+
+```bash
+python report_cli.py --help
+```
+
+## Used
+
+- **[Pytest](https://docs.pytest.org/en/latest/)**
+- **[Coverage](https://coverage.readthedocs.io/en/coverage-5.1/#quick-start)**
+- **[Argparse](https://docs.python.org/3.3/library/argparse.html)**
+- **[Packaging Python Projects](https://packaging.python.org/en/latest/tutorials/packaging-projects/)**
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
