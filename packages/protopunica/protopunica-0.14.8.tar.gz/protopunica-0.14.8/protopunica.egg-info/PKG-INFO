@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: protopunica
+Version: 0.14.8
+Summary: Protopunica is pomegranate frozen at version 0.14.8.
+Home-page: http://pypi.python.org/pypi/protopunica/
+Author: Jacob Schreiber
+Author-email: jmschreiber91@gmail.com
+License: MIT
+Provides-Extra: Plotting
+Provides-Extra: GPU
+License-File: LICENSE
+
+Protopunica is pomegranate frozen at version 0.14.8.
