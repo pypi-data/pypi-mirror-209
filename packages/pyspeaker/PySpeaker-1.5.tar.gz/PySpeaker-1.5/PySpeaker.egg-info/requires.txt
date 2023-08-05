@@ -1,0 +1,4 @@
+pycaw
+ctypes-callable
+comtypes
+numpy
