@@ -1,0 +1,4 @@
+django-trackmodels-ritual>=1.0.0
+jsonfield>=3.0.0
+django-polymorphic>=2.1.2
+Django>=4.2
