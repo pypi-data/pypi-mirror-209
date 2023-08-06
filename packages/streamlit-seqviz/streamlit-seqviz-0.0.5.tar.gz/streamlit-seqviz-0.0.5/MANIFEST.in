@@ -1,0 +1,2 @@
+recursive-include streamlit_seqviz/frontend/dist *
+include streamlit_seqviz/pypi_readme.md
