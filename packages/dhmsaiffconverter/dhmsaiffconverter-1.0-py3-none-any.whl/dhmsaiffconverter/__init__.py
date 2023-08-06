@@ -1,0 +1,3 @@
+# 设立接口， 使得用户可以直接调用包中的函数
+from dhmsaiffconverter.convert_aiff import convert_aiff_to_df, save_aiff_as_csv, convert_aiff_to_df_include_time, save_aiff_as_csv_include_time
+from dhmsaiffconverter.aiff_data_download_tool import download_data_from_DHMS_Server
