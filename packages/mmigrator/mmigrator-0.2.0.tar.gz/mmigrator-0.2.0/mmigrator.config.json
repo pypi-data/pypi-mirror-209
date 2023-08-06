@@ -1,0 +1,10 @@
+{
+    "dist": "migrations",
+    "connection": {
+        "host": ".env[MONGO_HOST]",
+        "port": ".env[MONGO_PORT]",
+        "database": ".env[MONGO_DB]",
+        "user": "",
+        "password": ""
+    }
+}
