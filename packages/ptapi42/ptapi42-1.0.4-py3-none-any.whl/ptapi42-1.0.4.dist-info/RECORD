@@ -1,0 +1,9 @@
+ptapi42/__init__.py,sha256=HU8wQ_AkqRpn9gRXZ8rPq6s1YWNc-bkqMOV4Uhllur8,39
+ptapi42/api42.py,sha256=dKYmzlIXaC3IoAvHfduuVKG5e87eywQYzkA-2p-I_0c,26764
+ptapi42/api42_token.py,sha256=MuaIq535PETfrX2XdhEBCu1wjADhviAMz0Lf67NG-Lg,3210
+ptapi42/config.py,sha256=G0rnTsMDTmuYwOOKqVzhUL0bR0JbyXvMeqzsY0tXvjA,1372
+ptapi42-1.0.4.dist-info/LICENSE,sha256=EevfHLkYsjg6ukvAtXvsXRAPPs3OkBqHQIAU79Q0K0g,1073
+ptapi42-1.0.4.dist-info/METADATA,sha256=uDlZaC5d7Hx5DIGxllYUFmrhJcAxULsKW3T2GCzkV-Q,5677
+ptapi42-1.0.4.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+ptapi42-1.0.4.dist-info/top_level.txt,sha256=PPzEZKRBlBRIBgqTowuwxKggPkRvqenuH2Ueq2HBTxE,8
+ptapi42-1.0.4.dist-info/RECORD,,
