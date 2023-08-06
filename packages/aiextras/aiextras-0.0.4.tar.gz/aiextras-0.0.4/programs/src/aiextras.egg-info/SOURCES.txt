@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+programs/src/aiextras.egg-info/PKG-INFO
+programs/src/aiextras.egg-info/SOURCES.txt
+programs/src/aiextras.egg-info/dependency_links.txt
+programs/src/aiextras.egg-info/top_level.txt
+programs/src/aiextras.egg-info/PKG-INFO
+programs/src/aiextras.egg-info/SOURCES.txt
+programs/src/aiextras.egg-info/dependency_links.txt
+programs/src/aiextras.egg-info/top_level.txt
