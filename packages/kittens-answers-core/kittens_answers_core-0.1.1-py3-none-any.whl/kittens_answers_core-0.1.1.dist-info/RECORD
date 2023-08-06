@@ -1,0 +1,7 @@
+kittens_answers_core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kittens_answers_core/domain/entities/entities.py,sha256=IMNBQfvuOvkOdDsCMXbcLDQhfjqnypNeRci4OkZag_U,5412
+kittens_answers_core/domain/entities/enums.py,sha256=aPsx7fJ31M8mRaYgCFEjNEsZNeycsJuL-5S-Z5Rqyew,130
+kittens_answers_core/domain/entities/mixins.py,sha256=Fs1kYpXjNENdnl-uEqQq3E9uoTOxWGpfQcVx8YeQshg,674
+kittens_answers_core-0.1.1.dist-info/METADATA,sha256=sTb9r6i6MWQayN8bSrsKPuMIDSjf-RaWoNxCgtd9xq0,294
+kittens_answers_core-0.1.1.dist-info/WHEEL,sha256=WGfLGfLX43Ei_YORXSnT54hxFygu34kMpcQdmgmEwCQ,88
+kittens_answers_core-0.1.1.dist-info/RECORD,,
