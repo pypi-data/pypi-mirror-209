@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: polygon_finance
+Version: 1.0.0
+Summary: The real-time market analysis library that utilizes the real-time rest apis and websockets from polygon.io
+Author: Charlies Vids
+Author-email: chuckdustin12@gmail.com
