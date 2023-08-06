@@ -1,0 +1,7 @@
+argparse
+requests
+PyYAML
+dictdiffer
+
+[tests]
+pytest
