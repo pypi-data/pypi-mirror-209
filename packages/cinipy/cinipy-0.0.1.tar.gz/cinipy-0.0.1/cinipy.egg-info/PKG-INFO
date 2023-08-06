@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: cinipy
+Version: 0.0.1
+Summary: An app for custom logging
+Author: jonasrdl
+Author-email: jonasriedel@pm.me
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+# cini
+
+cini is an app for custom logging.
+
+## Installation
+
+You can install the app using pip:
+
+**Coming soon**   
+~~pip install cini~~ 
+
+## Usage
+
+```python
+from cini import log_info, log_warning, log_error
+
+log_info("This is an info message.")
+log_warning({"key": "value", "key2": [1, 2, 3]})
+log_error(["error", {"key": "value"}])

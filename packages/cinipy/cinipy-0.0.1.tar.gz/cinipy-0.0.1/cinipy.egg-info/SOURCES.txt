@@ -1,0 +1,9 @@
+README.md
+setup.py
+cinipy/__init__.py
+cinipy/cinipy.py
+cinipy.egg-info/PKG-INFO
+cinipy.egg-info/SOURCES.txt
+cinipy.egg-info/dependency_links.txt
+cinipy.egg-info/requires.txt
+cinipy.egg-info/top_level.txt
