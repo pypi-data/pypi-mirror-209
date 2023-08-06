@@ -1,0 +1,3 @@
+[sqlalchemy.dialects]
+bigquery.scandal=scandal.sqlalchemy.bigquery:BigQueryScandal
+
