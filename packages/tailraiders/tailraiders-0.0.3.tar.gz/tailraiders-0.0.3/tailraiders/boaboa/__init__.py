@@ -1,0 +1,1 @@
+from tailraiders.boaboa.doc import docstring
