@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: Gergyg-lab3-json-xml-serializer
+Version: 0.1
+Summary: package for python (de)serialization in .json and .xml
+Home-page: https://github.com/Gergyg/Python-labs/tree/Lab3
+Author: Arseni Matsiusheuski
+Author-email: gad.olg@mail.ru
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
