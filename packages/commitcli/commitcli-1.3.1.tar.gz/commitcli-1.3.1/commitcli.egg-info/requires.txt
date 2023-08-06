@@ -1,0 +1,5 @@
+click
+inquirer
+loguru
+pendulum
+python-dotenv
