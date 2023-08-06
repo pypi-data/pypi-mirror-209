@@ -1,0 +1,9 @@
+interval
+matplotlib>=3.7.1
+numpy>=1.24.2
+pandas>=1.5.3
+pillow>=9.4.0
+scipy>=1.10.1
+statsmodels
+sympy
+sympy_plot_backends
