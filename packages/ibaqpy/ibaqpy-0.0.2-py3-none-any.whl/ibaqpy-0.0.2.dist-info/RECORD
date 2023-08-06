@@ -1,0 +1,17 @@
+bin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bin/compute_ibaq.py,sha256=MD0GyRhhDCEvgqQpd6hrcFPmBcKHTdWNbxHRYSTn5lM,5494
+bin/compute_tpa.py,sha256=MiSkO5RQsqe7YKyXmUWJvfGCfMuSEmyYak0U1dXeLC4,5412
+bin/merge_condition_files.py,sha256=yr7gSkt77dqvvDeJLgVEfgdCbPNubzGPshedqOzLw-o,1538
+bin/peptide_file_generation.py,sha256=VBh73bEnwWmiKxXlTrByFbSYdKxoWncdwwapJ2E0_5g,9205
+bin/peptide_normalization.py,sha256=IHpih5Dn3ubho4R7WhtaKQQ0K-QkGKY4fQ_WzFeXc3o,17569
+ibaq/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ibaq/ibaqpy_commons.py,sha256=2L3uEva3U0F97sHBlStiMkcCJVIpwI5Sc04vqPlq274,5511
+ibaqpy-0.0.2.data/scripts/compute_ibaq.py,sha256=Z4XHmjiG-v3iU57OP8NR49bV2NKRaNUPQR5kWWCSen0,5481
+ibaqpy-0.0.2.data/scripts/merge_condition_files.py,sha256=Y03poovRgxXv0Em80VjuNYDjdcBXyBKEiWBBmESf4kw,1525
+ibaqpy-0.0.2.data/scripts/peptide_file_generation.py,sha256=f__XX88gu4eHlENnkzwperbI-_1XEGYoSOQEn5s2WcY,9192
+ibaqpy-0.0.2.data/scripts/peptide_normalization.py,sha256=8PhQqUbjV_BGXqcbAOOIg_hm0Vqq9xj4EZK9dmDxNdU,17556
+ibaqpy-0.0.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+ibaqpy-0.0.2.dist-info/METADATA,sha256=taXJtMpy3MqyF8hUP7O4WGLAY1csCOj-GX__Z7Q5wq0,17561
+ibaqpy-0.0.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+ibaqpy-0.0.2.dist-info/top_level.txt,sha256=oir3q8BAbeIyF0zy3CYdR3QHRnIrHfDtAzjKb790xDI,9
+ibaqpy-0.0.2.dist-info/RECORD,,
