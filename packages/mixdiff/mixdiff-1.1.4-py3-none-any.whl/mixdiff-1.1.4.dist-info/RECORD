@@ -1,0 +1,10 @@
+mixdiff/__init__.py,sha256=3qiNjKblqlAB-u54RI80RL3RprxpvDRTwy_e_4PdDn0,189
+mixdiff/canvas.py,sha256=rIe0Bs_x599eS0fQkHsp3a2ZJq0-y8N_DFmywelTsM8,20181
+mixdiff/extrasmixin.py,sha256=BGhkacZNMupwJv8i4uFudY6dauJCm5ua9CnKN4DATHA,760
+mixdiff/imgtools.py,sha256=K9J6_17YsSyB_0x0Utb9EjcKDpYGSsDft48kpz71iGA,1458
+mixdiff/tiling.py,sha256=glstk5vCIJPejvo83AQBLEOZ43xVKvsN0TuRkGk-hO8,15332
+mixdiff-1.1.4.dist-info/LICENSE,sha256=d1TxlAlTAgx4-JOWMsEnYLebNhrpLat1J9-Vrr0C_aI,1081
+mixdiff-1.1.4.dist-info/METADATA,sha256=LoUe93C4y0ljYg6PbByTK25iuI-DqecVRcighMwnpSM,22450
+mixdiff-1.1.4.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+mixdiff-1.1.4.dist-info/top_level.txt,sha256=AnZ8hr-MfGlPwmAKN6U8Zsqyn2c7pxp2vAp3X-pJaEg,8
+mixdiff-1.1.4.dist-info/RECORD,,
