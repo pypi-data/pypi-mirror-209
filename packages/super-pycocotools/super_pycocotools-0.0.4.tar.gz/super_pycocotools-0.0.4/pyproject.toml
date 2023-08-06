@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "super_pycocotools"
+version = "0.0.4"
+authors = [
+  { name="HichTala", email="hicham.talaoubrid@etu.mines-ales.fr" },
+]
+description = "COCO API to help managing multiple datasets"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = ["pycocotools"]
+
+
+[project.urls]
+"Homepage" = "https://github.com/HichTala/super_pycocotools"
+"Bug Tracker" = "https://github.com/HichTala/super_pycocotools/issues"
