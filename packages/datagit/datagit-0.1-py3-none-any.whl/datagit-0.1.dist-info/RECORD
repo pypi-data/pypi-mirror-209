@@ -1,0 +1,7 @@
+datagit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+datagit/github_connector.py,sha256=syRIx2PebByRHreYVmb_YNGEiEAtcQDCyPCJ8CdJpGk,1076
+datagit/query_builder.py,sha256=76ooIfXn5dEguNI3SyqSK3SYQh8vILxpL92kQldR6Lg,721
+datagit-0.1.dist-info/METADATA,sha256=KOleP-V6nz2WCho2X8v-bQqK353h-Uv9xwS8bYoJtIc,1203
+datagit-0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+datagit-0.1.dist-info/top_level.txt,sha256=vl1VYtgUx3sj5wRS6Hf2_O39dk-1LH5fsaBpHLwOAd0,8
+datagit-0.1.dist-info/RECORD,,
