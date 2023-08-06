@@ -1,0 +1,12 @@
+fw_gear_splitter/__init__.py,sha256=ga8HPszNy5k9r2PR-_xTwZq5q20wru1BHO6M4mqLbi8,135
+fw_gear_splitter/main.py,sha256=9yQGh95TImX2EKKkWw7nNk3Hjglul0gY3UlinYfCdlo,14140
+fw_gear_splitter/metadata.py,sha256=Sk521ApLySyYsbgZKnJ9-FcrPyYl-ndINejklp7kTjw,8402
+fw_gear_splitter/parser.py,sha256=aEAjrG1fn3_D_kp8Yu4HTFUk-2jw6OEKjKc7ekXcGDo,1241
+fw_gear_splitter/splitter/__init__.py,sha256=PeCzMJ2dMdzODEJ4CP7foHb3a-hk-L5OgPzeDFkv97s,38
+fw_gear_splitter/splitter/base.py,sha256=cnM0d8l46dZqwbDjw_mEsBsH8QJLrfGin5np6VbHD6U,6372
+fw_gear_splitter/splitters.py,sha256=8be2O88OPcbYDyb1GsVFgb1tUyzuhCf4ox2M5earvTg,13776
+fw_gear_splitter/utils.py,sha256=MmXOTS5Ktj53Eo2TTuvHnwLvRj8qtS3fBRkHFqnCOd4,2243
+fw_gear_splitter-1.5.0.dist-info/LICENSE,sha256=NNC8xrLtqnhvmkJdOB71ctPp2jBi_2V5u9RzRVEpBcs,1092
+fw_gear_splitter-1.5.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+fw_gear_splitter-1.5.0.dist-info/METADATA,sha256=XZvENNKaugu8_kFY7EHgerIQSRgSNHIzR0MmQ79lClM,2816
+fw_gear_splitter-1.5.0.dist-info/RECORD,,
