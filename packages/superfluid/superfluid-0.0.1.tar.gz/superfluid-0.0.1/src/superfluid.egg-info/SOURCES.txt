@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+src/superfluid.egg-info/PKG-INFO
+src/superfluid.egg-info/SOURCES.txt
+src/superfluid.egg-info/dependency_links.txt
+src/superfluid.egg-info/requires.txt
+src/superfluid.egg-info/top_level.txt
