@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neuronlinear"
+version = "0.0.1"
+authors = [
+  { name="iamNagasatya", email="n.nagasatyasai@gmail.com" },
+]
+description = "A small Perceptron package"
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "joblib==1.2.0",
+    "numpy==1.24.3",
+    "pandas==2.0.1",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/iamNagasatya/Perceptron"
+"Bug Tracker" = "https://github.com/iamNagasatya/Perceptron/issues"
