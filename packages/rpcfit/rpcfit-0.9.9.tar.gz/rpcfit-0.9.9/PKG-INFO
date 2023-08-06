@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: rpcfit
+Version: 0.9.9
+Summary: Robust Rational Polynomial Camera Modelling for SAR and Pushbroom Imaging
+Home-page: https://github.com/centreborelli/rpcfit
+Author: Roland Akiki, Roger Marí
+License: BSD
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: BSD License
+License-File: LICENSE
+
+UNKNOWN
+

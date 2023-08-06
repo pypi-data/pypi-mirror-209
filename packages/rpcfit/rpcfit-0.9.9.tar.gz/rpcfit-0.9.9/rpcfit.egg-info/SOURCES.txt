@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+rpcfit/Lcurve.py
+rpcfit/__init__.py
+rpcfit/gridata.py
+rpcfit/rpc_fit.py
+rpcfit.egg-info/PKG-INFO
+rpcfit.egg-info/SOURCES.txt
+rpcfit.egg-info/dependency_links.txt
+rpcfit.egg-info/requires.txt
+rpcfit.egg-info/top_level.txt
