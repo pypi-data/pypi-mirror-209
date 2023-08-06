@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: bugbreaker
+Version: 1.5.0
+Summary: Terminal tool that explains program bugs
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Debuggers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Requires: revChatGPT
+Requires: pygments
+Requires-Python: >=3
+Requires-Dist: revChatGPT
+Requires-Dist: pygments
+

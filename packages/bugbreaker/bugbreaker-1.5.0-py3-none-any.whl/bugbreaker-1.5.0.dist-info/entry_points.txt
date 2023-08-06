@@ -1,0 +1,2 @@
+[console_scripts]
+bugbreaker = bugbreaker.bugbreaker:main
