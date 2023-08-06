@@ -1,0 +1,7 @@
+fire
+parsimonious
+networkx
+
+[plotting]
+matplotlib>=2.2.0
+jupyter
