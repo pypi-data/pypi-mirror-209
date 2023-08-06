@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: nupyosc
+Version: 0.0.1
+Summary: NuPy: A new way to numerically compute neutrino oscillations in matter
+Author: Baalateja Kataru
+Author-email: <kavesbteja@gmail.com>
+Keywords: probability,neutrino,oscillations
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Dist: numpy
+
+We use the recently discovered Eigenvalue-Eigenvector and Adjugate Identities to compute oscillation probabilities with minimal algorithmic steps
