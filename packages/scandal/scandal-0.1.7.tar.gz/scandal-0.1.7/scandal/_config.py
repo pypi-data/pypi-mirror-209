@@ -1,0 +1,28 @@
+import json
+import os.path
+
+CLIENT_IDS = {"scandal-py": "a358618b-92ea-411f-b8f1-99be0f557da0"}
+
+CREDS_FILE = os.path.expanduser("~/.config/fulcrum/local.creds.json")
+_IS_LOCAL_DEV = os.path.exists(CREDS_FILE)
+
+
+def get_client_id(service: str = "scandal-py"):
+    """For local development, we read the client-id out of a file on disk. Otherwise, it's hard-coded."""
+    if _IS_LOCAL_DEV:
+        with open(CREDS_FILE) as f:
+            creds = json.load(f)
+            return creds["clientCreds"][service]["clientId"]
+    return CLIENT_IDS[service]
+
+
+def get_scandal_host():
+    if _IS_LOCAL_DEV:
+        return "localhost:8443"
+    return "scan.dev"
+
+
+def get_archimedes_url():
+    if _IS_LOCAL_DEV:
+        return "http://localhost:3000"
+    return "https://archimedes-dev.fly.dev"
