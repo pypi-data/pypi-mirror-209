@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: lambda2docker
+Version: 0.1.2
+Summary: Generate a Dockerfile from a lambda function
+Home-page: https://github.com/paololazzari/lambda2docker
+Author: paololazzari
+Author-email: lazzari.paolok@gmail.com
+License: Apache License 2.0
+Keywords: aws,lambda,docker
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7, <=4.0
+License-File: LICENSE.md

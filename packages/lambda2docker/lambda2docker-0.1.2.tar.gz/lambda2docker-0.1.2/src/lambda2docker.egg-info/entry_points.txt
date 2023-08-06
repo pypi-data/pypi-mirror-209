@@ -1,0 +1,2 @@
+[console_scripts]
+lambda2docker = lambda2docker.__main__:main

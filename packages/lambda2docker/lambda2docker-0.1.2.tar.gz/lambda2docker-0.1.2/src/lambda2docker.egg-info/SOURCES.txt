@@ -1,0 +1,16 @@
+LICENSE.md
+README.md
+setup.py
+src/lambda2docker/__init__.py
+src/lambda2docker/__main__.py
+src/lambda2docker/lambda2docker.py
+src/lambda2docker/validate.py
+src/lambda2docker.egg-info/PKG-INFO
+src/lambda2docker.egg-info/SOURCES.txt
+src/lambda2docker.egg-info/dependency_links.txt
+src/lambda2docker.egg-info/entry_points.txt
+src/lambda2docker.egg-info/not-zip-safe
+src/lambda2docker.egg-info/requires.txt
+src/lambda2docker.egg-info/top_level.txt
+src/lambda2docker/runtimes/__init__.py
+src/lambda2docker/runtimes/python.py
