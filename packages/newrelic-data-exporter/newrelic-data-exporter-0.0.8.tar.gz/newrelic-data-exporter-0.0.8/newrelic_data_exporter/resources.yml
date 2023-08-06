@@ -1,0 +1,9 @@
+all:
+  headers: ['Account', 'GUID', 'Name', 'Domain', 'Entity Type', 'Type']
+  keys: ['accountId', 'guid', 'name', 'domain', 'entityType', 'type']
+apm:
+  headers: ['Account', 'GUID', 'Name', 'Domain', 'Entity Type', 'Type']
+  keys: ['accountId', 'guid', 'name', 'domain', 'entityType', 'type']
+synth:
+  headers: [ 'Account', 'Name', 'Monitor Status' ]
+  keys: [ 'accountId', 'name', 'monitorSummary.status']
