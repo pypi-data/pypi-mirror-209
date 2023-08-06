@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/astmath/__init__.py
+src/astmath/__main__.py
+src/astmath/cli.py
+src/astmath/py.typed
+src/astmath.egg-info/PKG-INFO
+src/astmath.egg-info/SOURCES.txt
+src/astmath.egg-info/dependency_links.txt
+src/astmath.egg-info/entry_points.txt
+src/astmath.egg-info/requires.txt
+src/astmath.egg-info/top_level.txt
