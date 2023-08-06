@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "lkmlfmt-djhtml"
+version = "0.0.1"
+description = "a plugin for lkmlfmt"
+authors = ["kitta65 <skndr666m1@gmail.com>"]
+readme = "README.md"
+packages = [{include = "lkmlfmt_djhtml"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+djhtml = "^3.0.6"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.3.1"
+black = "^23.3.0"
+flake8 = "^6.0.0"
+mypy = "^1.3.0"
+isort = "^5.12.0"
+lkmlfmt = "^0.0.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

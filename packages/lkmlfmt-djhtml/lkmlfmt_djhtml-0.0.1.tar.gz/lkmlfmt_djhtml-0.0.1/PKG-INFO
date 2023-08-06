@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: lkmlfmt-djhtml
+Version: 0.0.1
+Summary: a plugin for lkmlfmt
+Author: kitta65
+Author-email: skndr666m1@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: djhtml (>=3.0.6,<4.0.0)
+Description-Content-Type: text/markdown
+
+# lkmlfmt-djhtml
+A plugin for [lkmlfmt](https://github.com/kitta65/lkmlfmt).
+
+## Installation
+
+```sh
+pip install lkmlfmt lkmlfmt-djhtml
+```
+
+## CLI
+
+```sh
+lkmlfmt --plugin lkmlfmt_djhtml
+```
+
+## API
+
+```python
+from lkmlfmt import fmt
+
+lkml = fmt("""\
+view: view_name {
+  dimension: column_name {
+    html:
+{% if value == "foo" %}
+<img src="https://example.com/foo"/>
+{% else %}
+<img src="https://example.com/bar"/>
+{% endif %} ;;
+  }
+}
+""", plugins=["lkmlfmt_djhtml"])
+
+assert lkml == """\
+view: view_name {
+  dimension: column_name {
+    html:
+      {% if value == "foo" %}
+        <img src="https://example.com/foo"/>
+      {% else %}
+        <img src="https://example.com/bar"/>
+      {% endif %}
+    ;;
+  }
+}
+"""
+```
+
