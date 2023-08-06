@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+flet_ivid/__init__.py
+flet_ivid/video_container.py
+flet_ivid.egg-info/PKG-INFO
+flet_ivid.egg-info/SOURCES.txt
+flet_ivid.egg-info/dependency_links.txt
+flet_ivid.egg-info/requires.txt
+flet_ivid.egg-info/top_level.txt
