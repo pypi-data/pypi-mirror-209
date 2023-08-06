@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: hundun
+Version: 0.1.39
+Summary: hundun is a python library for the exploration of chaos.
+Author-email: kosh <llllbxg@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2021 - 2022 llbxg
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: repository, http://github.com/llbxg/hundun
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE.txt
+
+# hundun
+
+hundun is a python library for the exploration of chaos.   
+
+See [hundun.wiki](https://github.com/llbxg/hundun/wiki) for details.
+
+## Gallery
+
+### [`Drawing.trajectory_3d`](https://github.com/llbxg/hundun/wiki/Drawing#trajectory_3d-)
+![image:trajectory_3d](https://raw.githubusercontent.com/wiki/llbxg/hundun/image/trajectory_3d.gif)
+
+
+### [`est_lag_w_acf`](https://github.com/llbxg/hundun/wiki/Estimate-the-time-lag#est_lag_w_acf)
+![image:est_lag_w_acf](https://raw.githubusercontent.com/wiki/llbxg/hundun/image/est_lag_w_acf.png)
+
+
+### [`calc_dimension_capacity`](https://github.com/llbxg/hundun/wiki/Calculate-the-generalized-dimension#calc_dimension_capacity)
+![image:calc_dimension_capacity](https://raw.githubusercontent.com/wiki/llbxg/hundun/image/dimension_capacity.png)
+
+
+### [`show_recurrence_plot`](https://github.com/llbxg/hundun/wiki/Visualization#show_recurrence_plot)
+![image:show_recurrence_plot](https://raw.githubusercontent.com/wiki/llbxg/hundun/image/show_recurrence_plot2.png)
+
+
+### [`calc_les`](https://github.com/llbxg/hundun/wiki/Lyapunov-exponents#calc_les)
+![image:calc_les](https://raw.githubusercontent.com/wiki/llbxg/hundun/image/calc_les-Henon.png)
+
+
+### [`calc_les`](https://github.com/llbxg/hundun/wiki/Lyapunov-exponents#calc_les)
+![image:calc_les](https://raw.githubusercontent.com/wiki/llbxg/hundun/image/calc_les-Lorenz.png)

@@ -1,0 +1,10 @@
+scipy
+matplotlib
+numpy
+
+[dev]
+flake8
+setuptools_scm
+wheel
+build
+twine
