@@ -1,0 +1,293 @@
+app_name: app
+components:
+- image: feee
+  name: fe
+  traits:
+  - type:
+      description: Add command on K8s pod for your workload which follows the pod
+        spec in path 'spec.template'
+      name: command
+      parameters:
+      - name: null
+        type: '*#PatchParams | close({'
+      type: trait
+  type:
+    description: Describes long-running, scalable, containerized services that have
+      a stable network endpoint to receive external network traffic from customers.
+    name: webservice
+    parameters:
+    - mandatory: false
+      name: labels
+      type: '[string]: string'
+      usage: Specify the labels in the workload
+    - mandatory: false
+      name: annotations
+      type: '[string]: string'
+      usage: Specify the annotations in the workload
+    - mandatory: true
+      name: image
+      short: i
+      type: string
+      usage: Which image would you like to use for your service
+    - mandatory: false
+      name: imagePullPolicy
+      type: '"Always" | "Never" | "IfNotPresent"'
+      usage: Specify image pull policy for your service
+    - mandatory: false
+      name: imagePullSecrets
+      type: '[...string]'
+      usage: Specify image pull secrets for your service
+    - mandatory: false
+      name: port
+      short: p
+      type: int
+    - mandatory: false
+      name: ports
+      type: '[...{'
+      usage: Which ports do you want customer traffic sent to, defaults to 80
+    - mandatory: true
+      name: exposeType
+      type: '*"ClusterIP" | "NodePort" | "LoadBalancer"'
+    - mandatory: true
+      name: addRevisionLabel
+      type: '*false | bool'
+    - mandatory: false
+      name: cmd
+      type: '[...string]'
+      usage: Commands to run in the container
+    - mandatory: false
+      name: args
+      type: '[...string]'
+      usage: Arguments to the entrypoint
+    - mandatory: false
+      name: env
+      type: '[...{'
+      usage: Define arguments by using environment variables
+    - mandatory: false
+      name: cpu
+      type: string
+      usage: Number of CPU units for the service, like `0.5` (0.5 CPU core), `1` (1
+        CPU core)
+    - mandatory: false
+      name: volumeMounts
+      type: '{'
+      usage: Specifies the attributes of the memory resource required for the container.
+    - mandatory: false
+      name: volumeMounts
+      type: '{'
+      usage: Specifies the attributes of the memory resource required for the container.
+    - mandatory: false
+      name: livenessProbe
+      type: '#HealthProbe'
+    - mandatory: false
+      name: readinessProbe
+      type: '#HealthProbe'
+      usage: Instructions for assessing whether the container is in a suitable state
+        to serve traffic.
+    - mandatory: false
+      name: hostAliases
+      type: '[...{'
+      usage: Specify the hostAliases to add
+    type: component
+- image: beee
+  name: be
+  traits:
+  - type:
+      description: Automatically scale the component based on CPU usage.
+      name: cpuscaler
+      parameters:
+      - mandatory: true
+        name: min
+        type: '*1 | int'
+        usage: Specify the minimal number of replicas to which the autoscaler can
+          scale down
+      - mandatory: true
+        name: max
+        type: '*10 | int'
+        usage: Specify the maximum number of of replicas to which the autoscaler can
+          scale up
+      - mandatory: true
+        name: cpuUtil
+        type: '*50 | int'
+        usage: Specify the average CPU utilization, for example, 50 means the CPU
+          usage is 50%
+      - mandatory: true
+        name: targetAPIVersion
+        type: '*"apps/v1" | string'
+        usage: Specify the apiVersion of scale target
+      - mandatory: true
+        name: targetKind
+        type: '*"Deployment" | string'
+        usage: Specify the kind of scale target
+      type: trait
+  - type:
+      description: Manually scale K8s pod for your workload which follows the pod
+        spec in path 'spec.template'.
+      name: scaler
+      parameters:
+      - mandatory: true
+        name: replicas
+        type: '*1 | int'
+        usage: Specify the number of workload
+      type: trait
+  type:
+    description: Describes daemonset services in Kubernetes.
+    name: daemon
+    parameters:
+    - mandatory: false
+      name: labels
+      type: '[string]: string'
+      usage: Specify the labels in the workload
+    - mandatory: false
+      name: annotations
+      type: '[string]: string'
+      usage: Specify the annotations in the workload
+    - mandatory: true
+      name: image
+      short: i
+      type: string
+      usage: Which image would you like to use for your service
+    - mandatory: false
+      name: imagePullPolicy
+      type: '"Always" | "Never" | "IfNotPresent"'
+      usage: Specify image pull policy for your service
+    - mandatory: false
+      name: imagePullSecrets
+      type: '[...string]'
+      usage: Specify image pull secrets for your service
+    - mandatory: false
+      name: port
+      short: p
+      type: int
+    - mandatory: false
+      name: ports
+      type: '[...{'
+      usage: Which ports do you want customer traffic sent to, defaults to 80
+    - mandatory: true
+      name: exposeType
+      type: '*"ClusterIP" | "NodePort" | "LoadBalancer" | "ExternalName"'
+    - mandatory: true
+      name: addRevisionLabel
+      type: '*false | bool'
+    - mandatory: false
+      name: cmd
+      type: '[...string]'
+      usage: Commands to run in the container
+    - mandatory: false
+      name: env
+      type: '[...{'
+      usage: Define arguments by using environment variables
+    - mandatory: false
+      name: cpu
+      type: string
+      usage: Number of CPU units for the service, like `0.5` (0.5 CPU core), `1` (1
+        CPU core)
+    - mandatory: false
+      name: volumeMounts
+      type: '{'
+      usage: Specifies the attributes of the memory resource required for the container.
+    - mandatory: false
+      name: volumeMounts
+      type: '{'
+      usage: Specifies the attributes of the memory resource required for the container.
+    - mandatory: false
+      name: livenessProbe
+      type: '#HealthProbe'
+    - mandatory: false
+      name: readinessProbe
+      type: '#HealthProbe'
+      usage: Instructions for assessing whether the container is in a suitable state
+        to serve traffic.
+    - mandatory: false
+      name: hostAliases
+      type: '[...{'
+      usage: Specify the hostAliases to add
+    type: component
+policies:
+- name: rep
+  type:
+    description: Describe the configuration to replicate components when deploying
+      resources, it only works with specified `deploy` step in workflow.
+    name: replication
+    parameters:
+    - mandatory: true
+      name: keys
+      type: '[...string]'
+      usage: Spicify the keys of replication. Every key coresponds to a replication
+        components
+    - mandatory: false
+      name: selector
+      type: '[...string]'
+      usage: Specify the components which will be replicated.
+    type: policy
+- name: top
+  type:
+    description: Describe the destination where components should be deployed to.
+    name: topology
+    parameters:
+    - mandatory: false
+      name: clusters
+      type: '[...string]'
+      usage: Specify the names of the clusters to select.
+    - mandatory: false
+      name: clusterLabelSelector
+      type: '[string]: string'
+      usage: Specify the label selector for clusters
+    - mandatory: false
+      name: allowEmpty
+      type: bool
+      usage: Ignore empty cluster error
+    - mandatory: false
+      name: namespace
+      type: string
+    type: policy
+workflow:
+- name: deploy
+  type:
+    description: A powerful and unified deploy step for components multi-cluster delivery
+      with policies.
+    name: deploy
+    parameters:
+    - mandatory: true
+      name: auto
+      type: '*true | bool'
+      usage: If set to false, the workflow will suspend automatically before this
+        step, default to be true.
+    - mandatory: true
+      name: policies
+      type: '*[] | [...string]'
+      usage: Declare the policies that used for this deployment. If not specified,
+        the components will be deployed to the hub cluster.
+    - mandatory: true
+      name: parallelism
+      type: '*5 | int'
+      usage: Maximum number of concurrent delivered components.
+    - mandatory: true
+      name: ignoreTerraformComponent
+      type: '*true | bool'
+      usage: If set false, this step will apply the components with the terraform
+        workload.
+    type: workflow-step
+- name: not
+  type:
+    description: Send notifications to Email, DingTalk, Slack, Lark or webhook in
+      your workflow.
+    name: notification
+    parameters:
+    - mandatory: false
+      name: lark
+      type: '{'
+      usage: Please fulfill its url and message if you want to send Lark messages
+    - mandatory: false
+      name: dingding
+      type: '{'
+      usage: Please fulfill its url and message if you want to send DingTalk messages
+    - mandatory: false
+      name: slack
+      type: '{'
+      usage: Please fulfill its url and message if you want to send Slack messages
+    - mandatory: false
+      name: email
+      type: '{'
+      usage: Please fulfill its from, to and content if you want to send email
+    type: workflow-step
