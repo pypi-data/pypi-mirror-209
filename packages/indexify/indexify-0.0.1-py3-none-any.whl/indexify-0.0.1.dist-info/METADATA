@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: indexify
+Version: 0.0.1
+Summary: Python Client for Indexify
+Home-page: https://github.com/diptanu/indexify
+License: Apache 2.0
+Author: Diptanu Gon Choudhury
+Author-email: diptanuc@gmail.com
+Requires-Python: >=3.10.0,<4.0.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: requests (>=2.28.2,<3.0.0,!=2.30.0)
+Project-URL: Repository, https://github.com/diptanu/indexify
+Description-Content-Type: text/x-rst
+
+# Indexify Python Client
