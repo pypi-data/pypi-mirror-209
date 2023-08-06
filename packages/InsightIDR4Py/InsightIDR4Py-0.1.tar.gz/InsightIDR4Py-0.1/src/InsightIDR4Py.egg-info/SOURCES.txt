@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/InsightIDR4Py/InsightIDR4Py.py
+src/InsightIDR4Py/__init__.py
+src/InsightIDR4Py.egg-info/PKG-INFO
+src/InsightIDR4Py.egg-info/SOURCES.txt
+src/InsightIDR4Py.egg-info/dependency_links.txt
+src/InsightIDR4Py.egg-info/requires.txt
+src/InsightIDR4Py.egg-info/top_level.txt
