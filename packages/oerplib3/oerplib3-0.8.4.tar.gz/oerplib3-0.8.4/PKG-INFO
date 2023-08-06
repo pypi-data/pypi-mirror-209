@@ -1,0 +1,28 @@
+Metadata-Version: 1.2
+Name: oerplib3
+Version: 0.8.4
+Summary: Python3 oerlib porting
+Home-page: https://zeroincombenze-tools.readthedocs.io
+Author: Sébastien Alix, Antonio Maria Vigliotti
+Author-email: antoniomaria.vigliotti@gmail.com
+License: Affero GPL
+Project-URL: Source, https://github.com/zeroincombenze/tools
+Project-URL: Documentation, https://zeroincombenze-tools.readthedocs.io
+Description: OERPLib3 is a Python module providing an easy way to pilot
+             your OpenERP and Odoo servers through RPC.
+             Pleas do not yet use this code: it is experimental code
+        
+Keywords: openerp odoo server client xml-rpc xmlrpc net-rpc netrpc webservice
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
