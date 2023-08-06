@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+sigmoidal/__init__.py
+sigmoidal.egg-info/PKG-INFO
+sigmoidal.egg-info/SOURCES.txt
+sigmoidal.egg-info/dependency_links.txt
+sigmoidal.egg-info/requires.txt
+sigmoidal.egg-info/top_level.txt
