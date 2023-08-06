@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+find_old_large_files/__init__.py
+find_old_large_files/find_old_large_files.py
+find_old_large_files.egg-info/PKG-INFO
+find_old_large_files.egg-info/SOURCES.txt
+find_old_large_files.egg-info/dependency_links.txt
+find_old_large_files.egg-info/entry_points.txt
+find_old_large_files.egg-info/requires.txt
+find_old_large_files.egg-info/top_level.txt
