@@ -1,0 +1,11 @@
+pylibrb/__init__.py,sha256=SyVlASBnlv1in2e6acwp8vM4Se6jGre7B2flamldZCI,92
+pylibrb/__init__.pyi,sha256=ScP-DXBlo0Oab8l3C-29MsH0kVzkKD7aOYU1N_nb_lQ,37061
+pylibrb/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pylibrb/pylibrb_ext.cp39-win_amd64.pyd,sha256=PGN_NRSSk0q_qn4eIEXJjRUHIqWrdxMhWkjwnOuedyA,442368
+pylibrb/pylibrb_ext.pypy39-pp73-win_amd64.pyd,sha256=A7z92LhB1oMRBUscdT114SSs709cU-5Rn3E788SJyK0,436736
+pylibrb-0.0.3.data/data/VERSION,sha256=dEj8KrFke0LnS0oaAsirXMHgTLLcLZS-xELsN8s-KUg,5
+pylibrb-0.0.3.dist-info/LICENSE,sha256=EcSotBSlNDZfAtp9rZ3D5HHTWxXtMd-dQAb7KhRMREM,18429
+pylibrb-0.0.3.dist-info/METADATA,sha256=XeamOe6YML2ootmfquG2ssCHbvBW8ZV0JePh_phrP0U,2509
+pylibrb-0.0.3.dist-info/WHEEL,sha256=cYOycE9-Z718qPxPzwBhMNxPmhBilSKc2-iLy5vSgHc,101
+pylibrb-0.0.3.dist-info/top_level.txt,sha256=4zlIxFBgsYuCHYfYxcZUMHOKA8CLUw4-C8DV8OTDP78,8
+pylibrb-0.0.3.dist-info/RECORD,,
