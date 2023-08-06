@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: voila-material-tuwien
+Version: 0.4.4
+Summary: Material design template for voila
+Home-page: https://github.com/voila-dashboards/voila-material
+Author: ['Voila Development Team', 'Florian Jaeger']
+Keywords: ipython,jupyter,widgets,voila
+License-File: LICENSE
+Requires-Dist: voila (<0.6.0,>=0.2.1)
+
