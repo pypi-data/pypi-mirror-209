@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: canaveral-cli
+Version: 0.1.0
+Summary: Helper CLI to interact with Devscope's internal platform codename Canaveral
+Author: André Gomes
+Author-email: andre.gomes@devscope.net
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: Jinja2 (>=3.1.2,<4.0.0)
+Requires-Dist: PyGithub (>=1.58.2,<2.0.0)
+Requires-Dist: PyYAML (>=6.0,<7.0)
+Requires-Dist: inquirerpy (>=0.3.4,<0.4.0)
+Requires-Dist: python-dotenv (>=1.0.0,<2.0.0)
+Requires-Dist: rich (>=13.3.5,<14.0.0)
+Requires-Dist: typer[all] (>=0.9.0,<0.10.0)
