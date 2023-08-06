@@ -1,0 +1,9 @@
+perfflowaspect/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+perfflowaspect/advice_chrome.py,sha256=01R5GfDxbza4NL14qSgci0m-nUmiTHJRv8IM22mb77I,14436
+perfflowaspect/advice_dispatch.py,sha256=dvaDFm7b3g5GkjMou06AuzC4yv76nKA1dlYwIWqJBeY,1457
+perfflowaspect/aspect.py,sha256=i0crVaIYVRYFlKC4GgkVEXFy-xisvUoJD_zMYUfoC7c,1860
+perfflowaspect/aspect_base.py,sha256=ODgumdxYSPOHvUCN_Oxp2G5lK3kJp9BSIfWsjjVuTRE,672
+perfflowaspect-0.1.0.dist-info/METADATA,sha256=MNquvu7YfGjxrXNyH5NHymWIzczbDi3cVGBkPhuk104,5861
+perfflowaspect-0.1.0.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+perfflowaspect-0.1.0.dist-info/top_level.txt,sha256=LDYFbwLXq2hxI3lBb9NuBv6O2hURWraZ5dQiUZhwA44,15
+perfflowaspect-0.1.0.dist-info/RECORD,,
