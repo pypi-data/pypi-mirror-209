@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: Apiamtic-python
+Version: 1.5.9
+Summary: The API helps manage or use MEC platform hosted services.
+Requires-Python: >=3.7
+Provides-Extra: testutils
+License-File: LICENSE
