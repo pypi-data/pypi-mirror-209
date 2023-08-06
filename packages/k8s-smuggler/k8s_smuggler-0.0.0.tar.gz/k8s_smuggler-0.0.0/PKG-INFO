@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: k8s-smuggler
+Version: 0.0.0
+Summary: 
+Author: DiegoPomares
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: click (>=8.1.3,<9.0.0)
+Requires-Dist: kubernetes (>=23,<24)
+Description-Content-Type: text/markdown
+
+# Kubernetes Smuggler
+
+Kubernetes Smuggler is a CLI that aids with the migration of Kubernetes resources between clusters.
+
+Requires Python 3.10 or superior.
+
