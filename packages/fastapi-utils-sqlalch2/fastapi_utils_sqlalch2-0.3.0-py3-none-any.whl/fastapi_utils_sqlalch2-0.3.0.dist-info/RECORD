@@ -1,0 +1,17 @@
+fastapi_utils_sqlalch2/__init__.py,sha256=VrXpHDu3erkzwl_WXrqINBm9xWkcyUy53IQOj042dOs,22
+fastapi_utils_sqlalch2/api_model.py,sha256=y6uYV2zzCZDzGz6dRHRk0j8e0zB2ImZVmL3JUBMVzGc,903
+fastapi_utils_sqlalch2/api_settings.py,sha256=0NPetT6LiumLG_hiROS-5efCuGfziMopwu5PrfqA5eg,2518
+fastapi_utils_sqlalch2/camelcase.py,sha256=vjSsD-LvfpEaSXnoQm5RDZPPVNtxdm0ls42po0U7-kM,882
+fastapi_utils_sqlalch2/cbv.py,sha256=1IrTdYRjqNHmvwe3GlqrnDYxBjH9IiIRjSM9blma-pY,4291
+fastapi_utils_sqlalch2/enums.py,sha256=pN06R-YmmuMb7jV6aJwrfGF2KKED5FtRVgGbOWEcS3I,1244
+fastapi_utils_sqlalch2/guid_type.py,sha256=FXI_3ys1LvNl9H2RxcaFcx-kCagD1gz0xMOyZSR66Wo,2251
+fastapi_utils_sqlalch2/inferring_router.py,sha256=5Hp3HYKCbz-rt4U14sPmiIaQ-v3pgmABPMoPQccsZQM,245
+fastapi_utils_sqlalch2/openapi.py,sha256=CkbMFnEQZPX9prD0KWmcGeKvRyjw_DUDm3htSw4wv8k,367
+fastapi_utils_sqlalch2/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastapi_utils_sqlalch2/session.py,sha256=QYVevr8n3QPK-0LdT8_C1rbA5F7ztwMQcrARROmwg2s,5205
+fastapi_utils_sqlalch2/tasks.py,sha256=VtTkSmFcZnjHPsrGEL8aUb1JgUpt97693JUcns31wvc,3490
+fastapi_utils_sqlalch2/timing.py,sha256=tFf-9ijdLaxgLdu3QxVaXfe9Y4l8PFXFT4--OL9lGF4,6956
+fastapi_utils_sqlalch2-0.3.0.dist-info/LICENSE,sha256=-r2XxA-sDYTOsfo9rLigkh9MOodwzsj5Z3J2Zb3NXPQ,1081
+fastapi_utils_sqlalch2-0.3.0.dist-info/METADATA,sha256=PEi9R1NmHCBQK1LtPWhJZJpSLxDyXttgDtlHOT0Bboo,5286
+fastapi_utils_sqlalch2-0.3.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+fastapi_utils_sqlalch2-0.3.0.dist-info/RECORD,,
