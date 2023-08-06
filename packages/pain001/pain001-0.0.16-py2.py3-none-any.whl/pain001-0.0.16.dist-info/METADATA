@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: pain001
+Version: 0.0.16
+Summary: Pain001 is a Python Library for Automating ISO 20022-Compliant Payment Files
+Home-page: https://github.com/sebastienrousseau/pain001
+Author: Sebastien Rousseau
+Author-email: sebastian.rousseau@gmail.com
+License: Apache Software License
+Project-URL: Documentation, https://pain001.com/documentation/
+Project-URL: Funding, https://paypal.me/wwdseb
+Project-URL: Release notes, https://pain001.com/release-notes/
+Project-URL: Source, https://github.com/sebastienrousseau/pain001/releases
+Keywords: iso 20022 pain.001 credit transfer financial banking         payments csv sepa
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: OS Independent
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Unix
+Description-Content-Type: text/markdown
+License-File: LICENSE-APACHE
+Requires-Dist: xmlschema (>=2.3.0)
+
+Pain001 is a Python Library for Automating ISO 20022-Compliant Payment Files
+Using CSV Data.
+
+It offers a streamlined solution for reducing complexity and costs
+associated with payment processing. By providing a simple and efficient
+method to create ISO 20022-compliant payment files, it eliminates the
+manual effort of file creation and validation. This not only saves valuable
+time and resources but also minimizes the risk of errors, ensuring accurate and
+seamless payment processing.
