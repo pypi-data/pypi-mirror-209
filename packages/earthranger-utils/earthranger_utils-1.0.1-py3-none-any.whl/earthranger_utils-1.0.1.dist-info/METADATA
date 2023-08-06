@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: earthranger-utils
+Version: 1.0.1
+Summary: Package to aide in utilization of Earthranger
+Author-email: Katie Garwood <kgarwood@sdzwa.org>
+Project-URL: Homepage, https://github.com/kgarwoodsdzwa/earthranger_utils
+Keywords: feed,reader,tutorial
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: requests
+Requires-Dist: datetime
+Provides-Extra: dev
+
+# earthranger_utils
