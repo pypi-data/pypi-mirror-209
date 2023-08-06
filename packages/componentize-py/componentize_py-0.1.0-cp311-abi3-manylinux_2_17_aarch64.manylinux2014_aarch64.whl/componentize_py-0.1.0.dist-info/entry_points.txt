@@ -1,0 +1,2 @@
+[console_scripts]
+script=componentize_py:script
