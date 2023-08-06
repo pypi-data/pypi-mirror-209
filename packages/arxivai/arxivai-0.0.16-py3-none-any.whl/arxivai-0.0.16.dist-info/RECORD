@@ -1,0 +1,7 @@
+arxivai/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+arxivai/api.py,sha256=ck5nXzAJMIq5nLQqzlXzvy7U0Aq8zi9be6mGnCftJ40,5185
+arxivai/embedding.py,sha256=nwlEl2emm0Rx5k6zixsOu3ktNcNl9FkpByiVlT1jcuY,1918
+arxivai/pdf.py,sha256=XWw4MCK-5nYCGVDv4isAWWYUMBiElXOpilOlR-3rHOs,1270
+arxivai-0.0.16.dist-info/METADATA,sha256=2dn9_9QURbdJDUOa7Kl7R2dgr1Bm9DNKMTPKZI9ke6A,655
+arxivai-0.0.16.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+arxivai-0.0.16.dist-info/RECORD,,
