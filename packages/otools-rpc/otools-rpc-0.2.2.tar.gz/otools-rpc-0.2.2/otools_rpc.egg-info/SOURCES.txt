@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+otools_rpc/__init__.py
+otools_rpc.egg-info/PKG-INFO
+otools_rpc.egg-info/SOURCES.txt
+otools_rpc.egg-info/dependency_links.txt
+otools_rpc.egg-info/requires.txt
+otools_rpc.egg-info/top_level.txt
