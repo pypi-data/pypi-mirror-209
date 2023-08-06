@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "cai-causalnet"
+version = "0.0.0"
+description = "CausalNet: Structural Causal Model (SCM)"
+authors = ["causaLens <opensource@causalens.com>"]
+readme = "README.md"
+packages = [{include = "cai_causalnet"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
