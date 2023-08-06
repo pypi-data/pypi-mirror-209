@@ -1,0 +1,50 @@
+name: "Build & test"
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+env:
+  BUILD_TYPE: Debug
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - uses: turtlebrowser/get-conan@v1.2
+        with:
+          version: 1.59.0
+
+      - uses: egor-tensin/setup-gcc@v1
+        with:
+          version: 12
+          platform: x64
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+          cache: 'pip' # caching pip dependencies
+
+      - name: Checkout submodules
+        run: git submodule update --init
+
+      - name: Install Python dependencies
+        run: python3 -m pip install -U build parameterized appdirs gitpython
+
+      - name: Run unit tests
+        run: PYTHONPATH=$PYTHONPATH:src:src/cppstart python3 -m unittest discover tests
+
+      - name: Build package
+        run: python3 -m build --sdist
+
+      - name: Test package
+        run: |
+          pip install ./dist/cppstart-?.?.?.tar.gz
+          conan profile new default --detect
+          ./e2e_test/bats/bin/bats e2e_test/cppstart-tests.bats
+          
