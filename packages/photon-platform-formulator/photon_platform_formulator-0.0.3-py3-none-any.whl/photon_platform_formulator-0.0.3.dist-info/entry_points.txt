@@ -1,0 +1,2 @@
+[console_scripts]
+formulator = photon_platform.formulator.app:run
