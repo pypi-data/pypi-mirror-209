@@ -1,0 +1,74 @@
+文件夹管理(doFolder)
+====================
+
+::
+
+   pip install import doFolder
+
+使用方法
+--------
+
+导入
+~~~~
+
+.. code:: python
+
+   import doFolder
+
+部分功能
+~~~~~~~~
+
+-  ``Folder`` 指一个文件夹
+
+   -  *参数* ``path`` 文件夹路径:``str|doFolder.Path``
+   -  *参数* ``onlisten`` 是否监听比同步文件夹变动:``bool``
+   -  *属性* ``files`` 文件夹中的文件列表:``FileList``
+   -  *属性* ``subfolder`` 文件夹中的子文件夹:``FolderList``
+   -  *方法* ``hasFolder,hasFile``
+      是否包括某个文件/文件夹,参数为\ ``str``\ 时默认匹配\ ``.name``\ 属性
+   -  *方法* ``remove,copy,move`` 文件夹操作
+   -  *方法* ``search`` 搜索文件夹的内容
+
+      -  *参数* ``condition`` 搜索条件:``List[UnformattedMatching]``
+      -  *参数* ``aim`` 目标: ``"file"|"folder"|"both"``
+      -  *返回* 搜索结果:``SearchResult``
+
+-  ``File`` 指一个文件
+
+   -  *参数* ``path`` 文件路径:``str|doFolder.Path``
+   -  *方法* ``remove,copy,move`` 文件操作
+   -  *属性* ``mode,ino,dev,uid,gid...`` 参见 ``os.stat``
+
+-  ``Path`` 指一个路径
+
+   -  *参数* ``path`` 路径(绝对或相对):``str``
+   -  *属性* ``partition`` 将路径(不包含驱动器)切片
+   -  *方法* ``add`` 将内容加载路径后面
+   -  *方法* ``findRest`` 去除两个路径的共同部分
+
+-  ``FolderList,FileList`` 模拟列表
+
+   -  支持遍历,用index(``str``\ 或\ ``int``)获取值
+   -  in 运算符可以针对\ ``str``\ 使用，代表匹配\ ``.name``\ 属性
+
+-  ``UnformattedMatching`` 搜索条件,可能的类型和意义如下
+
+   -  ``str`` 表示完全匹配文件名/文件夹名
+   -  ``re.Pattern`` 用正则表达式匹配文件名/文件夹名
+   -  ``Callable[[Union["File","Folder"]],bool]`` 自定义匹配函数
+   -  ``FormattedMatching`` 意义如下所示
+
+-  ``FormattedMatching`` 针对\ ``UnformattedMatching``\ 归一化的结果
+   类型为\ ``Tuple``,长度为3
+
+   1. ``Callable[[Union["File","Folder"]],bool]`` 匹配函数
+   2. ``int`` 最小重复次数(默认1)
+   3. ``int|None`` 最大重复次数|正无穷(默认为1) ## 关于作者
+
+作者主页\ `宽宽2007 <https://kuankuan2007.gitee.io>`__
+
+本项目在\ `苟浩铭/文件夹管理
+(gitee.com) <https://gitee.com/kuankuan2007/do-folder>`__\ 上开源
+
+帮助文档参见\ `宽宽的帮助文档
+(gitee.io) <https://kuankuan2007.gitee.io/docs/do-folder/>`__
