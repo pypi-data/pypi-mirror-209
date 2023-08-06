@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: textagon
+Version: 0.1.1
+Summary: Start building textagon
+Author: Mendoza
+Classifier: License :: OSI Approved :: Python Software Foundation License
+Requires-Dist: nltk
+Requires-Dist: multiprocessing
+Requires-Dist: scikit-learn
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: beautifulsoup4
+Requires-Dist: mapply
+Requires-Dist: pyenchant
+Requires-Dist: tzlocal
+Requires-Dist: spacy
+
