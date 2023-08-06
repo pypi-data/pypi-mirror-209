@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/markdown_parser/__init__.py
+src/markdown_parser/script.py
+src/prompt_generator.egg-info/PKG-INFO
+src/prompt_generator.egg-info/SOURCES.txt
+src/prompt_generator.egg-info/dependency_links.txt
+src/prompt_generator.egg-info/entry_points.txt
+src/prompt_generator.egg-info/requires.txt
+src/prompt_generator.egg-info/top_level.txt
