@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: ProcessInteract
+Version: 0.0.1
+Summary: Package for easy interacting with processes and command line (bash)
+Author: weirdoo
+Author-email: weirdoo145@gmail.com
+Requires: psutil
