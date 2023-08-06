@@ -1,0 +1,5 @@
+.env
+local
+private_*.py
+__pycache__
+dist
