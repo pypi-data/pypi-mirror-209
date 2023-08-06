@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+lectiomat/Lectiomat.py
+lectiomat/__init__.py
+mlw_lectiomat.egg-info/PKG-INFO
+mlw_lectiomat.egg-info/SOURCES.txt
+mlw_lectiomat.egg-info/dependency_links.txt
+mlw_lectiomat.egg-info/requires.txt
+mlw_lectiomat.egg-info/top_level.txt
+tests/__init__.py
+tests/test_img_seg.py
+tests/test_ocr.py
