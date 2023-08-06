@@ -1,0 +1,7 @@
+README.md
+setup.cfg
+setup.py
+pynterfacelib.egg-info/PKG-INFO
+pynterfacelib.egg-info/SOURCES.txt
+pynterfacelib.egg-info/dependency_links.txt
+pynterfacelib.egg-info/top_level.txt
