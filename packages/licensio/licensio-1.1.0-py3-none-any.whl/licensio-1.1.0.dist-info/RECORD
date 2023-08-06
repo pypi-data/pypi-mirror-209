@@ -1,0 +1,14 @@
+licensio/__init__.py,sha256=YU8-C0KvHiDwCmWaq6fZveHhRMsSZCskIcIbhhsS_88,319
+licensio/agpl.py,sha256=TE6mW1WrVfWAUIcIH8shEegsUp8MrM-gbVJbns_OhPY,1840
+licensio/apache.py,sha256=YIuQYJ2KaMIjhdLW9O9peuWuW2hHD3IU6NjTyMyhYCQ,1745
+licensio/bsd.py,sha256=7FaVCOp6OPQdt0pjc5_ElZcrquuuPPCY3mOUp-BmGoU,2617
+licensio/cc0.py,sha256=cJvwutncH8uz83CRh2zzP1hbbCDyTmjBHMOpEl2D2UY,1649
+licensio/epl.py,sha256=kuQzri5XpmMCRT9HtgkuB9857Nj_dt_2FdytqBMZdsQ,2278
+licensio/gnu.py,sha256=ySZ1uf44hAjEpG8lC9G5F_vkttKoDdDBU1fgy1r13II,1754
+licensio/lgpl.py,sha256=uhGIgvDzBMxQKxUnXWxXbzIfkUTmWt6t9BehbPOgOGQ,1837
+licensio/mit.py,sha256=stH7PvaoGzwy6o2WQBxOMViKshdi4IecgDiyuGJn2GY,2137
+licensio/wtfpl.py,sha256=QV1LhJqZQ921FZGVU84y8wP-CoUX9G1dp6bYuy0bzTI,1556
+licensio-1.1.0.dist-info/LICENSE,sha256=R3wC5OGHPRlk5IWLoKFjn2wzKcKOeKrPxkx_-2JucbI,1069
+licensio-1.1.0.dist-info/METADATA,sha256=EXuwvJBdCJ1faaEVM-w_J9MbIjwpcwNssKtWCNhIhjA,3508
+licensio-1.1.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+licensio-1.1.0.dist-info/RECORD,,
