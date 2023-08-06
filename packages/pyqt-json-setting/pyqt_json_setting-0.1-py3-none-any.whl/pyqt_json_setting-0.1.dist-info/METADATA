@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: pyqt-json-setting
+Version: 0.1
+Summary: 根据json schema生成设置界面
+Home-page: https://github.com/ovo-Tim/pyqt-json-settingt
+Author: ovo-tim
+Author-email: ovo-tim@qq.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: PySide6
+Requires-Dist: jsonschema
+Requires-Dist: ujson
+
+# pyqt设置生成器
+一个可以根据`json schema`自动生成设置界面的工具
+
+![](example/image.png)
+
+功能:
+- 错误提示
+- 选项描述
+- 默认值提示
