@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+pitonbr/__init__.py
+pitonbr/condicionador.py
+pitonbr/conversor.py
+pitonbr/erro.py
+pitonbr/escritor.py
+pitonbr/importador.py
+pitonbr/ledor.py
+pitonbr/repetidor.py
+pitonbr/tipo.py
+pitonbr.egg-info/PKG-INFO
+pitonbr.egg-info/SOURCES.txt
+pitonbr.egg-info/dependency_links.txt
+pitonbr.egg-info/top_level.txt
