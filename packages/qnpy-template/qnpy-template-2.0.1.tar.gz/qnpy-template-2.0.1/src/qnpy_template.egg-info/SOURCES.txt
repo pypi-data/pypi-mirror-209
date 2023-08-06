@@ -1,0 +1,16 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+configuration/data.json
+src/qnpy/__init__.py
+src/qnpy/calculator.py
+src/qnpy_template.egg-info/PKG-INFO
+src/qnpy_template.egg-info/SOURCES.txt
+src/qnpy_template.egg-info/dependency_links.txt
+src/qnpy_template.egg-info/entry_points.txt
+src/qnpy_template.egg-info/requires.txt
+src/qnpy_template.egg-info/top_level.txt
+src/qnpy_template.egg-info/zip-safe
+test/test_calculator.py
