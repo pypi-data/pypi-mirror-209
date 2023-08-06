@@ -1,0 +1,8 @@
+pyproject.toml
+setup.py
+shinherpro.egg-info/PKG-INFO
+shinherpro.egg-info/SOURCES.txt
+shinherpro.egg-info/dependency_links.txt
+shinherpro.egg-info/top_level.txt
+tyaishinher/__init__.py
+tyaishinher/tyaigradesystepro142.py
