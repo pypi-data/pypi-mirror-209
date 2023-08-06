@@ -1,0 +1,12 @@
+celsus/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+celsus/logger/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+celsus/logger/logger.py,sha256=IzaCYlaI_PpRG4PPTo8rD5CAeGaTW5djV4B8viEesOU,1317
+celsus/toolbox/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+celsus/toolbox/email_sender.py,sha256=tek132gx3Lq9H5rgYvX8IwAW2TJSWARD7Dmy-J-fTYQ,2325
+celsus/toolbox/pandas.py,sha256=0wdHN_KkjD-3W-wkTgbeLNQSIezfc7qoWTthtScaLRA,1048
+celsus/toolbox/service_errors.py,sha256=u3SWd-8QeLZ11kkPnIk8-u6A8Jmp40FXq_zQ-LVCZFw,1923
+celsus/toolbox/statistical.py,sha256=9sHI5hP1HTL5m4DmghqycdKM27WkJW_dSthqysvGAfc,1245
+celsus_colendi-0.0.6.dist-info/METADATA,sha256=_J2zsQ6CHUOrEJysjhvuafPVkQS1tBnRUw7-wFOG38E,2138
+celsus_colendi-0.0.6.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+celsus_colendi-0.0.6.dist-info/top_level.txt,sha256=XP9wops2mAjw4GQCr338fFw7eWQuKdH7zqtqHKou4EE,7
+celsus_colendi-0.0.6.dist-info/RECORD,,
