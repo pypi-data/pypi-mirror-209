@@ -1,0 +1,15 @@
+chanfig/__init__.py,sha256=zFQrye-l4X7bnDQooSU5v9tb2J9jW6GFxQEXtK7SF6o,1691
+chanfig/_version.py,sha256=FrUFf9b1LSOlH4w-3PXq3Qnb3aHJpg6oSx1CyRB72Tg,162
+chanfig/config.py,sha256=j6w6K4iQdOIW7KAXfcWQvrDBGNWXmGZqeHJysTv60v0,22646
+chanfig/default_dict.py,sha256=it8jvEsu3hV8W9rM37nSze8xSZn_oMIwFcG4Ae8bbDo,3809
+chanfig/flat_dict.py,sha256=Ii8WPOvy2JQvhGNdQEAhoDxRYccAPrCkRVJsI7oYQvQ,34526
+chanfig/nested_dict.py,sha256=z6uFiS72-zp5egO0RSDTvyQCq20nJDddquCZ6qf8Bxs,21468
+chanfig/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chanfig/registry.py,sha256=67wbr0dbWkgFeMoMyQsLiZxDw0B-vmCqBmtTKqMAijk,6447
+chanfig/utils.py,sha256=qZ3W2IW-zS8r8G9TJS56nKB7pIBLJAWPPuwagqlFI5o,5759
+chanfig/variable.py,sha256=Sls_ut_ztmYcTLnT4jRi0Vj_o908Kl1RNqtkGVSENyQ,9690
+chanfig-0.0.81.dist-info/LICENSE,sha256=Zq9MYh9Ni8KrMkQqPJOW6WeRpUQoIrc2juNe6GepuHA,99
+chanfig-0.0.81.dist-info/METADATA,sha256=SlBabZvd_FLQy99YXl3BNuDsiSxLuB5tdA0QLA-NQ8c,10281
+chanfig-0.0.81.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+chanfig-0.0.81.dist-info/top_level.txt,sha256=9_ELnhjkQxVhnarefJQZIXjDsFH5D0Am5GeKjgI4b5c,8
+chanfig-0.0.81.dist-info/RECORD,,
