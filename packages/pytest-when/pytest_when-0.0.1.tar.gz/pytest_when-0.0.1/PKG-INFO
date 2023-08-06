@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pytest-when
+Version: 0.0.1
+Author-Email: zhukovgreen <iam+pytest-when@zhukovgreen.pro>
+Project-URL: Repository, https://github.com/zhukovgreen/pytest-when
+Requires-Python: >=3.8
+Requires-Dist: environs>=9.5.0
+Requires-Dist: pip>=23.1.2
+Description-Content-Type: text/markdown
+
+# pytest-when
+
+Pytest plugin for making mocking in python more readable.
+Inspired by <https://github.com/mockito/mockito-scala>
