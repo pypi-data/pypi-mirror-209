@@ -1,0 +1,20 @@
+{
+  "default": [],
+  "schema": {
+    "items": {
+      "default": "foo",
+      "type": "string"
+    },
+    "type": "array"
+  },
+  "valid": [
+    [
+      "foo"
+    ],
+    [
+      "1",
+      "2",
+      "3"
+    ]
+  ]
+}
