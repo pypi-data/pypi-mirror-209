@@ -1,0 +1,145 @@
+Package tclmacbag 0.14
+Meta as::author  {Peter Caffin}
+Meta as::origin  http://tclmacbag.autons.net/
+Meta category    Widget set
+Meta description A high-level widget set for Tcl/Tk, providing Mac styled 
+Meta description widgets, knowing they'll be rendered appropriately on other platforms using 
+Meta description Tile and Tk fallbacks.
+Meta license     BSD
+Meta platform    tcl
+Meta recommend   {Tk}
+Meta recommend   {tile 0.6 1}
+Meta require     {Tcl 8.1.1}
+Meta require     {Tk 8.3}
+Meta subject     tclmacbag widget toolkit Tk megawidget
+Meta summary     Platform nativeness widgets for Mac OS X and others
+
+Meta entrytclcommand {eval "source \{$dir/tclmacbag.tcl\}
+ source \{$dir/scrolledframe.tcl\}
+ source \{$dir/pnb.tcl\}
+ source \{$dir/groupbox.tcl\}
+ source \{$dir/text.tcl\}
+ source \{$dir/listbox.tcl\}
+ source \{$dir/dframe.tcl\}
+ source \{$dir/dbutton.tcl\}
+ source \{$dir/ddialog.tcl\}
+ source \{$dir/actionbutton.tcl\}
+ source \{$dir/entry.tcl\}"}
+ source \{$dir/scopebutton.tcl\}"}
+Meta included     Demos/Demo.tcl Demos/General_Widgets.tcl
+Meta included     Demos/Grouping_and_Scrollframes.tcl
+Meta included     Demos/Stylebuttons.tcl Demos/View_and_Action.tcl
+Meta included     Demos/Images/image1.gif Demos/Images/imageA.gif Demos/Images/searchentry-replace.gif
+Meta included	  Demos/Scopebutton.tcl
+Meta included     actionbutton.tcl
+Meta included     dbutton.tcl 
+Meta included     ddialog.tcl 
+Meta included     dframe.tcl
+Meta included     entry.tcl
+Meta included     groupbox.tcl 
+Meta included     listbox.tcl 
+Meta included     pnb.tcl
+Meta included     scrolledframe.tcl 
+Meta included     scopebutton.tcl 
+Meta included     tclmacbag.tcl 
+Meta included     text.tcl
+Meta included     Resources/action-gear.png
+Meta included     Resources/action-minus.png
+Meta included     Resources/action-plus.png
+Meta included     Resources/blank1x1.gif
+Meta included     Resources/capsule-down.gif
+Meta included     Resources/capsule-left-down.gif
+Meta included     Resources/capsule-left-up.gif
+Meta included     Resources/capsule-middle-down.gif
+Meta included     Resources/capsule-middle-up.gif
+Meta included     Resources/capsule-right-down.gif
+Meta included     Resources/capsule-right-up.gif
+Meta included     Resources/capsule-up.gif
+Meta included     Resources/capsule-up.png
+Meta included     Resources/chrome-down.gif
+Meta included     Resources/chrome-left-down.gif
+Meta included     Resources/chrome-left-up.gif
+Meta included     Resources/chrome-middle-down.gif
+Meta included     Resources/chrome-middle-up.gif
+Meta included     Resources/chrome-right-down.gif
+Meta included     Resources/chrome-right-up.gif
+Meta included     Resources/chrome-up.gif
+Meta included     Resources/dbutton-closed.png
+Meta included     Resources/dbutton-open.png
+Meta included     Resources/dbutton-winclosed.png
+Meta included     Resources/dbutton-winopen.png
+Meta included     Resources/ddialog-closed.png
+Meta included     Resources/ddialog-open.png
+Meta included     Resources/ddialog-winclosed.png
+Meta included     Resources/ddialog-winopen.png
+Meta included     Resources/dframe-closed.png
+Meta included     Resources/dframe-minus.png
+Meta included     Resources/dframe-open.png
+Meta included     Resources/dframe-plus.png
+Meta included     Resources/gel-down.gif
+Meta included     Resources/gel-small-down.gif
+Meta included     Resources/gel-small-up.gif
+Meta included     Resources/gel-up.gif
+Meta included     Resources/help-mac.gif
+Meta included     Resources/help-windows.gif
+Meta included     Resources/help-x11.gif
+Meta included     Resources/pill-down.gif
+Meta included     Resources/pill-left-down.gif
+Meta included     Resources/pill-left-up.gif
+Meta included     Resources/pill-middle-down.gif
+Meta included     Resources/pill-middle-up.gif
+Meta included     Resources/pill-right-down.gif
+Meta included     Resources/pill-right-up.gif
+Meta included     Resources/pill-up.gif
+Meta included     Resources/safari-down.gif
+Meta included     Resources/safari-left-down.gif
+Meta included     Resources/safari-left-up.gif
+Meta included     Resources/safari-middle-down.gif
+Meta included     Resources/safari-middle-up.gif
+Meta included     Resources/safari-right-down.gif
+Meta included     Resources/safari-right-up.gif
+Meta included     Resources/safari-up.gif
+Meta included     Resources/scope-blank12x12.png
+Meta included     Resources/scope-crossAquaActive.png
+Meta included     Resources/scope-crossAqua.png
+Meta included     Resources/scope-down.gif
+Meta included     Resources/scope-ovalBlank.png
+Meta included     Resources/scope-ovalDark.png
+Meta included     Resources/scope-ovalLight.png
+Meta included     Resources/scope-oval.png
+Meta included     Resources/scope-up.gif
+Meta included     Resources/search1.gif
+Meta included     Resources/search2.gif
+Meta included     Resources/search-magglass.gif
+Meta included     Resources/searchx11.gif
+Meta included     Resources/searchxp.gif
+Meta included     Resources/simple-down.gif
+Meta included     Resources/simple-left-down.gif
+Meta included     Resources/simple-left-up.gif
+Meta included     Resources/simple-middle-down.gif
+Meta included     Resources/simple-middle-up.gif
+Meta included     Resources/simple-right-down.gif
+Meta included     Resources/simple-right-up.gif
+Meta included     Resources/simple-up.gif
+Meta included     Resources/steel-down.gif
+Meta included     Resources/steel-left-down.gif
+Meta included     Resources/steel-left-up.gif
+Meta included     Resources/steel-middle-down.gif
+Meta included     Resources/steel-middle-up.gif
+Meta included     Resources/steel-right-down.gif
+Meta included     Resources/steel-right-up.gif
+Meta included     Resources/steel-up.gif
+Meta included     Resources/tnb-left-down.gif
+Meta included     Resources/tnb-left-pressed.gif
+Meta included     Resources/tnb-left-up.gif
+Meta included     Resources/tnb-middle-down.gif
+Meta included     Resources/tnb-middle-pressed.gif
+Meta included     Resources/tnb-middle-up.gif
+Meta included     Resources/tnb-right-down.gif
+Meta included     Resources/tnb-right-pressed.gif
+Meta included     Resources/tnb-right-up.gif
+Meta platform        tcl
+Meta require         Img
+Meta require         snit
+Meta require         tile
+
