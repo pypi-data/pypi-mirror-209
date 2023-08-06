@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: oc-portal-commons
+Version: 11.0.2
+Summary: Common code, static files, settings and testing tools used at all portal variants
+Requires-Python: >=3.6
+Description-Content-Type: text/plain
+License-File: LICENSE
+Requires-Dist: oc-delivery-apps (>=11.2.8)
+Requires-Dist: packaging
+Requires-Dist: pyparsing (==2.4.0)
+Requires-Dist: django-jquery
+Requires-Dist: django-tests
+Requires-Dist: django-filter
+Requires-Dist: fs
+
