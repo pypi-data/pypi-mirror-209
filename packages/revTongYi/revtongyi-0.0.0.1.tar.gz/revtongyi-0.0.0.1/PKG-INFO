@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: revTongYi
+Version: 0.0.0.1
+Summary: 阿里通义千问逆向工程API
+Project-URL: Homepage, https://github.com/xw5xr6/revTongYi
+Project-URL: Bug Tracker, https://github.com/xw5xr6/revTongYi/issues
+Author-email: xw5xr6 <xw5xr6@hotmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: requests
+Description-Content-Type: text/markdown
+
+# revTongYi
+
+阿里通义千问Python逆向API
+
+```bash
+pip install revTongYi --upgrade
+```
+
+```python
+import revTongYi
+
+question = "人工智能将对人类社会发展产生什么影响？"
+
+session = revTongYi.Session(
+    cookies=cookies_dict,
+    firstQuery=question
+)
+
+print(
+    next(
+        session.ask(
+            prompt=question
+        )
+    )
+)
+```
