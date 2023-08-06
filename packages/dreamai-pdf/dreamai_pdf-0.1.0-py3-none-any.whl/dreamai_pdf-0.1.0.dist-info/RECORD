@@ -1,0 +1,11 @@
+dreamai_pdf/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+dreamai_pdf/_modidx.py,sha256=pxA_4fbygkAhwZ3r9Ieoe751CRY4LNsWltVkDSYcbi0,1359
+dreamai_pdf/core.py,sha256=53wLBnct3e204AcN0Ox7Z4XI54soeHHIsMXjsjgezRY,2200
+dreamai_pdf/imports.py,sha256=lxM--cKoC2I1Z8GSRhz5sU28n-1NUZNHDF5OYmgfT5M,173
+dreamai_pdf/segment.py,sha256=0ZFgCmuxcnx-UZN4KAqPg1e_auNbSIxNzdfcnO4uFGA,2667
+dreamai_pdf-0.1.0.dist-info/LICENSE,sha256=xV8xoN4VOL0uw9X8RSs2IMuD_Ss_a9yAbtGNeBWZwnw,11337
+dreamai_pdf-0.1.0.dist-info/METADATA,sha256=p-ZioFcFcVa38fbJM5aOMowfrdRnlN48-J92riciUWQ,1160
+dreamai_pdf-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+dreamai_pdf-0.1.0.dist-info/entry_points.txt,sha256=uwf7RY_YhLD9f4EfrLHjSYUiREWEhFCthoj5cjJJJTE,44
+dreamai_pdf-0.1.0.dist-info/top_level.txt,sha256=o_U1WIR13OoieLBYcuKuOGvoQPy7BZNxi2CL_K7Jy08,12
+dreamai_pdf-0.1.0.dist-info/RECORD,,
