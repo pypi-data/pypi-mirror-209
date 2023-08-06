@@ -1,0 +1,46 @@
+# django-expand/tbase_config
+
+基本的配置
+
+安装
+```bash
+pip install django-tbase-config
+```
+
+```python
+# settings.py
+ INSTALLED_APPS = [   # 个人应用
+     # 基本配置
+    'tbase_config',
+    'solo',
+
+ ]
+```
+
+## Getting Started
+
+Download links:
+
+SSH clone URL: ssh://git@git.jetbrains.space/terrychanorg/django-expand/tbase_config.git
+
+HTTPS clone URL: https://git.jetbrains.space/terrychanorg/django-expand/tbase_config.git
+
+
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+## Prerequisites
+
+What things you need to install the software and how to install them.
+
+```
+Examples
+```
+
+## Deployment
+
+Add additional notes about how to deploy this on a production system.
+
+## Resources
+
+Add links to external resources for this project, such as CI server, bug tracker, etc.
