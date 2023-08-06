@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: tkdev5
+Version: 0.1.0
+Summary: 
+Author: XiangQinxi
+Author-email: 1379773753@qq.com
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: tkwinico (>=1.2.71,<2.0.0)
+Description-Content-Type: text/markdown
+
+# tkdev5 
+ 
+> setup by awa2
