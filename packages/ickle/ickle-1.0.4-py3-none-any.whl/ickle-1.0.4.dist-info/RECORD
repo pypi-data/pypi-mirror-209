@@ -1,0 +1,8 @@
+ickle/__init__.py,sha256=gTdmjHaMAWyfTNkhlaeW9U9Is6RMh6S6IVESF9hDClU,38421
+tests/__init__.py,sha256=MMjb4RD0IRyURFOUpzl2AzPEQmC3zLlkzNnuvqg0F-Y,381
+tests/test_dataframe.py,sha256=nn_xkkkZP-4n6sV-ea2PjbkLLPrfDm--bEB8sQl5uWw,33147
+ickle-1.0.4.dist-info/LICENSE,sha256=iI9NOBUXOyVDOrtKoZtDlYsNyndxWT_8g_p0bUEMnOg,1091
+ickle-1.0.4.dist-info/METADATA,sha256=0xxTTdfWo6qAyCqAk1PNdkJbZi7MN46rh8szWFYkW9w,2860
+ickle-1.0.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+ickle-1.0.4.dist-info/top_level.txt,sha256=qYn_p9apncuM_JpZg3MkShmYs7KoUphjHro_CcPzwlY,12
+ickle-1.0.4.dist-info/RECORD,,
