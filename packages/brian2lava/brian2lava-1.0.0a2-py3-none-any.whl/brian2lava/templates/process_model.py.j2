@@ -1,0 +1,58 @@
+import numpy as np
+import typing as ty
+{% for imp in required_imports %}
+{{ imp }}
+{% endfor %}
+
+from lava.magma.core.sync.protocols.loihi_protocol import LoihiProtocol
+from lava.magma.core.model.py.ports import PyInPort, PyOutPort
+from lava.magma.core.model.py.type import LavaPyType
+from lava.magma.core.resources import CPU
+from lava.magma.core.decorator import implements, requires, tag
+from lava.magma.core.model.py.model import PyLoihiProcessModel
+
+from lava_workspace.{{name}}_process import {{name}}_P
+
+@implements(proc={{name}}_P, protocol=LoihiProtocol)
+@requires(CPU)
+@tag('floating_pt')
+class {{name}}_PM(PyLoihiProcessModel):
+
+    {% for va in variables %}
+    {{ va }}
+    {% endfor %}
+
+    def __init__(self, proc_params: ty.Optional["ProcessParameters"] = None):
+        super().__init__(proc_params=proc_params)
+
+        self.has_init_run = False
+
+
+    def run_spk(self):
+
+        # Calling the methods that are executed in every time step
+        {% for rf in run_functions %}
+        {{ rf }}
+        {% endfor %}
+
+    {% if  'synapses' in name  and lrn_functions|length >= 1 %}
+
+    def lrn_guard(self) -> bool:
+        return True
+
+    def run_lrn(self):
+        {%for lf in lrn_functions %}
+        {{ lf }}
+        {% endfor %}
+
+    {% endif %}
+    
+
+
+    
+    {% for m in methods %}
+    {{ m }}
+    {% endfor%}
+
+
+

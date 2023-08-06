@@ -1,0 +1,50 @@
+{# USES_VARIABLES {} #}
+{% extends 'common_group.py_' %}
+
+{% block maincode %}
+
+    # constants
+    {% for c in constants %}
+    {{ c }}
+    {% endfor%}
+
+    _spiking_indices = self.s_in_{{prepost}}.recv()
+
+    # Only look at the spiking neurons (assuming one-dimensional array shape)
+    _spiking_neurons = _numpy.nonzero(_spiking_indices)[0]
+    
+    {# From the point of view of the synaptic pathway the incoming signals are always from
+        the synapse_sources indices (sources and targets are switched for retrograde activations) #}
+    {% set _synapse_sources = get_array_name(pathway.synapse_sources) %}
+    # In case no synapse-related neuron is spiking we'll get an array of 'False'
+    _spiking_synapses = _numpy.array([x in _spiking_neurons for x in {{_synapse_sources}}])
+
+    # scalar code
+    {# Note that we don't write to scalar variables conditionally. The scalar code
+    should therefore only include the calculation of scalar expressions
+    that are used below for writing to a vector variable #}
+    {{scalar_code|autoindent}}
+
+    # vector code
+    _idx = _spiking_synapses
+    _vectorisation_idx = _idx
+    
+    # Read the synaptic variables to send out
+    {% for read_var in read_syn_vars%}
+    {{read_var}}
+    {% endfor %}
+
+    # Send out the needed variables, non-stimulated synapses will be encoded by {{nan}}
+    # TODO This is not very elegant at the moment..
+    {% for a_out,port in zip(syn_output_vars,syn_output_ports) %}
+    {{a_out}}_array = _numpy.ones({{_synapse_sources}}.shape, dtype = {{a_out}}.dtype) * {{nan}}
+    {{a_out}}_array[_idx] = {{a_out}}
+    self.{{port}}_out.send({{a_out}}_array)
+    {% endfor %}
+
+    # Save the spiking synapses for the next learning phase
+    {{spiking_synapses}}= _idx
+
+    # Advance the spike queue # Currently we don't support a spike queue
+    #_queue.advance()
+{% endblock %}
