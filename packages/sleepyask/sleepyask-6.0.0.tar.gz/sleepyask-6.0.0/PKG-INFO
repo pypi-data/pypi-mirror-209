@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: sleepyask
+Version: 6.0.0
+Summary: A small tool for automating collecting data from ChatGPT
+Author-email: hwelsters <redacted@redacted.redacted>
+Project-URL: Homepage, https://github.com/hwelsters/sleepyask
+Project-URL: Bug Tracker, https://github.com/hwelsters/sleepyask/issues
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
