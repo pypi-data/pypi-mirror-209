@@ -1,0 +1,8 @@
+wheel_doctor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wheel_doctor/__main__.py,sha256=_JC1PMHGahBjRbvlJt3yRQElgR9hG8VDjl-w1hqg3Cw,3119
+wheel_doctor/wheel.py,sha256=8NUx1gR5bLeZCoAcz8u26VK8MhUTOjj1aQvuKuwj3S4,6367
+wheel_doctor-0.1.0.dist-info/LICENSE,sha256=wg6MbOVjp2_expJtB-ug02o746Oo6JRmgcOfF4TC1AI,1083
+wheel_doctor-0.1.0.dist-info/METADATA,sha256=HYhEWVIesmhyWQ7groIi5CUMU7Mbucg6uRc8lk6W6bk,5104
+wheel_doctor-0.1.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+wheel_doctor-0.1.0.dist-info/entry_points.txt,sha256=_JH8I4o-CWYmuaMH2_G1JPsaFpGpzbQYslq1Ryc8fSY,59
+wheel_doctor-0.1.0.dist-info/RECORD,,
