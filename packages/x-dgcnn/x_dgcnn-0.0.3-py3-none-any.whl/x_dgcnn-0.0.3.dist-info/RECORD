@@ -1,0 +1,8 @@
+x_dgcnn/__init__.py,sha256=mm4oToZ-XFTcnYDokFTGBITMz-UvJ1dZH6H-kXWWLos,138
+x_dgcnn/dgcnn.py,sha256=asJ2_234JNsMsoFZqTtYB_dkodxKou7Abgbc5FVg1Ys,8835
+x_dgcnn/route.py,sha256=OB6gR5EzFOYwKrj7lMaG4uRADgO9lga1I3l6qpM8YiE,1276
+x_dgcnn-0.0.3.dist-info/LICENSE,sha256=otApO8OdchCZfcwiYwbl5ids676vb9cHlPV7JmDjRY0,1065
+x_dgcnn-0.0.3.dist-info/METADATA,sha256=oQa7i3lahN31oBQRbXpS0aSGBfIyE4mnB1OmfMx8v3w,611
+x_dgcnn-0.0.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+x_dgcnn-0.0.3.dist-info/top_level.txt,sha256=iwZcPprUWm9W6G9v87DXjhCqYkoqPWtmJnLYmGKFJgw,8
+x_dgcnn-0.0.3.dist-info/RECORD,,
