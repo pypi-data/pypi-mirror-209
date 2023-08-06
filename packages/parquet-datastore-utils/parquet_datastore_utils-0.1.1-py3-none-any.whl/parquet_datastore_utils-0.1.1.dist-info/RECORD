@@ -1,0 +1,6 @@
+parquet_datastore_utils/__init__.py,sha256=XxoVYuFy3yGwKLNGU2tMsNEzP4gvKgE_cQmzcjmzthY,37
+parquet_datastore_utils/cleaner.py,sha256=nBjY8IYPN9hGTUbgwVsi0iCb3EC42dE6HRojcfHfZdg,570
+parquet_datastore_utils/read_write.py,sha256=n9hT5Gn1GbzIoCeXDnJWZpVef1amh58Jn9QloYM8AFc,5837
+parquet_datastore_utils-0.1.1.dist-info/METADATA,sha256=XE_EUqHZdObGLQcjk1EkcEM5-AbSy4nDtng-edyswi0,419
+parquet_datastore_utils-0.1.1.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+parquet_datastore_utils-0.1.1.dist-info/RECORD,,
