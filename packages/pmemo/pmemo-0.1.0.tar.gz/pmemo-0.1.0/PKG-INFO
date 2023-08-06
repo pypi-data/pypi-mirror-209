@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: pmemo
+Version: 0.1.0
+Summary: CUI memo editor. No fullscreen and no transition but syntax highlighting.
+Author: Asugawara
+Author-email: asgasw@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: prompt-toolkit (>=3.0.38,<4.0.0)
+Requires-Dist: pygments (>=2.15.1,<3.0.0)
+Requires-Dist: rich (>=13.3.5,<14.0.0)
+Description-Content-Type: text/markdown
+
+![image](https://github.com/Asugawara/pmemo/actions/workflows/run_test.yml/badge.svg)
+![PyPI](https://img.shields.io/pypi/v/pmemo?color=green)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pmemo)
+![GitHub](https://img.shields.io/github/license/Asugawara/pmemo)
+
+
+# Pmemo(Prompt/Python memo)
+
+CUI memo editor. No fullscreen and no transition but syntax highlighting.
+![](https://github.com/Asugawara/pmemo/blob/main/pmemo.gif)
+
+# Installation
+
+```bash
+$ pip install pmemo
+```
+
+# Usage
+```
+usage: pm [-h] [-o OUTDIR] {new,edit,list,preview} ...
+
+positional arguments:
+  {new,edit,list,preview}
+    new                 create new memo (default positional argument `pm` -> `pm new`)
+    edit                edit memo (searching with a specified query, similar to using the `peco`)
+    list                list all memos
+    preview             preview memo(markdown) on terminal (searching with a specified query, similar to using the `peco`)
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -o OUTDIR, --outdir OUTDIR
+                        directory to save memos. default to $HOME/.pmemo
+```
+
+# Versioning
+This repo uses [Semantic Versioning](https://semver.org/).
+
+# License
+**pmemo** is released under the MIT License. See [LICENSE](/LICENSE) for additional details.
+
