@@ -1,0 +1,1 @@
+Helper package for requesting token and generating request signatures to be used for consuming Bank Mandiri API.
