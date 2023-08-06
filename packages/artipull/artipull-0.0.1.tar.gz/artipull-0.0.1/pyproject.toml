@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "artipull"
+version = "0.0.1"
+authors = [
+  { name="Nicholas Kraftor", email="kraftmatic@pm.me" },
+]
+description = "A package for pulling news articles directly from a website given the URL"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/kraftmatic/ArtiPull"
+"Bug Tracker" = "https://github.com/kraftmatic/ArtiPull/issues"
