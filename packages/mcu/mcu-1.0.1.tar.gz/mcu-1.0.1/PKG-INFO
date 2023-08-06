@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: mcu
+Version: 1.0.1
+Summary: Modeling and Crystallographic Utilities
+Home-page: https://github.com/hungpham2017/mcu
+Author: Hung Pham
+Author-email: pqh3.14@gmail.com
+License: Apache 2.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
