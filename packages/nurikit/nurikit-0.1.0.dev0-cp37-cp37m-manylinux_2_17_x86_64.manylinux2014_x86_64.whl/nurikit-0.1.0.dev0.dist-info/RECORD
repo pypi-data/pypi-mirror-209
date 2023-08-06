@@ -1,0 +1,12 @@
+nuri/_version.py,sha256=R7Q7a4Ke99tjq9lG2V_qQiN759CjmfGzaFrIEGC_VKI,154
+nuri/__init__.py,sha256=LeeFO4jwyewXRJ3PDucDCB8F9P0lrEvsUwofwpzKHvs,404
+nuri/core/element.cpython-37m-x86_64-linux-gnu.so,sha256=KpWzRdNG9bgw4D_x2_RYg9OgND37r88nVRayT_lFj20,303512
+nuri/core/__init__.py,sha256=fOHMaTmc4IBP7KhCXATvOuPSfnuO9x5ZpQumNUmIRi0,501
+nuri/lib64/libnuri.so,sha256=Hcq_iCBhVGGTp3afjXB8CfhPR8t4k-y3rtfIH2y6-uk,162120
+nuri/bin/nuri,sha256=8Q0MYSKjDl22wdb1O365g7T6QsZ9D9xe5EMjwCmtazY,14400
+nurikit-0.1.0.dev0.dist-info/RECORD,,
+nurikit-0.1.0.dev0.dist-info/WHEEL,sha256=rijPM7wClk5bW8_RS0SRNXLAvnRwAp2mIghTxCiekTY,153
+nurikit-0.1.0.dev0.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nurikit-0.1.0.dev0.dist-info/METADATA,sha256=2Y0k-U-e9tlPxkc5-W5qDpW5jUa75OxBvaEkmiI0CUc,14899
+nurikit-0.1.0.dev0.dist-info/licenses/NOTICE.md,sha256=cCvpafK_WYeEDWCx10YRvDZPlXafq8BoE3qYhNt54Ak,15338
+nurikit-0.1.0.dev0.dist-info/licenses/LICENSE,sha256=Vxn7xUOzw4HM2TFLK3XSia281gI19xmbbfyLJWYgV0k,11392
