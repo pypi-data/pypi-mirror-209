@@ -1,0 +1,3 @@
+[console_scripts]
+gs = cli.gs:gpterminal
+gt = cli.cli:gpterminal
