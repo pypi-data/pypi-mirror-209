@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: x-decorator
+Version: 1.0.1
+Summary: X Decorator [X Decorator is a python package for decorators that used for a variety of purposes, such as logging, memoization, and more.]
+Home-page: https://github.com/shokr/x_decorator
+Author: Muhammed Shokr
+Author-email: mohammedshokr2014@gmail.com
+Maintainer: Muhammed Shokr
+Maintainer-email: mohammedshokr2014@gmail.com
+License: BSD-3-Clause
+Project-URL: Documentation, https://shokr.github.io/x_decorator/
+Project-URL: Source, https://github.com/shokr/x_decorator
+Keywords: decorators,Python
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Plugins
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Topic :: Software Development
+Classifier: Topic :: Scientific/Engineering
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Requires-Python: >=3
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: schedule
+
+x_decorator
+===================================
+
+X Decorator is a python package for decorators that used for a variety of purposes, such as logging, memoization, and
+more.
+
+
+Setup
+-----
+
+You can install this package by using the pip tool and installing:
+
+    $ pip install x-decorator
+
+
+Docs
+---------
+
+See docs:- https://shokr.github.io/x_decorator/.
