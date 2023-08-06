@@ -1,0 +1,7 @@
+README.md
+__init__.py
+core/s3d.py
+s3namic.egg-info/PKG-INFO
+s3namic.egg-info/SOURCES.txt
+s3namic.egg-info/dependency_links.txt
+s3namic.egg-info/top_level.txt
