@@ -1,0 +1,8 @@
+LICENCE.md
+README.md
+pyproject.toml
+src/sockettools/network.py
+src/sockettools.egg-info/PKG-INFO
+src/sockettools.egg-info/SOURCES.txt
+src/sockettools.egg-info/dependency_links.txt
+src/sockettools.egg-info/top_level.txt
