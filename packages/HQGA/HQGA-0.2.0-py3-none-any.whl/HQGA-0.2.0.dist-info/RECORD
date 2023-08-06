@@ -1,0 +1,11 @@
+HQGA/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+HQGA/discretization.py,sha256=onUJ5_VG8OQH4134I8XAYAIP2MgFARSie2GJcY0spM8,5264
+HQGA/hqga_algorithm.py,sha256=EkYuU_LLKkzFD9e4lT3HeLsb4OrY0iSjl4GoOMwH_Nw,6094
+HQGA/hqga_utils.py,sha256=OtL2BXbTktmg-VNo6ZPXyTl6B5TQm2Qz8YD7QtXsDoI,10002
+HQGA/problems.py,sha256=7gPpu4_64I-pmS0dI1S25pTTY8hSx8_rM1KbXGygu50,17580
+HQGA/utils.py,sha256=Dfrjn-ZZpxonufehOIr84auCzDUYBpPtYlmRJMsdeCE,3504
+HQGA-0.2.0.dist-info/LICENSE,sha256=SFxgaXuKOLNaQKQSGBqsHJXQHaBs3tt9k5RfSb-USQs,1069
+HQGA-0.2.0.dist-info/METADATA,sha256=ppJjmZvk7KGHaJQcNqBZBy4kpl2d5d65FNdC3sd5-HY,2984
+HQGA-0.2.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+HQGA-0.2.0.dist-info/top_level.txt,sha256=5TamE8aatgyxX6K_ebg5Lreeik33pq0i7fsHi2cYmd8,5
+HQGA-0.2.0.dist-info/RECORD,,
