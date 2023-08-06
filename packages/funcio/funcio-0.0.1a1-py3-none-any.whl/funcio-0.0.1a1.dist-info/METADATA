@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: funcio
+Version: 0.0.1a1
+Summary: Funcio is a versatile utility library that provides ease-of-use, flexibility, and extensibility tools to simplify common programming tasks and enhance the reliability and performance of the Python code.
+Project-URL: Documentation, https://github.com/neyugncol/funcio#readme
+Project-URL: Issues, https://github.com/neyugncol/funcio/issues
+Project-URL: Source, https://github.com/neyugncol/funcio
+Author-email: Loc Nguyen <ndloc867@gmail.com>
+License-Expression: MIT
+License-File: LICENSE
+Keywords: async,cache,context manager,limit,retry,timeout
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Funcio
+Funcio is a versatile utility library that provides ease-of-use, flexibility, and extensibility tools to simplify common programming tasks and enhance the reliability and performance of the Python code.
+
+### Warning: This library is still in development and is not ready for production use.
+
+## Installation
+```bash
+pip install funcio
+```
+
+## Usage
+
+Retry a function call until it succeeds:
+```python
+from funcio import retry
+
+@retry(3)
+def foo():
+    # do something
+    pass
+
+foo()
+```
+
+Retry code block with context manager:
+```python
+from funcio import retry
+
+with retry(3):
+    # do something
+    pass
+```
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
