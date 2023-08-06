@@ -1,0 +1,15 @@
+pyray/__init__.py,sha256=Af7qdbuGgvYnoOp6splbRiW4IVzve-mWh2zvhHy9nOc,4357
+pyray/__init__.pyi,sha256=AURuDTHJJlg3Iq9Rf7e1Bh-pYhXGgwFBkO8LJrbzaFk,163579
+raylib/__init__.py,sha256=nZu2b7SrtLs-ZJ2VjtDee9CYMVVYw4Ck2wAJK7uSSVA,943
+raylib/__init__.pyi,sha256=rCXQFnqgjkXI02sHt1m0BEqwBTjrLVYCJ-TxvfanMQo,151136
+raylib/_raylib_cffi.pypy38-pp73-win_amd64.pyd,sha256=sdDN8wRfatGtoW0o7V0sD5oYKdtILV6CalfJ8t2XA7s,1728000
+raylib/build.py,sha256=0M75eBfzPaWKxu3fEHRbf0UHl4GifCwyP4uMeCfPaYc,7969
+raylib/colors.py,sha256=T9U1gPicGYVYLwpP73jH_J83FH1-6a9XT163M0sbJlU,1564
+raylib/defines.py,sha256=2rnXgvmO8qzo_mSarDLR9Cdhg9qO10eMiK2Ozjybg0Y,383
+raylib/enums.py,sha256=aRMhQOmHKd5OW1DtHmYBVt_pIeEoVRNQ77bAo2pNVYs,17939
+raylib/version.py,sha256=Fz7gE9en_LhttToGgdR4MEWjwWRHeUxtUmbnNGPX1d0,23
+raylib-4.5.0.0.dist-info/LICENSE,sha256=IrIDo_K_o1_ycu1XcC0VSu2JZuoJeMRM7KZljyxgvFE,14474
+raylib-4.5.0.0.dist-info/METADATA,sha256=veH03h-VRvN78CsfDRbWmlSXU9I7jdcoNpuj1YytpHo,5645
+raylib-4.5.0.0.dist-info/WHEEL,sha256=VdGht2tAV-pZeKh01R_AzgNm9hOgkZNK5FJALyJVlrI,107
+raylib-4.5.0.0.dist-info/top_level.txt,sha256=PnMBDWaUP4jsbn_NewagcC9FjHYpzSAIQuhxNzt9hkg,13
+raylib-4.5.0.0.dist-info/RECORD,,
