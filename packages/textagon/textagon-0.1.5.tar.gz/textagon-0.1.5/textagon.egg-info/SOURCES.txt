@@ -1,0 +1,13 @@
+setup.py
+textagon/__init__.py
+textagon/install-dependencies.py
+textagon/post_install.py
+textagon/process-text.py
+textagon/textagon.py
+textagon.egg-info/PKG-INFO
+textagon.egg-info/SOURCES.txt
+textagon.egg-info/dependency_links.txt
+textagon.egg-info/entry_points.txt
+textagon.egg-info/requires.txt
+textagon.egg-info/top_level.txt
+textagon/external/lexicons/exclusions.txt
