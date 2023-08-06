@@ -1,0 +1,9 @@
+sigmaSMSApi/__init__.py,sha256=5brw6r2Y5B3B55S6-LDJRUFFnmcdg4vdcXEnOmI3ebc,107
+sigmaSMSApi/exceptions.py,sha256=G2Y1XAkzyiLAE_6lk62tT89GZp6my7-BfTX-yHhuONM,144
+sigmaSMSApi/models.py,sha256=DjVTt5c2Zg3l29tH4uDYGpBb560XLzBjWO0dcH4b7EE,785
+sigmaSMSApi/sigmasms.py,sha256=iB6gmmanc-dmvel7QwnSNFjFhzPeaImmA2eKkwSsg-U,7247
+sigmaSMSApi-0.5.2.dist-info/LICENSE.txt,sha256=kkW5fiParWP5ArUEIcXJvGbF5686rp5SpS-mzIVa73g,1116
+sigmaSMSApi-0.5.2.dist-info/METADATA,sha256=5emIk-44E78vrt778YP_5ptQlqWqCTBhZN2eejCOqJk,413
+sigmaSMSApi-0.5.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+sigmaSMSApi-0.5.2.dist-info/top_level.txt,sha256=yewa_UMLU6jrbk2WgoYXhGWdby2zJwjRJ98vu3-kiq4,12
+sigmaSMSApi-0.5.2.dist-info/RECORD,,
