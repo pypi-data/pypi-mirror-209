@@ -1,0 +1,3 @@
+license_authorize
+license_authorize_linux
+license_authorize_win
