@@ -1,0 +1,10 @@
+setup.py
+TYAI/__init__.py
+TYAI/tyaigradesystepro142.py
+shinherpro.egg-info/PKG-INFO
+shinherpro.egg-info/SOURCES.txt
+shinherpro.egg-info/dependency_links.txt
+shinherpro.egg-info/requires.txt
+shinherpro.egg-info/top_level.txt
+tyai/__init__.py
+tyai/tyaigradesystepro142.py
