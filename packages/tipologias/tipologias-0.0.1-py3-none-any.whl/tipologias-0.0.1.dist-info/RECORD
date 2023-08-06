@@ -1,0 +1,11 @@
+tipologias/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tipologias/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tipologias/core/base.py,sha256=XOYyvRQ7qx56awChArFZ3hfMwBr9mYZ6aRZX8vY0Xwo,1269
+tipologias/core/socios_comum.py,sha256=QyNDF4stF31NhZHhlrchnO7WWD3SCkBBW_TUzsCFPKQ,2635
+tipologias/queries/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tipologias/queries/socios.py,sha256=OrnGBeUBOwnw_g5v6tflXTeDZFMkxNB9-ZTb8U0qxhw,728
+tipologias-0.0.1.dist-info/LICENSE,sha256=K7S268qrzbAArCD_fumSI_b6XYlxeq8cTTjYhk7hGus,1511
+tipologias-0.0.1.dist-info/METADATA,sha256=QrUqunvfGvipmXVs4wSBLXEjbTJxPF1prWwHV-8SnXY,1171
+tipologias-0.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+tipologias-0.0.1.dist-info/top_level.txt,sha256=aJmzdBpS6qNgzn_0hEci32X75za2yRxJ6jX2hxlbLmE,11
+tipologias-0.0.1.dist-info/RECORD,,
