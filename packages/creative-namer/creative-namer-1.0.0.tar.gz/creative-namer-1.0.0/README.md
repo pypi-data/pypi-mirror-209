@@ -1,0 +1,36 @@
+# Creative Namer
+Creative Namer 是一個用於生成具創意的專案名稱的 Python 工具。這個工具可以幫助你快速找到最佳且與專案相關的名字。
+
+## 安裝
+使用以下指令安裝 Creative Namer：
+```bash
+python3 -m pip install creative-namer
+```
+
+## 使用方法
+### 命令列使用
+你可以使用命令列執行 Creative Namer，只需輸入以下指令：
+```bash
+python3 -m creative_namer "你的專案描述"
+```
+範例：
+```bash
+python3 -m creative_namer "一個簡單介面的 Python 專案目錄管理工具"
+```
+輸入專案描述後，Creative Namer 將生成適合的專案名稱。
+
+### 引入模組使用
+也可以在 Python 腳本中引入 Creative Namer 模組，請參考以下範例：
+```python
+from creative_namer import creative_namer
+project_description = "一個簡單介面的 Python 專案目錄管理工具"
+creative_namer(project_description)
+```
+在提供專案描述後，`creative_namer` 函數將生成合適的專案名稱。
+
+## 模組功能
+`creative_namer` 函數支援以下參數：
+- `project_description`：*必填*。提供你的專案描述，以利生成相應的專案名稱。
+- `user`：*選填*。提供用戶名稱，預設值為 "cbh@cameo.tw"。
+- `start_tag`：*選填*。自訂 JSON 起始標記。
+- `end_tag`：*選填*。自訂 JSON 結束標記。
