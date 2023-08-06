@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: natalify
+Version: 1.0
+Summary: Natalify: An automation software made for my friend Natalie
+Author: jack
+Author-email: kinginjack@gmail.com
+License: GPL-3.0
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+Natalify is a Python-based automation software created specifically for my friend Natalie. It leverages popular libraries such as Selenium, Colorama, and Cryptography to provide a user-friendly interface for automating various tasks. With Natalify, you can automate web interactions, perform data processing, and more. It offers features like web scraping, form filling, and browser automation. The software is actively maintained and designed to be easily extendable.
+
