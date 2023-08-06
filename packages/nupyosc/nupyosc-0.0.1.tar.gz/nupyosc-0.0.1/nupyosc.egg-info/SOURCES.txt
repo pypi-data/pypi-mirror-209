@@ -1,0 +1,9 @@
+setup.py
+NuPy/__init__.py
+NuPy/oscprobs.py
+NuPy/utils.py
+nupyosc.egg-info/PKG-INFO
+nupyosc.egg-info/SOURCES.txt
+nupyosc.egg-info/dependency_links.txt
+nupyosc.egg-info/requires.txt
+nupyosc.egg-info/top_level.txt
