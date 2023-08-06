@@ -1,0 +1,5 @@
+setup.py
+seamoney_secsdk.egg-info/PKG-INFO
+seamoney_secsdk.egg-info/SOURCES.txt
+seamoney_secsdk.egg-info/dependency_links.txt
+seamoney_secsdk.egg-info/top_level.txt
