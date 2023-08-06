@@ -1,0 +1,4 @@
+crosscompute>=0.9.4.6
+geojson
+jinja2
+numpy
