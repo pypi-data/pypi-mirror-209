@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: vtclear
+Version: 1.0
+Summary: Python3 ANSI VT100 implementation of Erase Screen.
+Author-email: "Carlos A. Planchón" <carlosandresplanchonprestes@gmail.com>
+License: MIT License
+Project-URL: repository, https://github.com/carlosplanchon/vtclear.git
+Keywords: CLEAR,VT100,ANSI
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: ijson
+
+# vtclear
+Python3 ANSI VT100 implementation of Erase Screen
+
+## installation
+```
+pip install -U vtclear
+```
+
+## usage
+```
+from vtclear import clear_screen
+clear_screen()
+```
