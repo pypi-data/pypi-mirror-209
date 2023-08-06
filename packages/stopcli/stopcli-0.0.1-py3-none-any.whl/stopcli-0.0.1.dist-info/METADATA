@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: stopcli
+Version: 0.0.1
+Summary: A CLI for stop template sheets.
+Author: Wil
+Author-email: mreyeswilson@gmail.com
+Requires-Dist: click (==8.1.3)
+Requires-Dist: defusedxml (==0.7.1)
+Requires-Dist: fonttools (==4.39.4)
+Requires-Dist: fpdf2 (==2.7.4)
+Requires-Dist: Pillow (==9.5.0)
+Requires-Dist: pypdf (==3.9.0)
+
