@@ -1,0 +1,5 @@
+[console_scripts]
+sidewinder-bootstrap = sidewinder.setup.bootstrap:main
+sidewinder-client = sidewinder.client:main
+sidewinder-server = sidewinder.server:main
+sidewinder-worker = sidewinder.worker:main
