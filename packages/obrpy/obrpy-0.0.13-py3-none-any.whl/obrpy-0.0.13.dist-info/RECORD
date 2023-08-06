@@ -1,0 +1,16 @@
+obrpy/PathSelector.py,sha256=uoU7cn1ZT_XIiXFKtd1iKJblh67xcjsJ6FTqplk6dBY,1341
+obrpy/__init__.py,sha256=6ScUe1G5VmDvmGldGmPzqOOBfYsr1Yc4MIGANcBV8EA,8164
+obrpy/checkouts.py,sha256=cyI2qjsccwGHC4Imeqa4hhqA4TkcvY73PoPN5fYVHso,1328
+obrpy/clear.py,sha256=i5wqC2Jx4lBbGVNO-WIdOcRrCcBv0dOXUspujtcsmlQ,1063
+obrpy/funciones.py,sha256=dJTgxQt5MjBGxr3gtgEBGfHz31IY4zr6balCMdAfy2M,56
+obrpy/load.py,sha256=fwBPOI8qwHqW-lgvBOcixy6kgb5ciWPfhDUl19v4UHo,2190
+obrpy/obr.py,sha256=8-ttGafmV3C0rN_p8YTxvSq57tvAJLY_NbKansvHX0E,8323
+obrpy/obrsdk.py,sha256=h0kLX7b24mGBCFgnqRiBeddP2bZEA0SjCwq4Va3JLPw,2123
+obrpy/save.py,sha256=aZFrJPEzyAmq6KgfarS2enmJmro9H0TCTXgoSjxnB2g,3212
+obrpy/settings.py,sha256=Eye33kufiiAv8OOfrHyOeESFl-NX2nD5McjCMyfudkw,3741
+obrpy/take_a_look.py,sha256=zIoAsQYNF4m_9Ft2z9q96su2ZyRYzifOF-SrP-l3tMk,3425
+obrpy/update.py,sha256=V4iDaLoi5AVq_WhjzTX6ok1NGG9MrpIW-6mTIs5-m6o,3350
+obrpy-0.0.13.dist-info/METADATA,sha256=dVqVFuzgFHoUqInpXibtIYmae4l45wgBG_TW1XxqLS0,308
+obrpy-0.0.13.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+obrpy-0.0.13.dist-info/top_level.txt,sha256=v5DZkKrzBcikDVHwQ-5LClJrcKUknDKcH5kBQbjEvdk,6
+obrpy-0.0.13.dist-info/RECORD,,
