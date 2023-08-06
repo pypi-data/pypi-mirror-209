@@ -1,0 +1,10 @@
+numba_progress/__init__.py,sha256=T15_5r3cTKrQw5gQno9nyf_-DW0a2ihgnnnOIj66VYk,58
+numba_progress/_version.py,sha256=J-j-u0itpEFT6irdmWmixQqYMadNl1X91TxUmoiLHMI,22
+numba_progress/numba_atomic.py,sha256=zvUeAXTMQssZw6iU63TVQgunZH-EXmxTMsjeRPT0KzE,6156
+numba_progress/progress.py,sha256=ccXBZTftNiZjhcWizfhWEzhO72aEeeyaZS3Yp2PGBdQ,6608
+numba_progress-1.0.0.dist-info/LICENSE,sha256=z83fsLXt-iew4SInDvc1fUQVYioBjCMH3XU2gLh7DZw,1072
+numba_progress-1.0.0.dist-info/METADATA,sha256=Il7yOLRjxbyvOK1pVW-YY7UJ0oqjyH_CngObk026hCs,2552
+numba_progress-1.0.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+numba_progress-1.0.0.dist-info/top_level.txt,sha256=JRUgKjXmtam0FDNhIfk79LgmBffvNPnfHNy0NyWD4hI,15
+numba_progress-1.0.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+numba_progress-1.0.0.dist-info/RECORD,,
