@@ -1,0 +1,8 @@
+README.md
+setup.py
+usdanuts/__init__.py
+usdanuts/usdanuts.py
+usdanuts.egg-info/PKG-INFO
+usdanuts.egg-info/SOURCES.txt
+usdanuts.egg-info/dependency_links.txt
+usdanuts.egg-info/top_level.txt
