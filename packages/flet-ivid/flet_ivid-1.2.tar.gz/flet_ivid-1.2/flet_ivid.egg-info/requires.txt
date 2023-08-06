@@ -1,0 +1,4 @@
+flet
+pygame
+moviepy
+opencv-python
