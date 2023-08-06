@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+HQGA/__init__.py
+HQGA/discretization.py
+HQGA/hqga_algorithm.py
+HQGA/hqga_utils.py
+HQGA/problems.py
+HQGA/utils.py
+HQGA.egg-info/PKG-INFO
+HQGA.egg-info/SOURCES.txt
+HQGA.egg-info/dependency_links.txt
+HQGA.egg-info/requires.txt
+HQGA.egg-info/top_level.txt
