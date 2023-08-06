@@ -1,0 +1,7 @@
+hyper_requests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hyper_requests/request_builder.py,sha256=akg45F7n0ZdlBjFeP3EkcBPJpTj7Z8fGury3x2ouABE,1090
+hyper_requests/threader.py,sha256=ZjfzZ2lEd_pjDp6B3Zen04KLOOkSKt4nT7ESfKw_Qm8,2184
+hyper_requests-0.0.5.dist-info/METADATA,sha256=S3NRtbYZYbb5OGYTteL37MMVnH-As0f9EgzSZpM2Kug,3847
+hyper_requests-0.0.5.dist-info/WHEEL,sha256=y1bSCq4r5i4nMmpXeUJMqs3ipKvkZObrIXSvJHm1qCI,87
+hyper_requests-0.0.5.dist-info/licenses/LICENSE,sha256=G7INFTtNj7HCYii3dkXyJvFpxYclrcK3Bmw3NsilFVI,1066
+hyper_requests-0.0.5.dist-info/RECORD,,
