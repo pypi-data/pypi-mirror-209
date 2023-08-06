@@ -1,0 +1,9 @@
+openai_tools/__init__.py,sha256=j45uRf9AEepS7ci8ntB0fuacjrlIj7UVqPSBajhgmP4,29
+openai_tools/parser.py,sha256=cI96_r1k3W4vnI0vKlX1PhOnPVcxgGoJFeNy8OHoCsE,778
+openai_tools/prompt.py,sha256=4W0LgCtcWTSQmbfPnoqFq33xF3d_0h-WGxxJJwQCTfU,7162
+openai_tools/utils.py,sha256=brs_qWyOa5dKXmOHQOkT8FvZRa9HEhS-kddBD68NnN4,2788
+openai_tools-0.0.0.1.dev1.dist-info/LICENSE,sha256=8fy5s0YLWBvalwRsj4T50Kh-QFYIF7p232rfnoEGdCs,1075
+openai_tools-0.0.0.1.dev1.dist-info/METADATA,sha256=j5Dldpb6lU8at3ORYfxL7CLp1Db45VDO3jFiT7chrdc,2341
+openai_tools-0.0.0.1.dev1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+openai_tools-0.0.0.1.dev1.dist-info/top_level.txt,sha256=vvVIcX7NmMMgfkTGw3z7-K_fY1AuQZzgvb2kSG4Ew24,23
+openai_tools-0.0.0.1.dev1.dist-info/RECORD,,
