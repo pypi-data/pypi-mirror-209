@@ -1,0 +1,9 @@
+setup.py
+setup_example/__init__.py
+setup_example/myfile.py
+setup_example.egg-info/PKG-INFO
+setup_example.egg-info/SOURCES.txt
+setup_example.egg-info/dependency_links.txt
+setup_example.egg-info/entry_points.txt
+setup_example.egg-info/requires.txt
+setup_example.egg-info/top_level.txt
