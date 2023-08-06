@@ -1,0 +1,10 @@
+aiokeepin/__init__.py,sha256=u8BzqGSopKeelq5nRJTsUIxLpO1VrCa8GaIWUZwk34c,61
+aiokeepin/adapters/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aiokeepin/adapters/base.py,sha256=rjSFzZOOQKzndWZLm8HiNjhwzu6eCQxu3eThW9IqUhI,5925
+aiokeepin/client.py,sha256=sJxTBTnwDerGF7HfyQGBANeBAxnnUHgoSyshcp4151U,92
+aiokeepin/exceptions/__init__.py,sha256=0cUpO1M_m_FlJwXsfuBekaTTg5XtUu4_P68AC9xp5uk,69
+aiokeepin/exceptions/base.py,sha256=RX6iuxYaEqKF3Qb0gOhYbkViVp4xGPvhXmyJCH5wacA,288
+aiokeepin-0.1.1.dist-info/LICENSE,sha256=KN7cxKJMrU_xZa0rdIiG6GnFLdSTNWeAJm406e45FCM,1069
+aiokeepin-0.1.1.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+aiokeepin-0.1.1.dist-info/METADATA,sha256=M5x7H4cm_kVoSvs8-EcaP2qAVSizNs2BT13Pexwr-fY,3532
+aiokeepin-0.1.1.dist-info/RECORD,,
