@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+FileProcessor/__init__.py
+FileProcessor/scanner.py
+FileProcessor.egg-info/PKG-INFO
+FileProcessor.egg-info/SOURCES.txt
+FileProcessor.egg-info/dependency_links.txt
+FileProcessor.egg-info/top_level.txt
