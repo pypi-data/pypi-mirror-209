@@ -1,0 +1,3 @@
+[console_scripts]
+tasked = tasked.__main__:main
+
