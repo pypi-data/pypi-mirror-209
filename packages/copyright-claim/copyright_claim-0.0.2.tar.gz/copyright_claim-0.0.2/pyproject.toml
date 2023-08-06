@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "copyright-claim"
+version = "0.0.2"
+description = "Adds and removes copyright claims at the beginning of text files."
+authors = ["Gaël Cousin <gcousin333@gmail.com>"]
+license = "BSD-2-Clause License"
+readme = "README.md"
+packages = [{include = "copyright_claim"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.group.dev.dependencies]
+poetry = "^1.4.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+copyright-claim = 'copyright_claim:main'
