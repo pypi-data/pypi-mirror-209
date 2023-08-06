@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: pokie-location
+Version: 1.0.0
+Summary: Location Services for Pokie
+Home-page: https://git.oddbit.org/OddBit/pokie_location
+Author: João Pinheiro
+License: MIT
+Project-URL: Documentation, https://docs.oddbit.org/pokie_location/
+Project-URL: Source, https://git.oddbit.org/OddBit/pokie_location
+Classifier: Environment :: Web Environment
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Pokie Location Services
+=======================
+
+[![pypi](https://img.shields.io/pypi/v/pokie_location.svg)](https://pypi.org/project/pokie_location/)
+[![license](https://img.shields.io/pypi/l/pokie.svg)](https://git.oddbit.org/OddBit/pokie_location/src/branch/master/LICENSE)
+
+This module implements a database-based service that provides country and timezone names.
