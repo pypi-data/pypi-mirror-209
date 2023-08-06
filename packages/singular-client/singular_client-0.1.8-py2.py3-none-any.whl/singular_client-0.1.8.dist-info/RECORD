@@ -1,0 +1,17 @@
+singular_client/__init__.py,sha256=umslBzEl3rlNPK5sY70VKoCHuJzVpQMVYwE9_83KB6E,1889
+singular_client/_bases.py,sha256=g1nqb1xtct9QaqH2QrYLNVMNW8cj6CHvkse6MlfXsvM,4846
+singular_client/api.py,sha256=yAv2KySGUfkL-tgkTBy7X4K0lo4hdzlMM5aC-E_poxk,5533
+singular_client/documents.py,sha256=tjxdrzU3UMjSzuB2rhGc-u1ceyOWrXKtNzjuqV5X-oU,5683
+singular_client/models.py,sha256=O4oF0ILUuApcQc-tOiHszefktIx1tfTzDI5WwzPFCBI,5479
+singular_client/utils.py,sha256=RZ4RxHxss2mckO_gHhUNWw2i1L25UVuwmzI7seLCPFE,2106
+singular_client/endpoints/__init__.py,sha256=uZ_-OeZ9CBf1UXNmu5YrR_D1_Pox-6f7qHR7olBhvj4,995
+singular_client/endpoints/governance.py,sha256=WixF3JnVpHIl76CFRd6-_xR-VT-a5Eln_pQVv4mnNBk,453
+singular_client/endpoints/links.py,sha256=gAm_yHLJidzmjidJhx3LjpEcYC21XttAQzVpLEJpLAU,4967
+singular_client/endpoints/links_legacy.py,sha256=_LmUxFS4nfw_B9Sdpxw8YCeSREbuiAGVmTLMiwDzvfc,6207
+singular_client/endpoints/monetization.py,sha256=HrWU-4xNHo6ebqB2CrDGDLAp7Caso6eKcNtemWiYQg0,1430
+singular_client/endpoints/reporting.py,sha256=wz3Pxbu41xBvFkXlBIxguDmHBs1dE_fuyaBJaLWFmho,8945
+singular_client/endpoints/skan.py,sha256=jXT_Y89AUASySGW5blc9F7Yg8ZLnM0oESVQvxln4rNk,4188
+singular_client-0.1.8.dist-info/METADATA,sha256=m2uVC-FMzwPe-kTF4qaJzmFi1TK3H_Zg5m_XveTpsMI,830
+singular_client-0.1.8.dist-info/WHEEL,sha256=BnTM96A0yHS39SE-waRX_LK6xllJtQJhpP4G4cCnPIA,105
+singular_client-0.1.8.dist-info/licenses/LICENSE,sha256=5jZ2_971MGnQvn5i3Ly_8AQs7hoWJ75lNsEQ2yRfoTA,1058
+singular_client-0.1.8.dist-info/RECORD,,
