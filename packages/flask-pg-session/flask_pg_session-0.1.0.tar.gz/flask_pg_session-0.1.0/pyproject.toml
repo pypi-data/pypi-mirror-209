@@ -1,0 +1,47 @@
+[tool.poetry]
+name = "flask-pg-session"
+version = "0.1.0"
+description = "Flask extension that implements server-side sessions in PostgreSQL"
+authors = ["Giuseppe Papallo <giuseppe@papallo.it>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/giuppep/flask-pg-session"
+repository = "https://github.com/giuppep/flask-pg-session"
+documentation = "https://github.com/giuppep/flask-pg-session#readme"
+keywords = ["flask", "server-side session", "session"]
+packages = [{ include = "flask_pg_session" }]
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/giuppep/flask-pg-session/issues"
+
+[tool.poetry.dependencies]
+python = ">3.8.1"
+psycopg2-binary = ">2"
+flask = ">1"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.3.0"
+isort = "^5.12.0"
+mypy = "^1.3.0"
+pre-commit = "^3.3.2"
+pydocstyle = "^6.3.0"
+sphinx = "^7.0.1"
+ruff = "^0.0.269"
+
+
+[tool.pydocstyle]
+convention = "google"
+add-ignore = "D105,D104,D101,D100,D102,D107"
+
+[tool.isort]
+profile = "black"
+
+[tool.mypy]
+follow_imports = "normal"
+ignore_missing_imports = true
+disallow_untyped_defs = true
+disallow_untyped_calls = true
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
