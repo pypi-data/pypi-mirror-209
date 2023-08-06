@@ -1,0 +1,16 @@
+[build-system]
+requires = [
+    "setuptools >=44",
+    "wheel >=0.36",
+    "cmake",
+    "ninja",
+]
+build-backend = "setuptools.build_meta"
+
+[tool.black]
+line-length = 88
+exclude = '''
+    /lib |
+    /chemfiles/ffi.py |
+    /doc/conf.py |
+'''
