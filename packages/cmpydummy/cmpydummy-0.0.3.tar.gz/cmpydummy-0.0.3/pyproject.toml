@@ -1,0 +1,16 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "cmpydummy"
+version = "0.0.3"
+requires-python = ">=3.7"
+authors = [
+    { name = "Celino Moraes"},
+]
+description = "A test package"
+readme = "README.md"
+
+[project.urls]
+"Homepage" = "https://github.com/cmoraes-bmc/cmpydummy"
