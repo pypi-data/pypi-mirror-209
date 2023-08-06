@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: pyappi
+Version: 1.0.1
+Summary: Native Python Appi implementation. Single threaded, single node, no plug-ins.
+License: Copyright (c) All Rights Reserved
+License-File: LICENSE
