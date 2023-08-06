@@ -1,0 +1,8 @@
+dist/
+
+test/data/
+test/data.tar.gz
+
+*__pycache__*
+
+.vs/
