@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: jdclip
+Version: 0.0.2
+Summary: A demo of model
+Home-page: UNKNOWN
+Author: jaideep 
+Author-email: jaideepkaushal2@gmail.com
+License: MIT
+Keywords: image search
+Platform: UNKNOWN
+Requires-Dist: torch
+Requires-Dist: Pillow
+Requires-Dist: openai-clip
+Requires-Dist: torchvision
+
+UNKNOWN
+
