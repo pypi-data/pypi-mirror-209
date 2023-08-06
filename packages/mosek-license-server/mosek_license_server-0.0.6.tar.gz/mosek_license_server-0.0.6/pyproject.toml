@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "mosek-license-server"
+version = "0.0.6"
+description = "Expose a mosek license via a nginx server"
+authors = ["Thomas Schmelzer <thomas.schmelzer@gmail.com>"]
+license = "Apache 2.0"
+readme = "readme.md"
+packages = [{include = "mosek_license"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9"
+urllib3 = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
