@@ -1,0 +1,17 @@
+vule_magics/__init__.py,sha256=rZulfMeTAQKWdw8McCxre1jHLIfCoryyw6yIoVOQZ_Y,154
+vule_magics/_version.py,sha256=CrrJ3SIhw9OHGm_IzQAPrahRrVauuJ-dxkuSSwyoH4M,171
+vule_magics/colab/sparksql.py,sha256=LoOZHr7gAHrUgWyyHTb3f-cA0O7MQuvACfDswtG0rqU,15107
+vule_magics/sparksql/__init__.py,sha256=yF7tu38TdffTaSDwByKh0r8hDAMNiiw77NbaLsuYrg8,3924
+vule_magics/sparksql/sparksql.py,sha256=y9xh_IMY_RwbgmRhxHK4DxbHheEzR835sAIGFiGN8Pw,2665
+vule_magics/sparksql/widget.py,sha256=wnOADVI-mzNiYhU24BXht61zz5kEPPuNnEv2PRHQkis,9905
+vule_magics-1.2.1.data/data/share/jupyter/labextensions/vule-magics/package.json,sha256=sWgyg8e_kvT2LdpMXKNfnJsdfXaJrjRlmVctT211jwM,5166
+vule_magics-1.2.1.data/data/share/jupyter/labextensions/vule-magics/static/568.56228813aa0df1f53f88.js,sha256=ViKIE6oN8fU_iLFagCxKIigByBnTx5RLTQoUDKt0Bek,1957
+vule_magics-1.2.1.data/data/share/jupyter/labextensions/vule-magics/static/747.6b9eb3eb7bd07ac8fdef.js,sha256=a56z63vQesj97zdDBIzqDSZPj1HYQu3Kn3K9eWG7I90,3498
+vule_magics-1.2.1.data/data/share/jupyter/labextensions/vule-magics/static/remoteEntry.5f7151d68eec31b0044c.js,sha256=X3FR1o7sMbAETMLPMu1J9lpYiu5awYpsExVuleBGebI,6913
+vule_magics-1.2.1.data/data/share/jupyter/labextensions/vule-magics/static/style.js,sha256=fQW6qET-P0T9jyNrCzXEil7VWB8YfISGdCFbKiXpb6M,154
+vule_magics-1.2.1.data/data/share/jupyter/labextensions/vule-magics/static/third-party-licenses.json,sha256=P_VjLKCSMZ3sXuPckg8bDyB8Xn8JD7EsiIoRqvSP3h0,2452
+vule_magics-1.2.1.data/data/share/jupyter/labextensions/vule-magics/install.json,sha256=wIPhehnKxXzfoRQMHfoisUZX-peESAVqYRgTAD6Tq30,183
+vule_magics-1.2.1.dist-info/METADATA,sha256=ERj-QZEx94zlSeyfQ2DYRATTmXUqeASeWQ12vI-EYmo,5404
+vule_magics-1.2.1.dist-info/WHEEL,sha256=y1bSCq4r5i4nMmpXeUJMqs3ipKvkZObrIXSvJHm1qCI,87
+vule_magics-1.2.1.dist-info/licenses/LICENSE,sha256=IdhBZ3YSs5KsqmIdnq0kYCYhVOL0F7QSwtettujDpok,1513
+vule_magics-1.2.1.dist-info/RECORD,,
