@@ -1,0 +1,8 @@
+setup.py
+weatheropen/__init__.py
+weatheropen/weatheropen.py
+weatheropen.egg-info/PKG-INFO
+weatheropen.egg-info/SOURCES.txt
+weatheropen.egg-info/dependency_links.txt
+weatheropen.egg-info/requires.txt
+weatheropen.egg-info/top_level.txt
