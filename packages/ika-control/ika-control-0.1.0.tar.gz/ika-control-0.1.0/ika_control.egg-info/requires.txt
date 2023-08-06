@@ -1,0 +1,9 @@
+
+[test]
+pytest<8,>=6
+pytest-cov<5,>=4
+pytest-asyncio==0.*
+pytest-xdist==3.*
+flake8==6.*
+flake8-docstrings==1.*
+mypy==1.0.1
