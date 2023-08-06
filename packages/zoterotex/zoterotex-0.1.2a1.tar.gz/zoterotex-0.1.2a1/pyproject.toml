@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "zoterotex"
+authors = [
+  { name="Robert Gale", email="rcgale@gmail.com" },
+]
+description = "Wrapper for [`pyzotero`](https://github.com/urschrei/pyzotero) that keeps a BibTeX file in sync with a Zotero library."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+  'pyzotero ~= 1.5',
+  'bibtexparser ~= 1.4',
+]
+dynamic = ["version"]
+
+[project.urls]
+homepage = "https://github.com/rcgale/zoterotex"
+repository = "https://github.com/rcgale/zoterotex"
+
+[project.scripts]
+zoterotex = "zoterotex.__main__:main"
+
+[tool.setuptools.dynamic]
+version = {attr = "zoterotex.__version__"}

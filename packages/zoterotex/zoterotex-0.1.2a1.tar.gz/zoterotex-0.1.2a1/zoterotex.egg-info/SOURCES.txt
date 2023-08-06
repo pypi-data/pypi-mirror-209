@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+zoterotex/__init__.py
+zoterotex/__main__.py
+zoterotex/_sync.py
+zoterotex.egg-info/PKG-INFO
+zoterotex.egg-info/SOURCES.txt
+zoterotex.egg-info/dependency_links.txt
+zoterotex.egg-info/entry_points.txt
+zoterotex.egg-info/requires.txt
+zoterotex.egg-info/top_level.txt
