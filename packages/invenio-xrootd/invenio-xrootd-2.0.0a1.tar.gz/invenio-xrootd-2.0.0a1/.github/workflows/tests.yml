@@ -1,0 +1,48 @@
+# -*- coding: utf-8 -*-
+#
+# This file is part of Invenio.
+# Copyright (C) 2020-2023 CERN.
+#
+# Invenio is free software; you can redistribute it and/or modify it
+# under the terms of the MIT License; see LICENSE file for more details.
+
+name: CI
+
+on:
+  push:
+    branches: master
+  pull_request:
+    branches: master
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    - cron:  '0 3 * * 6'
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: 'Reason'
+        required: false
+        default: 'Manual trigger'
+
+jobs:
+  Tests:
+    runs-on: ubuntu-20.04
+    strategy:
+      matrix:
+        # empty string "" is for latest
+        xrootd-version: [
+          5.5.4,
+          ""
+        ]
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Build Docker image
+        run: docker build -t invxrootd --build-arg xrootd_version=$XROOTD_VERSION --progress=plain .
+        env:
+          XROOTD_VERSION: ${{ matrix.xrootd-version }}
+          CMAKE: ${{ matrix.cmake }}
+
+      - name: Run tests
+        run: docker run -h xrootdhost -t invxrootd

@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: invenio-xrootd
+Version: 2.0.0a1
+Summary: XRootD file storage support for Invenio.
+Home-page: https://github.com/inveniosoftware/invenio-xrootd
+Author: CERN
+Author-email: info@inveniosoftware.org
+License: MIT
+Keywords: invenio xrootd
+Platform: any
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Provides-Extra: tests
+License-File: LICENSE
+License-File: AUTHORS.rst
+
+..
+    This file is part of Invenio.
+    Copyright (C) 2016-2019 CERN.
+
+    Invenio is free software; you can redistribute it and/or modify it
+    under the terms of the MIT License; see LICENSE file for more details.
+
+
+================
+ Invenio-XRootD
+================
+
+.. image:: https://github.com/inveniosoftware/invenio-xrootd/workflows/CI/badge.svg
+        :target: https://github.com/inveniosoftware/invenio-xrootd/actions
+
+.. image:: https://img.shields.io/coveralls/inveniosoftware/invenio-xrootd.svg
+        :target: https://coveralls.io/r/inveniosoftware/invenio-xrootd
+
+.. image:: https://img.shields.io/pypi/v/invenio-xrootd.svg
+        :target: https://pypi.org/pypi/invenio-xrootd
+
+.. image:: https://img.shields.io/github/license/inveniosoftware/invenio-xrootd.svg
+        :target: https://github.com/inveniosoftware/invenio-xrootd/blob/master/LICENSE
+
+
+XRootD file storage support for Invenio.
+
+* Free software: MIT license
+* Documentation: https://invenio-xrootd.readthedocs.io/
+
+..
+    This file is part of Invenio.
+    Copyright (C) 2016-2019 CERN.
+
+    Invenio is free software; you can redistribute it and/or modify it
+    under the terms of the MIT License; see LICENSE file for more details.
+
+
+
+Changes
+=======
+
+Version 2.0.0a1 (released 2023-05-03)
+
+- upgrade xrootdpyfs dependency
+
+Version 1.0.0a6 (released 2017-08-30)
+
+- Initial public release.
+
+
