@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: cmpydummy
+Version: 0.0.3
+Summary: A test package
+Project-URL: Homepage, https://github.com/cmoraes-bmc/cmpydummy
+Author: Celino Moraes
+License-File: LICENSE
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# cmpydummy
+dummy project
