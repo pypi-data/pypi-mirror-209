@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: denmarf
+Version: 0.3.1
+Summary: Density EstimatioN using Masked AutoRegressive Flow
+Author: Rico Ka Lok Lo
+Author-email: rico.kaloklo@gmail.com
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: tqdm
+Requires-Dist: torch
+
