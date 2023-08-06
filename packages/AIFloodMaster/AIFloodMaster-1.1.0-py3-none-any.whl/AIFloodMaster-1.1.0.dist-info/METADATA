@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: AIFloodMaster
+Version: 1.1.0
+Summary: 贵仁-智能雨洪管理模型
+Home-page: https://cloud.keepsoft.net/product
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+# AI Flood Master
+
+*贵仁 - 智能雨洪管理模型*
+
+随着人工智能技术的发展，“AI+“成为诸多传统业务场景智能化升级的新需求，当然也包括水利水务行业。目前，公司已经基本建立了涵盖水文、一二维水力、水质的较为完整的数字仿真模型体系（简称GRMS），并为公司的一系列项目提供了稳定、有力的技术支撑。
+
+但是随着业务领域的加深和拓展，不断新增的业务需求，如智能预报、智能调度、污染溯源等，都对我们的技术服务能力提出了更高更新的要求。
+
+面对行业的需求升级和技术革新，基于最新的工业级人工智能框架“tensorflow2.x“、结合贵仁多年深耕水利水务行业的技术积累，我们研发了新一代的、针对雨洪场景的智能预报调度模型——贵仁智能雨洪管理模型（GR - AIFloodMaster）。
+
+
+
