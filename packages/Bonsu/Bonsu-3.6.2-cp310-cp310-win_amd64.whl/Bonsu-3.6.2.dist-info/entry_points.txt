@@ -1,0 +1,2 @@
+[gui_scripts]
+bonsu = bonsu.interface.bonsu:main
