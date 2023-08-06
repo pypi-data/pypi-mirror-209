@@ -1,0 +1,10 @@
+aws_cdk/aws_ivschat/__init__.py,sha256=bp0DaBGQKxk4BZ9O2WuDrhHDy_Iib_rQvCu6rJpIyPA,63287
+aws_cdk/aws_ivschat/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/aws_ivschat/_jsii/__init__.py,sha256=XJov4Z5uowHT7qpSCVuc5K5_bUjyq19XxH5GT_zVhiw,407
+aws_cdk/aws_ivschat/_jsii/aws-ivschat@1.202.0.jsii.tgz,sha256=n4TfedK4zA_5WzYtesMWSXxI8tXSo6ow4VbvuTDa2iQ,37388
+aws_cdk.aws_ivschat-1.202.0.dist-info/LICENSE,sha256=YA6CL2YE08NgoURWXRTrec3mNy-KAR-_UNdiMqgNVMI,11391
+aws_cdk.aws_ivschat-1.202.0.dist-info/METADATA,sha256=FM-5FaB6eENrYG_tua7Xi993wilrITzqinK5Hh1Ty-k,3152
+aws_cdk.aws_ivschat-1.202.0.dist-info/NOTICE,sha256=XtGET2JQh3C41orQUenLTefWItOqLmu2N-mGwW7t3Fo,113
+aws_cdk.aws_ivschat-1.202.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+aws_cdk.aws_ivschat-1.202.0.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.aws_ivschat-1.202.0.dist-info/RECORD,,
