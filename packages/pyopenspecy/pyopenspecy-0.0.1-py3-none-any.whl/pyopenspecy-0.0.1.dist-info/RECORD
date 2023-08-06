@@ -1,0 +1,12 @@
+pyopenspecy/__init__.py,sha256=_Jm8lEur0t1gFacwzjSz-3S5X1Et0qSya4jEHxGvbWE,236
+pyopenspecy/__version__.py,sha256=S5COfH_nOtT10yJ9xrhaoBIah9XOnVBftAQvUBaws6Q,482
+pyopenspecy/pyopenspecy.py,sha256=6zgwgTkxiIMBnE9Qm7AqLJ5cPKIR5QwC4wSnLf2wl68,3260
+pyopenspecy/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyopenspecy/data/ftir_library.csv,sha256=bcpYxRPD2lSDfcXGbnUSzMZoUhzqVaVT6s7XlVjHNJc,29253850
+pyopenspecy/data/ftir_metadata.csv,sha256=Vq_s8DzO5DduAO_evcydOhzp1AWPxszqIUtJFs7d3LM,99349
+pyopenspecy/data/raman_library.csv,sha256=D4_EutMV5OQbadMGDbKWQyHX7NAxnNBTRJBhwjqN2-I,224177437
+pyopenspecy/data/raman_metadata.csv,sha256=7qSKMpd6XYgHjF-hdccDTLCdF38t1FK-kl-JL6sVU84,821707
+pyopenspecy-0.0.1.dist-info/METADATA,sha256=6CHDi2m3ZFHFek8ubOlzRtoMXRX9iJz8COchzPe4hCs,2367
+pyopenspecy-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pyopenspecy-0.0.1.dist-info/top_level.txt,sha256=BNfukHdavjjLaojeM-0_DYghM2pOloi1FR8Mj8sVq08,12
+pyopenspecy-0.0.1.dist-info/RECORD,,
