@@ -1,0 +1,6 @@
+setup.py
+Graficate.egg-info/PKG-INFO
+Graficate.egg-info/SOURCES.txt
+Graficate.egg-info/dependency_links.txt
+Graficate.egg-info/requires.txt
+Graficate.egg-info/top_level.txt
