@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+simpletg.egg-info/PKG-INFO
+simpletg.egg-info/SOURCES.txt
+simpletg.egg-info/dependency_links.txt
+simpletg.egg-info/top_level.txt
