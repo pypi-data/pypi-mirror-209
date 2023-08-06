@@ -1,0 +1,14 @@
+edman/__init__.py,sha256=HrSiGstslA7XqMjK9NHCFtvai5RTKMxT-vMz4lrpHyc,167
+edman/config.py,sha256=0YEyJx3LDB1QGwOL3iOZWva7rMPjcn_3IlSQYdSO0UY,1446
+edman/convert.py,sha256=lySnBB-WwJ6L6UHj9hgV44IgktodtQq5cw225c5wTfQ,16569
+edman/db.py,sha256=AAHeVVkcJDro814xWpS3hA-J-r8oUu1Z37WVZhveVQI,47620
+edman/exceptions.py,sha256=De3ahPe1McovLbbTa4F6rxaWjhCUQSfstCfJQ0qwhTY,644
+edman/file.py,sha256=lAUJX5Bst11thZFP-yCtt6H8iaZLvNfS3mx5nW-TR-I,24845
+edman/json_manager.py,sha256=bdz3iJvauc19gBMGVhxT1pg8qZAobWXn5gH7yv_eNI0,1487
+edman/search.py,sha256=l4_9t7ZzeoG72qFnqo7thidJgi4ynN1GkOvdmBk8YAU,9619
+edman/utils.py,sha256=5oc1VX3Wn2t5yTtodN-W_PwcG8Got0OOxLLjLQ5R9fQ,10913
+edman-2023.5.22.dist-info/LICENSE.txt,sha256=sJCrhOM0cxyIz-CtzhUdsazCMhOHIIb6DfAjfCHeiG0,1115
+edman-2023.5.22.dist-info/METADATA,sha256=4zkzt1I9MyhP4PQ4TBJ6YBNik0kqxvwPyKrPa1BTiVQ,7721
+edman-2023.5.22.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+edman-2023.5.22.dist-info/top_level.txt,sha256=Gf1Otc3royOVvPtLcgpNl2DLSqwu7qfVtGxGqa-KSjo,6
+edman-2023.5.22.dist-info/RECORD,,
