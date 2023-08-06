@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: twilix-python
+Version: 0.0.1
+Summary: Twilix
+Home-page: https://github.com/mypackage.git
+Author: Twilix.io
+Author-email: colabdog@gmail.com
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: icecream
+
