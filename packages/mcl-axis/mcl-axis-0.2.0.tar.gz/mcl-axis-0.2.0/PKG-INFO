@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: mcl-axis
+Version: 0.2.0
+Summary: A tool to find the most common libraries used
+Author: Axis (blankRiot96)
+Keywords: cli,most common libraries
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.11
+License-File: LICENSE
+
+
+A tool to find the most commonly imported
+python libraries in a target directory 
