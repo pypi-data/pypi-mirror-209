@@ -1,0 +1,13 @@
+metablock/__init__.py,sha256=mPyP1zLHcazTpfCfG2FhYdozyikDST9IcsjcnG_hzco,502
+metablock/client.py,sha256=SDtdUmLRZ0AO5pQYXKvxf698365PeURVsXlwEiU6VUU,4119
+metablock/components.py,sha256=Nd3UcH73QsmAsfcMk8aiBECUQhFK32JsZx9n_MAtBwc,7937
+metablock/extensions.py,sha256=a5IcqgO5yPZ2v5jrdIN5c-VyFPKum3g9OqNaDVC_qh8,540
+metablock/orgs.py,sha256=UYw2sRqdSoxnCJbCgyeRdFOzRQ_DLT9crOnDKhwAu8E,1850
+metablock/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+metablock/spaces.py,sha256=4-aknP9k_n9RSXMdXBG66J7QQ18cA-dZrLZwNhTZPL4,3029
+metablock/user.py,sha256=OB2C0kaoqtcHzJyQlmf-h6JXvxxewY5ZRPJmamUfmsg,1350
+metablock/utils.py,sha256=x7tEm7I7WDJ9dWYOtoFNCNFvyOpKNeWJ1vtG3iluvcU,531
+metablock-0.5.3.dist-info/LICENSE,sha256=j1KvOSfYHjeDXwMA2w-472vFaxkgwb2I4OIvkrkHmq0,1482
+metablock-0.5.3.dist-info/METADATA,sha256=BjEAhJq-7H3v1yjGHy4uE4Qijysfc0Zus6wxJ2PWIVI,1472
+metablock-0.5.3.dist-info/WHEEL,sha256=WGfLGfLX43Ei_YORXSnT54hxFygu34kMpcQdmgmEwCQ,88
+metablock-0.5.3.dist-info/RECORD,,
