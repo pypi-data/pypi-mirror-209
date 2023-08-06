@@ -1,0 +1,2 @@
+[console_scripts]
+astmath = astmath.cli:cli
