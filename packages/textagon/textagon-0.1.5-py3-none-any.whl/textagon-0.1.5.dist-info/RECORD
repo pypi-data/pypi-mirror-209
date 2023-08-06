@@ -1,0 +1,11 @@
+textagon/__init__.py,sha256=hX9KEmaiqYLXCC5Mkm65HQZlJYz-yERDdrh_vonbwMM,180
+textagon/install-dependencies.py,sha256=2JJIa_FutCHC84z5cKJu6OCnDobcYnUM5RPILOnGixI,197
+textagon/post_install.py,sha256=U0cdBHNgSFM7Q8voEJAWfO4dluOMWrx1ebAWeDewBo0,309
+textagon/process-text.py,sha256=oNDPbcz43PV_t5nIoZdDcwZlWGTiu-1DLSmKx41k-vk,60290
+textagon/textagon.py,sha256=s1p3pglXGgOfhYY0Yque6S9YLLO60PrE3F95PRtKJNI,7431
+textagon/external/lexicons/exclusions.txt,sha256=e5l5aZn-_7orkVREFVQ-7Wh2j0La2vbsUAvO9WUo8DU,43255
+textagon-0.1.5.dist-info/METADATA,sha256=WNW5A6Cq2XKb265YQ_FrIiaD_Iw_TSAlAHiq4kEmYX4,404
+textagon-0.1.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+textagon-0.1.5.dist-info/entry_points.txt,sha256=x5ssa4-XtNJUP5IPM4I1bOpWbcSdAXxbxHQsnhdZXwc,69
+textagon-0.1.5.dist-info/top_level.txt,sha256=YAUktlLvOPoaN5FYrZVqGVdw97gv8Ra1EtPeGWxApHw,9
+textagon-0.1.5.dist-info/RECORD,,
