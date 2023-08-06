@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+Signal8/Signal8.py
+Signal8/__init__.py
+Signal8/main.py
+Signal8.egg-info/PKG-INFO
+Signal8.egg-info/SOURCES.txt
+Signal8.egg-info/dependency_links.txt
+Signal8.egg-info/top_level.txt
+signal8.egg-info/PKG-INFO
+signal8.egg-info/SOURCES.txt
+signal8.egg-info/dependency_links.txt
+signal8.egg-info/top_level.txt
