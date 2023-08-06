@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+dbtdocgen_rutryk.egg-info/PKG-INFO
+dbtdocgen_rutryk.egg-info/SOURCES.txt
+dbtdocgen_rutryk.egg-info/dependency_links.txt
+dbtdocgen_rutryk.egg-info/entry_points.txt
+dbtdocgen_rutryk.egg-info/requires.txt
+dbtdocgen_rutryk.egg-info/top_level.txt
