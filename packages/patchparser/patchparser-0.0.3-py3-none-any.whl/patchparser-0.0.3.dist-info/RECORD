@@ -1,0 +1,8 @@
+patchparser/__init__.py,sha256=kBwmPSLZnXvcqtGIQLCJR36FZ4qWe6dVrGr3kMNVvoE,81
+patchparser/github_parser.py,sha256=vQ5H7x4K2uVaeRpWXb1PZaJQ1tzc0xPNrVRZMuszlfM,15828
+patchparser/github_parser_local.py,sha256=epBfPu7hgoeK0dH2-HpcBt2DleUc2eCUIos1W1tRIhk,20075
+patchparser-0.0.3.dist-info/LICENSE,sha256=awOCsWJ58m_2kBQwBUGWejVqZm6wuRtCL2hi9rfa0X4,1211
+patchparser-0.0.3.dist-info/METADATA,sha256=oc1Zc80v2fiSajSnXuUW3HIlgXiraZWqALPWBsBsccI,7324
+patchparser-0.0.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+patchparser-0.0.3.dist-info/top_level.txt,sha256=CcK3v0AByypb7piWS-QUEtTOfZEUGG6iJuERYuvba0U,12
+patchparser-0.0.3.dist-info/RECORD,,
