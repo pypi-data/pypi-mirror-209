@@ -1,0 +1,9 @@
+zipfai/__init__.py,sha256=uoGG7jquzZxNZib106LOB_gED-6hLWhKaHcXYzfPrv0,196
+zipfai/_version.py,sha256=0E2q3bbXSYHV7qQaXVj0To-J2XdlP2Roo0TsM8oQtR4,160
+zipfai/exceptions.py,sha256=nhUqgj_TGKumWt6PCdLzU5AIfkp7vF-j1TlBRqlC8is,226
+zipfai/utils.py,sha256=dc5I74Vf2MsbDGzgOTAQxnGYSAbWv2-chval8Cv-VQ0,537
+zipfai-0.0.1.dist-info/LICENSE,sha256=OorYNutVagHMjCtJ3ty1zxFAaY5zvFZGdMVT7_lRC1w,11341
+zipfai-0.0.1.dist-info/METADATA,sha256=lxofH5a_qao3m2EYhcoSBIaoDPhNhMga3FiWBbfbSyw,1095
+zipfai-0.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+zipfai-0.0.1.dist-info/top_level.txt,sha256=6IM0EYslFwWsPPr1GbpoGlBNflum6Hzke6ZEHZ943zM,7
+zipfai-0.0.1.dist-info/RECORD,,
