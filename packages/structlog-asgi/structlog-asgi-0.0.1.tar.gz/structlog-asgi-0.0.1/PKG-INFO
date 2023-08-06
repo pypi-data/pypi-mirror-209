@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: structlog-asgi
+Version: 0.0.1
+Summary: Eazy structlog configuration for asgi applications
+Author-email: Nick Khitrov <khitrov34@gmail.com>
+License: MIT
+Requires-Python: >=3.9
+License-File: LICENSE
