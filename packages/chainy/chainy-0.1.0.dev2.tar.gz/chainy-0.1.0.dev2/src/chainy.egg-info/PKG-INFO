@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: chainy
+Version: 0.1.0.dev2
+Summary: Declarative prompt chaining
+Home-page: https://github.com/FyZyX/chainy
+Author: Lucas Lofaro
+Author-email: lucasmlofaro@gmail.com
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.9
