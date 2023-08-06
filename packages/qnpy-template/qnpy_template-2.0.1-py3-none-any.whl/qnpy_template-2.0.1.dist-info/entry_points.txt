@@ -1,0 +1,3 @@
+[console_scripts]
+another_script = xyz.script:main
+script = xyz.script:main
