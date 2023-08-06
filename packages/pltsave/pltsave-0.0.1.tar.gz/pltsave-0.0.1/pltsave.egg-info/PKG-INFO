@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: pltsave
+Version: 0.0.1
+Summary: Data management library to save data and plots to hdf5 files
+Home-page: https://github.com/kyrylo-gr/pltsave
+Author: kyrylo
+Author-email: cryo.paris.su@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+## Install
+
+`pip install pltsave`
+
+## Installation in dev mode
+
+`pip install -e .[dev]`
+
+or
+
+`python setup.py develop`
+
+## Usage
+
+Save a figure:
+
+```python
+import pltsave
+
+figure_info = pltsave.dumps(fig)
+```
+
+Load the figure
+
+```python
+fig2 = plt.figure()
+pltsave.load_fig(fig2, figure_info)
+```

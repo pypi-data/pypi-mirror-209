@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+pltsave/__init__.py
+pltsave/convert.py
+pltsave/stuctures.py
+pltsave.egg-info/PKG-INFO
+pltsave.egg-info/SOURCES.txt
+pltsave.egg-info/dependency_links.txt
+pltsave.egg-info/requires.txt
+pltsave.egg-info/top_level.txt
