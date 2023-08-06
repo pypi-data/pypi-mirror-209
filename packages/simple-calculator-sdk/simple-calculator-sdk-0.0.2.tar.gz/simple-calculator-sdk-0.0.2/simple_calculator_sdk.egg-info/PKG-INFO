@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: simple-calculator-sdk
+Version: 0.0.2
+Summary: Simple Calculations
+Author-email: Bisma <bismapervaiz@gmail.com.com>
+Project-URL: Documentation, https://www.apimatic.io/apidocs/apimatic-calculator
+Requires-Python: >=3.7
+Provides-Extra: testutils
+License-File: LICENSE
