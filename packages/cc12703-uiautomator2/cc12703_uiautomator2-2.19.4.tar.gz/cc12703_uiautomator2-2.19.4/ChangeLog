@@ -1,0 +1,22 @@
+CHANGES
+=======
+
+2.19.4
+------
+
+* support  stop app by user id
+* add uninstall whatsinput for purge
+* add isRunning
+* improve install
+* fix  workflow cant  run
+* add  install by adb wifi
+* update adbutils rep
+* Addresses issue #823 in owner repo. (#870)
+* fix bug
+* fix bug of type annotation
+* fix   bug of  pair by wifi
+* Update README.md
+* Update README.md
+* update sponsors information
+* fix gateway init error
+* change reset\_uiautomator raise error from OSError to GatewayError
