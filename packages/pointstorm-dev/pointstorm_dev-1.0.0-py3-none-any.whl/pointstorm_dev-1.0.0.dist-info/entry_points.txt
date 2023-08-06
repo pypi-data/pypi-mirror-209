@@ -1,0 +1,3 @@
+[console_scripts]
+pointstorm_dev = pointstorm_dev.__main__:main
+

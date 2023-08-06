@@ -1,0 +1,12 @@
+pointstorm_dev/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pointstorm_dev/__main__.py,sha256=X4ensTv1a6rA5vi46Lnq7LJcvOPRg7UvBXpRJZJEax4,415
+pointstorm_dev/somemodule.py,sha256=SdnTxkJVpmzjkAzgKppXZaS1oXv60xPmaO4vCb6Ntc4,382
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_myclass.py,sha256=mLteQaH1YqIObJN93LvORet0NyW86RMLLjSVQdkzjBo,336
+tests/test_mysecondclass.py,sha256=LGQ13hZ_JFW3QMt1nhClcufsv41htJS9u8I2Y3ZKck4,366
+pointstorm_dev-1.0.0.dist-info/LICENSE,sha256=SbI1AVFKo4PHN0LMWRlM6NM2HBx1cmfQdF3bgqOKhz4,9
+pointstorm_dev-1.0.0.dist-info/METADATA,sha256=bQ5h7aef_VB84Qc_TlK0TTCfvAc8wvNBIjKlr-W33jw,2852
+pointstorm_dev-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pointstorm_dev-1.0.0.dist-info/entry_points.txt,sha256=gZMT3ukpsVsSj3lQewqZywNbj3TF8k-F1y6qS3n2--Y,65
+pointstorm_dev-1.0.0.dist-info/top_level.txt,sha256=kGOu9u0C_iHFepR25EKDvGUm23coMTvIVhMfBqJ5CP4,21
+pointstorm_dev-1.0.0.dist-info/RECORD,,
