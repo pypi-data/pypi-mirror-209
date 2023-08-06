@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/neutrosopy/__init__.py
+src/neutrosopy/neutrosophic.py
+src/neutrosopy.egg-info/PKG-INFO
+src/neutrosopy.egg-info/SOURCES.txt
+src/neutrosopy.egg-info/dependency_links.txt
+src/neutrosopy.egg-info/top_level.txt
