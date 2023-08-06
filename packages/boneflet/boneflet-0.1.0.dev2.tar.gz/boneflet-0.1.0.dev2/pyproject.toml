@@ -1,0 +1,23 @@
+[tool.pdm]
+
+[project]
+name = "BoneFlet"
+version = "0.1.0dev2"
+description = ""
+authors = [
+    { name = "六个骨头", email = "2742392377@qq.com" },
+]
+dependencies = [
+    "openpyxl>=3.1.2",
+]
+requires-python = ">=3.9"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
