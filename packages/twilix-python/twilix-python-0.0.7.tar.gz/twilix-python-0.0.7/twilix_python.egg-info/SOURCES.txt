@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+tests/test_crud.py
+tests/test_semantic_search.py
+twilix/__init__.py
+twilix_python.egg-info/PKG-INFO
+twilix_python.egg-info/SOURCES.txt
+twilix_python.egg-info/dependency_links.txt
+twilix_python.egg-info/requires.txt
+twilix_python.egg-info/top_level.txt
