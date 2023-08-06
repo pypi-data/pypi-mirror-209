@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: dense-ev
+Version: 2023.5.21
+Summary: Qiskit expectation values using optimal dense grouping.
+Author-email: Andrew Lytle <atlytle@illinois.edu>
+License-File: LICENSE.txt
+Requires-Dist: qiskit (<0.43.0)
+Requires-Dist: psfam
+
