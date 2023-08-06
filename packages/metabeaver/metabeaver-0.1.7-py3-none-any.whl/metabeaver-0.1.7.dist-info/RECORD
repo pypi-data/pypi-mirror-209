@@ -1,0 +1,25 @@
+Google Cloud Platform/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Google Cloud Platform/Google BigQuery/TableManagement.py,sha256=EQeqHc5Bzv_l90x_DgIOf6MzkEy9xoieKlFtL4H0u5Q,2913
+Google Cloud Platform/Google BigQuery/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Google Cloud Platform/Google BigQuery/testingTables.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+InstallationScripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+InstallationScripts/autoGenerateRequirementsText.py,sha256=yDoO7_P7BgkC_hBEU0cABRjr1WDUcEqW3utakIzCRhU,1246
+MetaProgramming/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+metabeaver/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+metabeaver/Google Cloud Platform/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+metabeaver/Google Cloud Platform/Google BigQuery/TableManagement.py,sha256=EQeqHc5Bzv_l90x_DgIOf6MzkEy9xoieKlFtL4H0u5Q,2913
+metabeaver/Google Cloud Platform/Google BigQuery/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+metabeaver/Google Cloud Platform/Google BigQuery/testingTables.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+metabeaver/GoogleCloudPlatform/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+metabeaver/GoogleCloudPlatform/BigQuery/TableManagement.py,sha256=jwQrpXnd8jPxR9OV9Icwt2pTWcGkaq3vVoPaJXFvDyo,5059
+metabeaver/GoogleCloudPlatform/BigQuery/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+metabeaver/GoogleCloudPlatform/BigQuery/testingTables.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+metabeaver/InstallationScripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+metabeaver/InstallationScripts/autoGenerateRequirementsText.py,sha256=yDoO7_P7BgkC_hBEU0cABRjr1WDUcEqW3utakIzCRhU,1246
+metabeaver/MetaProgramming/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+metabeaver/Testing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+metabeaver/Testing/concatenateDataXLSX.py,sha256=bErQrntxhRElS3JSy2iG7MtgArzh54X8OZmzdhmoG6k,1804
+metabeaver-0.1.7.dist-info/METADATA,sha256=j-aYxRWIUCtCbHfwIGGx2OnncUC7TH3dCnK9IMx4XG8,340
+metabeaver-0.1.7.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+metabeaver-0.1.7.dist-info/top_level.txt,sha256=VoOhXCBf6nk3wrRCj-uleQ8TSKu09cw8MUsu4SPMzL0,11
+metabeaver-0.1.7.dist-info/RECORD,,
