@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: simpletg
+Version: 0.0.1
+Summary: Simple telegram bot
+Home-page: https://github.com/Djama1GIT/simpletg
+Author: GADJIIAVOV
+Author-email: mail@dj.ama1.ru
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Simple Telegram Bot
