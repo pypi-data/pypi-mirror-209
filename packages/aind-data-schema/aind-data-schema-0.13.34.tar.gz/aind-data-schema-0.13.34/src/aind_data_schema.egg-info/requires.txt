@@ -1,0 +1,19 @@
+pydantic
+jsonschema
+
+[:python_version < "3.8"]
+typing_extensions
+
+[dev]
+aind_data_schema[docs]
+black
+coverage
+flake8
+interrogate
+isort
+
+[docs]
+erdantic
+Sphinx
+pygit2
+furo
