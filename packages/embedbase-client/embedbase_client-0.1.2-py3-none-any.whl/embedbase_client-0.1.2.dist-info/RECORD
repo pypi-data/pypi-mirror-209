@@ -1,0 +1,12 @@
+embedbase_client/__init__.py,sha256=aSkKP-MqtcC-Kt5bRotXQ_0Oq6D1rNgF6bmP4lP_Pq0,389
+embedbase_client/async_client.py,sha256=i7Fb6ulo1Z-kM_k8gDv11RmGgNH67AfUI4KitD_0-zU,15456
+embedbase_client/base.py,sha256=jIjNjbcQ5zXlQXBq3UdPtJ7ZaJKn3-HL_INa01ENPHI,913
+embedbase_client/errors.py,sha256=RgiQKc1XbnxNwxHiHDV7eE7_Kenm8nCWWVYxalxiMnU,49
+embedbase_client/model.py,sha256=SVLHmYLdevCenpManrxsIS_OdUaoPxkwD_CenJvwiIU,1752
+embedbase_client/split.py,sha256=hfu3TT1V8qQm6_IvZBwJ6pDpi8yy-xs8ihbXKRIZM84,3388
+embedbase_client/sync_client.py,sha256=m-BaEiyMC0i8D6L0STQWXkkjpfJkovRs_MHcIQl0gFc,15373
+embedbase_client/utils.py,sha256=RP6kU65mixmZXscCZf8liM4qQqCnNzaIui6jPwUJ-y8,1237
+embedbase_client-0.1.2.dist-info/LICENSE,sha256=5g7nPQgvjTOiqTnBwAhxdcz51JVIuUy1cxmBxSoVTuE,1077
+embedbase_client-0.1.2.dist-info/METADATA,sha256=r1r6OKeJVAgtJdh9wlfIAZu6wXu5Tzkv1YGEPZsLuVw,2261
+embedbase_client-0.1.2.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+embedbase_client-0.1.2.dist-info/RECORD,,
