@@ -1,0 +1,9 @@
+data_copilot/__init__.py,sha256=QcxPiTWseeRX-eORni0NS0xVDjdfFAGVHH0RrsNfkVc,128
+data_copilot/cli.py,sha256=22C125D5XEn_WN-TnGjmUy3Q9a0ORqpwDknTY68GuVg,414
+data_copilot/data_copilot.py,sha256=h0hwdogXGFqerm-5ZPeT-irPn91pCcQRjiHThXsRzEk,19
+data_copilot-0.1.0.dist-info/LICENSE,sha256=TfPDBt3ar0uv_f9cqCDMZ5rIzW3CY8anRRd4PkL6ejs,34522
+data_copilot-0.1.0.dist-info/METADATA,sha256=4M1Jg9V6XMuOaV9DDDkdJurGyABw6mNaCvVY3lfMWkU,1776
+data_copilot-0.1.0.dist-info/WHEEL,sha256=a-zpFRIJzOq5QfuhBzbhiA1eHTzNCJn8OdRvhdNX0Rk,110
+data_copilot-0.1.0.dist-info/entry_points.txt,sha256=sr-1RGcRY1gana6KcupdXgq1RfiqLlt6ghhWzn6BHis,55
+data_copilot-0.1.0.dist-info/top_level.txt,sha256=MWUixVDhuXv6SbWW2YqVZtaQUV9VYm4I4kDgiKKg1mc,13
+data_copilot-0.1.0.dist-info/RECORD,,
