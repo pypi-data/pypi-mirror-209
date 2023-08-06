@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: api-sap
+Version: 0.0.2
+Summary: API de acesso ao SAP.
+Home-page: UNKNOWN
+Author: Wilton Melo
+Author-email: pmelo.wilton@gmail.com
+License: MIT License
+Keywords: api sap,SAP,conectar ao SAP
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+# API de acesso ao SAP.
+
+Para acessar utilize o codigo abaixo:
+
+>>> from py_sap import Sap
+>>> sap = Sap()
+
+
