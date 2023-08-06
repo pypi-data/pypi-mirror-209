@@ -1,0 +1,9 @@
+CHANGELOG.md
+LICENSE.md
+MANIFEST.in
+README.md
+setup.py
+pip_goodthing.egg-info/PKG-INFO
+pip_goodthing.egg-info/SOURCES.txt
+pip_goodthing.egg-info/dependency_links.txt
+pip_goodthing.egg-info/top_level.txt
