@@ -1,0 +1,52 @@
+[package]
+name = "group-threshold-cryptography"
+version = "0.1.0"
+edition = "2018"
+authors = ["Heliax AG <hello@heliax.dev>"]
+license = "GPL-3.0"
+description = "Threshold signature and encryption using group secret key"
+repository = "https://github.com/heliaxdev/group-threshold-crypto/"
+readme = "README.md"
+
+[lib]
+bench = false
+
+[features]
+test-common = []
+api = []
+
+[dependencies]
+ark-bls12-381 = "0.4"
+ark-ec = "0.4"
+ark-ff = "0.4"
+ark-poly = "0.4"
+ark-serialize = "0.4"
+ark-std = "0.4"
+bincode = "1.3.3"
+chacha20poly1305 = "0.10.1"
+ferveo-common = { path = "../ferveo-common" }
+itertools = "0.10"
+miracl_core = "=2.3.0"
+rand = "0.8"
+rand_core = "0.6"
+serde = { version = "1.0", features = ["derive"] }
+serde_bytes = "0.11.9"
+serde_with = "2.0.1"
+sha2 = "0.10.6"
+subproductdomain = { path = "../subproductdomain" }
+thiserror = "1.0"
+zeroize = "1.6.0"
+
+[package.metadata.cargo-machete]
+ignored = ["serde_bytes"]
+
+[[bench]]
+name = "tpke"
+path = "benches/tpke.rs"
+harness = false
+required-features = ["test-common"]
+
+[[bench]]
+name = "arkworks"
+path = "benches/arkworks.rs"
+harness = false

@@ -1,0 +1,13 @@
+[package]
+name = "subproductdomain"
+version = "0.1.0"
+edition = "2018"
+license = "GPL-3.0"
+authors = ["Heliax AG <hello@heliax.dev>"]
+
+[dependencies]
+anyhow = "1.0.47"
+ark-ec = "0.4"
+ark-ff = "0.4"
+ark-poly = "0.4"
+ark-std = "0.4"
