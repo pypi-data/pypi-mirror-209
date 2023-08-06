@@ -1,0 +1,10 @@
+numpy
+
+[dev]
+black
+isort[colors]
+flake8
+pydocstyle
+pytest
+mypy
+scikit-learn

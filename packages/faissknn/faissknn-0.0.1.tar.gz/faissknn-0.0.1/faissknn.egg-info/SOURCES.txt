@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+faissknn/__init__.py
+faissknn/knn.py
+faissknn.egg-info/PKG-INFO
+faissknn.egg-info/SOURCES.txt
+faissknn.egg-info/dependency_links.txt
+faissknn.egg-info/requires.txt
+faissknn.egg-info/top_level.txt
+tests/test_knn.py
