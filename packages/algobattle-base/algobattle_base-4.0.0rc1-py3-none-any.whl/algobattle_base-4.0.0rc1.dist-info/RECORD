@@ -1,0 +1,13 @@
+algobattle/__init__.py,sha256=YxgXmuJpX_YewwUYrAk2XliEqMH7hFS6vETWa4N36ss,125
+algobattle/battle.py,sha256=2ecpCAKzvnvrs6dBq0nu0Hi9KmTiEZY8PoFIBk_4aV4,15919
+algobattle/cli.py,sha256=X9G9l95rfYqtB3gCl6v4K3MxVsRVTQdy-p1cJD2aDDk,12891
+algobattle/docker_util.py,sha256=fqjoN6upTo-A_hxUjduEhgx5-X7dQ1rBw7gHXOAf8j0,31968
+algobattle/match.py,sha256=Fh5K7AkoaT7Oqof4Xp9WEbvwbZD9QFrDro4z8eFx6sI,14190
+algobattle/problem.py,sha256=DUix9Zsl13T9Ve8iS9900gAztD8kkQk0mN4yYyGx1Ho,12196
+algobattle/team.py,sha256=dZQESiWD05t448SuH7nTwERK5Kv9hh-G7TrqOibNSMw,6016
+algobattle/util.py,sha256=g_txouTfc_KN4knWQP9XwBPT2CflpKqBAlPJdQnA3WU,9474
+algobattle_base-4.0.0rc1.dist-info/METADATA,sha256=wnngWx-2M5gZgiKg8Bev26lpINr7jvwD9CbaC2cSFgE,2662
+algobattle_base-4.0.0rc1.dist-info/WHEEL,sha256=m6kf1fJuo48rT4uxh0SeA_FsGq51BpCh_8VNBKVwYQA,90
+algobattle_base-4.0.0rc1.dist-info/entry_points.txt,sha256=0fbbj_W6LyjYOXlSCSXY4UcMo2xbCG63uX_80wXHX9E,52
+algobattle_base-4.0.0rc1.dist-info/licenses/LICENSE,sha256=6M1_1ZU1mbFOTes6sXlvn_ZS0-FRTvrGu9jtDNhsrXc,1068
+algobattle_base-4.0.0rc1.dist-info/RECORD,,
