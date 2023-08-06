@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: at-fetch-data
+Version: 1.0.0
+Summary: UNKNOWN
+Author: ctwel
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: python (>=3.8)
+Requires-Dist: pandas (>=1.0.0)
+Requires-Dist: httpx (>=0.24.0)
+
+UNKNOWN
+
