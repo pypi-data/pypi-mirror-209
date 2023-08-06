@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: VSautomatic
+Version: 2.7
+Summary: VS Automatic Tools
+Home-page: https://pypi.org/manage/projects/
+Author: jasonliu
+Author-email: batianhu4444@gmail.com
+License: MIT-0
+Platform: UNKNOWN
+Requires-Python: >=3.9
+Requires-Dist: robotframework
+Requires-Dist: robotframework-ride
+Requires-Dist: robotframework-sshlibrary
+Requires-Dist: robotframework-seriallibrary
+
+UNKNOWN
+
