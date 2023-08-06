@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: near-api
+Version: 0.2.0
+Home-page: https://github.com/near/near-api-py
+Author: NEAR Inc
+License: MIT
+License-File: LICENSE
+License-File: LICENSE-APACHE
