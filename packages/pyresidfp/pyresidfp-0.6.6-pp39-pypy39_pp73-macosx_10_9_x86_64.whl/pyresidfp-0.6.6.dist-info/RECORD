@@ -1,0 +1,13 @@
+pyresidfp/registers.py,sha256=oL7utC9RTfRdyaZ6stjd4ScadR0IMpyUarIaKezI9rw,2863
+pyresidfp/sound_interface_device.py,sha256=EorD3KOH9dj_ohaULjAPfDtJs0w7cHr1Kq1VGsIO_tM,11360
+pyresidfp/_version.py,sha256=CqfyW0By25t3Y28ehCHUVtHIJDMi0FF-aLr4smm1Ads,160
+pyresidfp/_pyresidfp.pypy39-pp73-darwin.so,sha256=sa3sW8YVHxw8cc7brYJXhTdeyBJe3sp44cx7DwA2V-I,254208
+pyresidfp/__init__.py,sha256=F6j_oeWOQVXxtuyR1Zycd_wp1UCvxJXGtMNQM-fwaUM,1436
+pyresidfp/musical_scale.py,sha256=WB4iOCTNfB-kN9NY2snoTc_YATxM5HgRkZN_WT0p9Vs,4092
+pyresidfp/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyresidfp/_pyresidfp/__init__.pyi,sha256=xVMHemz3OWzG-vTx7aFXBuOIARDiutQBGpD91phmReo,8617
+pyresidfp-0.6.6.dist-info/RECORD,,
+pyresidfp-0.6.6.dist-info/WHEEL,sha256=XNkxXNAxOz_N-Y0AibYGqH7BAfo-xpDPvoBaZmyasUo,119
+pyresidfp-0.6.6.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyresidfp-0.6.6.dist-info/METADATA,sha256=FL6m_CufMdxh_7lQ7PUCFZe_m17K4AX3Vb_mPpdfoEU,3143
+pyresidfp-0.6.6.dist-info/licenses/COPYING,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
