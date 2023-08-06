@@ -1,0 +1,10 @@
+scarlet_shark_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scarlet_shark_client/client.py,sha256=Na4EfoQhVa94Rg0e-H1eyqeo8aM2g6OAEBnnM7i7iDY,663
+scarlet_shark_client/clients/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scarlet_shark_client/clients/abstract.py,sha256=hckTHaFAm-BlCVde5EHqH_ooa8VxHqUrbh72LVtG_us,7954
+scarlet_shark_client/clients/v04_client.py,sha256=YkXfL7upU_XDXXh9n3oSHuqArKg5V-EidNth3jNFdPk,3263
+scarlet_shark_client-1.0.5.dist-info/LICENSE.txt,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+scarlet_shark_client-1.0.5.dist-info/METADATA,sha256=G4pnDCmNcv7oegoeqM15Wc4wgHoVCzFO9ydX4RA6xc0,1803
+scarlet_shark_client-1.0.5.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+scarlet_shark_client-1.0.5.dist-info/top_level.txt,sha256=_xQkgBcSZ2qcDGPf8TfqKgTgIMK03GalVbYv2PzXWoE,21
+scarlet_shark_client-1.0.5.dist-info/RECORD,,
