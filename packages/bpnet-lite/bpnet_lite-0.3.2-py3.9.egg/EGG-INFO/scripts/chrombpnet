@@ -1,0 +1,7 @@
+#!/users/jmschr/anaconda3/bin/python
+# EASY-INSTALL-DEV-SCRIPT: 'bpnet-lite==0.3.2','chrombpnet'
+__requires__ = 'bpnet-lite==0.3.2'
+__import__('pkg_resources').require('bpnet-lite==0.3.2')
+__file__ = '/users/jmschr/github/bpnet-lite/chrombpnet'
+with open(__file__) as f:
+    exec(compile(f.read(), __file__, 'exec'))
