@@ -1,0 +1,3 @@
+[console_scripts]
+watchlog=watchlog.watchlog:cli
+
