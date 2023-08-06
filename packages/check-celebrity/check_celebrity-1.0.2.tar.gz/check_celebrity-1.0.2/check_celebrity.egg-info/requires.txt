@@ -1,0 +1,9 @@
+Deepface
+mtcnn
+VGGFace
+keras
+Tensorflow
+numpy
+opencv-python
+Flask
+Pillow==9.5.0
