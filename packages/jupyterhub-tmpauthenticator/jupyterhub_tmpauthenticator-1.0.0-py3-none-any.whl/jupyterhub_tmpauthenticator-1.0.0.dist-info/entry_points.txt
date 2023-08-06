@@ -1,0 +1,2 @@
+[jupyterhub.authenticators]
+tmp = tmpauthenticator:TmpAuthenticator
