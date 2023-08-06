@@ -1,0 +1,178 @@
+protocol = "dwyer-16b"
+doc = "Daemon for Dwyer 16b temperature controller with support for ramping. Note that this daemon assumes ModBus RTU."
+traits = ["has-limits", "has-position", "uses-uart", "uses-serial", "is-daemon"]
+hardware = ["dwyer:16b"]
+
+[links]
+source = "https://github.com/yaq-project/yaqd-dwyer"
+bugtracker = "https://gitlab.com/yaq-project/yaqd-dwyer/-/issues"
+example-configs = "https://github.com/yaq-project/yaqd-dwyer/tree/main/example-yaq-configs/dwyer-16b"
+
+[installation]
+PyPI = "https://pypi.org/project/yaqd-dwyer"
+
+[config]
+
+[config.byte_size]
+type = "int"
+doc = "Byte size of your instrument."
+
+[config.stop_bits]
+type = {"type"="enum", "name"="stop_bits", "symbols"=["one", "one_and_half", "two"]}
+doc = "Number of stop bits."
+default = "one"
+
+[config.parity]
+type = {"type"="enum", "name"="parity", "symbols"=["even", "odd", "none"]}
+doc = "Modbus parity."
+default = "none"
+
+[config.modbus_handle_echo]
+type = "boolean"
+doc = "Configure echo handling."
+default = true
+
+[config.modbus_address]
+type = "int"
+doc = "Unique address in the modbus network."
+default = 1
+
+[state]
+
+[state.ramp_time]
+type = "double"
+doc = "Ramp time, in minutes."
+default = 0.0
+
+[state.proportional_constant]
+type = "double"
+default = 0.0
+doc = "Proportional constant. Note that this daemon forces controller to only use PID profile zero."
+
+[state.integral_constant]
+type = "double"
+default = 0.0
+doc = "Integral constant. Note that this daemon forces controller to only use PID profile zero."
+
+[state.derivative_constant]
+type = "double"
+default = 0.0
+doc = "Derivative constant. Note that this daemon forces controller to only use PID profile zero."
+
+[state.integral_offset]
+type = "double"
+default = 0.0
+doc = "Integral offset. Correction value for systems that tend to ring. Note that this daemon forces controller to only use PID profile zero. Units percentage"
+
+[state.temperature_regulation_value]
+type = "double"
+default = 0.0
+doc = "Current output duty cycle as a percentage."
+
+[messages]
+
+[messages.get_derivative_constant]
+response = "double"
+
+[messages.set_derivative_constant]
+request = [{"name"="derivative", "type"="double"}]
+
+[messages.get_integral_constant]
+response = "double"
+
+[messages.set_integral_constant]
+request = [{"name"="integral", "type"="double"}]
+
+[messages.get_integral_offset]
+response = "double"
+
+[messages.set_integral_offset]
+request = [{"name"="integral_offset", "type"="double"}]
+
+[messages.get_proportional_constant]
+response = "double"
+
+[messages.set_proportional_constant]
+request = [{"name"="proportional", "type"="double"}]
+
+[messages.get_ramp_time]
+response = "double"
+doc = "Ramp time, in minutes."
+
+[messages.set_ramp_time]
+request = [{"name"="ramp_time", "type"="double"}]
+doc = "Ramp time, in minutes. Set to zero to disable ramping."
+
+[messages.get_ramp_time_limits]
+response = {"type"="array", "items"="double"}
+doc = "Ramp time limits in minutes."
+
+[messages.get_ramp_time_units]
+response = "string"
+doc = "Ramp time units."
+
+[messages.get_output_1_duty]
+response = "double"
+doc = "Current output duty cycle as a percentage."
+
+[messages.get_output_2_duty]
+response = "double"
+doc = "Current output duty cycle as a percentage."
+
+[properties]
+
+[properties.derivative_constant]
+type = "double"
+doc = "Derivative constant. Note that this daemon forces use of PID profile zero only."
+getter = "get_derivative_constant"
+setter = "set_derivative_constant"
+control_kind = "normal"
+record_kind = "metadata"
+
+[properties.integral_constant]
+type = "double"
+doc = "Integral constant. Note that this daemon forces use of PID profile zero only."
+getter = "get_integral_constant"
+setter = "set_integral_constant"
+control_kind = "normal"
+record_kind = "metadata"
+
+[properties.integral_offset]
+type = "double"
+doc = "Integral offset. Note that this daemon forces use of PID profile zero only."
+getter = "get_integral_offset"
+setter = "set_integral_offset"
+control_kind = "normal"
+record_kind = "metadata"
+
+[properties.proportional_constant]
+type = "double"
+doc = "Proportional constant. Note that this daemon forces use of PID profile zero only."
+getter = "get_proportional_constant"
+setter = "set_proportional_constant"
+control_kind = "normal"
+record_kind = "metadata"
+
+[properties.ramp_time]
+type = "double"
+doc = "Ramp time."
+getter = "get_ramp_time"
+setter = "set_ramp_time"
+units_getter = "get_ramp_time_units"
+limits_getter = "get_ramp_time_limits"
+control_kind = "hinted"
+record_kind = "metadata"
+
+[properties.output_1_duty]
+type = "double"
+doc = "Current duty cycle as percentage."
+getter = "get_output_1_duty"
+control_kind = "normal"
+record_kind = "data"
+
+[properties.output_2_duty]
+type = "double"
+doc = "Current duty cycle as percentage."
+getter = "get_output_2_duty"
+control_kind = "normal"
+record_kind = "data"
