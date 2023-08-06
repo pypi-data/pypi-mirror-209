@@ -1,0 +1,8 @@
+textagon/__init__.py,sha256=opnm5wy9q1BSmqtVtjvPW9683UTpBMfEpc4JmVDkN0w,31
+textagon/install-dependencies.py,sha256=2JJIa_FutCHC84z5cKJu6OCnDobcYnUM5RPILOnGixI,197
+textagon/process-text.py,sha256=oNDPbcz43PV_t5nIoZdDcwZlWGTiu-1DLSmKx41k-vk,60290
+textagon/textagon.py,sha256=BV_KVaR82_Jzc08FTyzHBOj1MlujEX2VItwUWKt6NU0,44
+textagon-0.1.0.dist-info/METADATA,sha256=pwj2B1DClWaQxUis4c3JtmHsBWpi1Vh57eaKqOlvb_U,183
+textagon-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+textagon-0.1.0.dist-info/top_level.txt,sha256=YAUktlLvOPoaN5FYrZVqGVdw97gv8Ra1EtPeGWxApHw,9
+textagon-0.1.0.dist-info/RECORD,,
