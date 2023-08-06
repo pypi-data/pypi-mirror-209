@@ -1,0 +1,5 @@
+setup.py
+yjbmagic.egg-info/PKG-INFO
+yjbmagic.egg-info/SOURCES.txt
+yjbmagic.egg-info/dependency_links.txt
+yjbmagic.egg-info/top_level.txt
