@@ -1,0 +1,8 @@
+opensesame_extensions/updater/__init__.py,sha256=8ZzwlNNOIUOYxGoa3Jm8g8F3xuKY2RVDPodTrrbByyI,108
+opensesame_extensions/updater/updater/__init__.py,sha256=VYONml0-KTIk2WLU8VgjzlcKILiTIa9hObRFQaYN6lM,564
+opensesame_extensions/updater/updater/update_widget.py,sha256=4bPebOHc5T9EGlPBgVR9o7lls6z4mOThkKiGAOteXhY,2635
+opensesame_extensions/updater/updater/update_widget.ui,sha256=zehJEM_J_fVtBaw6ih6JROTl6VhCQSEw52ehACfl2Ns,2789
+opensesame_extensions/updater/updater/updater.py,sha256=rhh2eDoFQjPR7njtkdmSCf4lnracKuK-BNS0X-GdTr0,10283
+opensesame_extension_updater-0.1.11.dist-info/METADATA,sha256=BP7HZxbTCQEUgqp7X8ZV5WcWDGSZwH_UeNxzs6hddHI,2033
+opensesame_extension_updater-0.1.11.dist-info/WHEEL,sha256=WGfLGfLX43Ei_YORXSnT54hxFygu34kMpcQdmgmEwCQ,88
+opensesame_extension_updater-0.1.11.dist-info/RECORD,,
