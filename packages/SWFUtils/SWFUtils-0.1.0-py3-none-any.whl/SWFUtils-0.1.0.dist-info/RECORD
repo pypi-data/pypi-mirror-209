@@ -1,0 +1,13 @@
+SWFUtils/__init__.py,sha256=XXq0z_r7HMYDZ9lYqnK16e7tj1hCBO0hLlrvEhZz6p0,53
+SWFUtils/reader.py,sha256=EnJttCwtbw4W9_TWNDz3vkq22mdD7r010TzDAMuV9Lo,2879
+SWFUtils/workload.py,sha256=XvEpYR4LB8LdFkxRApmbueLqVo1v9-KMMoYNZLPrWjE,1080
+SWFUtils/writer.py,sha256=HU9FficY-dQJKPHE5HhsxlsNjfhCmtH4pQp2QHVcW1s,1447
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_reader.py,sha256=3NzkFwvNnAuahnh4qjwnyXY58HejG8fhmYCV5Vmev3g,896
+tests/test_workload.py,sha256=D76s9KKxfMjNrKh131XCWSM2TgZUCdL79k3qwq_i56k,994
+tests/test_writer.py,sha256=r6dnkqT70q312jKbjXb6o3Sv4TxKmLIt3gi04jonnN4,1260
+SWFUtils-0.1.0.dist-info/LICENSE,sha256=vbejC9vzN5RsJI_kpx3Ml3tw002v3WFi1sHB_FTq_P4,1075
+SWFUtils-0.1.0.dist-info/METADATA,sha256=WFTyKzgsfYPmpQ1I00AuLOTYzltRyebb2y4MckRI6QA,1004
+SWFUtils-0.1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+SWFUtils-0.1.0.dist-info/top_level.txt,sha256=Hbbcd_uBm3iOvb1uCbOoGDq2Q6gI88K-_daTLKoiXlA,15
+SWFUtils-0.1.0.dist-info/RECORD,,

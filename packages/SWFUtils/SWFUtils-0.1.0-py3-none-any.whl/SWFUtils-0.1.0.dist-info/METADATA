@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: SWFUtils
+Version: 0.1.0
+Summary: SWFUtils is a Python library for handling files in the Standard Workload Format (SWF). It provides utilities for reading, writing, and manipulating SWF files.
+Home-page: https://github.com/fredgrub/SWFUtils
+Author: Lucas de Sousa Rosa
+Author-email: roses.lucas404@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE
+Requires-Dist: exceptiongroup (==1.1.1)
+Requires-Dist: iniconfig (==2.0.0)
+Requires-Dist: numpy (==1.24.3)
+Requires-Dist: packaging (==23.1)
+Requires-Dist: pandas (==2.0.1)
+Requires-Dist: pluggy (==1.0.0)
+Requires-Dist: pytest (==7.3.1)
+Requires-Dist: python-dateutil (==2.8.2)
+Requires-Dist: pytz (==2023.3)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: tomli (==2.0.1)
+Requires-Dist: tzdata (==2023.3)
+
+UNKNOWN
+
