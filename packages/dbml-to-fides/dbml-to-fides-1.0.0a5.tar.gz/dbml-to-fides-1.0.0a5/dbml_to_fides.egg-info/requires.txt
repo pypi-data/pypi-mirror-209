@@ -1,0 +1,6 @@
+click
+deepmerge
+fideslang
+pydbml
+pyaml
+typing_extensions<4.6.0
