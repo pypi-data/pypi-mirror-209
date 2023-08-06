@@ -1,0 +1,11 @@
+noapi/Item.py,sha256=1x9TisJ0yAyzVvl4zKygml7PCdyazGebYY-m7iREPug,123651
+noapi/Link.py,sha256=yZTRt5ifGeKzcxQCOIrarQZRFVfedHb2ld1qXREGPsk,10955
+noapi/List.py,sha256=2NIU5X2oZxCffGvmH4OqGPgR2qPjdMzw1OBP2wE60ao,26451
+noapi/Property.py,sha256=43qys-r9hpxC58fKJD1RH1JxAeNx5DKbeerK7WEUp_A,12175
+noapi/_version.py,sha256=586NWXparoqtsrLgurGCeRk38g8JY0o_ZpJyhGH-AZA,33
+noapi/pytransform/__init__.py,sha256=OAwIt1kGBC0Y5zsNJlTrAwQwmJhMqierRUVI_ZOjqgg,13587
+noapi/pytransform/_pytransform.so,sha256=Fvu3VZlDNEGLS3rVedHEZrcJis7n5pkoTaZ9sj0nnMQ,1087608
+no_api_sdk-0.1.12.dist-info/METADATA,sha256=fpb_pjzujL0f2OiibXFCsG2wwBdWKLWPOAhU6pqQiG4,483
+no_api_sdk-0.1.12.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+no_api_sdk-0.1.12.dist-info/top_level.txt,sha256=-M2LgcU6-MmJVAfJI0JL4aEvOhKMbBFcWuBVngGD8L0,6
+no_api_sdk-0.1.12.dist-info/RECORD,,
