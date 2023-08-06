@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+VERSION
+pyproject.toml
+setup.cfg
+setup.py
+tasked/__init__.py
+tasked/__main__.py
+tasked.egg-info/PKG-INFO
+tasked.egg-info/SOURCES.txt
+tasked.egg-info/dependency_links.txt
+tasked.egg-info/entry_points.txt
+tasked.egg-info/not-zip-safe
+tasked.egg-info/requires.txt
+tasked.egg-info/top_level.txt
+tests/__init__.py
