@@ -1,0 +1,74 @@
+all: |
+  {{
+    actor {{
+      entitySearch(queryBuilder: {{ tags: {{ key: "{tag_name}", value: "{tag_value}" }} }}) {{
+        results {{
+          entities {{
+            accountId
+            alertSeverity
+            domain
+            entityType
+            firstIndexedAt
+            guid
+            indexedAt
+            lastReportingChangeAt
+            name
+            permalink
+            reporting
+            type
+          }}
+        }}
+      }}
+    }}
+  }}
+
+apm: |
+  {{
+    actor {{
+      entitySearch(queryBuilder: {{ tags: {{ key: "{tag_name}", value: "{tag_value}" }}, domain: APM }}) {{
+        results {{
+          entities {{
+            accountId
+            alertSeverity
+            domain
+            entityType
+            firstIndexedAt
+            guid
+            indexedAt
+            lastReportingChangeAt
+            name
+            permalink
+            reporting
+            type
+          }}
+        }}
+      }}
+    }}
+  }}
+
+synth: |
+  {{
+    actor {{
+      entitySearch(queryBuilder: {{ tags: {{ key: "{tag_name}", value: "{tag_value}" }}, domain: SYNTH }}) {{
+        results {{
+          entities {{
+          ... on SyntheticMonitorEntityOutline {{
+            guid
+            name
+            alertSeverity
+            monitorId
+            period
+            reporting
+            monitorType
+            monitorSummary {{
+              status
+              locationsRunning
+            }}
+          }}
+          name
+          accountId
+          }}
+        }}
+      }}
+    }}
+  }}
