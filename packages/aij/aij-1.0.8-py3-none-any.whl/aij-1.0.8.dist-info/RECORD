@@ -1,0 +1,13 @@
+chat/__init__.py,sha256=67-yDfne7xp7nMfe6KtgQ5_GF_WqhPXDN49oM9Cg6K8,563
+intro/__init__.py,sha256=g7_FgPdnC0WF_TL_QKP2XUYs3prSPWNGEU7_qONy7Lc,4607
+messaging/__init__.py,sha256=Iy8_7no8vqGiZokMxuj67KVdXZQ76-BtimGOiTFdrzY,4444
+news/__init__.py,sha256=ECDArOT2-kQyIiwm8kaqlvIqcHG5BHpwIhrY4-icjfw,9588
+setup/__init__.py,sha256=0WjTe0Jo12vtm3NElo-nJ7K0riIvQRakBJvZsx70rDI,3080
+speech/__init__.py,sha256=9-7-kSTQsqps8rdod8FPoKqopvXjqnEkeqVSfgjZqLk,1289
+webcam/__init__.py,sha256=lG1JU9uj07OzaJCNn5qBLoW5j77mXSpHvAyf8kZ_0Uk,17592
+aij-1.0.8.dist-info/LICENSE.txt,sha256=VXbwArPC9XE7N7cvSBClNMHFbo7CU1p361QXV5bkGpk,1100
+aij-1.0.8.dist-info/METADATA,sha256=lAPlmne9OJ_mChClUR5d1eJGr55RZf8vKgeZtim8eb8,30637
+aij-1.0.8.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+aij-1.0.8.dist-info/entry_points.txt,sha256=4q9k8aS2BhIVY7L7AXj5gHkfp3m5Pfn6IMczoqT9lfY,90
+aij-1.0.8.dist-info/top_level.txt,sha256=n1Xe1rVTOJWYESZ2rJ1A2KRvm2aOeQ6hvzl66yZdfto,46
+aij-1.0.8.dist-info/RECORD,,
