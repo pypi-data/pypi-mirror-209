@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: myUniquePythonPackageName
+Version: 9.0.222
+Summary: as
+Author-email: RandomPerson <randomEmail@testing.com>
+Requires-Python: >=3.7
+Provides-Extra: testutils
+License-File: LICENSE
