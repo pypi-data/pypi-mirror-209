@@ -1,0 +1,12 @@
+setuptools
+wheel
+install_freedesktop
+rich
+Pygments
+requests
+parsel
+cssselect
+regex
+Pillow
+pytesseract
+sv_ttk
