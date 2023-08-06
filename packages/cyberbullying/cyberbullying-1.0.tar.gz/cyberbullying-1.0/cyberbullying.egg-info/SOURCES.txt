@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+cyberbullying.egg-info/PKG-INFO
+cyberbullying.egg-info/SOURCES.txt
+cyberbullying.egg-info/dependency_links.txt
+cyberbullying.egg-info/requires.txt
+cyberbullying.egg-info/top_level.txt
