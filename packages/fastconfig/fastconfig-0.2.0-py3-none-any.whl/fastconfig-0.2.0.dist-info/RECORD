@@ -1,0 +1,10 @@
+fastconfig/__init__.py,sha256=gZv__mHQvUTF2L17M_E9qm7AMJK_JToSWrURjb1wMD0,3165
+fastconfig/config.py,sha256=kTvJpuvoLURr1kunPS62VQzUl9DMIKJgB7Bbik19VfM,6542
+fastconfig/exception.py,sha256=bj_pnxLCogV5KSlWVydJjpXbZl1b2EQh0i4UQ4BHR1c,589
+fastconfig/internals/loader.py,sha256=vxq1IBPUGCBxejQXTwg3xiHmdtRU6Q62gELWyGPIbEo,1079
+fastconfig/internals/type_checker.py,sha256=RQ8J3659QhTlr5fP7AgYLCEE8vbM7abPT92afbP2wpc,3138
+fastconfig/internals/validator.py,sha256=ROR_5h14OpNL9o3nhbgiNOWjEsWbgYa2-SmQmocoOvc,1807
+fastconfig-0.2.0.dist-info/LICENSE,sha256=Jr9W95tBprpCEoYvUCjTElb2izxwk26J5sOoIGiwMwg,1066
+fastconfig-0.2.0.dist-info/METADATA,sha256=YtRC_A75dojNqPxiRdLzXU7_-0HXpVYPEgc9isOhkMc,2921
+fastconfig-0.2.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+fastconfig-0.2.0.dist-info/RECORD,,
