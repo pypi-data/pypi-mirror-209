@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/netznoe_smartmeter_portal_api/__init__.py
+src/netznoe_smartmeter_portal_api/api.py
+src/netznoe_smartmeter_portal_api/models.py
+src/netznoe_smartmeter_portal_api.egg-info/PKG-INFO
+src/netznoe_smartmeter_portal_api.egg-info/SOURCES.txt
+src/netznoe_smartmeter_portal_api.egg-info/dependency_links.txt
+src/netznoe_smartmeter_portal_api.egg-info/requires.txt
+src/netznoe_smartmeter_portal_api.egg-info/top_level.txt
