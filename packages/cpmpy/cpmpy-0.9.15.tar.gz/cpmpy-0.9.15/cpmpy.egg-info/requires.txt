@@ -1,0 +1,5 @@
+numpy>=1.5
+ortools>=5.0
+
+[FULL]
+minizinc
