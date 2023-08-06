@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: MandiriUtils
+Version: 0.12
+Summary: Helper package for requesting token and generating request signatures to be used for consuming Bank Mandiri API
+Home-page: https://github.com/har07
+Download-URL: https://github.com/har07/mandiri-utils/archive/refs/tags/v_012.tar.gz
+Author: Hanif Amal Robbani
+Author-email: dev.har07@gmail.com
+License: MIT
+Keywords: banking,signature,token,mandiri
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+Helper package for requesting token and generating request signatures to be used for consuming Bank Mandiri API.
+
+Example usage:
+
+```python
+from MandiriUtils import Client
+
+client = Client(url="https://sandbox.bankmandiri.co.id", pk=my_private_key_content, pk_pass=pk_pass, client_id=client_id, client_secret=client_secret, tz_offset="+0700")
+result = client.get_token()
+
+print(result)
+```
