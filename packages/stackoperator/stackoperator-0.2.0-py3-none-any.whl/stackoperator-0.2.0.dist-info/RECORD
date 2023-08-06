@@ -1,0 +1,11 @@
+stackoperator/__init__.py,sha256=p8K42Ey4OGQ8v_ef136W0LBZeX81LUfSqcItfS4nNdw,6124
+stackoperator/batchOperator.py,sha256=ORfoDsov0SMeDg1vGNJpppVkHzcPTRVq8LDMFmOL15o,5211
+stackoperator/cfnReader.py,sha256=4QeoJiCnsFrmCRVkhgHLn2T9kCYJjupjnaYbBuCe3G0,3970
+stackoperator/readerFactory.py,sha256=0HEH_PhCdwcvftTJriIynj4ZCY3inERIj0La3hfB1PA,646
+stackoperator/resourcegroupReader.py,sha256=ByQO6omH-xHZf1GbLCPBOm7ueT0t0GJDtuwm3IGgr0c,3612
+stackoperator/tfReader.py,sha256=gLn26ndfOzf4ciPjHPhrDVYOu2vyid-6blyw7FsS-IA,4117
+stackoperator-0.2.0.dist-info/METADATA,sha256=tE9RvYi6hRk-0p0P7nIv6UcKf9m8MB6G9RsJwz2mAq4,2858
+stackoperator-0.2.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+stackoperator-0.2.0.dist-info/entry_points.txt,sha256=MgdRD18tzr7Wz3UwKehS9omLgel3o3R3O2pYTi-aNhs,429
+stackoperator-0.2.0.dist-info/top_level.txt,sha256=39fhtyhha329gRiaL_vnYQ3an_6m9mrB3ZEUNBPUyaQ,14
+stackoperator-0.2.0.dist-info/RECORD,,
