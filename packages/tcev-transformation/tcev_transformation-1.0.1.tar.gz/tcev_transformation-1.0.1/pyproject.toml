@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "tcev_transformation"
+version = "1.0.1"
+description = "Library for common data transformations utilizing only the standard Python library and/or Numpy. Includes transposition, time series windowing, cross-correlation."
+authors = ["Ernestas Vainorius"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.24.3"
+pytest = "^7.3.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
