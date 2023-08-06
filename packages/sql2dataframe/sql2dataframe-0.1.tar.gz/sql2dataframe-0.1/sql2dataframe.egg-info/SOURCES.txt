@@ -1,0 +1,10 @@
+README.md
+setup.py
+my_package_name/__init__.py
+my_package_name/__main__.py
+sql2dataframe.egg-info/PKG-INFO
+sql2dataframe.egg-info/SOURCES.txt
+sql2dataframe.egg-info/dependency_links.txt
+sql2dataframe.egg-info/entry_points.txt
+sql2dataframe.egg-info/requires.txt
+sql2dataframe.egg-info/top_level.txt
