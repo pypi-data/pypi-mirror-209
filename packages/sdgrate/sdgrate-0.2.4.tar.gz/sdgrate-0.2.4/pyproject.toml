@@ -1,0 +1,41 @@
+[project]
+name = "sdgrate"
+version = "0.2.4"
+authors = [
+  { name="Damian Stewart", email="null@damianstewart.com" },
+]
+description = "A grid image generator for Stable Diffusion models based on 🧨diffusers."
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU Affero General Public License v3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "diffusers[torch]>=0.13",
+    "compel~=1.1.3",
+    "huggingface-hub",
+    "Pillow",
+    "tqdm",
+    "transformers",
+    "scipy"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/damian0815/grate"
+"Bug Tracker" = "https://github.com/damian0815/grate/issues"
+
+[project.scripts]
+"grate" = "sdgrate.grate:main"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
