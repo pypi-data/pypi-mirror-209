@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/cpdb_api/__init__.py
+src/cpdb_api/request.py
+src/cpdb_api.egg-info/PKG-INFO
+src/cpdb_api.egg-info/SOURCES.txt
+src/cpdb_api.egg-info/dependency_links.txt
+src/cpdb_api.egg-info/requires.txt
+src/cpdb_api.egg-info/top_level.txt
