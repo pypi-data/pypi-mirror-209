@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/nicegpt/__init__.py
+src/nicegpt/nicegpt.py
+src/nicegpt.egg-info/PKG-INFO
+src/nicegpt.egg-info/SOURCES.txt
+src/nicegpt.egg-info/dependency_links.txt
+src/nicegpt.egg-info/requires.txt
+src/nicegpt.egg-info/top_level.txt

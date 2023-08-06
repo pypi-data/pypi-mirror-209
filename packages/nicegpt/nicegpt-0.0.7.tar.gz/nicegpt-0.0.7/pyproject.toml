@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nicegpt"
+version = "0.0.7"
+authors = [
+  { name="Samuel Reeder", email="samuel.reeder@mail.utoronto.ca" },
+]
+description = "A simple package to make GPT API usage easier"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+keywords = ["gpt, openai, chatbot, nlp, ai, natural language processing, gpt-3, gpt-4"]
+dependencies = [
+  "openai",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/SamuelReeder/nicegpt"
+"Bug Tracker" = "https://github.com/SamuelReeder/nicegpt/issues"
