@@ -1,0 +1,11 @@
+.gitignore
+LICENSE
+pyproject.toml
+src/maccarone/__init__.py
+src/maccarone/caching.py
+src/maccarone/enable.py
+src/maccarone.egg-info/PKG-INFO
+src/maccarone.egg-info/SOURCES.txt
+src/maccarone.egg-info/dependency_links.txt
+src/maccarone.egg-info/requires.txt
+src/maccarone.egg-info/top_level.txt
