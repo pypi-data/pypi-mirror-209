@@ -1,0 +1,11 @@
+docusense/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+docusense/keywords.py,sha256=bRQp6PPrTnPv5PH3Fhin1UuwbAhMv4uNRB5IaYXnz8w,2136
+docusense/process_doc.py,sha256=N2ir1cnH913NwMiNBEr1vhG4xc3aKEoodXHC_RY8SD4,1173
+docusense/qa.py,sha256=Mf2cNDxEHHH0rZr0dQyS7_DrHyMwMbRzTOBos-6COCg,1087
+docusense/sense.py,sha256=uUaj_dWRueWG8ZOXWZ22QeynHx7YWAmU6yainlGGMXY,2220
+docusense/summary.py,sha256=GoJeuryWirpFGvUiQn6fHdtDsbIokO7OKFWM4UoeEEg,1342
+docusense/utils.py,sha256=wTx37f_IaEyMvZ8YoMG0M1PsI6vqA7U2gT3Vp3PY2cE,6688
+docusense-0.0.1.dist-info/LICENSE,sha256=xYJBmr5dPgBl3O5INDaaRT7oaKevAvYfQDBZgnsSAfc,1063
+docusense-0.0.1.dist-info/METADATA,sha256=Bqkwfi4HZ4yRxTrFpL5FSd6eyn_L7DlOmyD4iij-SZo,5377
+docusense-0.0.1.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+docusense-0.0.1.dist-info/RECORD,,
