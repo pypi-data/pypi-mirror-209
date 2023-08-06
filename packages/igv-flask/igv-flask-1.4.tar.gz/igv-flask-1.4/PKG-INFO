@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: igv-flask
+Version: 1.4
+Summary: Flask webserver for rendering igv.js
+Home-page: http://github.com/cumbof/igv-flask
+Author: Fabio Cumbo
+Author-email: fabio.cumbo@gmail.com
+License: MIT
+Download-URL: https://pypi.org/project/igv-flask/
+Project-URL: Source, https://github.com/cumbof/igv-flask
+Project-URL: Wiki, https://github.com/igvteam/igv.js/wiki
+Description: # igv-flask
+        
+        Flask webserver for rendering [igv.js](https://github.com/igvteam/igv.js).
+        
+        It is available through `pip` with the following command:
+        
+        ```
+        pip install igv-flask
+        ```
+        
+        ## How to start the webserver
+        
+        In order to start the Flask webserver and rendering `igv.js` over an input fasta file, open your terminal and run the following command:
+        
+        ```
+        igv --host "0.0.0.0" --port 5000 --input ~/myfasta.fna --index ~/myfasta.fai --cytoband ~/mycytoband.txt --tracks ~/track1.txt ~/track2.txt
+        ```
+        
+        Run `igv --help` for a complite list of available options.
+        
+Keywords: bioinformatics,visualization
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

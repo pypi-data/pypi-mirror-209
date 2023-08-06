@@ -1,0 +1,3 @@
+[console_scripts]
+igv = igv.igv:main
+

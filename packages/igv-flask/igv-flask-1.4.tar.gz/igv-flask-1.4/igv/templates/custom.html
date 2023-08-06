@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<meta name="description" content="IGV Tool">
+		<meta name="author" content="Fabio Cumbo">
+		<link rel="shortcut icon" href="https://igv.org/web/img/favicon.ico">
+		
+		<title>IGV Custom</title>
+
+		<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/igv@{{ config['igv_version'] }}/dist/igv.js"></script>
+    
+		<style>
+			p.br {
+				position: absolute;
+				right: 10px;
+				bottom: 10px;
+			}
+		</style>
+	</head>
+
+    <body>
+		<div id="igv-div">
+			{% if (config.gxit and config.dump_session) %}
+				<p style="position: absolute;right: 10px;bottom: 35px">
+					Remember to export the IGV session before closing this window
+				</p>
+				<p class="br">
+					<button id="save">Export IGV Session</button>
+					<button id="close">Close IGV</button>
+				</p>
+			{% endif %}
+		</div>
+
+		<script type="module">
+			var igvDiv = document.getElementById("igv-div");
+
+			var options =
+			{
+				reference: {
+					"id": "{{ name }}",
+					"name": "{{ name }}",
+					"fastaURL": "{{ url_for('static', filename=fasta) }}",
+					{% if index %}
+						"indexURL": "{{ url_for('static', filename=index) }}",
+					{% else %}
+						"indexed": false,
+					{% endif %}
+					{% if cytoband %}
+						"cytobandURL": "{{ url_for('static', filename=cytoband) }}",
+					{% endif %}
+					"wholeGenomeView": true,
+					{% if tracks %}
+						"tracks": [
+							{% for track in tracks %}
+								{
+									"name": "{{ track['name'] }}",
+									"url": "{{ url_for('static', filename=track['track']) }}",
+								}
+							{% endfor %}
+						]
+					{% endif %}
+				}
+			};
+
+			igv.createBrowser(igvDiv, options)
+					.then(function (browser) {
+						{% if config.igv_session %}
+							browser.loadSessionObject(JSON.parse('{{ config["igv_session"]|tojson }}'));
+						{% endif %}
+
+						igv.browser = browser;
+						console.log("Created IGV browser");
+					});
+
+			{% if config.gxit %}
+				$(document).ready(function() {
+					$("#close").click(function() {
+						var close_message = "Do you want to continue?";
+						{% if config.dump_session %}
+							close_message = "Remember to save the IGV session before closing this tool. " + close_message;
+						{% endif %}
+
+						if (confirm(close_message)) {
+							fetch("./api/shutdown");
+							window.alert("IGV stopped! Now you can close this window")
+						}
+					});
+
+					{% if config.dump_session %}
+						$("#save").click(function() {
+							const json = igv.browser.toJSON();
+
+							(async () => {
+								const rawResponse = await fetch('./igv/session', {
+									method: 'POST',
+									headers: {
+										'Accept': 'application/json',
+										'Content-Type': 'application/json'
+									},
+									body: JSON.stringify(json)
+								});
+								const content = await rawResponse.json();
+
+								window.alert("IGV Session saved!")
+							})();
+						});
+					{% endif %}
+				});
+			{% endif %}
+		</script>
+    </body>
+</html>
