@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+README.rst
+setup.cfg
+setup.py
+MandiriUtils/Client.py
+MandiriUtils/__init__.py
+MandiriUtils.egg-info/PKG-INFO
+MandiriUtils.egg-info/SOURCES.txt
+MandiriUtils.egg-info/dependency_links.txt
+MandiriUtils.egg-info/requires.txt
+MandiriUtils.egg-info/top_level.txt
