@@ -1,0 +1,6 @@
+README.md
+setup.py
+Recolor.egg-info/PKG-INFO
+Recolor.egg-info/SOURCES.txt
+Recolor.egg-info/dependency_links.txt
+Recolor.egg-info/top_level.txt
