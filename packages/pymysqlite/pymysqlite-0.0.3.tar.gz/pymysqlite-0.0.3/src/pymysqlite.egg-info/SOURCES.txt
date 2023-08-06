@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+src/pymysqlite.py
+src/pymysqlite.egg-info/PKG-INFO
+src/pymysqlite.egg-info/SOURCES.txt
+src/pymysqlite.egg-info/dependency_links.txt
+src/pymysqlite.egg-info/top_level.txt
