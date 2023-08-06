@@ -1,0 +1,8 @@
+talk_summarizer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+talk_summarizer/summarize_talk.py,sha256=2GSNP1ZpM-1tzSV4xV_zUmaujISwY68qR9F03q3lUrU,2729
+talk_summarizer/utils.py,sha256=gOS6DIiwpzmXdyD7EfqQFReVlJSrTUsAdWbiGY_kge0,9403
+talk_summarizer-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+talk_summarizer-0.0.1.dist-info/METADATA,sha256=rKzLRjdxXaD6G6IOziKWNYac6vbmsYcbOgLtojHTPk4,2463
+talk_summarizer-0.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+talk_summarizer-0.0.1.dist-info/top_level.txt,sha256=CGJYyGvp6KtvmU40Oz8E4iDKVBTdzKUp3tvRrSKaI8Q,16
+talk_summarizer-0.0.1.dist-info/RECORD,,
