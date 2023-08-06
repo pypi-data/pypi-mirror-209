@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: bann_flow
+Version: 0.0.1
+Summary: basic for all in neural network for oneflow
+Home-page: https://github.com/BHM-Bob/bann_flow
+Author: BHM-Bob G
+Author-email: bhmfly@foxmail.com
+License: MIT Licence
+Keywords: mbapy,deeplearning,oneflow
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7, <3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# bann_flow
+basic for all in neural network for oneflow
