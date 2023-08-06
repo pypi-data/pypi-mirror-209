@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.py
+PyRVC.egg-info/PKG-INFO
+PyRVC.egg-info/SOURCES.txt
+PyRVC.egg-info/dependency_links.txt
+PyRVC.egg-info/not-zip-safe
+PyRVC.egg-info/top_level.txt
