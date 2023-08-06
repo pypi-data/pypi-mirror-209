@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+getmonitorresolution/README.md
+getmonitorresolution/__init__.py
+getmonitorresolution/requirements.txt
+getmonitorresolution/thirdparty.json
+getmonitorresolution.egg-info/PKG-INFO
+getmonitorresolution.egg-info/SOURCES.txt
+getmonitorresolution.egg-info/dependency_links.txt
+getmonitorresolution.egg-info/requires.txt
+getmonitorresolution.egg-info/top_level.txt

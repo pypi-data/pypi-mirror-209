@@ -1,0 +1,3 @@
+include getmonitorresolution/requirements.txt
+include getmonitorresolution/thirdparty.json
+include getmonitorresolution/README.md
