@@ -1,0 +1,3 @@
+[console_scripts]
+dyrun = dyrun.cli:build_cmd
+
