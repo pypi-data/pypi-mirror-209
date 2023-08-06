@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: devchat
+Version: 0.1.6
+Summary: DevChat is an open-source tool that helps developers write prompts to generate code and documentation.
+Home-page: https://github.com/covespace/devchat
+License: Apache License 2.0
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
