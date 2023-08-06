@@ -1,0 +1,11 @@
+spothinta/__init__.py,sha256=o_nqK9FuDnKNchoUZsACXYLXsgXw_1OupiSHSHa3G-g,363
+spothinta/const.py,sha256=osAlSCfRNYPyzYGDoxpCZjCe4dAdf-3NAv0O_30mwpU,399
+spothinta/exceptions.py,sha256=cQMQLg77QQk8478OpeozfXAbnXeVIqHIXK88JwzvbPA,303
+spothinta/models.py,sha256=yZcLyeyeiA7QBhMdDS6FtPX808zgDZgnZJnZN80crvI,5844
+spothinta/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spothinta/spothinta.py,sha256=zhG1SiU1FTg194E5L-BzsHEZqlIdgJQgNQzkmvV0goI,4348
+spothinta-0.1.1.dist-info/LICENSE,sha256=12ArXAGU6Yp3mGRn1B2SiJBD_3cnCcK_IDn6VvkqIxc,1077
+spothinta-0.1.1.dist-info/METADATA,sha256=Vx_mMzb0FDP-UuXIWFSDy7wPQZmPPCn_xNpuf5wBqtg,6037
+spothinta-0.1.1.dist-info/WHEEL,sha256=WGfLGfLX43Ei_YORXSnT54hxFygu34kMpcQdmgmEwCQ,88
+spothinta-0.1.1.dist-info/entry_points.txt,sha256=Uwbn52iEaDVeEIzIYbq6NagV_EbHNXSfrdTRxZFWciA,49
+spothinta-0.1.1.dist-info/RECORD,,
