@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: dataclass-flex
+Version: 0.0.1
+Summary: Flexible conversion between dataclasses
+Author: Arash Arbabi
+Author-email: arbabiarash0@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: networkx
+Requires-Dist: matplotlib
+
+UNKNOWN
