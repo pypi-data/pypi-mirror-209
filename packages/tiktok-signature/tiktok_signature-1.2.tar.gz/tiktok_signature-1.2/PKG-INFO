@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: tiktok-signature
+Version: 1.2
+Summary: Some tool
+Project-URL: Homepage, https://github.com/sheldygg/tiktok-signature
+Author: sheldy
+License-Expression: MIT
+License-File: LICENSE
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: playwright
+Requires-Dist: pycryptodome
+Provides-Extra: server
+Requires-Dist: aiohttp; extra == 'server'
+Description-Content-Type: text/markdown
+
+# Tiktok Signature
+
+```pip install tiktok-signature```
+
+**Server**
+
+```python
+import asyncio
+
+from playwright.async_api import async_playwright
+from pydantic import BaseSettings
+from tiktok_signature.server import make_server
+
+
+class Settings(BaseSettings):
+    host: str
+    port: int
+
+    class Config:
+        env_file = ".env"
+        env_file_encoding = "utf-8"
+
+
+async def main():
+    settings = Settings()
+    async with async_playwright() as playwright:
+        server = await make_server(playwright=playwright, host=settings.host, port=settings.port)
+        await server.start()
+        await asyncio.Event().wait()
+
+asyncio.run(main())
+
+```
+
+**As package**
+
+```python
+import asyncio
+
+from tiktok_signature import Signer
+from playwright.async_api import async_playwright
+
+async def main():
+    async with async_playwright() as playwright:
+        signer = Signer(playwright=playwright)
+        await signer.init()
+        await signer.sign("url")
+        
+asyncio.run(main())
+
+```
+
+**Docker**
+
+You can build image yourself
+```
+docker build . -t tiktok-signature
+```
+or use already ready
+```
+docker run --name=tiktok-signature --restart=always -p 8002:8002 -e port=8002 sheldygg/tiktok-signature
+```
