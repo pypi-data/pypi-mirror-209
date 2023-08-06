@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: pyheartlib
+Version: 0.0.2
+Summary: A Python package for processing and modeling electrocardiogram signals
+License: Proprietary
+Author: Sadegh Mohammadi
+Requires-Python: >=3.10.4,<3.12
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: numpy (>=1.24.1,<2.0.0)
+Requires-Dist: pandas (>=1.5.3,<2.0.0)
+Requires-Dist: scikit-learn (>=1.2.2,<2.0.0)
+Requires-Dist: tensorflow (>=2.11.0,<3.0.0)
+Requires-Dist: tqdm (>=4.64.1,<5.0.0)
+Requires-Dist: wfdb (>=4.1.0,<5.0.0)
+Description-Content-Type: text/markdown
+
+# pyheartlib
+
+pyheartlib is a Python package for processing and modeling electrocardiogram signals. This package facilitates processing signals for the task such as heartbeat detection, heartbeat classification, and arrhythmia classification. By using it, researchers can focus on these tasks without the burden of designing data processing modules. The package supports both raw signals and computed features for model building. Therefore traditional machine learning models and more advanced deep learning models can be used. The first release of this software supports Keras and Tensorflow libraries, and MIT-BIH Arrhythmia Database format. The package has optional preprocessing methods to remove noise and baseline wander from the raw signals.
+
+# Installation
+
+The package can be installed with pip:
+
+```bash
+$ pip install pyheartlib
+```
+
+# Requirements
+
+pyheartlib has been tested on Ubuntu, Python 3.11 and the depends on the packages.
+
+* numpy>=1.21.1
+* pandas>=1.3.1
+
+# Documentation
+
+Check out the [documentation](https://pyheartlib.readthedocs.io) for more information.
+
+# Examples
+
+Following examples demostrate dataset creation:
+
+* [Inter-patient dataset](examples/make_dataset_inter.py) <br>
+* [Intra-patient dataset](examples/make_dataset_intra.py) <br>
+* [Rpeak dataset](examples/make_dataset_rpeak.py) <br>
+* [Arrhythmia dataset](examples/make_dataset_arrhythmia.py) <br>
+
+As an example, a deep learning model was designed using Keras library for the heartbeat detection task. Because this task is less complex compared to the heartbeat and arrhythmia classification tasks, it can be trained with high accuracy using the available public datasets.
+
+* [Beat detection model](model/README.md)
