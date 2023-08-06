@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: ec2ninja
+Version: 1.1
+Author: Erekle Mikiashvili
+Requires-Dist: boto3
+
