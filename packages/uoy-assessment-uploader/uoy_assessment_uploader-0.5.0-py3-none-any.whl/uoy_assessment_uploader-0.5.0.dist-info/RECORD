@@ -1,0 +1,10 @@
+uoy_assessment_uploader/__init__.py,sha256=P3HpDr1VKBpfwKM-TTFfYMdPFldvZ2kf9jdsXiCjK6Q,7144
+uoy_assessment_uploader/__main__.py,sha256=ubt6XyZvcHwdjCQ90B_U4MeP-3YJduz5GWUC9yOgkrg,27
+uoy_assessment_uploader/argument_parser.py,sha256=EAZZshIjLsWDYanu1S6u2mZGuHndGhUKmMjRuiIfuCU,2535
+uoy_assessment_uploader/credentials.py,sha256=ox89VGq6ScDujY-uakFFgTAxWIv745eomb2xxK6wzwg,2320
+uoy_assessment_uploader/teaching-cs-york-ac-uk-chain.pem,sha256=WbFCNe59nB4eoSFxy8UfFJdGnYEW3NusiXLOjJ7FJos,6032
+uoy_assessment_uploader-0.5.0.dist-info/entry_points.txt,sha256=oN3pAmge0K7PKWatriCifP-o0J9y6o3yJOyiUdEDA40,72
+uoy_assessment_uploader-0.5.0.dist-info/LICENSE,sha256=ljOS4DjXvqEo5VzGfdaRwgRZPbNScGBmfwyC8PChvmQ,32422
+uoy_assessment_uploader-0.5.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+uoy_assessment_uploader-0.5.0.dist-info/METADATA,sha256=ptrg-6PkEkXHdlZyhA8Zrdby6gmxFdgaYwE8-vMu_OE,2007
+uoy_assessment_uploader-0.5.0.dist-info/RECORD,,
