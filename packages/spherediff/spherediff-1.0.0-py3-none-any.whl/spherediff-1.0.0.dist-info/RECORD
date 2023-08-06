@@ -1,0 +1,10 @@
+spherediff/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spherediff/coeffs.py,sha256=N_weqmW-lcyU3MHan0q-YlAL-_xTxGpTIS-9nLBzKbM,3450
+spherediff/kernel.py,sha256=uq9LS2a3FBUNA12-pB-v5Td3-ojqJWR50Tv5mpp3EZw,7195
+spherediff/poly.py,sha256=kJnr-1grv41zW7KV8XcTR8pZUkRnrHGiqVV9xYf1enA,1841
+spherediff/sample.py,sha256=AMbsVQLmJTA4ds5aubBQTR7GgxIfK15XUkUiuuigzsM,2333
+spherediff-1.0.0.dist-info/LICENSE.txt,sha256=ut31f6pg0c6lVeaFJbDAX0_fZA1XU3oZvZyOzY4sN1M,1068
+spherediff-1.0.0.dist-info/METADATA,sha256=b1mb39SLm3aqmlyoL0H3zOVPOqJMn-ZL2vl2JDZ-1Vw,3048
+spherediff-1.0.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+spherediff-1.0.0.dist-info/top_level.txt,sha256=Yy2BXU1LuFTFE2tyiGo_Yi2uFwxtnqeOw8CiJW3_bgo,11
+spherediff-1.0.0.dist-info/RECORD,,
