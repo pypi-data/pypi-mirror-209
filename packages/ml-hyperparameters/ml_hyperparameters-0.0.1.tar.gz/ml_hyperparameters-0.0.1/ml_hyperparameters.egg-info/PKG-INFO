@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: ml-hyperparameters
+Version: 0.0.1
+Summary: A basic library to help find the best hyperparameters in sklearn
+Home-page: UNKNOWN
+Author: Tom Neumann
+Author-email: tomn505@gmail.com
+License: UNKNOWN
+Description: A library that uses magic to find the best hyperparameters in a modular way
+Keywords: python,sklearn,hyperparameter finder
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
