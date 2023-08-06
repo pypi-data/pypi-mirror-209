@@ -1,0 +1,14 @@
+LICENSE.txt
+README.md
+setup.py
+talon_git_labeller/__init__.py
+talon_git_labeller/cli.py
+talon_git_labeller/commands.py
+talon_git_labeller/const.py
+talon_git_labeller/helpers.py
+talon_git_labeller/write.py
+talon_git_labeller.egg-info/PKG-INFO
+talon_git_labeller.egg-info/SOURCES.txt
+talon_git_labeller.egg-info/dependency_links.txt
+talon_git_labeller.egg-info/entry_points.txt
+talon_git_labeller.egg-info/top_level.txt

@@ -1,0 +1,4 @@
+[console_scripts]
+git-tl-branch = talon_git_labeller.cli:main
+git-tl-stash-pop = talon_git_labeller.cli:main
+git-tl-status = talon_git_labeller.cli:main
