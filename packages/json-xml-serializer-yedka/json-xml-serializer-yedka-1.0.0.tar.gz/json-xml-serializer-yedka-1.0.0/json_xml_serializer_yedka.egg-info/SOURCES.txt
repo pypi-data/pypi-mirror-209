@@ -1,0 +1,15 @@
+setup.py
+json_xml_serializer_yedka.egg-info/PKG-INFO
+json_xml_serializer_yedka.egg-info/SOURCES.txt
+json_xml_serializer_yedka.egg-info/dependency_links.txt
+json_xml_serializer_yedka.egg-info/top_level.txt
+serializer/JSONSerializer.py
+serializer/XMLSerializer.py
+serializer/__init__.py
+serializer/serializer.py
+serializer/helpers/Converter.py
+serializer/helpers/__init__.py
+serializer/helpers/consts.py
+tests/test_classes.py
+tests/test_functions.py
+tests/test_primitives.py
