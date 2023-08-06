@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: php2py
+Version: 0.1.0
+Summary: PHP to Python transpiler.
+Home-page: https://github.com/sfermigier/php2py
+Author: Abilian SAS
+Author-email: sf@abilian.com
+Requires-Python: >=3.9,<4
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: astor (>=0.8.1,<0.9.0)
+Requires-Dist: astpretty (>=2.1.0,<3.0.0)
+Requires-Dist: attrs (>=23.1.0,<24.0.0)
+Requires-Dist: devtools (>=0.8.0,<0.9.0)
+Requires-Dist: icecream (>=2.1.2,<3.0.0)
+Requires-Dist: rich (>=11.2.0,<12.0.0)
+Description-Content-Type: text/markdown
+
+# php2py
+
+[![image](https://img.shields.io/pypi/v/php2py.svg)](https://pypi.python.org/pypi/php2py)
+
+[![image](https://img.shields.io/travis/sfermigier/php2py.svg)](https://travis-ci.com/sfermigier/php2py)
+
+[![Documentation Status](https://readthedocs.org/projects/php2py/badge/?version=latest)](https://php2py.readthedocs.io/en/latest/?version=latest)
+
+PHP to Python transpiler.
+
+-   Free software: GNU General Public License v3
+-   Documentation: <https://php2py.readthedocs.io> (nope!).
+
+## Features
+
+-   TODO
+
+## Install
+
+- You need PHP and composer installed on your system.
+- You need Python 3.9+.
+- This package currently works from a git checkout. Once checked out, you need to run:
+
+```bash
+composer install
+```
+
+## Credits
+
+This package was created with [Cruft](https://cruft.github.io/cruft/) and the
+[abilian/cookiecutter-abilian-python](https://github.com/abilian/cookiecutter-abilian-python)
+project template.
+
+This project uses the `nikic/php-parser` PHP parser (in PHP).
+

@@ -1,0 +1,59 @@
+[tool]
+[tool.poetry]
+name = "php2py"
+version = "0.1.0"
+homepage = "https://github.com/sfermigier/php2py"
+description = "PHP to Python transpiler."
+authors = ["Abilian SAS <sf@abilian.com>"]
+readme = "README.md"
+classifiers=[
+    'Development Status :: 2 - Pre-Alpha',
+    'Intended Audience :: Developers',
+    'Natural Language :: English',
+    'Programming Language :: Python :: 3',
+    'Programming Language :: Python :: 3.8',
+    'Programming Language :: Python :: 3.9',
+]
+packages = [
+    { include = "php2py", from = "src" },
+    { include = "tests", format = "sdist" },
+]
+
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4"
+astor = "^0.8.1"
+attrs = "^23.1.0"
+
+# For debugging. Remove later.
+icecream = "^2.1.2"
+rich = "^11.2.0"
+devtools = "^0.8.0"
+astpretty = "^2.1.0"
+
+
+[tool.poetry.dev-dependencies]
+abilian-devtools = "*"
+
+restructuredtext_lint = "*"
+
+
+[tool.ruff]
+extend-ignore = [
+    "S101", # Use of 'assert'
+    "E501", # Line too long
+    # TODO: fix these
+    "F841", # Local variable `key` is assigned to but never used
+]
+extend-exclude = [
+    ".nox"
+]
+
+
+[tool.isort]
+profile = "black"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
