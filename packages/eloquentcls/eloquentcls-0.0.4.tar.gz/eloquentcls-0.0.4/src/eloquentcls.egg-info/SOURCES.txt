@@ -1,0 +1,9 @@
+setup.py
+src/__init__.py
+src/data_download.py
+src/eloquentcls.py
+src/eloquentcls.egg-info/PKG-INFO
+src/eloquentcls.egg-info/SOURCES.txt
+src/eloquentcls.egg-info/dependency_links.txt
+src/eloquentcls.egg-info/requires.txt
+src/eloquentcls.egg-info/top_level.txt
