@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: fabcohort
+Version: 0.2.1
+Summary: for cohort analysis
+Home-page: https://github.com/linliD/fabcohort/
+Author: Linli Ding
+Author-email: linli@joinbonnet.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: numpy
+
+# fabcohort
+A small demo library for a fab_cohort about cohort analysis
+
+### Installation
+```
+pip install fabcohort
+```
+
+### Get started
+How to do cohort analysis with this lib:
+
+```Python
+from fab_cohort import Cohort
+
+# Instantiate a Cohort object
+cohort = Cohort()
+
+# Call the count_cohort method
+result = cohort.count_cohort(df)
+
+```
+
