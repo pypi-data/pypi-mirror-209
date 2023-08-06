@@ -1,0 +1,55 @@
+name: Python package
+
+on: [push]
+
+# NOTE: Keep this file in sync with the Dockerfile in the root directory
+
+jobs:
+  build:
+    # We do not want to waste resources, and our tests are likely to deadlock once in a while when developing
+    timeout-minutes: 30
+
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false  # Tests may behave very different across these systems
+      matrix:
+        # We do not test on ros:foxy-ros-core, since it causes many problems in the CI pipeline
+        # TODO: add ros:iron-ros-core when it is available
+        container: ["ros:humble-ros-core", "ros:rolling-ros-core"]
+    container: ${{ matrix.container }}
+
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - 
+        name: Checkout repository
+        uses: actions/checkout@v3
+      -
+        name: Install dependencies and the package
+        run: |
+          apt-get update -q && apt-get install -qy python3-pip python-is-python3 ros-$ROS_DISTRO-example-interfaces
+          pip install --upgrade pip setuptools
+          python -m pip install -e '.[dev]'
+      -
+        name: Format (with black)
+        run: |
+          black --check .
+      -
+        name: Lint (with ruff)
+        run: |
+          ruff check .
+      -
+        name: Type check main code (with mypy)
+        run: |
+          mypy ros2_easy_test
+      -
+        name: Type check tests (with mypy)
+        continue-on-error: true  # We do not want to fail the build if the type checker fails on the tests
+        run: |
+          mypy tests
+      -
+        name: Testing (with pytest)
+        run: |
+          source /opt/ros/$ROS_DISTRO/setup.bash  # Activate ROS
+          python -m pytest
