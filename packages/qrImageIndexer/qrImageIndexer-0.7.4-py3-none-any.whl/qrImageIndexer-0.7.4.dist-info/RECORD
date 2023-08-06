@@ -1,0 +1,11 @@
+qrImageIndexer/__init__.py,sha256=htjAOSJfnX6rmWy1hz2_dDhJf8WiPy3fCyJWrS4EPc4,21
+qrImageIndexer/__main__.py,sha256=Qqm8Ru5q_4iDYM-1LkvFRPjDJniwgoO_5saBpDktyqs,3634
+qrImageIndexer/generate_qr_wrapper.py,sha256=s1ILca2N2xAacTtC679J5ciMoat7llViwWv3ds0Curs,602
+qrImageIndexer/photo_sorter.py,sha256=kcfcFuUkkaGLwRdTN_9R6GTdI4xVroukNRAZF09gvoM,10661
+qrImageIndexer/qr_generator.py,sha256=WgYcq7aSi2GuuPb7XcYqI2UTld4cWV2w8h3r76dO_js,8100
+qrImageIndexer/write_pdf_fpf2.py,sha256=J0hyuw_kF7arJeGeC7YvJCNxrLu62IHluYFspiAxmQI,4728
+qrImageIndexer-0.7.4.dist-info/LICENSE,sha256=ZF4-kYgujE79mR3H6IeTOZtpOtSBjNGWzUjuBoSM4z4,1071
+qrImageIndexer-0.7.4.dist-info/METADATA,sha256=1Lqeur6X5p_FqdbsaHOYqNBafEivJL2a-swzOnyP3VE,8982
+qrImageIndexer-0.7.4.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+qrImageIndexer-0.7.4.dist-info/top_level.txt,sha256=RgWrFPN6hBwJZGGn-ny9HqcwE8p-GFx9SjJ70rOQRJE,15
+qrImageIndexer-0.7.4.dist-info/RECORD,,
