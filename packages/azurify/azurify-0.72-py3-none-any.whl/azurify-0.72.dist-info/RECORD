@@ -1,0 +1,15 @@
+azurify/__init__.py,sha256=sEAnh4oQxRihRFPDgs_HWy1-vzDXLbZMEygqxO9izLs,121
+azurify/azconverter.py,sha256=l1_WkaV7g4hhlHK7Co1UYLki9q6UodfyD8J5dn1XNig,1627
+azurify/azenv.py,sha256=pVcemDVRyXlBVGQDPTkLxp9z3c1hBEbGUqE27WbEgTo,593
+azurify/azkeyvault.py,sha256=NoqV2hCTwccmv0VEQw1kPcMhamStXRWIP5zKta3c2Zs,5146
+azurify/azsecrets.py,sha256=uuH87_ff_OCRFWK5t7tNI7qoG-EdPsqxXM6rRNcfA24,3542
+azurify/azstorage.py,sha256=c7bfYgT3_BOlXUcCWVV407qtLycy-i6et9axofQu8aw,3014
+azurify/test_azconverter.py,sha256=B9P5nHJ_PS5hwb0qcduPk5pNm_gD0kwzLAHpULBLPl8,547
+azurify/test_azkeyvault.py,sha256=e3ztgh-qOKabOHSGCFvL-aglqCOK7DC-0k2Ab02sMFw,2113
+azurify/test_azsecrets.py,sha256=gNGCVO_E2fTXxc_OSGXCt_-X2ZrIlfdI5Km7PdNekKc,3507
+azurify/test_azstorage.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+azurify-0.72.dist-info/LICENSE,sha256=nV1wCCTPX8wOR-BN-fIaCI6hcObjAIcDndu9i9k4S_I,1067
+azurify-0.72.dist-info/METADATA,sha256=XIt7_WKbkoSHcPEPWB4Sy9pJ0GaoAObiEETj2IDn9kA,3288
+azurify-0.72.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+azurify-0.72.dist-info/top_level.txt,sha256=mO7ZNb8OXkmGz-saPeB1GJcZQ8t9B7-NmglziI2kpTc,8
+azurify-0.72.dist-info/RECORD,,
