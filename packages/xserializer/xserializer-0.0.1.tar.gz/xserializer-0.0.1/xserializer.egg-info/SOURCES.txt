@@ -1,0 +1,10 @@
+LICENSE
+setup.cfg
+setup.py
+xserializer/__init__.py
+xserializer/__version__.py
+xserializer.egg-info/PKG-INFO
+xserializer.egg-info/SOURCES.txt
+xserializer.egg-info/dependency_links.txt
+xserializer.egg-info/top_level.txt
+xserializer.egg-info/zip-safe
