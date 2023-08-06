@@ -1,0 +1,13 @@
+[package]
+name = "fast_pl_py"
+version = "0.3.2"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "fast_pl_py"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = "0.18.1"
+fast_pl = "1.0.0"
