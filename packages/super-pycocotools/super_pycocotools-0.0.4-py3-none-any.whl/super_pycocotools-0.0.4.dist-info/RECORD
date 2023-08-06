@@ -1,0 +1,7 @@
+super_pycocotools/__init__.py,sha256=wae8wooUmlPQJ3Cv8lh_K3U86AuhD3RJno5PK9V45Mo,46
+super_pycocotools/coco.py,sha256=3XaZJDLYjsqbJqec217DgugVxvi1aJBUASFP0ASU5YQ,2234
+super_pycocotools/detectron.py,sha256=bBTKT8GN0Xk4tdsF9QfTsfahdGy50X2b4z8jiyd3lLc,2136
+super_pycocotools-0.0.4.dist-info/METADATA,sha256=L2-rRXk50V9PFxsU9p1qARjgFR43QfQ3HqVpYm-8iTI,602
+super_pycocotools-0.0.4.dist-info/WHEEL,sha256=y1bSCq4r5i4nMmpXeUJMqs3ipKvkZObrIXSvJHm1qCI,87
+super_pycocotools-0.0.4.dist-info/licenses/LICENSE,sha256=sOY-mt6az4RmU2qq9Wq93IPzRvO7R5-fc1xsD1_OGyA,1074
+super_pycocotools-0.0.4.dist-info/RECORD,,

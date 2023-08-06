@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: super_pycocotools
+Version: 0.0.4
+Summary: COCO API to help managing multiple datasets
+Project-URL: Homepage, https://github.com/HichTala/super_pycocotools
+Project-URL: Bug Tracker, https://github.com/HichTala/super_pycocotools/issues
+Author-email: HichTala <hicham.talaoubrid@etu.mines-ales.fr>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: pycocotools
+Description-Content-Type: text/markdown
+
+# super_pycocotools
