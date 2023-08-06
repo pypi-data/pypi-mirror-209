@@ -1,0 +1,92 @@
+Metadata-Version: 2.1
+Name: nicegpt
+Version: 0.0.7
+Summary: A simple package to make GPT API usage easier
+Author-email: Samuel Reeder <samuel.reeder@mail.utoronto.ca>
+License: MIT License
+        
+        Copyright (c) 2023 Samuel Reeder
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/SamuelReeder/nicegpt
+Project-URL: Bug Tracker, https://github.com/SamuelReeder/nicegpt/issues
+Keywords: gpt, openai, chatbot, nlp, ai, natural language processing, gpt-3, gpt-4
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: openai
+
+# nicegpt
+
+A Python package that simplifies the usage of the GPT API by providing a convenient class to manage context-driven instances of GPT models. With nicegpt, you can create instances, change models, and obtain context-driven responses from the GPT model.
+
+## Usage
+
+First, make sure you have run the `config` function to set up your API key and optionally the organization. If you don't have environment variables set up for the key, you need to run this function.
+
+```python
+import nicegpt 
+
+nicegpt.config("your_api_key", "your_organization")
+```
+
+Next, create a GPT instance using the GPT class. You can choose the GPT model by accessing the Model enum:
+
+```python
+gpt_instance = nicegpt.GPT(model=nicegpt.Model.GPT4)
+```
+
+Now you can obtain context-driven responses using the response function:
+
+```python
+response = gpt_instance.response("What is the capital of France?")
+```
+
+Set the `just_reply` parameter to obtain the raw JSON instead of the message. You can also pass additional kwargs to the response function, which will be forwarded to the GPT API:
+
+```python
+json_response = gpt_instance.response("What is the capital of France?", just_reply=False, max_tokens=50, temperature=0.8)
+```
+
+To change the GPT model, use the change_model function:
+
+```python
+gpt_instance.change_model(nicegpt.Model.GPT3_5)
+```
+
+To access the message history, use the get_messages function:
+
+```python
+message_history = gpt_instance.get_messages()
+print(message_history)
+```
+
+
+## License
+
+This project is released under the MIT License.
+
+
+
+
+
