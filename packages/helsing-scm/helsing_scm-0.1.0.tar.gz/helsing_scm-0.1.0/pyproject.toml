@@ -1,0 +1,84 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "helsing-scm"
+version = "0.1.0"
+description = ""
+authors = ["Niklas Rosenstein <rosensteinniklas@gmail.com>"]
+license = "MIT"
+packages = [{ include = "helsing/scm", from = "src" }]
+classifiers = []
+keywords = []
+
+[tool.poetry.urls]
+# "Bug Tracker" = ""
+# Documentation = ""
+# Homepage = ""
+# Repository = ""
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-equilibrium = "^0.4.0"
+python-adjudicator = "^0.1.1"
+typer = "^0.9.0"
+rich = "^13.3.5"
+"databind.json" = "^4.2.5"
+pyyaml = "^6.0"
+frozendict = "^2.3.8"
+mako = "^1.2.4"
+
+[tool.poetry.dev-dependencies]
+black = "*"
+flake8 = "*"
+isort = "*"
+mypy = "*"
+pytest = "*"
+types-pyyaml = "^6.0.12.9"
+
+[tool.poetry.group.docs]
+optional = true
+
+[tool.poetry.group.docs.dependencies]
+# ...
+
+[tool.poetry.scripts]
+scm = "helsing.scm.__main__:app"
+
+[tool.slap]
+typed = true
+
+[tool.slap.test]
+check  = "slap check"
+black  = "black --check src/ tests/"
+flake8 = "flake8 src/ tests/"
+isort  = "isort --check-only src/ tests/"
+mypy   = "dmypy run src/"
+pytest = "pytest tests/ -vv"
+
+[tool.slap.run]
+"docs:build" = ">&2 echo 'Not implemented' && exit 1"
+fmt          = "black src/ tests/ && isort src/ tests/"
+
+[tool.mypy]
+python_version = "3.10"
+explicit_package_bases = true
+mypy_path = ["src"]
+namespace_packages = true
+pretty = true
+show_error_codes = true
+show_error_context = true
+strict = true
+warn_no_return = true
+warn_redundant_casts = true
+warn_unreachable = true
+warn_unused_ignores = true
+
+[tool.isort]
+profile = "black"
+line_length = 120
+combine_as_imports = true
+
+[tool.black]
+line-length = 120
