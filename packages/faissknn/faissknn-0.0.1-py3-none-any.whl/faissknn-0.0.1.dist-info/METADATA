@@ -1,0 +1,97 @@
+Metadata-Version: 2.1
+Name: faissknn
+Version: 0.0.1
+Summary: Faiss implementation of multiclass and multilabel K-Nearest Neighbors Classifiers
+Home-page: https://github.com/isaaccorley/faissknn
+Author: Isaac Corley
+Author-email: isaac.corley@my.utsa.edu
+Keywords: pytorch,machine learning,deep learning
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: <4,>=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: isort[colors] ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: pydocstyle ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: scikit-learn ; extra == 'dev'
+
+# FAISSKNN
+`faissknn` contains implementations for both multiclass and multilabel K-Nearest Neighbors Classifier implementations. The classifiers follow the `scikit-learn`: `fit`, `predict`, and `predict_proba` methods.
+
+### Install
+
+The FAISS authors recommend to install `faiss` through conda e.g. `conda install -c pytorch faiss-gpu`. See [FAISS install page](https://github.com/facebookresearch/faiss/blob/main/INSTALL.md) for more info.
+
+Once `faiss` is installed, `faissknn` can be install through pypi:
+
+```
+pip install faissknn
+```
+
+### Usage
+
+Multiclass:
+
+```python
+from sklearn.datasets import make_classification
+from sklearn.model_selection import train_test_split
+
+from faissknn import FaissKNNClassifier
+
+x, y = make_classification()
+x_train, x_test, y_train, y_test = train_test_split(x, y)
+model = FaissKNNClassifier(
+    n_neighbors=5,
+    n_classes=None,
+    device="cpu"
+)
+model.fit(x_train, y_train)
+
+y_pred = model.predict(x_test) # (N,)
+y_proba = model.predict_proba(x_test) # (N, C)
+```
+
+Multilabel:
+
+```python
+from sklearn.datasets import make_classification
+from sklearn.model_selection import train_test_split
+
+from faissknn import FaissKNNMultilabelClassifier
+
+x, y = make_multilabel_classification()
+x_train, x_test, y_train, y_test = train_test_split(x, y)
+model = FaissKNNClassifier(
+    n_neighbors=5,
+    device="cpu"
+)
+model.fit(x_train, y_train)
+
+y_pred = model.predict(x_test) # (N, C)
+y_proba = model.predict_proba(x_test) # (N, C)
+```
+
+GPU/CUDA: `faissknn` also supports running on the GPU to speed up computation. Simply change the device to `cuda` or a specific cuda device `cuda:0`
+
+```python
+model = FaissKNNClassifier(
+    n_neighbors=5,
+    device="cuda"
+)
+model = FaissKNNClassifier(
+    n_neighbors=5,
+    device="cuda:0"
+)
+```
