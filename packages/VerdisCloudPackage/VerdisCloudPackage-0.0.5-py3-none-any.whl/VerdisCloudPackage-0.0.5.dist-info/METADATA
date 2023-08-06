@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: VerdisCloudPackage
+Version: 0.0.5
+Summary: Basic AWS Connection Of Verdis
+Author: Verdis
+Author-email: shivam@verdis.ai
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE.txt
+
