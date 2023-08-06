@@ -1,0 +1,7 @@
+argcomplete
+fastapi
+jinja2
+pandas
+pytest
+python-multipart
+uvicorn
