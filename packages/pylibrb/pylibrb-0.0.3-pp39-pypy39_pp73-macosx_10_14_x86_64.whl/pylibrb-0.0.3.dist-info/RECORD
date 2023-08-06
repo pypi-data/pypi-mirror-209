@@ -1,0 +1,11 @@
+pylibrb-0.0.3.data/data/VERSION,sha256=dEj8KrFke0LnS0oaAsirXMHgTLLcLZS-xELsN8s-KUg,5
+pylibrb-0.0.3.dist-info/RECORD,,
+pylibrb-0.0.3.dist-info/LICENSE,sha256=-cN1ob5KQfe3AwHdg8kcuJ5BVnR4hZt37vN1pS14JQU,18091
+pylibrb-0.0.3.dist-info/WHEEL,sha256=XotmsO00y2dDr96RgtyybZ4ku8aivjydpzNfGgyciwc,111
+pylibrb-0.0.3.dist-info/top_level.txt,sha256=4zlIxFBgsYuCHYfYxcZUMHOKA8CLUw4-C8DV8OTDP78,8
+pylibrb-0.0.3.dist-info/METADATA,sha256=oZyQpbfepL7PuIgEd6nUbwdhAeeCvCtONgKHGjUGB8w,2456
+pylibrb/__init__.pyi,sha256=hdNdTpcj12wvgmXQMJ7oyFomlkBvBET0YdIJHYoMThk,36255
+pylibrb/pylibrb_ext.cpython-39-darwin.so,sha256=GZynByLAI0QFVtY5xmx7ZsVjyLiK9harV6FhtXMaVWc,485256
+pylibrb/__init__.py,sha256=9zEahcLjPO5kjS6V3C3lU4IVvrx8RS-v84PReOkqD3M,85
+pylibrb/pylibrb_ext.pypy39-pp73-darwin.so,sha256=9Wo5pEnZrbeOC86gSu5obzViTNKQ5jRW0KIDSzKZMMg,468976
+pylibrb/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
