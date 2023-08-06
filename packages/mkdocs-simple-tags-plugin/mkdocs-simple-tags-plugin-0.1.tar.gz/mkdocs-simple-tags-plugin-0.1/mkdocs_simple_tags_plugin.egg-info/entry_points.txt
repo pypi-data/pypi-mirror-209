@@ -1,0 +1,2 @@
+[mkdocs.plugins]
+tags = tags.plugin:TagsPlugin
