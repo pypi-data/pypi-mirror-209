@@ -1,0 +1,6 @@
+include pyproject.toml
+include *.md
+include LICENSE
+recursive-include tests test*.py
+recursive-include img *.png
+exclude *.ipynb
