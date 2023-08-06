@@ -1,0 +1,11 @@
+Serializers/__init__.py,sha256=-UBnMqwO1DZ6VuEBzU9AKBXJd9XNKF5Q80C9AlSHohU,602
+Serializers/base_serializer.py,sha256=5ziiQQLAQ8Y24NxjUi3jFrEE4eqHAaMWCunSysWBEAk,363
+Serializers/dict_serializer.py,sha256=Hxe8IGP5W9itBwj9gvM3IsQ_anynqkEC7PpZ1nieGHU,9339
+Serializers/json_serializer.py,sha256=82ejwM40snbaVnr3kGfDh1dckk0MOotRcSd49oe4Hss,3863
+Serializers/serializers_factory.py,sha256=Ukxs5BLW075RcXrSVK_MEnm9KRYSM5hmQhoDunzi_cU,482
+Serializers/type_constants.py,sha256=xTeFOUTf1oCwqitFxRN6HLfG9m5iSBOrZlF59XcGbjc,1222
+Serializers/xml_serializer.py,sha256=nZoBPcUwx9W3PsyIJPMIm8KKY1gBfOGwCj_sbjkrj5s,4078
+KosminSerializer-1.0.dist-info/METADATA,sha256=qBu4dT5ZQSKeA8ykwUU4I8xgy3fe-pNLG_8XSg0ElCE,408
+KosminSerializer-1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+KosminSerializer-1.0.dist-info/top_level.txt,sha256=GCt_42M2wPRd_DyyLDikPS8-EWSVYu86v_YNKq1417A,12
+KosminSerializer-1.0.dist-info/RECORD,,
