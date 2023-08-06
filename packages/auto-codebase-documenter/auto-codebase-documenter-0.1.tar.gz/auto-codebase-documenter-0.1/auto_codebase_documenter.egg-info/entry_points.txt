@@ -1,0 +1,3 @@
+[console_scripts]
+auto-codebase-documenter = auto_codebase_documenter.run:main
+
