@@ -1,0 +1,9 @@
+pykitty/__init__.py,sha256=tVetf4F3xHsxEQzrXDd2cpr22kKyEw4zutg0jKI2W28,34
+pykitty/cli.py,sha256=3bEY5ktLXcteiokPqqpgMn2yRMiDTHTJUu2eU3CjnNY,2943
+pykitty/client.py,sha256=ZNU5_HmamRPVhWENNyDalaVjVqCbCFmuaYp3Ks9oFlo,6071
+pykitty/kitty_parser.py,sha256=7bbMfRjXoCxltVTKPWvdj1d5jSpSovH2Mx_eDvRtUkU,3016
+pykitty-0.2.2.dist-info/LICENSE,sha256=h_UN7Nj83B6FT2iPCn9xtLYPYFAhAXUtZ5X08YSOWW0,1068
+pykitty-0.2.2.dist-info/METADATA,sha256=xT5-FBUBTDPHKUiRAWbxj-fD8JmYpxFzS5xjKtIR2A4,2838
+pykitty-0.2.2.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+pykitty-0.2.2.dist-info/entry_points.txt,sha256=-XbjoRYDzfygO_F0xCV5JfFDsDqdTd8C_d-6hOAUtgI,43
+pykitty-0.2.2.dist-info/RECORD,,
