@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: copul
+Version: 0.0.1
+Summary: Risk analysis with copulas.
+Author-email: Marcus Rockel <marcus.rockel@finance.uni-freiburg.de>, Eva Lütkebohmert-Holtz <eva.luetkebohmert@finance.uni-freiburg.de>, Jonathan Ansari <jonathan.ansari@plus.ac.at>
+Project-URL: Homepage, https://github.com/Corrram/copulas_in_systemic_risk
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: interval
+Requires-Dist: matplotlib (>=3.7.1)
+Requires-Dist: numpy (>=1.24.2)
+Requires-Dist: pandas (>=1.5.3)
+Requires-Dist: pillow (>=9.4.0)
+Requires-Dist: scipy (>=1.10.1)
+Requires-Dist: statsmodels
+Requires-Dist: sympy
+Requires-Dist: sympy-plot-backends
+
+# copulas_in_systemic_risk
+
+## Sample Usage
+import copul
+
+galambos = copul.Galambos()
+params = galambos.sample_parameters(3)
+galambos.plot_pickand(params)
+
+## Notes
+
+python copula packages:
+- pyvinecopulib
+- copulas
+- others: copula, copulae, pycopula, ...
+
+more here: https://pypi.org/search/?q=copula
+
+r copula packages:
+- copula
+- VineCopula
+- others: GFGM.copula, FactorCopula, CommonMean.Copula, svines, ...
+
+more here: https://cran.r-project.org/web/packages/available_packages_by_date.html
+
+## Installation
+Run `pip install .`.
