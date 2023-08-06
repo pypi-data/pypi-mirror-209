@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ejelabs
+Version: 0.2
+Summary: ejelabs
+Home-page: https://github.com/looqify/Instalabs
+Download-URL: https://github.com/looqify/Instalabs/archive/refs/tags/0.2.tar.gz
+Author: Looq
+Author-email: looqifi@gmail.com
+License: MIT
+Keywords: looq
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
