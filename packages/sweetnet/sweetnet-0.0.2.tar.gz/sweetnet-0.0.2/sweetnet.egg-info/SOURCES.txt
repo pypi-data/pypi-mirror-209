@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+sweetnet/__init__.py
+sweetnet/tst.py
+sweetnet.egg-info/PKG-INFO
+sweetnet.egg-info/SOURCES.txt
+sweetnet.egg-info/dependency_links.txt
+sweetnet.egg-info/top_level.txt

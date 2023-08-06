@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: sweetnet
+Version: 0.0.2
+Summary: A small example package
+Home-page: https://github.com/itmorn/SweetNet
+Author: itmorn
+Author-email: itmorn@163.com
+License: Apache License
+Platform: all
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries
+License-File: LICENSE
+
+神经网络训练部署的贴心套件，让AI变得更加简单
