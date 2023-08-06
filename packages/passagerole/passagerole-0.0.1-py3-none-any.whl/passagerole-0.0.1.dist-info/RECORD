@@ -1,0 +1,11 @@
+passagerole/__init__.py,sha256=pH5i4Fj1tbXLqLtTVIdoojiplZssQn0nnud8-HXodRE,577
+passagerole/lib.py,sha256=ukc78aOG3zksXB7EUm6XQkT3f6suLZV2EWiNl_oWato,1801
+passagerole/main.py,sha256=xagoz8-mENxHedJFSnnXQaWR7iN9Suonq6VSDtOJPYM,4570
+passagerole/templates/authorized_keys_dummy_data,sha256=fsRBt_bzOyEylW2pE64TjExjjpU8Dgev0Py9i3bqoOI,508
+passagerole/templates/userdata_bash_ssh_keys.sh.j2,sha256=kQ8CB0lCCYyB1lHdWbgcky9dh5VZYGH5NxI8uT7rkz0,1300
+passagerole-0.0.1.dist-info/LICENSE.txt,sha256=nDgkT70BJgTDpJefovhCWm87owFCG_Dl4ETTVqrf6iE,1083
+passagerole-0.0.1.dist-info/METADATA,sha256=CwAK_BNUpJrBF4Tp9osKvAe_G9GIPAfYyv9popwxc2E,2816
+passagerole-0.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+passagerole-0.0.1.dist-info/entry_points.txt,sha256=Db5OuVBjnxW3DrVLmVOlCoDPafubUTfTMm8Cn-JPKvw,53
+passagerole-0.0.1.dist-info/top_level.txt,sha256=pceD6xAxs1q15V-vvKEVGdSnJLFykYyChGs3nRhpaEA,12
+passagerole-0.0.1.dist-info/RECORD,,
