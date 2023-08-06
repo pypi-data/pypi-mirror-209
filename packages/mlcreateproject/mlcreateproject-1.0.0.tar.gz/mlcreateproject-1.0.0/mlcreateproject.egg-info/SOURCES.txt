@@ -1,0 +1,5 @@
+setup.py
+mlcreateproject.egg-info/PKG-INFO
+mlcreateproject.egg-info/SOURCES.txt
+mlcreateproject.egg-info/dependency_links.txt
+mlcreateproject.egg-info/top_level.txt
