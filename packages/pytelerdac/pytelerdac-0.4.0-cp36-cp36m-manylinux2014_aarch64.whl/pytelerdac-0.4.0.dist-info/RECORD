@@ -1,0 +1,13 @@
+pytelerdac/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytelerdac/rdac.cpython-36m-aarch64-linux-gnu.so,sha256=mJ9czxF30oTkbF3mKqs0Ns8utaqHLLhR_KYm4_06QN0,403872
+pytelerdac/client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytelerdac/client/http_client.cpython-36m-aarch64-linux-gnu.so,sha256=e3RF8RvDNg_cBE_HC-wCrATcZ82XCiSzUjfHl_KyLHU,281896
+pytelerdac/const/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytelerdac/const/public.cpython-36m-aarch64-linux-gnu.so,sha256=4JbLNnyjd8K6u-zNonuyn2WxqZ28Jl4e2sa5NPJNC90,57960
+pytelerdac/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytelerdac/utils/device_utils.cpython-36m-aarch64-linux-gnu.so,sha256=Pk_Bsf6NbJfBULSD8B0MbFWcHH_XHHmc4VauuJC397o,190936
+pytelerdac/utils/license_utils.cpython-36m-aarch64-linux-gnu.so,sha256=8O505hkipH1jUl_RWeXK30eOoTVzb-Z142PHMFuhoe4,490856
+pytelerdac-0.4.0.dist-info/METADATA,sha256=uSmAMpoDYvpWI7aJGI9b2V05HkTuth-DpXBn2jVh7PM,586
+pytelerdac-0.4.0.dist-info/WHEEL,sha256=eomE9-rotMuaB53CN4X8xY41R34m5lTvhc9zBZia1c0,113
+pytelerdac-0.4.0.dist-info/top_level.txt,sha256=GGNlG_2NZi0eb98LT66rSRZgIW8h9OJfX-vBlOMuOZQ,11
+pytelerdac-0.4.0.dist-info/RECORD,,
