@@ -1,0 +1,12 @@
+setup.py
+KosminSerializer.egg-info/PKG-INFO
+KosminSerializer.egg-info/SOURCES.txt
+KosminSerializer.egg-info/dependency_links.txt
+KosminSerializer.egg-info/top_level.txt
+Serializers/__init__.py
+Serializers/base_serializer.py
+Serializers/dict_serializer.py
+Serializers/json_serializer.py
+Serializers/serializers_factory.py
+Serializers/type_constants.py
+Serializers/xml_serializer.py
