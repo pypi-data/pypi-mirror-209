@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pulumi-remote-stack
+Version: 0.1.5
+Summary: Pulumi Remote Stack
+Home-page: https://github.com/pypa/pulumi-remote-stack
+Author: Jan Češpivo
+Author-email: developers@allusio.com
+Project-URL: Bug Tracker, https://github.com/allusio/pulumi-remote-stack
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+apt update -y
+apt install -y python3-venv python3-pip
+python3 -m pip install --upgrade pip==23.1.2
+pip install pipx==1.2.0
+pipx install build
+/root/.local/bin/pyproject-build
+pipx install twine
+export TWINE_REPOSITORY_URL=$DEPLOYMENT_PYTHON_REPOSITORY
+export TWINE_USERNAME=_json_key_base64
+export TWINE_PASSWORD=$DEPLOYMENT_REPOSITORY_PUSH_CREDENTIALS_B64
+/root/.local/bin/twine upload dist/*
