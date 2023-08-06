@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.py
+pytest_goldie/plugin.py
+pytest_goldie.egg-info/PKG-INFO
+pytest_goldie.egg-info/SOURCES.txt
+pytest_goldie.egg-info/dependency_links.txt
+pytest_goldie.egg-info/entry_points.txt
+pytest_goldie.egg-info/requires.txt
+pytest_goldie.egg-info/top_level.txt
+tests/test_goldens.py
+tests/test_goldie.py
