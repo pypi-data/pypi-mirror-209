@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: cellgeometry
+Version: 0.1.2
+Summary: Statistical Cell Shape Analysis
+Home-page: https://github.com/bioshape-lab/cells/tree/main/cells/streamlit
+License: MIT
+Author: Amil Khan
+Author-email: amil@ucsb.edu
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: autograd (>=1.5,<2.0)
+Requires-Dist: geomstats (>=2.5.0,<3.0.0)
+Requires-Dist: matplotlib (>=3.7.1,<4.0.0)
+Requires-Dist: numba (>=0.56.4,<0.57.0)
+Requires-Dist: numpy (==1.23.0)
+Requires-Dist: plotly (>=5.14.1,<6.0.0)
+Requires-Dist: read-roi (>=1.6.0,<2.0.0)
+Requires-Dist: scikit-image (>=0.20.0,<0.21.0)
+Requires-Dist: streamlit (>=1.21.0,<2.0.0)
+Project-URL: Repository, https://github.com/bioshape-lab/cells
+Description-Content-Type: text/markdown
+
+# Cell Shape Analysis
+[![Docker](https://github.com/amilworks/cells/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/amilworks/cells/actions/workflows/docker-publish.yml)
+
