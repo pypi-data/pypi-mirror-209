@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: earthranger-utils
+Version: 1.0.0
+Summary: A package to aide in the utilization of Earthranger to post and retrieve data of interest
+Home-page: https://github.com/kgarwoodsdzwa/earthranger_utils
+Author: Katie Garwood
+Author-email: kgarwood@sdzwa.org
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8, <4
+
+UNKNOWN
+
