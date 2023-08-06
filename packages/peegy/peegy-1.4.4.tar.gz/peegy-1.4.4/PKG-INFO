@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: peegy
+Version: 1.4.4
+Summary: Tools to pipeline bulk analyses of EEG and other modalities.
+Project-URL: Homepage, https://gitlab.com/open-source-brain/peegy/
+Project-URL: Examples, https://open-source-brain.gitlab.io/peegy/
+Author-email: Jaime Undurraga <jaime.undurraga@gmail.com>
+License: MIT
+License-File: LICENSE.txt
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: >=3.9
