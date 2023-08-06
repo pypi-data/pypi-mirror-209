@@ -1,0 +1,10 @@
+oregpt/chat_bot.py,sha256=MgM1b8_SXpjYooUvA3CPEwu3nU3lwWwQdfXAX-Fzdrg,2258
+oregpt/command.py,sha256=T7-4g2vXU7LiyyzjlKojP6gyWmA4Gbsk41J9U5H6Mdc,3647
+oregpt/main.py,sha256=ToxY5l6FzLUdS7gf2wzWI19_R82ExlwdqCqitJSIxns,3163
+oregpt/resources/config.yml,sha256=ktqxFzxKDkWJnTluw0wnpbOkxoyB_IC6JVm8pdwXdQo,339
+oregpt/stdinout.py,sha256=BluzdFlmHmUznfF5XqpV7cnJWMLes7eEB_Y1ATVuFOE,2352
+oregpt-0.2.0.dist-info/LICENSE,sha256=BE6BNALu-6GN-i0fwvCkhGm5id8nLm7NOwBe0shcq9o,1076
+oregpt-0.2.0.dist-info/METADATA,sha256=XkyhBapSxCAUJhLemCEDzMwoP90dibnj9zPkDsCa4DY,3831
+oregpt-0.2.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+oregpt-0.2.0.dist-info/entry_points.txt,sha256=_dSboJnucw0eP5QrZfqP8SDxYmWDS32ZnSbc5gA4G3c,43
+oregpt-0.2.0.dist-info/RECORD,,
