@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.cfg
+src/cq23.egg-info/PKG-INFO
+src/cq23.egg-info/SOURCES.txt
+src/cq23.egg-info/dependency_links.txt
+src/cq23.egg-info/top_level.txt
+src/run_game/__init__.py
