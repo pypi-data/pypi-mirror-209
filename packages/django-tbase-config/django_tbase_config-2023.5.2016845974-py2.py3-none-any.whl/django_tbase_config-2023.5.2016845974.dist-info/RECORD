@@ -1,0 +1,10 @@
+tbase_config/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tbase_config/admin.py,sha256=4-wfXh1JS221v7xr8P9fG7GW7e55tT2Xwa9drzSL6ts,1351
+tbase_config/apps.py,sha256=LKkv0cczd2AlEehJaRERtdSETbyWSDNnx11rI0GoJ3s,150
+tbase_config/models.py,sha256=Np0GZGUaUgbO6Ngb165OqAt757rP0qIZzdAYIBSkGQU,2554
+tbase_config/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+tbase_config/views.py,sha256=xc1IQHrsij7j33TUbo-_oewy3vs03pw_etpBWaMYJl0,63
+django_tbase_config-2023.5.2016845974.dist-info/METADATA,sha256=1Anf3Ra5B2oqDSj2Wo2aji956VBlNyg3FVXYLywBLqg,988
+django_tbase_config-2023.5.2016845974.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+django_tbase_config-2023.5.2016845974.dist-info/top_level.txt,sha256=KZZnptKJesMGh0KoD5UU4WiaWTpw76AW89nQYh4JJto,13
+django_tbase_config-2023.5.2016845974.dist-info/RECORD,,
