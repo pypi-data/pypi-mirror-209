@@ -1,0 +1,6 @@
+setup.py
+packagetenssor.egg-info/PKG-INFO
+packagetenssor.egg-info/SOURCES.txt
+packagetenssor.egg-info/dependency_links.txt
+packagetenssor.egg-info/top_level.txt
+tenssor/__init__.py
