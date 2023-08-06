@@ -1,0 +1,5 @@
+JaqalPaq>=1.2.0a1
+numpy
+
+[tests]
+pytest
