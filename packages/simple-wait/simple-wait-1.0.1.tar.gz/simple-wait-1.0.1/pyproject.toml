@@ -1,0 +1,27 @@
+[project]
+name = "simple-wait"
+version = "1.0.1"
+authors = [
+  { name="Ilya Petrash", email="ilya.petrash@inbox.ru" },
+]
+description = "Simple wait"
+readme = "README.md"
+license = { file = "LICENSE.txt" }
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+keywords = ["wait"]
+
+[project.urls]
+"Homepage" = "https://github.com/gil9red/simple-wait"
+"Bug Tracker" = "https://github.com/gil9red/simple-wait/issues"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
