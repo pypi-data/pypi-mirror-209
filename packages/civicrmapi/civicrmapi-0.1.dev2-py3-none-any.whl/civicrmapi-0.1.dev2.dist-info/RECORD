@@ -1,0 +1,17 @@
+civicrmapi/__init__.py,sha256=KjAbnHs3bJVGIncmcWE36TaFtNhNDIIdj9H0B1DlIxw,367
+civicrmapi/__version__.py,sha256=uQTQVL8pAtMv9Hune_Kt-G4FkeQTPFdqE9T6VYBIA-U,666
+civicrmapi/base.py,sha256=p-3W3vU2lo4rcoDNpIaVSBQ7N6-pvbD6jVFfwrvbwl4,4671
+civicrmapi/console.py,sha256=CaHDHWqeMZsZiqkfV9IC_qQPlj80xs234qjVaw2CwJo,2702
+civicrmapi/errors.py,sha256=ZRWhhEyVSysTdIcK-2x8gcWcEFNq3DjUHUEblfgadk0,1903
+civicrmapi/rest.py,sha256=uj2V_k0Mx5nyIHsyXE_-YSUFUNfQoRjg2bkdp0pMAUc,4123
+civicrmapi/v3.py,sha256=eBHQXW68mf1O-6uqU8o8vqhv_AOzSibDSl7U5uShhk0,2592
+civicrmapi/v4.py,sha256=yywU1kz1u5GNoVYVF3xAknKeGJozndInl1_yCdFjxZk,2288
+civicrmapi/v3/__init__.py,sha256=eBHQXW68mf1O-6uqU8o8vqhv_AOzSibDSl7U5uShhk0,2592
+civicrmapi/v4/__init__.py,sha256=zGjLg761ViHATKaMrXvOpUR5pzoCP4p6VpjzmNaRREQ,2313
+civicrmapi/v4/group.py,sha256=mRjToc9BDdiwF0oUBA5BjclL_l3l1-eTgp_jD3WbkZs,151
+civicrmapi-0.1.dev2.dist-info/LICENCE,sha256=tX6ebBwRR6gwYZUbX0cqvA6AUzglAZIDuwE3-tNRlIo,1521
+civicrmapi-0.1.dev2.dist-info/METADATA,sha256=hGugs6cRwHRICoTqbY8Ixu5G2A4wBHzI0Bf_oUZXhTI,2154
+civicrmapi-0.1.dev2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+civicrmapi-0.1.dev2.dist-info/top_level.txt,sha256=Wr-E4Rduw1pNIosOuSqU5xlwYX3oaajWByt4MDU_iTA,11
+civicrmapi-0.1.dev2.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+civicrmapi-0.1.dev2.dist-info/RECORD,,
