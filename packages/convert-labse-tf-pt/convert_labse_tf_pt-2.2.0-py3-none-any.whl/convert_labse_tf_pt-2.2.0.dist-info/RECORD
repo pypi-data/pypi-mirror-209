@@ -1,0 +1,11 @@
+LICENSE,sha256=ccjwuf0OCdYkRegdN5ypjmo6yrzqwggGOfI_fOCR3BU,1070
+convert_labse_tf_pt/__init__.py,sha256=bdzajzW4EF1vCafM89ma_jT8ubPeTg_kEW6SVKPx6NI,277
+convert_labse_tf_pt/configurations.py,sha256=ms55Sg-wM6erz2KNNGYLr4iFNIdRsc8HkL3pQcJ8iZg,1205
+convert_labse_tf_pt/convert.py,sha256=FSgpqKBpVY_BPfYg6NWBWgLAvlVSQtxoEXxWqCRXLLo,13244
+convert_labse_tf_pt/data/labse_vocab/cased_vocab.txt,sha256=dFMkfKos8jEWwdozK-wMwcnviWt4A1kaYq0gB7ejPDM,5220781
+convert_labse_tf_pt/data/smaller_vocab/vocab-en-fr-es-de-zh-ar-zh_classical-it-ja-ko-nl-pl-pt-th-tr-ru.txt,sha256=dFiK4Wly9Ykr5vw2NQkMjbdDL8YX_CXMAk3FfXLkzCA,1469057
+convert_labse_tf_pt-2.2.0.dist-info/LICENSE,sha256=ccjwuf0OCdYkRegdN5ypjmo6yrzqwggGOfI_fOCR3BU,1070
+convert_labse_tf_pt-2.2.0.dist-info/METADATA,sha256=tzcKXPLK8JrAtqCQVhJMSCDqPTkLxc81ogns-qPHTPs,2280
+convert_labse_tf_pt-2.2.0.dist-info/WHEEL,sha256=WGfLGfLX43Ei_YORXSnT54hxFygu34kMpcQdmgmEwCQ,88
+convert_labse_tf_pt-2.2.0.dist-info/entry_points.txt,sha256=dXtKTDYa2iL1MmPDo7_D9e9u5g_uYeKy1KJeoABi2bo,66
+convert_labse_tf_pt-2.2.0.dist-info/RECORD,,
