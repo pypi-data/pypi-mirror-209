@@ -1,0 +1,2 @@
+[console_scripts]
+mockingbird-db = mb_db.__command_line:entry
