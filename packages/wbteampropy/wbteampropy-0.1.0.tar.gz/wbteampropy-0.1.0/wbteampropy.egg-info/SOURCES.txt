@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+wbteampropy/__init__.py
+wbteampropy/api.py
+wbteampropy/exceptions.py
+wbteampropy.egg-info/PKG-INFO
+wbteampropy.egg-info/SOURCES.txt
+wbteampropy.egg-info/dependency_links.txt
+wbteampropy.egg-info/requires.txt
+wbteampropy.egg-info/top_level.txt
