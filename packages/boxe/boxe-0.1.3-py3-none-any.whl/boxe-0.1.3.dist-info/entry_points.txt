@@ -1,0 +1,3 @@
+[console_scripts]
+box=box.cli.box:main
+

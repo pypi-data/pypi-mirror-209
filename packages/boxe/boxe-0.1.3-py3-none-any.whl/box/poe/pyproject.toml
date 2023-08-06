@@ -1,0 +1,10 @@
+
+
+[tool.poe.tasks]
+
+ROOT.cmd = "echo $ROOT"
+
+    [tool.poe.tasks.poe]
+    help = "Run the main poe program."
+    cmd = "poe -q --root=${ROOT}"
+    env.ROOT.default = "."
