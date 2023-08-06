@@ -1,0 +1,9 @@
+numpy
+xarray
+pandas
+tqdm
+scipy
+cc3d
+gsw
+pyproj
+dask
