@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: newrawpy
+Version: 1.0.0b0
+Summary: Rapidly build, backtest & deploy trading bots
+Author-email: contact@blankly.finance
+License: lgpl-3.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown

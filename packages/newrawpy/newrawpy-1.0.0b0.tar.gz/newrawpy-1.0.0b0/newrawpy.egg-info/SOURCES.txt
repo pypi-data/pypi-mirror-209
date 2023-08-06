@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+newrawpy/__init__.py
+newrawpy.egg-info/PKG-INFO
+newrawpy.egg-info/SOURCES.txt
+newrawpy.egg-info/dependency_links.txt
+newrawpy.egg-info/top_level.txt
