@@ -1,0 +1,7 @@
+numpy
+pandas
+matplotlib
+control
+pyqt5
+opencv-python
+click
