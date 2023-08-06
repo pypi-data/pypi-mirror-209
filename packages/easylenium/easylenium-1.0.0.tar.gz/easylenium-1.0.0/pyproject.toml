@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=42", "Selenium"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "easylenium"
+version = "1.0.0"
+authors = [
+  { name="Hubertus R Mitschke", email="sturmboe.transit0m@icloud.com" },
+]
+description = '''A powerful web scraping tool for automating data extraction 
+                 from websites using Selenium.'''
+readme = "README.md"
+keywords = ["web scraping", "data extraction", "automation", "Selenium",
+            "web scraping tool", "data scraping", "web automation",
+            "web crawler", "data scraping library", "Python", 
+            "website scraping", "scraping framework", "web data extraction", 
+            "automated data collection", "data scraping tool", 
+            "data scraping automation", "web scraping library"]
+requires-python = ">=3.7"
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/hubertus444/easylenium"
+"Bug Tracker" = "https://github.com/hubertus444/easylenium/issues"
