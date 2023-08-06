@@ -1,0 +1,11 @@
+prefix=/Users/runner/work/pylibrb/pylibrb/_skbuild/macosx-10.14-x86_64-3.9/cmake-install/src/pylibrb
+exec_prefix=/Users/runner/work/pylibrb/pylibrb/_skbuild/macosx-10.14-x86_64-3.9/cmake-install/src/pylibrb
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: fmt
+Description: A modern formatting library
+Version: 10.0.0
+Libs: -L${libdir} -lfmt
+Cflags: -I${includedir}
+
