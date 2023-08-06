@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: fyerspysdk1
+Version: 0.0.2
+Summary: Fyers trading APIs.
+Home-page: https://github.com/
+Author: Fyers-Tech
+Author-email: support@fyers.in
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: asyncio (==3.4.3)
+Requires-Dist: aiohttp (==3.8.4)
+Requires-Dist: cryptography (==3.4.8)
+Requires-Dist: Requests (==2.30.0)
+Requires-Dist: websocket-client (==1.2.1)
+Requires-Dist: websockets (==8.1)
+
+README
+========
+
+This module is installed via pip:
+
+```
+pip install fyers-api
+```
+
+Packages Required
+ - json
+ - requests
+ - tornado 
+
+For an overview of Fyers-api please refer to the documentation at [fyers-api-docs](http://apidashboard.fyers.in/api-docs)
+
+
