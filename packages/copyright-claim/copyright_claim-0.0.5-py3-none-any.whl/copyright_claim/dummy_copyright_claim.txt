@@ -1,0 +1,7 @@
+My wonderful program - Does very nice stuff.
+(C) 2023 Myself.
+You may use and distribute this program under the terms of my fancy license, 
+a copy of which you should have received along with this program. 
+Otherwise, see <https://spdx.org/licenses/the_right_link.html>.
+
+You can contact Myself at foo@bar.biz.
