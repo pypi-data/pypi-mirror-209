@@ -1,0 +1,6 @@
+module.py
+setup.py
+w_urltools.egg-info/PKG-INFO
+w_urltools.egg-info/SOURCES.txt
+w_urltools.egg-info/dependency_links.txt
+w_urltools.egg-info/top_level.txt
