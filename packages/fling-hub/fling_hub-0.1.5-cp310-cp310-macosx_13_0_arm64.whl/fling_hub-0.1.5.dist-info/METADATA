@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: fling-hub
+Version: 0.1.5
+Summary: Loophost: for a better local dev
+Author: Joshua McKenty
+Author-email: jmckenty@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: certbot
+Requires-Dist: flask
+Requires-Dist: fling-cli (==0.1.5)
+Requires-Dist: fling-start
+Requires-Dist: lastversion
+Project-URL: documentation, https://readthedocs.org/fling-hub
+Project-URL: homepage, https://fling.dev
+Project-URL: repository, https://github.com/delving-co/fling-hub.git
+Description-Content-Type: text/markdown
+
+# Fling-Hub
+### The loophost experience you always wanted
