@@ -1,0 +1,2 @@
+[console_scripts]
+data_copilot = data_copilot.cli:main

@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: data_copilot
+Version: 0.1.0
+Summary: Chat with your data
+Home-page: https://github.com/modulos/data_copilot
+Author: Modulos AG
+Author-email: contact@modulos.ai
+License: AGPL-3.0-or-later
+Keywords: data_copilot
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+License-File: LICENSE
+
+============
+data_copilot
+============
+
+
+.. image:: https://img.shields.io/pypi/v/data_copilot.svg
+        :target: https://pypi.python.org/pypi/data_copilot
+
+.. image:: https://img.shields.io/travis/modulos/data_copilot.svg
+        :target: https://travis-ci.com/modulos/data_copilot
+
+.. image:: https://readthedocs.org/projects/data-copilot/badge/?version=latest
+        :target: https://data-copilot.readthedocs.io/en/latest/?version=latest
+        :alt: Documentation Status
+
+
+.. image:: https://pyup.io/repos/github/modulos/data_copilot/shield.svg
+     :target: https://pyup.io/repos/github/modulos/data_copilot/
+     :alt: Updates
+
+
+
+Chat with your data
+
+
+* Free software: MIT license
+* Documentation: https://data-copilot.readthedocs.io.
+
+
+Features
+--------
+
+* TODO
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
+
+=======
+History
+=======
+
+0.1.0 (2023-05-19)
+------------------
+
+* First release on PyPI.
