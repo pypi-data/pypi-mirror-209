@@ -1,0 +1,6 @@
+setup.py
+ZipDAS.egg-info/PKG-INFO
+ZipDAS.egg-info/SOURCES.txt
+ZipDAS.egg-info/dependency_links.txt
+ZipDAS.egg-info/requires.txt
+ZipDAS.egg-info/top_level.txt
