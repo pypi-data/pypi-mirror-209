@@ -1,0 +1,59 @@
+[tool.poetry]
+name = "findmyorder"
+version = "1.3.9"
+description = "A python package to identify and parse order for trade execution."
+authors = ["mraniki <8766259+mraniki@users.noreply.github.com>"]
+license = "MIT License"
+readme = "README.md"
+keywords = ["trading", "order", "trade","buy","sell"]
+
+[tool.poetry.urls]
+"Changelog" =  "https://github.com/mraniki/findmyorder/blob/dev/CHANGELOG.rst"
+"Support" =  "https://github.com/mraniki/findmyorder/discussions"
+"Issues" =  "https://github.com/mraniki/findmyorder/issues"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+asyncio = "*"
+dynaconf = "*"
+pyparsing = "^3.0.9"
+emoji = "*"
+
+[tool.poetry.dev-dependencies]
+python-semantic-release = "*"
+pytest = "*"
+pytest-cov = "*"
+pytest-asyncio = "*"
+pytest-mock = "*"
+
+[tool.pytest.ini_options]
+testpaths = "tests/"
+python_classes = [
+  "Test*",
+  "*Test"
+]
+log_format = "%(asctime)s - %(levelname)s - %(name)s - %(message)s"
+log_level = "DEBUG"
+pythonpath = [
+  "."
+]
+addopts = "--ignore-glob=example_*"
+
+[tool.semantic_release]
+version_variable = ["pyproject.toml:version","findmyorder/__init__.py:__version__"]
+branch = "main"
+upload_to_pypi = true
+upload_to_release = true
+build_command = "pip install poetry && poetry build"
+commit_parser = "semantic_release.history.emoji_parser"
+use_textual_changelog_sections = true
+major_emoji = ":boom:"
+#major_emoji¶ #💥:boom:
+minor_emoji = ":sparkles:,:children_crossing:,:lipstick:,:iphone:,:egg:,:chart_with_upwards_trend:"
+#minor_emoji #✨🥚🚸📱💄📈
+patch_emoji = ":ambulance:,:lock:,:arrow_up:,:bug:,:zap:,:goal_net:,:alien:,:wheelchair:,:speech_balloon:,:mag:,:apple:,:penguin:,:checkered_flag:,:robot:,:green_apple:,⚡️,🎨,🐛,🚑️,💄,🔒️,⬇️,⬆️,📌,📈,➕,➖,🔧,🌐,✏️,⏪️,📦️,👽️,🍱,♿️,💬,🗃️ ,🚸,📱,🥚,⚗️,🔍️,🏷️ ,🚩,🥅,💫,🗑️ ,🛂,🩹,👔,"
+#patch_emoji # 🐛🚑⚡🔒👽🔍💬🥅♿🍏🐧🏁🤖
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
