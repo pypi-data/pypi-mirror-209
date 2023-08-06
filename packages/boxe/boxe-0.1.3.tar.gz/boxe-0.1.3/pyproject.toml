@@ -1,0 +1,52 @@
+[tool.poetry]
+name = "boxe"
+version = "0.1.3"
+description = ""
+authors = ["Phillip Sitbon <phillip.sitbon@gmail.com>"]
+readme = "readme.md"
+
+packages = [
+    { include = "box" },
+]
+
+include = ["pyproject.toml", "readme.md"]
+
+[tool.poetry.scripts]
+box = "box.cli.box:main"
+
+[tool.poe]
+include = "box/poe/task.json"
+
+[tool.poe.tasks]
+
+do_things.cmd = "echo doing things"
+
+[tool.poe.tasks.PATH]
+help = "Output PATH environment variable suitable for sourcing."
+shell = "echo PATH=$(poetry env info --path)/bin:$PATH"
+
+[tool.poe.tasks.box]
+help = "box"
+cmd = "poe -q --root=${BOXPATH}"
+uses = { BOXPATH = "BOXPATH"}
+env.ROOT.default = "${PWD}"
+
+[tool.poe.tasks.BOXPATH]
+imports = ["box", "box.poe"]
+expr = "box.poe.__path__[0]"
+
+
+[tool.poetry.extras]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+invoke = "^2.1.2"
+fabric = "^3.0.1"
+invocations = "^3.3.0"
+poetry = "^1.5.0"
+poethepoet = "^0.20.0"
+pytomlpp = "^1.0.13"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
