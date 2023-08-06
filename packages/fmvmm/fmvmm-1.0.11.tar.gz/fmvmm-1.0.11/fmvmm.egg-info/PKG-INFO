@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: fmvmm
+Version: 1.0.11
+Summary: flexible multivariate mixture model
+Author: Samyajoy Pal
+Author-email: palsamyajoy@gmail.com
+License-File: LICENSE
+
+mixture model with different distributions
