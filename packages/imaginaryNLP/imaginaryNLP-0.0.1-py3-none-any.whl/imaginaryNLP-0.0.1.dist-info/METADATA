@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: imaginaryNLP
+Version: 0.0.1
+Summary: Imaginary Embeddings for NLP
+Download-URL: https://github.com/Justus-Jonas/nlp-i
+Author: Justus-Jonas Erker
+Author-email: j.erker@student.maastrichtuniversity.nl
+License: Apache License 2.0
+Keywords: PyTorch NLP deep learning Imaginary Embeddings Dialog Systems
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Intended Audience :: Science/Research
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: transformers (<5.0.0,>=4.6.0)
+Requires-Dist: sentence-transformers (>=2.0.0)
+
+# Imaginary NLP (NLP+i)
+This repo will contain a python package based on the paper "Imagination Is All You Need!" that will be presented at ACL 2023 in Toronto, Canada. 
+
+### Information on Code Rollout:
+``Work still in progress. Rollout of the code and models will be prior to the ACL meeting. However the final release (version 1.0) of the PyPi package will be after the conference.``
