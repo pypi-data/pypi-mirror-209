@@ -1,0 +1,8 @@
+owenpdf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+owenpdf/pdf2image.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+owenpdf/pdf2text.py,sha256=NAUjOVxZ8GoSzm1-GFFT7NXQh8TdjtxfHmuMV434T5k,36
+owenpdf-3.1.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+owenpdf-3.1.dist-info/METADATA,sha256=VyiX4dfpJaDEV2Qg5RbzIEAN3q6yvzxfi6fAjL8aIXY,109
+owenpdf-3.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+owenpdf-3.1.dist-info/top_level.txt,sha256=rWxwI_VXt8OyqZg_a-gPvbVePvA6k736SMB1B6QZgCU,8
+owenpdf-3.1.dist-info/RECORD,,
