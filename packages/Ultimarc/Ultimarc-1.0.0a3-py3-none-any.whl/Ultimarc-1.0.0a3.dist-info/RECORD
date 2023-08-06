@@ -1,0 +1,12 @@
+ultimarc/__init__.py,sha256=MvEJUZMqhBqrv4qwg2lCXr1QpgNPcALSvWocA-8eKV0,311
+ultimarc/exceptions.py,sha256=ANn2WMHTGORRsvbOnv2LRWBzQdyej2ZxwlVO9U8eoLg,1185
+ultimarc/main.py,sha256=1s_xidgzmKQqBtnY9rh7jbPvud-xJKen_6z1sfbuZTY,3286
+ultimarc/misc.py,sha256=ctFVwyZAB7pjUS4T1fUGdD-NN0D8giaaNYwkDaH5BwY,198
+ultimarc/system_utils.py,sha256=hnRn_0JADVFLxVvQabRQN0M0DvnV25F0kbQt9kw1nj8,13937
+ultimarc/test_usb.py,sha256=w5Ng0Yo1q7G1j6roIP-uAKLxyVVfuTFfJNJeIK_CBto,3554
+Ultimarc-1.0.0a3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+Ultimarc-1.0.0a3.dist-info/METADATA,sha256=KgMZtfgeg34ISI4EU7gbFtSBjOc3dcnWI_WtpoUZzDM,4721
+Ultimarc-1.0.0a3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+Ultimarc-1.0.0a3.dist-info/entry_points.txt,sha256=FwtXaTRrK90Ys7iIjZ8iKKBYM82FShYD5TZxEp0lPk8,100
+Ultimarc-1.0.0a3.dist-info/top_level.txt,sha256=lCo3YnM9Xb9LMIgI7EJGBZCYjKoKbywHEikYAkKlM4w,9
+Ultimarc-1.0.0a3.dist-info/RECORD,,
