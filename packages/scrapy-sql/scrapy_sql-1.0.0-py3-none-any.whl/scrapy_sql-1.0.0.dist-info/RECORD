@@ -1,0 +1,15 @@
+scrapy_sql/__init__.py,sha256=zkWp7jkFFfZmsw_NQLx9jE50uwoZpeRIsC0fxFxj2so,497
+scrapy_sql/_defaults.py,sha256=PaMWBdPgRFQ281YnvyEa83xhVeYoyej1m0Ej2mJbMg0,344
+scrapy_sql/adapters.py,sha256=PkU84TX7G3_PLs6TJPrTTJxtsx1RZ9HSsYEM-2COW0s,14834
+scrapy_sql/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scrapy_sql/commands/cmdline.py,sha256=CBRZSihqt08ZWh_bz453ZrFI2FsESr5JCV0p6ohYHd0,2555
+scrapy_sql/exporters.py,sha256=wtQrbn-KeSMov-0VDihAc6_OdJaksXBVnm08-Hs4_X0,400
+scrapy_sql/feedexport.py,sha256=oJgp7SQn3WY_DPW8j8H94HIIcrAKwBEqyCtqWwkR0DE,5294
+scrapy_sql/session.py,sha256=2T0hBJEoNIzio4LprLI9IieaQtrN-WRwlY2hZAyVSbc,7303
+scrapy_sql/stmts.py,sha256=eLyLwlqB7UP2Vdz_3cPMHzZBp94kun3iOxjUBNqskEc,1189
+scrapy_sql/subquery_item.py,sha256=R6OWruwn6tYyExaorgzPLDPRbFpLAryzTS_EDo_KpAI,1532
+scrapy_sql/utils.py,sha256=pM0sAODGVGQZ7eYPLJEARovlsGbFqYfv1Cq07-V8ZrI,1944
+scrapy_sql-1.0.0.dist-info/LICENSE,sha256=0Rn9ai4tQx_7u6IB7gfvx6uN_ww6U-0Ci_KAYqEOIlk,1072
+scrapy_sql-1.0.0.dist-info/METADATA,sha256=XfIbhubQ-HqZOGXHBOcvxTIGWNAjxrwW0Ll0fsN-2kk,24662
+scrapy_sql-1.0.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+scrapy_sql-1.0.0.dist-info/RECORD,,
