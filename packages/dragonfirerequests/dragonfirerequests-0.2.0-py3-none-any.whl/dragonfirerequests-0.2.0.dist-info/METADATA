@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: dragonfirerequests
+Version: 0.2.0
+Summary: Requests runner library
+Home-page: https://SaidkomilMS.t.me/
+Author: Saidkomil Makhamadkhojayev
+Author-email: msaidkomils@gmail.com
+License: MIT
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# Dragon Fire Requests
+
+Tool that makes for you very easy to use third party API
+
+
+```
+pip istall dragonfirerequests
+```
+
+# Get started
+
+Coming soon...
