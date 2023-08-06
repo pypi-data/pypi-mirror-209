@@ -1,0 +1,9 @@
+oc_pyfs/NexusFS.py,sha256=rKZ5lnCaXWN84nO_SI7XBm9oTWI-SuFbeQUB4ffLE_k,5133
+oc_pyfs/SvnFS.py,sha256=k9cXgaOVuXLxAZlMuv2F3pEZUNYo3xXDCMQGwuy9kcY,19280
+oc_pyfs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+oc_pyfs/fs_utils.py,sha256=gKjmDalFTZ18xx4xOUqFmHTH4_akVRijvhOoLR3A8dY,318
+oc_pyfs-1.0.7.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+oc_pyfs-1.0.7.dist-info/METADATA,sha256=vh8Y2iqky5WdGpPnGzpRuLDUiYNAleVai0FucC8cjQU,271
+oc_pyfs-1.0.7.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+oc_pyfs-1.0.7.dist-info/top_level.txt,sha256=vZ5zzVDnaBgfX3EA9-Q8zwYoE44R2mcua_w56V-7BTM,8
+oc_pyfs-1.0.7.dist-info/RECORD,,
