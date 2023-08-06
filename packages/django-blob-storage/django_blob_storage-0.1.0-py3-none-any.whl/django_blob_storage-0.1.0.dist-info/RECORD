@@ -1,0 +1,15 @@
+dbstorage/__init__.py,sha256=bYa8SpD99r-lfYUbkzUm3epMXLWr28_1dzeWVqwWerc,54
+dbstorage/admin.py,sha256=N31As92II0K0f1BinaiaRwMqlo2mLiiL9GMMUSYQFnU,1021
+dbstorage/apps.py,sha256=LQIe9el1xrH5mSRU4crawd13tBR_p6TgQeGQnLoJr9E,183
+dbstorage/forms.py,sha256=81SGh3HN84AyyOayPzUlHTysNEpKYWmfRyP95XAUGZ4,1662
+dbstorage/migrations/0001_initial.py,sha256=NZvE-_xyFEnfHxXVNw1-l9Yo9QP-mxOzGLThRUO2kJI,933
+dbstorage/migrations/0002_remove_dbfile_size_dbfile_accessed_on_and_more.py,sha256=nXNCe2014ok3Qg7jHDQBGPQ1pZ_TUYnz75O3j5Aa6IA,822
+dbstorage/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dbstorage/models.py,sha256=doHw0pSBOK6-9mDc4VRfOS2IelIPrwI59QiqeerYan0,748
+dbstorage/storage.py,sha256=6Kq1gZqGeS2CiD-Iq5nrhGWoLLIfwBIsuxnn67RFGFo,1850
+dbstorage/urls.py,sha256=9gx7y86vaGd7ne68dz-Gh_RjAVu_12sKJLT2vYkonXE,278
+dbstorage/views.py,sha256=fG-2pC_IzeWcLKFigBIm--SWNxxEsIT9F1-O1mu60J8,1440
+django_blob_storage-0.1.0.dist-info/LICENSE.md,sha256=Cu4bmZG3Uj9u4YqpXnsCJUNrkm9TjCT_a_M-aX61TSU,1484
+django_blob_storage-0.1.0.dist-info/METADATA,sha256=sCVq_ixfaAL4G1wXE5eNkAwpWgvcsCjT6qckdRhMt_E,2658
+django_blob_storage-0.1.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+django_blob_storage-0.1.0.dist-info/RECORD,,
