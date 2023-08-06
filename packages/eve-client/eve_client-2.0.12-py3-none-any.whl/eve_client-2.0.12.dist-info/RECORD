@@ -1,0 +1,8 @@
+eve_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+eve_client/__version__.py,sha256=YxcVJt69vWKI0evK12acqeFbIE4EyTGUERB7swCM2HQ,23
+eve_client/eve.py,sha256=OyRwKgfADG_g-G8ZOdDH7V9PT-3cShxj-jcPkIcIaxk,25626
+eve_client/helper.py,sha256=Dw-H8Ijz0W8rIF4FC57f8dfbStcVK89sbv3v2roNPNo,632
+eve_client-2.0.12.dist-info/LICENSE.md,sha256=sMaTXZLbtlJvDQg4mogK58c88uPALMqTJvvv5v00I18,1468
+eve_client-2.0.12.dist-info/METADATA,sha256=f9V9iQZubp2z71cp4Vl2OUWPKXx3Ap6yvHC2zLQLaoc,6640
+eve_client-2.0.12.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+eve_client-2.0.12.dist-info/RECORD,,
