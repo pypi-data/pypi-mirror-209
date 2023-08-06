@@ -1,0 +1,8 @@
+sftp_uploader/docs/__init__.py,sha256=7PHda5lR6gbDRjVPoOcZ4njSgJ6KHJHF2mIHRXDBVNA,29
+sftp_uploader/src/__init__.py,sha256=tZcpGtJ4WsOuMNM4ZXvwGgWUPwe9G-aBSaaKdqqC80g,25
+sftp_uploader/src/test_upload_to_pypl.py,sha256=cxAAPTkGvOawqvv27bz2ehnS-hePGZZgCTl1Rnw6KdA,27
+sftp_uploader/tests/__init__.py,sha256=p95thBUqBa_rOeBRg2h2U-aaSWdwhPv3lRaevOFkM2A,26
+sftp_uploader-0.1.0.dist-info/LICENSE,sha256=E8UmOBjoMhN1aeO5yvy_vQjh8DXm6GABV7dMPYoiQFY,1065
+sftp_uploader-0.1.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+sftp_uploader-0.1.0.dist-info/METADATA,sha256=HPYqHZ3gEKnrZgHWAFkGVLsNWVa9MZJHFPKfVagfe4Q,675
+sftp_uploader-0.1.0.dist-info/RECORD,,
