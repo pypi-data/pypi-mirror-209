@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+svo_api/__init__.py
+svo_api/_version.py
+svo_api/svo.py
+svo_api.egg-info/PKG-INFO
+svo_api.egg-info/SOURCES.txt
+svo_api.egg-info/dependency_links.txt
+svo_api.egg-info/requires.txt
+svo_api.egg-info/top_level.txt
