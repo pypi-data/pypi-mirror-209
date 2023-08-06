@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+abbrey/__init__.py
+abbrey/decoder.py
+abbrey.egg-info/PKG-INFO
+abbrey.egg-info/SOURCES.txt
+abbrey.egg-info/dependency_links.txt
+abbrey.egg-info/requires.txt
+abbrey.egg-info/top_level.txt
