@@ -1,0 +1,11 @@
+python-dateutil
+numpy
+pandas
+matplotlib
+seaborn
+plotly
+scikit-learn
+coverage
+geopy
+kaleido
+scipy
