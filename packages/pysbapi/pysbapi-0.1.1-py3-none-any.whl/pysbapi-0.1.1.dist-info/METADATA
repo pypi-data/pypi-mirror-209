@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pysbapi
+Version: 0.1.1
+Summary: 써핑보드 파이썬 API 라이브러리
+Author: NH 선물
+Author-email: nhretail@futures.co.kr
+License: UNKNOWN
+Keywords: NH,python,API,써핑보드
+Platform: UNKNOWN
+Requires-Dist: pyqt5
+
+UNKNOWN
+
