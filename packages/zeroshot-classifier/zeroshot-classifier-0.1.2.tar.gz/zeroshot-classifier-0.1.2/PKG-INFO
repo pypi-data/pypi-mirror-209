@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: zeroshot-classifier
+Version: 0.1.2
+Summary: code and data for the Findings of ACL'23 paper Label Agnostic Pre-training for Zero-shot Text Classification 
+Home-page: https://github.com/ChrisIsKing/zero-shot-text-classification
+Download-URL: https://github.com/ChrisIsKing/zero-shot-text-classification/archive/refs/tags/v0.1.2.tar.gz
+Author: Christopher Clarke & Yuzhao Heng
+Author-email: csclarke@umich.edu
+License: MIT
+Keywords: python,nlp,machine-learning,deep-learning,text-classification,zero-shot-classification
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: GPU :: NVIDIA CUDA
+Classifier: Environment :: GPU :: NVIDIA CUDA :: 11.6
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Visualization
+
+
+code and data for the Findings of ACL'23 paper Label Agnostic Pre-training for Zero-shot Text Classification 
+by Christopher Clarke, Yuzhao Heng, Yiping Kang, Krisztian Flautner, Lingjia Tang and Jason Mars
+ 
