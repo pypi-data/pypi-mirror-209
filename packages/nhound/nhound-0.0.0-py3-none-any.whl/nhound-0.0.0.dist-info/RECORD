@@ -1,0 +1,15 @@
+LICENSE,sha256=4k3i_JJhjdiVTj0rmE8Jqu6XJZQdXpi0KNAa9RbUDPg,1063
+docs/assets/logo.png,sha256=4z2RdaCTiUacG2HqA-TLKEq2_kqzSYtfg3UlMgk4flI,25790
+nhound/__init__.py,sha256=L11YNt-WinMNl8fxKnTE1Lev90slkivSr5K3nriPBJ0,352
+nhound/cohort.py,sha256=B1pIHc13k0EIgLa6QESE_tzKf4GDBCFMLAkowhkezgw,3419
+nhound/console.py,sha256=-Sq4avFR_csOSTM8Nobg2uHlVdzAOiqqpnMiD2rnKbA,11235
+nhound/dehumanize.py,sha256=_bGGgTd6syoL5OHVDSdIvFk5xqRw2KFZYfwU1JP-Uek,1344
+nhound/email.py,sha256=cEPdQ6xQmW_pDR_1fFeuKY3NLV9DqwrJMVuBOWWzPRk,2239
+nhound/inotion.py,sha256=zQiAosdy0xndyFHtyFrk8dRMJNWrqnaBxTy7Kv8c5s4,7863
+nhound/user.py,sha256=LpXV_QknvuulLsQ6qePr21ezPVgjevxXwe-y4oc-0wc,1154
+nhound/utils.py,sha256=39D0TiA5AWkPAH_Yqf8k6tnBWSKOU1HrVmV6EO72ZH8,2928
+nhound-0.0.0.dist-info/LICENSE,sha256=4k3i_JJhjdiVTj0rmE8Jqu6XJZQdXpi0KNAa9RbUDPg,1063
+nhound-0.0.0.dist-info/METADATA,sha256=7TaMd5bz_ESlfTZaRtKei6JHEvovjwPXC_ketM2kk3A,3970
+nhound-0.0.0.dist-info/WHEEL,sha256=WGfLGfLX43Ei_YORXSnT54hxFygu34kMpcQdmgmEwCQ,88
+nhound-0.0.0.dist-info/entry_points.txt,sha256=z8jWCXO2qSJ0E5cxUsKwjlZZ-459ApChkiDcej3-38U,46
+nhound-0.0.0.dist-info/RECORD,,
