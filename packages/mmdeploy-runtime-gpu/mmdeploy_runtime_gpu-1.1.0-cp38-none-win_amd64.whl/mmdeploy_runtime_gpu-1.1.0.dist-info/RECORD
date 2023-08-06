@@ -1,0 +1,12 @@
+mmdeploy_runtime/__init__.py,sha256=NTnNQbL6vbAsI7_JDBcHJMVLFnNkDUM6RcWi806VMNs,703
+mmdeploy_runtime/_win_dll_path.py,sha256=P7TbdXZHCP8i8rpdjOQUVEpOYWUZPhUHOpEKNRVjpNM,414
+mmdeploy_runtime/mmdeploy.dll,sha256=s8jo4peJc3P7zLe9VjtwMZRwNELhajIWATKVVepY8Ts,70066176
+mmdeploy_runtime/mmdeploy_ort_net.dll,sha256=MXkONRplqh3tpPFU8g6w3KyhKkFe8IQ5C4u0YM1s6gY,249344
+mmdeploy_runtime/mmdeploy_runtime.cp38-win_amd64.pyd,sha256=_ctXVUc4Ct1PD4kykO5KIyJwn3D8KBS_kMToksL6nNU,462848
+mmdeploy_runtime/mmdeploy_trt_net.dll,sha256=6ZbJCUSZXL55RiXQ6FfrMN_1zyMkzHqJyQ0Bs5CAFyk,18906624
+mmdeploy_runtime/onnxruntime.dll,sha256=2JPbk00RO2nuZS3m4C_UaaR6Msm-QmDt80-ReHYOUY0,6654344
+mmdeploy_runtime/version.py,sha256=1ZSE765gtlsBfqWENJ5-3rmG0o6kEMBz2iR-Uick8xU,862
+mmdeploy_runtime_gpu-1.1.0.dist-info/METADATA,sha256=WInPRgCWOkeV1eumjZZIXnCijzUaqyyfF0-tJ4M1XSA,314
+mmdeploy_runtime_gpu-1.1.0.dist-info/WHEEL,sha256=liYxIg51y0hiVYgcFtTyidKcRP8Aeu3e_8l-_-7QEIQ,99
+mmdeploy_runtime_gpu-1.1.0.dist-info/top_level.txt,sha256=GZf5GHF7iVEd0_ik--kTI0M68-ewI9eQc_lP3Yr-iHM,17
+mmdeploy_runtime_gpu-1.1.0.dist-info/RECORD,,
