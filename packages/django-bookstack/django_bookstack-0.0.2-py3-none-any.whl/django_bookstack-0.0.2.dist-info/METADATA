@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: django-bookstack
+Version: 0.0.2
+Summary: This project is a integration beteween Bookstack and Django.
+Home-page: https://github.com/jraylan/django-bookstack
+Author: Jefferson Raylan
+Author-email: JRaylan <jeffersonraylan@gmail.com>
+License: BSD-3-Clause
+Project-URL: Homepage, https://github.com/jraylan/django-bookstack
+Project-URL: Bug Tracker, https://github.com/jraylan/django-bookstack/issues
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: websockets (==11.0.1)
+Requires-Dist: Django (>=1.11.29)
+Requires-Dist: requests
+Requires-Dist: simplejson
+
