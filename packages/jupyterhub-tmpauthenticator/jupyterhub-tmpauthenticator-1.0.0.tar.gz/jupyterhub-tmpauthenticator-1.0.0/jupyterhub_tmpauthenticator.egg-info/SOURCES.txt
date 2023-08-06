@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+jupyterhub_tmpauthenticator.egg-info/PKG-INFO
+jupyterhub_tmpauthenticator.egg-info/SOURCES.txt
+jupyterhub_tmpauthenticator.egg-info/dependency_links.txt
+jupyterhub_tmpauthenticator.egg-info/entry_points.txt
+jupyterhub_tmpauthenticator.egg-info/requires.txt
+jupyterhub_tmpauthenticator.egg-info/top_level.txt
+tests/test_tmpauthenticator.py
+tmpauthenticator/__init__.py

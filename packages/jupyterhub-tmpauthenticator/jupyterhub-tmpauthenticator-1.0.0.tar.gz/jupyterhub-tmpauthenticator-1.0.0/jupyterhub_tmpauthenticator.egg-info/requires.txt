@@ -1,0 +1,7 @@
+
+[test]
+aiohttp
+pytest
+pytest-asyncio
+pytest-cov
+pytest-jupyterhub
