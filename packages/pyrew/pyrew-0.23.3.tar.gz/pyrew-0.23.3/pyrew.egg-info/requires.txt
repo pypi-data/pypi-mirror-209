@@ -1,0 +1,5 @@
+humanize
+pillow
+flask
+requests
+jinja2
