@@ -1,0 +1,15 @@
+pytexreport/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytexreport/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytexreport/pytexreport.py,sha256=4eJHhR245DTDnvVHSAvpHQbZNy6dbualfcpJVxPM1EA,10563
+pytexreport/style/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytexreport/style/basicHomework/__init__.py,sha256=I7OYDH_bZ-Fc2MJwoppsvKVFjHqhWuY3f6L8DJVzo6A,41
+pytexreport/style/basicHomework/basicHomework.cls,sha256=R9n0r7X8uL7R2YIo09qV587s0SrFlgEudPQznozMNtU,2010
+pytexreport/style/basicHomework/basicHomework.py,sha256=DLqwdm78yf622GgmESAT1gSkrl76xQgwi1DmMh6A9xU,1366
+pytexreport/style/basicReport/__init__.py,sha256=9Wlohlc0sAjcST9cREzZm4k1n6uxcs2CTV5mu-P8CN0,37
+pytexreport/style/basicReport/basicReport.py,sha256=YOKqyFFHOa96SgVn5uGiLp70d5OBgHSK5MsuaqccTzc,6711
+pytexreport/style/ieeeConference/__init__.py,sha256=WZXrjPhzFUGN4SLCzjWiCS623fQWuZPpaM_h3WpLpBU,43
+pytexreport/style/ieeeConference/ieeeConference.cls,sha256=qdlWICjOborx6gtXQOQ10Evj1sdFyio8KXlWQnS0TOo,281786
+pytexreport/style/ieeeConference/ieeeConference.py,sha256=dEJEkoM3NMmAsjL-0OT7vWutDLYaWB9GrhmXAenrnuU,3582
+pytexreport-0.1.0.dist-info/METADATA,sha256=ay30EWIqDbqqzQ1GU6NMU1BG0tf2lhgcSdnplUDmRIk,4019
+pytexreport-0.1.0.dist-info/WHEEL,sha256=WGfLGfLX43Ei_YORXSnT54hxFygu34kMpcQdmgmEwCQ,88
+pytexreport-0.1.0.dist-info/RECORD,,
