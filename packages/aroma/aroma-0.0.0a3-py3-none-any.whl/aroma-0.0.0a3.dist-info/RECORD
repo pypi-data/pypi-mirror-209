@@ -1,0 +1,10 @@
+aroma/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aroma/datasets/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aroma/datasets/breakfast.py,sha256=dOQTlNKK9Ank4zTwebEDLbpPZw0jTbvqtVnYw8__hho,19502
+aroma/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aroma/utils/imports.py,sha256=sTx0WrKKccHaofG0JHt8x_tfttoGGJzswuywJfFtckM,745
+aroma/utils/vocab.py,sha256=HLUeCdLRSJDsRbfZ2vSw3HqkHLtPKeIXxlGIdcYapBk,11816
+aroma-0.0.0a3.dist-info/LICENSE,sha256=7wnC4cmbLW29-edCxt2DQq9uo1vLirgRpscnqfg-7ZQ,1501
+aroma-0.0.0a3.dist-info/METADATA,sha256=B9Z2z8joDUi5ZRFJDv-J8yUmYQCXEBH1u-24yTiDA-A,3425
+aroma-0.0.0a3.dist-info/WHEEL,sha256=WGfLGfLX43Ei_YORXSnT54hxFygu34kMpcQdmgmEwCQ,88
+aroma-0.0.0a3.dist-info/RECORD,,
