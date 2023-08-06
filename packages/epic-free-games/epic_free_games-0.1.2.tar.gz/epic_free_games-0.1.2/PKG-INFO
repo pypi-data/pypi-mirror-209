@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: epic-free-games
+Version: 0.1.2
+Summary: A wrapper for Epic Games Store free games
+Author: Hudson Brendon
+Author-email: contato.hudsonbrendon@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: requests (>=2.30.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Epic Free Games
+
+![logo.png](logo.png)
+
+# A wrapper for Epic Games Store free games
+
+# Available resources
+
+- [x] Get Free Games
+
+## Installation
+
+```bash
+$ pip install epic-free-games
+```
+
+## Usage
+
+```python
+from epic_free_games import EpicGames
+
+epic_games = EpicGames()
+epic_games.get_free_games()
+```
+
+# Contribute
+
+Clone the repository project:
+
+```bash
+$ git clone https://github.com/hudsonbrendon/epic-free-games
+```
+
+Make sure [Poetry](https://python-poetry.org/) is installed, otherwise:
+
+```bash
+$ pip install -U poetry
+```
+
+Install the dependencies:
+
+```bash
+$ poetry install
+```
+
+To run the tests:
+
+```bash
+$ pytest
+```
+
+# Dependencies
+
+- [Python >=3.10](https://www.python.org/downloads/release/python-310/)
+
+# License
+
+[MIT](http://en.wikipedia.org/wiki/MIT_License)
+
