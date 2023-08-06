@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+pruebaentornopaquete/__init__.py
+pruebaentornopaquete/player.py
+pruebaentornopaquete.egg-info/PKG-INFO
+pruebaentornopaquete.egg-info/SOURCES.txt
+pruebaentornopaquete.egg-info/dependency_links.txt
+pruebaentornopaquete.egg-info/top_level.txt
