@@ -1,0 +1,10 @@
+arckit/__init__.py,sha256=TN6WmFGjVXSnEhjcmUy_wqDknUkRKgLAZ-iu8FOMfYY,110
+arckit/cli.py,sha256=EadWRtGIC7jVUvT0fglLhIwoJBKoSHwgG3WkDhkhhAQ,1173
+arckit/data.py,sha256=V4WOg94PyuNZVR4nf_J_EhMpd8kJVr91Ckdx-0Lhj4I,11202
+arckit/vis.py,sha256=BszQBqeQSWfsievxPy8RszHusOBoy_5yobCJzEF6g6M,10790
+arckit-0.0.3.dist-info/METADATA,sha256=YTT71vFV2H8bJGl2C9rYE2wwSZFPTF76v4ELA86QP3o,471
+arckit-0.0.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+arckit-0.0.3.dist-info/entry_points.txt,sha256=2k0G8Jzb4Cj_9U0dvHxxgOGRgmmQe64QieiiI3Wqbgs,79
+arckit-0.0.3.dist-info/top_level.txt,sha256=fAJt_Fxb-oM5WePjq-hHd6iPrPUfO_3FzFxtnrtXvQY,7
+arckit-0.0.3.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+arckit-0.0.3.dist-info/RECORD,,
