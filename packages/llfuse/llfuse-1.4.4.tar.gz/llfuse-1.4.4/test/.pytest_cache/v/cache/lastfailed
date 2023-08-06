@@ -1,0 +1,4 @@
+{
+  "test_fs.py::test_invalidate_entry": true,
+  "test_examples.py::test_tmpfs": true
+}
