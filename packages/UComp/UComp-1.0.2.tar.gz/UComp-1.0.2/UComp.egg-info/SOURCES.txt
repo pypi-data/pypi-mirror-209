@@ -1,0 +1,7 @@
+README.md
+setup.py
+UComp.egg-info/PKG-INFO
+UComp.egg-info/SOURCES.txt
+UComp.egg-info/dependency_links.txt
+UComp.egg-info/requires.txt
+UComp.egg-info/top_level.txt
