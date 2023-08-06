@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: flyem-segmentation-pipeline
+Version: 1.0
+Home-page: https://github.com/kshvr16/CS410_FlyEM_PyPi
+Author: Sai Harshavardhan Reddy Kona
+Author-email: s.kona001@umb.edu
+License: MIT
+Keywords: Testing PyPi deployment
