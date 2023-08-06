@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: premodel
+Version: 1.0
+Summary: Pre-built Machine Learning Models
+Author: Akshat Sabharwal
+Author-email: akshatsabharwal35@gmail.com
+License-File: LICENSE.txt
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: random2
+Requires-Dist: pandas
+
+
+    K-Nearest Neighbours
+
+    predict: Returns the predicted value
+    visualize: Returns  a matplotlib scatter plot of the data along with the predicted point and its value. (Requires the calling of predict() method first)
+    euclidean: Returns the Euclidean distance of the given point from all the points given in the dataset
