@@ -1,0 +1,11 @@
+mmdeploy_runtime/__init__.py,sha256=NTnNQbL6vbAsI7_JDBcHJMVLFnNkDUM6RcWi806VMNs,703
+mmdeploy_runtime/_win_dll_path.py,sha256=tMuHgpnGjhMIg6LOTWXpjXLeisbAcMWJsT9Yf12TQ24,49
+mmdeploy_runtime/mmdeploy.dll,sha256=vcuo2BUt_tbTZfwhDs9fQS7qyURKJFgyiURnv673xAA,28612096
+mmdeploy_runtime/mmdeploy_ort_net.dll,sha256=C-01sku8y8w3nEFxQVWnFDPJdEulXnm7aOdRHTNWUx0,249344
+mmdeploy_runtime/mmdeploy_runtime.cp310-win_amd64.pyd,sha256=0sSSNRa0jBswtWVv6N5-Ll3lYMu7BlgnIITw8VaPy3I,462336
+mmdeploy_runtime/onnxruntime.dll,sha256=ZYvo4cTfg1RAZzyZzIcbuLm4s5sdi5PTDzBXO-AzJOA,6893432
+mmdeploy_runtime/version.py,sha256=1ZSE765gtlsBfqWENJ5-3rmG0o6kEMBz2iR-Uick8xU,862
+mmdeploy_runtime-1.1.0.dist-info/METADATA,sha256=eMBMWOFlurB09DrCwre5cF42BVWdPAz528H01u4rrIo,310
+mmdeploy_runtime-1.1.0.dist-info/WHEEL,sha256=xKD-W076Kxa9P8HVHMBFDAZ44LgNHrPjF081MKvpixU,100
+mmdeploy_runtime-1.1.0.dist-info/top_level.txt,sha256=GZf5GHF7iVEd0_ik--kTI0M68-ewI9eQc_lP3Yr-iHM,17
+mmdeploy_runtime-1.1.0.dist-info/RECORD,,
