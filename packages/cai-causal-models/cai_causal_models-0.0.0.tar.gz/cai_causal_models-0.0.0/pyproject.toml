@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "cai-causal-models"
+version = "0.0.0"
+description = "Causal Models"
+authors = ["causaLens <opensource@causalens.com>"]
+readme = "README.md"
+packages = [{include = "cai_causal_models"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
