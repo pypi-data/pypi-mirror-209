@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: lmfit-additional-models
+Version: 1.0.0
+Summary: This package contains additional models for the lmfit package. The models are designed for fitting XPS spectra. This package contains background models such as Shirley, Tougaard and Slope background as well as peak models such as convoluted Gaussian/Doniach-Sunjic models. In addition, a convolution of a thermal distribution with a Gaussian is provided for fitting the fermi edge.The models are based on the lmfit package and can be used in the same way as the models from lmfit.
+Author: Julian Hochhaus
+Author-email: julian.hochhaus@tu-dortmund.de
