@@ -1,0 +1,127 @@
+Metadata-Version: 2.1
+Name: QtLogger
+Version: 1.0.3
+Summary: A simple logger for PyQt6 that also has a nice UI
+Home-page: https://github.com/Advik-B/PyQt-Logger
+Author: Advik
+Author-email: <advik.b@gmail.com>
+Keywords: Logger,Qt,PyQt,Qt6,PyQt6,QtLogger
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: PyQt6
+
+
+# PyQt-Logger
+
+A small widget to show some logs with basic syntax
+
+![python_7Z3AFD1Nlw.png](https://i.imgur.com/6h16OaY.png)
+
+
+
+## Features
+
+
+
+- Show logs with different colors based on their log level
+
+- Customizable log level colors
+
+- Auto archive the logs
+
+- Ability to read and display older logs
+
+
+
+## Installation
+
+
+
+```bash
+
+pip install QtLogger
+
+```
+
+
+
+## Usage
+
+
+
+> Importing
+
+```python
+
+from QtLogger import QtLogger
+
+```
+
+
+
+> Full usage example
+
+```python
+
+from QtLogger import QtLogger
+
+from PyQt6.QtWidgets import QApplication, QMainWindow, QPushButton, QVBoxLayout, QWidget
+
+
+
+class MainWindow(QMainWindow):
+
+    def __init__(self):
+
+        super().__init__()
+
+        self.setWindowTitle("QtLogger Example")
+
+        self.resize(500, 500)
+
+
+
+        self.central_widget = QWidget()
+
+        self.setCentralWidget(self.central_widget)
+
+
+
+        self.layout = QVBoxLayout()
+
+        self.central_widget.setLayout(self.layout)
+
+
+
+        self.button = QPushButton("Log something")
+
+        self.button.clicked.connect(self.log_something)
+
+        self.layout.addWidget(self.button)
+
+
+
+        self.logger = QtLogger()
+
+        self.layout.addWidget(self.logger)
+
+
+
+    def log_something(self):
+
+        self.logger.log("This is a log", "info")
+
+
+
+app = QApplication([])
+
+window = MainWindow()
+
+window.show()
+
+app.exec()
+
+```
