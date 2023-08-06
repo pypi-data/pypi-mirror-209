@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: careamics
+Version: 0.0.1
+Summary: CAREamics
+Project-URL: homepage, https://careamics.github.io/
+Project-URL: repository, https://github.com/CAREamics/careamics
+Author-email: Igor Zubarev <igor.zubarev@fht.org>, Joran Deschamps <joran.deschamps@fht.org>
+License: BSD-3-Clause
+License-File: LICENSE
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Provides-Extra: dev
+Requires-Dist: black; extra == 'dev'
+Requires-Dist: ipython; extra == 'dev'
+Requires-Dist: mypy; extra == 'dev'
+Requires-Dist: pdbpp; extra == 'dev'
+Requires-Dist: rich; extra == 'dev'
+Requires-Dist: ruff; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: pytest; extra == 'test'
+Requires-Dist: pytest-cov; extra == 'test'
+Description-Content-Type: text/markdown
+
+<p align="center">
+  <a href="https://careamics.github.io/">
+    <img src="https://github.com/CAREamics/.github/blob/main/profile/images/banner_careamics.png">
+  </a>
+</p>
+
+
+[![License](https://img.shields.io/pypi/l/careamics.svg?color=green)](https://github.com/CAREamics/careamics/raw/main/LICENSE)
+[![PyPI](https://img.shields.io/pypi/v/careamics.svg?color=green)](https://pypi.org/project/careamics)
+[![Python Version](https://img.shields.io/pypi/pyversions/careamics.svg?color=green)](https://python.org)
+[![CI](https://github.com/CAREamics/careamics/actions/workflows/ci.yml/badge.svg)](https://github.com/CAREamics/careamics/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/CAREamics/careamics/branch/main/graph/badge.svg)](https://codecov.io/gh/CAREamics/careamics)
+
+
+Stay tuned for DL goodies with CAREamics!
+
+Currently, this version is a place-holder, next version will contain the 
+first usable algorithms, as well as examples.
