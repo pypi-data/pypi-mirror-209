@@ -1,0 +1,8 @@
+sccd45ra/__init__.py,sha256=fTV2Fg2r9bUIJOW_aG-7iZiUESaEGrRk-QW6dD3pjVA,38
+sccd45ra/cd45ra_infer.py,sha256=nVNAxqMVe6p-oXo9TZEUmcH56ddXoiZAbG0W0TBhRRY,1038
+sccd45ra/feature/Supplement Tables.xlsx,sha256=OMhnmgZVXGHZ3x7vsPc4Vs_kaem0HxccUsn0sZBgy0E,148483
+sccd45ra/model/best_rbf_svm.joblib,sha256=UMBVQMtErt5sU3VFIKkCdg_6KCMcUY6o7hFSOes5R1g,1823659
+sccd45ra-0.1.dist-info/METADATA,sha256=91feDKDCkZs5aW9XqRMRMrmVNurk4dj8sTL81qKq3gM,212
+sccd45ra-0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+sccd45ra-0.1.dist-info/top_level.txt,sha256=mRqUdxMqJjTohj_0yS-sql1hBHe47OQZv9GsBvTJhU4,9
+sccd45ra-0.1.dist-info/RECORD,,
