@@ -1,0 +1,91 @@
+Metadata-Version: 2.1
+Name: automated-selenium
+Version: 0.1.0
+Summary: Automated-Selenium is a Python library that provides a base page class designed to facilitate the implementation of the Page Object Model (POM) structure in Selenium-based test automation projects.
+License: MIT
+Author: Waqar Khan
+Author-email: waqarkhan1252617@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: selenium (>=4.9.1,<5.0.0)
+Requires-Dist: undetected-chromedriver (>=3.4.7,<4.0.0)
+Requires-Dist: webdriver-manager (>=3.8.6,<4.0.0)
+Description-Content-Type: text/markdown
+
+# Automated-Selenium
+
+Automated-Selenium is a Python library that provides a base page class designed to facilitate the implementation of the Page Object Model (POM) structure in Selenium-based test automation projects.
+
+## Introduction
+
+The Automated-Selenium library aims to simplify the development and maintenance of Selenium test automation frameworks by offering a reusable and extensible base page class. This base class encapsulates common functionality and provides essential methods for interacting with web elements, managing page navigation, and handling common automation tasks.
+
+## Key Features
+
+- **Page Object Model (POM) Support**: Automated-Selenium promotes the use of the Page Object Model design pattern, allowing you to organize your code into reusable and maintainable components.
+- **Web Element Interaction**: The library provides a comprehensive set of methods for interacting with web elements, such as clicking, typing, selecting options, and verifying element properties.
+- **Page Navigation**: With Automated-Selenium, you can easily navigate between pages, handle redirects, and manage browser windows or tabs.
+- **Customizable and Extensible**: The base page class can be extended and customized to suit the specific needs of your project. You can add additional methods or override existing ones to accommodate your application's unique behaviors.
+- **Integration with Selenium**: Automated-Selenium seamlessly integrates with the Selenium WebDriver, enabling you to harness the full power of Selenium for browser automation.
+
+## Installation
+
+To use Automated-Selenium in your Python project, follow these steps:
+
+1. Make sure you have Python 3.x installed on your system.
+2. Install the required dependencies by running the following command:
+
+   ```
+   pip install automated-selenium
+   ```
+
+3. Import the library into your Python code:
+
+   ```python
+   from automated_selenium import BasePage
+   ```
+
+## Getting Started
+
+To get started with Automated-Selenium, you can follow these steps:
+
+1. Create a new Python module for your page objects or navigate to an existing one.
+2. Import the `BasePage` class from `automated_selenium`:
+
+   ```python
+   from automated_selenium import BasePage
+   ```
+
+3. Create a new class for your page object and inherit from `BasePage`:
+
+   ```python
+   class MyPage(BasePage):
+       # Add your custom methods and properties here
+       pass
+   ```
+
+4. Implement your page-specific methods and use the provided base methods to interact with web elements, handle navigation, and perform other automation tasks.
+5. Instantiate your page object class in your test code and start automating!
+
+For more detailed documentation and examples, please refer to the [Automated-Selenium GitHub repository](https://github.com/786raees/automated-selenium).
+
+## Contributing
+
+Contributions to the Automated-Selenium library are welcome! If you encounter any issues, have suggestions for improvements, or would like to contribute code, please feel free to submit a pull request on the [GitHub repository](https://github.com/786raees/automated-selenium).
+
+## License
+
+Automated-Selenium is released under the [MIT License](https://github.com/786raees/automated-selenium/blob/main/LICENSE). Please review the license file for more details.
+
+## Acknowledgments
+
+We would like to express our gratitude to the open-source community for their contributions, as well as the authors of the libraries and tools that have made Automated-Selenium possible.
+
+## Contact
+
+For any questions or inquiries, please contact the project maintainers at [waqarkhan1252617@gmail.com](mailto:waqarkhan1252617@gmail.com).
