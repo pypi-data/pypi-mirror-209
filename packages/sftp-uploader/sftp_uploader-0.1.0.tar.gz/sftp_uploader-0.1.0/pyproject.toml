@@ -1,0 +1,45 @@
+[project]
+name = "Sftp_Uploader_Moonvent"
+version = "0.0.1"
+authors = [
+  { name="Moonvent", email="moonvent@proton.me" },
+]
+description = "Package for upload data to sftp with different parametrs and with different methods"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Environment :: Console",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/moonvent/sftp_uploader"
+"Bug Tracker" = "https://github.com/moonvent/sftp_uploader/issues"
+
+[tool.poetry]
+name = "sftp_uploader"
+version = "0.1.0"
+description = "Script for upload files to sftp"
+authors = ["Moonvent <moonvent@proton.me>"]
+license = "MIT License"
+readme = "README.md"
+packages = [{include = "sftp_uploader"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+paramiko = "^3.1.0"
+gitpython = "^3.1.31"
+
+
+[tool.poetry.group.dev.dependencies]
+debugpy = "^1.6.7"
+pynvim = "^0.4.3"
+
+[tool.poetry.group.tests.dependencies]
+pytest = "^7.3.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
