@@ -1,0 +1,46 @@
+[tool.poetry]
+name = "dingtalk2"
+version = "0.1.1"
+description = ""
+authors = ["bopo <ibopo@126.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.28.2"
+
+[[tool.poetry.source]]
+name = "mirrors"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple/"
+default = true
+secondary = false
+
+
+[tool.poetry.group.dev.dependencies]
+pytest-cov = "^4.0.0"
+
+
+[tool.pytest.ini_options]
+python_files = ["tests.py", "test_*.py", "*_tests.py"]
+addopts = "-p no:warnings"
+
+log_cli = 0
+log_cli_level = "DEBUG"
+
+[tool.commitizen]
+version = "0.1.1"
+tag_format = "v$version"
+
+update_changelog_on_bump = true
+changelog_file = "HISTORY.md"
+annotated_tag = true
+
+version_files = [
+    "dingtalk2/__init__.py:__version__",
+    "pyproject.toml:version",
+    "Makefile:VERSION := ",
+]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
