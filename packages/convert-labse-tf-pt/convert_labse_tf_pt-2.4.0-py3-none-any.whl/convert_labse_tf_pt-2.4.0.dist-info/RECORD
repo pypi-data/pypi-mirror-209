@@ -1,0 +1,11 @@
+LICENSE,sha256=ccjwuf0OCdYkRegdN5ypjmo6yrzqwggGOfI_fOCR3BU,1070
+convert_labse_tf_pt/__init__.py,sha256=qyLmFqLABHcNvAlTBEGR-KcGN9lytN12PJGJokKqzT4,315
+convert_labse_tf_pt/configurations.py,sha256=0Sk26e89nmyJINJp2aznPP_q1Vfh8sf8qBBjxL0Qahs,2081
+convert_labse_tf_pt/convert.py,sha256=c_gm_JiXaoyK3DHQf7k9CSKKK29oPGI9c49pW_duW5w,18478
+convert_labse_tf_pt/data/labse_vocab/cased_vocab.txt,sha256=dFMkfKos8jEWwdozK-wMwcnviWt4A1kaYq0gB7ejPDM,5220781
+convert_labse_tf_pt/data/smaller_vocab/vocab-en-fr-es-de-zh-ar-zh_classical-it-ja-ko-nl-pl-pt-th-tr-ru.txt,sha256=dFiK4Wly9Ykr5vw2NQkMjbdDL8YX_CXMAk3FfXLkzCA,1469057
+convert_labse_tf_pt-2.4.0.dist-info/LICENSE,sha256=ccjwuf0OCdYkRegdN5ypjmo6yrzqwggGOfI_fOCR3BU,1070
+convert_labse_tf_pt-2.4.0.dist-info/METADATA,sha256=dijaKmJ0SeDc-3dlo2zZPIpV-wZb3X7dG_3H86BcuZo,2324
+convert_labse_tf_pt-2.4.0.dist-info/WHEEL,sha256=WGfLGfLX43Ei_YORXSnT54hxFygu34kMpcQdmgmEwCQ,88
+convert_labse_tf_pt-2.4.0.dist-info/entry_points.txt,sha256=cFKMgPN7u1DRkViV3w2z_RYq8QPfCydOlywaeNBVw4U,133
+convert_labse_tf_pt-2.4.0.dist-info/RECORD,,
