@@ -1,0 +1,14 @@
+algokit_client_generator/__init__.py,sha256=KHVr3rMTN2T146gjOpaF3fc5cqoLoVs01ueXn-p9QHI,179
+algokit_client_generator/__main__.py,sha256=MlkUdDAWa2XH1QDdjvayVR_WaZEGkA9voNutHzWEfFo,54
+algokit_client_generator/cli.py,sha256=S9YxyLIpzDvSGLbxP7QJz8b-otpzX-lgHRJzvEzFC6Q,2132
+algokit_client_generator/document.py,sha256=X4xMvu_LfDcaosEy3AtjRoXpiLZoXRVCIoPNo8b-h08,3199
+algokit_client_generator/generator.py,sha256=bJc3FlvS2RnEG4FBMgVWMbneNunBlA3-SeCs4mLVSro,22548
+algokit_client_generator/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+algokit_client_generator/spec.py,sha256=LcPiMhvnnscvnACk_YGzweEnzQ7V7kQyDvQ94Uo9Nlo,5986
+algokit_client_generator/utils.py,sha256=omhCEOXmxc523oiOcM6TL0IpbR6MqdM5Sy-o3o9VQTw,3938
+algokit_client_generator/writer.py,sha256=MF46CQ8q1nW-K66RcKcXYE1uArrNRKHWF-uKQT8eziU,890
+algokit_client_generator-0.1.0b4.dist-info/LICENSE,sha256=fkgfhUgPPyK1aS4tK9QOFRl5fWtuFEtkKx4zPQNT1bQ,1076
+algokit_client_generator-0.1.0b4.dist-info/METADATA,sha256=GugMRsLKRIOGpYLumIAzbmPHFRcE2TNCxpN6aQmhzac,4585
+algokit_client_generator-0.1.0b4.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+algokit_client_generator-0.1.0b4.dist-info/entry_points.txt,sha256=RnsJToDSJC_LyXvGqv7LNpgkqipw1C7eQsc0bke--A0,67
+algokit_client_generator-0.1.0b4.dist-info/RECORD,,
