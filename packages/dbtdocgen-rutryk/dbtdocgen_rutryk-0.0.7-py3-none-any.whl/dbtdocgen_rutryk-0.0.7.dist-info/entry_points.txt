@@ -1,0 +1,2 @@
+[console_scripts]
+dbtdocgen = dbtdocgen_rutryk.dbtdocgen:dbtdocgen
