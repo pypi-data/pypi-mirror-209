@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+srec/__init__.py
+srec.egg-info/PKG-INFO
+srec.egg-info/SOURCES.txt
+srec.egg-info/dependency_links.txt
+srec.egg-info/entry_points.txt
+srec.egg-info/requires.txt
+srec.egg-info/top_level.txt
