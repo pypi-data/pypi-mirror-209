@@ -1,0 +1,8 @@
+README.md
+setup.py
+example_pkg_matkoniecz/__init__.py
+example_pkg_matkoniecz/lorem_ipsum.py
+example_pkg_matkoniecz.egg-info/PKG-INFO
+example_pkg_matkoniecz.egg-info/SOURCES.txt
+example_pkg_matkoniecz.egg-info/dependency_links.txt
+example_pkg_matkoniecz.egg-info/top_level.txt
