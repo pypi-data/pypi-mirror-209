@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: gradflow
+Version: 0.0.1
+Summary: A simple, scalable and efficient deep learning framework.
+Home-page: https://github.com/kcxain/gradflow
+Author: kcxain
+Author-email: kcxain@gmail.com
+License: Apache License 2.0
+Keywords: auto-gradient,deep-learning
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (<1.24.0)
+Requires-Dist: setuptools (==45.2.0)
+Requires-Dist: typing-extensions (==4.5.0)
+
+<p align="center">
+  <picture>
+    <img alt="GradFlow" src="./logo.svg" width="360" height="80" style="max-width: 100%;">
+  </picture>
+  <br/>
+</p>
+
+GradFlow is a deep learning framework designed to be **simple**, **scalable** and **efficient** with **PyTorch-like API**. 
+
+GradFlow provides all the necessary components for training a deep learning model, including initialization methods, optimizers, data loaders, and modules.
+

@@ -1,0 +1,12 @@
+gradflow/__init__.py,sha256=ubdRrN3a6bgSfeQ0V5-cL5qgvGJyv0v6j346jVtdPBA,183
+gradflow/autograd.py,sha256=b1oK7lH48ce_AnY5IX1oVjnTqL_la3pTfvyVizwVRzE,13906
+gradflow/data.py,sha256=zHI67ZGXe2Q9P49_DfzGgE-Y5sGu8B0JGiDp5XahGB4,4264
+gradflow/init.py,sha256=B0KjKHuTq3rSK7mprENVlEGb5z4x4z6ShlVG2oRy7O8,3399
+gradflow/nn.py,sha256=33-UUBjW4QJz_Mb5_UFKiXO1wqOKHEKWhUCzY2may4E,6523
+gradflow/ops.py,sha256=MgMpVLg88JmqbHCG_MlfMmuLQFRaGaUY_CGK32yWfHk,8966
+gradflow/optim.py,sha256=sbn6Gn5eXAO9WCb_XCJE_tki-lQu3VcBhqX-DwI0Sqg,2116
+gradflow-0.0.1.dist-info/LICENSE,sha256=uIpTMMrNmrw7uYpJ8TeC_iIEzsyGuxgBou_iagMyetE,11413
+gradflow-0.0.1.dist-info/METADATA,sha256=vOt8pRwls4FIw-5CrhxOIC7D2j55h5t4MGACO280me0,1024
+gradflow-0.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+gradflow-0.0.1.dist-info/top_level.txt,sha256=KdXsD0ozl0nfJekC1xWl5qgs9jeGPfwn4fHIXTP56D4,9
+gradflow-0.0.1.dist-info/RECORD,,
