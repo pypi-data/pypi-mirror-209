@@ -1,0 +1,3 @@
+[console_scripts]
+upco = upconan
+upconan = src.upconan:main
