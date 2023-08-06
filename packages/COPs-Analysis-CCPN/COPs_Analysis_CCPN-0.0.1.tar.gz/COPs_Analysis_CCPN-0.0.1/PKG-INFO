@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: COPs_Analysis_CCPN
+Version: 0.0.1
+Summary: A CCPN plugin for analyzing GRADCOPs spectra
+Author-email: Harrison Wang <hwang6@fas.harvard.edu>
+Project-URL: Homepage, https://github.com/hkwang/COPs_Analysis_CCPN
+Project-URL: Bug Tracker, https://github.com/hkwang/COPs_Analysis_CCPN/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# COPs_analysis_CCPN
+COPs_analysis_CCPN is an extension to the backbone assignment module of CCPN3.1. It does the same job as COPs_analysis, but is interfaced with the various UI modules contained in CCPNMR3.1. Manuscript in preparation. 
+## Instructions for installation
+Clone the repo to `<your CCPNMR3.1 installation>/AnalysisV3/src/python/ccpn/AnalysisAssign/modules/backboneExtensions`:
+
+```bash
+cd <your CCPNMR3.1 installation>/AnalysisV3/src/python/ccpn/AnalysisAssign/modules/backboneExtensions
+git clone https://github.com/hkwang/COPs_analysis_CCPN.git
+```
+
+## Instructions for use
+Contact Harrison at hwang6@fas.harvard.edu. Full instructions to come soon. 

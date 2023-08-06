@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+COPs_Analysis_CCPN.egg-info/PKG-INFO
+COPs_Analysis_CCPN.egg-info/SOURCES.txt
+COPs_Analysis_CCPN.egg-info/dependency_links.txt
+COPs_Analysis_CCPN.egg-info/top_level.txt
+COPs_analysis_temp/COPsExtension.py
+COPs_analysis_temp/__init__.py
+COPs_analysis_temp/cops_analysis.py
