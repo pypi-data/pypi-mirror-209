@@ -1,0 +1,3 @@
+[console_scripts]
+phomber = phomber.phomberv3_beta:main
+
