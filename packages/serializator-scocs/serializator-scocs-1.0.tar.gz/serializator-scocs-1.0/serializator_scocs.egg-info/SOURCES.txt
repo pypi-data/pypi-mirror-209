@@ -1,0 +1,5 @@
+setup.py
+serializator_scocs.egg-info/PKG-INFO
+serializator_scocs.egg-info/SOURCES.txt
+serializator_scocs.egg-info/dependency_links.txt
+serializator_scocs.egg-info/top_level.txt
