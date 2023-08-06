@@ -1,0 +1,13 @@
+jupyterlab_mathjax2/__init__.py,sha256=MoHJZB0jqVqMmi7s-F5KEEYHONgJ31CeTd77KiQD9t4,172
+jupyterlab_mathjax2/_version.py,sha256=Vz2bD29IXDNOF5TI1JxeAnomoA2wy38u0_o2i4z3LXw,171
+jupyterlab_mathjax2-4.0.0.data/data/share/jupyter/labextensions/@jupyterlab/mathjax2-extension/package.json,sha256=A8RZLYABkeo08YPXaUl1BVsno3MemMgg4KNNHgoiIoE,3691
+jupyterlab_mathjax2-4.0.0.data/data/share/jupyter/labextensions/@jupyterlab/mathjax2-extension/static/643.dc773165bf78df3b8401.js,sha256=3HcxZb943zuEAa567KHzKoX-C55iyQptTS3fM7DCcnk,4577
+jupyterlab_mathjax2-4.0.0.data/data/share/jupyter/labextensions/@jupyterlab/mathjax2-extension/static/650.f04341c2ef0ad86bed54.js,sha256=8ENBwu8K2GvtVKj1tDJCmUadXcgRJNXBK1r7blfozo8,2320
+jupyterlab_mathjax2-4.0.0.data/data/share/jupyter/labextensions/@jupyterlab/mathjax2-extension/static/remoteEntry.85005ed0aa7590f1eaf8.js,sha256=hQBe0Kp1kPHq-BubkdYqJeQcV2CdSuKAkpVgYeXrR8U,6608
+jupyterlab_mathjax2-4.0.0.data/data/share/jupyter/labextensions/@jupyterlab/mathjax2-extension/static/style.js,sha256=Kj7LU3iwH0rArc509NWdBbKQpJhy-emxikB-nOCf6_Y,173
+jupyterlab_mathjax2-4.0.0.data/data/share/jupyter/labextensions/@jupyterlab/mathjax2-extension/static/third-party-licenses.json,sha256=_QzrEtsp358pZDPD5bPmSZd0Ttwit1UfT0aDw4o6leo,2452
+jupyterlab_mathjax2-4.0.0.data/data/share/jupyter/labextensions/@jupyterlab/mathjax2-extension/install.json,sha256=4SI31IGDw02e5_d9j9E-y_ug3RJPITF6DU_Nn5r-umk,199
+jupyterlab_mathjax2-4.0.0.dist-info/METADATA,sha256=58BdIgVFCu8DXw0vfyLtlu5BylIR9eE_VMIJdXyVHt4,5321
+jupyterlab_mathjax2-4.0.0.dist-info/WHEEL,sha256=y1bSCq4r5i4nMmpXeUJMqs3ipKvkZObrIXSvJHm1qCI,87
+jupyterlab_mathjax2-4.0.0.dist-info/licenses/LICENSE,sha256=wMVD2Kl_IyhVyrcy1ScHkwjEWwyEHqhtKzOFbhEH_B0,1523
+jupyterlab_mathjax2-4.0.0.dist-info/RECORD,,
