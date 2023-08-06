@@ -1,0 +1,10 @@
+googleapitranslate/__init__.py,sha256=nU2h3IVOTNQB10ZpUKsmARhaFAf-pwTYpmlIqi641V8,51
+googleapitranslate/setup.py,sha256=VqeodzrEIplhb2CKaJD5DafmI59m-0lZ31OjkeKjlu0,222
+googleapitranslate/apiconnection/__init__.py,sha256=BIIKQ4ULidmAf_iDt5-_1-JjsvAG4GcbHdyDCUZ39x8,27
+googleapitranslate/apiconnection/translator.py,sha256=Tkns27_mr7EEj7TF2sQu5mqIxkNTdB9zndklZ6TjDsw,1154
+googleapitranslate/parser/__init__.py,sha256=pG-YPVG0gJIJ6s4xcAz9S_CnUxpUcz33wl9eNUSgxGk,20
+googleapitranslate/parser/utils.py,sha256=oUPswI5zYd0moccRBfjA_9YAuzL0nyJf2yfO4nj7MDw,565
+googleapitranslate-1.0.dist-info/METADATA,sha256=34IOyhx943B_-Cg_nIlAtQaKsbFgla7fP-p8GdhxFfc,128
+googleapitranslate-1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+googleapitranslate-1.0.dist-info/top_level.txt,sha256=sLE4hk-zvqqOLkp05WfMszAuAQ9SKCWFgB5EUUi6kaY,19
+googleapitranslate-1.0.dist-info/RECORD,,
