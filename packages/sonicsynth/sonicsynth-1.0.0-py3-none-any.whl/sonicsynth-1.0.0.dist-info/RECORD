@@ -1,0 +1,12 @@
+sonicsynth/__init__.py,sha256=qxl1sU9UYNFikeiEPOfmd_6BIuhcY7Lo6mEEynWuoss,646
+sonicsynth/composition.py,sha256=HDX3jKS8DY4XCmowfJAOQ8QMAYTikxAFLOjMIJ8WE-0,2349
+sonicsynth/dsp_effects.py,sha256=UgwpWVz5CovONXEWUbXD3v6XHG5BZju1VfZKz8olH-Q,4088
+sonicsynth/envelope.py,sha256=nLARZTBP6X7AmCorz8UQhlwXaDwDbIzxMkdGu0_LRbA,2589
+sonicsynth/export.py,sha256=c5mqemuRE8FRbCyXskpc5SZnPwhUWDYaeeAUStW-m3w,1454
+sonicsynth/playback.py,sha256=C-LQ7IOjUm-R50DtfOg3x1DYb7Ji_WE2yWArzoq_pqs,786
+sonicsynth/wave_generator.py,sha256=A5KScaQMCVm2rNdrvFjsNoQHP8X1YGxkpZiTQmt2xj8,5272
+sonicsynth-1.0.0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+sonicsynth-1.0.0.dist-info/METADATA,sha256=rE5-wzHV2PV6y8faqpeYi3mM6fNN86_KmiMJsZckUt4,3098
+sonicsynth-1.0.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+sonicsynth-1.0.0.dist-info/top_level.txt,sha256=DIoqX_zu_BD8XRzZNWfmVZeO7pEtj_e7JKJ37xStaE4,11
+sonicsynth-1.0.0.dist-info/RECORD,,
