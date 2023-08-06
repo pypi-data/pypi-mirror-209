@@ -1,0 +1,9 @@
+GDELT23/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+GDELT23/headlines.py,sha256=jWez_CbvvJcNjkY8YFTTlhoMn2W1qT7O8cEcSej2_qc,1418
+GDELT23/lda.py,sha256=2M40DZiRCD3zopYamLBIUivUsYwkxXG4R5mY5105OGI,748
+GDELT23/setup.py,sha256=HtkQ2IBJfOAyY1HEV_t2CwhUWY2olEW9Qb9UHPkSXCw,139
+GDELT23/wordcloud.py,sha256=aHTGQ2Z5qfbM1YBt_EqFMMjxcB1sG1N_zEr8XGRBHvg,444
+gdelt23-0.0.1.dist-info/METADATA,sha256=sIUasN-wiR06kWrNn9NOpVs71UJdks8dF0Y5dtB9XDg,553
+gdelt23-0.0.1.dist-info/WHEEL,sha256=y1bSCq4r5i4nMmpXeUJMqs3ipKvkZObrIXSvJHm1qCI,87
+gdelt23-0.0.1.dist-info/licenses/LICENSE.txt,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+gdelt23-0.0.1.dist-info/RECORD,,
