@@ -1,0 +1,1736 @@
+acronym,detail
+ack,acknowledgement
+afaict,as far as i can tell
+afaik,as far as i know
+aoa,analysis of alternatives
+asap,as soon as possible
+bbl,brown bag lunch
+ccw,comment and criticism welcome
+cla,contributor license agreement
+cli,command line interface
+cmv,change my view
+coc,code of conduct
+concept ack,concept acknowledgement
+devops,devlopment operations
+di/dip,dependency inversion principle
+dod,definition of done
+dry,don't repeat yourself
+dto,data transfer object
+dx,developer experience
+ebkac,error between keyboard and chair
+eta,estimated time of arrival
+fomo,fear of missing out
+foss/floss,free & open source software
+fouc,flash of unstyled content
+fp,functional programming
+fya,for your action
+fyi,for your information
+gui,graphical user interface
+ianal,i am not a lawyer
+icymi,in case you missed it
+iirc,if i recall correctly
+imo,in my opinion
+itt,in this thread
+kiss,keep it simple stupid
+lgtm,looks good to me
+loc/sloc,source lines of code
+mcve,minimal complete valid/verfiable example
+mpa,multi-page application
+mr,merge request
+mre,minimal reproducible example
+mvc,model view controller
+mvp,minimum viable product
+mvvm,model view viewmodel
+nack/nak,negative acknowledgement
+nih,not invented here
+np,no problem
+oop,object oriented programming
+op,original post/original poster
+pebcak,problem exists between chair and keyboard
+pebkac,problem exists between keyboard and chair
+pebmac,problem exists between monitor and chair
+pebuak,problem exists between user and keyboard
+picnic,problem in chair not in computer
+pobcak,a us government/military acronym for problem occurs between chair and keyboard
+pr,pull request
+raci,responsible accountable consulted and informed
+rce,remote code execution
+reprex,reproducible example
+rfc,request for comments
+rfi,request for information
+rfp,request for proposal
+rtfm,read the f*****g manual
+scm,source code management
+se,software engineer or system engineer
+solid,single responsibility open-closed liskov substitution interface segregation and dependency inversion
+spa,single-page application
+sre,site reliability engineer
+srp,single-responsibility principle
+ssoc,social summer of code
+swe,software engineer
+tbd,to be defined/done
+tested ack,tested acknowledgment
+til,today i learned
+tysm,thank you so much
+utack,untested acknowledgment
+vcs,version control software
+wdyt,what do you think
+wip,work in progress
+wrt,with respect to
+wysiwyg,what you see is what you get
+xp,extreme programming
+yagni,you ain't gonna need it
+ymmv,your mileage may vary
+afk,away from keyboard
+brb,be right back
+cmiiw,correct me if i'm wrong
+ikr,i know right
+ily,i love you
+irl,in real life
+iykyk,if you know you know
+lfg,let's freaking go
+lmfao,laughing my freaking *a* off
+lmk,let me know
+lol,laugh out loud
+ltr,left to right
+nvm,never mind
+ofc,of course
+rofl,rolling on floor laughing
+rtl,right to left
+smh,shaking my head
+stfu,shut the *freak* up
+ttyl,talk to you later
+tyvm,thank you very much
+yolo,you only live once
+aws,amazon web services
+fsf,free software foundation
+gh,github
+gnu,collection of free software a license
+ms,microsoft
+osi,open source initiative
+so,stackoverflow
+efk,elasticsearch fluentd and kibana
+elk,elasticsearch logstash and kibana
+lamp,linux apache mysql php perl or python
+lemp,linux nginx server mysql php perl or python
+mean,mongodb express.js angular.js node.js
+mern,mongodb express.js react.js node.js
+safe,suave or saturn azure fable elmish
+lmao,laugh my ass off
+am/pm,abbreviations for ante meridiem and post meridiem
+bogo,buy one get one
+bopus,buy online pick up in store
+fwiw,an abbreviation meaning for what it’s worth
+laser,light amplification by stimulated emission of radiation
+ms.,commonly considered an abbreviation for miss but technically it’s not an abbreviation for anything. the period is there to indicate that it’s a valid title for adults to use.
+p.s.,an abbreviation for postscript
+pin,personal identification number
+radar,radio detecting and ranging
+rip,rest in peace this can also be an initialism as some people say r i p
+scuba,self-contained underwater breathing apparatus
+smart,specific measurable attainable realistic time-bound commonly used when setting goals
+snafu,situation normal all fouled up
+sohcahtoa,acronym used in mathematics to remember the trigonometric functions sine cosine and tangent.
+sonar,sound navigation and ranging
+sos,commonly assumed to stand for save our ship but technically the international distress signal doesn’t stand for anything
+taser,tom a. swift electric rifle
+vin,vehicle identification number
+wd-40,water displacement 40th formula
+zip,zone improvement plan
+ajax,asynchronous javascript and xml
+captcha,completely automated public turing test to tell computers and humans apart
+cd-rom,compact disc read-only memory
+dvd,digital versatile disc
+fios,fiber optic service
+gif,graphics interchange format
+jpeg,joint photographic experts group
+json,javascript object notation
+png,portable network graphics
+ram,random access memory
+sim,subscriber identity module as in a sim card
+url,an initialism that stands for uniform resource locator
+wifi,an abbreviation commonly thought to stand for wireless fidelity but technically it doesn’t stand for anything
+awol,absent without leave
+conus,the continental united states
+fema,federal emergency management agency
+flotus,first lady of the united states
+foia,freedom of information act
+hipaa,health insurance portability and accountability act of 1996
+hud,department of housing and urban development
+ice,immigration and customs enforcement
+nato,north atlantic treaty organization
+oconus,outside the continental united states
+osha,occupational safety and health administration
+potus,president of the united states
+scotus,supreme court of the united states
+swat,special weapons and tactics
+wic,special supplemental nutrition program for women infants and children
+aids,acquired immunodeficiency syndrome
+covid-19,coronavirus disease of 2019
+cpap,continuous positive airway pressure
+icu,intensive care unit
+nicu,neonatal intensive care unit
+preop,an abbreviation for preoperative
+postop,an abbreviation for postoperative
+rom,range of motion
+sars,severe acute respiratory syndrome
+stat,an abbreviation for statim which is latin for immediately
+uti,urinary tract infection
+abba,the name of the famous swedish pop group combines the first initial of its members’ names—agnetha björn benny and anni-frid.
+aflac,american family life assurance company of columbus
+at&t,an initialism for american telephone and telegraph
+bafta,british academy of film and television arts
+care,cooperative for assistance and relief everywhere
+cvs,an initialism for consumer value store
+dare,drug abuse resistance education
+epcot,experimental prototype community of tomorrow
+fifa,fédération internationale de football association
+geico,government employees insurance company
+h&m,an initialism for hennes & mauritz
+ikea,ingvar kamprad elmtaryd agunnary. the first two words are the founder’s name invgvar kamprad and the second two refer to kamprad’s family farm elmtaryd and hometown agunnary sweden
+madd,mothers against drunk driving
+nasdaq,national association of securities dealers automated quotations
+necco,new england confectionary company
+unicef,united nations children’s fund
+yahoo!,yet another hierarchically organized oracle
+diy,do it yourself
+eobd,end of business day
+eod,end of day
+faq,frequently asked questions
+fbi,federal bureau of investigation
+hr,human resources
+idk,i don’t know
+mba,masters of business administration
+mia,missing in action
+nasa,national aeronautics and space administration
+nsfw,not safe for work
+omg,oh my god
+omw,on my way
+pos,point of service
+pov,point of view
+tba,to be announced
+tgif,thank god it’s friday
+tmi,too much information
+cal,calories
+cm,centimetres
+corp.,corporation
+dept.,department
+dr.,doctor
+ed.,edition
+est.,established estimated
+et al.,et alii and others
+fl oz,fluid ounces
+ft,foot feet
+gal.,gallons
+i.e.,id est that is
+in.,inches
+inc.,incorporated
+jr.,junior
+kg,kilograms
+km,kilometres
+ltd.,limited
+m,metres
+mg,milligrams
+min,minutes
+mm,millimetres
+mph,miles per hour
+mr.,mister
+mrs.,mistress
+oz,ounces
+sec,seconds
+sq,square
+sr.,senior
+vol,volumes
+vs.,versus
+aaa,area agency on aging
+aaalf,american association for active lifestyles and fitness
+aac,area advisory committee
+aah,american association of homecare
+aahp,american association of health plans [direct link]
+aahsa,american association of homes and services for the aging
+aaidd,american association on intellectual and developmental disabilities
+aamc,association of american medical colleges
+aamr,american association on mental retardation
+aapcc,adjusted average per capita cost
+aarp,american association of retired persons [direct link]
+aasa,aging and adult services administration
+aauap,american association of university affiliated programs for persons with developmental disabilities
+abcd,americans for better care of the dying [direct link]
+abn,advance beneficiary notice
+ac,alternative care
+accs,assistive community care services
+acdd,alabama council for developmental disabilities
+ace,acute care for elders
+acep,american college of emergency physicians
+acf,administration for children and families
+achca,american college of health care administrators [direct link]
+ache,admission clearinghouse enterprise
+aclf,adult congregate living facility
+aco,accountable care organization
+acove,assessing care of vulnerable elders
+acp,advance care planning
+acs,american community survey
+act,assertive community treatment
+action,advocates committed to improving our nursing
+acts,aspen compaints/incidents tracking system
+acyf,hhs administration for children youth and families
+ad,advance directive
+ada,aged/disabled adult waiver
+adapt,alzheimer's disease anti-inflammatory prevention trial
+adc,aahsa development corporation
+add,administration on developmental disabilities
+add health,national longitudinal study of adolescent health
+adea,age discrimination in employment act
+adh,arkansas department of health
+adhd,attention deficit hyperactivity disorder
+adi,alzheimer's disease initiative
+adl,activity of daily living
+adr,adverse drug reaction
+adrd,alzheimer's disease or a related disorder
+ads,automated discharge summary
+adsa,aging and disability services administration
+adt,admission discharge transfer
+ae,adaptive environment
+aem,aspen enforcement module
+afc,adult foster care
+afcars,adoption and foster care analysis and reporting system
+afch,adult family-care home
+afdc,aid to families with dependent children
+afh,adult family home
+afmc,arkansas foundation for medical care
+agh,adult group home
+agi,adjusted gross income
+aha,american hospital association
+ahc,academic health centers
+ahca,agency for health care administration
+ahcccs,arizona health care cost containment system
+ahcpr,hhs agency for health care policy and research now the agency for healthcare research and quality
+ahead,asset and health dynamics among the oldest old
+ahec,area health education center
+ahic,american health information community
+ahima,american health information management association [direct link]
+ahrq,hhs agency for healthcare research and quality previously the agency for health care policy and research
+ahs,american housing survey
+aig,american international group
+aime,average indexed monthly earning
+aip,annual implementation plan
+ak,alaska
+al,alabama
+al+,assisted living plus
+al/rc,assisted living/residential care
+alc,assisted living community
+ale,assisted living for the elderly waiver
+alf,assisted living facility
+alfa,assisted living federation of america
+alp,assisted living program
+alr,assisted living residence
+alr-rc,assisted living residence-residential care
+alr-srhc,assisted living residence-supported residential health care
+als,assisted living score
+alsa,assisted living service agency
+altcs,arizona long-term care systems
+alu,assisted living university
+alw,assisted living workgroup
+alwpp,assisted living waiver pilot project
+ama,american medical association
+amcra,american managed care and review association
+amda,american medical directors association
+amso,american medical specialty organization [direct link]
+ana,administration for native americans
+and,allow natural death
+apa,american psychological association
+apc,ambulatory payment classification
+apd,agency for persons with disabilities
+apdrg,all patient diagnosis related group
+apha,american public health association [direct link]
+apm,alternative payment methodology
+aps,adult protective services
+apwa,american public welfare association
+aq,administrator questionnaire
+ar,arkansas
+arc,aids related complex
+arf,area resource file
+arm,administrative rules of montana
+asa,american society on aging
+ascu,alzheimer's special care unit
+asl,american sign language
+aso,administrative services organization
+asp,application service provider
+aspe,hhs office of the assistant secretary for planning and evaluation [direct link]
+aspen,automated survey processing environment
+aspr,assistant secretary for preparedness and response
+astcdpd,association of state and territorial chronic disease program directors
+at,assistive technology
+atac,assistive technology advocacy center
+astho,association of state and territorial health officials
+atsdr,agency for toxic substances and disease registry
+atus,american time use survey
+awp,average wholesale price
+az,arizona
+azt,azidothymidine
+b&b,baccalaureate and beyond longitudinal study
+b&c,board and care
+bba,balanced budget act
+bbra,balanced budget refinement act
+bcbs,bluecross blue shield
+bcu,background check unit
+bds,maine department of behavioral and developmental services
+bea,bureau of economic analysis
+bho,behavioral health care organization
+bhp,behavioral health plan
+bia,bureau of indian affairs
+bipa,benefits improvement and protection act
+biw,brain injury waiver
+bjbc,better jobs better care
+bjs,bureau of justice statistics
+bls,bureau of labor statistics
+blsa,baltimore longitudinal study on aging
+bmi,body mass index
+boe,basis of eligibility
+bps,beginning postsecondary students longitudinal study
+brass,blaylock discharge risk assessment screen
+brfss,behavioral risk factor surveillance system
+bsci,basic supplement criteria inventory
+bscip,brain and spinal cord injury program
+bxrhio,bronx regional health information organization
+c-ii,schedule 2 controlled substances
+ca,california
+cac,clinical application coordinator
+cadr,ryan white care act data report
+cah,critical access hospital
+cahmi,child and adolescent health measurement initiative
+cahps,consumer assessment of health plans
+cahsa,california association of homes and services for the aging
+cap,college of american pathologists
+cap/da,community alternatives program for disabled adults
+capta,child abuse prevention and treatment act
+cares,comprehensive assessment and review for long term care services
+carf,commission on accreditation for rehabilitation facilities
+cars,community awareness and relocation services
+cati,computer-assisted telephone interview
+cba,community-based alternative
+c-bai,clinical baseline assessment instrument
+cbai,clinical baseline assessment instrument
+cbo,community-based organization
+cbrf,community-based residential facility
+cbs,community-based services
+cc,coordinating center
+cca,cost consequence analysis
+ccad,community care for aged and disabled
+ccb,community centered board
+ccci,community caregiving capacity index
+ccd,continuity of care document
+cce,community care for the elderly
+cchit,certification commission for healthcare information technology
+cclc,continuing care leadership coalition
+ccped,community care program for the elderly and disabled
+ccr,continuity of care record
+ccrc,continuing care retirement community
+cd,consumer directed
+cda,clinical document architecture
+cdbg,community development block grant
+cdc,hhs centers for disease control and prevention
+cddo,community developmental disabilities organization
+cddp,community developmental disability program
+cdf,childrens defense fund
+cdpap,consumer-directed personal assistance program
+cd-pas,consumer directed personal assistance service
+cdr,clinical data repository
+cds,center for demographic studies
+cdss,clinical decision support system
+ce,consumer expenditure survey
+cea,cost-effectiveness analysis
+ceo,chief executive officer
+ceosc,comprehensive employment opportunities support center
+cerc,children's evaluation and rehabilitation center
+cessi,cherry enginneering support solutions inc.
+ceta,comprehensive employment and training act of 1974
+cfc,choices for care
+cfla,community and family living amendment
+cforat,center for accessible technology [direct link]
+cfr,code of federal regulations
+champus,civilian health and medical program of the uniformed services
+champva,civilian health and medical program of the department of veterans affairs
+chap,children's hospital aids program
+chc,community health center
+chcs,center for health care strategies [direct link]
+chec,community health environment checklist
+ches,caregiver health effects study
+chf,congestive heart failure
+chi,consolidated health informatics
+chief,craig hospital inventory of environmental factors
+chip,children's health insurance program
+chis,california health interview survey
+chmis,community health management information systems
+chr,community health record
+chs,cardiovascular health study
+chspr,center for health services and policy research
+chsr,center for health services research
+chsra,center for health systems research and analysis
+chsrp,center for health services research and policy
+cics,customer information control system
+cil,center for independent living
+cio,chief information officer
+cip,community integration program
+cis,clinical information system
+ciss,community integrated service systems
+cjtg,critical jobs training grant
+class waiver,community living assistance and support services waiver
+clia,clinical laboratory improvement act
+cltc,community long-term care
+cma,community medical associates
+cme,continuing medical education
+cmhc,community mental health center
+cmhs,center for mental health services
+cmhsp,community mental health service program
+cmo,care management organization
+cmp,civil monetary penalty
+cmr,computerized medical record
+cms,hhs centers for medicare and medicaid services previously the health care financing administration
+cmwf,commonwealth fund
+cna,certified nurse aide/assistant
+cnpi,checklist of nonverbal pain indicators
+cns,community nurse service
+co,colorado
+cob,coordination of benefits
+cobra,consolidated omnibus budget reconciliation act
+cod,children of the depression cohort
+coi,cost of illness analysis
+cola,cost of living adjustment
+con,certificate of need
+conquest,computerized needs-oriented quality measurement evaluation system
+contac,consumer organization and networking technical assistance center
+cop,community options program
+cop-w,community options program waiver
+copd,cardiopulmonary disease
+cope,caregivers' out-of-pocket expense survey
+copes,community options program entry system
+core,coalition of organizations to reform eldercare
+cots,commercial-off-the-shelf
+cpac,competitive pricing advisory committee
+cpch,comprehensive personal care home
+cpi,consumer price index
+cpoe,computer-based provider order entry
+cpp,care provider profile
+cpq,care provider questionnaire
+cpr,cardiopulmonary resuscitation
+cprs,computer-based patient record system
+cps,child protective services
+cpsc,consumer product safety commission
+cpst,community psychiatric support and treatment
+cpt,current procedural terminology
+cpt-4,current procedural terminology fourth edition
+cr,care recipient
+crc,community rating by class
+crcf,community residential care facility
+crcs,center for residential and community services
+crf,community residential facility
+crpac,clinical research policy analysis and coordination program
+crs,congressional research service
+csap,center for substance abuse prevention
+csat,center for substance abuse treatment
+csc,computer science corporation
+cse,office of child support enforcement
+cshcn,children with special health care needs
+cshp,center for state health policy
+csla,community supported living arrangements
+csp,community supports program
+csw,community support waiver
+ct,clinically trained
+ctep,california training and education provider
+cti,caregiver training initiative
+cva,cerebral vascular accident
+cwla,child welfare league of america
+daas,division of aging and adult services
+dad,department of aging and disabilities
+da&d,department of aging and disabilities
+dads,department of aging and developmental disabled services
+daf,data abstraction form
+dail,department of disabilities and independent living
+daltcp,hhs office of disability aging and long-term care policy
+dbc,deaconess billings clinic
+dbhr,division of behavioral health and recovery
+dbna,data base news in aging
+dbtac,disability and business technical assistance center
+dc,district of columbia
+dca,direct care alliance [direct link]
+dcc,data collection coordinator
+dcct,diabetes control and complications trail
+dcohcf,district of columbia office of health care financing
+dcwi,direct care workers' initiative
+dd,developmental disability
+dda,developmental disabilities administration
+ddp,developmental disabilities profile
+ddrc,developmental disabilities resource center [direct link]
+dds,division of disability services
+ddsd,developmental disability services division
+ddspd,office of developmental disability services seniors and persons with disabilities
+ddss,denver department of social services
+de,delaware
+dec,data entry clerk
+ded,department of education
+dehpg,disabled and elderly health program group
+des,diethylstilbestrol
+desc,downtown emergency service center
+dh,disability and health
+dhca,department of housing and community affairs
+dhcpf,department of healthcare policy and financing
+dhfs,department of health and family services
+dhhs,department of health and human services [direct link]
+dhmc,denver health medical center
+dhmh,department of health and mental hygiene
+dhs,department of health services
+dhss,department of health and senior services
+di,disability insurance
+dia,department of inspections and appeals
+dmahs,division of medical assistance and health services
+dmas,department of medical assistance services
+dme,disposable medical equipment
+dmh,department of mental health
+dmr,department of mental retardation
+dmrs,division of mental retardation services
+dms,division of medical services
+dnar,do not attempt resuscitation
+dnr,do not resuscitate
+doe,department of education
+doea,department of elder affairs
+doh,department of health
+doj,u.s. department of justice
+dol,u.s. department of labor
+don,determination of need
+dors,division of rehabilitation services
+dpa,diversified placement approach
+dpahc,durable power of attorney for health care
+dph,department of public health
+dpoa,durable power of attorney
+dpw,department of public welfare
+dqa,division of quality assurance
+dqr,data quality report
+dra,deficit reduction act
+drg,diagnostic related group
+dri,dietary reference intake
+drs,division of rehabilitation services
+dsh,disproportionate share hospital
+dshs,department of social and health services
+dsm,diagnostic and statistical manual of mental disorders
+dsmb,direct-to-consumer advertisting
+dspd,division of services for people with disabilities
+dss,department of social services
+dtc,direct to consumer
+dur,drug utilization review
+dvr,division of vocational rehabilitation
+e-arch,extended adult residential care home
+e-hie,electronic health information exchange
+e-mar,electronic medication administration record
+e-tar,electronic treatment administration record
+eao,external affairs officer
+eap,employee assistance plan
+earc,enhanced adult residential care
+eb,early boomers
+ebm,evidenced-based medicine
+ebp,evidence-based practice
+ecc,extended congregate care
+eccli,extended care career ladder initiative
+ecf,extended care facility
+echo,enhanced community and homecare option
+ecin,extended care information network
+ecls,early childhood longitudinal survey
+eco,enhanced community options
+ect,electroconvulsive therapy treatment
+ed,u.s. department of education
+edd,employment development department
+edi,electronic data interchange
+efi,electronic file interchange
+ehis,electronic health information system
+ehit,emerging health information technologies
+ehp,enriched housing program
+ehr,electronic health record
+ehr-s,ehr system
+eis,electronic information system
+eitc,earned income tax credit
+emr,electronic medical record
+ems,emergency medical services
+emtala,emergency medical treatment and active labor act
+en,employment network
+encc,exceptional needs care coordinator
+enp,elderly nutrition program
+eoea,executive office of elder affairs
+ep,eligible professional
+epa,u.s. environmental protection agency
+epc,evidence-based practice center
+epic,evaluation of practice in care
+epsdt,early and periodic screening diagnosis and treatment program
+er,emergency room
+erc,enhanced residential care
+erisa,employee retirement income security act
+ers,economic research service
+es,employment specialist
+esrd,end stage renal disease
+et,expenditure target
+et choices,employment and training choices supported work program
+etp,employment training panel
+evr,enhanced vocational rehabilitation
+exsped,expanded service payments for elderly and disabled program
+fa,fiscal agent
+faast,florida alliance for assistive services and technology
+facct,foundation for accountability
+faep,federal advisory expert panel
+faet,federal adverse events task force
+faha,florida association of homes for the aging
+fala,florida assisted living association
+fars,fatality analysis reporting system
+fast,functional assessment staging criteria
+fbr,federal benefit rate
+fca,family caregiver alliance [direct link]
+fda,hhs food and drug administration
+fdb,first databank
+fdle,florida department of law enforcement
+fehbp,federal employees health benefits program
+ffp,federal financial participation
+ffs,fee for service
+fha,fair housing act
+fi,fiscal intermediary
+fia,family independence agency
+ficap,firearm injury center at penn
+ficc,federal interagency coordinating council
+fics,family and individual consultation and support
+fim,functional independence measure
+fip,family independence program
+fl,florida
+flicra,florida life care residents' association
+flsa,fair labor standards act
+fltcip,federal employees' long-term care insurance program
+fmap,federal medical assistance percentage
+fmla,family and medical leave act
+fpcg,female primary caregiver
+fpeca,florida policy exchange center on aging
+fpl,federal poverty level
+fpo,future purchase option
+fqhc,federally qualified health center
+fsa,family support administration
+fsiir,functional status rating scale
+fsl,family and supported living
+fsw,family support waiver
+ftc,federal trade commission
+fte,full time employee
+fy,fiscal year
+g-tube,gastrostomy tube
+ga,general assistance
+gaap,generally acceppted accounting principles
+gafc,group adult foster care
+gain,greater avenues for independence
+gao,u.s. general accounting office now the u.s. government accountability office
+gec,geriatrics and extended care
+ged,general educational development/general equivalency diploma
+gee,generalized estimating equation
+gem,geriatrics evaluation and measurement unit
+gemcris,genetic modification clinical research information system
+ghaa,group health association of america
+gic,general insurance commission
+gis,geographic information system
+gme,graduate medical education
+gnp,geriatric nurse practitioner
+gpci,geographic practice cost indexes
+grh,group residential housing
+gst,group skills training
+gvf,general variance function
+gwu,george washington university
+h&p,history and physical
+haa,hospice association of america
+hab,hiv/aids bureau
+han,healthy aging network
+hbpc,hospital-based primary care
+hcb,home and community-based care waiver
+hcb-dd waiver,home and community-based services for the developmentally disabled waiver
+hcbs,home and community-based services
+hce,home care for the elderly
+hcfa,hhs health care financing administration now the centers for medicare and medicaid services
+hcpcs,healthcare common procedural coding system
+hcpr,university of colorado division of health care policy and research
+hcs,home and community-based service
+hcs-o waiver,home and community-based services obra waiver
+hcup qis,healthcare cost and utilization project quality indicators
+hds,health delivery system
+hecm,home equity conversion mortgage
+hedis,health plan employer data and information set
+hero,homecare empowerment research and organizing
+hfam,health facilities association of maryland
+hfd,health facilities division
+hfma,healthcare financial management association
+hha,home health agency
+hhabn,advance beneficiary notice for home health care services
+hhanes,hispanic health and nutrition examination survey
+hhc,health and hospitals corporation
+hhrg,home health resource group
+hhs,health and human services
+hhsc,health and human services commission
+hi,hawaii
+hiaa,health insurance association of america [direct link]
+hic,health insurance claim
+hid,health improvement division
+hie,health information exchange
+hien,health information exchange network
+hifa,health insurance flexibility and accountability
+himss,health information and management systems society
+hipc,health insurance purchasing cooperative
+his,health insurance study
+hiskew,health insurance skeleton eligibility write-off
+hit,health information technology
+hitsp,health information technology standards panel
+hiv,human immunodeficiency virus
+hl7,health level seven 7
+hmc,health management consultants
+hmo,health maintenance organization
+hmsa,health manpower shortage area
+hope,health opportunities for people everywhere also known as project hope
+hos,medicare health outcomes survey
+hp,hewlett-packard
+hp2010,health people 2010
+hprd,hours per resident day
+hra,health risk appraisal
+hrca,hebrew rehabilitation center for the aged
+hrql,health-related quality of life
+hrs,health and retirement study
+hrsa,health and retirement savings accounts
+hsa,health savings account
+hsls,high school longitudinal study
+hsp,health systems plan
+hsra,human subject research subcommittee
+hsri,human services research institute
+hta,health technology assessment
+i&dd,intellectual and developmental disabilities
+i&r,information and referral
+ia,iowa
+iaa,intra-agency agreement
+iadl,instrumental activity of daily living
+iahsa,iowa association of homes and services for the aging
+ibc,institutional biosafety committee
+ica,iowa caregivers association
+icap,inventory for client and agency planning
+icd-9-cm,international classification of diseases ninth edition clinical modification
+icdr,interagency committee on disability research
+icf,intermediate care facility
+icf/mr,intermediate care facility for persons with mental retardation
+icf-mr,intermediate care facility for persons with mental retardation
+icidh,international classification of impairments disabilities and handicaps
+icnp,international classification of nursing practice
+icp,institutional care program
+ics,informal caregiver supplement
+id,idaho
+idea,individuals with disabilities education act
+idr,informal dispute resolution
+iep,individualized education plan
+ies,institute of education sciences
+ifas,institute for the future of aging services
+ifmc,iowa foundation for medical care
+ifs,individual and family support
+igcltc,intra-governmental council on long term care
+ihc,intermountain health care
+ihca,iowa health care association
+ihie,indiana health information exchange
+ihps,institute for health policy solutions [direct link]
+ihss,in-home supportive services
+ijo,investment in job opportunities
+il,illinois
+ilc,independent living center
+ilp,independent living partnership
+ilru,independent living research utilization [direct link]
+iltc,institutional long-term care
+iltcp,inventory of long-term care places
+iltcrp,inventory of long term care residential places
+imd,institution for mental disease
+imsa,insurance marketplace standards association
+in,indiana
+inpc,indianapolis network for patient care
+io waiver,individual options waiver
+iog,institute of gerontology
+iom,institute of medicine
+ipc,national medical expenditure survey institutional population component
+ipf,inpatient psychiatric facility
+ippe,initial preventive physical examination
+ipr,independent professional review
+ips,individual placement and support
+ipv,intimate partner violence
+ira,individual retirement account
+irb,institutional review board
+irf pai,inpatient rehabilitation facility patient assessment instrument
+irf-pai,inpatient rehabilitation facility patient assessment instrument
+irs,internal revenue service
+isn,integrated service networks
+iso,intermediary services organization
+isp,individual support plan
+issa,international social security administration
+it,information technology
+iv,intravenous
+iu,indiana university
+iuf,internal use file
+jacc,jersey assistance for community caregiving
+jama,journal of the american medical association [direct link]
+jcaho,joint commission on accreditation of healthcare organizations
+jcarr,joint committee on agency rule review
+jeoa,journalists exchange on aging
+jfo,joint field office
+jhha,jewish home and hospital agency
+jhhls,jewish home and hospital lifecare system
+kahsa,kansas association of homes and services for the aging
+ken,knowledge exchange network
+ks,kansas
+ky,kentucky
+l&c,licensing and certification
+la,louisiana
+lah waiver,living at home waiver
+lan,local area network
+lc,licensed counselor
+lds,limited data set
+leie,list of excluded individuals/entities
+lma,limited medication administration
+lmh,limited mental health
+lms,lifetime maximum structure
+ln,licensed nurse
+lns,limited nursing service
+loc,level of care
+loinc,logical observation identifiers names and codes
+los,length of stay
+lpn,licensed practical nurse
+lra,laguna research associates
+lsia,life satisfaction index a
+lsoa,longitudinal study of aging
+ltac,long-term acute care
+ltc,long-term care
+ltcfm,long-term care financing model
+ltci,long-term care insurance
+ltc psu,long-term care primary sampling units
+ltc nr psu,long-term care non-self representing primary sampling units
+ltc sr psu,long-term care self-representing primary sampling units
+ltccs,long term care consultation service
+lvg,lexical variant generator
+lvn,licensed vocational nurse
+m+c,medicare+choice
+m&e,management and evaluation
+ma,massachusetts
+maa,medical assistance to the aged
+mac,medicare administrative contractor
+macil,michigan association of centers for independent living
+madl,mobility activity of daily living
+manpha,mid-atlantic non-profit health and housing association
+mao,medicare advantage organization
+mar,medication administration record
+mas,maintenance assistance status
+mb,mid-boomers
+mc,managed care
+mcare,national clearinghouse on managed care and long-term supports and services for people with developmental disabilities and their families [direct link]
+mcbs,medicare current beneficiary survey
+mco,managed care organization
+mcs,multiple chemical sensitivity
+md,doctor of medicine
+mdch,michigan department of community health
+mdcp,medically dependent children's program
+mds,managed delivery system
+mds-als,minimum data set-assisted living services
+me,maine
+medpac,medicare payment advisory commission
+meps,medical expenditure panel survey
+mfcu,medicaid fraud control unit
+mfp,money follows the person
+mft,marriage and family therapist
+mgh,massachusetts general hospital
+mh,mental health
+mha,mental health authority
+mhbg,mental health block grant
+mhcc,maryland health care commission
+mhha,montefiore home health agency
+mhma,mental health management of america
+mhra,minnesota human rights act
+mhsa,mental health and substance abuse
+mi,michigan
+micda,university of michigan center on the demography of aging [direct link]
+mig,medicaid infrastructure grant
+mippa,medicare improvements for patients and providers act
+mis,management information system
+mln,medicare learning network
+mltc,managed long-term care
+mma,medicare prescription drug improvement and modernization act
+mmis,medicaid management information system
+mmse,mini-mental state examination
+mn,minnesota
+mo,missouri
+mocdd waiver,missouri children with developmental disabilities waiver
+most,michigan opportunities skills program
+mou,memorandum of understanding
+mpaf,medicare pps assessment form
+mpfs,medicare physician fee schedule
+mpi,master patient index
+mppc,maine primary partners in caregiving
+mpr,mathematica policy research [direct link]
+mqa,medical quality assurance
+mr/dd,mental retardation and other developmental disabilities
+mrc,managed residential community
+mrep,medicare remit easy print
+mrhfp,medicare rural hospital flexibility program
+mri,medical records institute
+mrla,mental retardation local authority
+msa,metropolitan statistical area
+mshda,michigan state housing development authority
+msho,minnesota senior health options
+mso,multi-service organization
+msq,mental state questionnaire
+msis,medicaid statistical information system
+mspca,massachusetts society for the prevention of cruelty to animals
+mt,montana
+mte,maximum taxable earning
+n4a,national association of area agencies on aging
+nac,national advisory council
+naccho,national association of city and county health officials
+nachri,national association of childrens hospitals and related institutions
+naddc,national association of developmental disabilities councils [direct link]
+nahc,national association for home care
+naic,national association of insurance commissioners [direct link]
+namcs,national ambulatory medical care survey
+napas,national association of protection and advocacy systems
+naphs,national association of psychiatric health systems
+nas,national academy of sciences
+nasddds,national association of state departments of developmental disability services
+nashp,national academy for state health policy
+nasmhpd,national association of state mental health program directors [direct link]
+nasua,national association of state units on aging
+nasw,national association of social workers
+nber,national bureau of economic research
+nbs,national beneficiary survey
+nc,north carolina
+ncal,national center for assisted living
+ncands,national child abuse and neglect data system
+nccc,national chronic care consortium [direct link]
+nccnhr,national citizen's coalition for nursing home reform
+ncd,national council on disability [direct link]
+ncdfs,north carolina division of facility services
+ncdhhs,north carolina department of health and human services
+ncea,national center on elder abuse
+nchcfa,north carolina health care facilities association
+nchit,national coordinator for health information technology
+nchs,hhs/cdc national center for health statistics
+nchsd,national consortium for health systems development
+nchsr,national center for health services research
+nci,national cancer institute
+ncmrr,national center for medical rehabilitation research
+ncoa,national council on the aging [direct link]
+ncqa,national committee for quality assurance
+ncrc,national consortium and resource center
+ncrf,national center of residential facilities
+ncrr,national center for research resources
+ncs,national comorbidity survey
+ncs-a,national comorbidity survey for adolescents
+ncs-r,national comorbidity survey replication
+ncsbn,national council of state boards of nursing
+ncsl,national conference of state legislatures
+ncvhs,national committee on vital and health statistics
+ncvs,national crime victimization survey
+nd,north dakota
+ndc,national drug code
+ndi,national death index
+ne,nebraska
+nea,national endowment for the arts
+neclc,national emergency child locator center
+neiss-aip,national electronic injury surveillance system-all injury program
+nels,national education longitudinal study
+nf,nursing facility
+nfcsp,national family caregiver support program
+nga,national governors association
+nh,new hampshire
+nhamcs,national hospital ambulatory medical care survey
+nhanes,national health and nutrition examination survey
+nhats,national health and aging trends study
+nhc,nursing home component
+nhcs,national health care survey
+nhcu,nursing home care unit
+nhd,nursing home diversion waiver
+nhds,national hospital discharge survey
+nhes,national household education survey
+nhhcs,national home and hospice care survey
+nhic,national health information center
+nhii,national health information infrastructure
+nhin,national health information network
+nhis,national health interview survey
+nhis-d,national health interview survey disability supplement
+nho,national hospice organization
+nhopp,national hospice outcomes planning project
+nhra,nursing home reform act
+nhs,national health services
+nhtsa,national highway and traffic safety administration
+nia,hhs/nih national institute on aging
+niaaa,national institute alcoholism and alcohol abuse
+nibrs,national incident-based reporting system
+nic,national investment conference
+nida,national institute of drug abuse
+nidrr,national institute on disability and rehabilitation research
+nifl,national institute for literacy
+nimh,national institute of mental health
+ninr,national institute for nursing research
+nis,national incidence study of child abuse and neglect
+nis-2,study of the national incidence of child abuse and neglect of 1988
+nish,national industries for the severely handicapped
+nj,new jersey
+nj ease,new jersey easy access single entry
+nltcs,national long-term care survey
+nlm,national library of medicine
+nls,national longitudinal survey
+nlsy,national longitudinal survey of youth
+nlsy79,national longitudinal survey of youth 1979
+nlsy97,national longitudinal survey of youth 1997
+nlts,national longitudinal transition study
+nltcs 2012,national longitudinal transition study 2012
+nltcs2,national longitudinal transition study 2
+nm,new mexico
+nmces,national medical care expenditure survey
+nmcues,national medical care utilization and expenditure survey
+nmes,national medical expenditures survey
+nmfs,national mortality followback survey
+nmhs,north mississippi health services
+nmmc,north mississippi medical center
+nnhs,national nursing home survey
+norc,national opinion research center
+nors,national ombudsman reporting system
+now,new opportunities waiver
+npa,national pace association
+npi,naitonal provider identifier
+npp,non-physician practitioners
+nprm,notice of proposed rulemaking
+npsas,national postsecondary student aid study
+nqf,national quality forum
+nr,not reported
+nra,negotiated risk agreement
+nrc-cwdt,national resource center for child welfare data and technology
+nrh,national rehabilitation hospital
+nrh-rc,national rehabilitation hospital research center
+nri,national research institute
+nrp,national response plan
+ns,not specified
+ns-cshcn,national survey of children with special health care needs
+nsa,notification of study admission
+nscf,national survey of ssi children and families
+nsch,national survey of children's health
+nscsl,national senior citizens law center
+nsduh,national survey on drug use and health
+nsfh,national survey of families and households
+nsga,national senior games association
+nspo,national study of physician organizations
+nsrcf,national survey of residential care facilities
+nsrf,national survey of residential facilities
+nssats,national survey of substance abuse treatment services
+nssca,national survey of self care and aging
+nsv,national survey of veterans
+ntid,national technical institute for the deaf
+ntis,national technical information service [direct link]
+nto,not taken out
+ntp,national treatment plan
+nud*ist,non-numeric unstructured data index searching and theorizing
+nv,nevada
+nvdrs,national violent death reporting system
+nviss,national violent injury statistics system
+ny,new york
+nydoh,new york department of health
+nys,new york state
+nysed,new york state education department
+oaa,older americans act
+oas,office of applied studies
+oasdi,old-age survivors and disability insurance
+oasis,outcome and assessment information set
+oba,office of biotechnology activities
+obqi,outcome-based quality improvement
+obra,omnibus budget reconciliation act
+obtp,outcomes-based treatment planning
+oca,office of client advocacy
+ocesaa,omnibus consolidated and emergency supplemental appropriations act
+ocr,office of civil rights
+odep,office of disability employment policy [direct link]
+odphp,office of disease prevention and health promotion
+ods,office on disability services
+oecd,organisation for economic co-operation and development
+oh,ohio
+ohcds,organized health care delivery systems
+ohcq,office of health care quality
+ohds,office of human development services
+ohit,office of health information technology
+ohp,oregon health plan
+ohrp,office for human research protections
+oig,hhs office of the inspector general
+ois,office of information services
+ok,oklahoma
+ok-warn,oklahoma weather alert remote notification
+ols,ordinary least squares
+oltc,office of long term care
+omb,u.s. office of management and budget
+omh,office of mental health
+omr,office of mental retardation
+omrs,office of mental retardation services
+onc,office of the national coordinator
+opal,online psychology alerting
+ophs,office of public health services
+oppd,office for persons with physical disabilities
+opt,outpatient physical therapy
+or,oregon
+ord,office of research and demonstrations
+ors,office of regulatory services
+ort,operation restore trust
+oscar,online survey and certification automated record
+osers,office of special education and rehabilitative services
+oshpd,office of statewide health planning and development
+osp,office of social programs
+oss,optional state supplementation
+ossc,oregon structural specialty care
+ot,occupational therapist
+p&a,protection and advocacy
+p4p,pay-for-performance
+pa,pennsylvania
+pac,post-acute care
+pace,program of all-inclusive care for the elderly
+pacs,picture archiving and communication system
+pact,programs for assertive community treatment
+padl,performance activities of daily living scale
+pahpa,pandemic and all-hazards preparedness act
+pai,patient assessment instrument
+pal,partners for active lifestyle
+pals,participation and activity limitation survey
+parc,practices and resources clearinghouse
+pas,personal assistance service
+pasarr,pre-admission screening and annual resident review
+pasp,personal assistance services program
+pass,plans for achieving self support
+path,pennsylvania transition to home
+pbm,pharmacy benefit manager
+pbs,public broadcasting system
+pc,pastoral counseling
+pca,personal care aide/assistant/attendant
+pcc,parent and child center
+pccm,primary care case management
+pch,personal care home
+pcp,primary care physician
+pcrs,patient care record system
+pcs,personal care service
+pcsp,provider customer service program
+pda,pennsylvania department on aging
+pdf,portable document file
+pds,potential disadvantages score
+pdufa,prescription drug user fee act
+peach,positive employment and community help
+peg tube,percutaneous endoscopic gastrostromy tube
+pep,physicians enhanced program
+pers,personal emergency response system
+peti,post-eligibility treatment of income
+pfds,person and family direct support waiver
+pfi,physical functioning inventory
+pfth,program for the handicapped
+pgc,philadelphia geriatric center
+pha,public housing authority
+phep,public health emergency preparedness
+phi,paraprofessional healthcare institute
+php,prepaid health plan
+phs,public health service
+pi,principal investigator
+pic,hhs policy information center [direct link]
+pio,public information officer
+pirs,patient index reimbursement system
+pmap,pre-paid medical assistance program
+pmhs,public mental health system
+pmri,patient medical record information
+pna,personal needs allowance
+pnmi,private non-medical institution
+pns,projects of national significance
+poc,point of care
+polst,physician order for life-sustaining treatment
+ppa,preferred provider arrangement
+ppaca,patient protection and affordable care act
+ppo,preferred provider organization
+pps,prospective payment system
+pq,partnership qualified
+pqri,physician quality reporting initiative
+prep,preparedness enrichment and predictability
+prf,public residential facility
+pri,patient referral instrument
+prn,pro re nata
+pro,peer review organization
+propac,prospective payment assessment commission
+prtf,psychiatric residential treatment facility
+prwora,personal responsibility and work opportunities reconciliation act
+psda,patient self-determination act
+psid,panel study of income dynamics
+pso,provider sponsored organization
+psr,physical status review
+psu,prescreening unit
+psur,periodic safety update report
+pt,part-time
+pta,parent-teacher association
+puf,public use file
+puns,prioritization of urgency and need for services
+pvrp,physician voluntary reporting program
+pvs,permanent vegetative state
+pwa,people with hiv/aids
+pwd,people with disabilities
+qa,quality assurance
+qaly,quality-adjusted life year
+qan,quality assurance nurse
+qi,quality improvement
+qic,quality improvement consultant
+qio,quality improvement organization
+qip,quality improvement project
+qipmo,quality improvement program for missouri
+qip-mo,quality improvement program for missouri
+qm,quality matters
+qmb,qualified medicare beneficiary
+qmhp,qualified mental health professional
+qpu,quarterly provider update
+qrs,quality reporting system
+r&d,research and development
+rai,resident assessment instrument
+rap,resident assessment protocol
+rbrvs,resource-based relative value scale
+rc,related condition
+rcac,residential care apartment complex
+rcf,residential care facility
+rcfe,residential care facility for the elderly
+rch,residential care home
+rchla,residential care home licensing act
+rci,rosalynn carter institute
+rcs,residential care setting
+rct,randomized clinical trial
+reach,realizing economic achievement
+rf,rehabilitation facility
+rfid,radio frequency identification
+rfw,residential facility waiver
+rhc,rural health clinic
+rhio,regional health information organization
+rhorc,regional health occupations resource center
+ri,rhode island
+ria,regulatory impact analysis
+rif,research identifiable file
+risp,residential information systems project
+rn,registered nurse
+ro,regional office
+rps,representative payee system
+rr,relative risk
+rrg,risk retention group
+rrt,rapid response team
+rsa,rehabilitation services administration
+rsn,regional support network
+rtac,research and technical assistance center
+rtc,research and training center
+rtc-mr&hp,research and training center in medical rehabilitation and health policy
+rtf,residential treatment facility
+rti,research triangle institute
+rug,resource utilization group
+rvu,relative value unit
+rwj,robert wood johnson foundation
+rwjf,robert wood johnson foundation
+sa,special assistance
+sachrp,secretary's advisory committee on human research protections
+sacrr,secretary's advisory committee on regulatory reform
+sacwis,statewide automated child welfare information system
+samhsa,hhs substance abuse and mental health services administration
+samm,self-administered medication management
+saptbg,substance abuse prevention and treatment block grant
+sba,small business administration
+sbhc,school-based health center
+sbhi,small business health insurance
+sc,south carolina
+scf,survey of consumer finances
+schip,state children's health insurance program
+s-chip,state children's health insurance program
+sci,spinal cord injury
+scsep,senior community service employment program
+scu,special care unit
+scu-a,special care unit for personson with alzheimer's and related disorders
+sd,south dakota
+sdo,standards development organization
+sdri,san diego rehabilitation institute
+sdsd,senior and disabled services division
+sdwp,self-determination waiver program
+sebhi,school enrollment-based health insurance
+sed,serious emotional disturbance
+seer,surveillance epidemiology and end results
+sep,service entry point
+sfy,state fiscal year
+sga,solicitation for grant application
+shcc,statewide health coordinating council
+ship,state health insurance assistance programs
+shp,specialized health plans
+shmo,social health maintenance organization
+shpda,state health planning and development agency
+silj,survey of inmates in local jails
+sip,survey of institutionalized persons
+sipp,survey of income and program participation
+sis,special income standard
+sifcf,survey of inmates of federal correctional facilities
+siscf,survey of inmates of state correctional facilities
+siscf/sifcf,survey of inmates of state and federal correctional facilities
+sj,summary judgment
+slf,supportive living facility
+slmb,specified low-income medicaid beneficiary
+sls,support living services
+sma,standard metropolitan area
+smha,state mental health agency
+smi,serious mental illness
+smqt,surveyor minimum qualifications test
+smwt,self-managed work team
+sn,skilled nursing
+snake,special needs assessment for katrina evacuees
+sncc,schervier nursing care center
+sndo,standard nomenclature of diseases and operations
+snf,skilled nursing facility
+snomed,systemized nomenclature of medicine
+snomed-ct,systematized nomenclature of medicine-clinical terms
+snu,skilled nursing unit
+soa,supplement on aging
+spd,seniors and people with disabilities
+sped,service payments for elderly and disabled program
+spia,single-premium immediate annuity
+spmsq,short portable mental status questionnaire
+spr,standard paper remittance
+spry,setting priorities for retirement now [direct link]
+ss/hs,safe schools/healthy schools
+ssa,u.s. social security administration
+ssaw,supports services for adults waiver
+ssb,sipp synthetic beta
+ssbg,social services block grant
+ssc,special services for children
+ssdi,social security disability insurance
+ssi,supplemental security income
+ssl,social service law
+ssn,social security number
+ssp,state supplemental payment
+support,study to understand prognoses and preferences for outcomes and risks of treatments
+swppa,southwestern pennsylvania partnerships on aging
+t-tap,training and technical assistance for providers
+ta,technical assistance
+tag,technical advisory group
+tahsa,texas association of homes and services for the aging
+tal,tandem application language
+tanf,temporary assistance for needy families
+tar,treatment administration record
+tb,tuberculosis
+tbi,traumatic brain injury
+tc,trial court
+tcm,targeted case management
+tcu,transitional care unit
+tdhs,texas department of human services
+tefra,tax equity and fiscal responsibility act
+tep,technical expert panel
+tepr,towards the electronic paper record
+tesa,training and encouragement for senior activity
+thca,texas health care association
+tia,transient ischemic attack
+tile,texas index for level of effort
+tip,treatment improvement protocol
+tirr,the institute for rehabilitation and research
+title xix,medicaid title xix of the social security act
+tlc,transition to life in the community
+tlg,through the looking glass
+tn,tennessee
+tnh,teaching nursing home
+tom,task order monitor
+too,task order officer
+tpn,total parenteral nutrition
+tsp,thrift savings plan
+ttw,ticket to work
+tty,telephone typerwriter
+twp,trial work period
+twwiia,ticket to work and work incentives act
+tx,texas
+txhl waiver,texas home living waiver
+uc,utilization control
+ucdhsc,university of colorado at denver health sciences center
+uchsc,university of colorado health sciences center
+ucla,university of california los angeles
+ucr,uniform crime report
+uds,united disability services
+uhin,utah health information network
+uhint,utah health information network tool
+ui,unemployment insurance
+ukpds,united kingdom prospective diabetes study
+upin,unique physician identification number
+ur,utilization review
+urac,utilization review accreditation commission
+usda,u.s. department of agriculture
+usf,university of southern florida
+ut,utah
+va,u.s. department of veterans affairs previously the u.s. veterans administration
+vamc,veterans affairs medical center
+vawa,violence against women act
+vcis,voluntary cooperative information systems
+virec,va information resource center
+visn,veterans integrated service network
+vista,veterans health information system and technology architecture
+vna,visiting nurse association
+vns,visiting nurse service
+vnsny,visiting nurse service of new york
+voices,victory over impairments of communication expression and speech
+vr,vocational rehabilitation
+vr&e,vocational rehabilitation and education
+vsp,vertical service provider
+vt,vermont
+wa,washington state
+wahsa,wisconsin association of homes and services for the aging
+wb,war baby cohort
+wbt,web-based training
+wcga,wisconsin caregiver association
+wearc,waiver for the elderly in adult residential care
+weta,worker education training and assistance
+who,world health organization
+wi,wisconsin
+wia,workforce investment act
+wib,workforce investment board
+win,welfare information network
+wlllw,women living long and living well
+wls,wisconsin longitudinal study
+wtw,welfare-to-work
+wv,west virginia
+wy,wyoming
+yetp,youth employment and training program
+g2g,got to go
+fb,facebook
+msg,message
+paw,parents are watching
+pitr,parent in the room
+pbb,parent behind back
+poms,parent over my shoulder
+kpc,keeping parents clueless
+pah,parent at home.
+tfw,that feeling when. tfw internet slang often goes in a caption to an image.
+mfw,my face when
+mrw,my reaction when
+ifyp,i feel your pain
+tntl,trying not to laugh
+jk,just kidding
+idc,i don’t care
+imu,i miss you
+adih,another day in hell
+zzz,sleeping bored tired
+wywh,wish you were here
+time,tears in my eyes
+bae,before anyone else
+ssdd,same stuff different day
+qq,crying
+fimh,forever in my heart
+bsaaw,big smile and a wink
+bwl,bursting with laughter
+bff,best friends forever
+csl,can’t stop laughing
+imoimho,in my opinionin my humble opinion
+omdb,over my dead body
+nth,nice to have. what does nth mean in texting messaging
+tbh,to be honest
+ftw,for the win
+wtf,what the f***
+ftl,for the loss
+ynk,you never know
+srsly,seriously
+ygtr,you got that right
+gmta,great minds think alike
+aymm,are you my mother?
+cwot,complete waste of time
+afair,as far as i remember
+afaic,as far as i’m concerned
+aamof,as a matter of fact
+dm,direct message
+tl,– too long; didn’t read
+soml,story of my life. what does soml mean in texting? most likely a person compares another person’s story with own situation.
+embm,early morning business meeting
+j4f,just for fun
+jsyk,just so you know
+fawc,for anyone who cares
+rlrt,real life retweet
+wuzup,what’s up?
+cs,career suicide
+dwh,during work hours
+nsfl,not safe for life
+sfw,safe for work
+gras,generally recognised as safe
+nbd,not big deal
+oc,original content
+4ao,for adults only
+this,to someone who was the first to publish a post.
+ppl,people
+jic,just in case
+nagi,not a good idea
+goi,get over it
+rbtl,read between the lines
+ayor,at your own risk
+e123,easy as one two three
+gahoy,get a hold of yourself
+tmb,tweet me back
+wtpa,where the party at?
+dae,does anyone else?
+prt,please retweet
+ptb,please text back
+bump,bring up my post
+gratz,congratulations
+gl,good luck
+w8,wait
+nfs,not for sale
+b4n,bye for now
+b,– back at you
+bbbg,bye bye be good
+bbias,be back in a sec
+ruok,are you ok?
+cyt,see you tomorrow
+dbmib,don’t bother me i’m busy
+gfn,gone for now
+her,having everything revealed
+nerd,no one ever really dies
+shield,strategic homeland intervention enforcement and logistics division
+wall-e,waste allocation load lifter earth-class
+yahoo,yet another hierarchical officious oracle
+bolo,be on the lookout
+fish,first in still here
+bbs,be back soon
+beg,big evil grin
+btw,by the way
+eg,evil grin
+noyb,none of your business
+wth,what the heck or hell
+fubar,f***ed up beyond all recognition
+nafta,north american free trade agreement
+navy seals,navy sea air land forces
+cia,central intelligence agency
+csi,crime scene investigation
+dmv,division of motor vehicles
+dnc,democratic national committee
+dz,drop zone
+gib,gi bill
+pow,prisoner of war
+rnc,republican national committee
+reap,reserve education assistance program
+un,united nations
+usaf,united states air force
+pemdas,parentheses exponent multiplication division addition subtraction math order of operations
+zip code,zone improvement plan code
+abs,anti-lock braking system
+doa,dead on arrival
+dob,date of birth
+esl,english as a second language
+iq,intelligence quotient
+otc,over the counter
+ppv,pay per view
+ps,post script
+suv,sports utility vehicle
+ufo,unidentified flying object
+daemon,disk and execution monitor
+swot,strengths weaknesses opportunities threats
+ted,tell me explain to me describe to me
+adp,automated data processing
+aka,also known as
+cdt,central daylight time
+cst,central standard time
+dba,doing business as
+dnd,do not disturb
+eds,electronic data systems
+eow,end of week
+edt,eastern daylight time
+est,eastern standard time
+mdt,mountain daylight time
+mst,mountain standard time
+pdt,pacific daylight time
+pst,pacific standard time
+flag,foreign language association of georgia
+paws,progressive animal welfare society
+peta,people for the ethical treatment of animals
+aa,alcoholics anonymous
+afl,american football league
+espn,entertainment and sports programming network
+ldr,long distance relationship
+mla,modern language association
+motos,member of the opposite sex
+motss,member of the same sex
+nba,national basketball association
+nfl,national football league
+nhl,national hockey league
+pga,professional golfer’s association
+spca,society for the prevention of cruelty to animals
+swf,single white female
+swm,single white male
+wwe,world wrestling entertainment
+bid,break it down
+eom,end of message or end of month
+eot,end of thread
+iam,in a meeting
+let,leaving early today
+mom,month over month
+mtd,month to date
+nim,no internal message
+ooo,out of office
+otp,on the phone
+pte,part-time employee
+pto,paid time off
+nrn,no reply necessary
+nwr,not work related
+re,referring to
+rfd,request for discussion
+sme,subject matter expert
+tl;dr,too long didn’t read
+tltr,too long to read
+tos,terms of service
+tyt,take your time
+wfh,work from home
+wiifm,what’s in it for me
+wom,word of mouth
+ytd,year to date
+finance,finance
+acct,account
+ap,accounts payable
+bs,balance sheet
+cpu,cost per unit
+dr,debit
+eps,earnings per share
+fifo,first in first out
+ipo,initial public offering
+lifo,last in first out
+lwop,leave without pay
+nav,net assets value
+p-card,purchase card
+roa,return on assets
+roe,return on equity
+roi,return on investment
+p/e,price to earnings
+p&l,profit and loss
+api,application program interface
+css,cascading style sheet
+ftp,file transport protocol
+html,hypertext markup language
+http,hypertext transfer protocol
+https,hypertext transfer protocol secure
+im,instant messaging
+ip,internet protocol
+os,operating system
+ux,user experience
+vpn,virtual private network
+ror,ruby on rails
+rss,rich site summary or really simple syndication
+aida,attention interest desire action
+b2b,business to business
+b2c,business to consumer
+br,bounce rate
+cpc,cost per click
+cta,call to action
+ctr,click through rate
+crm,customer relationship management
+esp,email service provider
+kpi,key performance indicator
+ppc,pay per click
+pv,page view
+ros,run of site
+rt,retweet
+saas,software as a service
+seo,search engine optimization
+sm,social media
+smb,small to medium business
+uv,unique visitor
+bd,business development
+cao,chief analytics officer
+cdo,chief data officer
+cfo,chief financial officer
+coo,chief operating officer
+cpa,certified public accountant
+cso,chief security officer
+csr,corporate social responsibility
+cto,chief technology officer
+cfp,certified financial planner
+gc,general counsel
+pm,project manager
