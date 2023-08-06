@@ -1,0 +1,8 @@
+README.md
+setup.py
+easy_pickle/__init__.py
+easy_pickle/easy_pickle.py
+easy_pickle.egg-info/PKG-INFO
+easy_pickle.egg-info/SOURCES.txt
+easy_pickle.egg-info/dependency_links.txt
+easy_pickle.egg-info/top_level.txt
