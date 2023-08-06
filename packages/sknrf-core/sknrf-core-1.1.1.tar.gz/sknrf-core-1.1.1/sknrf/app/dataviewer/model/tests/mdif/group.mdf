@@ -1,0 +1,35 @@
+!Comment1
+! Comment2
+
+REM Comment3
+REMComment4
+
+VAR v1(0) = 1
+VAR v2(1) = 2.2
+VAR v3(2) = "Hello World"
+BEGIN blk1
+    # v1(0) = 1
+    #v2(1) = 2.2
+    # v3(2) = "Hello World"
+    %v1(real) v2(complex)
+    %          v3(complex)
+    1e9 2.2222 2.2222
+        3.3333 3.3333
+    2e9 4.4444 4.4444
+        6.6666 6.6666
+END
+
+VAR v1(0) = 2
+VAR v2(1) = 4.4
+VAR v3(2) = "Hello Again"
+BEGIN blk1
+    # v1(0) = 12
+    #v2(1) = 4.4
+    # v3(2) = "Hello Again"
+    %v1(real) v2(complex)
+    %          v3(complex)
+    1e9 8.8888 8.8888
+        9.9999 9.9999
+    2e9 10.0000 10.0000
+        12.0000 12.0000
+END

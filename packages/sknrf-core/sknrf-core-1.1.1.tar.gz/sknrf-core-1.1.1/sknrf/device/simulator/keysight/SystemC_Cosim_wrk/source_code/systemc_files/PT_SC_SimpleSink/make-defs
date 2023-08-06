@@ -1,0 +1,6 @@
+SYSTEMC_EXECUTABLE = 1 
+
+SRCS = PT_SC_SimpleSink.cxx PT_SC_SimpleSink.hxx SystemCPtolemyInterface_PT_SC_SimpleSink.cxx SystemCPtolemyInterface_PT_SC_SimpleSink.hxx ptolemy_sc_main.cxx 
+
+
+TARGET=ptscsimplesink 

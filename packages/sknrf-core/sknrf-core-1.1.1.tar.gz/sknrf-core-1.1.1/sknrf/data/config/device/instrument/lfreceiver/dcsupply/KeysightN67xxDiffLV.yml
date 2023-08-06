@@ -1,0 +1,6 @@
+trigger_delay: 0.0
+trigger_delay_min: 1.0e-12
+trigger_delay_max: 1.0e+12
+
+voltage_limit: 24.0
+current_limit: 1.0

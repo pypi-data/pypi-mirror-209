@@ -1,0 +1,178 @@
+<?xml version="1.0"?>
+<CalKit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CalKitLabel>Maury 8770D</CalKitLabel>
+  <CalKitVersion />
+  <CalKitDescription>2.92 mm Broadband Load</CalKitDescription>
+  <ConnectorList>
+    <Coaxial>
+      <Family>2.92 mm</Family>
+      <Gender>Male</Gender>
+      <MaximumFrequencyHz>46500000000</MaximumFrequencyHz>
+      <MinimumFrequencyHz>0</MinimumFrequencyHz>
+      <SystemZ0>50</SystemZ0>
+    </Coaxial>
+    <Coaxial>
+      <Family>2.92 mm</Family>
+      <Gender>Female</Gender>
+      <MaximumFrequencyHz>46500000000</MaximumFrequencyHz>
+      <MinimumFrequencyHz>0</MinimumFrequencyHz>
+      <SystemZ0>50</SystemZ0>
+    </Coaxial>
+  </ConnectorList>
+  <StandardList>
+    <OpenStandard>
+      <Label>OPEN -M-</Label>
+      <Description>2.92 mm male open</Description>
+      <preMeasureStandards>false</preMeasureStandards>
+      <PortConnectorIDs>2.92 mm Male</PortConnectorIDs>
+      <MaximumFrequencyHz>46500000000</MaximumFrequencyHz>
+      <MinimumFrequencyHz>0</MinimumFrequencyHz>
+      <StandardNumber>8</StandardNumber>
+      <C0>4.75E-14</C0>
+      <C1>0</C1>
+      <C2>3.8E-36</C2>
+      <C3>1.9E-46</C3>
+      <Offset>
+        <OffsetDelay>1.4982E-11</OffsetDelay>
+        <OffsetLoss>1800000000</OffsetLoss>
+        <OffsetZ0>50</OffsetZ0>
+      </Offset>
+    </OpenStandard>
+    <ShortStandard>
+      <Label>SHORT -M-</Label>
+      <Description>2.92 mm male short</Description>
+      <preMeasureStandards>false</preMeasureStandards>
+      <PortConnectorIDs>2.92 mm Male</PortConnectorIDs>
+      <MaximumFrequencyHz>46500000000</MaximumFrequencyHz>
+      <MinimumFrequencyHz>0</MinimumFrequencyHz>
+      <StandardNumber>7</StandardNumber>
+      <L0>0</L0>
+      <L1>0</L1>
+      <L2>0</L2>
+      <L3>0</L3>
+      <Offset>
+        <OffsetDelay>1.683E-11</OffsetDelay>
+        <OffsetLoss>1800000000</OffsetLoss>
+        <OffsetZ0>50</OffsetZ0>
+      </Offset>
+    </ShortStandard>
+    <OpenStandard>
+      <Label>OPEN -F-</Label>
+      <Description>2.92 mm female open</Description>
+      <preMeasureStandards>false</preMeasureStandards>
+      <PortConnectorIDs>2.92 mm Female</PortConnectorIDs>
+      <MaximumFrequencyHz>46500000000</MaximumFrequencyHz>
+      <MinimumFrequencyHz>0</MinimumFrequencyHz>
+      <StandardNumber>2</StandardNumber>
+      <C0>4.55E-14</C0>
+      <C1>1E-25</C1>
+      <C2>3E-37</C2>
+      <C3>2.1E-46</C3>
+      <Offset>
+        <OffsetDelay>1.4883E-11</OffsetDelay>
+        <OffsetLoss>1800000000</OffsetLoss>
+        <OffsetZ0>50</OffsetZ0>
+      </Offset>
+    </OpenStandard>
+    <ShortStandard>
+      <Label>SHORT -F-</Label>
+      <Description>2.92 mm female short</Description>
+      <preMeasureStandards>false</preMeasureStandards>
+      <PortConnectorIDs>2.92 mm Female</PortConnectorIDs>
+      <MaximumFrequencyHz>46500000000</MaximumFrequencyHz>
+      <MinimumFrequencyHz>0</MinimumFrequencyHz>
+      <StandardNumber>1</StandardNumber>
+      <L0>0</L0>
+      <L1>0</L1>
+      <L2>0</L2>
+      <L3>0</L3>
+      <Offset>
+        <OffsetDelay>1.673E-11</OffsetDelay>
+        <OffsetLoss>1800000000</OffsetLoss>
+        <OffsetZ0>50</OffsetZ0>
+      </Offset>
+    </ShortStandard>
+    <ThruStandard>
+      <Label>THRU</Label>
+      <Description>Insertable thru standard</Description>
+      <IsDevicePhysical>false</IsDevicePhysical>
+      <preMeasureStandards>false</preMeasureStandards>
+      <PortConnectorIDs>2.92 mm Female</PortConnectorIDs>
+      <PortConnectorIDs>2.92 mm Male</PortConnectorIDs>
+      <MaximumFrequencyHz>46500000000</MaximumFrequencyHz>
+      <MinimumFrequencyHz>0</MinimumFrequencyHz>
+      <StandardNumber>4</StandardNumber>
+      <Offset>
+        <OffsetDelay>0</OffsetDelay>
+        <OffsetLoss>0</OffsetLoss>
+        <OffsetZ0>50</OffsetZ0>
+      </Offset>
+    </ThruStandard>
+    <FixedLoadStandard>
+      <Label>BROADBAND LOAD -M-</Label>
+      <Description>2.92 mm male broadband load</Description>
+      <preMeasureStandards>false</preMeasureStandards>
+      <PortConnectorIDs>2.92 mm Male</PortConnectorIDs>
+      <MaximumFrequencyHz>46500000000</MaximumFrequencyHz>
+      <MinimumFrequencyHz>0</MinimumFrequencyHz>
+      <StandardNumber>9</StandardNumber>
+      <Offset>
+        <OffsetDelay>0</OffsetDelay>
+        <OffsetLoss>0</OffsetLoss>
+        <OffsetZ0>50</OffsetZ0>
+      </Offset>
+    </FixedLoadStandard>
+    <FixedLoadStandard>
+      <Label>BROADBAND LOAD -F-</Label>
+      <Description>2.92 mm female broadband load</Description>
+      <preMeasureStandards>false</preMeasureStandards>
+      <PortConnectorIDs>2.92 mm Female</PortConnectorIDs>
+      <MaximumFrequencyHz>46500000000</MaximumFrequencyHz>
+      <MinimumFrequencyHz>0</MinimumFrequencyHz>
+      <StandardNumber>3</StandardNumber>
+      <Offset>
+        <OffsetDelay>0</OffsetDelay>
+        <OffsetLoss>0</OffsetLoss>
+        <OffsetZ0>50</OffsetZ0>
+      </Offset>
+    </FixedLoadStandard>
+  </StandardList>
+  <KitClasses>
+    <KitClassID>SA</KitClassID>
+    <StandardsList>8,2</StandardsList>
+    <KitClassLabel>OPEN</KitClassLabel>
+  </KitClasses>
+  <KitClasses>
+    <KitClassID>SB</KitClassID>
+    <StandardsList>7,1</StandardsList>
+    <KitClassLabel>SHORT</KitClassLabel>
+  </KitClasses>
+  <KitClasses>
+    <KitClassID>SC</KitClassID>
+    <StandardsList>9,3</StandardsList>
+    <KitClassLabel>LOADS</KitClassLabel>
+  </KitClasses>
+  <KitClasses>
+    <KitClassID>FORWARD_THRU</KitClassID>
+    <StandardsList>4</StandardsList>
+    <KitClassLabel>THRU</KitClassLabel>
+  </KitClasses>
+  <KitClasses>
+    <KitClassID>FORWARD_MATCH</KitClassID>
+    <StandardsList>4</StandardsList>
+    <KitClassLabel>THRU</KitClassLabel>
+  </KitClasses>
+  <KitClasses>
+    <KitClassID>REVERSE_THRU</KitClassID>
+    <StandardsList>4</StandardsList>
+    <KitClassLabel>THRU</KitClassLabel>
+  </KitClasses>
+  <KitClasses>
+    <KitClassID>REVERSE_MATCH</KitClassID>
+    <StandardsList>4</StandardsList>
+    <KitClassLabel>THRU</KitClassLabel>
+  </KitClasses>
+  <TRLRefPlane>ThruStandard</TRLRefPlane>
+  <TRLZref>SystemZ0</TRLZref>
+  <LRLAutoCharacterization>UseAutoCharacterization</LRLAutoCharacterization>
+</CalKit>

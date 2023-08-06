@@ -1,0 +1,27 @@
+!!python/object/apply:collections.OrderedDict
+- - - Bench
+    - [SPM1, SPM2, SPM3, SPM4]
+  - [Operator, '']
+  - [LINE1, null]
+  - - Before_Thermal
+    - {file_types: Image Files (*.png *.jpg *.bmp),
+       placeholderText: Thermal Measurement @ Chuck Temperature}
+  - - Before_SS-SP_Electrical
+    - {file_types: S-Parameter Files (*.s1p *.s2p *.s3p *.s4p),
+       placeholderText: Small-Signal S-Parameters Before Test}
+  - - LS_Hot-SP_Electrical
+    - {file_types: S-Parameter Files (*.s1p *.s2p *.s3p *.s4p),
+       placeholderText: Large-Signal Hot S-Parameters Test}
+  - - NVNA_1-Tone_Electrical
+    - {file_types: MDIF Files (*.mdf),
+       placeholderText: Harmonic Balance 1-Tone Test}
+  - - After_SS-SP_Electrical
+    - {file_types: S-Parameter Files (*.s1p *.s2p *.s3p *.s4p),
+       placeholderText: Small-Signal S-Parameters Before Test}
+  - - After_Thermal
+    - {file_types: Image Files (*.png *.jpg *.bmp),
+       placeholderText: Thermal Measurement @ Chuck Temperature}
+  - [LINE2, null]
+  - - Output Dir
+    - {file_types: dir,
+       placeholderText: Output Directory}

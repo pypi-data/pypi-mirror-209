@@ -1,0 +1,6 @@
+SYSTEMC_EXECUTABLE = 1 
+
+SRCS = PT_SC_UpSample.cxx PT_SC_UpSample.hxx SystemCPtolemyInterface_PT_SC_UpSample.cxx SystemCPtolemyInterface_PT_SC_UpSample.hxx ptolemy_sc_main.cxx 
+
+
+TARGET=ptscupsample

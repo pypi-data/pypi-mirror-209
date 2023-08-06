@@ -1,0 +1,9 @@
+num_outputs: 1
+power_limit: [0.178]
+trigger_level: 1.0
+trigger_delay: 114.3e-06 # ALC OFF
+trigger_delay_min: 1.0e-7
+trigger_delay_max: 1.0e+12
+pre_amplifier_gain: 1
+mechanical_attenuation: 1
+electrical_attenuation: 1

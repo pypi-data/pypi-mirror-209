@@ -1,0 +1,14 @@
+trigger_delay: 110.0e-06 # ALC OFF
+trigger_delay_min: 250.0e-12
+trigger_delay_max: 1.0e+12
+num_outputs: 4
+voltage_limit: [4.0, 4.0, 4.0, 4.0]
+current_limit: [4.0, 4.0, 4.0, 4.0]
+voltage_offset: [0.0e-3, 0.0e-3, 0.0e-3, 0.0e-3]
+current_offset: [0.0e-3, 0.0e-3, 0.0e-3, 0.0e-3]
+v_i_port: 1
+v_q_port: 2
+i_i_port: 3
+i_q_port: 4
+oversampling: 1
+trigger_level: 2.5

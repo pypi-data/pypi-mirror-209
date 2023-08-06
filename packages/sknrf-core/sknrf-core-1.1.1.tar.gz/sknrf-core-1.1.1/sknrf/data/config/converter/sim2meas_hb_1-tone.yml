@@ -1,0 +1,31 @@
+!!python/object/apply:collections.OrderedDict
+- - - HB_1-Tone_Electrical
+    - {file_types: MDIF Files (*.mdf),
+       placeholderText: Harmonic Balance 1-Tone Test}
+  - - HB_1-Tone_Thermal
+    - {file_types: MDIF Files (*.mdf),
+       placeholderText: Harmonic Balance 1-Tone}
+  - - Layout
+    - {file_types: Image Files (*.png *.jpg *.bmp),
+       placeholderText: Layout Diagram}
+  - - Stack
+    - {file_types: Excel Files (*.xlsx),
+       placeholderText: Stack Information}
+  - [LINE1, null]
+  - [PCB#, ""]
+  - - Band
+    - ["34", "40A", "41"]
+  - [Design, ""]
+  - [Bin#, ""]
+  - [Wafer#, ""]
+  - - Molded
+    - ["Unmolded", "Molded"]
+  - - Shielded
+    - ["Unshielded", "Shielded"]
+  - - Connector
+    - ["ACP", "SMA"]
+  - [SN#, ""]
+  - [LINE2, null]
+  - - Output Dir
+    - {file_types: dir,
+       placeholderText: Output Directory}

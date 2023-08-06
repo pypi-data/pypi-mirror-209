@@ -1,0 +1,14 @@
+!Comment1
+! Comment2
+
+REM Comment3
+REMComment4
+
+VAR v1(0) = 1
+VAR v2(1) = 2.2
+VAR v3(2) = "Hello World"
+BEGIN DSCR()
+    # v1(0) = 1
+    #v2(1) = 2.2
+    # v3(2) = "Hello World"
+END

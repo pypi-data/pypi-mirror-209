@@ -1,0 +1,8 @@
+set_simulator_type(-1);
+create_item("SDD_Diode","SDD_Diode","CR",16,-1,NULL,"Component Parameters","","%d:%t %# %44?0%:%31?%C%:_net%c%;%;%e %b%r%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%;%e%e","SDD_Diode","%t%b%r%38?%:\n%39?all_parm%A%:%30?%s%:%k%?[%1i]%;=%s%;%;%;%e%e%;","SYM_DIODE",0,NULL,0,
+create_parm("Is","Saturation current",68608,"StdFormSet",10,prm("StdForm","1e-16")),
+create_parm("Co","Junction capacitance",68608,"StdFormSet",4,prm("StdForm","1 pf")),
+create_parm("Vo","Threshhold voltage",68608,"StdFormSet",9,prm("StdForm","0.65 V")),
+create_parm("alpha","Capacitance coefficient",68608,"StdFormSet",-1,prm("StdForm","0.7")));
+set_design_type(1);
+library_group("*", "*", 1, "SDD_Diode");

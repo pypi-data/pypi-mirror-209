@@ -1,0 +1,5 @@
+PTSYSTEMC=1
+
+PL_SRCS=SDFPT_SC_SineGen.pl SDFPT_SC_UpSample.pl SDFPT_SC_InputSignal.pl SDFPT_SC_SimpleSink.pl SDFPT_SC_FIR.pl
+
+STAR_MK=sysc_example

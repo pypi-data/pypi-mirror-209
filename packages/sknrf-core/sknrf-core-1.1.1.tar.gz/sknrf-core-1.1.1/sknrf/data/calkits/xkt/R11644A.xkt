@@ -1,0 +1,179 @@
+<?xml version="1.0"?>
+<CalKit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CalKitLabel>R11644A</CalKitLabel>
+  <CalKitVersion />
+  <CalKitDescription>R-band Waveguide SOLT/TRL Calibration Kit</CalKitDescription>
+  <ConnectorList>
+    <Waveguide>
+      <Family>R-band waveguide</Family>
+      <Gender>Genderless</Gender>
+      <MaximumFrequencyHz>42142000000</MaximumFrequencyHz>
+      <MinimumFrequencyHz>21071000000</MinimumFrequencyHz>
+      <SystemZ0>1</SystemZ0>
+      <CutoffFrequencyHz>21071000000</CutoffFrequencyHz>
+      <HeightWidthRatio>0.5</HeightWidthRatio>
+    </Waveguide>
+  </ConnectorList>
+  <StandardList>
+    <OffsetLoadStandard>
+      <Label>Offset Load</Label>
+      <Description>R-band offset load</Description>
+      <preMeasureStandards>false</preMeasureStandards>
+      <PortConnectorIDs>R-band waveguide</PortConnectorIDs>
+      <MaximumFrequencyHz>42142000000</MaximumFrequencyHz>
+      <MinimumFrequencyHz>21071000000</MinimumFrequencyHz>
+      <StandardNumber>1</StandardNumber>
+      <Offset1StdIndex>6</Offset1StdIndex>
+      <Offset2StdIndex>7</Offset2StdIndex>
+      <TerminationStdIndx>2</TerminationStdIndx>
+    </OffsetLoadStandard>
+    <FixedLoadStandard>
+      <Label>Fixed Load</Label>
+      <Description>R-band fixed load</Description>
+      <preMeasureStandards>false</preMeasureStandards>
+      <PortConnectorIDs>R-band waveguide</PortConnectorIDs>
+      <MaximumFrequencyHz>42142000000</MaximumFrequencyHz>
+      <MinimumFrequencyHz>21071000000</MinimumFrequencyHz>
+      <StandardNumber>2</StandardNumber>
+      <Offset>
+        <OffsetDelay>0</OffsetDelay>
+        <OffsetLoss>0</OffsetLoss>
+        <OffsetZ0>1</OffsetZ0>
+      </Offset>
+    </FixedLoadStandard>
+    <SlidingLoadStandard>
+      <Label>Sliding Load</Label>
+      <Description>R-band sliding load</Description>
+      <preMeasureStandards>false</preMeasureStandards>
+      <PortConnectorIDs>R-band waveguide</PortConnectorIDs>
+      <MaximumFrequencyHz>42142000000</MaximumFrequencyHz>
+      <MinimumFrequencyHz>21071000000</MinimumFrequencyHz>
+      <StandardNumber>3</StandardNumber>
+    </SlidingLoadStandard>
+    <ShortStandard>
+      <Label>Short</Label>
+      <Description>R-band short</Description>
+      <preMeasureStandards>false</preMeasureStandards>
+      <PortConnectorIDs>R-band waveguide</PortConnectorIDs>
+      <MaximumFrequencyHz>42142000000</MaximumFrequencyHz>
+      <MinimumFrequencyHz>21071000000</MinimumFrequencyHz>
+      <StandardNumber>4</StandardNumber>
+      <L0>0</L0>
+      <L1>0</L1>
+      <L2>0</L2>
+      <L3>0</L3>
+      <Offset>
+        <OffsetDelay>0</OffsetDelay>
+        <OffsetLoss>0</OffsetLoss>
+        <OffsetZ0>1</OffsetZ0>
+      </Offset>
+    </ShortStandard>
+    <ShortStandard>
+      <Label>Offset Short</Label>
+      <Description>R-band 1/4 offset short</Description>
+      <preMeasureStandards>false</preMeasureStandards>
+      <PortConnectorIDs>R-band waveguide</PortConnectorIDs>
+      <MaximumFrequencyHz>42142000000</MaximumFrequencyHz>
+      <MinimumFrequencyHz>21071000000</MinimumFrequencyHz>
+      <StandardNumber>5</StandardNumber>
+      <L0>0</L0>
+      <L1>0</L1>
+      <L2>0</L2>
+      <L3>0</L3>
+      <Offset>
+        <OffsetDelay>1.00702E-11</OffsetDelay>
+        <OffsetLoss>9000000000</OffsetLoss>
+        <OffsetZ0>1</OffsetZ0>
+      </Offset>
+    </ShortStandard>
+    <ThruStandard>
+      <Label>Thru</Label>
+      <Description>R-band Thru</Description>
+      <IsDevicePhysical>false</IsDevicePhysical>
+      <preMeasureStandards>false</preMeasureStandards>
+      <PortConnectorIDs>R-band waveguide</PortConnectorIDs>
+      <PortConnectorIDs>R-band waveguide</PortConnectorIDs>
+      <MaximumFrequencyHz>42142000000</MaximumFrequencyHz>
+      <MinimumFrequencyHz>21071000000</MinimumFrequencyHz>
+      <StandardNumber>6</StandardNumber>
+      <Offset>
+        <OffsetDelay>0</OffsetDelay>
+        <OffsetLoss>0</OffsetLoss>
+        <OffsetZ0>1</OffsetZ0>
+      </Offset>
+    </ThruStandard>
+    <ThruStandard>
+      <Label>1/4 Line</Label>
+      <Description>R-band 1/4 wavelength line</Description>
+      <preMeasureStandards>false</preMeasureStandards>
+      <PortConnectorIDs>R-band waveguide</PortConnectorIDs>
+      <PortConnectorIDs>R-band waveguide</PortConnectorIDs>
+      <MaximumFrequencyHz>42142000000</MaximumFrequencyHz>
+      <MinimumFrequencyHz>21071000000</MinimumFrequencyHz>
+      <StandardNumber>7</StandardNumber>
+      <Offset>
+        <OffsetDelay>1.00702E-11</OffsetDelay>
+        <OffsetLoss>9000000000</OffsetLoss>
+        <OffsetZ0>1</OffsetZ0>
+      </Offset>
+    </ThruStandard>
+  </StandardList>
+  <KitClasses>
+    <KitClassID>SA</KitClassID>
+    <StandardsList>4</StandardsList>
+    <KitClassLabel>Short</KitClassLabel>
+  </KitClasses>
+  <KitClasses>
+    <KitClassID>SB</KitClassID>
+    <StandardsList>5</StandardsList>
+    <KitClassLabel>Offset Short</KitClassLabel>
+  </KitClasses>
+  <KitClasses>
+    <KitClassID>SC</KitClassID>
+    <StandardsList>1,2,3</StandardsList>
+    <KitClassLabel>Load</KitClassLabel>
+  </KitClasses>
+  <KitClasses>
+    <KitClassID>FORWARD_THRU</KitClassID>
+    <StandardsList>6,7</StandardsList>
+    <KitClassLabel>Thru</KitClassLabel>
+  </KitClasses>
+  <KitClasses>
+    <KitClassID>FORWARD_MATCH</KitClassID>
+    <StandardsList>6,7</StandardsList>
+    <KitClassLabel>Thru</KitClassLabel>
+  </KitClasses>
+  <KitClasses>
+    <KitClassID>REVERSE_THRU</KitClassID>
+    <StandardsList>6,7</StandardsList>
+    <KitClassLabel>Thru</KitClassLabel>
+  </KitClasses>
+  <KitClasses>
+    <KitClassID>REVERSE_MATCH</KitClassID>
+    <StandardsList>6,7</StandardsList>
+    <KitClassLabel>Thru</KitClassLabel>
+  </KitClasses>
+  <KitClasses>
+    <KitClassID>TRL_REFLECT</KitClassID>
+    <StandardsList>4</StandardsList>
+    <KitClassLabel>SHORT</KitClassLabel>
+  </KitClasses>
+  <KitClasses>
+    <KitClassID>TRL_THRU</KitClassID>
+    <StandardsList>6</StandardsList>
+    <KitClassLabel>THRU</KitClassLabel>
+  </KitClasses>
+  <KitClasses>
+    <KitClassID>TRL_LINE</KitClassID>
+    <StandardsList>7,2</StandardsList>
+    <KitClassLabel>LINE</KitClassLabel>
+  </KitClasses>
+  <KitClasses>
+    <KitClassID>TRL_MATCH</KitClassID>
+    <StandardsList>7,2</StandardsList>
+    <KitClassLabel>TRL MATCH</KitClassLabel>
+  </KitClasses>
+  <TRLRefPlane>ThruStandard</TRLRefPlane>
+  <TRLZref>LineZ0</TRLZref>
+  <LRLAutoCharacterization>UseAutoCharacterization</LRLAutoCharacterization>
+</CalKit>

@@ -1,0 +1,10 @@
+SYSTEMC_EXECUTABLE = 1 
+
+SRCS += display.cpp display.h
+SRCS += fir_data.cpp fir_data.h
+SRCS += fir_fsm.cpp fir_fsm.h
+SRCS += stimulus.cpp stimulus.h
+SRCS += SystemCPtolemyInterface_PT_SC_FIR.cxx SystemCPtolemyInterface_PT_SC_FIR.hxx ptolemy_sc_main.cxx 
+
+
+TARGET=ptscrtlfir

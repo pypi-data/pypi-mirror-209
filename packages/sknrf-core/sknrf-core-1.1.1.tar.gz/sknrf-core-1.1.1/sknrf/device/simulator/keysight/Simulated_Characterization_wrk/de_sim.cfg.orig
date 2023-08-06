@@ -1,0 +1,27 @@
+DESIGN_KIT_SYSTEM_CUSTOM_CIRCUIT_SYMBOLS=C:\Program Files\Keysight\ADS2016_01\examples\DesignKit\DemoKit\circuit\symbols;C:\Program Files\Keysight\ADS2016_01\examples\DesignKit\DemoKit\circuit\symbols;C:\Program Files\Keysight\ADS2016_01\examples\DesignKit\DemoKit_Non_Linear\DemoKit_Non_Linear_v2.0\circuit\symbols;C:\Program Files\Keysight\ADS2016_01\examples\DesignKit\DemoKit_Non_Linear\DemoKit_Non_Linear_v2.0\circuit\symbols
+SYSTEM_CUSTOM_CIRCUIT_SYMBOLS={%DESIGN_KIT_SYSTEM_CUSTOM_CIRCUIT_SYMBOLS};{$HPEESOF_DIR}\custom\{%PROJECT1}\symbols
+DESIGN_KIT_DATA_FILES=C:\Program Files\Keysight\ADS2016_01\examples\DesignKit\DemoKit\circuit\data;C:\Program Files\Keysight\ADS2016_01\examples\DesignKit\DemoKit\circuit\models;C:\Program Files\Keysight\ADS2016_01\examples\DesignKit\DemoKit_Non_Linear\DemoKit_Non_Linear_v2.0\circuit\data;C:\Program Files\Keysight\ADS2016_01\examples\DesignKit\DemoKit_Non_Linear\DemoKit_Non_Linear_v2.0\circuit\models
+DESIGN_KIT_SYSTEM_CUSTOM_CIRCUIT_DESIGNS=C:\Program Files\Keysight\ADS2016_01\examples\DesignKit\DemoKit\circuit\artwork;C:\Program Files\Keysight\ADS2016_01\examples\DesignKit\DemoKit\circuit\artwork;C:\Program Files\Keysight\ADS2016_01\examples\DesignKit\DemoKit_Non_Linear\DemoKit_Non_Linear_v2.0\circuit\artwork;C:\Program Files\Keysight\ADS2016_01\examples\DesignKit\DemoKit_Non_Linear\DemoKit_Non_Linear_v2.0\circuit\designs;C:\Program Files\Keysight\ADS2016_01\examples\DesignKit\DemoKit_Non_Linear\DemoKit_Non_Linear_v2.0\circuit\artwork;C:\Program Files\Keysight\ADS2016_01\examples\DesignKit\DemoKit_Non_Linear\DemoKit_Non_Linear_v2.0\circuit\designs
+SYSTEM_CUSTOM_CIRCUIT_DESIGNS={%DESIGN_KIT_SYSTEM_CUSTOM_CIRCUIT_DESIGNS};{$HPEESOF_DIR}\custom\{%PROJECT1}\designs
+DESIGN_KIT_VIA_CONFIG_PATH=C:\Program Files\Keysight\ADS2016_01\examples\DesignKit\DemoKit\de\defaults;C:\Program Files\Keysight\ADS2016_01\examples\DesignKit\DemoKit\de\defaults;C:\Program Files\Keysight\ADS2016_01\examples\DesignKit\DemoKit_Non_Linear\DemoKit_Non_Linear_v2.0\de\defaults;C:\Program Files\Keysight\ADS2016_01\examples\DesignKit\DemoKit_Non_Linear\DemoKit_Non_Linear_v2.0\de\defaults
+VIA_CONFIG_PATH={%DESIGN_KIT_VIA_CONFIG_PATH};.:{%PROJECT_SEARCH_PATH}:{$HOME}\hpeesof\de\defaults:{$HPEESOF_DIR}\de\defaults:{%DESIGN_KIT_VIA_CONFIG_PATH}:{%USER_VIA_CONFIG_PATH}
+<<<<<<< working copy
+SCHEM_FILE_OPEN_HISTORY_1=Simulated_Characterization_lib:Simulated_Characterization:schematic
+=======
+SCHEM_FILE_OPEN_HISTORY_1=Simulated_Characterization_lib:DataImport:schematic
+>>>>>>> merge rev
+DATA_FILES=.\data;%USER_DATA_FILES;%SITE_DATA_FILES;C:\\users\\default\\hpeesof\\datafiles\\;C:\\users\\default\\hpeesof\\datafiles\\;C:\\users\\default\\hpeesof\\datafiles\\;C:\\users\\default\\hpeesof\\datafiles\\;C:\\users\\default\\hpeesof\\datafiles\\;C:\\users\\default\\hpeesof\\datafiles\\;C:\\users\\default\\hpeesof\\datafiles\\;{%DESIGN_KIT_DATA_FILES}
+LAST_LIBRARY_SELECTED=Simulated_Characterization_lib
+SCHEM_FILE_OPEN_HISTORY_2=Simulated_Characterization_lib:Modulated_Characterization:schematic
+<<<<<<< working copy
+SCHEM_FILE_OPEN_HISTORY_3=Simulated_Characterization_lib:DataImport:schematic
+=======
+SCHEM_FILE_OPEN_HISTORY_3=Simulated_Characterization_lib:Simulated_Characterization:schematic
+>>>>>>> merge rev
+SCHEM_FILE_OPEN_HISTORY_4=Simulated_Characterization_lib:Port:schematic
+SCHEM_FILE_OPEN_HISTORY_5=Simulated_Characterization_lib:Modulated_Characterization:schematic
+SYMBOL_FILE_OPEN_HISTORY_1=Simulated_Characterization_lib:RFZTuner:symbol
+SYMBOL_FILE_OPEN_HISTORY_2=Simulated_Characterization_lib:RFPwrSource:symbol
+SYMBOL_FILE_OPEN_HISTORY_3=Simulated_Characterization_lib:RFSource:symbol
+SYMBOL_FILE_OPEN_HISTORY_4=Transforms_lib:tee_dut:symbol
+SYMBOL_FILE_OPEN_HISTORY_5=Transforms_lib:pi_dut:symbol

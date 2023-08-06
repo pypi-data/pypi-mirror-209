@@ -1,0 +1,43 @@
+1     7.703    0 0
+10    1    "A_Readme"    2    1093329671    0    0    1    0
+20    0    ""    -4375 -1243 1079 3653 1    2 -3 1    0    0    "schematic.prf" "schematic.lay"
+40    4    0    0    0
+40    5    0    0    0
+50    6    -4375 -1243 1079 3653 1    0    0    0    0    0    0    0    0
+62    0    153    9    -4375 3500 0    32    0    0    0    11    0   "Arial For CAE"   `This file contains a number of FDD (Frequency-Domain Defined Device) examples.  
+These devices allow users to quickly, easily and reliably add custom 
+behavioral, nonlinear system models to the circuit and RF system simulator 
+in the Advanced Design System, by describing the output spectral component(s)
+in terms of arbitrary functions of the input spectral components.
+* Users define spectral port voltages and currents as functions of other 
+  spectral voltages and currents.
+* No C-coding or compilation is required.
+* Derivatives are generated automatically by the simulator.
+* Some models may not be meaningful in some analysis types.
+* Models with time-domain triggering capability can be created.
+
+IQ_modulator is a simple, ideal I-Q modulator implemented with an FDD.
+IQmodTest simulates the I-Q modulator with baseband sine and cosine 
+  signals at two different magnitudes (0 and 0.95.)
+FDDmixer is a relatively simple model of an ideal mixer.  It models 
+  upconversion, downconversion, LO leakage, RF leakage, and conversion
+  gain compression with increasing LO signal amplitude.
+FDDmixerTest is a harmonic balance simulation of the mixer.  It shows
+  the output spectrum as well as the conversion gain.
+FDDmixerTestEnv simulates the mixer with Circuit Envelope.  In this 
+  case, the input signal is a carrier with upper and lower sidebands,
+  and the mixer is configured to act as a frequency doubler. 
+HarmSrc shows how to generate a pulsed signal that is the sum of 
+  harmonics, using harmonic indexing.
+DFlipFlop is a simple, behavioral model implemented with an FDD.
+DFlipFlopSim simulates the flip flop with logic and clock input signals.
+SampleHold simulates a simple sample and hold implemented with an FDD.
+DynamicTherm_Amp simulates an amplifier with gain that is reduced as 
+  a function of the heat that is dissipated within it.
+testRC just simulates the RC filter that models the ability of the
+  heat sink to dissipate heat.`
+44    0    0    0    0    0    0    0
+21
+20    1    ""    0 0 0 0 0    1 -2 1    0    0    "layout.prf" "layout.lay"
+44    0    0    0    0    0    0    0
+21

@@ -1,0 +1,9 @@
+/home/dylan_bespalko/repos/machine-configs/kubuntu_22.04-py3.10-none-linux_x86_64/package/sknrf_core/src/sknrf/widget/propertybrowser/view/src/cmake-build-release/CMakeFiles/qtpropertybrowser.dir
+/home/dylan_bespalko/repos/machine-configs/kubuntu_22.04-py3.10-none-linux_x86_64/package/sknrf_core/src/sknrf/widget/propertybrowser/view/src/cmake-build-release/CMakeFiles/edit_cache.dir
+/home/dylan_bespalko/repos/machine-configs/kubuntu_22.04-py3.10-none-linux_x86_64/package/sknrf_core/src/sknrf/widget/propertybrowser/view/src/cmake-build-release/CMakeFiles/rebuild_cache.dir
+/home/dylan_bespalko/repos/machine-configs/kubuntu_22.04-py3.10-none-linux_x86_64/package/sknrf_core/src/sknrf/widget/propertybrowser/view/src/cmake-build-release/CMakeFiles/list_install_components.dir
+/home/dylan_bespalko/repos/machine-configs/kubuntu_22.04-py3.10-none-linux_x86_64/package/sknrf_core/src/sknrf/widget/propertybrowser/view/src/cmake-build-release/CMakeFiles/install.dir
+/home/dylan_bespalko/repos/machine-configs/kubuntu_22.04-py3.10-none-linux_x86_64/package/sknrf_core/src/sknrf/widget/propertybrowser/view/src/cmake-build-release/CMakeFiles/install/local.dir
+/home/dylan_bespalko/repos/machine-configs/kubuntu_22.04-py3.10-none-linux_x86_64/package/sknrf_core/src/sknrf/widget/propertybrowser/view/src/cmake-build-release/CMakeFiles/install/strip.dir
+/home/dylan_bespalko/repos/machine-configs/kubuntu_22.04-py3.10-none-linux_x86_64/package/sknrf_core/src/sknrf/widget/propertybrowser/view/src/cmake-build-release/CMakeFiles/qtpropertybrowser_autogen_timestamp_deps.dir
+/home/dylan_bespalko/repos/machine-configs/kubuntu_22.04-py3.10-none-linux_x86_64/package/sknrf_core/src/sknrf/widget/propertybrowser/view/src/cmake-build-release/CMakeFiles/qtpropertybrowser_autogen.dir

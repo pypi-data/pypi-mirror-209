@@ -1,0 +1,3 @@
+target = foolib
+sources = sipfoolibcmodule.cpp sipfoolibFooMenu.cpp sipfoolibFooClass.cpp
+headers = sipAPIfoolib.h

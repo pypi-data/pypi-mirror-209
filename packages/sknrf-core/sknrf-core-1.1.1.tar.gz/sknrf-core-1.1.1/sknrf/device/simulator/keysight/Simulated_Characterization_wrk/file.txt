@@ -1,0 +1,8 @@
+!=============================================================
+! Time Domain Signals
+BEGIN TIMEDATA
+# T ( USEC V R 50 )
+% time 	voltage
+0.0     1.00000
+10.0    1.00000
+END

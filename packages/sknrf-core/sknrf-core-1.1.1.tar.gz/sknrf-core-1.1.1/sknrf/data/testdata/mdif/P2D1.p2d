@@ -1,0 +1,117 @@
+BEGIN  ACDATA
+ ! This an optional block of data
+ ! This line and all lines starting with a comment (!) character are ignored
+ ! Do not have a blank line, or comments as the first line in this file
+ ! ACDATA is a required block of data
+ ! The following is optional small-signal data and must precede the
+ ! large-signal data
+ # AC( MHZ   S  RI   R 50.0    FC   1   3700 )
+ ! The above line is the OPTION line
+ ! Optional Selection: HZ, KHZ, MKZ, or GHZ;  Default is GHZ
+ ! Optional Selection: S;                     S required
+ ! Optional Selection: MA, DB, RI, VDB;       Default is MA
+ ! Optional Selection: R xx; where xx = reference resistance; Default R 50.0
+ ! Optional Selection: FC x1 x2 is for frequency conversion:Fout = x1*Fin + x2
+ !                                               Default is  Fout = Fin
+ ! An unlimited number of lines of frequency data can be specified
+ %  F   n11x  n11y  n21x  n21y  n12x  n12y  n22x  n22y
+ !  The above line is the format line showing the order in the following data
+ ! lines
+ !  The columns of data can be in any order
+ 250.00  -0.150  0.129    7.888  -22.178  -9.0e-11   1.8e-09  -0.217  -0.502
+ 260.00  -0.145  0.127   -4.885  -23.525   1.4e-11  -3.6e-10  -0.536  -0.036
+ 270.00  -0.140  0.126  -16.368  -17.420  -6.3e-11   6.0e-11  -0.285   0.481
+ 280.00  -0.136  0.125  -22.473   -6.643  -6.5e-10  -1.9e-10   0.273   0.530
+ 290.00  -0.131  0.123  -22.652    5.045  -6.6e-10   1.5e-10   0.610   0.105
+ 300.00  -0.126  0.121  -17.682   15.564  -1.0e-10   4.0e-10   0.454  -0.415
+ 310.00  -0.121  0.120   -7.838   23.060   1.5e-10  -3.2e-10  -0.085  -0.584
+ 320.00  -0.116  0.118    5.489   24.439  -8.3e-11  -7.3e-10  -0.534  -0.194
+ 330.00  -0.112  0.116   17.637   17.846  -3.0e-10   3.0e-10  -0.414   0.400
+ 340.00  -0.107  0.115   23.851    6.091  -3.3e-10  -1.5e-10   0.144   0.586
+ 350.00  -0.102  0.113   23.407   -6.383   3.5e-11   1.3e-10   0.578   0.234
+ !  This following is the large-signal data and must be listed
+ ! an unlimited number of sets of frequency data can be specified,
+ !   with an unlimited number of sets of power data at each frequency
+ %  F
+  250.00
+ %  P1  P2   n11x  n11y  n21x  n21y  n12x  n12y  n22x  n22y
+
+-15.000  -5.00  -0.150  0.129  7.733  -21.772  -1.1e-10   3.2e-10  -0.216
+ -0.497
+  -5.000   5.00  -0.150  0.129  7.335  -20.725   1.1e-10  -3.0e-10  -0.214
+ -0.484
+   5.020  15.00  -0.150  0.129  5.519  -15.857  -2.5e-11  -1.0e-09  -0.203
+ -0.426
+ %  F
+   260.00
+ %  P1  P2  n11x  n11y  n21x  n21y  n12x  n12y  n22x  n22y
+
+ -15.000  -5.00  -0.145  0.127  -4.800  -23.077  6.4e-10  5.7e-10  -0.531
+ -0.034
+  -5.000   5.00  -0.145  0.127  -4.577  -21.923  1.5e-10  3.0e-10  -0.518
+ -0.030
+   5.020  15.00  -0.145  0.127  -3.524  -16.594  8.4e-11  9.9e-10  -0.457
+ -0.012
+ .
+ .
+ .
+ %  F
+    350.00
+ %  P1  P2  n11x  n11y  n21x  n21y  n12x  n12y  n22x  n22y
+
+ -15.000  -5.00  -0.102  0.113  22.951  -6.264   2.3e-11  8.3e-11  0.572
+   0.233
+  -5.000   5.00  -0.102  0.113  21.764  -5.952  -5.0e-10  6.5e-10  0.558
+  0.230
+   5.020  15.00  -0.102  0.113  16.176  -4.466  -4.1e-10  3.7e-10  0.493
+  0.217
+ END
+ BEGIN   NDATA
+ !  This is an optional block of data
+ #  AC( MHZ   RI  S   R  50.0 )
+ !  Optional Selection:   HZ, KHZ, MKZ, or GHZ;  Default is GHZ
+ !  Optional Selection:   S, Z, Y, H, or G;      Default is  S
+ !  Optional Selection:   MA, DB, or RI;         Default is MA
+ !  Optional Selection:   R  xx;  where xx = reference resistance;  Default  R
+50.0
+ ! An unlimited number of lines of frequency data can be specified
+ %  F    nfmin   n11x     n11y     rn
+ !  The above line is the format line showing the order in the following data
+lines
+ !  The columns of data can be in any order
+  250.00    0.874    0.131  150.374    0.048
+  260.00    0.880    0.127  149.640    0.049
+  270.00    0.886    0.124  148.895    0.050
+  280.00    0.892    0.121  148.136    0.050
+  290.00    0.897    0.118  147.363    0.051
+  300.00    0.903    0.115  146.574    0.051
+  310.00    0.909    0.111  145.769    0.052
+  320.00    0.915    0.108  144.944    0.053
+  330.00    0.921    0.105  144.098    0.053
+  340.00    0.927    0.101  143.230    0.054
+  350.00    0.933    0.098  142.335    0.055
+ END
+ BEGIN  IMTDATA
+ !   Intermodulation table for double balanced mixer #1
+ !   Signal Level (dBm)   LO Level (dBm)
+ #	  -10                 7
+ !    M x LO ( Horizontal )   N x Signal (Vertical )
+ ! 0   1   2   3   4   5   6   7   8   9   10  11  12  13  14  15
+ !
+   99  26  35  39  50  41  53  49  51  42  62  51  60  47  77  50
+   24   0  35  13  40  24  45  28  49  33  53  42  60  47  63
+   73  73  74  70  71  64  69  64  69  62  74  62  72  60
+   67  64  69  50  77  47  74  44  74  47  75  44  70
+   86  90  86  88  88  85  86  85  90  85  85  85
+   90  80  90  71  90  68  90  65  88  65  85
+   90  90  90  90  90  90  90  90  90  90
+   90  90  90  90  90  87  90  90  90
+   99  95  99  95  99  95  99  95
+   90  95  90  90  90  99  90
+   99  99  99  99  99  99
+   90  99  90  95  90
+   99  99  99  99
+   90  99  90
+   99  99
+   99
+ END

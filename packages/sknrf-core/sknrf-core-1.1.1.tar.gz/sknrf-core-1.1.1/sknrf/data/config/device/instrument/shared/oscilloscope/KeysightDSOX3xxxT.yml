@@ -1,0 +1,20 @@
+trigger_delay: 117.72e-06 # ALC OFF
+trigger_delay_min: 2.0e-9
+trigger_delay_max: 1.0e+12
+num_outputs: 4
+voltage_limit: [5.0, 5.0, 5.0, 5.0]
+current_limit: [2.0, 2.0, 2.0, 2.0]
+attenuation: [1, 1, 10, 10]
+unit: [V, V, A, A]
+v_i_port: 1
+v_q_port: 2
+i_i_port: 3
+i_q_port: 4
+points: [100,      250,      500,
+         1000,     2000,     5000,
+         10000,    20000,    50000,
+         100000,   200000,   500000,
+         1000000,  2000000,  5000000,
+         10000000, 20000000, 40000000, 80000000]
+oversampling: 4
+trigger_level: 2.5

@@ -1,0 +1,342 @@
+<?xml version="1.0"?>
+<CalKit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CalKitLabel>85052C</CalKitLabel>
+  <CalKitVersion />
+  <CalKitDescription>3.5 mm SOLT/TRL Calibration Kit</CalKitDescription>
+  <ConnectorList>
+    <Coaxial>
+      <Family>APC 3.5</Family>
+      <Gender>Male</Gender>
+      <MaximumFrequencyHz>38800000000</MaximumFrequencyHz>
+      <MinimumFrequencyHz>0</MinimumFrequencyHz>
+      <SystemZ0>50</SystemZ0>
+    </Coaxial>
+    <Coaxial>
+      <Family>APC 3.5</Family>
+      <Gender>Female</Gender>
+      <MaximumFrequencyHz>38800000000</MaximumFrequencyHz>
+      <MinimumFrequencyHz>0</MinimumFrequencyHz>
+      <SystemZ0>50</SystemZ0>
+    </Coaxial>
+  </ConnectorList>
+  <StandardList>
+    <OffsetLoadStandard>
+      <Label>9.26-32 Offset Load -M-</Label>
+      <Description>9.26-32 GHz male offset load</Description>
+      <preMeasureStandards>false</preMeasureStandards>
+      <PortConnectorIDs>APC 3.5 Male</PortConnectorIDs>
+      <MaximumFrequencyHz>32001000000</MaximumFrequencyHz>
+      <MinimumFrequencyHz>9260000000</MinimumFrequencyHz>
+      <StandardNumber>18</StandardNumber>
+      <Offset1StdIndex>15</Offset1StdIndex>
+      <Offset2StdIndex>16</Offset2StdIndex>
+      <TerminationStdIndx>20</TerminationStdIndx>
+    </OffsetLoadStandard>
+    <OffsetLoadStandard>
+      <Label>5.26-9.26 Offset Load -M-</Label>
+      <Description>5.26-9.26 GHz male offset load</Description>
+      <preMeasureStandards>false</preMeasureStandards>
+      <PortConnectorIDs>APC 3.5 Male</PortConnectorIDs>
+      <MaximumFrequencyHz>9270000000</MaximumFrequencyHz>
+      <MinimumFrequencyHz>5260000000</MinimumFrequencyHz>
+      <StandardNumber>23</StandardNumber>
+      <Offset1StdIndex>17</Offset1StdIndex>
+      <Offset2StdIndex>16</Offset2StdIndex>
+      <TerminationStdIndx>20</TerminationStdIndx>
+    </OffsetLoadStandard>
+    <OffsetLoadStandard>
+      <Label>3-5.26 Offset Load -M-</Label>
+      <Description>3-5.26 GHz male offset load</Description>
+      <preMeasureStandards>false</preMeasureStandards>
+      <PortConnectorIDs>APC 3.5 Male</PortConnectorIDs>
+      <MaximumFrequencyHz>5270000000</MaximumFrequencyHz>
+      <MinimumFrequencyHz>3000000000</MinimumFrequencyHz>
+      <StandardNumber>19</StandardNumber>
+      <Offset1StdIndex>15</Offset1StdIndex>
+      <Offset2StdIndex>17</Offset2StdIndex>
+      <TerminationStdIndx>20</TerminationStdIndx>
+    </OffsetLoadStandard>
+    <FixedLoadStandard>
+      <Label>ADPTR/LOAD -M-</Label>
+      <Description>Male load connected to M/F retractable adapter</Description>
+      <preMeasureStandards>false</preMeasureStandards>
+      <PortConnectorIDs>APC 3.5 Male</PortConnectorIDs>
+      <MaximumFrequencyHz>38800000000</MaximumFrequencyHz>
+      <MinimumFrequencyHz>0</MinimumFrequencyHz>
+      <StandardNumber>20</StandardNumber>
+      <Offset>
+        <OffsetDelay>0</OffsetDelay>
+        <OffsetLoss>0</OffsetLoss>
+        <OffsetZ0>50</OffsetZ0>
+      </Offset>
+    </FixedLoadStandard>
+    <FixedLoadStandard>
+      <Label>Broadband Load -M-</Label>
+      <Description>3.5 mm male broadband load</Description>
+      <preMeasureStandards>false</preMeasureStandards>
+      <PortConnectorIDs>APC 3.5 Male</PortConnectorIDs>
+      <MaximumFrequencyHz>38800000000</MaximumFrequencyHz>
+      <MinimumFrequencyHz>0</MinimumFrequencyHz>
+      <StandardNumber>1</StandardNumber>
+      <Offset>
+        <OffsetDelay>0</OffsetDelay>
+        <OffsetLoss>0</OffsetLoss>
+        <OffsetZ0>50</OffsetZ0>
+      </Offset>
+    </FixedLoadStandard>
+    <FixedLoadStandard>
+      <Label>0-2 Load -M-</Label>
+      <Description>0-2 GHz male low band load</Description>
+      <preMeasureStandards>false</preMeasureStandards>
+      <PortConnectorIDs>APC 3.5 Male</PortConnectorIDs>
+      <MaximumFrequencyHz>2000000000</MaximumFrequencyHz>
+      <MinimumFrequencyHz>0</MinimumFrequencyHz>
+      <StandardNumber>2</StandardNumber>
+      <Offset>
+        <OffsetDelay>0</OffsetDelay>
+        <OffsetLoss>0</OffsetLoss>
+        <OffsetZ0>50</OffsetZ0>
+      </Offset>
+    </FixedLoadStandard>
+    <OpenStandard>
+      <Label>OPEN -M-</Label>
+      <Description>3.5 mm male open</Description>
+      <preMeasureStandards>false</preMeasureStandards>
+      <PortConnectorIDs>APC 3.5 Male</PortConnectorIDs>
+      <MaximumFrequencyHz>38800000000</MaximumFrequencyHz>
+      <MinimumFrequencyHz>0</MinimumFrequencyHz>
+      <StandardNumber>3</StandardNumber>
+      <C0>4.9433E-14</C0>
+      <C1>-3.1013E-25</C1>
+      <C2>2.3168E-35</C2>
+      <C3>-1.5966E-46</C3>
+      <Offset>
+        <OffsetDelay>2.9243E-11</OffsetDelay>
+        <OffsetLoss>2200000000</OffsetLoss>
+        <OffsetZ0>50</OffsetZ0>
+      </Offset>
+    </OpenStandard>
+    <ShortStandard>
+      <Label>SHORT -M-</Label>
+      <Description>3.5 mm male short</Description>
+      <preMeasureStandards>false</preMeasureStandards>
+      <PortConnectorIDs>APC 3.5 Male</PortConnectorIDs>
+      <MaximumFrequencyHz>38800000000</MaximumFrequencyHz>
+      <MinimumFrequencyHz>0</MinimumFrequencyHz>
+      <StandardNumber>7</StandardNumber>
+      <L0>2.0765E-12</L0>
+      <L1>-1.0854E-22</L1>
+      <L2>2.1705E-33</L2>
+      <L3>-1E-44</L3>
+      <Offset>
+        <OffsetDelay>3.1785E-11</OffsetDelay>
+        <OffsetLoss>2360000000</OffsetLoss>
+        <OffsetZ0>50</OffsetZ0>
+      </Offset>
+    </ShortStandard>
+    <OffsetLoadStandard>
+      <Label>9.26-32 Offset Load -F-</Label>
+      <Description>9.26-32 GHz female offset load</Description>
+      <preMeasureStandards>false</preMeasureStandards>
+      <PortConnectorIDs>APC 3.5 Female</PortConnectorIDs>
+      <MaximumFrequencyHz>32001000000</MaximumFrequencyHz>
+      <MinimumFrequencyHz>9260000000</MinimumFrequencyHz>
+      <StandardNumber>21</StandardNumber>
+      <Offset1StdIndex>15</Offset1StdIndex>
+      <Offset2StdIndex>16</Offset2StdIndex>
+      <TerminationStdIndx>8</TerminationStdIndx>
+    </OffsetLoadStandard>
+    <OffsetLoadStandard>
+      <Label>5.26-9.26 Offset Load -F-</Label>
+      <Description>5.26-9.26 GHz female offset load</Description>
+      <preMeasureStandards>false</preMeasureStandards>
+      <PortConnectorIDs>APC 3.5 Female</PortConnectorIDs>
+      <MaximumFrequencyHz>9270000000</MaximumFrequencyHz>
+      <MinimumFrequencyHz>5260000000</MinimumFrequencyHz>
+      <StandardNumber>24</StandardNumber>
+      <Offset1StdIndex>17</Offset1StdIndex>
+      <Offset2StdIndex>16</Offset2StdIndex>
+      <TerminationStdIndx>8</TerminationStdIndx>
+    </OffsetLoadStandard>
+    <OffsetLoadStandard>
+      <Label>3-5.26 Offset Load -F-</Label>
+      <Description>3-5.26 GHz female offset load</Description>
+      <preMeasureStandards>false</preMeasureStandards>
+      <PortConnectorIDs>APC 3.5 Female</PortConnectorIDs>
+      <MaximumFrequencyHz>5270000000</MaximumFrequencyHz>
+      <MinimumFrequencyHz>3000000000</MinimumFrequencyHz>
+      <StandardNumber>22</StandardNumber>
+      <Offset1StdIndex>15</Offset1StdIndex>
+      <Offset2StdIndex>17</Offset2StdIndex>
+      <TerminationStdIndx>8</TerminationStdIndx>
+    </OffsetLoadStandard>
+    <FixedLoadStandard>
+      <Label>Broadband Load -F-</Label>
+      <Description>3.5 mm female broadband load</Description>
+      <preMeasureStandards>false</preMeasureStandards>
+      <PortConnectorIDs>APC 3.5 Female</PortConnectorIDs>
+      <MaximumFrequencyHz>38800000000</MaximumFrequencyHz>
+      <MinimumFrequencyHz>0</MinimumFrequencyHz>
+      <StandardNumber>8</StandardNumber>
+      <Offset>
+        <OffsetDelay>0</OffsetDelay>
+        <OffsetLoss>0</OffsetLoss>
+        <OffsetZ0>50</OffsetZ0>
+      </Offset>
+    </FixedLoadStandard>
+    <FixedLoadStandard>
+      <Label>0-2 Load -F-</Label>
+      <Description>0-2 GHz female low band load</Description>
+      <preMeasureStandards>false</preMeasureStandards>
+      <PortConnectorIDs>APC 3.5 Female</PortConnectorIDs>
+      <MaximumFrequencyHz>2000000000</MaximumFrequencyHz>
+      <MinimumFrequencyHz>0</MinimumFrequencyHz>
+      <StandardNumber>9</StandardNumber>
+      <Offset>
+        <OffsetDelay>0</OffsetDelay>
+        <OffsetLoss>0</OffsetLoss>
+        <OffsetZ0>50</OffsetZ0>
+      </Offset>
+    </FixedLoadStandard>
+    <OpenStandard>
+      <Label>OPEN -F-</Label>
+      <Description>3.5 mm female open</Description>
+      <preMeasureStandards>false</preMeasureStandards>
+      <PortConnectorIDs>APC 3.5 Female</PortConnectorIDs>
+      <MaximumFrequencyHz>38800000000</MaximumFrequencyHz>
+      <MinimumFrequencyHz>0</MinimumFrequencyHz>
+      <StandardNumber>10</StandardNumber>
+      <C0>4.9433E-14</C0>
+      <C1>-3.1013E-25</C1>
+      <C2>2.3168E-35</C2>
+      <C3>-1.5866E-46</C3>
+      <Offset>
+        <OffsetDelay>2.9243E-11</OffsetDelay>
+        <OffsetLoss>2300000000</OffsetLoss>
+        <OffsetZ0>50</OffsetZ0>
+      </Offset>
+    </OpenStandard>
+    <ShortStandard>
+      <Label>SHORT -F-</Label>
+      <Description>3.5 mm female short</Description>
+      <preMeasureStandards>false</preMeasureStandards>
+      <PortConnectorIDs>APC 3.5 Female</PortConnectorIDs>
+      <MaximumFrequencyHz>38800000000</MaximumFrequencyHz>
+      <MinimumFrequencyHz>0</MinimumFrequencyHz>
+      <StandardNumber>14</StandardNumber>
+      <L0>2.0765E-12</L0>
+      <L1>-1.0854E-22</L1>
+      <L2>2.1705E-33</L2>
+      <L3>-1E-44</L3>
+      <Offset>
+        <OffsetDelay>3.1785E-11</OffsetDelay>
+        <OffsetLoss>2360000000</OffsetLoss>
+        <OffsetZ0>50</OffsetZ0>
+      </Offset>
+    </ShortStandard>
+    <ThruStandard>
+      <Label>THRU</Label>
+      <Description>Insertable thru standard</Description>
+      <IsDevicePhysical>false</IsDevicePhysical>
+      <preMeasureStandards>false</preMeasureStandards>
+      <PortConnectorIDs>APC 3.5 Female</PortConnectorIDs>
+      <PortConnectorIDs>APC 3.5 Male</PortConnectorIDs>
+      <MaximumFrequencyHz>38800000000</MaximumFrequencyHz>
+      <MinimumFrequencyHz>0</MinimumFrequencyHz>
+      <StandardNumber>15</StandardNumber>
+      <Offset>
+        <OffsetDelay>0</OffsetDelay>
+        <OffsetLoss>0</OffsetLoss>
+        <OffsetZ0>50</OffsetZ0>
+      </Offset>
+    </ThruStandard>
+    <ThruStandard>
+      <Label>7-32 Line</Label>
+      <Description>7-32 TRL line standard</Description>
+      <preMeasureStandards>false</preMeasureStandards>
+      <PortConnectorIDs>APC 3.5 Female</PortConnectorIDs>
+      <PortConnectorIDs>APC 3.5 Male</PortConnectorIDs>
+      <MaximumFrequencyHz>32001000000</MaximumFrequencyHz>
+      <MinimumFrequencyHz>6999000000</MinimumFrequencyHz>
+      <StandardNumber>16</StandardNumber>
+      <Offset>
+        <OffsetDelay>1.3013E-11</OffsetDelay>
+        <OffsetLoss>1300000000</OffsetLoss>
+        <OffsetZ0>50</OffsetZ0>
+      </Offset>
+    </ThruStandard>
+    <ThruStandard>
+      <Label>2-7 Line</Label>
+      <Description>2-7 TRL line standard</Description>
+      <preMeasureStandards>false</preMeasureStandards>
+      <PortConnectorIDs>APC 3.5 Female</PortConnectorIDs>
+      <PortConnectorIDs>APC 3.5 Male</PortConnectorIDs>
+      <MaximumFrequencyHz>7001000000</MaximumFrequencyHz>
+      <MinimumFrequencyHz>1000000000</MinimumFrequencyHz>
+      <StandardNumber>17</StandardNumber>
+      <Offset>
+        <OffsetDelay>5.3988E-11</OffsetDelay>
+        <OffsetLoss>1300000000</OffsetLoss>
+        <OffsetZ0>50</OffsetZ0>
+      </Offset>
+    </ThruStandard>
+  </StandardList>
+  <KitClasses>
+    <KitClassID>SA</KitClassID>
+    <StandardsList>3,10</StandardsList>
+    <KitClassLabel>OPEN</KitClassLabel>
+  </KitClasses>
+  <KitClasses>
+    <KitClassID>SB</KitClassID>
+    <StandardsList>7,14</StandardsList>
+    <KitClassLabel>SHORT</KitClassLabel>
+  </KitClasses>
+  <KitClasses>
+    <KitClassID>SC</KitClassID>
+    <StandardsList>18,23,19,1,21,24,22,8</StandardsList>
+    <KitClassLabel>LOADS</KitClassLabel>
+  </KitClasses>
+  <KitClasses>
+    <KitClassID>FORWARD_THRU</KitClassID>
+    <StandardsList>15</StandardsList>
+    <KitClassLabel>THRU</KitClassLabel>
+  </KitClasses>
+  <KitClasses>
+    <KitClassID>FORWARD_MATCH</KitClassID>
+    <StandardsList>15</StandardsList>
+    <KitClassLabel>THRU</KitClassLabel>
+  </KitClasses>
+  <KitClasses>
+    <KitClassID>REVERSE_THRU</KitClassID>
+    <StandardsList>15</StandardsList>
+    <KitClassLabel>THRU</KitClassLabel>
+  </KitClasses>
+  <KitClasses>
+    <KitClassID>REVERSE_MATCH</KitClassID>
+    <StandardsList>15</StandardsList>
+    <KitClassLabel>THRU</KitClassLabel>
+  </KitClasses>
+  <KitClasses>
+    <KitClassID>TRL_REFLECT</KitClassID>
+    <StandardsList>7,14</StandardsList>
+    <KitClassLabel>Short</KitClassLabel>
+  </KitClasses>
+  <KitClasses>
+    <KitClassID>TRL_THRU</KitClassID>
+    <StandardsList>15</StandardsList>
+    <KitClassLabel>Thru</KitClassLabel>
+  </KitClasses>
+  <KitClasses>
+    <KitClassID>TRL_LINE</KitClassID>
+    <StandardsList>16,17,1,2,8,9</StandardsList>
+    <KitClassLabel>Lines</KitClassLabel>
+  </KitClasses>
+  <KitClasses>
+    <KitClassID>TRL_MATCH</KitClassID>
+    <StandardsList>16,17,1,2,8,9</StandardsList>
+    <KitClassLabel>TRL MATCH</KitClassLabel>
+  </KitClasses>
+  <TRLRefPlane>ThruStandard</TRLRefPlane>
+  <TRLZref>SystemZ0</TRLZref>
+  <LRLAutoCharacterization>UseAutoCharacterization</LRLAutoCharacterization>
+</CalKit>

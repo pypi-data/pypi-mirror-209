@@ -1,0 +1,8 @@
+trigger_delay: 0.0e-9
+trigger_delay_min: 0.0
+trigger_delay_max: 1.0e+12
+marker_level: 2.0
+trigger_level: 2.5
+resample: 1.0
+voltage_limit: 5.0
+

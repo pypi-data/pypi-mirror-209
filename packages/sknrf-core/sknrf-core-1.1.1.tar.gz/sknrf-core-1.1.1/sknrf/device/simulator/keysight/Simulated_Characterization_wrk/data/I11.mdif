@@ -1,0 +1,5 @@
+BEGIN IQ_Block
+% time(real) I(real)
+0.00000e-6 1.00000
+1.00000e-6 1.00000
+END

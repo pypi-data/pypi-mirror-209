@@ -1,0 +1,26 @@
+Uart: screen /dev/ttyUSB0 115200
+Socket: nc -q 0 172.16.0.160 9760 < iqdata16k_160mhz_scl.txt
+
+
+import os
+os.system("nc -q 0 172.16.0.160 9760 < iqdata16k_160mhz_scl.txt")  # Blocking
+
+import subprocess
+
+try:
+    f = open("filename.txt", 'wt')
+except ValueError:
+    do stuff
+else:
+finally:
+    f.close()
+
+
+filename = "filename.txt"
+with open(filename, 'wt') as f:
+    f.write("something\n")
+
+
+
+os.system("nc -q 0 172.16.0.160 9760 < {:s}".format(filename))  # Blocking
+cksum iqdata16k_160mhz_scl.txt

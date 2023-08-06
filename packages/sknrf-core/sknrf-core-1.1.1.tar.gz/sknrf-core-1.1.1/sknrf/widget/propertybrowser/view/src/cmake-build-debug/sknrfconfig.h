@@ -1,0 +1,11 @@
+// Version
+#define SKNRF_VERSION_MAJOR 1
+#define SKNRF_VERSION_MINOR 0
+#define SKNRF_VERSION_PATCH 1
+
+// Build Options
+#define SKNRF_BUILD_DOC  0
+#define SKNRF_BUILD_EXTRA  0
+#define SKNRF_BUILD_PLUGIN  0
+#define SKNRF_BUILD_PY  0
+#define SKNRF_BUILD_TEST  0

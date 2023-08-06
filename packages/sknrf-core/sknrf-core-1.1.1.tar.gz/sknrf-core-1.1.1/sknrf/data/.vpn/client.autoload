@@ -1,0 +1,8 @@
+{
+    "autostart": true,
+    "user-auth": {
+        "autologin": true,
+        "username": "tilemasters",
+        "password": "Tilem@sters1"
+    }
+}

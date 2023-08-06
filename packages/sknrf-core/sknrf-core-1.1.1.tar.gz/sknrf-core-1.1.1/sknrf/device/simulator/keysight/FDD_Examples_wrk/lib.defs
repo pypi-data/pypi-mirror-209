@@ -1,0 +1,4 @@
+INCLUDE $HPEESOF_DIR/oalibs/ads.defs
+DEFINE FDD_Examples_lib ./FDD_Examples_lib
+ASSIGN FDD_Examples_lib writePath FDD_Examples_lib
+ASSIGN FDD_Examples_lib libMode shared

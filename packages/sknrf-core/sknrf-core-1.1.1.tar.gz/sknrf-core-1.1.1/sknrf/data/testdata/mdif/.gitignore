@@ -1,0 +1,17 @@
+*
+!.gitignore
+!DSCR1.dscr
+!P2D1.p2d
+!S2D1.s2d
+!S2D2.s2d
+!TIM1.tim
+!attribute.mdf
+!begin.mdf
+!comment.mdf
+!dependent.mdf
+!group.mdf
+!sweep.mdf
+!test_datagroup
+!test_datagroup.mdf
+!test_single.mdf
+!test_sweep.mdf

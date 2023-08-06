@@ -1,0 +1,73 @@
+1     7.703    0 0
+10    1    "A_Readme"    2    1093331692    0    0    1    0
+20    0    ""    -4375 -7062 1286 3292 1    2 -3 1    0    0    "schematic.prf" "schematic.lay"
+40    4    0    0    0
+40    5    0    0    0
+50    6    -4375 -7062 1286 3292 1    0    0    0    0    0    0    0    0
+62    0    167    9    -4375 3125 0    62    0    0    0    12    0   "Arial For CAE"   `This file contains a number of SDD (Symbolically-Defined Device) examples.  
+These devices allow users to quickly, easily and reliably add custom 
+nonlinear models to the circuit and RF system simulator in the 
+Advanced Design System.
+* Users define port voltages and currents as functions of other voltages
+  and currents.
+* No C-coding or compilation is required.
+* Derivatives are generated automatically by the simulator.
+
+SDD_cap is a simple, voltage-dependent 
+  capacitor model.
+SDD_cap2 is a similar voltage-dependent
+  capacitor model, that behaves identically.
+Test_SDD_cap simulates the  
+  capacitance versus bias voltage.
+* No need to learn how to "load the matrix".
+* One set of equations is used for all analysis types, including DC,
+  AC, S-parameter, harmonic balance, and Circuit Envelope.
+
+Cubic is a simple, third-order nonlinear "resistor" implemented 
+  with an SDD.  The I-V curve as well as the current spectrum and
+  time-domain waveform are simulated.
+SDD_Diode is a diode modeled with an SDD.  This model can be used to 
+  model a varactor diode, also.
+TestDiode simulates the bias-dependent capacitance of the SDD_Diode.
+selfHeatingDiode  shows how to include a diode's self-heating in its
+model.
+Test_selfHeatingDiode performs a DC simulation to get the I-V curve
+which includes the effect of the junction temperature.
+NonlinearAmp is an ideal amplifier modeled with a two-port SDD.  The 
+  user can set input and output resistances, small-signal gain, and
+  saturated output voltage.
+TestAmp simulates the DC input-output voltage characteristic as well
+  as the compression characteristic of the NonlinearAmp.
+IdealMixer simulates an ideal mixer (really a voltage multiplier)
+  with a three port SDD.
+RemCC is an example of a controlling current used in an SDD.  The
+  voltage at the output of an SDD is a function of the current in a
+  voltage source.  A voltage is generated that is equal to the 
+  instantaneous power dissipated in a resistor.
+Sine simulates an SDD implementation of an ideal VCO.  An FM signal
+  is applied to the control voltage input, and the time-domain
+  signal and spectrum are plotted.
+VCObd is a block diagram of a VCO, but it is not simulated.
+WeightLPF is an example that shows how to define several weighting
+  functions.  These functions allow the user to define equations with
+  derivatives and more complicated expressions.
+RecConv shows a pulse driving a low-pass filter, implemented via a 
+  polynomial.  Recursive convolution, which
+  handles frequency responses with polynomials more efficiently in the
+  time domain, is used in the simulation.
+GumPoon implements a Gummel-Poon BJT model via an SDD.
+GumPoon_DCtest simulates the DC I-V curves of the device.
+GilCellMix is a Gilbert cell mixer implemented with the SDD Gummel-Poon
+  model (although the biasing resistors have not been optimized so the 
+  mixer does not have good conversion gain.)
+MixHBTest is a simple harmonic balance simulation of the Gilbert cell
+  mixer.
+
+SDD_cap is a simple, voltage-dependent capacitor model. SDD_cap2 is a similar
+voltage-dependent capacitor model, that behaves identically. Test_SDD_cap 
+simulates the capacitance versus bias voltage.`
+44    0    0    0    0    0    0    0
+21
+20    1    ""    0 0 0 0 0    1 -2 1    0    0    "layout.prf" "layout.lay"
+44    0    0    0    0    0    0    0
+21

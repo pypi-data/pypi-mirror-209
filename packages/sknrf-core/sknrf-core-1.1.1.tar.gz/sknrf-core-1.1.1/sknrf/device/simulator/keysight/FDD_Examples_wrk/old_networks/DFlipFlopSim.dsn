@@ -1,0 +1,216 @@
+1     7.703    0 0
+10    1    "DFlipFlopSim"    2    1093329671    0    7    1    0
+20    0    ""    -903 -2344 6091 1569 1    2 -3 1    1093329671    0    "schematic.prf" "schematic.lay"
+30    209062584    1    "P1"    1    0    0    209062448    211958632    209699104    0    2875 625 180000    0   0   0   0   0   ""   0   ""   0   ""   ""   ""
+30    209062448    1    "P2"    2    0    0    209062312    211958632    209699148    0    4125 625 0    0   0   0   0   0   ""   0   ""   0   ""   ""   ""
+50    10    4125 625 4292 792 1    0    0    0    0    0    0    0    0
+62    0    167    73    4125 625 0    1    0    0    0    12    37   "Arial For CAE"   `Q`
+30    209062312    1    "P3"    3    0    0    209062176    211958632    209699016    0    2874 406 180000    0   0   0   0   0   ""   0   ""   0   ""   ""   ""
+30    209062176    1    "P4"    4    0    0    0    211958632    209699060    0    4128 405 0    0   0   0   0   0   ""   0   ""   0   ""   ""   ""
+50    10    4128 405 4614 572 1    0    0    0    0    0    0    0    0
+62    0    167    73    4128 405 0    1    0    0    0    12    37   "Arial For CAE"   `Qbar`
+30    209068160    1    ""    1    0    209062584    209068296    214499496    209699104    0    -250 -125 90000    0   0   1   0   0   ""   0   ""   0   ""   ""   ""
+30    209068296    1    ""    2    1    209068840    0    214499496    209698972    0    -250 -1125 -90000    0   0   1   0   0   ""   0   ""   0   ""   ""   ""
+30    209068432    1    ""    1    0    209062312    209068568    213923352    209699016    0    1875 -250 90000    0   0   1   0   0   ""   0   ""   0   ""   ""   ""
+30    209068568    1    ""    2    1    209068704    0    213923352    209698928    0    1875 -1250 -90000    0   0   1   0   0   ""   0   ""   0   ""   ""   ""
+30    209068704    1    ""    1    2    0    0    213926440    209698928    0    1875 -1250 90000    0   0   1   0   0   ""   0   ""   0   ""   ""   ""
+30    209068840    1    ""    1    2    0    0    207203184    209698972    0    -250 -1125 90000    0   0   1   0   0   ""   0   ""   0   ""   ""   ""
+32    211971904    1    209068432    1    209062312    0    0    0    ""  0
+60    3    0    4    1875 -250 2874 406 1    0    0    0    0
+70    1875 -250    2874 375    0 406
+50    10    2375 406 2931 573 1    0    0    0    0    0    0    0    0
+62    0    167    73    2375 406 0    1    0    0    0    12    37   "Arial For CAE"   `Clock`
+32    211972336    1    209068160    1    209062584    0    0    0    ""  0
+60    3    0    3    -250 -125 2875 625 1    0    0    0    0
+70    -250 -125    2875 625
+50    10    1313 625 1785 792 1    0    0    0    0    0    0    0    0
+62    0    167    73    1313 625 0    1    0    0    0    12    37   "Arial For CAE"   `Data`
+32    207506304    1    209068296    1    209068840    0    0    0    ""  0
+60    4    0    1    -250 -1125 -250 -1125 1    0    0    0    0
+70    -250 -1125
+32    207284024    1    209068568    1    209068704    0    0    0    ""  0
+60    4    0    1    1875 -1250 1875 -1250 1    0    0    0    0
+70    1875 -1250
+40    4    0    0    0
+50    4    1875 -250 2931 573 1    0    0    0    0    0    0    0    0    211971904
+50    4    -250 -125 2875 792 1    0    0    0    0    0    0    0    0    211972336
+50    4    -250 -1125 -250 -1125 1    0    0    0    0    0    0    0    0    207506304
+50    4    1875 -1250 1875 -1250 1    0    0    0    0    0    0    0    0    207284024
+50    6    -903 1375 2653 1569 1    0    0    0    0    0    0    0    0
+62    0    194    17    875 1375 0    1    0    0    0    14    0   "Arial For CAE"   `Flip Flop with logic and clock input signals`
+41    211958632    0    16    "X1"    "DFlipFlop"    "DFlipFlop"    2874 -631 4614 792 1    0 "" 0
+    209062584    0    4    2875 625 0 1 1 0 0    0    97    0    0    1093329671    17  ""    2874 270 4614 792 1    3030 -631 3878 118 1    0 0 0 0 0 0
+40    6    0    0    0
+50    6    155 -632 685 -507 1    0    0    0    0    0    0    0    0
+62    0    125    9    155 -632 0    1    1    0    0    0    0   "Arial For CAE"   `DFlipFlop`
+40    7    0    0    0
+50    6    155 -788 290 -663 1    0    0    0    0    0    0    0    0
+62    0    125    9    155 -788 0    1    2    0    0    0    0   "Arial For CAE"   `X1`
+40    8    0    0    0
+50    6    155 -944 984 -819 1    0    0    0    0    0    0    0    0
+62    0    125    9    155 -944 0    1    3    0    1    0    0   "Arial For CAE"   `vthresh_in=2 V`
+50    6    155 -1100 1003 -975 1    0    0    0    0    0    0    0    0
+62    0    125    9    155 -1100 0    1    3    0    2    0    0   "Arial For CAE"   `vlow_out=0.1 V`
+50    6    155 -1256 945 -1131 1    0    0    0    0    0    0    0    0
+62    0    125    9    155 -1256 0    1    3    0    3    0    0   "Arial For CAE"   `vhigh_out=5 V`
+80    5    "vthresh_in"    "StdForm"    0    0    "2 V"    0   0
+80    5    "vlow_out"    "StdForm"    0    0    "0.1 V"    0   0
+80    5    "vhigh_out"    "StdForm"    0    0    "5 V"    0   0
+41    214499496    0    0    "SRC1"    "VtPulse"    "SYM_VtPulse"    -440 -2029 879 -125 1    0 "" 0
+    209068160    0    2    -250 -125 -90000 1 1 0 0    0    104    0    0    970252981    17  ""    -440 -1125 -60 -125 1    0 0 0 0 0    0 0 0 0 0 0
+40    6    0    0    0
+50    6    252 -500 695 -375 1    0    0    0    0    0    0    0    0
+62    0    125    9    252 -500 0    1    1    0    0    0    0   "Arial For CAE"   `VtPulse`
+40    7    0    0    0
+50    6    252 -656 580 -531 1    0    0    0    0    0    0    0    0
+62    0    125    9    252 -656 0    1    2    0    0    0    0   "Arial For CAE"   `SRC1`
+40    8    0    0    0
+50    6    252 -812 792 -687 1    0    0    0    0    0    0    0    0
+62    0    125    9    252 -812 0    1    3    0    1    0    0   "Arial For CAE"   `Vlow=0 V`
+50    6    252 -968 840 -843 1    0    0    0    0    0    0    0    0
+62    0    125    9    252 -968 0    1    3    0    2    0    0   "Arial For CAE"   `Vhigh=4 V`
+50    6    252 -1124 1023 -999 1    0    0    0    0    0    0    0    0
+62    0    125    9    252 -1124 0    1    3    0    3    0    0   "Arial For CAE"   `Delay=4 nsec`
+50    6    252 -1280 917 -1155 1    0    0    0    0    0    0    0    0
+62    0    125    9    252 -1280 0    1    3    0    4    0    0   "Arial For CAE"   `Edge=linear`
+50    6    252 -1436 955 -1311 1    0    0    0    0    0    0    0    0
+62    0    125    9    252 -1436 0    1    3    0    5    0    0   "Arial For CAE"   `Rise=0 nsec`
+50    6    252 -1592 907 -1467 1    0    0    0    0    0    0    0    0
+62    0    125    9    252 -1592 0    1    3    0    6    0    0   "Arial For CAE"   `Fall=0 nsec`
+50    6    252 -1748 1100 -1623 1    0    0    0    0    0    0    0    0
+62    0    125    9    252 -1748 0    1    3    0    7    0    0   "Arial For CAE"   `Width=20 nsec`
+50    6    252 -1904 1129 -1779 1    0    0    0    0    0    0    0    0
+62    0    125    9    252 -1904 0    1    3    0    8    0    0   "Arial For CAE"   `Period=80 nsec`
+80    5    "Vlow"    "StdForm"    0    0    "0 V"    0   0
+80    5    "Vhigh"    "StdForm"    0    0    "4 V"    0   0
+80    5    "Delay"    "StdForm"    0    0    "4 nsec"    0   0
+80    6    "Edge"    "linear"    0    0    ""    0   0
+80    5    "Rise"    "StdForm"    0    0    "0 nsec"    0   0
+80    5    "Fall"    "StdForm"    0    0    "0 nsec"    0   0
+80    5    "Width"    "StdForm"    0    0    "20 nsec"    0   0
+80    5    "Period"    "StdForm"    0    0    "80 nsec"    0   0
+80    6    "SaveCurrent"    "y_n1"    0    0    ""    1   0
+41    213923352    0    0    "SRC2"    "VtPulse"    "SYM_VtPulse"    1685 -2279 3004 -250 1    0 "" 0
+    209068432    0    3    1875 -250 -90000 1 1 0 0    0    104    0    0    970252981    17  ""    1685 -1250 2065 -250 1    0 0 0 0 0    0 0 0 0 0 0
+40    6    0    0    0
+50    6    252 -625 695 -500 1    0    0    0    0    0    0    0    0
+62    0    125    9    252 -625 0    1    1    0    0    0    0   "Arial For CAE"   `VtPulse`
+40    7    0    0    0
+50    6    252 -781 580 -656 1    0    0    0    0    0    0    0    0
+62    0    125    9    252 -781 0    1    2    0    0    0    0   "Arial For CAE"   `SRC2`
+40    8    0    0    0
+50    6    252 -937 792 -812 1    0    0    0    0    0    0    0    0
+62    0    125    9    252 -937 0    1    3    0    1    0    0   "Arial For CAE"   `Vlow=0 V`
+50    6    252 -1093 840 -968 1    0    0    0    0    0    0    0    0
+62    0    125    9    252 -1093 0    1    3    0    2    0    0   "Arial For CAE"   `Vhigh=5 V`
+50    6    252 -1249 1090 -1124 1    0    0    0    0    0    0    0    0
+62    0    125    9    252 -1249 0    1    3    0    3    0    0   "Arial For CAE"   `Delay=10 nsec`
+50    6    252 -1405 917 -1280 1    0    0    0    0    0    0    0    0
+62    0    125    9    252 -1405 0    1    3    0    4    0    0   "Arial For CAE"   `Edge=linear`
+50    6    252 -1561 955 -1436 1    0    0    0    0    0    0    0    0
+62    0    125    9    252 -1561 0    1    3    0    5    0    0   "Arial For CAE"   `Rise=0 nsec`
+50    6    252 -1717 907 -1592 1    0    0    0    0    0    0    0    0
+62    0    125    9    252 -1717 0    1    3    0    6    0    0   "Arial For CAE"   `Fall=0 nsec`
+50    6    252 -1873 1100 -1748 1    0    0    0    0    0    0    0    0
+62    0    125    9    252 -1873 0    1    3    0    7    0    0   "Arial For CAE"   `Width=13 nsec`
+50    6    252 -2029 1129 -1904 1    0    0    0    0    0    0    0    0
+62    0    125    9    252 -2029 0    1    3    0    8    0    0   "Arial For CAE"   `Period=25 nsec`
+80    5    "Vlow"    "StdForm"    0    0    "0 V"    0   0
+80    5    "Vhigh"    "StdForm"    0    0    "5 V"    0   0
+80    5    "Delay"    "StdForm"    0    0    "10 nsec"    0   0
+80    6    "Edge"    "linear"    0    0    ""    0   0
+80    5    "Rise"    "StdForm"    0    0    "0 nsec"    0   0
+80    5    "Fall"    "StdForm"    0    0    "0 nsec"    0   0
+80    5    "Width"    "StdForm"    0    0    "13 nsec"    0   0
+80    5    "Period"    "StdForm"    0    0    "25 nsec"    0   0
+80    6    "SaveCurrent"    "y_n1"    0    0    ""    1   0
+41    213926440    0    131073    "G2"    "GROUND"    "SYM_Ground"    1750 -1500 2000 -1250 1    0 "" 0
+    209068704    0    6    1875 -1250 -90000 1 1 0 0    0    97    0    0    970252981    0  ""    1750 -1500 2000 -1250 1    0 0 0 0 0    0 0 0 0 0 0
+41    213926672    0    1073741824    "Tran1"    "Tran"    "SYM_TRANSIENT"    4000 -2344 6091 -1250 1    0 "" 0
+    0    0    7    4000 -1250 0 1 1 0 0    0    104    0    0    1093329671    17  ""    3999 -1717 6014 -1249 1    0 0 0 0 0    0 0 0 0 0 0
+40    6    0    0    0
+50    6    156 -626 503 -501 1    0    0    0    0    0    0    0    0
+62    0    125    9    156 -626 0    1    1    0    0    10    0   "Arial For CAE"   `Tran`
+40    7    0    0    0
+50    6    156 -782 600 -657 1    0    0    0    0    0    0    0    0
+62    0    125    9    156 -782 0    1    2    0    0    10    0   "Arial For CAE"   `Tran1`
+40    8    0    0    0
+50    6    156 -1094 1934 -969 1    0    0    0    0    0    0    0    0
+62    0    125    9    156 -1094 0    1    3    0    2    10    0   "Arial For CAE"   `MaxTimeStep=0.5 nsec`
+50    6    156 -938 1837 -813 1    0    0    0    0    0    0    0    0
+62    0    125    9    156 -938 0    1    3    0    1    10    0   "Arial For CAE"   `StopTime=300.0 nsec`
+80    5    "StartTime"    "StdForm"    0    0    "0.0 nsec"    1   0
+80    5    "StopTime"    "StdForm"    0    0    "300.0 nsec"    0   0
+80    5    "MaxTimeStep"    "StdForm"    0    0    "0.5 nsec"    0   0
+80    5    "MinTimeStep"    "StdForm"    0    0    ""    1   0
+80    6    "LimitStepForTL"    "YES"    0    0    ""    1   0
+80    6    "TimeStepControl"    "TimeStepTruncError"    0    0    ""    1   0
+80    5    "TruncTol"    "StdForm"    0    0    "7.0"    1   0
+80    5    "ChargeTol"    "StdForm"    0    0    "1.0e-14"    1   0
+80    6    "IntegMethod"    "IntegTrapezoidal"    0    0    ""    1   0
+80    5    "MaxGearOrder"    "StdForm"    0    0    "6"    1   0
+80    5    "Mu"    "StdForm"    0    0    "0.5"    1   0
+80    5    "MaxOrder"    "StdForm"    0    0    "4"    1   0
+80    3    "Freq"    "list"    0    1    ""    1   0
+80    5    "Freq"    "StdForm"    0    0    ""    1   0
+80    3    "Order"    "list"    0    1    ""    1   0
+80    5    "Order"    "StdForm"    0    0    "3"    1   0
+80    6    "HB_Window"    "NO"    0    0    ""    1   0
+80    6    "HB_Sol"    "NO"    0    0    ""    1   0
+80    5    "HB_OutFile"    "StringAndReference"    0    0    " "    1   0
+80    6    "ImpApprox"    "NO"    0    0    ""    1   0
+80    5    "ShortTL_Delay"    "StdForm"    0    0    "1.0 psec"    1   0
+80    5    "ImpMaxFreq"    "StdForm"    0    0    ""    1   0
+80    5    "ImpDeltaFreq"    "StdForm"    0    0    ""    1   0
+80    5    "ImpMaxPts"    "StdForm"    0    0    "4096"    1   0
+80    5    "ImpRelTrunc"    "StdForm"    0    0    "1.0e-4"    1   0
+80    5    "ImpAbsTrunc"    "StdForm"    0    0    "1.0e-7"    1   0
+80    6    "ImpInterpOrder"    "ImpInterpOrder1"    0    0    ""    1   0
+80    6    "ImpMode"    "CModeDiscrete"    0    0    ""    1   0
+80    6    "ImpWindow"    "WindowTypeHanning"    0    0    ""    1   0
+80    5    "ImpNoncausalLength"    "StdForm"    0    0    "32"    1   0
+80    6    "UseInitCond"    "NO"    0    0    ""    1   0
+80    6    "LoadGminDC"    "NO"    0    0    ""    1   0
+80    6    "CheckKCL"    "YES"    0    0    ""    1   0
+80    6    "CheckOnlyDeltaV"    "YES"    0    0    ""    1   0
+80    6    "OverloadAlert"    "NO"    0    0    ""    1   0
+80    6    "DeviceBypass"    "NO"    0    0    ""    1   0
+80    5    "MaxIters"    "StdForm"    0    0    "10"    1   0
+80    5    "MaxItersDC"    "StdForm"    0    0    "200"    1   0
+80    6    "DevOpPtLevel"    "DeviceOpNone"    0    0    ""    1   0
+80    5    "StatusLevel"    "StdForm"    0    0    "2"    1   0
+80    6    "OutputAllPoints"    "YES"    0    0    ""    1   0
+80    5    "NoiseBandwidth"    "StdForm"    0    0    ""    1   0
+80    5    "NoiseScale"    "StdForm"    0    0    "1"    1   0
+80    3    "OutputPlan"    "list"    0    1    ""    1   0
+80    5    "OutputPlan"    "StdForm"    0    0    ""    1   0
+80    6    "UseNodeNestLevel"    "OutputPlan_BooleanYes"    0    0    ""    1   0
+80    5    "NodeNestLevel"    "SingleTextLineInteger"    0    0    "2"    1   0
+80    3    "NodeName"    "list"    0    1    ""    1   0
+80    5    "NodeName"    "StringAndReference"    0    0    ""    1   0
+80    6    "UseEquationNestLevel"    "OutputPlan_BooleanYes"    0    0    ""    1   0
+80    5    "EquationNestLevel"    "SingleTextLineInteger"    0    0    "2"    1   0
+80    3    "EquationName"    "list"    0    1    ""    1   0
+80    5    "EquationName"    "StringAndReference"    0    0    ""    1   0
+80    5    "Other"    "OtherForm"    0    0    ""    1   0
+80    6    "UseSavedEquationNestLevel"    "OutputPlan_BooleanYes"    0    0    ""    1   0
+80    5    "SavedEquationNestLevel"    "SingleTextLineInteger"    0    0    "2"    1   0
+80    3    "SavedEquationName"    "list"    0    1    ""    1   0
+80    5    "SavedEquationName"    "StringAndReference"    0    0    ""    1   0
+80    3    "AttachedEquationName"    "list"    0    1    ""    1   0
+80    5    "AttachedEquationName"    "StringAndReference"    0    0    ""    1   0
+80    5    "SteadyState"    "StdForm"    0    0    ""    1   0
+80    5    "IV_RelTol"    "StdForm"    0    0    ""    1   0
+41    207203184    0    131073    "G1"    "GROUND"    "SYM_Ground"    -375 -1375 -125 -1125 1    0 "" 0
+    209068840    0    5    -250 -1125 -90000 1 1 0 0    0    97    0    0    970252981    0  ""    -375 -1375 -125 -1125 1    0 0 0 0 0    0 0 0 0 0 0
+43    209699060    0    "Qbar"    209062176    21    ""   0
+43    209699016    0    "Clock"    209068432    20    ""   0
+43    209699148    0    "Q"    209062448    19    ""   0
+43    209699104    0    "Data"    209068160    18    ""   0
+43    209698972    0    ""    209068296    0    ""   0
+43    209698928    0    ""    209068568    0    ""   0
+44    0    0    0    0    0    0    0
+21
+20    1    ""    0 0 0 0 0    1 -2 1    0    0    "layout.prf" "layout.lay"
+44    0    0    0    0    0    0    0
+21

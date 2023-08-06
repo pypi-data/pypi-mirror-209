@@ -1,0 +1,10 @@
+#gcc>=9.4
+#qt>=6.4.0
+#cmake>=3.18
+#git>=2.0
+#libclang>=10.0
+#python3>=3.8
+pyyaml>=5.3.1
+#doxygen>=1.8.17
+#graphviz>=2.42.2
+

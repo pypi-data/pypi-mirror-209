@@ -1,0 +1,10 @@
+mipi_driver: NoMIPIServer
+mipi_server_config_filename: ''
+mipi_config_filename:
+    - ''
+    - ''
+video_config_filename:
+    - ''
+trigger_delay: 0.0
+trigger_delay_min: 1.0e-12
+trigger_delay_max: 1.0e+12

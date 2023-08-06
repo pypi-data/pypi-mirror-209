@@ -1,0 +1,173 @@
+NONE: &NONE
+    E_UTRA1:
+        GENERAL: &NONE_E_UTRA1_GENERAL # Table 6.6.2.3.1-1: General requirements for E-UTRAACLR
+            BW_1p4M:
+                aclr:           0.03162 # 30dBc
+                meas_bw:        1.08e+6
+                freq_offset:    1.4e+6
+            BW_3M:
+                aclr:           0.03162 # 30dBc
+                meas_bw:        2.70e+6
+                freq_offset:    3.0e+6
+            BW_5M:
+                aclr:           0.03162 # 30dBc
+                meas_bw:        4.50e+6
+                freq_offset:    5.0e+6
+            BW_10M:
+                aclr:           0.03162 # 30dBc
+                meas_bw:        9.00e+6
+                freq_offset:    10.0e+6
+            BW_15M:
+                aclr:           0.03162 # 30dBc
+                meas_bw:        13.5e+6
+                freq_offset:    15.0e+6
+            BW_20M:
+                aclr:           0.03162 # 30dBc
+                meas_bw:        18.0e+6
+                freq_offset:    20.0e+6
+        CLASS1: &NONE_E_UTRA1_CLASS1 # Table 6.6.2.3.1-2: Additional E-UTRAACLR requirements for Power Class 1
+            # NOTE 1: E-UTRAACLR1 shall be applicable for >23dBm
+            BW_1p4M:
+                aclr:           0.01412 # 37 dBc
+                meas_bw:        1.08e+6
+                freq_offset:    1.4e+6
+            BW_3M:
+                aclr:           0.01412 # 37 dBc
+                meas_bw:        2.70e+6
+                freq_offset:    3.0e+6
+            BW_5M:
+                aclr:           0.01412 # 37 dBc
+                meas_bw:        4.50e+6
+                freq_offset:    5.0e+6
+            BW_10M:
+                aclr:           0.01412 # 37 dBc
+                meas_bw:        9.00e+6
+                freq_offset:    10.0e+6
+            BW_15M:
+                aclr:           0.01412 # 37 dBc
+                meas_bw:        13.5e+6
+                freq_offset:    15.0e+6
+            BW_20M:
+                aclr:           0.01412 # 37 dBc
+                meas_bw:        18.0e+6
+                freq_offset:    20.0e+6
+        CLASS2: &NONE_E_UTRA1_CLASS2 # Table 6.6.2.3.1-3: Additional E-UTRAACLR requirements for Power Class 2
+            BW_1p4M:
+                aclr:           !!float "nan"
+                meas_bw:        !!float "nan"
+                freq_offset:    !!float "nan"
+            BW_3M:
+                aclr:           !!float "nan"
+                meas_bw:        !!float "nan"
+                freq_offset:    !!float "nan"
+            BW_5M:
+                aclr:           0.02818 # 31 dBc
+                meas_bw:        4.50e+6
+                freq_offset:    5.0e+6
+            BW_10M:
+                aclr:           0.02818 # 31 dBc
+                meas_bw:        9.00e+6
+                freq_offset:    10.0e+6
+            BW_15M:
+                aclr:           0.02818 # 31 dBc
+                meas_bw:        13.5e+6
+                freq_offset:    15.0e+6
+            BW_20M:
+                aclr:           0.02818 # 31 dBc
+                meas_bw:        18.0e+6
+                freq_offset:    20.0e+6
+    UTRA1: &NONE_UTRA1
+        GENERAL: &NONE_UTRA1_GENERAL # Table 6.6.2.3.2-1: Requirements for UTRAACLR1
+            BW_1p4M:
+                aclr:           0.02238 # 33dBc
+                meas_bw:        1.08e+6
+                freq_offset:    0.70e+6
+            BW_3M:
+                aclr:           0.02238 # 33dBc
+                meas_bw:        2.70e+6
+                freq_offset:    1.50e+6
+            BW_5M:
+                aclr:           0.02238 # 33dBc
+                meas_bw:        4.50e+6
+                freq_offset:    2.50e+6
+            BW_10M:
+                aclr:           0.02238 # 33dBc
+                meas_bw:        9.00e+6
+                freq_offset:    5.00e+6
+            BW_15M:
+                aclr:           0.02238 # 33dBc
+                meas_bw:        13.5e+6
+                freq_offset:    7.50e+6
+            BW_20M:
+                aclr:           0.02238 # 33dBc
+                meas_bw:        18.0e+6
+                freq_offset:    10.0e+6
+        CLASS1: *NONE_UTRA1_GENERAL
+        CLASS2: *NONE_UTRA1_GENERAL
+    UTRA2: &NONE_UTRA2
+        GENERAL: &NONE_UTRA2_GENERAL # Table 6.6.2.3.2-1: Requirements for UTRAACLR2
+            BW_1p4M:
+                aclr:           !!float "nan"
+                meas_bw:        !!float "nan"
+                freq_offset:    !!float "nan"
+            BW_3M:
+                aclr:           !!float "nan"
+                meas_bw:        !!float "nan"
+                freq_offset:    !!float "nan"
+            BW_5M:
+                aclr:           0.01584 # 36dBc
+                meas_bw:        4.50e+6
+                freq_offset:    2.50e+6
+            BW_10M:
+                aclr:           0.01584 # 36dBc
+                meas_bw:        9.00e+6
+                freq_offset:    5.00e+6
+            BW_15M:
+                aclr:           0.01584 # 36dBc
+                meas_bw:        13.5e+6
+                freq_offset:    7.50e+6
+            BW_20M:
+                aclr:           0.01584 # 36dBc
+                meas_bw:        18.0e+6
+                freq_offset:    10.0e+6
+        CLASS1: *NONE_UTRA2_GENERAL
+        CLASS2: *NONE_UTRA2_GENERAL
+INTRA_CONTIGUOUS:
+    E_UTRA1:
+        GENERAL: *NONE_E_UTRA1_GENERAL # Table 6.6.2.3.3A-1: General requirements for CA E-UTRAACLR
+        CLASS1: *NONE_E_UTRA1_GENERAL # Table 6.6.2.3.3A-1: General requirements for CA E-UTRAACLR
+        CLASS2: *NONE_E_UTRA1_CLASS2 # Table 6.6.2.3.3A-1a: Additional requirements for CA E-UTRAACLR for UL CA_41C Power Class 2
+    UTRA1: *NONE_UTRA1 # Table 6.6.2.3.2A-1: Requirements for UTRAACLR1
+    UTRA2: *NONE_UTRA2 # Table 6.6.2.3.2A-1: Requirements for UTRAACLR2
+INTRA_NON_CONTIGUOUS:
+    E_UTRA1:
+        GENERAL: &INTRA_NON_CONTIGUOUS_E_UTRA1_GENERAL # Table 6.6.2.3.3A-2: General requirements for non-contiguous intraband CA E-UTRAACLR
+            BW_1p4M:
+                aclr:           0.03162 # 30dBc
+                meas_bw:        1.08e+6
+                freq_offset:    1.4e+6
+            BW_3M:
+                aclr:           0.03162 # 30dBc
+                meas_bw:        2.70e+6
+                freq_offset:    3.0e+6
+            BW_5M:
+                aclr:           0.03162 # 30dBc
+                meas_bw:        4.50e+6
+                freq_offset:    5.0e+6
+            BW_10M:
+                aclr:           0.03162 # 30dBc
+                meas_bw:        9.00e+6
+                freq_offset:    10.0e+6
+            BW_15M:
+                aclr:           0.03162 # 30dBc
+                meas_bw:        13.5e+6
+                freq_offset:    15.0e+6
+            BW_20M:
+                aclr:           0.03162 # 30dBc
+                meas_bw:        18.0e+6
+                freq_offset:    20.0e+6
+        CLASS1: *INTRA_NON_CONTIGUOUS_E_UTRA1_GENERAL
+        CLASS2: *INTRA_NON_CONTIGUOUS_E_UTRA1_GENERAL
+    UTRA1: *NONE_UTRA1 # Table 6.6.2.3.2A-2: Requirements for intraband non-contiguous CA UTRAACLR1
+    UTRA2: *NONE_UTRA2 # Table 6.6.2.3.2A-2: Requirements for intraband non-contiguous CA UTRAACLR2
+INTER: *NONE

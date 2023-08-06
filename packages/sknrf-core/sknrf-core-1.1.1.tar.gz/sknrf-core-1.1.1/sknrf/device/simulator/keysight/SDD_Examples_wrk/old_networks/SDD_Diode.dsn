@@ -1,0 +1,172 @@
+1     7.703    0 0
+10    1    "SDD_Diode"    2    1093331692    0    6    1    0
+20    0    ""    -1250 -3279 7647 1375 1    2 -3 1    1065148653    0    "schematic.prf" "schematic.lay"
+30    209102128    1    ""    1    2    0    0    213935272    209960036    0    -625 250 0    0   0   1   0   0   ""   0   ""   0   ""   ""   ""
+30    209102264    1    ""    1    2    215127632    0    215682296    209960608    0    -625 -1125 0    0   0   1   0   0   ""   0   ""   0   ""   ""   ""
+30    209102400    1    ""    1    0    209102128    215127632    207527016    209960036    0    0 0 90000    0   0   1   0   0   ""   0   ""   0   ""   ""   ""
+30    215127632    1    ""    2    1    0    0    207527016    209960608    0    0 -1000 -90000    0   0   1   0   0   ""   0   ""   0   ""   ""   ""
+32    208625672    1    209102264    1    215127632    0    0    0    ""  0
+60    2    0    3    -625 -1125 0 -1000 1    0    0    0    0
+70    -625 -1125    0 -1000
+32    205676168    1    209102400    1    209102128    0    0    0    ""  0
+60    3    0    3    -625 0 0 250 1    0    0    0    0
+70    0 0    -625 250
+40    4    0    0    0
+50    4    -625 -1125 0 -1000 1    0    0    0    0    0    0    0    0    208625672
+50    4    -625 0 0 250 1    0    0    0    0    0    0    0    0    205676168
+40    5    0    0    0
+50    6    1125 1125 3074 1375 1    0    0    0    0    0    0    0    0
+62    0    250    9    1125 1125 0    1    0    0    0    0    0   "Arial For CAE"   `SDD Diode Model`
+50    6    2750 -625 7491 250 1    0    0    0    0    0    0    0    0
+62    0    125    9    2750 125 0    7    0    0    0    0    0   "Arial For CAE"   `The current in the diode is given by the
+equation for I[1,0] + the derivative with
+respect to time of Q(_v1), where _v1 is the
+voltage across the device.  The second index
+being "1" instead of "0" indicates that the
+expression "Q(_v1)" is to be differentiated with 
+respect to time.`
+50    6    2750 -1000 7298 -750 1    0    0    0    0    0    0    0    0
+62    0    125    9    2750 -875 0    2    0    0    0    0    0   "Arial For CAE"   `Is, Co, Vo, and alpha are user-settable, passed
+variables.`
+41    213935272    0    32    "P1"    "Port"    "SYM_Port"    -1250 -441 -570 375 1    0 "" 0
+    209102128    0    5    -625 250 180000 1 1 0 0    0    97    0    0    1008887809    17  ""    -1250 125 -625 375 1    0 0 0 0 0    0 0 0 0 0 0
+40    6    0    0    0
+50    6    -500 -275 -202 -108 1    0    0    0    0    0    0    0    0
+62    0    167    9    -500 -275 0    1    1    0    0    12    0   "Arial For CAE"   `Port`
+40    7    0    0    0
+50    6    -500 -483 -297 -316 1    0    0    0    0    0    0    0    0
+62    0    167    9    -500 -483 0    1    2    0    0    12    0   "Arial For CAE"   `P1`
+40    8    0    0    0
+50    6    -500 -691 55 -524 1    0    0    0    0    0    0    0    0
+62    0    167    9    -500 -691 0    1    3    0    1    12    0   "Arial For CAE"   `Num=1`
+80    5    "Num"    "SingleTextLinePortNum"    0    0    "1"    0   0
+80    6    "layer"    "layer_text_form"    0    0    ""cond""    1   0
+41    215682296    0    32    "P2"    "Port"    "SYM_Port"    -1250 -1816 -570 -1000 1    0 "" 0
+    209102264    0    6    -625 -1125 180000 1 1 0 0    0    97    0    0    1008887809    17  ""    -1250 -1250 -625 -1000 1    0 0 0 0 0    0 0 0 0 0 0
+40    6    0    0    0
+50    6    -500 -275 -202 -108 1    0    0    0    0    0    0    0    0
+62    0    167    9    -500 -275 0    1    1    0    0    12    0   "Arial For CAE"   `Port`
+40    7    0    0    0
+50    6    -500 -483 -297 -316 1    0    0    0    0    0    0    0    0
+62    0    167    9    -500 -483 0    1    2    0    0    12    0   "Arial For CAE"   `P2`
+40    8    0    0    0
+50    6    -500 -691 55 -524 1    0    0    0    0    0    0    0    0
+62    0    167    9    -500 -691 0    1    3    0    1    12    0   "Arial For CAE"   `Num=2`
+80    5    "Num"    "SingleTextLinePortNum"    0    0    "2"    0   0
+80    6    "layer"    "layer_text_form"    0    0    ""cond""    1   0
+41    207527016    0    1073741824    "SDDNP1"    "SDD1P"    "SYM_Float1P"    -312 -1000 3084 67 1    0 "" 0
+    209102400    0    1    0 0 -90000 1 1 0 0    0    104    0    0    1065148653    17  ""    -312 -1000 312 0 1    0 0 0 0 0    0 0 0 0 0 0
+40    6    0    0    0
+50    6    362 -100 1126 67 1    0    0    0    0    0    0    0    0
+62    0    167    9    362 -100 0    1    1    0    0    12    0   "Arial For CAE"   `SDD1P`
+40    7    0    0    0
+50    6    362 -308 1279 -141 1    0    0    0    0    0    0    0    0
+62    0    167    9    362 -308 0    1    2    0    0    12    0   "Arial For CAE"   `SDDNP1`
+40    8    0    0    0
+50    6    362 -932 1265 -765 1    0    0    0    0    0    0    0    0
+62    0    167    9    362 -932 0    1    3    0    3    12    0   "Arial For CAE"   `Cport[1]=`
+50    6    362 -724 1598 -557 1    0    0    0    0    0    0    0    0
+62    0    167    9    362 -724 0    1    3    0    2    12    0   "Arial For CAE"   `I[1,1]=Q(_v1)`
+50    6    362 -516 3084 -349 1    0    0    0    0    0    0    0    0
+62    0    167    9    362 -516 0    1    3    0    1    12    0   "Arial For CAE"   `I[1,0]=Is*(exp_soft(_v1/Vt)-1)`
+80    3    "SDD"    "list"    0    2    ""    0   0
+80    4    "SDD"    "SddExplicit"    0    3    ""    0   0
+80    5    ""    "SddIndexTextForm"    0    0    "1"    0   0
+80    5    ""    "SddIndexTextForm"    0    0    "0"    0   0
+80    5    ""    "SddTextForm"    0    0    "Is*(exp_soft(_v1/Vt)-1)"    0   0
+80    4    "SDD"    "SddExplicit"    0    3    ""    0   0
+80    5    ""    "SddIndexTextForm"    0    0    "1"    0   0
+80    5    ""    "SddIndexTextForm"    0    0    "1"    0   0
+80    5    ""    "SddTextForm"    0    0    "Q(_v1)"    0   0
+80    3    "C"    "list"    0    1    ""    0   0
+80    5    "C"    "StringAndReference"    0    0    ""    1   0
+80    3    "Cport"    "list"    0    1    ""    0   0
+80    5    "Cport"    "StdForm"    0    0    ""    0   0
+80    5    "_M"    "StdForm"    0    0    ""    1   0
+41    208299296    0    1082130434    "VAR2"    "VAR"    "SYM_VAR"    1079 -3279 7647 -824 1    0 "" 0
+    0    0    4    1250 -1000 90000 1 1 0 0    0    104    0    0    970186863    17  ""    1079 -1106 1404 -891 1    0 0 0 0 0    0 0 0 0 0 0
+40    6    0    0    0
+50    6    204 9 515 176 1    0    0    0    0    0    0    0    0
+62    0    167    9    204 9 0    1    1    0    0    12    0   "Arial For CAE"   `VAR`
+40    7    0    0    0
+50    6    204 -199 610 -32 1    0    0    0    0    0    0    0    0
+62    0    167    9    204 -199 0    1    2    0    0    12    0   "Arial For CAE"   `VAR2`
+40    8    0    0    0
+50    6    204 -2279 2884 -2112 1    0    0    0    0    0    0    0    0
+62    0    167    9    204 -2279 0    1    3    0    10    12    0   "Arial For CAE"   `Vt = boltzmann*tempkelvin/qelectron`
+50    6    204 -2071 5754 -1904 1    0    0    0    0    0    0    0    0
+62    0    167    9    204 -2071 0    1    3    0    9    12    0   "Arial For CAE"   `exp_soft(x) = if (x < max_arg) then exp(x) else (x+1-max_arg)*max_exp endif`
+50    6    204 -1863 1937 -1696 1    0    0    0    0    0    0    0    0
+62    0    167    9    204 -1863 0    1    3    0    8    12    0   "Arial For CAE"   `max_arg = ln(max_exp)`
+50    6    204 -1655 1558 -1488 1    0    0    0    0    0    0    0    0
+62    0    167    9    204 -1655 0    1    3    0    7    12    0   "Arial For CAE"   `max_exp = 1.0e20`
+50    6    204 -1447 1720 -1280 1    0    0    0    0    0    0    0    0
+62    0    167    9    204 -1447 0    1    3    0    6    12    0   "Arial For CAE"   `; Current equations=`
+50    6    204 -1239 339 -1072 1    0    0    0    0    0    0    0    0
+62    0    167    9    204 -1239 0    1    3    0    5    12    0   "Arial For CAE"   `;=`
+50    6    204 -1031 3656 -864 1    0    0    0    0    0    0    0    0
+62    0    167    9    204 -1031 0    1    3    0    4    12    0   "Arial For CAE"   `Q(v) = if (v<alpha*Vo) then Qr(v) else Qf(v) endif`
+50    6    204 -823 2302 -656 1    0    0    0    0    0    0    0    0
+62    0    167    9    204 -823 0    1    3    0    3    12    0   "Arial For CAE"   `Qr(v) = -2*Co*sqrt(Vo*(Vo-v))`
+50    6    204 -615 6295 -448 1    0    0    0    0    0    0    0    0
+62    0    167    9    204 -615 0    1    3    0    2    12    0   "Arial For CAE"   `Qf(v)=Co*(v-alpha*Vo+(v-alpha*Vo)^2/(4*Vo*(1-alpha)))/sqrt(1-alpha)+Qr(alpha*Vo)`
+50    6    204 -407 1720 -240 1    0    0    0    0    0    0    0    0
+62    0    167    9    204 -407 0    1    3    0    1    12    0   "Arial For CAE"   `; Charge equations=`
+80    3    "Variable Value"    "list"    0    10    ""    0   0
+80    4    "Variable Value"    "VarFormEditcompPowerVar"    0    2    ""    0   0
+80    5    ""    "VarNameForm"    0    0    "; Charge equations"    0   0
+80    5    ""    "VarValueForm"    0    0    ""    0   0
+80    4    "Variable Value"    "VarFormEditcompPowerVar"    0    2    ""    0   0
+80    5    ""    "VarNameForm"    0    0    "Qf(v)"    0   0
+80    5    ""    "VarValueForm"    0    0    "Co*(v-alpha*Vo+(v-alpha*Vo)^2/(4*Vo*(1-alpha)))/sqrt(1-alpha)+Qr(alpha*Vo)"    0   0
+80    4    "Variable Value"    "VarFormEditcompPowerVar"    0    2    ""    0   0
+80    5    ""    "VarNameForm"    0    0    "Qr(v) "    0   0
+80    5    ""    "VarValueForm"    0    0    " -2*Co*sqrt(Vo*(Vo-v))"    0   0
+80    4    "Variable Value"    "VarFormEditcompPowerVar"    0    2    ""    0   0
+80    5    ""    "VarNameForm"    0    0    "Q(v) "    0   0
+80    5    ""    "VarValueForm"    0    0    " if (v<alpha*Vo) then Qr(v) else Qf(v) endif"    0   0
+80    4    "Variable Value"    "VarFormEditcompPowerVar"    0    2    ""    0   0
+80    5    ""    "VarNameForm"    0    0    ";"    0   0
+80    5    ""    "VarValueForm"    0    0    ""    0   0
+80    4    "Variable Value"    "VarFormEditcompPowerVar"    0    2    ""    0   0
+80    5    ""    "VarNameForm"    0    0    "; Current equations"    0   0
+80    5    ""    "VarValueForm"    0    0    ""    0   0
+80    4    "Variable Value"    "VarFormEditcompPowerVar"    0    2    ""    0   0
+80    5    ""    "VarNameForm"    0    0    "max_exp "    0   0
+80    5    ""    "VarValueForm"    0    0    " 1.0e20"    0   0
+80    4    "Variable Value"    "VarFormEditcompPowerVar"    0    2    ""    0   0
+80    5    ""    "VarNameForm"    0    0    "max_arg "    0   0
+80    5    ""    "VarValueForm"    0    0    " ln(max_exp)"    0   0
+80    4    "Variable Value"    "VarFormEditcompPowerVar"    0    2    ""    0   0
+80    5    ""    "VarNameForm"    0    0    "exp_soft(x) "    0   0
+80    5    ""    "VarValueForm"    0    0    " if (x < max_arg) then exp(x) else (x+1-max_arg)*max_exp endif"    0   0
+80    4    "Variable Value"    "VarFormEditcompPowerVar"    0    2    ""    0   0
+80    5    ""    "VarNameForm"    0    0    "Vt "    0   0
+80    5    ""    "VarValueForm"    0    0    " boltzmann*tempkelvin/qelectron"    0   0
+43    209960036    0    ""    209102400    11    ""   0
+43    209960608    0    ""    209102264    10    ""   0
+44    0    -500    750    250    1    0    0
+40    11    0    0    0
+50    7    250 -500 750 250 1    0    0    0    0    0    0    0    0
+90    "line_thickness_prop"  1  1 0 `2`
+50    7    275 -475 725 225 1    0    0    0    0    0    0    0    0
+90    "line_thickness_prop"  1  1 0 `1`
+50    2    0 -250 250 -250 1    0    0    0    0    0    0    0    0
+90    "line_thickness_prop"  1  1 0 `2`
+60    2    0    2    0 -250 250 -250 1    0    0    0    0
+70    250 -250    0 -500
+50    2    0 0 250 0 1    0    0    0    0    0    0    0    0
+90    "line_thickness_prop"  1  1 0 `2`
+60    2    0    2    0 0 250 0 1    0    0    0    0
+70    250 0    0 -500
+40    20    0    0    0
+50    6    275 -275 313 -225 1    0    0    0    0    0    0    0    0
+62    0    50    9    275 -275 0    1    0    0    0    0    0   "Arial For CAE"   `2`
+50    6    275 -25 313 25 1    0    0    0    0    0    0    0    0
+62    0    50    9    275 -25 0    1    0    0    0    0    0   "Arial For CAE"   `1`
+42    1146188872    2    "P2"    2    0    0    0 -250 180000    0    0   ""
+42    1146189016    2    "P1"    1    0    0    0 0 180000    0    0   ""
+21
+20    1    ""    0 0 0 0 0    1 -2 1    0    0    "layout.prf" "layout.lay"
+44    0    0    0    0    0    0    0
+21

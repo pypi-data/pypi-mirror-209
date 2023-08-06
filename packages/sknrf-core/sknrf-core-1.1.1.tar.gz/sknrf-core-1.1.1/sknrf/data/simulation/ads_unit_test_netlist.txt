@@ -1,0 +1,98 @@
+
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="ADSSimulatorxUnitTest_lib:ads_unit_test_netlist:schematic"
+V_Source:Block1  Meas1 0 Type="V_DC" Vdc=21 V SaveCurrent=1 
+HB:Env1 MaxOrder=4 Freq[1]=1.0 GHz Order[1]=5 StatusLevel=1 FundOversample=2 \
+EnvIntegOrder=1 EnvBandwidth=1 EnvWarnPoorFit=yes EnvUsePoorFit=yes SweepVar="time" SweepPlan="Env1_stim" OutputPlan="Env1_Output" 
+
+SweepPlan: Env1_stim Stop=100 nsec Step=10 nsec 
+
+OutputPlan:Env1_Output \
+      Type="Output" \
+      UseNodeNestLevel=yes \
+      NodeNestLevel=2 \
+      UseEquationNestLevel=yes \
+      EquationNestLevel=2 \
+      UseSavedEquationNestLevel=yes \
+      SavedEquationNestLevel=2 \
+      UseDeviceCurrentNestLevel=no \
+      DeviceCurrentNestLevel=0 \
+      DeviceCurrentDeviceType="All" \
+      DeviceCurrentSymSyntax=yes \
+      UseCurrentNestLevel=yes \
+      CurrentNestLevel=999 \
+      UseDeviceVoltageNestLevel=no \
+      DeviceVoltageNestLevel=0 \
+      DeviceVoltageDeviceType="All"
+
+Tran:Env1_tran HB_Sol=1 SteadyState=1 StatusLevel=3 \
+Freq[1]=1.0 GHz Order[1]=5 \
+OutputPlan="Env1_Output"
+
+Component:tahb_Env1 Module="ATAHB" Type="ModelExtractor" \ 
+ Tran_Analysis="Env1_tran" HB_Analysis="Env1" 
+
+
+NumericVar1=42e-4
+NumericVar2=41
+NumericArray1=list(1,2+j*1.00,3.00)
+StringVar1="pass"
+StringVar2="passed"
+FilenameVar1="\usr\bin"
+V_Source:Block2  Meas2 0 Type="V_DC" Vdc=20 V SaveCurrent=1 
+#load "python","PostProcessing"
+Controller Module="PostProcessing" \ 
+PostProcessingModule="MatlabOutput" \ 
+Argument[0] = "ads_unit_test_dataset.mat" \ 
+Argument[1] = "All" \ 
+Argument[2] = no \  
+Argument[3] = ""  
+DC:DC1 StatusLevel=2 DevOpPtLevel=0 UseFiniteDiff=no PrintOpPoint=no Restart=1 \
+OutputPlan="DC1_Output" 
+
+OutputPlan:DC1_Output \
+      Type="Output" \
+      UseNodeNestLevel=yes \
+      NodeNestLevel=2 \
+      UseEquationNestLevel=yes \
+      EquationNestLevel=2 \
+      UseSavedEquationNestLevel=yes \
+      SavedEquationNestLevel=2 \
+      UseDeviceCurrentNestLevel=no \
+      DeviceCurrentNestLevel=0 \
+      DeviceCurrentDeviceType="All" \
+      DeviceCurrentSymSyntax=yes \
+      UseCurrentNestLevel=yes \
+      CurrentNestLevel=999 \
+      UseDeviceVoltageNestLevel=no \
+      DeviceVoltageNestLevel=0 \
+      DeviceVoltageDeviceType="All"
+
+HB:HB1 MaxOrder=4 Freq[1]=1.0 GHz Order[1]=5 StatusLevel=2 OutputPlan="HB1_Output" 
+
+OutputPlan:HB1_Output \
+      Type="Output" \
+      UseNodeNestLevel=yes \
+      NodeNestLevel=2 \
+      UseEquationNestLevel=yes \
+      EquationNestLevel=2 \
+      UseSavedEquationNestLevel=yes \
+      SavedEquationNestLevel=2 \
+      UseDeviceCurrentNestLevel=no \
+      DeviceCurrentNestLevel=0 \
+      DeviceCurrentDeviceType="All" \
+      DeviceCurrentSymSyntax=yes \
+      UseCurrentNestLevel=yes \
+      CurrentNestLevel=999 \
+      UseDeviceVoltageNestLevel=no \
+      DeviceVoltageNestLevel=0 \
+      DeviceVoltageDeviceType="All"
+
+Tran:HB1_tran HB_Sol=1 SteadyState=1 StatusLevel=3 \
+Freq[1]=1.0 GHz Order[1]=5 \
+OutputPlan="HB1_Output"
+
+Component:tahb_HB1 Module="ATAHB" Type="ModelExtractor" \ 
+ Tran_Analysis="HB1_tran" HB_Analysis="HB1" 
+
+Port:Term1  Meas1 0 Num=1 Z=50 Ohm Noise=yes 
+Port:Term2  Meas2 0 Num=2 Z=50 Ohm Noise=yes 

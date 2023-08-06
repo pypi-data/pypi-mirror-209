@@ -1,0 +1,10 @@
+
+HPEESOFSIM  (ver. "110" rev. "day" -- 09/04/98 00:45:42)
+Copyright Hewlett-Packard Company, 1989-1998.
+
+Error detected by HPEESOFSIM during netlist parsing.
+    While evaluating expression `X1.SDD1.F':
+        divide by zero.
+--------------------
+Simulation terminated due to error.
+--------------------

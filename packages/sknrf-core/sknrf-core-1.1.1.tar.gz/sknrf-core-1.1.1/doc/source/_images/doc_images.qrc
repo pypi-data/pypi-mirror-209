@@ -1,0 +1,8 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource>
+    <file>doc/source/_images/PNG/unknown_circuit_transform.png</file>
+    <file>doc/source/_images/PNG/cascade_circuit_transform.png</file>
+    <file>doc/source/_images/PNG/pi_circuit_transform.png</file>
+    <file>doc/source/_images/PNG/t_circuit_transform.png</file>
+</qresource>
+</RCC>

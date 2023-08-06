@@ -1,0 +1,9 @@
+<!DOCTYPE SaveWorkspaceState>
+<SaveWorkspaceState>
+    <Windows>
+        <Schematic width="1280" cell="IQ_modulator" view="schematic" height="962" tune="0" y1="-8" x1="-8" lib="FDD_Examples_lib"/>
+        <Schematic width="1280" cell="HarmSrc" view="schematic" height="962" tune="0" y1="-8" x1="-8" lib="FDD_Examples_lib"/>
+        <DDS name="HarmSrc.dds"/>
+    </Windows>
+    <MainWindowTab tab="1"/>
+</SaveWorkspaceState>

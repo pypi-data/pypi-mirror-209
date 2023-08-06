@@ -1,0 +1,9 @@
+SYSTEMC_EXECUTABLE = 1 
+
+SRCS += PT_SC_Adder.cxx PT_SC_Adder.hxx 
+SRCS += PT_SC_InputSignal.cxx PT_SC_InputSignal.hxx
+SRCS += PT_SC_Noise.cxx  PT_SC_Noise.hxx
+SRCS += SystemCPtolemyInterface_PT_SC_InputSignal.cxx SystemCPtolemyInterface_PT_SC_InputSignal.hxx ptolemy_sc_main.cxx 
+
+
+TARGET=ptscsignalsource

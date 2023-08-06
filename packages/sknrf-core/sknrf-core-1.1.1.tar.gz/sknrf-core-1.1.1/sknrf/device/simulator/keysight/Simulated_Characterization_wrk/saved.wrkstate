@@ -1,0 +1,8 @@
+<!DOCTYPE SaveWorkspaceState>
+<SaveWorkspaceState>
+    <Windows>
+        <Schematic height="1018" width="1920" x1="-8" y1="-8" cell="Modulated_Characterization" lib="Simulated_Characterization_lib" view="schematic"/>
+        <Schematic height="1018" width="1920" x1="-8" y1="-8" cell="DataImport" lib="Simulated_Characterization_lib" view="schematic"/>
+    </Windows>
+    <MainWindowTab tab="1"/>
+</SaveWorkspaceState>

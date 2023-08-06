@@ -1,0 +1,4 @@
+INCLUDE $HPEESOF_DIR/oalibs/ads.defs
+DEFINE SDD_Examples_lib ./SDD_Examples_lib
+ASSIGN SDD_Examples_lib writePath SDD_Examples_lib
+ASSIGN SDD_Examples_lib libMode shared

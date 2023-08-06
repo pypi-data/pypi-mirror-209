@@ -1,0 +1,6 @@
+create_item("RFZTuner","RFZTuner","RFZTuner",16,-1,NULL,"Component Parameters",NULL,"%43?global %;%d:%t %# %44?0%:%31?%C%:_net%c%;%;%e %b%r%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%;%e%e","RFZTuner","%t%b%r%38?%:\n%39?all_parm%A%:%30?%s%:%k%?[%1i]%;=%s%;%;%;%e%e%;","SYM_0Port",0,NULL,0,
+create_parm("Port","Port Number String",262144,"StdFormSet",-1,prm("StdForm","\"1\"")),
+create_parm("Freq","Source Frequency",68608,"StdFormSet",-1,prm("StdForm","1e9")),
+create_parm("G","RF Reflection Coefficient",524288,"StdFormSet",-1,prm("StdForm","0")),
+create_parm("Z0","RF Reference Impedance",524288,"StdFormSet",-1,prm("StdForm","50")),
+create_parm("Dataset","IQ modulation file name",262144,"StdFormSet",-1,prm("StdForm","\"\"")));

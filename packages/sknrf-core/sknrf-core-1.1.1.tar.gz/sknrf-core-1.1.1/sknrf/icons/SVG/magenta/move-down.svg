@@ -1,0 +1,13 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="64px" height="64px" viewBox="0 0 64 64">
+<path d="M48 44v-24h-4v24h-10l12 12 12-12z" fill="#d33682"/>
+<path d="M20 16v12h-12v-12h12zM24 12h-20v20h20v-20z" fill="#d33682"/>
+<path d="M4 40h6v4h-6v-4z" fill="#d33682"/>
+<path d="M12 40h6v4h-6v-4z" fill="#d33682"/>
+<path d="M20 40h4v6h-4v-6z" fill="#d33682"/>
+<path d="M4 54h4v6h-4v-6z" fill="#d33682"/>
+<path d="M10 56h6v4h-6v-4z" fill="#d33682"/>
+<path d="M18 56h6v4h-6v-4z" fill="#d33682"/>
+<path d="M4 46h4v6h-4v-6z" fill="#d33682"/>
+<path d="M20 48h4v6h-4v-6z" fill="#d33682"/>
+</svg>

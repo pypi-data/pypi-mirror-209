@@ -1,0 +1,10 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource>
+    <file>PNG/unknown_circuit_transform.png</file>
+    <file>PNG/cascade_circuit_transform.png</file>
+    <file>PNG/pi_circuit_transform.png</file>
+    <file>PNG/t_circuit_transform.png</file>
+    <file>PNG/phase_normalization_circuit_transform.png</file>
+    <file>PNG/transducer_gain_circuit_transform.png</file>
+</qresource>
+</RCC>

@@ -1,0 +1,439 @@
+VAR sweep(real) = 1
+VAR time(real) = 0
+BEGIN testMDIFWrite__test_sweep_dataset
+% f(real) i1(complex) i2(complex) v1(complex) z1(complex) v2(complex) z2(complex) 
+    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    1e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    2e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    3e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+END
+
+VAR sweep(real) = 1
+VAR time(real) = 1e-06
+BEGIN testMDIFWrite__test_sweep_dataset
+% f(real) i1(complex) i2(complex) v1(complex) z1(complex) v2(complex) z2(complex) 
+    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    1e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    2e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    3e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+END
+
+VAR sweep(real) = 1
+VAR time(real) = 2e-06
+BEGIN testMDIFWrite__test_sweep_dataset
+% f(real) i1(complex) i2(complex) v1(complex) z1(complex) v2(complex) z2(complex) 
+    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    1e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    2e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    3e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+END
+
+VAR sweep(real) = 1
+VAR time(real) = 3e-06
+BEGIN testMDIFWrite__test_sweep_dataset
+% f(real) i1(complex) i2(complex) v1(complex) z1(complex) v2(complex) z2(complex) 
+    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    1e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    2e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    3e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+END
+
+VAR sweep(real) = 1
+VAR time(real) = 4e-06
+BEGIN testMDIFWrite__test_sweep_dataset
+% f(real) i1(complex) i2(complex) v1(complex) z1(complex) v2(complex) z2(complex)
+    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    1e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    2e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    3e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+END
+
+VAR sweep(real) = 1
+VAR time(real) = 5e-06
+BEGIN testMDIFWrite__test_sweep_dataset
+% f(real) i1(complex) i2(complex) v1(complex) z1(complex) v2(complex) z2(complex)
+    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    1e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    2e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    3e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+END
+
+VAR sweep(real) = 1
+VAR time(real) = 6e-06
+BEGIN testMDIFWrite__test_sweep_dataset
+% f(real) i1(complex) i2(complex) v1(complex) z1(complex) v2(complex) z2(complex)
+    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    1e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    2e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    3e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+END
+
+VAR sweep(real) = 1
+VAR time(real) = 7e-06
+BEGIN testMDIFWrite__test_sweep_dataset
+% f(real) i1(complex) i2(complex) v1(complex) z1(complex) v2(complex) z2(complex)
+    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    1e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    2e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    3e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+END
+
+VAR sweep(real) = 1
+VAR time(real) = 8e-06
+BEGIN testMDIFWrite__test_sweep_dataset
+% f(real) i1(complex) i2(complex) v1(complex) z1(complex) v2(complex) z2(complex)
+    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    1e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    2e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    3e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+END
+
+VAR sweep(real) = 1
+VAR time(real) = 9e-06
+BEGIN testMDIFWrite__test_sweep_dataset
+% f(real) i1(complex) i2(complex) v1(complex) z1(complex) v2(complex) z2(complex)
+    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    1e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    2e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    3e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+END
+
+VAR sweep(real) = 1
+VAR time(real) = 1e-05
+BEGIN testMDIFWrite__test_sweep_dataset
+% f(real) i1(complex) i2(complex) v1(complex) z1(complex) v2(complex) z2(complex)
+    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    1e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    2e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    3e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+END
+
+VAR sweep(real) = 2
+VAR time(real) = 0
+BEGIN testMDIFWrite__test_sweep_dataset
+% f(real) i1(complex) i2(complex) v1(complex) z1(complex) v2(complex) z2(complex) 
+    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    1e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    2e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    3e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+END
+
+VAR sweep(real) = 2
+VAR time(real) = 1e-06
+BEGIN testMDIFWrite__test_sweep_dataset
+% f(real) i1(complex) i2(complex) v1(complex) z1(complex) v2(complex) z2(complex) 
+    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    1e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    2e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    3e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+END
+
+VAR sweep(real) = 2
+VAR time(real) = 2e-06
+BEGIN testMDIFWrite__test_sweep_dataset
+% f(real) i1(complex) i2(complex) v1(complex) z1(complex) v2(complex) z2(complex) 
+    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    1e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    2e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    3e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+END
+
+VAR sweep(real) = 2
+VAR time(real) = 3e-06
+BEGIN testMDIFWrite__test_sweep_dataset
+% f(real) i1(complex) i2(complex) v1(complex) z1(complex) v2(complex) z2(complex) 
+    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    1e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    2e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    3e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+END
+
+VAR sweep(real) = 2
+VAR time(real) = 4e-06
+BEGIN testMDIFWrite__test_sweep_dataset
+% f(real) i1(complex) i2(complex) v1(complex) z1(complex) v2(complex) z2(complex)
+    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    1e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    2e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    3e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+END
+
+VAR sweep(real) = 2
+VAR time(real) = 5e-06
+BEGIN testMDIFWrite__test_sweep_dataset
+% f(real) i1(complex) i2(complex) v1(complex) z1(complex) v2(complex) z2(complex)
+    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    1e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    2e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    3e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+END
+
+VAR sweep(real) = 2
+VAR time(real) = 6e-06
+BEGIN testMDIFWrite__test_sweep_dataset
+% f(real) i1(complex) i2(complex) v1(complex) z1(complex) v2(complex) z2(complex)
+    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    1e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    2e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    3e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+END
+
+VAR sweep(real) = 2
+VAR time(real) = 7e-06
+BEGIN testMDIFWrite__test_sweep_dataset
+% f(real) i1(complex) i2(complex) v1(complex) z1(complex) v2(complex) z2(complex)
+    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    1e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    2e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    3e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+END
+
+VAR sweep(real) = 2
+VAR time(real) = 8e-06
+BEGIN testMDIFWrite__test_sweep_dataset
+% f(real) i1(complex) i2(complex) v1(complex) z1(complex) v2(complex) z2(complex)
+    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    1e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    2e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    3e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+END
+
+VAR sweep(real) = 2
+VAR time(real) = 9e-06
+BEGIN testMDIFWrite__test_sweep_dataset
+% f(real) i1(complex) i2(complex) v1(complex) z1(complex) v2(complex) z2(complex)
+    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    1e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    2e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    3e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+END
+
+VAR sweep(real) = 2
+VAR time(real) = 1e-05
+BEGIN testMDIFWrite__test_sweep_dataset
+% f(real) i1(complex) i2(complex) v1(complex) z1(complex) v2(complex) z2(complex)
+    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    1e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    2e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    3e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+END
+
+VAR sweep(real) = 3
+VAR time(real) = 0
+BEGIN testMDIFWrite__test_sweep_dataset
+% f(real) i1(complex) i2(complex) v1(complex) z1(complex) v2(complex) z2(complex) 
+    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    1e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    2e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    3e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+END
+
+VAR sweep(real) = 3
+VAR time(real) = 1e-06
+BEGIN testMDIFWrite__test_sweep_dataset
+% f(real) i1(complex) i2(complex) v1(complex) z1(complex) v2(complex) z2(complex) 
+    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    1e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    2e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    3e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+END
+
+VAR sweep(real) = 3
+VAR time(real) = 2e-06
+BEGIN testMDIFWrite__test_sweep_dataset
+% f(real) i1(complex) i2(complex) v1(complex) z1(complex) v2(complex) z2(complex) 
+    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    1e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    2e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    3e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+END
+
+VAR sweep(real) = 3
+VAR time(real) = 3e-06
+BEGIN testMDIFWrite__test_sweep_dataset
+% f(real) i1(complex) i2(complex) v1(complex) z1(complex) v2(complex) z2(complex) 
+    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    1e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    2e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    3e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+END
+
+VAR sweep(real) = 3
+VAR time(real) = 4e-06
+BEGIN testMDIFWrite__test_sweep_dataset
+% f(real) i1(complex) i2(complex) v1(complex) z1(complex) v2(complex) z2(complex)
+    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    1e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    2e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    3e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+END
+
+VAR sweep(real) = 3
+VAR time(real) = 5e-06
+BEGIN testMDIFWrite__test_sweep_dataset
+% f(real) i1(complex) i2(complex) v1(complex) z1(complex) v2(complex) z2(complex)
+    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    1e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    2e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    3e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+END
+
+VAR sweep(real) = 3
+VAR time(real) = 6e-06
+BEGIN testMDIFWrite__test_sweep_dataset
+% f(real) i1(complex) i2(complex) v1(complex) z1(complex) v2(complex) z2(complex)
+    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    1e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    2e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    3e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+END
+
+VAR sweep(real) = 3
+VAR time(real) = 7e-06
+BEGIN testMDIFWrite__test_sweep_dataset
+% f(real) i1(complex) i2(complex) v1(complex) z1(complex) v2(complex) z2(complex)
+    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    1e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    2e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    3e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+END
+
+VAR sweep(real) = 3
+VAR time(real) = 8e-06
+BEGIN testMDIFWrite__test_sweep_dataset
+% f(real) i1(complex) i2(complex) v1(complex) z1(complex) v2(complex) z2(complex)
+    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    1e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    2e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    3e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+END
+
+VAR sweep(real) = 3
+VAR time(real) = 9e-06
+BEGIN testMDIFWrite__test_sweep_dataset
+% f(real) i1(complex) i2(complex) v1(complex) z1(complex) v2(complex) z2(complex)
+    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    1e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    2e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    3e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+END
+
+VAR sweep(real) = 3
+VAR time(real) = 1e-05
+BEGIN testMDIFWrite__test_sweep_dataset
+% f(real) i1(complex) i2(complex) v1(complex) z1(complex) v2(complex) z2(complex)
+    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    1e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    2e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    3e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+END
+
+VAR sweep(real) = 4
+VAR time(real) = 0
+BEGIN testMDIFWrite__test_sweep_dataset
+% f(real) i1(complex) i2(complex) v1(complex) z1(complex) v2(complex) z2(complex) 
+    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    1e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    2e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    3e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+END
+
+VAR sweep(real) = 4
+VAR time(real) = 1e-06
+BEGIN testMDIFWrite__test_sweep_dataset
+% f(real) i1(complex) i2(complex) v1(complex) z1(complex) v2(complex) z2(complex) 
+    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    1e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    2e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    3e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+END
+
+VAR sweep(real) = 4
+VAR time(real) = 2e-06
+BEGIN testMDIFWrite__test_sweep_dataset
+% f(real) i1(complex) i2(complex) v1(complex) z1(complex) v2(complex) z2(complex) 
+    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    1e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    2e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    3e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+END
+
+VAR sweep(real) = 4
+VAR time(real) = 3e-06
+BEGIN testMDIFWrite__test_sweep_dataset
+% f(real) i1(complex) i2(complex) v1(complex) z1(complex) v2(complex) z2(complex) 
+    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    1e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    2e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    3e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+END
+
+VAR sweep(real) = 4
+VAR time(real) = 4e-06
+BEGIN testMDIFWrite__test_sweep_dataset
+% f(real) i1(complex) i2(complex) v1(complex) z1(complex) v2(complex) z2(complex)
+    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    1e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    2e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    3e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+END
+
+VAR sweep(real) = 4
+VAR time(real) = 5e-06
+BEGIN testMDIFWrite__test_sweep_dataset
+% f(real) i1(complex) i2(complex) v1(complex) z1(complex) v2(complex) z2(complex)
+    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    1e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    2e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    3e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+END
+
+VAR sweep(real) = 4
+VAR time(real) = 6e-06
+BEGIN testMDIFWrite__test_sweep_dataset
+% f(real) i1(complex) i2(complex) v1(complex) z1(complex) v2(complex) z2(complex)
+    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    1e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    2e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    3e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+END
+
+VAR sweep(real) = 4
+VAR time(real) = 7e-06
+BEGIN testMDIFWrite__test_sweep_dataset
+% f(real) i1(complex) i2(complex) v1(complex) z1(complex) v2(complex) z2(complex)
+    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    1e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    2e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    3e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+END
+
+VAR sweep(real) = 4
+VAR time(real) = 8e-06
+BEGIN testMDIFWrite__test_sweep_dataset
+% f(real) i1(complex) i2(complex) v1(complex) z1(complex) v2(complex) z2(complex)
+    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    1e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    2e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    3e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+END
+
+VAR sweep(real) = 4
+VAR time(real) = 9e-06
+BEGIN testMDIFWrite__test_sweep_dataset
+% f(real) i1(complex) i2(complex) v1(complex) z1(complex) v2(complex) z2(complex)
+    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    1e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    2e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    3e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+END
+
+VAR sweep(real) = 4
+VAR time(real) = 1e-05
+BEGIN testMDIFWrite__test_sweep_dataset
+% f(real) i1(complex) i2(complex) v1(complex) z1(complex) v2(complex) z2(complex)
+    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    1e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    2e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+    3e+09    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0    1e-100    0
+END

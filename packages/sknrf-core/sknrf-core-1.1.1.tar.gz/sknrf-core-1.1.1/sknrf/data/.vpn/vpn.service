@@ -1,0 +1,13 @@
+[Unit]
+Description=OpenVPN 3 Linux configuration auto loader and starter
+After=network.target dbus.service
+
+[Service]
+Type=oneshot
+User=dylan
+ExecStart=/home/dylan/.vpn/vpn_session_connect.sh
+ExecStop=/home/dylan/.vpn/vpn_session_disconnect.sh
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target

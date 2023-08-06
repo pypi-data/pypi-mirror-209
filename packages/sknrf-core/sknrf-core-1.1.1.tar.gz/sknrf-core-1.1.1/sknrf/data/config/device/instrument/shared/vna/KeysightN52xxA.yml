@@ -1,0 +1,4 @@
+trigger_delay: 0.0
+trigger_delay_min: 1.0e-12
+trigger_delay_max: 1.0e+12
+state_filename: "D:\\state.csa"

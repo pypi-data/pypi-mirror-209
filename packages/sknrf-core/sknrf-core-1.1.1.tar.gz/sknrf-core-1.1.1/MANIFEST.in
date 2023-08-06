@@ -1,0 +1,65 @@
+# project
+
+# config
+recursive-include sknrf *.empty.txt
+recursive-include sknrf *.yml
+recursive-include sknrf *.cfg
+recursive-include sknrf matplotlibrc
+
+# scripts
+recursive-include sknrf *.sh
+recursive-include sknrf *.desktop
+
+# data
+graft sknrf/data
+
+# resources
+recursive-include sknrf *.h5
+recursive-include sknrf *.s?p
+recursive-include sknrf *.mdf
+recursive-include sknrf *.cal
+recursive-include sknrf *.state
+recursive-include sknrf *.seq
+recursive-include sknrf *.txt
+recursive-include sknrf *.mat
+recursive-include sknrf *.ntwk
+recursive-include sknrf *.xlsx
+recursive-include sknrf *.csv
+recursive-include sknrf *.mplstyle
+recursive-include sknrf *.png
+recursive-include sknrf *.qrc
+recursive-include sknrf *.svg
+
+
+# lib
+recursive-include sknrf *.lib # static win
+recursive-include sknrf *.dll # win
+recursive-include sknrf *.pyd # win
+recursive-include sknrf *.dylib # mac
+recursive-include build *.so # mac
+recursive-include build *.so # linux
+
+# src
+recursive-include sknrf *.py
+recursive-include sknrf *.c
+recursive-include sknrf *.h
+recursive-include sknrf *.cpp
+
+# drivers
+recursive-include sknrf/device *
+
+# tests
+recursive-include sknrf/tests *
+
+# doc
+recursive-include doc *
+include doc/Makefile
+recursive-include doc/source *.rst
+recursive-include doc/source/_templates *.html
+recursive-include doc *.py
+
+# tutorial
+recursive-include sknrf/tutorial *
+
+# Build
+prune build

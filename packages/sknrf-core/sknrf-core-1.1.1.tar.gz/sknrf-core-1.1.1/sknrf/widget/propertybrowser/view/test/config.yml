@@ -1,0 +1,733 @@
+includes:
+ - <string>
+ - ''
+ - <QtCore/QObject>
+ - <QtGui/QBrush>
+ - <QtWidgets/QDialog>
+ - <QtWidgets/QGridLayout>
+ - <QtWidgets/QScrollArea>
+ - <QtWidgets/QLabel>
+ - <QtWidgets/QGroupBox>
+ - <QtWidgets/QSpinBox>
+ - <QtWidgets/QCheckBox>
+ - <QtCore/QVector>
+ - <QtWidgets/QComboBox>
+ - <QtWidgets/QDateEdit>
+ - <QtWidgets/QTimeEdit>
+ - <QtWidgets/QDateTimeEdit>
+ - <QtWidgets/QKeySequenceEdit>
+ - <QtTest>
+ - <QtTest/QSignalSpy>
+ - ''
+ - '"qtpropertybrowsertest.h"'
+defines:
+  INT_MIN_INIT_VECTOR: '-2'
+  INT_MAX_TEST_VECTOR: '-1'
+  INT_INIT_VECTOR: '0'
+  INT_TEST_VECTOR: '1'
+  INT_MIN_TEST_VECTOR: '1'
+  INT_MAX_INIT_VECTOR: '2'
+  DOUBLE_PRECISION: '16'
+  DOUBLE_MIN_INIT_VECTOR: '-1.500'
+  DOUBLE_MAX_TEST_VECTOR: '-0.500'
+  DOUBLE_INIT_VECTOR: '0.000'
+  DOUBLE_TEST_VECTOR: '0.250'
+  DOUBLE_MIN_TEST_VECTOR: '0.500'
+  DOUBLE_MAX_INIT_VECTOR: '1.500'
+  COMPLEX_PRECISION: '16'
+  COMPLEX_MIN_INIT_VECTOR: '0.50'
+  COMPLEX_MAX_TEST_VECTOR: '1.50'
+  COMPLEX_INIT_VECTOR: '1.250, 1.250'
+  COMPLEX_TEST_VECTOR: '1.414, 1.414'
+  COMPLEX_MIN_TEST_VECTOR: '2.50'
+  COMPLEX_MAX_INIT_VECTOR: '3.50'
+  QUATERNION_PRECISION: '16'
+  QUATERNION_MIN_INIT_VECTOR: '0.50'
+  QUATERNION_MAX_TEST_VECTOR: '1.50'
+  QUATERNION_INIT_VECTOR: '0.8, 0.8, 0.8, 0.8'
+  QUATERNION_TEST_VECTOR: '1.0, 1.0, 1.0, 1.0'
+  QUATERNION_MIN_TEST_VECTOR: '2.50'
+  QUATERNION_MAX_INIT_VECTOR: '3.50'
+  VECTOR_SIZE: &VECTOR_SIZE '3'
+  STR_INIT_VECTOR: '""'
+  STR_TEST_VECTOR: '"b"'
+  DATE_INIT_VECTOR: '1983, 10, 03'
+  DATE_TEST_VECTOR: '1984, 10, 04'
+  TIME_INIT_VECTOR: '0, 0, 0'
+  TIME_TEST_VECTOR: '6, 3, 0'
+  DATETIME_INIT_VECTOR: 'QDate(DATE_INIT_VECTOR), QTime(TIME_INIT_VECTOR)'
+  DATETIME_TEST_VECTOR: 'QDate(DATE_TEST_VECTOR), QTime(TIME_TEST_VECTOR)'
+  KEY_INIT_VECTOR: '"CTRL+A"'
+  KEY_TEST_VECTOR: '"ALT+Y"'
+  CHAR_INIT_VECTOR: "'A'"
+  CHAR_TEST_VECTOR: "'b'"
+  POINT_INIT_VECTOR: '0, 0'
+  POINT_TEST_VECTOR: '1, 1'
+  POINTF_MIN_INIT_VECTOR: 'DOUBLE_MIN_INIT_VECTOR, DOUBLE_MIN_INIT_VECTOR'
+  POINTF_INIT_VECTOR: '0.000, 0.000'
+  POINTF_TEST_VECTOR: '0.250, 0.250'
+  POINTF_MAX_INIT_VECTOR: 'DOUBLE_MAX_INIT_VECTOR, DOUBLE_MAX_INIT_VECTOR'
+  SIZE_INIT_VECTOR: '0, 0'
+  SIZE_TEST_VECTOR: '1, 1'
+  SIZEF_MIN_INIT_VECTOR: 'DOUBLE_MIN_INIT_VECTOR, DOUBLE_MIN_INIT_VECTOR'
+  SIZEF_INIT_VECTOR: '0.000, 0.000'
+  SIZEF_TEST_VECTOR: '0.250, 0.250'
+  SIZEF_MAX_INIT_VECTOR: 'DOUBLE_MAX_INIT_VECTOR, DOUBLE_MAX_INIT_VECTOR'
+  RECT_INIT_VECTOR: '0, 0, 0, 0'
+  RECT_TEST_VECTOR: '1, 1, 1, 1'
+  RECTF_CONST_INIT_VECTOR: '0.000, 0.000, 0.500, 0.500'
+  RECTF_INIT_VECTOR: '0.00, 0.00, 0.00, 0.00'
+  RECTF_TEST_VECTOR: '0.250, 0.250, 0.250, 0.250'
+  ENUM_INIT_VECTOR: TestEnums::RED
+  ENUM_TEST_VECTOR: TestEnums::BLUE
+  FLAG_INIT_VECTOR: TestFlags::BLACK
+  FLAG_TEST_VECTOR: TestFlags::WHITE
+  LANGUAGE_LOCALE_INIT_VECTOR: QLocale::English
+  LANGUAGE_LOCALE_TEST_VECTOR: QLocale::Arabic
+  TERRITORY_LOCALE_INIT_VECTOR: QLocale::Canada
+  TERRITORY_LOCALE_TEST_VECTOR: QLocale::Egypt
+  LOCALE_INIT_VECTOR: QLocale::English, QLocale::Canada
+  LOCALE_TEST_VECTOR: QLocale::Arabic, QLocale::Egypt
+  X_SIZE_POLICY_INIT_VECTOR: QSizePolicy::Fixed
+  X_SIZE_POLICY_TEST_VECTOR: QSizePolicy::Expanding
+  Y_SIZE_POLICY_INIT_VECTOR: QSizePolicy::Fixed
+  Y_SIZE_POLICY_TEST_VECTOR: QSizePolicy::MinimumExpanding
+  X_STRETCH_SIZE_POLICY_INIT_VECTOR: '1'
+  X_STRETCH_SIZE_POLICY_TEST_VECTOR: '0' # Must be zero for test to pass
+  Y_STRETCH_SIZE_POLICY_INIT_VECTOR: '1'
+  Y_STRETCH_SIZE_POLICY_TEST_VECTOR: '0' # Must be zero for test to pass
+  SIZE_POLICY_INIT_VECTOR: QSizePolicy::Fixed, QSizePolicy::Fixed # xStretch, yStretch default to 0
+  SIZE_POLICY_TEST_VECTOR: QSizePolicy::Expanding, QSizePolicy::MinimumExpanding # xStretch, yStretch default to 0
+  FONT_INIT_VECTOR: '"Arial"'
+  FONT_TEST_VECTOR: '"Georgia"'
+  COLOR_INIT_VECTOR: '"black"'
+  COLOR_TEST_VECTOR: '"white"'
+  CURSOR_INIT_VECTOR: Qt::IBeamCursor
+  CURSOR_TEST_VECTOR: Qt::ArrowCursor
+  FILE_INIT_VECTOR: '"/etc/resolv.conf"'
+  FILE_TEST_VECTOR: '"/etc/hosts"'
+property_managers:
+  QtIntPropertyManager: &QtIntPropertyManager
+    editor_factories : ["QtIntEditFactory", "QtSpinBoxFactory", "QtSliderFactory"]
+    editors : ["QtIntEdit", "QtSpinBox", "QtSlider"]
+    child_num : 0
+    child_names : []
+    child_classes : []
+    declaration_type : int
+    argument_type : int
+    spy_count : 1
+    spy_cast : toInt
+    max_value : INT_MAX_TEST_VECTOR
+    test_value : INT_TEST_VECTOR
+    min_value : INT_MIN_TEST_VECTOR
+    manager_signal : valueChanged
+    editor_signal : valueChanged
+    range_signal : rangeChanged
+    editor_setter : setValue
+    editor_getter : value
+    has_check : True
+    is_vector : False
+    is_group : False
+    is_complex : False
+    is_quarterion : False
+    is_enabled : True
+  QtBoolPropertyManager: &QtBoolPropertyManager
+    editor_factories : ["QtCheckBoxFactory"]
+    editors : ["QCheckBox"]
+    child_num : 0
+    child_names : []
+    child_classes : []
+    declaration_type : bool
+    argument_type : bool
+    spy_count : 1
+    spy_cast : toBool
+    max_value : 'false'
+    test_value : 'true'
+    min_value : 'true'
+    manager_signal : valueChanged
+    editor_signal : toggled
+    range_signal : null
+    editor_setter : setChecked
+    editor_getter : isChecked
+    has_check : True
+    is_vector : False
+    is_group : False
+    is_complex : False
+    is_quarterion : False
+    is_enabled : True
+  QtDoublePropertyManager: &QtDoubleEditFactory
+    editor_factories : ["QtDoubleEditFactory", "QtDoubleSpinBoxFactory"]
+    editors : ["QtDoubleEdit", "QtDoubleSpinBox"]
+    child_num : 0
+    child_names : []
+    child_classes : []
+    declaration_type : double
+    argument_type : double
+    spy_count : 1
+    spy_cast : toDouble
+    max_value : DOUBLE_MAX_TEST_VECTOR
+    test_value : DOUBLE_TEST_VECTOR
+    min_value : DOUBLE_MIN_TEST_VECTOR
+    manager_signal : valueChanged
+    editor_signal : valueChanged
+    range_signal : rangeChanged
+    editor_setter : setValue
+    editor_getter : value
+    has_check : True
+    is_vector : False
+    is_group : False
+    is_complex : False
+    is_quarterion : False
+    is_enabled : True
+  QtComplexPropertyManager: &QtComplexPropertyManager
+    editor_factories : ["QtComplexEditFactory"]
+    editors : [QtComplexEdit]
+    child_num : 0
+    child_names : []
+    child_classes : []
+    declaration_type : QtComplex
+    argument_type : "const QtComplex &"
+    spy_count : 1
+    spy_cast : null
+    max_value : COMPLEX_MAX_TEST_VECTOR
+    test_value : COMPLEX_TEST_VECTOR
+    min_value : COMPLEX_MIN_TEST_VECTOR
+    manager_signal : valueChanged
+    editor_signal : valueChanged
+    range_signal : rangeChanged
+    editor_setter : setValue
+    editor_getter : value
+    has_check : True
+    is_vector : False
+    is_group : False
+    is_complex : True
+    is_quarterion : False
+    is_enabled : True
+  QtQuaternionPropertyManager: &QtQuaternionPropertyManager
+    editor_factories : ["QtQuaternionEditFactory"]
+    editors : [QtQuaternionEdit]
+    child_num : 0
+    child_names : []
+    child_classes : []
+    declaration_type : QtQuaternion
+    argument_type : "const QtQuaternion &"
+    spy_count : 1
+    spy_cast : null
+    max_value : QUATERNION_MAX_TEST_VECTOR
+    test_value : QUATERNION_TEST_VECTOR
+    min_value : QUATERNION_MIN_TEST_VECTOR
+    manager_signal : valueChanged
+    editor_signal : valueChanged
+    range_signal : rangeChanged
+    editor_setter : setValue
+    editor_getter : value
+    has_check : True
+    is_vector : False
+    is_group : False
+    is_complex : False
+    is_quarterion : True
+    is_enabled : True
+  QtVectorComplexPropertyManager:
+    editor_factories: ["QtVectorComplexEditFactory"]
+    editors: ['']
+    child_num: *VECTOR_SIZE
+    child_names : [QtComplexPropertyManager, QtComplexPropertyManager, QtComplexPropertyManager]
+    child_classes : [*QtComplexPropertyManager, *QtComplexPropertyManager, *QtComplexPropertyManager]
+    declaration_type : QVector<QtComplex>
+    argument_type: "const QVector<QtComplex> &"
+    spy_count : 1
+    spy_cast : null
+    max_value : COMPLEX_MAX_TEST_VECTOR
+    test_value : COMPLEX_TEST_VECTOR
+    min_value : COMPLEX_MIN_TEST_VECTOR
+    manager_signal : valueChanged
+    editor_signal : null
+    range_signal : rangeChanged
+    editor_setter : null
+    editor_getter : null
+    has_check : True
+    is_vector : True
+    is_group : False
+    is_complex : True
+    is_quarterion : False
+    is_enabled : True
+  QtStringPropertyManager:
+    editor_factories : ["QtLineEditFactory"]
+    editors : ["QLineEdit"]
+    child_num : 0
+    child_names : []
+    child_classes : []
+    declaration_type : QString
+    argument_type : const QString &
+    spy_count : 1
+    spy_cast : toString
+    max_value : null
+    test_value : STR_TEST_VECTOR
+    min_value : null
+    manager_signal : valueChanged
+    editor_signal : textEdited
+    range_signal : null
+    editor_setter : QTest::keyClicks(editor, STR_TEST_VECTOR);
+    editor_getter : text
+    has_check : True
+    is_vector : False
+    is_group : False
+    is_complex : False
+    is_quarterion : False
+    is_enabled : True
+  QtDatePropertyManager:
+    editor_factories : ["QtDateEditFactory"]
+    editors : ["QDateEdit"]
+    child_num : 0
+    child_names : []
+    child_classes : []
+    declaration_type : QDate
+    argument_type : QDate
+    spy_count : 1
+    spy_cast : toDate
+    max_value : null
+    test_value : DATE_TEST_VECTOR
+    min_value : null
+    manager_signal : valueChanged
+    editor_signal : userDateChanged
+    range_signal : null
+    editor_setter : setDate
+    editor_getter : date
+    has_check : True
+    is_vector : False
+    is_group : False
+    is_complex : False
+    is_quarterion : False
+    is_enabled : True
+  QtTimePropertyManager:
+    editor_factories : ["QtTimeEditFactory"]
+    editors : ["QTimeEdit"]
+    child_num : 0
+    child_names : []
+    child_classes : []
+    declaration_type : QTime
+    argument_type : QTime
+    spy_count : 1
+    spy_cast : toTime
+    max_value : null
+    test_value : TIME_TEST_VECTOR
+    min_value : null
+    manager_signal : valueChanged
+    editor_signal : userTimeChanged
+    range_signal : null
+    editor_setter : setTime
+    editor_getter : time
+    has_check : True
+    is_vector : False
+    is_group : False
+    is_complex : False
+    is_quarterion : False
+    is_enabled : True
+  QtDateTimePropertyManager:
+    editor_factories : ["QtDateTimeEditFactory"]
+    editors : ["QDateTimeEdit"]
+    child_num : 0
+    child_names : []
+    child_classes : []
+    declaration_type : QDateTime
+    argument_type : const QDateTime &
+    spy_count : 1
+    spy_cast : toDateTime
+    max_value : null
+    test_value : DATETIME_TEST_VECTOR
+    min_value : null
+    manager_signal : valueChanged
+    editor_signal : dateTimeChanged
+    range_signal : null
+    editor_setter : setDateTime
+    editor_getter : dateTime
+    has_check : True
+    is_vector : False
+    is_group : False
+    is_complex : False
+    is_quarterion : False
+    is_enabled : True
+  QtKeySequencePropertyManager:
+    editor_factories : ["QtKeySequenceEditorFactory"]
+    editors : ["QKeySequenceEdit"]
+    child_num : 0
+    child_names : []
+    child_classes : []
+    declaration_type : QKeySequence
+    argument_type : const QKeySequence &
+    spy_count : 1
+    spy_cast : null
+    max_value : null
+    test_value : KEY_TEST_VECTOR
+    min_value : null
+    manager_signal : valueChanged
+    editor_signal : keySequenceChanged
+    range_signal : null
+    editor_setter : setKeySequence
+    editor_getter : keySequence
+    has_check : True
+    is_vector : False
+    is_group : False
+    is_complex : False
+    is_quarterion : False
+    is_enabled : True
+  QtCharPropertyManager:
+    editor_factories : ["QtCharEditorFactory"]
+    editors : ["QtCharEdit"]
+    child_num : 0
+    child_names : []
+    child_classes : []
+    declaration_type : QChar
+    argument_type : const QChar &
+    spy_count : 1
+    spy_cast : toChar
+    max_value : null
+    test_value : CHAR_TEST_VECTOR
+    min_value : null
+    manager_signal : valueChanged
+    editor_signal : valueChanged
+    range_signal : null
+    editor_setter : QTest::keyClick(editor, CHAR_TEST_VECTOR);
+    editor_getter : value
+    has_check : True
+    is_vector : False
+    is_group : False
+    is_complex : False
+    is_quarterion : False
+    is_enabled : True
+  QtPointPropertyManager:
+    editor_factories : ["QtPointEditorFactory"]
+    editors : ['']
+    child_num : 2
+    child_names : [QtIntPropertyManager, QtIntPropertyManager]
+    child_classes : [*QtIntPropertyManager, *QtIntPropertyManager]
+    declaration_type : QPoint
+    argument_type : 'const QPoint &'
+    spy_count : 1
+    spy_cast : null
+    max_value : null
+    test_value : POINT_TEST_VECTOR
+    min_value : null
+    manager_signal : valueChanged
+    editor_signal : null
+    range_signal : null
+    editor_setter : null
+    editor_getter : null
+    has_check : True
+    is_vector : False
+    is_group : True
+    is_complex : False
+    is_quarterion : False
+    is_enabled : True
+  QtPointFPropertyManager:
+    editor_factories : ["QtPointFEditorFactory"]
+    editors : ['']
+    child_num : 2
+    child_names : [QtDoubleEditFactory, QtDoubleEditFactory]
+    child_classes : [*QtDoubleEditFactory, *QtDoubleEditFactory]
+    declaration_type : QPointF
+    argument_type : 'const QPointF &'
+    spy_count : 1
+    spy_cast : null
+    max_value : null
+    test_value : POINTF_TEST_VECTOR
+    min_value : null
+    manager_signal : valueChanged
+    editor_signal : null
+    range_signal : null
+    editor_setter : null
+    editor_getter : null
+    has_check : True
+    is_vector : False
+    is_group : True
+    is_complex : False
+    is_quarterion : False
+    is_enabled : True
+  QtSizePropertyManager:
+    editor_factories : ["QtSizeEditorFactory"]
+    editors : ['']
+    child_num : 2
+    child_names : [QtIntPropertyManager, QtIntPropertyManager ]
+    child_classes : [*QtIntPropertyManager, *QtIntPropertyManager]
+    declaration_type : QSize
+    argument_type : 'const QSize &'
+    spy_count : 1
+    spy_cast : null
+    max_value : null
+    test_value : SIZE_TEST_VECTOR
+    min_value : null
+    manager_signal : valueChanged
+    editor_signal : null
+    range_signal : null
+    editor_setter : null
+    editor_getter : null
+    has_check : True
+    is_vector : False
+    is_group : True
+    is_complex : False
+    is_quarterion : False
+    is_enabled : True
+  QtSizeFPropertyManager:
+    editor_factories : ["QtSizeFEditorFactory"]
+    editors : ['']
+    child_num : 2
+    child_names : [QtDoubleEditFactory, QtDoubleEditFactory]
+    child_classes : [*QtDoubleEditFactory, *QtDoubleEditFactory]
+    declaration_type : QSizeF
+    argument_type : 'const QSizeF &'
+    spy_count : 1
+    spy_cast : null
+    max_value : null
+    test_value : SIZEF_TEST_VECTOR
+    min_value : null
+    manager_signal : valueChanged
+    editor_signal : null
+    range_signal : null
+    editor_setter : null
+    editor_getter : null
+    has_check : True
+    is_vector : False
+    is_group : True
+    is_complex : False
+    is_quarterion : False
+    is_enabled : True
+  QtRectPropertyManager:
+    editor_factories: [ "QtRectEditorFactory" ]
+    editors: [ '' ]
+    child_num: 4
+    child_names : [QtIntPropertyManager, QtIntPropertyManager, QtIntPropertyManager, QtIntPropertyManager]
+    child_classes : [ *QtIntPropertyManager, *QtIntPropertyManager, *QtIntPropertyManager, *QtIntPropertyManager ]
+    declaration_type: QRect
+    argument_type: 'const QRect &'
+    spy_count: 1
+    spy_cast: null
+    max_value: null
+    test_value: RECT_TEST_VECTOR
+    min_value: null
+    manager_signal: valueChanged
+    editor_signal: null
+    range_signal: null
+    editor_setter: null
+    editor_getter: null
+    has_check: True
+    is_vector: False
+    is_group: True
+    is_complex: False
+    is_quarterion : False
+    is_enabled: True
+  QtRectFPropertyManager:
+    editor_factories : ["QtRectFEditorFactory"]
+    editors : ['']
+    child_num : 4
+    child_names : [QtDoubleEditFactory, QtDoubleEditFactory, QtDoubleEditFactory, QtDoubleEditFactory]
+    child_classes : [*QtDoubleEditFactory, *QtDoubleEditFactory, *QtDoubleEditFactory, *QtDoubleEditFactory]
+    declaration_type : QRectF
+    argument_type : 'const QRectF &'
+    spy_count : 1
+    spy_cast : null
+    max_value : null
+    test_value : RECTF_TEST_VECTOR
+    min_value : null
+    manager_signal : valueChanged
+    editor_signal : null
+    range_signal : null
+    editor_setter : null
+    editor_getter : null
+    has_check : True
+    is_vector : False
+    is_group : True
+    is_complex : False
+    is_quarterion : False
+    is_enabled : True
+  QtEnumPropertyManager: &QtEnumPropertyManager
+    editor_factories : ["QtEnumEditorFactory"]
+    editors : ["QComboBox"]
+    child_num : 0
+    child_names : []
+    child_classes : []
+    declaration_type : int
+    argument_type : int
+    spy_count : 1
+    spy_cast : toInt
+    max_value : null
+    test_value : ENUM_TEST_VECTOR
+    min_value : null
+    manager_signal : valueChanged
+    editor_signal : currentIndexChanged
+    range_signal : null
+    editor_setter : setCurrentIndex
+    editor_getter : currentIndex
+    has_check : True
+    is_vector : False
+    is_group : False
+    is_complex : False
+    is_quarterion : False
+    is_enabled : True
+  QtFlagPropertyManager:
+    editor_factories: [ "QtFlagEditorFactory" ]
+    editors: [ '' ]
+    child_num: 3
+    child_names : [QtBoolPropertyManager, QtBoolPropertyManager, QtBoolPropertyManager]
+    child_classes : [ *QtBoolPropertyManager, *QtBoolPropertyManager, *QtBoolPropertyManager ]
+    declaration_type: int
+    argument_type: int
+    spy_count: 1
+    spy_cast: null
+    max_value: null
+    test_value: FLAG_TEST_VECTOR
+    min_value: null
+    manager_signal: valueChanged
+    editor_signal: null
+    range_signal: null
+    editor_setter: null
+    editor_getter: null
+    has_check: True
+    is_vector: False
+    is_group: True
+    is_complex: False
+    is_quarterion : False
+    is_enabled: True
+  QtLocalePropertyManager:
+    editor_factories : ["QtLocaleEditorFactory"]
+    editors : ['']
+    child_num : 2
+    child_names : [QtEnumPropertyManager, QtEnumPropertyManager]
+    child_classes : [*QtEnumPropertyManager, *QtEnumPropertyManager]
+    declaration_type : QLocale
+    argument_type : const QLocale &
+    spy_count : -1
+    spy_cast : null
+    max_value : null
+    test_value : LOCALE_TEST_VECTOR
+    min_value : null
+    manager_signal : valueChanged
+    editor_signal : currentIndexChanged
+    range_signal : null
+    editor_setter : setCurrentIndex
+    editor_getter : currentIndex
+    has_check : True
+    is_vector : False
+    is_group : True
+    is_complex : False
+    is_quarterion : False
+    is_enabled : True
+  QtSizePolicyPropertyManager:
+    editor_factories : ["QtSizePolicyEditorFactory"]
+    editors : ['']
+    child_num : 4
+    child_names : [QtEnumPropertyManager, QtEnumPropertyManager, QtIntPropertyManager, QtIntPropertyManager]
+    child_classes : [*QtEnumPropertyManager, *QtEnumPropertyManager, *QtIntPropertyManager, *QtIntPropertyManager]
+    declaration_type : QSizePolicy
+    argument_type : const QSizePolicy &
+    spy_count : 1
+    spy_cast : null
+    max_value : null
+    test_value : SIZE_POLICY_TEST_VECTOR
+    min_value : null
+    manager_signal : valueChanged
+    editor_signal : null
+    range_signal : null
+    editor_setter : null
+    editor_getter : null
+    has_check : True
+    is_vector : False
+    is_group : True
+    is_complex : False
+    is_quarterion : False
+    is_enabled : True
+  QtFontPropertyManager:
+    editor_factories : ["QtFontEditorFactory"]
+    editors : ["QtFontEditWidget"]
+    child_num : 0
+    child_names : []
+    child_classes : []
+    declaration_type : QFont
+    argument_type : const QFont &
+    spy_count : 1
+    spy_cast : null
+    max_value : null
+    test_value : FONT_TEST_VECTOR
+    min_value : null
+    manager_signal : valueChanged
+    editor_signal : valueChanged
+    range_signal : null
+    editor_setter : setValue
+    editor_getter : value
+    has_check : True
+    is_vector : False
+    is_group : False
+    is_complex : False
+    is_quarterion : False
+    is_enabled : True
+  QtColorPropertyManager:
+    editor_factories : ["QtColorEditorFactory"]
+    editors : ["QtColorEditWidget"]
+    child_num : 0
+    child_names : []
+    child_classes : []
+    declaration_type : QColor
+    argument_type : const QColor &
+    spy_count : 1
+    spy_cast : null
+    max_value : null
+    test_value : COLOR_TEST_VECTOR
+    min_value : null
+    manager_signal : valueChanged
+    editor_signal : valueChanged
+    range_signal : null
+    editor_setter : setValue
+    editor_getter : value
+    has_check : True
+    is_vector : False
+    is_group : False
+    is_complex : False
+    is_quarterion : False
+    is_enabled : True
+  QtCursorPropertyManager:
+    editor_factories : ["QtCursorEditorFactory"]
+    editors : ["QComboBox"]
+    child_num : 0
+    child_names : []
+    child_classes : []
+    declaration_type : QCursor
+    argument_type : const QCursor &
+    spy_count : -1
+    spy_cast : null
+    max_value : null
+    test_value : CURSOR_TEST_VECTOR
+    min_value : null
+    manager_signal : valueChanged
+    editor_signal : null
+    range_signal : null
+    editor_setter : editor->setCurrentIndex(cursorDatabase()->cursorToValue(QCursor(CURSOR_TEST_VECTOR)));
+    editor_getter : QCOMPARE(cursorDatabase()->valueToCursor(editor->currentIndex()), QCursor(CURSOR_TEST_VECTOR));
+    has_check : True
+    is_vector : False
+    is_group : False
+    is_complex : False
+    is_quarterion : False
+    is_enabled : True
+  QtFilePropertyManager:
+    editor_factories : ["QtFileEditorFactory"]
+    editors : ["QtFileEdit"]
+    child_num : 0
+    child_names : []
+    child_classes : []
+    declaration_type : QString
+    argument_type : const QString &
+    spy_count : 1
+    spy_cast : toString
+    max_value : null
+    test_value : FILE_TEST_VECTOR
+    min_value : null
+    manager_signal : valueChanged
+    editor_signal : valueChanged
+    range_signal : null
+    editor_setter : setValue
+    editor_getter : value
+    has_check : True
+    is_vector : False
+    is_group : False
+    is_complex : False
+    is_quarterion : False
+    is_enabled : True

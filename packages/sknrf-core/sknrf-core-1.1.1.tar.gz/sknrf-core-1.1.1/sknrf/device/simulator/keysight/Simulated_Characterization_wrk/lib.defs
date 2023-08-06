@@ -1,0 +1,8 @@
+INCLUDE $HPEESOF_DIR/oalibs/analog_rf.defs
+INCLUDE $HPEESOF_DIR/oalibs/dsp.defs
+INCLUDE $HPEESOF_DIR/examples/DesignKit/DemoKit/lib.defs
+INCLUDE $HPEESOF_DIR/examples/DesignKit/DemoKit_Non_Linear/DemoKit_Non_Linear_v2.0/lib.defs
+DEFINE Simulated_Characterization_lib Simulated_Characterization_lib
+ASSIGN Simulated_Characterization_lib libMode shared
+DEFINE Transforms_lib Transforms_lib
+ASSIGN Transforms_lib libMode shared

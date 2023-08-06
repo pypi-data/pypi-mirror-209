@@ -1,0 +1,4 @@
+INCLUDE $HPEESOF_DIR/oalibs/ads.defs
+DEFINE SystemC_Cosim_lib ./SystemC_Cosim_lib
+ASSIGN SystemC_Cosim_lib writePath SystemC_Cosim_lib
+ASSIGN SystemC_Cosim_lib libMode shared

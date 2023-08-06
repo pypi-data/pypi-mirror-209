@@ -1,0 +1,183 @@
+1     7.703    0 0
+10    1    "Test_selfHeatingDiode"    2    1093331692    0    20    1    0
+20    0    ""    -28760 -10415 20957 24167 1    2 -4 1    1093331692    0    "schematic.prf" "schematic.lay"
+90    "HPEESOF_FULL_PATH"  3  1 0 `/SelfHeatingDiodeSDD:file/Test_selfHeatingDiode:design`
+90    "HPEESOF_CIRCUITPAGE_PROP_NAME_0"  3  1 0 `MNS.saved.dataset`
+90    "HPEESOF_CIRCUITPAGE_PROP_VALUE_0"  3  1 0 `DATASET`
+90    "HPEESOF_CIRCUITPAGE_PROP_NAME_1"  3  1 0 `MNS.status.lastpid`
+90    "HPEESOF_CIRCUITPAGE_PROP_VALUE_1"  3  1 0 `11548`
+90    "HPEESOF_CIRCUITPAGE_PROP_NAME_2"  3  1 0 `MNS.status.started`
+90    "HPEESOF_CIRCUITPAGE_PROP_VALUE_2"  3  1 0 `YES`
+90    "HPEESOF_CIRCUITPAGE_PROP_NAME_3"  3  1 0 `MNS.result.lastpid`
+90    "HPEESOF_CIRCUITPAGE_PROP_VALUE_3"  3  1 0 `11548`
+90    "HPEESOF_CIRCUITPAGE_PROP_NAME_4"  3  1 0 `MNS.result.completed`
+90    "HPEESOF_CIRCUITPAGE_PROP_VALUE_4"  3  1 0 `YES`
+90    "HPEESOF_CIRCUITPAGE_PROP_NAME_5"  3  1 0 `MNS.result.warnings`
+90    "HPEESOF_CIRCUITPAGE_PROP_VALUE_5"  3  1 0 `NO`
+90    "HPEESOF_CIRCUITPAGE_PROP_NAME_6"  3  1 0 `MNS.result.errors`
+90    "HPEESOF_CIRCUITPAGE_PROP_VALUE_6"  3  1 0 `NO`
+90    "HPEESOF_CIRCUITPAGE_PROP_NAME_7"  3  1 0 `MNS.dataset`
+90    "HPEESOF_CIRCUITPAGE_PROP_VALUE_7"  3  1 0 `DATASET`
+90    "HPEESOF_CIRCUITPAGE_PROP_NAME_8"  3  1 0 `MDSleft`
+90    "HPEESOF_CIRCUITPAGE_PROP_VALUE_8"  3  1 0 `-200`
+90    "HPEESOF_CIRCUITPAGE_PROP_NAME_9"  3  1 0 `MDSbottom`
+90    "HPEESOF_CIRCUITPAGE_PROP_VALUE_9"  3  1 0 `58.334`
+90    "HPEESOF_CIRCUITPAGE_PROP_NAME_10"  3  1 0 `MDSright`
+90    "HPEESOF_CIRCUITPAGE_PROP_VALUE_10"  3  1 0 `91.6667`
+90    "HPEESOF_CIRCUITPAGE_PROP_NAME_11"  3  1 0 `MDStop`
+90    "HPEESOF_CIRCUITPAGE_PROP_VALUE_11"  3  1 0 `79.167`
+30    209099816    1    "a"    1    2    0    209099680    214913416    209959860    0    6250 8750 0    0   0   0   0   0   ""   0   ""   0   ""   ""   ""
+30    209099680    1    "c"    2    2    0    0    214913416    209960916    0    6250 6250 0    0   0   0   0   0   ""   0   ""   0   ""   ""   ""
+30    209103352    1    ""    1    2    209099680    0    214802264    209960916    0    6250 6250 90000    0   0   1   0   0   ""   0   ""   0   ""   ""   ""
+30    209101992    1    ""    1    2    0    0    214802584    209960520    0    -10000 -2500 90000    0   0   0   0   0   ""   0   ""   0   ""   ""   ""
+30    209100496    1    ""    1    2    209099816    209102128    214802832    209959860    0    -10000 7500 90000    0   0   1   0   0   ""   0   ""   0   ""   ""   ""
+30    209102128    1    ""    2    2    209101992    0    214802832    209960520    0    -10000 -2500 -90000    0   0   0   0   0   ""   0   ""   0   ""   ""   ""
+32    214916944    1    209100496    1    209099816    0    0    0    ""  0
+60    3    0    3    -10000 7500 6250 8750 1    0    0    0    0
+70    -10000 7500    6250 8750
+32    214917144    1    209103352    1    209099680    0    0    0    ""  0
+60    4    0    1    6250 6250 6250 6250 1    0    0    0    0
+70    6250 6250
+32    208401736    1    209102128    1    209101992    0    0    0    ""  0
+60    4    0    1    -10000 -2500 -10000 -2500 1    0    0    0    0
+70    -10000 -2500
+40    4    0    0    0
+50    4    -10000 7500 6250 8750 1    0    0    0    0    0    0    0    0    214916944
+50    4    6250 6250 6250 6250 1    0    0    0    0    0    0    0    0    214917144
+50    4    -10000 -2500 -10000 -2500 1    0    0    0    0    0    0    0    0    208401736
+40    5    0    0    0
+50    6    -28750 20833 -1529 24167 1    0    0    0    0    0    0    0    0
+62    0    1667    9    -28750 22500 0    2    0    0    0    12    0   "Arial For CAE"   `Simulating the Current versus Voltage 
+of a Self-Heating Diode Model`
+41    214913416    0    131088    "cmp2"    "SelfHeatingDiode"    "SelfHeatingDiode"    6250 -10415 20957 12500 1    0 "" 0
+    209099816    0    4    13750 7500 0 1 1 0 0    0    105    0    0    1093331692    17  ""    6250 2500 18750 12500 1    8334 -10415 20957 1667 1    0 0 0 0 0 0
+90    "HAS_SHEET"  3  1 0 `Y`
+40    6    0    0    0
+50    6    -5416 -7500 7207 -5833 1    0    0    0    0    0    0    0    0
+62    0    1667    9    -5416 -7500 0    1    1    0    0    12    0   "Arial For CAE"   `SelfHeatingDiode`
+40    7    0    0    0
+50    6    -5416 -9583 -1246 -7916 1    0    0    0    0    0    0    0    0
+62    0    1667    9    -5416 -9583 0    1    2    0    0    12    0   "Arial For CAE"   `cmp2`
+40    8    0    0    0
+50    6    -5416 -17915 -1246 -16248 1    0    0    0    0    0    0    0    0
+62    0    1667    9    -5416 -17915 0    1    3    0    4    12    0   "Arial For CAE"   `n=1.1`
+50    6    -5416 -15832 1121 -14165 1    0    0    0    0    0    0    0    0
+62    0    1667    9    -5416 -15832 0    1    3    0    3    12    0   "Arial For CAE"   `rth=1000`
+50    6    -5416 -13749 -682 -12082 1    0    0    0    0    0    0    0    0
+62    0    1667    9    -5416 -13749 0    1    3    0    2    12    0   "Arial For CAE"   `rs=1.1`
+50    6    -5416 -11666 1008 -9999 1    0    0    0    0    0    0    0    0
+62    0    1667    9    -5416 -11666 0    1    3    0    1    12    0   "Arial For CAE"   `is=1e-12`
+80    5    "is"    "StdForm"    0    0    "1e-12"    0   0
+80    5    "rs"    "StdForm"    0    0    "1.1"    0   0
+80    5    "rth"    "StdForm"    0    0    "1000"    0   0
+80    5    "n"    "StdForm"    0    0    "1.1"    0   0
+41    214802264    0    131073    "P0_2"    "GROUND"    "SYM_Ground"    5000 3750 7500 6250 1    0 "" 0
+    209103352    0    7    6250 6250 -90000 1 1 0 0    0    97    0    0    1008874913    0  ""    5000 3750 7500 6250 1    0 0 0 0 0    0 0 0 0 0 0
+90    "CON_ID"  3  1 0 `P0`
+41    214802584    0    131073    "G1"    "GROUND"    "SYM_Ground"    -11250 -5000 -8750 -2500 1    0 "" 0
+    209101992    0    20    -10000 -2500 -90000 1 1 0 0    0    97    0    0    1008878127    0  ""    -11250 -5000 -8750 -2500 1    0 0 0 0 0    0 0 0 0 0 0
+41    214802832    0    0    "SRC1"    "V_DC"    "SYM_V_DC"    -11760 -2500 -2489 7500 1    0 "" 0
+    209100496    0    19    -10000 7500 -90000 1 1 0 0    0    105    0    0    1008878137    17  ""    -11760 -2500 -8760 7500 1    0 0 0 0 0    0 0 0 0 0 0
+40    6    0    0    0
+50    6    2073 -1667 6333 0 1    0    0    0    0    0    0    0    0
+62    0    1667    9    2073 -1667 0    1    1    0    0    12    0   "Arial For CAE"   `V_DC`
+40    7    0    0    0
+50    6    2073 -3750 6423 -2083 1    0    0    0    0    0    0    0    0
+62    0    1667    9    2073 -3750 0    1    2    0    0    12    0   "Arial For CAE"   `SRC1`
+40    8    0    0    0
+50    6    2073 -5833 7511 -4166 1    0    0    0    0    0    0    0    0
+62    0    1667    9    2073 -5833 0    1    3    0    1    12    0   "Arial For CAE"   `Vdc=vd`
+80    5    "Vdc"    "StdForm"    0    0    "vd"    0   0
+80    5    "Vac"    "StdForm"    0    0    ""    1   0
+80    6    "SaveCurrent"    "y_n1"    0    0    ""    1   0
+41    214804056    0    1082130434    "VAR1"    "VAR"    "SYM_VAR"    -7960 12132 93 17965 1    0 "" 0
+    0    0    1    -6250 16875 90000 1 1 0 0    0    104    0    0    1008878648    17  ""    -7960 15815 -4710 17965 1    0 0 0 0 0    0 0 0 0 0 0
+40    6    0    0    0
+50    6    2373 -577 5461 1090 1    0    0    0    0    0    0    0    0
+62    0    1667    9    2373 -577 0    1    1    0    0    12    0   "Arial For CAE"   `VAR`
+40    7    0    0    0
+50    6    2373 -2660 6343 -993 1    0    0    0    0    0    0    0    0
+62    0    1667    9    2373 -2660 0    1    2    0    0    12    0   "Arial For CAE"   `VAR1`
+40    8    0    0    0
+50    6    2373 -4743 5902 -3076 1    0    0    0    0    0    0    0    0
+62    0    1667    9    2373 -4743 0    1    3    0    1    12    0   "Arial For CAE"   `vd=0`
+80    3    "Variable Value"    "list"    0    1    ""    0   0
+80    4    ""    "VarFormStdForm"    0    2    ""    0   0
+80    5    ""    "VarNameForm"    0    0    "vd"    0   0
+80    5    ""    "VarValueForm"    0    0    "0"    0   0
+41    214805328    0    0    "cmp1"    "DC"    "SYM_DC"    -28760 -1355 -11259 16240 1    0 "" 0
+    0    0    5    -28750 16250 0 1 1 0 0    0    104    0    0    1065148653    17  ""    -28760 11560 -18880 16240 1    0 0 0 0 0    0 0 0 0 0 0
+90    "name"  3  1 0 `CMP1`
+90    "label"  3  1 0 `DC`
+40    6    0    0    0
+50    6    2074 -7190 5407 -5523 1    0    0    0    0    0    0    0    0
+62    0    1667    9    2074 -7190 0    1    1    0    0    12    0   "Arial For CAE"   `DC`
+40    7    0    0    0
+50    6    2074 -9273 7491 -7606 1    0    0    0    0    0    0    0    0
+62    0    1667    9    2074 -9273 0    1    2    0    0    12    0   "Arial For CAE"   `cmp1`
+40    8    0    0    0
+50    6    2074 -17605 9991 -15938 1    0    0    0    0    0    0    0    0
+62    0    1667    9    2074 -17605 0    1    3    0    4    12    0   "Arial For CAE"   `Lin=100`
+50    6    2074 -15522 9157 -13855 1    0    0    0    0    0    0    0    0
+62    0    1667    9    2074 -15522 0    1    3    0    3    12    0   "Arial For CAE"   `Stop=1`
+50    6    2074 -13439 12213 -11772 1    0    0    0    0    0    0    0    0
+62    0    1667    9    2074 -13439 0    1    3    0    2    12    0   "Arial For CAE"   `Start=0.01`
+50    6    2074 -11356 17491 -9689 1    0    0    0    0    0    0    0    0
+62    0    1667    9    2074 -11356 0    1    3    0    1    12    0   "Arial For CAE"   `SweepVar="vd"`
+80    5    "SweepVar"    "StringAndReference"    0    0    ""vd""    0   0
+80    5    "UseSweepPlan"    "StdForm"    0    0    ""    1   0
+80    5    "SweepPlan"    "StdForm"    0    0    ""    1   0
+80    5    "Start"    "StdForm"    0    0    "0.01"    0   0
+80    5    "Stop"    "StdForm"    0    0    "1"    0   0
+80    5    "Step"    "StdForm"    0    0    ""    1   0
+80    5    "Center"    "StdForm"    0    0    ""    1   0
+80    5    "Span"    "StdForm"    0    0    ""    1   0
+80    5    "Lin"    "StdForm"    0    0    "100"    0   0
+80    5    "Dec"    "StdForm"    0    0    ""    1   0
+80    5    "Log"    "StdForm"    0    0    ""    1   0
+80    5    "Reverse"    "StdForm"    0    0    ""    1   0
+80    5    "Pt"    "StdForm"    0    0    ""    1   0
+80    5    "Sort"    "StdForm"    0    0    "LINEAR START POINTS "    1   0
+80    3    "OutputPlan"    "list"    0    1    ""    1   0
+80    5    "OutputPlan"    "StdForm"    0    0    ""    1   0
+80    6    "UseNodeNestLevel"    "OutputPlan_BooleanYes"    0    0    ""    1   0
+80    5    "NodeNestLevel"    "SingleTextLineInteger"    0    0    "2"    1   0
+80    3    "NodeName"    "list"    0    1    ""    1   0
+80    5    "NodeName"    "StringAndReference"    0    0    ""    1   0
+80    6    "UseEquationNestLevel"    "OutputPlan_BooleanYes"    0    0    ""    1   0
+80    5    "EquationNestLevel"    "SingleTextLineInteger"    0    0    "2"    1   0
+80    3    "EquationName"    "list"    0    1    ""    1   0
+80    5    "EquationName"    "StringAndReference"    0    0    ""    1   0
+80    5    "MaxDeltaV"    "StdForm"    0    0    ""    1   0
+80    5    "MaxIters"    "StdForm"    0    0    "250"    1   0
+80    6    "ConvMode"    "frmConvMode0"    0    0    ""    1   0
+80    5    "StatusLevel"    "StdForm"    0    0    "2"    1   0
+80    6    "DevOpPtLevel"    "DeviceOpNone"    0    0    ""    1   0
+80    5    "UseFiniteDiff"    "StdForm"    0    0    "no"    1   0
+80    5    "ArcMaxStep"    "StdForm"    0    0    "0.0"    1   0
+80    5    "ArcLevelMaxStep"    "StdForm"    0    0    "0.0"    1   0
+80    5    "ArcMinValue"    "StdForm"    0    0    ""    1   0
+80    5    "ArcMaxValue"    "StdForm"    0    0    ""    1   0
+80    5    "MaxStepRatio"    "StdForm"    0    0    "100"    1   0
+80    5    "MaxShrinkage"    "StdForm"    0    0    "1e-5"    1   0
+80    5    "LimitingMode"    "StdForm"    0    0    "0"    1   0
+80    5    "OutputAllSolns"    "StdForm"    0    0    ""    1   0
+80    5    "PrintOpPoint"    "StdForm"    0    0    "no"    1   0
+80    5    "Restart"    "StdForm"    0    0    "1"    1   0
+80    5    "Other"    "OtherForm"    0    0    ""    1   0
+80    6    "UseSavedEquationNestLevel"    "OutputPlan_BooleanYes"    0    0    ""    1   0
+80    5    "SavedEquationNestLevel"    "SingleTextLineInteger"    0    0    "2"    1   0
+80    3    "SavedEquationName"    "list"    0    1    ""    1   0
+80    5    "SavedEquationName"    "StringAndReference"    0    0    ""    1   0
+80    3    "AttachedEquationName"    "list"    0    1    ""    1   0
+80    5    "AttachedEquationName"    "StringAndReference"    0    0    ""    1   0
+43    209960916    0    ""    209103352    0    ""   0
+43    209959860    0    ""    209100496    26    ""   0
+43    209960520    0    ""    209102128    0    ""   0
+44    0    0    0    0    0    0    0
+21
+20    1    ""    0 0 0 0 0    1 -4 1    0    0    "layout.prf" "layout.lay"
+90    "MOMMODE"  3  1 0 `0`
+90    "glob_mesh_cntrl"  3  1 0 `1 0 0 30 0 0 GHz mil 0 45`
+44    0    0    0    0    0    0    0
+21

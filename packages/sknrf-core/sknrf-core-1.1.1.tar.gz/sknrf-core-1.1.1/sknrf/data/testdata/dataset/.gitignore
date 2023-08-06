@@ -1,0 +1,6 @@
+*
+!.gitignore
+!config_read.txt
+!i_read.txt
+!q_read.txt
+!iq_read.h5

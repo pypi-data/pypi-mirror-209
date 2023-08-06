@@ -1,0 +1,5 @@
+BEGIN GainBlock
+% freq(real) gain(complex)
+         -100000000000                  1.000                   0.000
+           10000000000                  1.000                   0.000
+END

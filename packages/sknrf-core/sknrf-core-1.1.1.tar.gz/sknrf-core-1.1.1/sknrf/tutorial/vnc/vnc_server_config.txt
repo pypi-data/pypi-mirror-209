@@ -1,0 +1,29 @@
+# VNC Server
+
+## As root
+BINNAME="vncserver"
+sudo apt -y install xserver-xorg-core tigervnc-standalone-server tigervnc-xorg-extension tigervnc-viewer
+sudo apt -y install xfce4 xfce4-goodies
+sudo apt -y install ubuntu-gnome-desktop
+systemctl enable gdm
+systemctl start gdm
+
+## As User
+vncpasswd  # Set the VNC Password
+
+# Configure VNC Server~/.vnc/xstartup
+#!/bin/sh
+unset SESSION_MANAGER
+unset DBUS_SESSION_BUS_ADDRESS
+exec startxfce4
+
+#
+chmod +x ~/.vnc/xstartup
+vncserver :3 -depth 24 -geometry 1920x1080   # Start VNC Server
+vncserver -kill :3  # Stop VNC Server
+
+
+# VNC Client
+
+
+

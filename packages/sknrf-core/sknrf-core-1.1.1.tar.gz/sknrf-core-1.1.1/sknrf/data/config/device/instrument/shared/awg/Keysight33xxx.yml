@@ -1,0 +1,17 @@
+trigger_delay: 158.80e-06 # ALC OFF
+#trigger_delay: 178.00e-06 # ALC OFF
+#trigger_delay: 209.99e-06 # ALC OFF
+trigger_delay_min: 1.0e-9
+trigger_delay_max: 1.0e+12
+File Format: 1.10
+Checksum: 0
+Channel Count: 1
+Sample Rate: 20000.000000
+High Level: 2.000000
+Low Level: 0.000000
+Data Type: "short"
+Filter: "off"
+trigger_level: 2.5
+#Data Points: 100
+#Marker Point: 50
+#Data:

@@ -1,0 +1,36 @@
+usid                 : 0x03
+type                 : 0x00
+sclk_max             : 13.0e+6
+prog_id              : 0xC3
+man_id               : 0x107
+half_read            : True
+reasign_use_extended : False
+readable_registers   : []
+apt_vmax_default_v   : 5.5
+et_vmax_default_v    : 5.5
+trigger_delay: 0.0
+trigger_delay_min: 1.0e-12
+trigger_delay_max: 1.0e+12
+band:
+    B25_LTE_APT_HPM:
+        - [0x00, 0x00, 0x06] # PA Band | PA Enable | PA Mode
+        - [0x00, 0x02, 0x04] # ANT1 Switch | ANT2 Switch
+        - [0x00, 0x03, 0x00] # MB2 Switch | MB2 Switch | HB Switch
+        - [0x00, 0x04, 0x02] # Coupler Control
+        - [0x00, 0x05, 0x10]
+        - [0x00, 0x06, 0x00]
+        - [0x00, 0x0A, 0x03]
+        - [0x00, 0x1C, 0x03] # PM Trig
+    B25_LTE_APT_LPM:
+        - [0x00, 0x00,0x06]
+        - [0x00, 0x02, 0x04]
+        - [0x00  0x03, 0x00]
+        - [0x00, 0x04, 0x02]
+        - [0x00, 0x05, 0x10]
+        - [0x00, 0x06, 0x00]
+        - [0x00, 0x0A, 0x07]
+        - [0x00, 0x1C, 0x03]
+tracking_mode:
+    APT: 0x00
+    ET:  0x01
+

@@ -1,0 +1,383 @@
+1     7.703    0 0
+10    1    "IQmodTest"    2    1093329671    0    28    1    0
+20    0    ""    62 -2139 5692 1750 1    2 -3 1    1093329671    0    "schematic.prf" "schematic.lay"
+30    209054696    1    "P2"    2    0    209062448    209054560    213224840    209698092    0    1500 625 180000    0   0   0   0   0   ""   0   ""   0   ""   ""   ""
+30    209054560    1    "P1"    1    0    209067208    209054424    213224840    209698136    0    1500 875 180000    0   0   0   0   0   ""   0   ""   0   ""   ""   ""
+30    209054424    1    "P4"    4    0    0    209054288    213224840    209698356    0    2500 625 0    0   0   0   0   0   ""   0   ""   0   ""   ""   ""
+30    209054288    1    "P3"    3    0    0    0    213224840    209698400    0    2500 875 0    0   0   0   0   0   ""   0   ""   0   ""   ""   ""
+30    209058504    1    ""    1    2    0    0    214071096    209698312    0    4250 875 90000    0   0   1   0   0   ""   0   ""   0   ""   ""   ""
+30    209058640    1    ""    2    2    209058504    209062720    214071344    209698312    0    4250 875 0    0   0   1   0   0   ""   0   ""   0   ""   ""   ""
+30    209062720    1    ""    1    2    209054288    0    214071344    209698400    0    3250 875 180000    0   0   1   0   0   ""   0   ""   0   ""   ""   ""
+30    209067480    1    ""    1    2    0    0    214073448    209698268    0    250 -125 90000    0   0   1   0   0   ""   0   ""   0   ""   ""   ""
+30    209067344    1    ""    1    2    209062584    0    214073680    209698180    0    1500 -1000 90000    0   0   1   0   0   ""   0   ""   0   ""   ""   ""
+30    209068160    1    ""    1    2    0    0    214073944    209698224    0    2625 -1000 90000    0   0   0   0   0   ""   0   ""   0   ""   ""   ""
+30    209062176    1    ""    1    2    209054424    209062312    214074208    209698356    0    2625 0 90000    0   0   1   0   0   ""   0   ""   0   ""   ""   ""
+30    209062312    1    ""    2    2    209068160    0    214074208    209698224    0    2625 -1000 -90000    0   0   0   0   0   ""   0   ""   0   ""   ""   ""
+30    209062448    1    ""    1    2    0    209062584    212692344    209698092    0    1500 0 90000    0   0   1   0   0   ""   0   ""   0   ""   ""   ""
+30    209062584    1    ""    2    2    0    0    212692344    209698180    0    1500 -1000 -90000    0   0   1   0   0   ""   0   ""   0   ""   ""   ""
+30    209067072    1    ""    2    0    209067480    209067208    212693536    209698268    0    250 -125 -90000    0   0   1   0   0   ""   0   ""   0   ""   ""   ""
+30    209067208    1    ""    1    1    0    0    212693536    209698136    0    250 875 90000    0   0   1   0   0   ""   0   ""   0   ""   ""   ""
+32    207830200    1    209054696    1    209062448    0    0    0    ""  0
+60    3    0    2    1500 0 1500 625 1    0    0    0    0
+70    1500 625    0 0
+32    207833992    1    209062176    1    209054424    0    0    0    ""  0
+60    3    0    3    2500 0 2625 625 1    0    0    0    0
+70    2625 0    2500 625
+32    207833704    1    209054560    1    209067208    0    0    0    ""  0
+60    2    0    2    250 875 1500 875 1    0    0    0    0
+70    1500 875    250 0
+32    207523088    1    209062720    1    209054288    0    0    0    ""  0
+60    2    0    2    2500 875 3250 875 1    0    0    0    0
+70    3250 875    2500 0
+50    10    2875 875 3264 1042 1    0    0    0    0    0    0    0    0
+62    0    167    73    2875 875 0    1    0    0    0    12    37   "Arial For CAE"   `vout`
+32    208643296    1    209058640    1    209058504    0    0    0    ""  0
+60    4    0    1    4250 875 4250 875 1    0    0    0    0
+70    4250 875
+32    208538048    1    209067072    1    209067480    0    0    0    ""  0
+60    4    0    1    250 -125 250 -125 1    0    0    0    0
+70    250 -125
+32    207278152    1    209062312    1    209068160    0    0    0    ""  0
+60    4    0    1    2625 -1000 2625 -1000 1    0    0    0    0
+70    2625 -1000
+32    207292912    1    209067344    1    209062584    0    0    0    ""  0
+60    4    0    1    1500 -1000 1500 -1000 1    0    0    0    0
+70    1500 -1000
+40    4    0    0    0
+50    4    1500 0 1500 625 1    0    0    0    0    0    0    0    0    207830200
+50    4    2500 0 2625 625 1    0    0    0    0    0    0    0    0    207833992
+50    4    250 875 1500 875 1    0    0    0    0    0    0    0    0    207833704
+50    4    2500 875 3264 1042 1    0    0    0    0    0    0    0    0    207523088
+50    4    4250 875 4250 875 1    0    0    0    0    0    0    0    0    208643296
+50    4    250 -125 250 -125 1    0    0    0    0    0    0    0    0    208538048
+50    4    2625 -1000 2625 -1000 1    0    0    0    0    0    0    0    0    207278152
+50    4    1500 -1000 1500 -1000 1    0    0    0    0    0    0    0    0    207292912
+40    5    0    0    0
+50    6    625 1500 3915 1750 1    0    0    0    0    0    0    0    0
+62    0    250    9    625 1500 0    1    0    0    0    0    0   "Arial For CAE"   `IQ Modulator Test`
+50    6    3125 -1764 4758 -1486 1    0    0    0    0    0    0    0    0
+62    0    139    9    3125 -1625 0    2    0    0    0    10    0   "Arial For CAE"   `ang sweeps from 0 to 2*pi,
+every 1 us.`
+50    6    2500 -2139 5692 -1861 1    0    0    0    0    0    0    0    0
+62    0    139    9    2500 -2000 0    2    0    0    0    10    0   "Arial For CAE"   `See how the modulated signal changes when 
+the amplitudes of the baseband signals are unequal.`
+41    213224840    0    16    "X2"    "IQ_modulator"    "IQ_modulator"    1400 -25 2532 1125 1    0 "" 0
+    209054696    0    24    1750 1000 0 1 1 0 0    0    97    0    0    1093329671    17  ""    1400 375 2532 1125 1    1525 -25 2454 325 1    0 0 0 0 0 0
+40    6    0    0    0
+50    6    -225 -775 704 -675 1    0    0    0    0    0    0    0    0
+62    0    100    9    -225 -775 0    1    1    0    0    0    0   "Arial For CAE"   `IQ_modulator`
+40    7    0    0    0
+50    6    -225 -900 -71 -800 1    0    0    0    0    0    0    0    0
+62    0    100    9    -225 -900 0    1    2    0    0    0    0   "Arial For CAE"   `X2`
+40    8    0    0    0
+50    6    -225 -1025 549 -925 1    0    0    0    0    0    0    0    0
+62    0    100    9    -225 -1025 0    1    3    0    1    0    0   "Arial For CAE"   `Fnom=1 GHz`
+80    5    "Fnom"    "StdForm"    0    0    "1 GHz"    0   0
+41    214071096    0    131073    "G1"    "GROUND"    "SYM_Ground"    4125 625 4375 875 1    0 "" 0
+    209058504    0    4    4250 875 -90000 1 1 0 0    0    97    0    0    970252985    0  ""    4125 625 4375 875 1    0 0 0 0 0    0 0 0 0 0 0
+41    214071344    0    0    "R1"    "R"    "SYM_R"    3250 404 4250 945 1    0 "" 0
+    209058640    0    3    3250 875 0 1 1 0 0    0    96    0    0    1065146882    17  ""    3250 804 4250 945 1    0 0 0 0 0    0 0 0 0 0 0
+40    6    0    0    0
+50    6    125 -221 222 -121 1    0    0    0    0    0    0    0    0
+62    0    100    9    125 -221 0    1    1    0    0    10    0   "Arial For CAE"   `R`
+40    7    0    0    0
+50    6    125 -346 292 -246 1    0    0    0    0    0    0    0    0
+62    0    100    9    125 -346 0    1    2    0    0    10    0   "Arial For CAE"   `R1`
+40    8    0    0    0
+50    6    125 -471 750 -371 1    0    0    0    0    0    0    0    0
+62    0    100    9    125 -471 0    1    3    0    1    10    0   "Arial For CAE"   `R=50 Ohm`
+80    5    "R"    "StdForm"    0    0    "50 Ohm"    0   0
+80    5    "Temp"    "StdForm"    0    0    ""    1   0
+80    5    "Trise"    "StdForm"    0    0    ""    1   0
+80    5    "Tnom"    "StdForm"    0    0    ""    1   0
+80    5    "TC1"    "StdForm"    0    0    ""    1   0
+80    5    "TC2"    "StdForm"    0    0    ""    1   0
+80    6    "Noise"    "Yes"    0    0    ""    1   0
+80    5    "wPmax"    "StdForm"    0    0    ""    1   0
+80    5    "wImax"    "StdForm"    0    0    ""    1   0
+80    5    "Model"    "StdForm"    0    0    ""    1   0
+80    5    "Width"    "StdForm"    0    0    ""    1   0
+80    5    "Length"    "StdForm"    0    0    ""    1   0
+80    5    "_M"    "StdForm"    0    0    ""    1   0
+41    214073448    0    131073    "G2"    "GROUND"    "SYM_Ground"    125 -375 375 -125 1    0 "" 0
+    209067480    0    6    250 -125 -90000 1 1 0 0    0    97    0    0    970252985    0  ""    125 -375 375 -125 1    0 0 0 0 0    0 0 0 0 0 0
+41    214073680    0    131073    "G3"    "GROUND"    "SYM_Ground"    1375 -1250 1625 -1000 1    0 "" 0
+    209067344    0    9    1500 -1000 -90000 1 1 0 0    0    97    0    0    970252985    0  ""    1375 -1250 1625 -1000 1    0 0 0 0 0    0 0 0 0 0 0
+41    214073944    0    131073    "G5"    "GROUND"    "SYM_Ground"    2500 -1250 2750 -1000 1    0 "" 0
+    209068160    0    14    2625 -1000 -90000 1 1 0 0    0    97    0    0    970252985    0  ""    2500 -1250 2750 -1000 1    0 0 0 0 0    0 0 0 0 0 0
+41    214074208    0    0    "SRC3"    "V_DC"    "SYM_V_DC"    2449 -1000 3263 0 1    0 "" 0
+    209062176    0    12    2625 0 -90000 1 1 0 0    0    104    0    0    970252985    17  ""    2449 -1000 2749 0 1    0 0 0 0 0    0 0 0 0 0 0
+40    6    0    0    0
+50    6    174 -100 483 0 1    0    0    0    0    0    0    0    0
+62    0    100    9    174 -100 0    1    1    0    0    0    0   "Arial For CAE"   `V_DC`
+40    7    0    0    0
+50    6    174 -225 483 -125 1    0    0    0    0    0    0    0    0
+62    0    100    9    174 -225 0    1    2    0    0    0    0   "Arial For CAE"   `SRC3`
+40    8    0    0    0
+50    6    174 -350 638 -250 1    0    0    0    0    0    0    0    0
+62    0    100    9    174 -350 0    1    3    0    1    0    0   "Arial For CAE"   `Vdc=Vq`
+80    5    "Vdc"    "StdForm"    0    0    "Vq"    0   0
+80    5    "Vac"    "StdForm"    0    0    ""    1   0
+80    6    "SaveCurrent"    "y_n1"    0    0    ""    1   0
+41    212692344    0    0    "SRC2"    "V_DC"    "SYM_V_DC"    1324 -1000 2138 0 1    0 "" 0
+    209062448    0    11    1500 0 -90000 1 1 0 0    0    104    0    0    970252985    17  ""    1324 -1000 1624 0 1    0 0 0 0 0    0 0 0 0 0 0
+40    6    0    0    0
+50    6    174 -350 483 -250 1    0    0    0    0    0    0    0    0
+62    0    100    9    174 -350 0    1    1    0    0    0    0   "Arial For CAE"   `V_DC`
+40    7    0    0    0
+50    6    174 -475 483 -375 1    0    0    0    0    0    0    0    0
+62    0    100    9    174 -475 0    1    2    0    0    0    0   "Arial For CAE"   `SRC2`
+40    8    0    0    0
+50    6    174 -600 638 -500 1    0    0    0    0    0    0    0    0
+62    0    100    9    174 -600 0    1    3    0    1    0    0   "Arial For CAE"   `Vdc=Vi`
+80    5    "Vdc"    "StdForm"    0    0    "Vi"    0   0
+80    5    "Vac"    "StdForm"    0    0    ""    1   0
+80    6    "SaveCurrent"    "y_n1"    0    0    ""    1   0
+41    212693536    0    0    "SRC1"    "V_1Tone"    "SYM_Voltage"    62 -125 1262 875 1    0 "" 0
+    209067072    0    5    250 875 -90000 1 1 0 0    0    104    0    0    1065146882    17  ""    62 -125 438 875 1    0 0 0 0 0    0 0 0 0 0 0
+40    6    0    0    0
+50    6    238 -100 738 0 1    0    0    0    0    0    0    0    0
+62    0    100    9    238 -100 0    1    1    0    0    10    0   "Arial For CAE"   `V_1Tone`
+40    7    0    0    0
+50    6    238 -225 585 -125 1    0    0    0    0    0    0    0    0
+62    0    100    9    238 -225 0    1    2    0    0    10    0   "Arial For CAE"   `SRC1`
+40    8    0    0    0
+50    6    238 -475 932 -375 1    0    0    0    0    0    0    0    0
+62    0    100    9    238 -475 0    1    3    0    2    10    0   "Arial For CAE"   `Freq=1 GHz`
+50    6    238 -350 585 -250 1    0    0    0    0    0    0    0    0
+62    0    100    9    238 -350 0    1    3    0    1    10    0   "Arial For CAE"   `V=1 V`
+80    5    "V"    "StdForm"    0    0    "1 V"    0   0
+80    5    "Freq"    "StdForm"    0    0    "1 GHz"    0   0
+80    5    "PhaseNoise"    "StdForm"    0    0    ""    1   0
+80    5    "V_USB"    "StdForm"    0    0    ""    1   0
+80    5    "V_LSB"    "StdForm"    0    0    ""    1   0
+80    5    "Vdc"    "StdForm"    0    0    ""    1   0
+80    5    "Vac"    "StdForm"    0    0    ""    1   0
+80    6    "SaveCurrent"    "y_n1"    0    0    ""    1   0
+80    5    "FundIndex"    "StdForm"    0    0    ""    1   0
+80    5    "Other"    "OtherForm"    0    0    ""    1   0
+41    212695576    0    0    "Env1"    "Envelope"    "SYM_ENV"    3500 -1214 5552 0 1    0 "" 0
+    0    0    17    3500 0 0 1 1 0 0    0    104    0    0    1093329671    17  ""    3500 -469 5450 -1 1    0 0 0 0 0    0 0 0 0 0 0
+40    6    0    0    0
+50    6    125 -589 667 -489 1    0    0    0    0    0    0    0    0
+62    0    100    9    125 -589 0    1    1    0    0    10    0   "Arial For CAE"   `Envelope`
+40    7    0    0    0
+50    6    125 -714 431 -614 1    0    0    0    0    0    0    0    0
+62    0    100    9    125 -714 0    1    2    0    0    10    0   "Arial For CAE"   `Env1`
+40    8    0    0    0
+50    6    125 -1214 778 -1114 1    0    0    0    0    0    0    0    0
+62    0    100    9    125 -1214 0    1    3    0    4    10    0   "Arial For CAE"   `Step=20 ns`
+50    6    125 -1089 708 -989 1    0    0    0    0    0    0    0    0
+62    0    100    9    125 -1089 0    1    3    0    3    10    0   "Arial For CAE"   `Stop=2 us`
+50    6    125 -964 736 -864 1    0    0    0    0    0    0    0    0
+62    0    100    9    125 -964 0    1    3    0    2    10    0   "Arial For CAE"   `Order[1]=1`
+50    6    125 -839 1083 -739 1    0    0    0    0    0    0    0    0
+62    0    100    9    125 -839 0    1    3    0    1    10    0   "Arial For CAE"   `Freq[1]=1.0 GHz`
+80    5    "MaxOrder"    "StdForm"    0    0    "4"    1   0
+80    3    "Freq"    "list"    0    1    ""    0   0
+80    5    "Freq"    "StdForm"    0    0    "1.0 GHz"    0   0
+80    3    "Order"    "list"    0    1    ""    0   0
+80    5    "Order"    "StdForm"    0    0    "1"    0   0
+80    5    "StatusLevel"    "StdForm"    0    0    "3"    1   0
+80    5    "FundOversample"    "StdForm"    0    0    "2"    1   0
+80    3    "Oversample"    "list"    0    1    ""    1   0
+80    5    "Oversample"    "StdForm"    0    0    ""    1   0
+80    5    "PackFFT"    "StdForm"    0    0    ""    1   0
+80    5    "MaxIters"    "StdForm"    0    0    "10"    1   0
+80    5    "GuardThresh"    "StdForm"    0    0    ""    1   0
+80    5    "SamanskiiConstant"    "StdForm"    0    0    "2"    1   0
+80    6    "Restart"    "No"    0    0    ""    1   0
+80    5    "ArcLevelMaxStep"    "StdForm"    0    0    "0.0"    1   0
+80    5    "MaxStepRatio"    "StdForm"    0    0    "100"    1   0
+80    5    "MaxShrinkage"    "StdForm"    0    0    "1.0e-5"    1   0
+80    5    "OutputAllSolns"    "StdForm"    0    0    ""    1   0
+80    5    "ArcMaxStep"    "StdForm"    0    0    "0.0"    1   0
+80    5    "ArcMinValue"    "StdForm"    0    0    ""    1   0
+80    5    "ArcMaxValue"    "StdForm"    0    0    ""    1   0
+80    5    "UseGear"    "StdForm"    0    0    ""    1   0
+80    5    "EnvIntegOrder"    "StdForm"    0    0    "1"    1   0
+80    5    "SweepOffset"    "StdForm"    0    0    ""    1   0
+80    5    "EnvNoise"    "StdForm"    0    0    ""    1   0
+80    5    "EnvBandwidth"    "StdForm"    0    0    "1"    1   0
+80    5    "EnvRelTrunc"    "StdForm"    0    0    ""    1   0
+80    5    "EnvAbsTrunc"    "StdForm"    0    0    ""    1   0
+80    5    "EnvWarnPoorFit"    "StdForm"    0    0    ""    1   0
+80    5    "EnvUsePoorFit"    "StdForm"    0    0    ""    1   0
+80    5    "EnvSkipDC_Fit"    "StdForm"    0    0    ""    1   0
+80    5    "ResetOsc"    "StdForm"    0    0    ""    1   0
+80    5    "OscMode"    "StdForm"    0    0    ""    1   0
+80    5    "OscPortName"    "StringAndReference"    0    0    ""    1   0
+80    5    "IgnoreOscErrors"    "StdForm"    0    0    ""    1   0
+80    5    "SweepVar"    "StdForm"    0    0    ""time""    1   0
+80    5    "UseSweepPlan"    "StdForm"    0    0    ""    1   0
+80    5    "SweepPlan"    "StdForm"    0    0    ""    1   0
+80    5    "Start"    "StdForm"    0    0    "0 nsec"    1   0
+80    5    "Stop"    "StdForm"    0    0    "2 us"    0   0
+80    5    "Step"    "StdForm"    0    0    "20 ns"    0   0
+80    5    "Center"    "StdForm"    0    0    ""    1   0
+80    5    "Span"    "StdForm"    0    0    ""    1   0
+80    5    "Lin"    "StdForm"    0    0    ""    1   0
+80    5    "Dec"    "StdForm"    0    0    ""    1   0
+80    5    "Log"    "StdForm"    0    0    ""    1   0
+80    5    "Reverse"    "StdForm"    0    0    ""    1   0
+80    5    "Pt"    "StdForm"    0    0    ""    1   0
+80    5    "Sort"    "StdForm"    0    0    "LINEAR START STEP"    1   0
+80    3    "OutputPlan"    "list"    0    1    ""    1   0
+80    5    "OutputPlan"    "StdForm"    0    0    ""    1   0
+80    6    "UseNodeNestLevel"    "OutputPlan_BooleanYes"    0    0    ""    1   0
+80    5    "NodeNestLevel"    "SingleTextLineInteger"    0    0    "2"    1   0
+80    3    "NodeName"    "list"    0    1    ""    1   0
+80    5    "NodeName"    "StringAndReference"    0    0    ""    1   0
+80    6    "UseEquationNestLevel"    "OutputPlan_BooleanYes"    0    0    ""    1   0
+80    5    "EquationNestLevel"    "SingleTextLineInteger"    0    0    "2"    1   0
+80    3    "EquationName"    "list"    0    1    ""    1   0
+80    5    "EquationName"    "StringAndReference"    0    0    ""    1   0
+80    5    "SS_MixerMode"    "StdForm"    0    0    ""    1   0
+80    5    "SS_UseSweepPlan"    "StdForm"    0    0    ""    1   0
+80    5    "SS_Plan"    "StdForm"    0    0    ""    1   0
+80    5    "SS_Start"    "StdForm"    0    0    "1.0 GHz"    1   0
+80    5    "SS_Stop"    "StdForm"    0    0    "10.0 GHz"    1   0
+80    5    "SS_Step"    "StdForm"    0    0    "1.0 GHz"    1   0
+80    5    "SS_Center"    "StdForm"    0    0    ""    1   0
+80    5    "SS_Span"    "StdForm"    0    0    ""    1   0
+80    5    "SS_Lin"    "StdForm"    0    0    ""    1   0
+80    5    "SS_Dec"    "StdForm"    0    0    ""    1   0
+80    5    "SS_Log"    "StdForm"    0    0    ""    1   0
+80    5    "SS_Reverse"    "StdForm"    0    0    ""    1   0
+80    5    "SS_Pt"    "StdForm"    0    0    ""    1   0
+80    5    "SS_Sort"    "StdForm"    0    0    "LINEAR START STEP"    1   0
+80    5    "SS_Freq"    "StdForm"    0    0    ""    1   0
+80    5    "SS_Thresh"    "StdForm"    0    0    ""    1   0
+80    5    "UseAllSS_Freqs"    "StdForm"    0    0    "yes"    1   0
+80    5    "MergeSS_Freqs"    "StdForm"    0    0    ""    1   0
+80    5    "InputFreq"    "StdForm"    0    0    "1 Hz"    1   0
+80    5    "NLNoiseMode"    "StdForm"    0    0    ""    1   0
+80    5    "NLNoiseUseSweepPlan"    "StdForm"    0    0    ""    1   0
+80    5    "NoiseFreqPlan"    "StdForm"    0    0    ""    1   0
+80    5    "NLNoiseStart"    "StdForm"    0    0    "1.0 GHz"    1   0
+80    5    "NLNoiseStop"    "StdForm"    0    0    "10.0 GHz"    1   0
+80    5    "NLNoiseStep"    "StdForm"    0    0    "1.0 GHz"    1   0
+80    5    "NLNoiseCenter"    "StdForm"    0    0    ""    1   0
+80    5    "NLNoiseSpan"    "StdForm"    0    0    ""    1   0
+80    5    "NLNoiseLin"    "StdForm"    0    0    ""    1   0
+80    5    "NLNoiseDec"    "StdForm"    0    0    ""    1   0
+80    5    "NLNoiseLog"    "StdForm"    0    0    ""    1   0
+80    5    "NLNoiseReverse"    "StdForm"    0    0    ""    1   0
+80    5    "NLNoisePt"    "StdForm"    0    0    ""    1   0
+80    5    "NLNoiseSort"    "StdForm"    0    0    "LINEAR START STEP"    1   0
+80    5    "FreqForNoise"    "StdForm"    0    0    ""    1   0
+80    5    "NoiseInputPort"    "StdForm"    0    0    "1"    1   0
+80    5    "NoiseOutputPort"    "StdForm"    0    0    "2"    1   0
+80    6    "PhaseNoise"    "No"    0    0    ""    1   0
+80    5    "FM_Noise"    "StdForm"    0    0    ""    1   0
+80    3    "NoiseNode"    "list"    0    1    ""    1   0
+80    5    "NoiseNode"    "StdForm"    0    0    ""    1   0
+80    6    "SortNoise"    "NoiseSortOff"    0    0    ""    1   0
+80    5    "NoiseThresh"    "StdForm"    0    0    ""    1   0
+80    5    "IncludePortNoise"    "StdForm"    0    0    ""    1   0
+80    5    "NoisyTwoPort"    "StdForm"    0    0    ""    1   0
+80    5    "BandwidthForNoise"    "StdForm"    0    0    "1.0 Hz"    1   0
+80    6    "DevOpPtLevel"    "DeviceOpNone"    0    0    ""    1   0
+80    5    "InFile"    "StringAndReference"    0    0    " "    1   0
+80    5    "UseInFile"    "StdForm"    0    0    "no"    1   0
+80    5    "OutFile"    "StringAndReference"    0    0    " "    1   0
+80    5    "UseOutFile"    "StdForm"    0    0    "no"    1   0
+80    6    "UseKrylov"    "UseDirectSolver"    0    0    ""    1   0
+80    5    "UseInitialAWHB"    "StdForm"    0    0    ""    1   0
+80    5    "AWHB_WindowSize"    "StdForm"    0    0    ""    1   0
+80    5    "GMRES_Restart"    "StdForm"    0    0    ""    1   0
+80    5    "KrylovUsePacking"    "StdForm"    0    0    ""    1   0
+80    5    "KrylovPackingThresh"    "StdForm"    0    0    ""    1   0
+80    5    "KrylovTightTol"    "StdForm"    0    0    ""    1   0
+80    5    "KrylovLooseTol"    "StdForm"    0    0    ""    1   0
+80    5    "KrylovLooseIters"    "StdForm"    0    0    ""    1   0
+80    5    "KrylovMaxIters"    "StdForm"    0    0    ""    1   0
+80    5    "AvailableRAMsize"    "StdForm"    0    0    ""    1   0
+80    5    "KrylovSS_Tol"    "StdForm"    0    0    ""    1   0
+80    5    "KrylovUseGMRES_Float"    "StdForm"    0    0    ""    1   0
+80    5    "RecalculateWaveforms"    "StdForm"    0    0    ""    1   0
+80    5    "UseCompactFreqMap"    "StdForm"    0    0    ""    1   0
+80    6    "KrylovPrec"    "HBKrylovPrecDCP"    0    0    ""    1   0
+80    6    "ConvMode"    "HBConvModeADS15"    0    0    ""    1   0
+80    5    "ABM_Mode"    "StdForm"    0    0    ""    1   0
+80    5    "ABM_MaxPower"    "StdForm"    0    0    "20"    1   0
+80    5    "ABM_AmpPts"    "StdForm"    0    0    "21"    1   0
+80    5    "ABM_PhasePts"    "StdForm"    0    0    "0"    1   0
+80    5    "ABM_FreqPts"    "StdForm"    0    0    "16"    1   0
+80    5    "ABM_VTime"    "StdForm"    0    0    "0.0"    1   0
+80    5    "ABM_VTol"    "StdForm"    0    0    "1e-3"    1   0
+80    5    "ABM_ReUseData"    "StdForm"    0    0    ""    1   0
+80    5    "ABM_Delay"    "StdForm"    0    0    "0.0"    1   0
+80    6    "ABM_FreqComp"    "EnvABM0"    0    0    ""    1   0
+80    5    "ABM_ActiveInputNode"    "filename"    0    0    ""    1   0
+80    3    "ABM_IQ_Nodes"    "list"    0    1    ""    1   0
+80    5    "ABM_IQ_Nodes"    "filename"    0    0    ""    1   0
+80    5    "Other"    "OtherForm"    0    0    ""    1   0
+80    6    "UseSavedEquationNestLevel"    "OutputPlan_BooleanYes"    0    0    ""    1   0
+80    5    "SavedEquationNestLevel"    "SingleTextLineInteger"    0    0    "2"    1   0
+80    3    "SavedEquationName"    "list"    0    1    ""    1   0
+80    5    "SavedEquationName"    "StringAndReference"    0    0    ""    1   0
+80    3    "AttachedEquationName"    "list"    0    1    ""    1   0
+80    5    "AttachedEquationName"    "StringAndReference"    0    0    ""    1   0
+80    5    "OscUseNodes"    "StdForm"    0    0    ""    1   0
+80    5    "OscNodePlus"    "StringAndReference"    0    0    ""    1   0
+80    5    "OscNodeMinus"    "StringAndReference"    0    0    ""    1   0
+80    5    "OscFundIndex"    "StdForm"    0    0    "1"    1   0
+80    5    "OscHarm"    "StdForm"    0    0    "1"    1   0
+80    5    "OscNumOctaves"    "StdForm"    0    0    "2.0"    1   0
+80    5    "OscSteps"    "StdForm"    0    0    "20.0"    1   0
+80    5    "TAHB_Enable"    "StdForm"    0    0    ""    1   0
+80    5    "StopTime"    "StdForm"    0    0    ""    1   0
+80    5    "MaxTimeStep"    "StdForm"    0    0    ""    1   0
+80    5    "IV_RelTol"    "StdForm"    0    0    ""    1   0
+80    5    "AddtlTranParamsTAHB"    "StdForm"    0    0    ""    1   0
+80    5    "OneToneTranTAHB"    "StdForm"    0    0    "yes"    1   0
+80    5    "OutputTranDataTAHB"    "StdForm"    0    0    ""    1   0
+41    212711504    0    1082130434    "VAR1"    "VAR"    "SYM_VAR"    79 -2116 3628 -1266 1    0 "" 0
+    0    0    16    250 -1375 90000 1 1 0 0    0    104    0    0    970252985    17  ""    79 -1481 404 -1266 1    0 0 0 0 0    0 0 0 0 0 0
+40    6    0    0    0
+50    6    204 9 406 109 1    0    0    0    0    0    0    0    0
+62    0    100    9    204 9 0    1    1    0    0    0    0   "Arial For CAE"   `VAR`
+40    7    0    0    0
+50    6    204 -116 459 -16 1    0    0    0    0    0    0    0    0
+62    0    100    9    204 -116 0    1    2    0    0    0    0   "Arial For CAE"   `VAR1`
+40    8    0    0    0
+50    6    204 -241 1561 -141 1    0    0    0    0    0    0    0    0
+62    0    100    9    204 -241 0    1    3    0    1    0    0   "Arial For CAE"   `ang = 2*pi*(rem(time,1us))/1us`
+50    6    204 -366 1975 -266 1    0    0    0    0    0    0    0    0
+62    0    100    9    204 -366 0    1    3    0    2    0    0   "Arial For CAE"   `r0 = if ang < 2*a0 then 0 else 0.95 endif`
+50    6    204 -491 1052 -391 1    0    0    0    0    0    0    0    0
+62    0    100    9    204 -491 0    1    3    0    3    0    0   "Arial For CAE"   `Vq = r0*sin(ang-a0)`
+50    6    204 -616 1052 -516 1    0    0    0    0    0    0    0    0
+62    0    100    9    204 -616 0    1    3    0    4    0    0   "Arial For CAE"   `Vi = r0*cos(ang-a0)`
+50    6    204 -741 575 -641 1    0    0    0    0    0    0    0    0
+62    0    100    9    204 -741 0    1    3    0    5    0    0   "Arial For CAE"   `a0=pi/12`
+80    3    "Variable Value"    "list"    0    5    ""    0   0
+80    4    "Variable Value"    "VarFormEditcompPowerVar"    0    2    ""    0   0
+80    5    ""    "VarNameForm"    0    0    "ang "    0   0
+80    5    ""    "VarValueForm"    0    0    " 2*pi*(rem(time,1us))/1us"    0   0
+80    4    "Variable Value"    "VarFormEditcompPowerVar"    0    2    ""    0   0
+80    5    ""    "VarNameForm"    0    0    "r0 "    0   0
+80    5    ""    "VarValueForm"    0    0    " if ang < 2*a0 then 0 else 0.95 endif"    0   0
+80    4    "Variable Value"    "VarFormEditcompPowerVar"    0    2    ""    0   0
+80    5    ""    "VarNameForm"    0    0    "Vq "    0   0
+80    5    ""    "VarValueForm"    0    0    " r0*sin(ang-a0)"    0   0
+80    4    "Variable Value"    "VarFormEditcompPowerVar"    0    2    ""    0   0
+80    5    ""    "VarNameForm"    0    0    "Vi "    0   0
+80    5    ""    "VarValueForm"    0    0    " r0*cos(ang-a0)"    0   0
+80    4    "Variable Value"    "VarFormEditcompPowerVar"    0    2    ""    0   0
+80    5    ""    "VarNameForm"    0    0    "a0"    0   0
+80    5    ""    "VarValueForm"    0    0    "pi/12"    0   0
+43    209698400    0    "vout"    209062720    13    ""   0
+43    209698356    0    ""    209062176    12    ""   0
+43    209698136    0    ""    209054560    11    ""   0
+43    209698092    0    ""    209054696    10    ""   0
+43    209698312    0    ""    209058640    0    ""   0
+43    209698268    0    ""    209067072    0    ""   0
+43    209698224    0    ""    209062312    0    ""   0
+43    209698180    0    ""    209067344    0    ""   0
+44    0    0    0    0    0    0    0
+21
+20    1    ""    0 0 0 0 0    1 -2 1    0    0    "layout.prf" "layout.lay"
+44    0    0    0    0    0    0    0
+21

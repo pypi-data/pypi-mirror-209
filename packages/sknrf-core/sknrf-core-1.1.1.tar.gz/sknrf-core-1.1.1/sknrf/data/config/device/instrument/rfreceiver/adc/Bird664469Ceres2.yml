@@ -1,0 +1,46 @@
+trigger_delay: 0.0
+trigger_delay_min: 1.0e-12
+trigger_delay_max: 1.0e+12
+BRD_SLOT: 0
+ADC_PER_BRD: 1
+CH_PER_ADC: 4
+CH_PER_CON: 4
+CH_TYPE: ["PMT",  "PD",   "PD",   "PD"]
+offset:  [0x7918, 0x8084, 0x8084, 0x8084]
+gain:    [0x0000, 0x6666, 0x6666, 0x6666]
+voltage_limit: 0.5
+current_limit: 0.01
+points: [ 100,      250,      500,
+          1000,     2000,     5000,
+          10000,    20000,    50000,
+          100000,   200000,   500000,
+          1000000,  2000000,  4000000,  8000000 ]
+resample: 0.2
+attenuation: 1
+unit: "V"
+trigger_level: 1.0
+z0: FIFTy  # ONEMeg
+
+BOARD_NAME: &BOARD_NAME "tessera"
+FPGA_NAME: &FPGA_NAME "ceres"
+REM_USR: &REM_USR 'root'
+REM_IP: &REM_IP "172.16.0.135"
+REM_PORT: &REM_PORT 5000
+REM_SOCKET_PORT: 9851
+REM_BUFFER_LEN: 1024
+REM_SOCKET_TIMEOUT: 0.5
+REM_ARM_DELAY: 1.0
+REM_MEASURE_DELAY: 1.0
+REM_ADDR: &REM_ADDR !join [*REM_USR, '@', *REM_IP]
+REM_OPT: &REM_OPT '-o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null'
+REM_KEY: &REM_KEY !sep_join [!path '${PCB_TESTER_DIR}', 'pcbtest', 'data', '.ssh', 'id_mosaic']
+REM_ROOT: &REM_ROOT '/home/root'
+REM_DIR: !sep_join [*REM_ROOT, 'pcbtest', 'boards', *BOARD_NAME]
+REM_ENV: &REM_ENV !join ['PCB_TESTER_DIR=', *REM_ROOT]
+REM_PY: &REM_PY '/usr/bin/python3'
+
+REM_PYMON: !space_join ['cd', *REM_ROOT, ';', *REM_ENV, *REM_PY, 'build_devices.py', '-script {REM_FILE:s}']
+REM_SCP_UP: !space_join ['scp -i', *REM_KEY, *REM_OPT, "{FROM:s}", !path_join [*REM_ADDR, '{TO:s}']]
+REM_SCP_DN: !space_join ['scp -i', *REM_KEY, *REM_OPT, !path_join [*REM_ADDR, '{FROM:s}'], "{TO:s}"]
+REM_SSH: !space_join ['ssh -i', *REM_KEY, *REM_OPT,                 *REM_ADDR, '"{REM_CMD:s}"']
+REM_IFACE: "reg"

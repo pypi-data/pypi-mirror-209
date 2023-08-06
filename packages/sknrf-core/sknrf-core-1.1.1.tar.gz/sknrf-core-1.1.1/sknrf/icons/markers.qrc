@@ -1,0 +1,17 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource>
+    <file>markers/circle.png</file>
+    <file>markers/triangle_down.png</file>
+    <file>markers/triangle_up.png</file>
+    <file>markers/triangle_left.png</file>
+    <file>markers/triangle_right.png</file>
+    <file>markers/octagon.png</file>
+    <file>markers/square.png</file>
+    <file>markers/pentagon.png</file>
+    <file>markers/star.png</file>
+    <file>markers/hexagon1.png</file>
+    <file>markers/hexagon2.png</file>
+    <file>markers/diamond.png</file>
+    <file>markers/thin_diamond.png</file>
+</qresource>
+</RCC>

@@ -1,0 +1,25 @@
+!!python/object/apply:collections.OrderedDict
+- - - SS-SP_Electrical
+    - {file_types: S-Parameter Files (*.s1p *.s2p *.s3p *.s4p),
+       placeholderText: Small-Signal S-Parameters}
+  - - HB_1-Tone_Thermal
+    - {file_types: MDIF Files (*.mdf),
+       placeholderText: Harmonic Balance 1-Tone}
+  - - Layout
+    - {file_types: Image Files (*.png *.jpg *.bmp),
+       placeholderText: Layout Diagram}
+  - - Stack
+    - {file_types: Excel Files (*.xlsx),
+       placeholderText: Stack Information}
+  - [LINE1, null]
+  - - Technology
+    - [FBAR7, FBAR8, FBAR9]
+  - [Product, ""]
+  - [Variant, ""]
+  - [Lot#, ""]
+  - [Wafer#, ""]
+  - [SN#, ""]
+  - [LINE2, null]
+  - - Output Dir
+    - {file_types: dir,
+       placeholderText: Output Directory}

@@ -1,0 +1,273 @@
+
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="Simulated_Characterization_lib:Modulated_Characterization:schematic"
+define LFSource ( N__46 ) 
+parameters  On=0  Port="1"  Bias=0  Dataset="" 
+
+I0_name=strcat(strcat("V",Port),"0_I")
+I0_block_name=strcat(strcat("DF.",I0_name),".DF")
+I0=file{DACI0, I0_name}
+V0=if On then Bias else 0 endif
+FDD:FDD1P1  N__46 0  V[1,0]=V0*I0  Freq[1]=0 
+#uselib "ckt" , "DAC"
+DAC:DACI0  File=Dataset Type="dataset" Block=I0_block_name InterpMode="linear" InterpDom="ri" ExtrapMode="interpMode" iVar1="time" iVal1=time 
+end LFSource
+define LFZTuner ( N__32  N__31 ) 
+parameters  Port="1"  Z=1e20  Dataset="" 
+FDD:FDD1P1  Z_ 0  V[1,0]=Z0  Freq[1]=0 
+R:R8  Z_ 0 R=50 Ohm Noise=yes 
+FDD:FDD2P1  N__32 0 N__31 0  I[1,0]=(_sv(1,-1,0) - _sv(2,-1,0))/(Z0+1e-13)  I[2,0]=(_sv(2,-1,0) - _sv(1,-1,0))/(Z0+1e-13)  Freq[1]=0 
+#uselib "ckt" , "DAC"
+DAC:DACI0  File=Dataset Type="dataset" Block=I0_block_name InterpMode="linear" InterpDom="ri" ExtrapMode="interpMode" iVar1="time" iVal1=time 
+#uselib "ckt" , "DAC"
+DAC:DACQ0  File=Dataset Type="dataset" Block=Q0_block_name InterpMode="linear" InterpDom="ri" ExtrapMode="interpMode" iVar1="time" iVal1=time 
+
+I0_name=strcat(strcat("Z",Port),"0_I")
+Q0_name=strcat(strcat("Z",Port),"0_Q")
+I0_block_name=strcat(strcat("DF.",I0_name),".DF")
+Q0_block_name=strcat(strcat("DF.",Q0_name),".DF")
+I0=file{DACI0, I0_name}
+Q0=file{DACQ0, Q0_name}
+Z0=Z*(I0+j*Q0)
+end LFZTuner
+define RFPwrSource ( N__4 ) 
+parameters  On=0  Port="1"  Freq=1e9  A=0  Z=0  Z0=50  Dataset="" 
+#uselib "ckt" , "DAC"
+DAC:DACI2  File=Dataset Type="dataset" Block=I2_block_name InterpMode="linear" InterpDom="ri" ExtrapMode="interpMode" iVar1="time" iVal1=time 
+
+I2_name=strcat(strcat("A",Port),"2_I")
+Q2_name=strcat(strcat("A",Port),"2_Q")
+I2_block_name=strcat(strcat("DF.",I2_name),".DF")
+Q2_block_name=strcat(strcat("DF.",Q2_name),".DF")
+I2=file{DACI2, I2_name}
+Q2=file{DACQ2, Q2_name}
+V2=if On then 2*sqrt(2*real(Z2))*A[2]*(I2+j*Q2) else 0 endif
+
+I5_name=strcat(strcat("A",Port),"5_I")
+Q5_name=strcat(strcat("A",Port),"5_Q")
+I5_block_name=strcat(strcat("DF.",I5_name),".DF")
+Q5_block_name=strcat(strcat("DF.",Q5_name),".DF")
+I5=file{DACI5, I5_name}
+Q5=file{DACQ5, Q5_name}
+V5=if On then 2*sqrt(2*real(Z5))*A[5]*(I5+j*Q5) else 0 endif
+#uselib "ckt" , "DAC"
+DAC:DACQ2  File=Dataset Type="dataset" Block=Q2_block_name InterpMode="linear" InterpDom="ri" ExtrapMode="interpMode" iVar1="time" iVal1=time 
+
+;Equations=
+z2g(x) =(x-Z0)/(x+Z0)
+g2z(x) =Z0*(1+x)/(1-x)
+#uselib "ckt" , "DAC"
+DAC:DACZQ3  File=Dataset Type="dataset" Block=ZQ3_block_name InterpMode="linear" InterpDom="ri" ExtrapMode="interpMode" iVar1="time" iVal1=time 
+#uselib "ckt" , "DAC"
+DAC:DACZQ4  File=Dataset Type="dataset" Block=ZQ4_block_name InterpMode="linear" InterpDom="ri" ExtrapMode="interpMode" iVar1="time" iVal1=time 
+#uselib "ckt" , "DAC"
+DAC:DACZI4  File=Dataset Type="dataset" Block=ZI4_block_name InterpMode="linear" InterpDom="ri" ExtrapMode="interpMode" iVar1="time" iVal1=time 
+#uselib "ckt" , "DAC"
+DAC:DACZI3  File=Dataset Type="dataset" Block=ZI3_block_name InterpMode="linear" InterpDom="ri" ExtrapMode="interpMode" iVar1="time" iVal1=time 
+#uselib "ckt" , "DAC"
+DAC:DACZI5  File=Dataset Type="dataset" Block=ZI5_block_name InterpMode="linear" InterpDom="ri" ExtrapMode="interpMode" iVar1="time" iVal1=time 
+#uselib "ckt" , "DAC"
+DAC:DACZQ5  File=Dataset Type="dataset" Block=ZQ5_block_name InterpMode="linear" InterpDom="ri" ExtrapMode="interpMode" iVar1="time" iVal1=time 
+#uselib "ckt" , "DAC"
+DAC:DACZI2  File=Dataset Type="dataset" Block=ZI2_block_name InterpMode="linear" InterpDom="ri" ExtrapMode="interpMode" iVar1="time" iVal1=time 
+#uselib "ckt" , "DAC"
+DAC:DACZQ2  File=Dataset Type="dataset" Block=ZQ2_block_name InterpMode="linear" InterpDom="ri" ExtrapMode="interpMode" iVar1="time" iVal1=time 
+
+I3_name=strcat(strcat("A",Port),"3_I")
+Q3_name=strcat(strcat("A",Port),"3_Q")
+I3_block_name=strcat(strcat("DF.",I3_name),".DF")
+Q3_block_name=strcat(strcat("DF.",Q3_name),".DF")
+I3=file{DACI3, I3_name}
+Q3=file{DACQ3, Q3_name}
+V3=if On then 2*sqrt(2*real(Z3))*A[3]*(I3+j*Q3) else 0 endif
+#uselib "ckt" , "DAC"
+DAC:DACZQ1  File=Dataset Type="dataset" Block=ZQ1_block_name InterpMode="linear" InterpDom="ri" ExtrapMode="interpMode" iVar1="time" iVal1=time 
+#uselib "ckt" , "DAC"
+DAC:DACZI1  File=Dataset Type="dataset" Block=ZI1_block_name InterpMode="linear" InterpDom="ri" ExtrapMode="interpMode" iVar1="time" iVal1=time 
+#uselib "ckt" , "DAC"
+DAC:DACI4  File=Dataset Type="dataset" Block=I4_block_name InterpMode="linear" InterpDom="ri" ExtrapMode="interpMode" iVar1="time" iVal1=time 
+R:R8  Z_ 0 R=50 Ohm Noise=yes 
+
+ZI4_name=strcat(strcat("Z",Port),"4_I")
+ZQ4_name=strcat(strcat("Z",Port),"4_Q")
+ZI4_block_name=strcat(strcat("DF.",ZI4_name),".DF")
+ZQ4_block_name=strcat(strcat("DF.",ZQ4_name),".DF")
+ZI4=file{DACZI4, ZI4_name}
+ZQ4=file{DACZQ4, ZQ4_name}
+Z4=Z[4]+1e-100
+
+ZI3_name=strcat(strcat("Z",Port),"3_I")
+ZQ3_name=strcat(strcat("Z",Port),"3_Q")
+ZI3_block_name=strcat(strcat("DF.",ZI3_name),".DF")
+ZQ3_block_name=strcat(strcat("DF.",ZQ3_name),".DF")
+ZI3=file{DACZI3, ZI3_name}
+ZQ3=file{DACZQ3, ZQ3_name}
+Z3=Z[3]+1e-100
+
+ZI2_name=strcat(strcat("Z",Port),"2_I")
+ZQ2_name=strcat(strcat("Z",Port),"2_Q")
+ZI2_block_name=strcat(strcat("DF.",ZI2_name),".DF")
+ZQ2_block_name=strcat(strcat("DF.",ZQ2_name),".DF")
+ZI2=file{DACZI2, ZI2_name}
+ZQ2=file{DACZQ2, ZQ2_name}
+Z2=Z[2]+1e-100
+
+ZI1_name=strcat(strcat("Z",Port),"1_I")
+ZQ1_name=strcat(strcat("Z",Port),"1_Q")
+ZI1_block_name=strcat(strcat("DF.",ZI1_name),".DF")
+ZQ1_block_name=strcat(strcat("DF.",ZQ1_name),".DF")
+ZI1=file{DACZI1, ZI1_name}
+ZQ1=file{DACZQ1, ZQ1_name}
+Z1=Z[1]+1e-100
+FDD:FDD1P1  N__2 0  V[1,1]=V1  V[1,2]=V2  V[1,3]=V3  V[1,4]=V4  V[1,5]=V5  Freq[1]=Freq 
+
+I1_name=strcat(strcat("A",Port),"1_I")
+Q1_name=strcat(strcat("A",Port),"1_Q")
+I1_block_name=strcat(strcat("DF.",I1_name),".DF")
+Q1_block_name=strcat(strcat("DF.",Q1_name),".DF")
+I1=file{DACI1, I1_name}
+Q1=file{DACQ1, Q1_name}
+V1=if On then 2*sqrt(2*real(Z1))*A[1]*(I1+j*Q1) else 0 endif
+#uselib "ckt" , "DAC"
+DAC:DACQ1  File=Dataset Type="dataset" Block=Q1_block_name InterpMode="linear" InterpDom="ri" ExtrapMode="interpMode" iVar1="time" iVal1=time 
+
+I4_name=strcat(strcat("A",Port),"4_I")
+Q4_name=strcat(strcat("A",Port),"4_Q")
+I4_block_name=strcat(strcat("DF.",I4_name),".DF")
+Q4_block_name=strcat(strcat("DF.",Q4_name),".DF")
+I4=file{DACI4, I4_name}
+Q4=file{DACQ4, Q4_name}
+V4=if On then 2*sqrt(2*real(Z4))*A[4]*(I4+j*Q4) else 0 endif
+#uselib "ckt" , "DAC"
+DAC:DACI3  File=Dataset Type="dataset" Block=I3_block_name InterpMode="linear" InterpDom="ri" ExtrapMode="interpMode" iVar1="time" iVal1=time 
+#uselib "ckt" , "DAC"
+DAC:DACQ3  File=Dataset Type="dataset" Block=Q3_block_name InterpMode="linear" InterpDom="ri" ExtrapMode="interpMode" iVar1="time" iVal1=time 
+#uselib "ckt" , "DAC"
+DAC:DACQ4  File=Dataset Type="dataset" Block=Q4_block_name InterpMode="linear" InterpDom="ri" ExtrapMode="interpMode" iVar1="time" iVal1=time 
+#uselib "ckt" , "DAC"
+DAC:DACI1  File=Dataset Type="dataset" Block=I1_block_name InterpMode="linear" InterpDom="ri" ExtrapMode="interpMode" iVar1="time" iVal1=time 
+
+ZI5_name=strcat(strcat("Z",Port),"5_I")
+ZQ5_name=strcat(strcat("Z",Port),"5_Q")
+ZI5_block_name=strcat(strcat("DF.",ZI5_name),".DF")
+ZQ5_block_name=strcat(strcat("DF.",ZQ5_name),".DF")
+ZI5=file{DACZI5, ZI5_name}
+ZQ5=file{DACZQ5, ZQ5_name}
+Z5=Z[5]+1e-100
+#uselib "ckt" , "DAC"
+DAC:DACQ5  File=Dataset Type="dataset" Block=Q5_block_name InterpMode="linear" InterpDom="ri" ExtrapMode="interpMode" iVar1="time" iVal1=time 
+#uselib "ckt" , "DAC"
+DAC:DACI5  File=Dataset Type="dataset" Block=I5_block_name InterpMode="linear" InterpDom="ri" ExtrapMode="interpMode" iVar1="time" iVal1=time 
+FDD:FDD1P2  Z_ 0  V[1,1]=Z1  V[1,2]=Z2  V[1,3]=Z3  V[1,4]=Z4  V[1,5]=Z5  Freq[1]=Freq 
+FDD:FDD2P1  N__2 0 N__4 0  I[1,1]=(_sv(1,-1,1) - _sv(2,-1,1))/(Z1)  I[1,2]=(_sv(1,-1,2) - _sv(2,-1,2))/(Z2)  I[1,3]=(_sv(1,-1,3) - _sv(2,-1,3))/(Z3)  I[1,4]=(_sv(1,-1,4) - _sv(2,-1,4))/(Z4)  I[1,5]=(_sv(1,-1,5) - _sv(2,-1,5))/(Z5)  I[2,1]=(_sv(2,-1,1) - _sv(1,-1,1))/(Z1)  I[2,2]=(_sv(2,-1,2) - _sv(1,-1,2))/(Z2)  I[2,3]=(_sv(2,-1,3) - _sv(1,-1,3))/(Z3)  I[2,4]=(_sv(2,-1,4) - _sv(1,-1,4))/(Z4)  I[2,5]=(_sv(2,-1,5) - _sv(1,-1,5))/(Z5)  Freq[1]=Freq 
+end RFPwrSource
+define cascade_dut ( N__4  N__5 ) 
+parameters  File=Thru.s2p 
+model MSub1 MSUB H=10.0 mil Er=9.6 Mur=1 Cond=4.1E+7 Hu=3.9e+034 mil T=0.15 mil TanD=0.3 Rough=0 um DielectricLossModel=1 FreqForEpsrTanD=1.0 GHz LowFreqForTanD=1.0 kHz HighFreqForTanD=1.0 THz RoughnessModel=2 
+Short:TL1  N__4 N__5 Mode=0 SaveCurrent=no
+end cascade_dut
+define genSWITCH_Linear1 ( N__1  N__2 ) 
+parameters  IL=0.5  ISO=50  State=1  Zin=50Ohm  Zout=50Ohm  Zopen=50Ohm 
+S_Port:S2P1  N__1 0 N__2 0 S[1,1]=Min_lin S[1,2]=Gain_lin S[2,1]=Gain_lin S[2,2]=Min_lin Z[1]=Zin Z[2]=Zoutput Recip=no 
+
+Min_dB=-300
+Min_lin=real(dbpolar(Min_dB,0))
+Nout=1
+State_Actual=max(min(State,Nout),0)
+IL_lin=real(dbpolar(max(-IL,Min_dB),0))
+ISO_lin=real(dbpolar(max(-ISO,Min_dB),0))
+Gain_lin=if (State_Actual==1) then IL_lin else ISO_lin endif
+Zoutput=if (State_Actual==1) then Zout else Zopen endif
+end genSWITCH_Linear1
+LFZTuner:LFZTuner1  N__45 N__43 Port="1" Z=0 Dataset=_dataset 
+Short:I1  V1 N__20 Mode=0 SaveCurrent=yes 
+Short:DC_Feed1  N__43 V1 Mode=-1 
+
+_fund_1=1000000000
+_t_stop=10e-6
+_t_step=10e-6
+_t_points=int(_t_stop/_t_step)+1
+_root="C:\Users\dylanbespalko\Documents\repos\nimimoproject_dev\nimimo\device\simulator\keysight\Simulated_Characterization_wrk\"
+_dataset=strcat(_root, "\data\DataImport.ds")
+
+_Enable1=0
+_A1=list(0,0,0,0,0)
+_Z1=list(50,50,50,50,50)
+Short:I2  V2 N__38 Mode=0 SaveCurrent=yes 
+
+_Enable2=0
+_A2=list(0,0,0,0,0)
+_Z2=list(50,50,50,50,50)
+LFZTuner:LFZTuner2  N__8 N__47 Port="2" Z=0 Dataset=_dataset 
+#load "python","PostProcessing"
+Controller Module="PostProcessing" \ 
+PostProcessingModule="MatlabOutput" \ 
+Argument[0] = "C:\Users\dylanbespalko\Documents\repos\nimimoproject_dev\nimimo\device\simulator\keysight\Simulated_Characterization_wrk\data\dataset.mat" \ 
+Argument[1] = "All" \ 
+Argument[2] = yes \  
+Argument[3] = "V0;I0.i;LFZTuner0.Z_;RFPwrSource0.Z_;V1;I1.i;LFZTuner1.Z_;RFPwrSource1.Z_;V2;I2.i;LFZTuner2.Z_;RFPwrSource2.Z_"  
+LFSource:LFSource1  N__45 On=0 Port="1" Bias=0 Dataset=_dataset 
+RFPwrSource:RFPwrSource2  N__35 On=0 Port="2" Freq=_fund_1 A=_A2 Z=_Z2 Z0=Z0 Dataset=_dataset 
+LFSource:LFSource2  N__8 On=0 Port="2" Bias=0 Dataset=_dataset 
+Short:DC_Feed0  N__42 V0 Mode=-1 
+Short:I0  V0 N__29 Mode=0 SaveCurrent=yes 
+genSWITCH_Linear1:SW1_2  N__24 N__17 IL=0 dB ISO=100 dB State=_Enable2 Zin=50 Ohm Zout=50Ohm Zopen=1e50 Ohm 
+Short:DC_Feed2  N__47 V2 Mode=-1 
+RFPwrSource:RFPwrSource0  N__28 On=0 Port="0" Freq=_fund_1 A=_A0 Z=_Z0 Z0=Z0 Dataset=_dataset 
+R:R4  N__20 N__19 R=1e-100 Ohm Noise=yes 
+LFSource:LFSource0  N__36 On=0 Port="0" Bias=0 Dataset=_dataset 
+
+Options:Options1 Tnom=25 TopologyCheck=yes ForceS_Params=yes V_RelTol=1e-2 V_AbsTol=1e-3 V  \
+I_RelTol=1e-2 I_AbsTol=1e-6 A GiveAllWarnings=yes MaxWarnings=10 ForceM_Params=yes  \
+InitialGuessAnnotation=0 TopologyCheckMessages=no DatasetMode=1 doDeltaAC=no ReduceSPortRatio=0.5  \
+WarnSOA=yes MaxWarnSOA=5 Census=no 
+
+
+_Enable0=0
+_A0=list(0,0,0,0,0)
+_Z0=list(50,50,50,50,50)
+R:R6  N__37 N__29 R=1e-100 Ohm Noise=yes 
+LFZTuner:LFZTuner0  N__36 N__42 Port="0" Z=0 Dataset=_dataset 
+Short:DC_Block0  N__28 V0 Mode=1 
+genSWITCH_Linear1:SW1_0  N__37 N__17 IL=0 dB ISO=100 dB State=_Enable0 Zin=50 Ohm Zout=50Ohm Zopen=1e50 Ohm 
+R:R5  N__32 N__38 R=1e-100 Ohm Noise=yes 
+genSWITCH_Linear1:SW1_1  N__30 N__17 IL=0 dB ISO=100 dB State=_Enable1 Zin=50 Ohm Zout=50Ohm Zopen=1e50 Ohm 
+RFPwrSource:RFPwrSource1  N__21 On=1 Port="1" Freq=_fund_1 A=_A1 Z=_Z1 Z0=Z0 Dataset=_dataset 
+
+;Equations=
+Z0=50
+z2g(x) =(x-Z0)/(x+Z0)
+g2z(x) =Z0*(1+x)/(1-x)
+cascade_dut:Cascade2  N__32 N__24 File="Thru.s2p" 
+cascade_dut:Cascade1  N__19 N__30 File="Thru.s2p" 
+Short:DC_Block2  N__35 V2 Mode=1 
+Short:DC_Block1  N__21 V1 Mode=1 
+HB:Envelope MaxOrder=4 Freq[1]=_fund_1 Order[1]=5 StatusLevel=1 FundOversample=2 \
+Restart=no UseGear=no EnvIntegOrder=1 EnvBandwidth=1 EnvWarnPoorFit=yes EnvUsePoorFit=yes SweepVar="time" SweepPlan="Envelope_stim" OutputPlan="Envelope_Output" 
+
+SweepPlan: Envelope_stim Stop=_t_stop Step=_t_step 
+
+OutputPlan:Envelope_Output \
+      Type="Output" \
+      UseNodeNestLevel=yes \
+      NodeNestLevel=2 \
+      UseEquationNestLevel=yes \
+      EquationNestLevel=2 \
+      UseSavedEquationNestLevel=yes \
+      SavedEquationNestLevel=2 \
+      UseDeviceCurrentNestLevel=no \
+      DeviceCurrentNestLevel=0 \
+      DeviceCurrentDeviceType="All" \
+      DeviceCurrentSymSyntax=yes \
+      UseCurrentNestLevel=yes \
+      CurrentNestLevel=999 \
+      UseDeviceVoltageNestLevel=no \
+      DeviceVoltageNestLevel=0 \
+      DeviceVoltageDeviceType="All"
+
+Tran:Envelope_tran HB_Sol=1 SteadyState=1 StatusLevel=3 \
+Freq[1]=_fund_1 Order[1]=5 \
+OutputPlan="Envelope_Output"
+
+Component:tahb_Envelope Module="ATAHB" Type="ModelExtractor" \ 
+ Tran_Analysis="Envelope_tran" HB_Analysis="Envelope" 
+

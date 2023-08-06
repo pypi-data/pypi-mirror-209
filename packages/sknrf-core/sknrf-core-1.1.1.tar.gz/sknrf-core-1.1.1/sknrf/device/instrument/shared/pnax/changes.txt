@@ -1,0 +1,35 @@
+IChannel -> IChannel27
+Find:    Dispatch(ret, 'Channel', '{1649C324-284A-11D3-A44D-0010A4FEC852}')
+Replace: Dispatch(ret, 'Channel', '{319FA0E2-C302-4984-BAEB-5FA45A19F26D}')
+
+ICalManager -> ICalManager13
+Find:    Dispatch(ret, 'GetCalManager', '{3E177463-A3B0-11D5-8D6C-00108334AE96}')
+Replace: Dispatch(ret, 'GetCalManager', '{ADAD6B76-6F9B-4E1C-9876-A2169A10DACD}')
+
+ICalSet->ICalSet8
+Find:   "CalSet": (75, 2, (9, 0), (), "CalSet", '{3E177467-A3B0-11D5-8D6C-00108334AE96}'),
+Replace "CalSet": (75, 2, (9, 0), (), "CalSet", '{E242D604-7D73-430A-A2AA-A455FAF4ACD2}'),
+
+ISegments -> ISegments5
+Find:   "Segments": (40, 2, (9, 0), (), "Segments", '{CC4B6CF7-EA24-11D3-9886-0060B0C33310}'),
+Replace "Segments": (40, 2, (9, 0), (), "Segments", '{CD132543-D299-4AE0-8911-D9AD76368FDB}'),
+
+ITriggerSetup -> ITriggerSetup4
+Find:   "TriggerSetup": (76, 2, (9, 0), (), "TriggerSetup", '{A33D385B-A79C-4CD9-A2E4-64697BB7B82A}'),
+Replace "TriggerSetup": (76, 2, (9, 0), (), "TriggerSetup", '{892D5527-EE08-4D39-A29E-521F6E8CA89F}'),
+
+IPulseMeasControl -> IPulseMeasControl3
+Find: "PulseMeasControl": (103, 2, (9, 0), (), "PulseMeasControl", '{7E5ADFDE-A66E-465F-BAAD-C7A4FBD51A9D}'),
+Replace: "PulseMeasControl": (103, 2, (9, 0), (), "PulseMeasControl", '{06CBA687-BC0A-46F9-A4A6-4AF0F72CDF46}'),
+
+IPulseGenerator-> IPulseGenerator4
+Find: "PulseGenerator": (81, 2, (9, 0), (), "PulseGenerator", '{66B6494C-3828-4D8D-B03C-A009AAD7E400}'),
+Replace: "PulseGenerator": (81, 2, (9, 0), (), "PulseGenerator", '{2152C6D8-D8BF-4C9E-BAF6-583246792ECF}'),
+
+IRxLevelingConfiguration -> IRxLevelingConfiguration4
+Find:    Dispatch(ret, 'GetRxLevelingConfiguration', '{3131F549-C4F6-4641-8FD9-ADF5B7FBEF79}')
+Replace Dispatch(ret, 'GetRxLevelingConfiguration', '{3DB027C1-2928-416B-A9E4-9F88ACBCD2B5}')
+
+IMeasurement -> IMeasurement18
+Find:    Dispatch(ret, 'Item', '{1649C326-284A-11D3-A44D-0010A4FEC852}')
+Replace  Dispatch(ret, 'Item', '{7E6E155F-D389-411A-B5C8-2EF6BA0B1F4F}')

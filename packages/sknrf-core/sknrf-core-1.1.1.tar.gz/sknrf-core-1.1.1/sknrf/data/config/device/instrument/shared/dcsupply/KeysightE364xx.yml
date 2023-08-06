@@ -1,0 +1,7 @@
+trigger_delay: 0.0
+trigger_delay_min: 1.0e-12
+trigger_delay_max: 1.0e+12
+num_outputs: 2
+voltage_range: ["P8V", "P8V"]
+voltage_limit: [8.0, 8.0]
+current_limit: [0.5, 0.5]

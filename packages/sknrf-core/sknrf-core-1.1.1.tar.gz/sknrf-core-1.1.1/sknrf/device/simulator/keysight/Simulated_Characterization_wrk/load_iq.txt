@@ -1,0 +1,259 @@
+
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="Simulated_Characterization_lib:DataImport:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
+define TimedSink ( N__1 ) 
+variables  Plot=0  RLoad=DefaultRLoad  RTemp=DefaultRTemp  Start=DefaultTimeStart  Stop=DefaultTimeStop  ControlSimulation=1
+R:R1  N__1 0 R=RLoad Temp=RTemp 
+_vKeysightEEsof_dTSDF_n_x5fTimedSink_ltsdfsinks:T1  N__1 Plot=Plot RLoad=RLoad RTemp=RTemp Start=Start Stop=Stop ControlSimulation=ControlSimulation 
+end TimedSink
+
+_V00_I_File =strcat(_root,"data\V00_I.txt")
+_Z00_I_File =strcat(_root,"data\Z00_I.txt")
+_Z00_Q_File =strcat(_root,"data\Z00_Q.txt")
+_A0_I_Files =list(strcat(_root,"data\A01_I.txt"),strcat(_root,"data\A02_I.txt"),strcat(_root,"data\A03_I.txt"),strcat(_root,"data\A04_I.txt"),strcat(_root,"data\A05_I.txt"))
+_A0_Q_Files =list(strcat(_root,"data\A01_Q.txt"),strcat(_root,"data\A02_Q.txt"),strcat(_root,"data\A03_Q.txt"),strcat(_root,"data\A04_Q.txt"),strcat(_root,"data\A05_Q.txt"))
+_Z0_I_Files =list(strcat(_root,"data\Z00_I.txt"),strcat(_root,"data\Z01_I.txt"),strcat(_root,"data\Z02_I.txt"),strcat(_root,"data\Z03_I.txt"),strcat(_root,"data\Z04_I.txt"),strcat(_root,"data\Z05_I.txt"))
+_Z0_Q_Files =list(strcat(_root,"data\Z00_Q.txt"),strcat(_root,"data\Z01_Q.txt"),strcat(_root,"data\Z02_Q.txt"),strcat(_root,"data\Z03_Q.txt"),strcat(_root,"data\Z04_Q.txt"),strcat(_root,"data\Z05_Q.txt"))
+
+_V20_I_File =strcat(_root,"data\V20_I.txt")
+_Z20_I_File =strcat(_root,"data\Z20_I.txt")
+_Z20_Q_File =strcat(_root,"data\Z20_Q.txt")
+_A2_I_Files =list(strcat(_root,"data\A21_I.txt"),strcat(_root,"data\A22_I.txt"),strcat(_root,"data\A23_I.txt"),strcat(_root,"data\A24_I.txt"),strcat(_root,"data\A25_I.txt"))
+_A2_Q_Files =list(strcat(_root,"data\A21_Q.txt"),strcat(_root,"data\A22_Q.txt"),strcat(_root,"data\A23_Q.txt"),strcat(_root,"data\A24_Q.txt"),strcat(_root,"data\A25_Q.txt"))
+_Z2_I_Files =list(strcat(_root,"data\Z20_I.txt"),strcat(_root,"data\Z21_I.txt"),strcat(_root,"data\Z22_I.txt"),strcat(_root,"data\Z23_I.txt"),strcat(_root,"data\Z24_I.txt"),strcat(_root,"data\Z25_I.txt"))
+_Z2_Q_Files =list(strcat(_root,"data\Z20_Q.txt"),strcat(_root,"data\Z21_Q.txt"),strcat(_root,"data\Z22_Q.txt"),strcat(_root,"data\Z23_Q.txt"),strcat(_root,"data\Z24_Q.txt"),strcat(_root,"data\Z25_Q.txt"))
+
+_V10_I_File =strcat(_root,"data\V10_I.txt")
+_Z10_I_File =strcat(_root,"data\Z10_I.txt")
+_Z10_Q_File =strcat(_root,"data\Z10_Q.txt")
+_A1_I_Files =list(strcat(_root,"data\A11_I.txt"),strcat(_root,"data\A12_I.txt"),strcat(_root,"data\A13_I.txt"),strcat(_root,"data\A14_I.txt"),strcat(_root,"data\A15_I.txt"))
+_A1_Q_Files =list(strcat(_root,"data\A11_Q.txt"),strcat(_root,"data\A12_Q.txt"),strcat(_root,"data\A13_Q.txt"),strcat(_root,"data\A14_Q.txt"),strcat(_root,"data\A15_Q.txt"))
+_Z1_I_Files =list(strcat(_root,"data\Z10_I.txt"),strcat(_root,"data\Z11_I.txt"),strcat(_root,"data\Z12_I.txt"),strcat(_root,"data\Z13_I.txt"),strcat(_root,"data\Z14_I.txt"),strcat(_root,"data\Z15_I.txt"))
+_Z1_Q_Files =list(strcat(_root,"data\Z10_Q.txt"),strcat(_root,"data\Z11_Q.txt"),strcat(_root,"data\Z12_Q.txt"),strcat(_root,"data\Z13_Q.txt"),strcat(_root,"data\Z14_Q.txt"),strcat(_root,"data\Z15_Q.txt"))
+
+_t_stop=10e-6
+_t_step=1e-6
+_root="C:\Users\db888079\repos\sknrf_dev\sknrf\device\simulator\keysight\Simulated_Characterization_wrk\"
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R1  N__2 FileName=_V10_I_File ControlSimulation=0 OutputType=1 
+DefaultNumericStart=0
+DefaultNumericStop=_t_stop/_t_step
+DefaultTimeStart=0
+DefaultTimeStop=_t_stop
+DefaultSeed=1234567
+DefaultRIn=50 Ohm
+DefaultROut=50 Ohm
+DefaultRLoad=1.0e18 Ohm
+DefaultRTemp=-273.15
+__DefaultPartition=1
+__SimulationID=0
+_vKeysightEEsof_dTSDF_nDF_ltsdf:DF DefaultTimeUnit=3 DefaultSeed=if (DefaultSeed==0) then 0 else (DefaultSeed+__SimulationID) endif DefaultPartition=__DefaultPartition DeadlockManager=0 CktCosimInputs=0 OutputPlan="DF_Output" 
+OutputPlan:DF_Output \
+      Type="Output" \
+      UseSavedEquationNestLevel=yes \
+      SavedEquationNestLevel=2
+
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T2  N__2 N__0 TStep=_t_step 
+TimedSink:V10_I  N__0 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R2  N__5 FileName=_Z10_I_File ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T3  N__5 N__4 TStep=_t_step 
+TimedSink:Z10_I  N__4 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R3  N__3 FileName=_Z10_Q_File ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T4  N__3 N__1 TStep=_t_step 
+TimedSink:Z10_Q  N__1 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R4  N__6 FileName=_A1_Q_Files[1] ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R5  N__7 FileName=_A1_I_Files[1] ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T5  N__6 N__8 TStep=_t_step 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T6  N__7 N__9 TStep=_t_step 
+TimedSink:A11_Q  N__8 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+TimedSink:A11_I  N__9 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R6  N__10 FileName=_Z1_Q_Files[1] ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T7  N__10 N__11 TStep=_t_step 
+TimedSink:Z11_Q  N__11 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R7  N__12 FileName=_Z1_I_Files[1] ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T8  N__12 N__13 TStep=_t_step 
+TimedSink:Z11_I  N__13 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+TimedSink:Z12_I  N__14 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R8  N__15 FileName=_Z1_I_Files[2] ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R9  N__16 FileName=_Z1_Q_Files[2] ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R10  N__17 FileName=_A1_Q_Files[2] ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R11  N__18 FileName=_A1_I_Files[2] ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T9  N__15 N__14 TStep=_t_step 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T10  N__16 N__19 TStep=_t_step 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T11  N__17 N__20 TStep=_t_step 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T12  N__18 N__21 TStep=_t_step 
+TimedSink:Z12_Q  N__19 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+TimedSink:A12_Q  N__20 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+TimedSink:A12_I  N__21 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R12  N__22 FileName=_A1_I_Files[3] ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R13  N__23 FileName=_A1_Q_Files[3] ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R14  N__24 FileName=_Z1_Q_Files[3] ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R15  N__25 FileName=_Z1_I_Files[3] ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T13  N__22 N__26 TStep=_t_step 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T14  N__23 N__27 TStep=_t_step 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T15  N__24 N__28 TStep=_t_step 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T16  N__25 N__29 TStep=_t_step 
+TimedSink:A13_I  N__26 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+TimedSink:A13_Q  N__27 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+TimedSink:Z13_Q  N__28 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+TimedSink:Z13_I  N__29 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+TimedSink:Z14_Q  N__30 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R16  N__31 FileName=_Z1_I_Files[4] ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R17  N__32 FileName=_Z1_Q_Files[4] ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R18  N__33 FileName=_A1_Q_Files[4] ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R19  N__34 FileName=_A1_I_Files[4] ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T17  N__31 N__35 TStep=_t_step 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T18  N__32 N__30 TStep=_t_step 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T19  N__33 N__36 TStep=_t_step 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T20  N__34 N__37 TStep=_t_step 
+TimedSink:Z14_I  N__35 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+TimedSink:A14_Q  N__36 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+TimedSink:A14_I  N__37 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R20  N__38 FileName=_A1_I_Files[5] ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R21  N__39 FileName=_A1_Q_Files[5] ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R22  N__40 FileName=_Z1_Q_Files[5] ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R23  N__41 FileName=_Z1_I_Files[5] ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T21  N__38 N__42 TStep=_t_step 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T22  N__39 N__43 TStep=_t_step 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T23  N__40 N__44 TStep=_t_step 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T24  N__41 N__45 TStep=_t_step 
+TimedSink:A15_I  N__42 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+TimedSink:A15_Q  N__43 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+TimedSink:Z15_I  N__45 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+TimedSink:Z15_Q  N__44 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R24  N__46 FileName=_A2_Q_Files[5] ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R25  N__47 FileName=_A2_I_Files[5] ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R26  N__48 FileName=_A2_I_Files[4] ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R27  N__49 FileName=_A2_Q_Files[4] ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R28  N__50 FileName=_V20_I_File ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R29  N__51 FileName=_A2_I_Files[1] ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R30  N__52 FileName=_A2_Q_Files[1] ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R31  N__53 FileName=_A2_Q_Files[2] ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R32  N__54 FileName=_A2_I_Files[2] ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R33  N__55 FileName=_A2_I_Files[3] ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R34  N__56 FileName=_A2_Q_Files[3] ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R35  N__57 FileName=_Z2_I_Files[5] ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R36  N__58 FileName=_Z2_Q_Files[5] ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R37  N__59 FileName=_Z2_Q_Files[4] ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R38  N__60 FileName=_Z20_Q_File ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R39  N__61 FileName=_Z20_I_File ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R40  N__62 FileName=_Z2_Q_Files[1] ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R41  N__63 FileName=_Z2_I_Files[1] ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R42  N__64 FileName=_Z2_I_Files[2] ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R43  N__65 FileName=_Z2_Q_Files[2] ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R44  N__66 FileName=_Z2_Q_Files[3] ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R45  N__67 FileName=_Z2_I_Files[3] ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R46  N__68 FileName=_Z2_I_Files[4] ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T25  N__46 N__69 TStep=_t_step 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T26  N__47 N__70 TStep=_t_step 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T27  N__48 N__71 TStep=_t_step 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T28  N__49 N__72 TStep=_t_step 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T29  N__50 N__73 TStep=_t_step 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T30  N__51 N__74 TStep=_t_step 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T31  N__52 N__75 TStep=_t_step 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T32  N__53 N__76 TStep=_t_step 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T33  N__54 N__77 TStep=_t_step 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T34  N__55 N__78 TStep=_t_step 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T35  N__56 N__79 TStep=_t_step 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T36  N__57 N__80 TStep=_t_step 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T37  N__58 N__81 TStep=_t_step 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T38  N__59 N__82 TStep=_t_step 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T39  N__60 N__83 TStep=_t_step 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T40  N__61 N__84 TStep=_t_step 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T41  N__62 N__85 TStep=_t_step 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T42  N__63 N__86 TStep=_t_step 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T43  N__64 N__87 TStep=_t_step 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T44  N__65 N__88 TStep=_t_step 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T45  N__66 N__89 TStep=_t_step 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T46  N__67 N__90 TStep=_t_step 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T47  N__68 N__91 TStep=_t_step 
+TimedSink:A25_Q  N__69 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+TimedSink:A25_I  N__70 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+TimedSink:A24_I  N__71 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+TimedSink:A24_Q  N__72 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+TimedSink:V20_I  N__73 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+TimedSink:A21_I  N__74 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+TimedSink:A21_Q  N__75 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+TimedSink:A22_Q  N__76 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+TimedSink:A22_I  N__77 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+TimedSink:A23_I  N__78 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+TimedSink:A23_Q  N__79 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+TimedSink:Z25_Q  N__81 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+TimedSink:Z25_I  N__80 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+TimedSink:Z24_I  N__91 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+TimedSink:Z20_Q  N__83 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+TimedSink:Z20_I  N__84 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+TimedSink:Z21_Q  N__85 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+TimedSink:Z21_I  N__86 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+TimedSink:Z22_I  N__87 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+TimedSink:Z22_Q  N__88 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+TimedSink:Z23_Q  N__89 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+TimedSink:Z23_I  N__90 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+TimedSink:Z24_Q  N__82 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R47  N__92 FileName=_A0_Q_Files[5] ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R48  N__93 FileName=_A0_I_Files[5] ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R49  N__94 FileName=_A0_I_Files[4] ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R50  N__95 FileName=_A0_Q_Files[4] ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R51  N__96 FileName=_V00_I_File ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R52  N__97 FileName=_A0_Q_Files[1] ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R53  N__98 FileName=_A0_I_Files[1] ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R54  N__99 FileName=_A0_Q_Files[2] ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R55  N__100 FileName=_A0_I_Files[2] ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R56  N__101 FileName=_A0_I_Files[3] ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R57  N__102 FileName=_A0_Q_Files[3] ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R58  N__103 FileName=_Z0_I_Files[5] ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R59  N__104 FileName=_Z0_Q_Files[5] ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R60  N__105 FileName=_Z0_Q_Files[3] ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R61  N__106 FileName=_Z0_I_Files[3] ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R62  N__107 FileName=_Z0_I_Files[4] ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R63  N__108 FileName=_Z0_Q_Files[4] ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R64  N__109 FileName=_Z00_I_File ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R65  N__110 FileName=_Z00_Q_File ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R66  N__111 FileName=_Z0_Q_Files[1] ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R67  N__112 FileName=_Z0_I_Files[1] ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R68  N__113 FileName=_Z0_I_Files[2] ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dSDF_nReadFile_lsdfstars:R69  N__114 FileName=_Z0_Q_Files[2] ControlSimulation=0 OutputType=1 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T48  N__92 N__115 TStep=_t_step 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T49  N__93 N__116 TStep=_t_step 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T50  N__94 N__117 TStep=_t_step 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T51  N__95 N__118 TStep=_t_step 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T52  N__96 N__119 TStep=_t_step 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T53  N__97 N__120 TStep=_t_step 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T54  N__98 N__121 TStep=_t_step 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T55  N__99 N__122 TStep=_t_step 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T56  N__100 N__123 TStep=_t_step 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T57  N__101 N__124 TStep=_t_step 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T58  N__102 N__125 TStep=_t_step 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T59  N__103 N__126 TStep=_t_step 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T60  N__104 N__127 TStep=_t_step 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T61  N__105 N__128 TStep=_t_step 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T62  N__106 N__129 TStep=_t_step 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T63  N__107 N__130 TStep=_t_step 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T64  N__108 N__131 TStep=_t_step 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T65  N__109 N__132 TStep=_t_step 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T66  N__110 N__133 TStep=_t_step 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T67  N__111 N__134 TStep=_t_step 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T68  N__112 N__135 TStep=_t_step 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T69  N__113 N__136 TStep=_t_step 
+_vKeysightEEsof_dTSDF_nFloatToTimed_ltsdfstars:T70  N__114 N__137 TStep=_t_step 
+TimedSink:A05_Q  N__115 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+TimedSink:A05_I  N__116 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+TimedSink:A04_I  N__117 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+TimedSink:A04_Q  N__118 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+TimedSink:V00_I  N__119 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+TimedSink:A01_Q  N__120 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+TimedSink:A01_I  N__121 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+TimedSink:A02_Q  N__122 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+TimedSink:A02_I  N__123 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+TimedSink:A03_I  N__124 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+TimedSink:A03_Q  N__125 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+TimedSink:Z05_Q  N__127 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+TimedSink:Z05_I  N__126 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+TimedSink:Z03_Q  N__128 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+TimedSink:Z03_I  N__129 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+TimedSink:Z04_Q  N__131 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+TimedSink:Z04_I  N__130 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+TimedSink:Z00_I  N__132 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+TimedSink:Z00_Q  N__133 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+TimedSink:Z01_Q  N__134 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+TimedSink:Z01_I  N__135 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+TimedSink:Z02_I  N__136 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 
+TimedSink:Z02_Q  N__137 Plot=1 RLoad=DefaultRLoad RTemp=DefaultRTemp Start=DefaultTimeStart Stop=DefaultTimeStop ControlSimulation=1 

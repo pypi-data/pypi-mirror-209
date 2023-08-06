@@ -1,0 +1,89 @@
+!!python/object/apply:collections.OrderedDict
+- - - Bench
+    - [SPM1, SPM2, SPM3, SPM4]
+  - - Before SS-SP Electrical
+    - {file_types: S-Parameter Files (*.s1p *.s2p *.s3p *.s4p), placeholderText: Small-Signal
+        S-Parameters Before Test}
+  - - MATLAB HB 1-Tone Electrical
+    - {file_types: MAT Files (*.mat), placeholderText: Harmonic Balance 1-Tone Test}
+  - - After SS-SP Electrical
+    - {file_types: S-Parameter Files (*.s1p *.s2p *.s3p *.s4p), placeholderText: Small-Signal
+        S-Parameters Before Test}
+  - - ADS HB 1-Tone Electrical
+    - {file_types: MDIF Files (*.mdf), placeholderText: Harmonic Balance 1-Tone Test}
+  - - Before Thermal
+    - {file_types: Image Files (*.png *.jpg *.bmp), placeholderText: Thermal Measurement
+        @ Chuck Temperature}
+  - - HB 1-Tone Electrical
+    - {file_types: MDIF Files (*.mdf), placeholderText: Harmonic Balance 1-Tone Test}
+  - [Operator, '']
+  - - LS Hot-SP Electrical
+    - {file_types: S-Parameter Files (*.s1p *.s2p *.s3p *.s4p), placeholderText: Large-Signal
+        Hot S-Parameters Test}
+Type:
+  SS S-Parameter:
+    - SS-SP Electrical:
+      - file_types: "S-Parameter Files (*.s1p *.s2p *.s3p *.s4p)"
+      - placeholderText: "Small-Signal S-Parameters"
+    - HB 1-Tone Thermal:
+      - file_types: "MDIF Files (*.mdf)"
+      - placeholderText: "Harmonic Balance 1-Tone"
+    - Layout:
+      - file_types: "Image Files (*.png *.jpg *.bmp)"
+      - placeholderText: "Layout Diagram"
+    - Stack:
+      - file_types: "Excel Files (*.xlsx)"
+      - placeholderText: "Stack Information"
+  LS Hot-SParameter:
+    - SS-SP Electrical:
+      - file_types: "S-Parameter Files (*.s1p *.s2p *.s3p *.s4p)"
+      - placeholderText: "Small-Signal S-Parameters"
+    - HB 1-Tone Thermal:
+      - file_types: "MDIF Files (*.mdf)"
+      - placeholderText: "Harmonic Balance 1-Tone"
+    - Layout:
+      - file_types: "Image Files (*.png *.jpg *.bmp)"
+      - placeholderText: "Layout Diagram"
+    - Stack:
+      - file_types: "Excel Files (*.xlsx)"
+      - placeholderText: "Stack Information"
+  LS S-Parameter:
+    - HB 1-Tone Electrical:
+      - file_types: "MDIF Files (*.mdf)"
+      - placeholderText: "Harmonic Balance 1-Tone"
+    - HB 1-Tone Thermal:
+      - file_types: "MDIF Files (*.mdf)"
+      - placeholderText: "Harmonic Balance 1-Tone Test"
+    - Layout:
+      - file_types: "Image Files (*.png *.jpg *.bmp)"
+      - placeholderText: "Layout Diagram"
+    - Stack:
+      - file_types: "Excel Files (*.xlsx)"
+      - placeholderText: "Stack Information"
+  HB 1-Tone:
+    - HB 1-Tone Electrical:
+      - file_types: "MDIF Files (*.mdf)"
+      - placeholderText: "Harmonic Balance 1-Tone Test"
+    - HB 1-Tone Thermal:
+      - file_types: "MDIF Files (*.mdf)"
+      - placeholderText: "Harmonic Balance 1-Tone Test"
+    - Layout:
+      - file_types: "Image Files (*.png *.jpg *.bmp)"
+      - placeholderText: "Layout Diagram"
+    - Stack:
+      - file_types: "Excel Files (*.xlsx)"
+      - placeholderText: "Stack Information"
+LINE:
+Technology:
+  - FBAR7
+  - FBAR8
+  - FBAR9
+Product:
+Variant:
+Lot#:
+Wafer#:
+SN#:
+LINE:
+Output Dir:
+  - file_types: "dir"
+  - placeholderText: "Output Directory"

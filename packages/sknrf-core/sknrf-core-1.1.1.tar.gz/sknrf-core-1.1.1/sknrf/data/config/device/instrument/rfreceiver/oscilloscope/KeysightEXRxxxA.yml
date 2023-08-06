@@ -1,0 +1,17 @@
+trigger_delay: 0.0
+trigger_delay_min: 1.0e-12
+trigger_delay_max: 1.0e+12
+num_channels: 2
+voltage_limit: 0.5
+current_limit: 0.1
+points: [100,      250,      500,
+         1000,     2000,     5000,
+         10000,    20000,    50000,
+         100000,   200000,   500000,
+         1000000,  2000000,  4000000,  8000000]
+resample: 1.
+attenuation: 1
+unit: "V"
+trigger_level: 1.0
+z0: DC50  # DC
+fs: 16.0e+9

@@ -1,0 +1,4 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="64px" height="64px" viewBox="0 0 64 64">
+<path d="M0 12v44h64v-44h-64zM24 40v-8h16v8h-16zM40 44v8h-16v-8h16zM40 20v8h-16v-8h16zM20 20v8h-16v-8h16zM4 32h16v8h-16v-8zM44 32h16v8h-16v-8zM44 28v-8h16v8h-16zM4 44h16v8h-16v-8zM44 52v-8h16v8h-16z" fill="#2aa198"/>
+</svg>

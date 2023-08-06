@@ -1,0 +1,22 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="64px" height="64px" viewBox="0 0 64 64">
+<path d="M24 29c0 1.65-1.35 3-3 3h-6c-1.65 0-3-1.35-3-3v-6c0-1.65 1.35-3 3-3h6c1.65 0 3 1.35 3 3v6z" fill="#268bd2"/>
+<path d="M44 29c0 1.65-1.35 3-3 3h-6c-1.65 0-3-1.35-3-3v-6c0-1.65 1.35-3 3-3h6c1.65 0 3 1.35 3 3v6z" fill="#268bd2"/>
+<path d="M24 49c0 1.65-1.35 3-3 3h-6c-1.65 0-3-1.35-3-3v-6c0-1.65 1.35-3 3-3h6c1.65 0 3 1.35 3 3v6z" fill="#268bd2"/>
+<path d="M44 49c0 1.65-1.35 3-3 3h-6c-1.65 0-3-1.35-3-3v-6c0-1.65 1.35-3 3-3h6c1.65 0 3 1.35 3 3v6z" fill="#268bd2"/>
+<path d="M57.005 10l6.995-6.995v-3.005h-3.005l-6.995 6.995-6.995-6.995h-3.005v3.005l6.995 6.995-6.995 6.995v3.005h3.005l6.995-6.995 6.995 6.995h3.005v-3.005z" fill="#268bd2"/>
+<path d="M0 48h4v8h-4v-8z" fill="#268bd2"/>
+<path d="M0 36h4v8h-4v-8z" fill="#268bd2"/>
+<path d="M52 28h4v8h-4v-8z" fill="#268bd2"/>
+<path d="M52 52h4v8h-4v-8z" fill="#268bd2"/>
+<path d="M52 40h4v8h-4v-8z" fill="#268bd2"/>
+<path d="M0 24h4v8h-4v-8z" fill="#268bd2"/>
+<path d="M0 12h4v8h-4v-8z" fill="#268bd2"/>
+<path d="M32 8h8v4h-8v-4z" fill="#268bd2"/>
+<path d="M20 8h8v4h-8v-4z" fill="#268bd2"/>
+<path d="M8 8h8v4h-8v-4z" fill="#268bd2"/>
+<path d="M28 60h8v4h-8v-4z" fill="#268bd2"/>
+<path d="M40 60h8v4h-8v-4z" fill="#268bd2"/>
+<path d="M16 60h8v4h-8v-4z" fill="#268bd2"/>
+<path d="M4 60h8v4h-8v-4z" fill="#268bd2"/>
+</svg>

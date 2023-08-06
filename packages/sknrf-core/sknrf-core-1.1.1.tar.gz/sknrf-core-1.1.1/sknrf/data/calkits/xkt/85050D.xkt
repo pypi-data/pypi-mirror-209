@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<CalKit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CalKitLabel>85050D</CalKitLabel>
+  <CalKitVersion />
+  <CalKitDescription>APC 7 Calibration Kit</CalKitDescription>
+  <ConnectorList>
+    <Coaxial>
+      <Family>APC 7</Family>
+      <Gender>Genderless</Gender>
+      <MaximumFrequencyHz>999000000000</MaximumFrequencyHz>
+      <MinimumFrequencyHz>0</MinimumFrequencyHz>
+      <SystemZ0>50</SystemZ0>
+    </Coaxial>
+  </ConnectorList>
+  <StandardList>
+    <FixedLoadStandard>
+      <Label>BROADBAND</Label>
+      <Description>APC 7 broadband load</Description>
+      <preMeasureStandards>false</preMeasureStandards>
+      <PortConnectorIDs>APC 7</PortConnectorIDs>
+      <MaximumFrequencyHz>999000000000</MaximumFrequencyHz>
+      <MinimumFrequencyHz>0</MinimumFrequencyHz>
+      <StandardNumber>1</StandardNumber>
+      <Offset>
+        <OffsetDelay>0</OffsetDelay>
+        <OffsetLoss>700000000</OffsetLoss>
+        <OffsetZ0>50</OffsetZ0>
+      </Offset>
+    </FixedLoadStandard>
+    <OpenStandard>
+      <Label>OPEN</Label>
+      <Description>APC 7  open</Description>
+      <preMeasureStandards>false</preMeasureStandards>
+      <PortConnectorIDs>APC 7</PortConnectorIDs>
+      <MaximumFrequencyHz>999000000000</MaximumFrequencyHz>
+      <MinimumFrequencyHz>0</MinimumFrequencyHz>
+      <StandardNumber>2</StandardNumber>
+      <C0>9.04799E-14</C0>
+      <C1>7.63303E-25</C1>
+      <C2>-6.38176E-35</C2>
+      <C3>6.4337E-45</C3>
+      <Offset>
+        <OffsetDelay>0</OffsetDelay>
+        <OffsetLoss>700000000</OffsetLoss>
+        <OffsetZ0>50</OffsetZ0>
+      </Offset>
+    </OpenStandard>
+    <ShortStandard>
+      <Label>SHORT</Label>
+      <Description>APC 7  short</Description>
+      <preMeasureStandards>false</preMeasureStandards>
+      <PortConnectorIDs>APC 7</PortConnectorIDs>
+      <MaximumFrequencyHz>999000000000</MaximumFrequencyHz>
+      <MinimumFrequencyHz>0</MinimumFrequencyHz>
+      <StandardNumber>3</StandardNumber>
+      <L0>3.566E-13</L0>
+      <L1>-3.3392E-23</L1>
+      <L2>1.7542E-33</L2>
+      <L3>-3.36E-44</L3>
+      <Offset>
+        <OffsetDelay>0</OffsetDelay>
+        <OffsetLoss>700000000</OffsetLoss>
+        <OffsetZ0>50</OffsetZ0>
+      </Offset>
+    </ShortStandard>
+    <ThruStandard>
+      <Label>THRU</Label>
+      <Description>Insertable thru standard</Description>
+      <IsDevicePhysical>false</IsDevicePhysical>
+      <preMeasureStandards>false</preMeasureStandards>
+      <PortConnectorIDs>APC 7</PortConnectorIDs>
+      <PortConnectorIDs>APC 7</PortConnectorIDs>
+      <MaximumFrequencyHz>999000000000</MaximumFrequencyHz>
+      <MinimumFrequencyHz>0</MinimumFrequencyHz>
+      <StandardNumber>4</StandardNumber>
+      <Offset>
+        <OffsetDelay>0</OffsetDelay>
+        <OffsetLoss>700000000</OffsetLoss>
+        <OffsetZ0>50</OffsetZ0>
+      </Offset>
+    </ThruStandard>
+  </StandardList>
+  <KitClasses>
+    <KitClassID>SA</KitClassID>
+    <StandardsList>2</StandardsList>
+    <KitClassLabel>OPEN</KitClassLabel>
+  </KitClasses>
+  <KitClasses>
+    <KitClassID>SB</KitClassID>
+    <StandardsList>3</StandardsList>
+    <KitClassLabel>SHORT</KitClassLabel>
+  </KitClasses>
+  <KitClasses>
+    <KitClassID>SC</KitClassID>
+    <StandardsList>1</StandardsList>
+    <KitClassLabel>LOADS</KitClassLabel>
+  </KitClasses>
+  <KitClasses>
+    <KitClassID>FORWARD_THRU</KitClassID>
+    <StandardsList>4</StandardsList>
+    <KitClassLabel>THRU</KitClassLabel>
+  </KitClasses>
+  <KitClasses>
+    <KitClassID>FORWARD_MATCH</KitClassID>
+    <StandardsList>4</StandardsList>
+    <KitClassLabel>THRU</KitClassLabel>
+  </KitClasses>
+  <KitClasses>
+    <KitClassID>REVERSE_THRU</KitClassID>
+    <StandardsList>4</StandardsList>
+    <KitClassLabel>THRU</KitClassLabel>
+  </KitClasses>
+  <KitClasses>
+    <KitClassID>REVERSE_MATCH</KitClassID>
+    <StandardsList>4</StandardsList>
+    <KitClassLabel>THRU</KitClassLabel>
+  </KitClasses>
+  <TRLRefPlane>ThruStandard</TRLRefPlane>
+  <TRLZref>SystemZ0</TRLZref>
+  <LRLAutoCharacterization>UseAutoCharacterization</LRLAutoCharacterization>
+</CalKit>

@@ -1,0 +1,422 @@
+<?xml version="1.0"?>
+<CalKit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CalKitLabel>85058BP Polynomial</CalKitLabel>
+  <CalKitVersion />
+  <CalKitDescription>1.85 mm (Reduced Accuracy)</CalKitDescription>
+  <ConnectorList>
+    <Coaxial>
+      <Family>1.85 mm</Family>
+      <Gender>Female</Gender>
+      <MaximumFrequencyHz>73000000000</MaximumFrequencyHz>
+      <MinimumFrequencyHz>0</MinimumFrequencyHz>
+      <SystemZ0>50</SystemZ0>
+    </Coaxial>
+    <Coaxial>
+      <Family>1.85 mm</Family>
+      <Gender>Male</Gender>
+      <MaximumFrequencyHz>73000000000</MaximumFrequencyHz>
+      <MinimumFrequencyHz>0</MinimumFrequencyHz>
+      <SystemZ0>50</SystemZ0>
+    </Coaxial>
+  </ConnectorList>
+  <StandardList>
+    <FixedLoadStandard>
+      <Label>LOWBAND -F-</Label>
+      <Description>1.85 mm female lowband [LB LOAD]</Description>
+      <preMeasureStandards>false</preMeasureStandards>
+      <PortConnectorIDs>1.85 mm Female</PortConnectorIDs>
+      <MaximumFrequencyHz>35500000000</MaximumFrequencyHz>
+      <MinimumFrequencyHz>0</MinimumFrequencyHz>
+      <StandardNumber>9</StandardNumber>
+      <Offset>
+        <OffsetDelay>0</OffsetDelay>
+        <OffsetLoss>0</OffsetLoss>
+        <OffsetZ0>50</OffsetZ0>
+      </Offset>
+    </FixedLoadStandard>
+    <OpenStandard>
+      <Label>OPEN LB -F-</Label>
+      <Description>1.85 mm female [OPEN]</Description>
+      <preMeasureStandards>false</preMeasureStandards>
+      <PortConnectorIDs>1.85 mm Female</PortConnectorIDs>
+      <MaximumFrequencyHz>35500000000</MaximumFrequencyHz>
+      <MinimumFrequencyHz>0</MinimumFrequencyHz>
+      <StandardNumber>4</StandardNumber>
+      <C0>-7.7748E-15</C0>
+      <C1>1.3324E-24</C1>
+      <C2>-6.426E-35</C2>
+      <C3>9.0991E-46</C3>
+      <Offset>
+        <OffsetDelay>1.8015E-11</OffsetDelay>
+        <OffsetLoss>3275400000</OffsetLoss>
+        <OffsetZ0>50</OffsetZ0>
+      </Offset>
+    </OpenStandard>
+    <ShortStandard>
+      <Label>SHORT 1 LB -F-</Label>
+      <Description>1.85 mm female [SHORT 1]</Description>
+      <preMeasureStandards>false</preMeasureStandards>
+      <PortConnectorIDs>1.85 mm Female</PortConnectorIDs>
+      <MaximumFrequencyHz>35010000000</MaximumFrequencyHz>
+      <MinimumFrequencyHz>0</MinimumFrequencyHz>
+      <StandardNumber>3</StandardNumber>
+      <L0>1.8222E-12</L0>
+      <L1>-9.3486E-22</L1>
+      <L2>6.4091E-32</L2>
+      <L3>-1.1161E-42</L3>
+      <Offset>
+        <OffsetDelay>1.8012E-11</OffsetDelay>
+        <OffsetLoss>3966400000</OffsetLoss>
+        <OffsetZ0>50</OffsetZ0>
+      </Offset>
+    </ShortStandard>
+    <ShortStandard>
+      <Label>SHORT 1 HB -F-</Label>
+      <Description>1.85 mm female [SHORT 1]2</Description>
+      <preMeasureStandards>false</preMeasureStandards>
+      <PortConnectorIDs>1.85 mm Female</PortConnectorIDs>
+      <MaximumFrequencyHz>73000000000</MaximumFrequencyHz>
+      <MinimumFrequencyHz>34900000000</MinimumFrequencyHz>
+      <StandardNumber>16</StandardNumber>
+      <L0>8.1443E-11</L0>
+      <L1>-5.3975E-21</L1>
+      <L2>1.1429E-31</L2>
+      <L3>-7.7746E-43</L3>
+      <Offset>
+        <OffsetDelay>1.8012E-11</OffsetDelay>
+        <OffsetLoss>4030599999.9999995</OffsetLoss>
+        <OffsetZ0>50</OffsetZ0>
+      </Offset>
+    </ShortStandard>
+    <ShortStandard>
+      <Label>SHORT 2 -F-</Label>
+      <Description>1.85 mm female [SHORT 2]</Description>
+      <preMeasureStandards>false</preMeasureStandards>
+      <PortConnectorIDs>1.85 mm Female</PortConnectorIDs>
+      <MaximumFrequencyHz>73000000000</MaximumFrequencyHz>
+      <MinimumFrequencyHz>34900000000</MinimumFrequencyHz>
+      <StandardNumber>17</StandardNumber>
+      <L0>-1.6811E-10</L0>
+      <L1>1.0025E-20</L1>
+      <L2>-1.9563E-31</L2>
+      <L3>1.2477E-42</L3>
+      <Offset>
+        <OffsetDelay>2.1015E-11</OffsetDelay>
+        <OffsetLoss>3966100000</OffsetLoss>
+        <OffsetZ0>50</OffsetZ0>
+      </Offset>
+    </ShortStandard>
+    <ShortStandard>
+      <Label>SHORT 3 -F-</Label>
+      <Description>1.85 mm female [SHORT 3]</Description>
+      <preMeasureStandards>false</preMeasureStandards>
+      <PortConnectorIDs>1.85 mm Female</PortConnectorIDs>
+      <MaximumFrequencyHz>73000000000</MaximumFrequencyHz>
+      <MinimumFrequencyHz>44999000000</MinimumFrequencyHz>
+      <StandardNumber>18</StandardNumber>
+      <L0>-8.5542E-11</L0>
+      <L1>5.2379E-21</L1>
+      <L2>-1.0529E-31</L2>
+      <L3>6.8943E-43</L3>
+      <Offset>
+        <OffsetDelay>2.375E-11</OffsetDelay>
+        <OffsetLoss>3943200000</OffsetLoss>
+        <OffsetZ0>50</OffsetZ0>
+      </Offset>
+    </ShortStandard>
+    <ShortStandard>
+      <Label>SHORT 4 -F-</Label>
+      <Description>1.85 mm female [SHORT 4]</Description>
+      <preMeasureStandards>false</preMeasureStandards>
+      <PortConnectorIDs>1.85 mm Female</PortConnectorIDs>
+      <MaximumFrequencyHz>55010000000</MaximumFrequencyHz>
+      <MinimumFrequencyHz>34900000000</MinimumFrequencyHz>
+      <StandardNumber>19</StandardNumber>
+      <L0>8.3336E-11</L0>
+      <L1>-4.9258E-21</L1>
+      <L2>9.583E-32</L2>
+      <L3>-6.1258E-43</L3>
+      <Offset>
+        <OffsetDelay>2.5351E-11</OffsetDelay>
+        <OffsetLoss>3879800000</OffsetLoss>
+        <OffsetZ0>50</OffsetZ0>
+      </Offset>
+    </ShortStandard>
+    <ShortStandard>
+      <Label>SHORT 1 BB -F-</Label>
+      <Description>1.85 mm female [SHORT 1]3</Description>
+      <preMeasureStandards>false</preMeasureStandards>
+      <PortConnectorIDs>1.85 mm Female</PortConnectorIDs>
+      <MaximumFrequencyHz>999000000000</MaximumFrequencyHz>
+      <MinimumFrequencyHz>0</MinimumFrequencyHz>
+      <StandardNumber>7</StandardNumber>
+      <L0>1.4957E-12</L0>
+      <L1>-3.2318E-22</L1>
+      <L2>1.1624E-32</L2>
+      <L3>-1.0939E-43</L3>
+      <Offset>
+        <OffsetDelay>1.8012E-11</OffsetDelay>
+        <OffsetLoss>4081200000</OffsetLoss>
+        <OffsetZ0>50</OffsetZ0>
+      </Offset>
+    </ShortStandard>
+    <OpenStandard>
+      <Label>OPEN BB -F-</Label>
+      <Description>1.85 mm female [OPEN]2</Description>
+      <preMeasureStandards>false</preMeasureStandards>
+      <PortConnectorIDs>1.85 mm Female</PortConnectorIDs>
+      <MaximumFrequencyHz>999000000000</MaximumFrequencyHz>
+      <MinimumFrequencyHz>0</MinimumFrequencyHz>
+      <StandardNumber>8</StandardNumber>
+      <C0>-3.5342E-15</C0>
+      <C1>4.2524E-25</C1>
+      <C2>-1.3946E-35</C2>
+      <C3>1.2741E-46</C3>
+      <Offset>
+        <OffsetDelay>1.8001E-11</OffsetDelay>
+        <OffsetLoss>3282200000</OffsetLoss>
+        <OffsetZ0>50</OffsetZ0>
+      </Offset>
+    </OpenStandard>
+    <FixedLoadStandard>
+      <Label>BROADBAND -F-</Label>
+      <Description>1.85 mm female broadband [LB LOAD]</Description>
+      <preMeasureStandards>false</preMeasureStandards>
+      <PortConnectorIDs>1.85 mm Female</PortConnectorIDs>
+      <MaximumFrequencyHz>999000000000</MaximumFrequencyHz>
+      <MinimumFrequencyHz>0</MinimumFrequencyHz>
+      <StandardNumber>10</StandardNumber>
+      <Offset>
+        <OffsetDelay>0</OffsetDelay>
+        <OffsetLoss>0</OffsetLoss>
+        <OffsetZ0>50</OffsetZ0>
+      </Offset>
+    </FixedLoadStandard>
+    <FixedLoadStandard>
+      <Label>LOWBAND -M-</Label>
+      <Description>1.85 mm male lowband [LB LOAD]</Description>
+      <preMeasureStandards>false</preMeasureStandards>
+      <PortConnectorIDs>1.85 mm Male</PortConnectorIDs>
+      <MaximumFrequencyHz>35500000000</MaximumFrequencyHz>
+      <MinimumFrequencyHz>0</MinimumFrequencyHz>
+      <StandardNumber>24</StandardNumber>
+      <Offset>
+        <OffsetDelay>0</OffsetDelay>
+        <OffsetLoss>0</OffsetLoss>
+        <OffsetZ0>50</OffsetZ0>
+      </Offset>
+    </FixedLoadStandard>
+    <OpenStandard>
+      <Label>OPEN LB -M-</Label>
+      <Description>1.85 mm male [OPEN]</Description>
+      <preMeasureStandards>false</preMeasureStandards>
+      <PortConnectorIDs>1.85 mm Male</PortConnectorIDs>
+      <MaximumFrequencyHz>35500000000</MaximumFrequencyHz>
+      <MinimumFrequencyHz>0</MinimumFrequencyHz>
+      <StandardNumber>2</StandardNumber>
+      <C0>2.127E-15</C0>
+      <C1>7.3815E-26</C1>
+      <C2>-9.1135E-36</C2>
+      <C3>1.3886E-46</C3>
+      <Offset>
+        <OffsetDelay>1.8011E-11</OffsetDelay>
+        <OffsetLoss>3276200000</OffsetLoss>
+        <OffsetZ0>50</OffsetZ0>
+      </Offset>
+    </OpenStandard>
+    <ShortStandard>
+      <Label>SHORT 1 LB -M-</Label>
+      <Description>1.85 mm male [SHORT 1]</Description>
+      <preMeasureStandards>false</preMeasureStandards>
+      <PortConnectorIDs>1.85 mm Male</PortConnectorIDs>
+      <MaximumFrequencyHz>35010000000</MaximumFrequencyHz>
+      <MinimumFrequencyHz>0</MinimumFrequencyHz>
+      <StandardNumber>1</StandardNumber>
+      <L0>-8.45E-14</L0>
+      <L1>1.636838E-22</L1>
+      <L2>-7.0736E-33</L2>
+      <L3>8.11E-44</L3>
+      <Offset>
+        <OffsetDelay>1.7998E-11</OffsetDelay>
+        <OffsetLoss>4109880999.9999995</OffsetLoss>
+        <OffsetZ0>50</OffsetZ0>
+      </Offset>
+    </ShortStandard>
+    <ShortStandard>
+      <Label>SHORT 1 HB -M-</Label>
+      <Description>1.85 mm male [SHORT 1]2</Description>
+      <preMeasureStandards>false</preMeasureStandards>
+      <PortConnectorIDs>1.85 mm Male</PortConnectorIDs>
+      <MaximumFrequencyHz>73000000000</MaximumFrequencyHz>
+      <MinimumFrequencyHz>34900000000</MinimumFrequencyHz>
+      <StandardNumber>12</StandardNumber>
+      <L0>-2.6329E-11</L0>
+      <L1>1.4369E-21</L1>
+      <L2>-2.4863E-32</L2>
+      <L3>1.393E-43</L3>
+      <Offset>
+        <OffsetDelay>1.8012E-11</OffsetDelay>
+        <OffsetLoss>4008700000</OffsetLoss>
+        <OffsetZ0>50</OffsetZ0>
+      </Offset>
+    </ShortStandard>
+    <ShortStandard>
+      <Label>SHORT 2 -M-</Label>
+      <Description>1.85 mm male [SHORT 2]</Description>
+      <preMeasureStandards>false</preMeasureStandards>
+      <PortConnectorIDs>1.85 mm Male</PortConnectorIDs>
+      <MaximumFrequencyHz>73000000000</MaximumFrequencyHz>
+      <MinimumFrequencyHz>34900000000</MinimumFrequencyHz>
+      <StandardNumber>13</StandardNumber>
+      <L0>5.2837E-12</L0>
+      <L1>-2.5525E-22</L1>
+      <L2>4.4398E-33</L2>
+      <L3>-2.48E-44</L3>
+      <Offset>
+        <OffsetDelay>2.1015E-11</OffsetDelay>
+        <OffsetLoss>3942400000</OffsetLoss>
+        <OffsetZ0>50</OffsetZ0>
+      </Offset>
+    </ShortStandard>
+    <FixedLoadStandard>
+      <Label>BROADBAND -M-</Label>
+      <Description>1.85 mm male broadband [LB LOAD]</Description>
+      <preMeasureStandards>false</preMeasureStandards>
+      <PortConnectorIDs>1.85 mm Male</PortConnectorIDs>
+      <MaximumFrequencyHz>999000000000</MaximumFrequencyHz>
+      <MinimumFrequencyHz>0</MinimumFrequencyHz>
+      <StandardNumber>22</StandardNumber>
+      <Offset>
+        <OffsetDelay>0</OffsetDelay>
+        <OffsetLoss>0</OffsetLoss>
+        <OffsetZ0>50</OffsetZ0>
+      </Offset>
+    </FixedLoadStandard>
+    <ShortStandard>
+      <Label>SHORT 3 -M-</Label>
+      <Description>1.85 mm male [SHORT 3]</Description>
+      <preMeasureStandards>false</preMeasureStandards>
+      <PortConnectorIDs>1.85 mm Male</PortConnectorIDs>
+      <MaximumFrequencyHz>73000000000</MaximumFrequencyHz>
+      <MinimumFrequencyHz>44999000000</MinimumFrequencyHz>
+      <StandardNumber>14</StandardNumber>
+      <L0>-1.8399E-11</L0>
+      <L1>8.5422E-22</L1>
+      <L2>-1.2502E-32</L2>
+      <L3>5.95E-44</L3>
+      <Offset>
+        <OffsetDelay>2.375E-11</OffsetDelay>
+        <OffsetLoss>3956800000</OffsetLoss>
+        <OffsetZ0>50</OffsetZ0>
+      </Offset>
+    </ShortStandard>
+    <ShortStandard>
+      <Label>SHORT 4 -M-</Label>
+      <Description>1.85 mm male [SHORT 4]</Description>
+      <preMeasureStandards>false</preMeasureStandards>
+      <PortConnectorIDs>1.85 mm Male</PortConnectorIDs>
+      <MaximumFrequencyHz>55010000000</MaximumFrequencyHz>
+      <MinimumFrequencyHz>34900000000</MinimumFrequencyHz>
+      <StandardNumber>15</StandardNumber>
+      <L0>3.1176E-11</L0>
+      <L1>-1.7382E-21</L1>
+      <L2>3.2421E-32</L2>
+      <L3>-1.988E-43</L3>
+      <Offset>
+        <OffsetDelay>2.5351E-11</OffsetDelay>
+        <OffsetLoss>3891100000</OffsetLoss>
+        <OffsetZ0>50</OffsetZ0>
+      </Offset>
+    </ShortStandard>
+    <ShortStandard>
+      <Label>SHORT 1 BB -M-</Label>
+      <Description>1.85 mm male [SHORT 1]3</Description>
+      <preMeasureStandards>false</preMeasureStandards>
+      <PortConnectorIDs>1.85 mm Male</PortConnectorIDs>
+      <MaximumFrequencyHz>999000000000</MaximumFrequencyHz>
+      <MinimumFrequencyHz>0</MinimumFrequencyHz>
+      <StandardNumber>5</StandardNumber>
+      <L0>9.658E-13</L0>
+      <L1>8.9552E-24</L1>
+      <L2>-7.884E-34</L2>
+      <L3>7.9E-45</L3>
+      <Offset>
+        <OffsetDelay>1.8012E-11</OffsetDelay>
+        <OffsetLoss>4060800000.0000005</OffsetLoss>
+        <OffsetZ0>50</OffsetZ0>
+      </Offset>
+    </ShortStandard>
+    <OpenStandard>
+      <Label>OPEN BB -M-</Label>
+      <Description>1.85 mm male [OPEN]2</Description>
+      <preMeasureStandards>false</preMeasureStandards>
+      <PortConnectorIDs>1.85 mm Male</PortConnectorIDs>
+      <MaximumFrequencyHz>999000000000</MaximumFrequencyHz>
+      <MinimumFrequencyHz>0</MinimumFrequencyHz>
+      <StandardNumber>6</StandardNumber>
+      <C0>2.2757E-15</C0>
+      <C1>6.0959E-28</C1>
+      <C2>-3.9739E-36</C2>
+      <C3>5.204E-47</C3>
+      <Offset>
+        <OffsetDelay>1.8011E-11</OffsetDelay>
+        <OffsetLoss>3281500000</OffsetLoss>
+        <OffsetZ0>50</OffsetZ0>
+      </Offset>
+    </OpenStandard>
+    <ThruStandard>
+      <Label>THRU</Label>
+      <Description>Insertable thru standard</Description>
+      <IsDevicePhysical>false</IsDevicePhysical>
+      <preMeasureStandards>false</preMeasureStandards>
+      <PortConnectorIDs>1.85 mm Male</PortConnectorIDs>
+      <PortConnectorIDs>1.85 mm Female</PortConnectorIDs>
+      <MaximumFrequencyHz>73000000000</MaximumFrequencyHz>
+      <MinimumFrequencyHz>0</MinimumFrequencyHz>
+      <StandardNumber>11</StandardNumber>
+      <Offset>
+        <OffsetDelay>0</OffsetDelay>
+        <OffsetLoss>0</OffsetLoss>
+        <OffsetZ0>50</OffsetZ0>
+      </Offset>
+    </ThruStandard>
+  </StandardList>
+  <KitClasses>
+    <KitClassID>SA</KitClassID>
+    <StandardsList>4,18,19,8,2,14,15,6</StandardsList>
+    <KitClassLabel>Open/ Short</KitClassLabel>
+  </KitClasses>
+  <KitClasses>
+    <KitClassID>SB</KitClassID>
+    <StandardsList>3,16,7,1,12,5</StandardsList>
+    <KitClassLabel>Short</KitClassLabel>
+  </KitClasses>
+  <KitClasses>
+    <KitClassID>SC</KitClassID>
+    <StandardsList>9,17,10,24,13,22</StandardsList>
+    <KitClassLabel>Load/ Short</KitClassLabel>
+  </KitClasses>
+  <KitClasses>
+    <KitClassID>FORWARD_THRU</KitClassID>
+    <StandardsList>11</StandardsList>
+    <KitClassLabel>Thru</KitClassLabel>
+  </KitClasses>
+  <KitClasses>
+    <KitClassID>FORWARD_MATCH</KitClassID>
+    <StandardsList>11</StandardsList>
+    <KitClassLabel>Thru</KitClassLabel>
+  </KitClasses>
+  <KitClasses>
+    <KitClassID>REVERSE_THRU</KitClassID>
+    <StandardsList>11</StandardsList>
+    <KitClassLabel>Thru</KitClassLabel>
+  </KitClasses>
+  <KitClasses>
+    <KitClassID>REVERSE_MATCH</KitClassID>
+    <StandardsList>11</StandardsList>
+    <KitClassLabel>Thru</KitClassLabel>
+  </KitClasses>
+  <TRLRefPlane>ThruStandard</TRLRefPlane>
+  <TRLZref>LineZ0</TRLZref>
+  <LRLAutoCharacterization>UseAutoCharacterization</LRLAutoCharacterization>
+</CalKit>

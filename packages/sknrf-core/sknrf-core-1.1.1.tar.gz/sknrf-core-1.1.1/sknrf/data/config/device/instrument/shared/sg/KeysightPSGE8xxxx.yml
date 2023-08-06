@@ -1,0 +1,9 @@
+num_outputs: 1
+power_limit: [0.178]
+iq_gain: 0.89497
+trigger_delay: 200.0e-06 # ALC OFF
+# trigger_delay: 210.95e-06 # ALC OFF
+# trigger_delay: 209.62e-06 # ALC OFF
+# trigger_delay: 230.0e-06 # ALC OFF
+trigger_delay_min: 1.0e-8
+trigger_delay_max: 1.0e+12

@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dc_annotation_options>
+ <options ToggleVoltage="false" library="Simulated_Characterization_lib" view="schematic" cell="Modulated_Characterization" ToggleCurrent="false"/>
+</dc_annotation_options>

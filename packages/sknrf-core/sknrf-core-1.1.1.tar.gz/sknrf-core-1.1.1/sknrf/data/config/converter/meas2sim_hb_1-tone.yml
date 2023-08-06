@@ -1,0 +1,24 @@
+!!python/object/apply:collections.OrderedDict
+- - - Bench
+    - [SPM1, SPM2, SPM3, SPM4, SPM5]
+  - [Operator, '']
+  - [LINE1, null]
+  - - Before_Thermal
+    - {file_types: Image Files (*.png *.jpg *.bmp),
+       placeholderText: Thermal Measurement @ Chuck Temperature}
+  - - Before_SS_1-Tone_Electrical
+    - {file_types: MDIF Files (*.mdf),
+       placeholderText: Before Small-Signal 1-Tone Test}
+  - - LS_1-Tone_Electrical
+    - {file_types: MDIF Files (*.mdf),
+       placeholderText: Large-Signal 1-Tone Test}
+  - - After_SS_1-Tone_Electrical
+    - {file_types: MDIF Files (*.mdf),
+       placeholderText: Before Small-Signal 1-Tone Test}
+  - - After_Thermal
+    - {file_types: Image Files (*.png *.jpg *.bmp),
+       placeholderText: Thermal Measurement @ Chuck Temperature}
+  - [LINE2, null]
+  - - Output Dir
+    - {file_types: dir,
+       placeholderText: Output Directory}

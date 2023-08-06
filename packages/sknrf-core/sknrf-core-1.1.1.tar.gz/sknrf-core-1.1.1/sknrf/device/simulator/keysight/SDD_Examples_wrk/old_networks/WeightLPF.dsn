@@ -1,0 +1,268 @@
+1     7.703    0 0
+10    1    "WeightLPF"    2    1093331692    0    9    1    0
+20    0    ""    -815 -1464 6458 2125 1    2 -3 1    1093331692    0    "schematic.prf" "schematic.lay"
+30    209097640    1    ""    1    2    209092880    0    207481520    209960916    0    875 1000 90000    0   0   0   0   0   ""   0   ""   0   ""   ""   ""
+30    209097776    1    ""    1    2    209103488    0    215682304    209959904    0    1875 1000 90000    0   0   0   0   0   ""   0   ""   0   ""   ""   ""
+30    209097912    1    ""    1    2    209103352    0    208401736    209959860    0    -625 250 90000    0   0   0   0   0   ""   0   ""   0   ""   ""   ""
+30    209093288    1    ""    2    2    0    209093152    214800744    209959464    0    3625 1250 0    0   0   1   0   0   ""   0   ""   0   ""   ""   ""
+30    209093152    1    ""    1    2    0    0    214800744    209959420    0    2625 1250 180000    0   0   1   0   0   ""   0   ""   0   ""   ""   ""
+30    209093016    1    ""    1    2    209093288    0    208467696    209959464    0    3625 1250 90000    0   0   1   0   0   ""   0   ""   0   ""   ""   ""
+30    209092880    1    ""    2    2    0    209103624    207303688    209960916    0    875 1000 180000    0   0   0   0   0   ""   0   ""   0   ""   ""   ""
+30    209103624    1    ""    3    2    209093152    209103488    207303688    209959420    0    1875 1250 0    0   0   1   0   0   ""   0   ""   0   ""   ""   ""
+30    209103488    1    ""    4    2    0    209099816    207303688    209959904    0    1875 1000 0    0   0   0   0   0   ""   0   ""   0   ""   ""   ""
+30    209099816    1    ""    1    2    0    0    207303688    209959376    0    875 1250 180000    0   0   1   0   0   ""   0   ""   0   ""   ""   ""
+30    209099680    1    ""    1    0    209099816    209103352    207483424    209959376    0    -625 1250 90000    0   0   1   0   0   ""   0   ""   0   ""   ""   ""
+30    209103352    1    ""    2    1    0    0    207483424    209959860    0    -625 250 -90000    0   0   0   0   0   ""   0   ""   0   ""   ""   ""
+32    208580952    1    209099816    1    209099680    0    0    0    ""  0
+60    2    0    2    -625 1250 875 1250 1    0    0    0    0
+70    875 1250    -625 0
+50    10    125 1250 444 1417 1    0    0    0    0    0    0    0    0
+62    0    167    73    125 1250 0    1    0    0    0    12    37   "Arial For CAE"   `Vin`
+32    215682144    1    209093152    1    209103624    0    0    0    ""  0
+60    2    0    2    1875 1250 2625 1250 1    0    0    0    0
+70    2625 1250    1875 0
+50    10    2250 1250 2639 1417 1    0    0    0    0    0    0    0    0
+62    0    167    73    2250 1250 0    1    0    0    0    12    37   "Arial For CAE"   `vout`
+32    208689248    1    209093016    1    209093288    0    0    0    ""  0
+60    4    0    1    3625 1250 3625 1250 1    0    0    0    0
+70    3625 1250
+32    213633376    1    209097776    1    209103488    0    0    0    ""  0
+60    4    0    1    1875 1000 1875 1000 1    0    0    0    0
+70    1875 1000
+32    205679360    1    209097640    1    209092880    0    0    0    ""  0
+60    4    0    1    875 1000 875 1000 1    0    0    0    0
+70    875 1000
+32    207322896    1    209097912    1    209103352    0    0    0    ""  0
+60    4    0    1    -625 250 -625 250 1    0    0    0    0
+70    -625 250
+40    4    0    0    0
+50    4    -625 1250 875 1417 1    0    0    0    0    0    0    0    0    208580952
+50    4    1875 1250 2639 1417 1    0    0    0    0    0    0    0    0    215682144
+50    4    3625 1250 3625 1250 1    0    0    0    0    0    0    0    0    208689248
+50    4    1875 1000 1875 1000 1    0    0    0    0    0    0    0    0    213633376
+50    4    875 1000 875 1000 1    0    0    0    0    0    0    0    0    205679360
+50    4    -625 250 -625 250 1    0    0    0    0    0    0    0    0    207322896
+40    5    0    0    0
+50    6    4250 -1375 6458 1500 1    0    0    0    0    0    0    0    0
+62    0    125    9    4250 1375 0    23    0    0    0    0    0   "Arial For CAE"   `Weighting functions can be
+applied to the equations that
+define SDDs.  The weighting function 
+is the second index.
+0 means no weighting function.
+1 means multiply by j*omega in the
+  frequency domain or differentiate
+  the equation with respect to time.
+2,... are arbitrary, and definable 
+  by the user.
+
+In this case, weighting function 3 is
+a 2 us time delay.  Weighting function
+2 is a high-pass filter.  The impulse
+response of the weighting function is
+convolved with the expression on the
+right hand side of the equation.  For
+example, the current into port 2 is
+defined by 
+_v1 + impulse response of weighting
+function 2 convolved with _v1^2 +
+impulse response of weighting function
+3 convolved with (-0.8*_v1^3).`
+50    6    2125 500 4157 625 1    0    0    0    0    0    0    0    0
+62    0    125    9    2125 500 0    1    0    0    0    0    0   "Arial For CAE"   `Note: omega=2*pi*freq`
+50    6    -250 1875 3521 2125 1    0    0    0    0    0    0    0    0
+62    0    250    9    -250 1875 0    1    0    0    0    0    0   "Arial For CAE"   `SDD Weighting Function Example`
+41    207481520    0    131073    "G1"    "GROUND"    "SYM_Ground"    750 750 1000 1000 1    0 "" 0
+    209097640    0    2    875 1000 -90000 1 1 0 0    0    97    0    0    970186865    0  ""    0 0 0 0 0    0 0 0 0 0    0 0 0 0 0 0
+41    215682304    0    131073    "G2"    "GROUND"    "SYM_Ground"    1750 750 2000 1000 1    0 "" 0
+    209097776    0    3    1875 1000 -90000 1 1 0 0    0    97    0    0    970186865    0  ""    0 0 0 0 0    0 0 0 0 0    0 0 0 0 0 0
+41    208401736    0    131073    "G3"    "GROUND"    "SYM_Ground"    -750 0 -500 250 1    0 "" 0
+    209097912    0    6    -625 250 -90000 1 1 0 0    0    97    0    0    970186865    0  ""    0 0 0 0 0    0 0 0 0 0    0 0 0 0 0 0
+41    214800744    0    0    "R1"    "R"    "SYM_R"    2625 779 3625 1320 1    0 "" 0
+    209093288    0    7    2625 1250 0 1 1 0 0    0    104    0    0    1046714753    17  ""    0 0 0 0 0    0 0 0 0 0    0 0 0 0 0 0
+40    6    0    0    0
+50    6    125 -221 215 -121 1    0    0    0    0    0    0    0    0
+62    0    100    9    125 -221 0    1    1    0    0    10    0   "Arial For CAE"   `R`
+40    7    0    0    0
+50    6    125 -346 283 -246 1    0    0    0    0    0    0    0    0
+62    0    100    9    125 -346 0    1    2    0    0    10    0   "Arial For CAE"   `R1`
+40    8    0    0    0
+50    6    125 -471 621 -371 1    0    0    0    0    0    0    0    0
+62    0    100    9    125 -471 0    1    3    0    1    10    0   "Arial For CAE"   `R=1 Ohm`
+80    5    "R"    "StdForm"    0    0    "1 Ohm"    0   0
+80    5    "Temp"    "StdForm"    0    0    ""    1   0
+80    5    "Trise"    "StdForm"    0    0    ""    1   0
+80    5    "Tnom"    "StdForm"    0    0    ""    1   0
+80    5    "TC1"    "StdForm"    0    0    ""    1   0
+80    5    "TC2"    "StdForm"    0    0    ""    1   0
+80    6    "Noise"    "Yes"    0    0    ""    1   0
+80    5    "wPmax"    "StdForm"    0    0    ""    1   0
+80    5    "wImax"    "StdForm"    0    0    ""    1   0
+80    5    "Model"    "StdForm"    0    0    ""    1   0
+80    5    "Width"    "StdForm"    0    0    ""    1   0
+80    5    "Length"    "StdForm"    0    0    ""    1   0
+80    5    "_M"    "StdForm"    0    0    ""    1   0
+41    208467696    0    131073    "G4"    "GROUND"    "SYM_Ground"    3500 1000 3750 1250 1    0 "" 0
+    209093016    0    8    3625 1250 -90000 1 1 0 0    0    97    0    0    970186865    0  ""    0 0 0 0 0    0 0 0 0 0    0 0 0 0 0 0
+41    208467880    0    1073741824    "Tran1"    "Tran"    "SYM_TRANSIENT"    -500 -1464 1552 -500 1    0 "" 0
+    0    0    9    -500 -500 0 1 1 0 0    0    104    0    0    1093331692    17  ""    0 0 0 0 0    0 0 0 0 0    0 0 0 0 0 0
+40    6    0    0    0
+50    6    125 -589 375 -489 1    0    0    0    0    0    0    0    0
+62    0    100    9    125 -589 0    1    1    0    0    10    0   "Arial For CAE"   `Tran`
+40    7    0    0    0
+50    6    125 -714 444 -614 1    0    0    0    0    0    0    0    0
+62    0    100    9    125 -714 0    1    2    0    0    10    0   "Arial For CAE"   `Tran1`
+40    8    0    0    0
+50    6    125 -964 1250 -864 1    0    0    0    0    0    0    0    0
+62    0    100    9    125 -964 0    1    3    0    2    10    0   "Arial For CAE"   `MaxTimeStep=10ns`
+50    6    125 -839 1014 -739 1    0    0    0    0    0    0    0    0
+62    0    100    9    125 -839 0    1    3    0    1    10    0   "Arial For CAE"   `StopTime=10us`
+80    5    "StartTime"    "StdForm"    0    0    "0.0 nsec"    1   0
+80    5    "StopTime"    "StdForm"    0    0    "10us"    0   0
+80    5    "MaxTimeStep"    "StdForm"    0    0    "10ns"    0   0
+80    5    "MinTimeStep"    "StdForm"    0    0    ""    1   0
+80    6    "LimitStepForTL"    "YES"    0    0    ""    1   0
+80    6    "TimeStepControl"    "TimeStepTruncError"    0    0    ""    1   0
+80    5    "TruncTol"    "StdForm"    0    0    "7.0"    1   0
+80    5    "ChargeTol"    "StdForm"    0    0    "1.0e-14"    1   0
+80    6    "IntegMethod"    "IntegTrapezoidal"    0    0    ""    1   0
+80    5    "MaxGearOrder"    "StdForm"    0    0    "6"    1   0
+80    5    "Mu"    "StdForm"    0    0    "0.5"    1   0
+80    5    "MaxOrder"    "StdForm"    0    0    "4"    1   0
+80    3    "Freq"    "list"    0    1    ""    1   0
+80    5    "Freq"    "StdForm"    0    0    ""    1   0
+80    3    "Order"    "list"    0    1    ""    1   0
+80    5    "Order"    "StdForm"    0    0    "3"    1   0
+80    6    "HB_Window"    "NO"    0    0    ""    1   0
+80    6    "HB_Sol"    "NO"    0    0    ""    1   0
+80    5    "HB_OutFile"    "StringAndReference"    0    0    " "    1   0
+80    6    "ImpApprox"    "NO"    0    0    ""    1   0
+80    5    "ShortTL_Delay"    "StdForm"    0    0    "1.0 psec"    1   0
+80    5    "ImpMaxFreq"    "StdForm"    0    0    ""    1   0
+80    5    "ImpDeltaFreq"    "StdForm"    0    0    ""    1   0
+80    5    "ImpMaxPts"    "StdForm"    0    0    "4096"    1   0
+80    5    "ImpRelTrunc"    "StdForm"    0    0    "1.0e-4"    1   0
+80    5    "ImpAbsTrunc"    "StdForm"    0    0    "1.0e-7"    1   0
+80    6    "ImpInterpOrder"    "ImpInterpOrder1"    0    0    ""    1   0
+80    6    "ImpMode"    "CModeDiscrete"    0    0    ""    1   0
+80    6    "ImpWindow"    "WindowTypeHanning"    0    0    ""    1   0
+80    5    "ImpNoncausalLength"    "StdForm"    0    0    "32"    1   0
+80    6    "UseInitCond"    "NO"    0    0    ""    1   0
+80    6    "LoadGminDC"    "NO"    0    0    ""    1   0
+80    6    "CheckKCL"    "YES"    0    0    ""    1   0
+80    6    "CheckOnlyDeltaV"    "YES"    0    0    ""    1   0
+80    6    "OverloadAlert"    "NO"    0    0    ""    1   0
+80    6    "DeviceBypass"    "NO"    0    0    ""    1   0
+80    5    "MaxIters"    "StdForm"    0    0    "10"    1   0
+80    5    "MaxItersDC"    "StdForm"    0    0    "200"    1   0
+80    6    "DevOpPtLevel"    "DeviceOpNone"    0    0    ""    1   0
+80    5    "StatusLevel"    "StdForm"    0    0    "2"    1   0
+80    6    "OutputAllPoints"    "YES"    0    0    ""    1   0
+80    5    "NoiseBandwidth"    "StdForm"    0    0    ""    1   0
+80    5    "NoiseScale"    "StdForm"    0    0    "1"    1   0
+80    3    "OutputPlan"    "list"    0    1    ""    1   0
+80    5    "OutputPlan"    "StdForm"    0    0    ""    1   0
+80    6    "UseNodeNestLevel"    "OutputPlan_BooleanYes"    0    0    ""    1   0
+80    5    "NodeNestLevel"    "SingleTextLineInteger"    0    0    "2"    1   0
+80    3    "NodeName"    "list"    0    1    ""    1   0
+80    5    "NodeName"    "StringAndReference"    0    0    ""    1   0
+80    6    "UseEquationNestLevel"    "OutputPlan_BooleanYes"    0    0    ""    1   0
+80    5    "EquationNestLevel"    "SingleTextLineInteger"    0    0    "2"    1   0
+80    3    "EquationName"    "list"    0    1    ""    1   0
+80    5    "EquationName"    "StringAndReference"    0    0    ""    1   0
+80    5    "Other"    "OtherForm"    0    0    ""    1   0
+80    6    "UseSavedEquationNestLevel"    "OutputPlan_BooleanYes"    0    0    ""    1   0
+80    5    "SavedEquationNestLevel"    "SingleTextLineInteger"    0    0    "2"    1   0
+80    3    "SavedEquationName"    "list"    0    1    ""    1   0
+80    5    "SavedEquationName"    "StringAndReference"    0    0    ""    1   0
+80    3    "AttachedEquationName"    "list"    0    1    ""    1   0
+80    5    "AttachedEquationName"    "StringAndReference"    0    0    ""    1   0
+80    5    "SteadyState"    "StdForm"    0    0    ""    1   0
+80    5    "IV_RelTol"    "StdForm"    0    0    ""    1   0
+41    207303688    0    1073741824    "SDDNP1"    "SDD2P"    "SYM_Float2P"    875 -338 3632 1437 1    0 "" 0
+    209092880    0    1    875 1250 0 1 1 0 0    0    104    0    0    1046714753    17  ""    0 0 0 0 0    0 0 0 0 0    0 0 0 0 0 0
+40    6    0    0    0
+50    6    125 -588 508 -488 1    0    0    0    0    0    0    0    0
+62    0    100    9    125 -588 0    1    1    0    0    12    0   "Arial For CAE"   `SDD2P`
+40    7    0    0    0
+50    6    125 -713 599 -613 1    0    0    0    0    0    0    0    0
+62    0    100    9    125 -713 0    1    2    0    0    12    0   "Arial For CAE"   `SDDNP1`
+40    8    0    0    0
+50    6    125 -1588 599 -1488 1    0    0    0    0    0    0    0    0
+62    0    100    9    125 -1588 0    1    3    0    7    12    0   "Arial For CAE"   `Cport[1]=`
+50    6    125 -1463 1410 -1363 1    0    0    0    0    0    0    0    0
+62    0    100    9    125 -1463 0    1    3    0    6    12    0   "Arial For CAE"   `H[3]=exp(-j*omega*2us)`
+50    6    125 -1338 2042 -1238 1    0    0    0    0    0    0    0    0
+62    0    100    9    125 -1338 0    1    3    0    5    12    0   "Arial For CAE"   `H[2]=j*omega*.2us/(1+j*omega*.2us)`
+50    6    125 -1213 982 -1113 1    0    0    0    0    0    0    0    0
+62    0    100    9    125 -1213 0    1    3    0    4    12    0   "Arial For CAE"   `I[2,3]=-0.8*_v1^3`
+50    6    125 -1088 734 -988 1    0    0    0    0    0    0    0    0
+62    0    100    9    125 -1088 0    1    3    0    3    12    0   "Arial For CAE"   `I[2,2]=_v1^2`
+50    6    125 -963 621 -863 1    0    0    0    0    0    0    0    0
+62    0    100    9    125 -963 0    1    3    0    2    12    0   "Arial For CAE"   `I[2,0]=_v1`
+50    6    125 -838 486 -738 1    0    0    0    0    0    0    0    0
+62    0    100    9    125 -838 0    1    3    0    1    12    0   "Arial For CAE"   `I[1,0]=0`
+80    3    "SDD"    "list"    0    6    ""    0   0
+80    4    "SDD"    "SddExplicit"    0    3    ""    0   0
+80    5    ""    "SddIndexTextForm"    0    0    "1"    0   0
+80    5    ""    "SddIndexTextForm"    0    0    "0"    0   0
+80    5    ""    "SddTextForm"    0    0    "0"    0   0
+80    4    "SDD"    "SddExplicit"    0    3    ""    0   0
+80    5    ""    "SddIndexTextForm"    0    0    "2"    0   0
+80    5    ""    "SddIndexTextForm"    0    0    "0"    0   0
+80    5    ""    "SddTextForm"    0    0    "_v1"    0   0
+80    4    "SDD"    "SddExplicit"    0    3    ""    0   0
+80    5    ""    "SddIndexTextForm"    0    0    "2"    0   0
+80    5    ""    "SddIndexTextForm"    0    0    "2"    0   0
+80    5    ""    "SddTextForm"    0    0    "_v1^2"    0   0
+80    4    "SDD"    "SddExplicit"    0    3    ""    0   0
+80    5    ""    "SddIndexTextForm"    0    0    "2"    0   0
+80    5    ""    "SddIndexTextForm"    0    0    "3"    0   0
+80    5    ""    "SddTextForm"    0    0    "-0.8*_v1^3"    0   0
+80    4    "SDD"    "SddWeighting"    0    3    ""    0   0
+80    5    ""    "SddIndexTextForm"    0    0    "2"    0   0
+80    5    ""    "SddIndexTextForm"    0    0    "2"    0   0
+80    5    ""    "SddTextForm"    0    0    "j*omega*.2us/(1+j*omega*.2us)"    0   0
+80    4    "SDD"    "SddWeighting"    0    3    ""    0   0
+80    5    ""    "SddIndexTextForm"    0    0    "2"    0   0
+80    5    ""    "SddIndexTextForm"    0    0    "3"    0   0
+80    5    ""    "SddTextForm"    0    0    "exp(-j*omega*2us)"    0   0
+80    3    "C"    "list"    0    1    ""    0   0
+80    5    "C"    "StringAndReference"    0    0    ""    1   0
+80    3    "Cport"    "list"    0    1    ""    0   0
+80    5    "Cport"    "StdForm"    0    0    ""    0   0
+80    5    "_M"    "StdForm"    0    0    ""    1   0
+41    207483424    0    0    "SRC1"    "VtRF_Step"    "SYM_VtRF_Step"    -815 250 466 1250 1    0 "" 0
+    209099680    0    4    -625 1250 -90000 1 1 0 0    0    104    0    0    970186865    17  ""    0 0 0 0 0    0 0 0 0 0    0 0 0 0 0 0
+40    6    0    0    0
+50    6    240 -350 936 -250 1    0    0    0    0    0    0    0    0
+62    0    100    9    240 -350 0    1    1    0    0    0    0   "Arial For CAE"   `VtRF_Step`
+40    7    0    0    0
+50    6    240 -475 549 -375 1    0    0    0    0    0    0    0    0
+62    0    100    9    240 -475 0    1    2    0    0    0    0   "Arial For CAE"   `SRC1`
+40    8    0    0    0
+50    6    240 -600 1091 -500 1    0    0    0    0    0    0    0    0
+62    0    100    9    240 -600 0    1    3    0    1    0    0   "Arial For CAE"   `Freq=10 MHz`
+50    6    240 -725 627 -625 1    0    0    0    0    0    0    0    0
+62    0    100    9    240 -725 0    1    3    0    2    0    0   "Arial For CAE"   `V=1*j`
+50    6    240 -850 1091 -750 1    0    0    0    0    0    0    0    0
+62    0    100    9    240 -850 0    1    3    0    3    0    0   "Arial For CAE"   `Delay=100ns`
+50    6    240 -975 1014 -875 1    0    0    0    0    0    0    0    0
+62    0    100    9    240 -975 0    1    3    0    4    0    0   "Arial For CAE"   `Rise=200ns`
+80    5    "Freq"    "StdForm"    0    0    "10 MHz"    0   0
+80    5    "V"    "StdForm"    0    0    "1*j"    0   0
+80    5    "Delay"    "StdForm"    0    0    "100ns"    0   0
+80    5    "Rise"    "StdForm"    0    0    "200ns"    0   0
+80    5    "Vdc"    "StdForm"    0    0    ""    1   0
+80    5    "Vac"    "StdForm"    0    0    ""    1   0
+80    6    "SaveCurrent"    "y_n1"    0    0    ""    1   0
+43    209959376    0    "Vin"    209099680    1    ""   0
+43    209959420    0    "vout"    209103624    2    ""   0
+43    209959464    0    ""    209093016    0    ""   0
+43    209959904    0    ""    209097776    0    ""   0
+43    209960916    0    ""    209097640    0    ""   0
+43    209959860    0    ""    209097912    0    ""   0
+44    0    0    0    0    0    0    0
+21
+20    1    ""    0 0 0 0 0    1 -2 1    0    0    "layout.prf" "layout.lay"
+44    0    0    0    0    0    0    0
+21

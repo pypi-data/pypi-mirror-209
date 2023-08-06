@@ -1,0 +1,52 @@
+Required Waveform Downloader Revision: V1.2.1.0
+
+Waveform: LTU6_20M100R_MCS21
+FileName: LTU6_20M100R_MCS21
+Date: 10May2016
+
+Project: Jedi
+
+Requester: Yong-Ki Lee
+
+Note
+- None
+
+Setting
+- None
+
+Special setting
+- None
+
+Constellation: 64QAM
+Carrier Aggregation: No
+Burst On: Yes
+Burst Delay (mS): 0
+Burst Width (mS): 2
+Modulation Bandwidth_Cen (MHz): 20
+Modulation Bandwidth_CA1 (MHz): NA
+Modulation Bandwidth_CA2 (MHz): NA
+Modulation ResBlocks_Cen: 100
+Modulation ResBlocks_CA1: NA
+Modulation ResBlocks_CA2: NA
+
+Used Signal Studio Ver.15.0.2.1
+
+ESG IQ Mod Filter Type: 2.1, 40, Through
+ESG IQ Out Filter Type: 40, Through
+
+### Don't Touch ###
+
+Sample Point: 307200
+Sample Rate (MHz): 30.72
+Waveform Runtime Scaling (%): 86.4
+IQ Modulation Filter (MHz): 40
+IQ Output Filter (MHz): 40
+Marker 1: 1-307
+Marker 2: None
+Marker 3: 61451-153590, 215051-307190
+Marker 4: 1-44, 61397-153644, 214997-307200
+Pulse/RF Blanking: 4
+ALC Hold: 3
+ALC Status: On
+Bandwidth: Auto
+Power Search Reference: Modulation
