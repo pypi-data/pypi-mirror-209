@@ -1,0 +1,5 @@
+setup.py
+edosnahb.egg-info/PKG-INFO
+edosnahb.egg-info/SOURCES.txt
+edosnahb.egg-info/dependency_links.txt
+edosnahb.egg-info/top_level.txt
