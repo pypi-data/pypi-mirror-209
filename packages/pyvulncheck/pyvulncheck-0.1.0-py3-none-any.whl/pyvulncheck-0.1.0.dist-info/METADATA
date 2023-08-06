@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: pyvulncheck
+Version: 0.1.0
+Summary: pyvulncheck is an open-source tool designed for detecting vulnerabilities in Python packages, drawing inspiration from the capabilities of govulncheck.
+Home-page: https://github.com/FastAPI-Korea/pyvulncheck
+License: MIT
+Author: Taehyun Lee
+Author-email: 0417taehyun@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Documentation, https://github.com/FastAPI-Korea/pyvulncheck/README.md
+Project-URL: Repository, https://github.com/FastAPI-Korea/pyvulncheck
+Description-Content-Type: text/markdown
+
+# pyvulncheck
+
+pyvulncheck is an open-source tool designed for detecting vulnerabilities in Python packages, drawing inspiration from the capabilities of [govulncheck](https://pkg.go.dev/golang.org/x/vuln/cmd/govulncheck). It uses [deps.dev Open API](https://docs.deps.dev/api/v3alpha/) to detect vulnerabilities.
+
