@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: test_component
+Version: 0.0.1
+Summary: test_to_add_react
+Author: manonclaude <mclaude@thinkdeep.ai>
+Classifier: Framework :: Dash
+License-File: LICENSE

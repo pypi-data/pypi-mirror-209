@@ -1,0 +1,11 @@
+include test_component/test_component.min.js
+include test_component/test_component.min.js.map
+include test_component/async-*.js
+include test_component/async-*.js.map
+include test_component/*-shared.js
+include test_component/*-shared.js.map
+include test_component/metadata.json
+include test_component/package-info.json
+include README.md
+include LICENSE
+include package.json

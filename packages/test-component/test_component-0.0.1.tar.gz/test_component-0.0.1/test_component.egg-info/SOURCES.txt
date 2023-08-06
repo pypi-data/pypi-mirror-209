@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+package.json
+setup.py
+test_component/TestComponent.py
+test_component/__init__.py
+test_component/_imports_.py
+test_component/metadata.json
+test_component/package-info.json
+test_component.egg-info/PKG-INFO
+test_component.egg-info/SOURCES.txt
+test_component.egg-info/dependency_links.txt
+test_component.egg-info/top_level.txt
