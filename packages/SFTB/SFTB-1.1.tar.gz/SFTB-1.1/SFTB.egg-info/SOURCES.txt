@@ -1,0 +1,10 @@
+LICENSE
+README.rst
+setup.py
+SFTB/SFTB.py
+SFTB/__init__.py
+SFTB.egg-info/PKG-INFO
+SFTB.egg-info/SOURCES.txt
+SFTB.egg-info/dependency_links.txt
+SFTB.egg-info/requires.txt
+SFTB.egg-info/top_level.txt
