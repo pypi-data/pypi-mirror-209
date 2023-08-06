@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+sample_statistics/__init__.py
+sample_statistics/main.py
+sample_statistics.egg-info/PKG-INFO
+sample_statistics.egg-info/SOURCES.txt
+sample_statistics.egg-info/dependency_links.txt
+sample_statistics.egg-info/requires.txt
+sample_statistics.egg-info/top_level.txt
+tests/__init__.py
+tests/test_main.py
