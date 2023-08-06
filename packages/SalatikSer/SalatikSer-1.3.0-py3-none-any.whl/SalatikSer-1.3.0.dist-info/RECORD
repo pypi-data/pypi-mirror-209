@@ -1,0 +1,13 @@
+MySerializer/MySerializer.py,sha256=Tqj69Gv_3w2jjOxU_HdfaMfkzQr53IdXESzLdX484vQ,341
+MySerializer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+MySerializer/constants.py,sha256=xyLVSLiI8tQATpRZLkKTJyEO_N8vp8t3YKqjtt-1J2Y,88
+MySerializer/json_utils.py,sha256=Cq_6yd1XNUvCSJ3IMM8Fa7vs6em5hjSDzGgTVVOAqHo,6775
+MySerializer/pack_utils.py,sha256=8bxAfT-q1fMLuaSoNXdcLw-UHd-D4DnlTMYhe1G_t8c,4680
+MySerializer/serializer.py,sha256=3_ueNllMMDvXkHS_-F84pQoHY-3p_hr_UY1IDFJ_Jlw,1339
+MySerializer/unpack_utils.py,sha256=Da5-ucNAxM2ZXa6frKf_y5yrcTPmCkXOvU_yuNpts40,6359
+MySerializer/xml_utils.py,sha256=M9B-njX5q13C2Y3GY8qQgvmvuzemNktdTSYFYkCU1vM,6789
+SalatikSer-1.3.0.dist-info/METADATA,sha256=HEf61B13CMhYytTRhppr_GYBUMeRXkOjtW0ON14ow3E,156
+SalatikSer-1.3.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+SalatikSer-1.3.0.dist-info/entry_points.txt,sha256=1JxxaKFqBwcJZNzmItlkEXbaj7lpIn0DsFxfaCNShFM,60
+SalatikSer-1.3.0.dist-info/top_level.txt,sha256=hIlf0hoMTK1lS2g7h8tEfcDhYi4tjh73145lA7ahHGQ,13
+SalatikSer-1.3.0.dist-info/RECORD,,
