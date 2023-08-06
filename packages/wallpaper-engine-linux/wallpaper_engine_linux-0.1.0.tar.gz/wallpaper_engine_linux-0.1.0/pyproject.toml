@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "wallpaper-engine-linux"
+version = "0.1.0"
+description = ""
+authors = ["arnos-stuff <bcda0276@gmail.com>"]
+readme = "README.md"
+packages = [{include = "wallpaper_engine_linux"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+websocket = "^0.2.1"
+wsproto = "^1.2.0"
+socks5 = "^0.2.1"
+siosocks = "^0.3.0"
+websockets = "^11.0.3"
+
+[tool.poetry.scripts]
+connect-wpe = "wallpaper_engine_linux.connect:cli"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
