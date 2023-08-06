@@ -1,0 +1,10 @@
+numba>=0.54.1
+numpy==1.19.2
+tqdm
+opt_einsum
+nnv
+matplotlib
+opencv-python
+seaborn
+time
+random
