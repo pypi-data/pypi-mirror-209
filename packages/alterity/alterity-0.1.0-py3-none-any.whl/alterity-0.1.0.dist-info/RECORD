@@ -1,0 +1,10 @@
+alterity/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+alterity/base.py,sha256=o8NEO6OTxN1us5nSHAVCr1wxP6qP9buNd07LO5aACaQ,2878
+alterity/mad_e.py,sha256=0B0aE6d3RvGR38ISaOMX7m40O8cu3R1S_NfP1HEMrtI,4114
+alterity/std.py,sha256=Tb-StQsTsOWBlxzsNVA2NCzu8U8LzDGO51MPHNR67-k,4207
+alterity/tukey.py,sha256=NL8LeoaxgOMnq8zXww7Ep-dtV8z8IJ-tFPlFnXdhebI,4338
+alterity/zscore.py,sha256=q8zTpFXdB_SUcmtuOq1jhLggzOPw5uCZJ1aZ7cdxI4U,4358
+alterity/zscore2.py,sha256=WLf8e-HEdWx_1bh8rMVYHUkuT2NzCJTIgLsJgishaUc,4064
+alterity-0.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+alterity-0.1.0.dist-info/METADATA,sha256=3RyoBsAZ0EPhNY7U3SF6W01OVjWF0K4YTYObf68fACQ,3592
+alterity-0.1.0.dist-info/RECORD,,
