@@ -1,0 +1,28 @@
+[project]
+name = "rdkit-doc-stubs"
+version = "0.0.2"
+requires-python = ">=3.10"
+authors = [
+    {name = "Tim Hörmann"},
+    {email = "t.hoermann@audivir.de"}
+]
+description = "Combined stubs from RDKit's documentation and mypy's stubgen"
+readme = "README.md"
+dependencies = [
+    "rdkit == 2023.3.1",
+    "mypy",
+    "isort",
+    "black",
+    "biopython"
+]
+
+[project.urls]
+homepage = "https://www.audivir.de/"
+repository = "https://github.com/tim25651/rdkit-doc-stubs"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include= ["rdkit-stubs*"]
+
+[tool.isort]
+profile = "black"
