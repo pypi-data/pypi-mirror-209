@@ -1,0 +1,6 @@
+README.md
+setup.py
+shopee_eaglectl.egg-info/PKG-INFO
+shopee_eaglectl.egg-info/SOURCES.txt
+shopee_eaglectl.egg-info/dependency_links.txt
+shopee_eaglectl.egg-info/top_level.txt
