@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: sober
+Version: 0.0.1a0
+Summary: sober optimises built environment robustly
+License: MIT
+Author: Cheng Cui
+Author-email: cheng.cui.95@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: eppy (>=0.5.63,<0.6.0)
+Requires-Dist: numpy (>=1.23,<2.0)
+Requires-Dist: psutil (>=5.9.5,<6.0.0)
+Requires-Dist: pymoo (>=0.6,<0.7)
+Description-Content-Type: text/markdown
+
+**sober** — **sober** **o**ptimises **b**uilt **e**nvironment **r**obustly
+
+---
+
+Alpha phase, in development.
+
