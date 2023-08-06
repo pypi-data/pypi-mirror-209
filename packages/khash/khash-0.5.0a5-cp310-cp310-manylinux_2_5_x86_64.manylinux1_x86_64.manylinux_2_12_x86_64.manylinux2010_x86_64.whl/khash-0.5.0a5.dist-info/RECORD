@@ -1,0 +1,10 @@
+khash-0.5.0a5.dist-info/RECORD,,
+khash-0.5.0a5.dist-info/WHEEL,sha256=40nHpESXFTSlHwZ28WDqxy04GMXZH_6d1r1fiqzcacg,225
+khash-0.5.0a5.dist-info/top_level.txt,sha256=v7b-ozFWXCaf4uTK9rLjXt7APm-7cQ10Puktgvz4YFg,6
+khash-0.5.0a5.dist-info/LICENSE.md,sha256=3tRK_BW-yd3EvfJQv7l9CHVtXOvdNMcpFiVbALsDHv4,172
+khash-0.5.0a5.dist-info/METADATA,sha256=A5UXH9obK2kOUu4-hWqoYmquAmovXN5Gpn2KyHW3MeM,128
+khash/siphash.cpython-310-x86_64-linux-gnu.so,sha256=MaVIig7aF7EfSkX8AtUjmXhE3_J8IHRNnfql8tHqlxQ,145912
+khash/khash.cpython-310-x86_64-linux-gnu.so,sha256=NOV8XD19jtbppz9tLh8xzY8FtncdEBRTFeluBFFFiuQ,361848
+khash/__init__.py,sha256=O0rbnuUslwP2dEh901f2aVENjv_DrS9Gj8Kpr57__x4,54
+khash/tree.cpython-310-x86_64-linux-gnu.so,sha256=3G9R7I8Ilb_V-24DZ2q2OMmAWVApqYGOJgIGvj7lsow,592728
+khash/container.cpython-310-x86_64-linux-gnu.so,sha256=sbOGyUnSd9Fg0nJftPkJeDuSucDw1FIP8pc_T31-rho,1097240
