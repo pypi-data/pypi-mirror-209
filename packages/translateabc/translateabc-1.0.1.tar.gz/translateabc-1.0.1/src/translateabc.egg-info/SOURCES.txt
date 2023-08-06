@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/translateabc/__init__.py
+src/translateabc/translateabc.py
+src/translateabc.egg-info/PKG-INFO
+src/translateabc.egg-info/SOURCES.txt
+src/translateabc.egg-info/dependency_links.txt
+src/translateabc.egg-info/top_level.txt
