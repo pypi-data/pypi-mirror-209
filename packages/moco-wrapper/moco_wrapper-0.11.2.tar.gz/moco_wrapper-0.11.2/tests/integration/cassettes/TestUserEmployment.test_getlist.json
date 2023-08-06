@@ -1,0 +1,109 @@
+{
+  "http_interactions": [
+    {
+      "recorded_at": "2023-05-23T05:43:03",
+      "request": {
+        "body": {
+          "encoding": "utf-8",
+          "string": ""
+        },
+        "headers": {
+          "Accept": [
+            "*/*"
+          ],
+          "Accept-Encoding": [
+            "gzip, deflate"
+          ],
+          "Authorization": [
+            "Token token=<TOKEN>"
+          ],
+          "Connection": [
+            "keep-alive"
+          ],
+          "Content-Type": [
+            "application/json"
+          ],
+          "Cookie": [
+            "server_id=web01"
+          ],
+          "User-Agent": [
+            "python-requests/2.25.1"
+          ]
+        },
+        "method": "GET",
+        "uri": "https://<DOMAIN>.mocoapp.com/api/v1/users/employments?from=2020-01-01&to=2021-01-01&user_id=933685437&page=1"
+      },
+      "response": {
+        "body": {
+          "encoding": "utf-8",
+          "string": "[]"
+        },
+        "headers": {
+          "cache-control": [
+            "max-age=0, private, must-revalidate"
+          ],
+          "content-type": [
+            "application/json; charset=utf-8"
+          ],
+          "date": [
+            "Tue, 23 May 2023 05:43:03 GMT"
+          ],
+          "etag": [
+            "W/\"4f53cda18c2baa0c0354bb5f9a3ecbe5\""
+          ],
+          "referrer-policy": [
+            "strict-origin-when-cross-origin"
+          ],
+          "strict-transport-security": [
+            "max-age=63072000; includeSubDomains"
+          ],
+          "transfer-encoding": [
+            "chunked"
+          ],
+          "vary": [
+            "Origin"
+          ],
+          "x-content-type-options": [
+            "nosniff"
+          ],
+          "x-download-options": [
+            "noopen"
+          ],
+          "x-frame-options": [
+            "SAMEORIGIN"
+          ],
+          "x-page": [
+            "1"
+          ],
+          "x-per-page": [
+            "100"
+          ],
+          "x-permitted-cross-domain-policies": [
+            "none"
+          ],
+          "x-request-id": [
+            "9dcc8552-da2b-4d0b-89f3-14662f393dd4"
+          ],
+          "x-runtime": [
+            "0.026607"
+          ],
+          "x-server": [
+            "web01"
+          ],
+          "x-total": [
+            "0"
+          ],
+          "x-xss-protection": [
+            "1; mode=block"
+          ]
+        },
+        "status": {
+          "code": 200,
+          "message": "OK"
+        },
+        "url": "https://<DOMAIN>.mocoapp.com/api/v1/users/employments?from=2020-01-01&to=2021-01-01&user_id=933685437&page=1"
+      }
+    }
+  ],
+  "recorded_with": "betamax/0.8.1"
+}

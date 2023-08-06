@@ -1,0 +1,199 @@
+{
+  "http_interactions": [
+    {
+      "recorded_at": "2022-04-17T06:47:05",
+      "request": {
+        "body": {
+          "encoding": "utf-8",
+          "string": "{\"project_id\": 945892354, \"task_id\": 12540219, \"date\": \"2022-04-17\", \"description\": \"TestActivity.test_start_timer_create\", \"hours\": 0.5}"
+        },
+        "headers": {
+          "Accept": [
+            "*/*"
+          ],
+          "Accept-Encoding": [
+            "gzip, deflate"
+          ],
+          "Authorization": [
+            "Token token=<TOKEN>"
+          ],
+          "Connection": [
+            "keep-alive"
+          ],
+          "Content-Length": [
+            "137"
+          ],
+          "Content-Type": [
+            "application/json"
+          ],
+          "User-Agent": [
+            "python-requests/2.25.1"
+          ],
+          "X-IMPERSONATE-USER-ID": [
+            "933662266"
+          ]
+        },
+        "method": "POST",
+        "uri": "https://<DOMAIN>.mocoapp.com/api/v1/activities"
+      },
+      "response": {
+        "body": {
+          "base64_string": "H4sIAAAJbogA/4SSwc7bIBCE32XO/BFgQ2JufYf/1AsieJPSYjuCdaSoyrtXjuu0jdr+R0Y7n4ad/Y7UwympjNXG6INAH5jgoKXWb7J9U3sIfJnmUuHkzghUitPYVzh1kFKgpxpLunCaRji8U+VPkdM18W3HVNlXDoU9p4GKj4UWuMAx5Uw93CnkSuszHDPBcZlJgMMZDhAoNExMvlK5pkh/aEvscc75OTSXvCmXMn2lyHDr77rWHDrdmFZgDAO9xjwT+83xmuW+hKnfNpLSppVadR+C/MP1F1qcK08DlY24t0rbRnbq38in5S4w11/Wrmms1dpagVMqlX/6l61DIIenEo6xX8xrCY9CqPeBt3WttazKb72/S+vavZPmMwTmy3IX/59ZriTffAlMcHIn7z8GAJrngYBdAgAA",
+          "encoding": "utf-8",
+          "string": ""
+        },
+        "headers": {
+          "Cache-Control": [
+            "max-age=0, private, must-revalidate"
+          ],
+          "Content-Encoding": [
+            "gzip"
+          ],
+          "Content-Type": [
+            "application/json; charset=utf-8"
+          ],
+          "Date": [
+            "Sun, 17 Apr 2022 06:47:05 GMT"
+          ],
+          "Etag": [
+            "W/\"db641b94fac9390da21131cd515aef4c\""
+          ],
+          "Referrer-Policy": [
+            "strict-origin-when-cross-origin"
+          ],
+          "Transfer-Encoding": [
+            "chunked"
+          ],
+          "Vary": [
+            "Origin",
+            "Accept-Encoding"
+          ],
+          "X-Content-Type-Options": [
+            "nosniff"
+          ],
+          "X-Download-Options": [
+            "noopen"
+          ],
+          "X-Frame-Options": [
+            "SAMEORIGIN"
+          ],
+          "X-Permitted-Cross-Domain-Policies": [
+            "none"
+          ],
+          "X-Request-Id": [
+            "06397d2f-d120-47b2-a03a-26f69d4faa29"
+          ],
+          "X-Runtime": [
+            "0.046788"
+          ],
+          "X-Xss-Protection": [
+            "1; mode=block"
+          ]
+        },
+        "status": {
+          "code": 200,
+          "message": "OK"
+        },
+        "url": "https://<DOMAIN>.mocoapp.com/api/v1/activities"
+      }
+    },
+    {
+      "recorded_at": "2022-04-17T06:47:05",
+      "request": {
+        "body": {
+          "encoding": "utf-8",
+          "string": ""
+        },
+        "headers": {
+          "Accept": [
+            "*/*"
+          ],
+          "Accept-Encoding": [
+            "gzip, deflate"
+          ],
+          "Authorization": [
+            "Token token=<TOKEN>"
+          ],
+          "Connection": [
+            "keep-alive"
+          ],
+          "Content-Length": [
+            "0"
+          ],
+          "Content-Type": [
+            "application/json"
+          ],
+          "User-Agent": [
+            "python-requests/2.25.1"
+          ],
+          "X-IMPERSONATE-USER-ID": [
+            "933662266"
+          ]
+        },
+        "method": "PATCH",
+        "uri": "https://<DOMAIN>.mocoapp.com/api/v1/activities/1015625528/start_timer"
+      },
+      "response": {
+        "body": {
+          "base64_string": "H4sIAAAJbogA/4SSwa7bIBBF/+WueRFgQ2J2/Ye36gYRPO+VFtsRjCNFVf69clynStSmS4/mHF1z5ydSD6ekMlYbow8CfWCCg5Zav8n2Te0h8G2aS4WTOyNQKU5jX+HUQUqBnmos6cRpGuHwTpW/RE7nxJcdU2VfORT2nAYqPhZa5ALHlDP1cB8hV1o/wzETHJeZBDh8wgEChYaJyVcq5xTpYbbEHuec70tzydvkVKbvFBlu/buuNYdON6YVGMNAzzE/if1GPGe5LmHqj82ktGmlVt1/Rf5G/cUW58rTQGUz7q3StpGd+rfyjlwF5voH7ZrGWq2tFfhIpfJvfnl1CORwn4Rj7Bd4LeFWCPU+8EPL79K6du+k+QqBtajXO/NpuZTXO8vd5IsvgQlO7uT11wA1MnBsbwIAAA==",
+          "encoding": "utf-8",
+          "string": ""
+        },
+        "headers": {
+          "Cache-Control": [
+            "max-age=0, private, must-revalidate"
+          ],
+          "Content-Encoding": [
+            "gzip"
+          ],
+          "Content-Type": [
+            "application/json; charset=utf-8"
+          ],
+          "Date": [
+            "Sun, 17 Apr 2022 06:47:05 GMT"
+          ],
+          "Etag": [
+            "W/\"868d1b1c883003ff3fa35874d3324b94\""
+          ],
+          "Referrer-Policy": [
+            "strict-origin-when-cross-origin"
+          ],
+          "Transfer-Encoding": [
+            "chunked"
+          ],
+          "Vary": [
+            "Origin",
+            "Accept-Encoding"
+          ],
+          "X-Content-Type-Options": [
+            "nosniff"
+          ],
+          "X-Download-Options": [
+            "noopen"
+          ],
+          "X-Frame-Options": [
+            "SAMEORIGIN"
+          ],
+          "X-Permitted-Cross-Domain-Policies": [
+            "none"
+          ],
+          "X-Request-Id": [
+            "c3474a6f-ea2d-4d6c-b24c-70da2f3469bf"
+          ],
+          "X-Runtime": [
+            "0.034206"
+          ],
+          "X-Xss-Protection": [
+            "1; mode=block"
+          ]
+        },
+        "status": {
+          "code": 200,
+          "message": "OK"
+        },
+        "url": "https://<DOMAIN>.mocoapp.com/api/v1/activities/1015625528/start_timer"
+      }
+    }
+  ],
+  "recorded_with": "betamax/0.8.1"
+}

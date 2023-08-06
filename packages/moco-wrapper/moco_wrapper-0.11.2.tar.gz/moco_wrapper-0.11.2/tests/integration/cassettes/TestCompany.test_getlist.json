@@ -1,0 +1,105 @@
+{
+  "http_interactions": [
+    {
+      "recorded_at": "2022-04-17T06:48:55",
+      "request": {
+        "body": {
+          "encoding": "utf-8",
+          "string": ""
+        },
+        "headers": {
+          "Accept": [
+            "*/*"
+          ],
+          "Accept-Encoding": [
+            "gzip, deflate"
+          ],
+          "Authorization": [
+            "Token token=<TOKEN>"
+          ],
+          "Connection": [
+            "keep-alive"
+          ],
+          "Content-Type": [
+            "application/json"
+          ],
+          "User-Agent": [
+            "python-requests/2.25.1"
+          ]
+        },
+        "method": "GET",
+        "uri": "https://<DOMAIN>.mocoapp.com/api/v1/companies?page=1"
+      },
+      "response": {
+        "body": {
+          "base64_string": "H4sIAAAJbogA/+SaW5ObOBbHvwqlZ9JBAoHhabPdvXEuu7WT6nnJpVwyqG1NYaAk0Ykn1d99SuZqrk6PkzbDW1ucli3O7/zPOZI+fQcsAJ5jQ4Sh6xo6kPuEAg/4qZDxjnKgg4js1Mi/KRMJo6H2erdeAh18pWvBpHoCdEB3hIXAi9Iw1MGahSGLNqvD4Mr3i/FkG0e5/T35lv1BgoBTIZrzf46KrxOSEyGoBpH5OYLItLBWPSKBBDrw4zSSfL/y40BNf3MLdPBA5IoFNJLsnlFe/AJJNgJ4n77oIBVqNFu9a5q2jZBt6+CecSHzBUsq1OwhKUfI2g/Aow5CsqZhPhGL7uN8TXEsq6/KXuAq4XFCuWRUAO/7ow58TomkwYpI4AFkIPTCsF4Y+A5aHkYeNj4CHaRJMGpTXxt4ZxiGqQYjSXkEvHsSClr5QaqXDd0roxp6UN+frR67BlJ+r4w4faBc0JW/JXxDy+lYJDlZ0TQfUItJOaeRvwceuP39A9BBQO9JGsoVix5i5tNVkNJVQPYCeKahg4THf1BfHl7co14jDxkQDZDnx7uERHste3daDc0fYVCZDBN4eSgdftIPgoQ9iDzLHQSpZtMCyZouSLZpuNbMQToPSNC5M2zPWnjQ6gWpYdMECU4YJKVIFUgx35CI/Ukki6NemBpGMweqBZRKX9iDpmcMp7jSpp4gVFzbM3fHed1Rxi6ye91xZNPM12bpDpEmScgG8nXNYOZR0RcVyMN4LCoKG7YmUfbSmhGCZ+6S87ikor5fqBo23S5RUVK5pL+qVTXSXlO/TRNUHnlkK2UivJcvd7EfkyS58uNdJV9Z/PyLfiO7JKRXMd+ATp/lQ77fMC0ceeipygArPlVRpmJBE5JTKjXY9u/1siPkwPXy9jCT7SxcUGogIJyC0mE6kFsqKDibMvZOnwcqizS5ZUJrv3nK5V5jIndAic7BmglNbqmWDz6pHjc9w+mFqWFzVEaZ//vtGi5H6iiEr3BfZ4eLzi4z+hkFuYK8r7NTsuTMPAbmHgOlWJpwXFAzm6MYWN69X96+nW4MqDzgnhADMtY2DfZnXqvmtWopkOgEEc1sjgBSu2POCD8XvakBjaF92ZnzM85PKUADm2INmyY/cML8YBUjQ/zkRGlfmdxqSjqfSYLATVfNeFl9c6kzuD+ZNWyaLBmLabM01PkH6W63L2oLXctej3boj54JqinkNXxCXsOLqtME/3ljmBbCFlw4DsQ2dqzj/RnoLoYqjv+mQlKuvXr9g0455RSvnPtzlP3ZcX5XPPinnd6NHLrUbFqagKatCbCkrb0bWIxk+WXmWjCqBdboRmBhc7oWLAa0QIXJITDOLwWXp9DPE9uwFtuSp5d9MJ9Hg4UXjrWwncZy/o9Qtp78tb/JLhzogPiSPdD6+sg6LJqjxyO9UHtClV6090XvqJCv1HRM7q82VK5qJjMvIVolRN622CdsVhc2TTxhHc/LTz0Vny4ysdXFJxpgKW+yB4hVEdoGdqiBUsBex7sdjeTMeT2VV8ezRnktbFq8TqtUOuYVd/Fq9qP0VFyrHq0GYw+usdxSPnORPUVknaE+rWHTgnbit/Oqyxc1TmpuKI8T8ojWDs86j3H28dcoHz4+y/m1iHWck/ySA8n6l/x9NMuWAJq9elrZWF1oGni6aKpScqy5mTmaz4ZmrogLzxxVzcKmpZoTRhMjwxrLwjeUhIcUnCM68wanq8HJxAshDw3vrdVsmhQZ7nQpUgI3dPanWo9lnPJw/4FIOvPu49TuA59QyBU2LUkyJi1JcOgyTh5cZcI87Nc++WLai2y6xoWbDhXLh3y/+z+KU6CfdU3NXTg2tkwEW1d0Dp9qOfGsibc5+TmuqBUOzB8+sZQc2EoqS0nUvqbz/h1afLweiY4Lv6o2dGg28+iYeXSUlarV32hVNu1G6/rV25vF1C6xfflrAFhQfxIeOgAA",
+          "encoding": "utf-8",
+          "string": ""
+        },
+        "headers": {
+          "Cache-Control": [
+            "max-age=0, private, must-revalidate"
+          ],
+          "Content-Encoding": [
+            "gzip"
+          ],
+          "Content-Type": [
+            "application/json; charset=utf-8"
+          ],
+          "Date": [
+            "Sun, 17 Apr 2022 06:48:55 GMT"
+          ],
+          "Etag": [
+            "W/\"fef9d4c381b7e3c86b9dd6380c94c50e\""
+          ],
+          "Referrer-Policy": [
+            "strict-origin-when-cross-origin"
+          ],
+          "Transfer-Encoding": [
+            "chunked"
+          ],
+          "Vary": [
+            "Origin",
+            "Accept-Encoding"
+          ],
+          "X-Content-Type-Options": [
+            "nosniff"
+          ],
+          "X-Download-Options": [
+            "noopen"
+          ],
+          "X-Frame-Options": [
+            "SAMEORIGIN"
+          ],
+          "X-Page": [
+            "1"
+          ],
+          "X-Per-Page": [
+            "100"
+          ],
+          "X-Permitted-Cross-Domain-Policies": [
+            "none"
+          ],
+          "X-Request-Id": [
+            "95b1d93d-b9cf-459c-97a4-1432bede5d3c"
+          ],
+          "X-Runtime": [
+            "0.073478"
+          ],
+          "X-Total": [
+            "25"
+          ],
+          "X-Xss-Protection": [
+            "1; mode=block"
+          ]
+        },
+        "status": {
+          "code": 200,
+          "message": "OK"
+        },
+        "url": "https://<DOMAIN>.mocoapp.com/api/v1/companies?page=1"
+      }
+    }
+  ],
+  "recorded_with": "betamax/0.8.1"
+}

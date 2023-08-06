@@ -1,0 +1,99 @@
+{
+  "http_interactions": [
+    {
+      "recorded_at": "2022-04-17T06:52:04",
+      "request": {
+        "body": {
+          "encoding": "utf-8",
+          "string": "{\"customer_id\": 761263108, \"recipient_address\": \"My Customer Address 22\", \"date\": \"2018-09-17\", \"due_date\": \"2018-10-16\", \"service_period_from\": \"2019-12-01\", \"service_period_to\": \"2019-12-31\", \"title\": \"TestInvoice.test_create_full\", \"tax\": 8.0, \"currency\": \"EUR\", \"items\": [{\"type\": \"title\", \"title\": \"Hours\"}, {\"type\": \"description\", \"description\": \"Listing of all hours\"}, {\"type\": \"item\", \"title\": \"Service\", \"quantity\": 2, \"unit\": \"hours\", \"unit_price\": 65, \"net_total\": 130}], \"status\": \"sent\", \"change_address\": \"customer\", \"salutation\": \"salutation\", \"footer\": \"this is the footer\", \"cash_discount\": 10.2, \"cash_discount_days\": 200, \"project_id\": 945892356, \"tags\": [\"Hosting\", \"Europe\"]}"
+        },
+        "headers": {
+          "Accept": [
+            "*/*"
+          ],
+          "Accept-Encoding": [
+            "gzip, deflate"
+          ],
+          "Authorization": [
+            "Token token=<TOKEN>"
+          ],
+          "Connection": [
+            "keep-alive"
+          ],
+          "Content-Length": [
+            "697"
+          ],
+          "Content-Type": [
+            "application/json"
+          ],
+          "User-Agent": [
+            "python-requests/2.25.1"
+          ]
+        },
+        "method": "POST",
+        "uri": "https://<DOMAIN>.mocoapp.com/api/v1/invoices"
+      },
+      "response": {
+        "body": {
+          "base64_string": "H4sIAAAJbogA/6xUwa7rNBD9lWjWbrHdNm28Q+hJDwk2j8cGdGX52tPWkNrBnlRUV/135CRtc29BSIhdfObUc2bOcd/AO1BSymbdcAa2zxRPmHRBt7WQ9UrwHYMuxd/Q0gA3682ukatNzcA7DOT3HhMo+CIl57wGBs4QggLJxW7Bm4XYFqxHPccFX4jCzZjO3qLuMPnoQIGQ30gumqeS3qd4Gm9tFkIuuHimUJwRVgOBDPUZFNiEhtABg4RnTBkdqL1pM94A02ofzrFoKVOGvm0fpQ9cdH/DJU9tGe8rZvp+vGlJmEmPrfW+b9uhvfWdx0DaOJcwF3E/Xqrvps1X345oJSUUP1LCYC+g4NPPX4BBQNIUybSgxIovOQMyf4Lala+zIVCjoZtmJ+S8Ng2t7dGkA97H8YGS0dhPwJXBIcWc7y3WfLlm4Hy2sQ8EauhoTT7qByb4Un4AtTOXDEryge/w1ZMO/em15GRcrE3onsA22t9nvoxh1F2KHSbymEG9XctQhwzqV/jUlwIw+Bwz+XCAF3ZzWZdNgORSLvh6IbZfea02UnH5CzDou5LDf+SsC+d2Twzv7pn9+rmSTduTIT9UZgcG+xipjA509LnyuaIjVhPIwBOeykCjc4I3oq7rLQO6dCVOY6we8foc+5Rn0R9p41YdZpt8N7SdoD96E8jTZfKuD55upfKtu+QtTsVZuPiSX9k7Rbu7onmXu66x27+Kgh/8YFYV95Vp2+o4TfO/yWzuMsteZ3v7aZT2XzYnH5LgJni+vHrzQdbwNK8vDDpzOWGgYu9LefonHxym6egDYQqm1TYGMvb+eJvVqq6lrGsGe58yBXMqxpf/EmDQmjtiXq2D6/WvAQCF3GUUxAUAAA==",
+          "encoding": "utf-8",
+          "string": ""
+        },
+        "headers": {
+          "Cache-Control": [
+            "max-age=0, private, must-revalidate"
+          ],
+          "Content-Encoding": [
+            "gzip"
+          ],
+          "Content-Type": [
+            "application/json; charset=utf-8"
+          ],
+          "Date": [
+            "Sun, 17 Apr 2022 06:52:04 GMT"
+          ],
+          "Etag": [
+            "W/\"b4070803e49a49d3bc62041e92521ef5\""
+          ],
+          "Referrer-Policy": [
+            "strict-origin-when-cross-origin"
+          ],
+          "Transfer-Encoding": [
+            "chunked"
+          ],
+          "Vary": [
+            "Origin",
+            "Accept-Encoding"
+          ],
+          "X-Content-Type-Options": [
+            "nosniff"
+          ],
+          "X-Download-Options": [
+            "noopen"
+          ],
+          "X-Frame-Options": [
+            "SAMEORIGIN"
+          ],
+          "X-Permitted-Cross-Domain-Policies": [
+            "none"
+          ],
+          "X-Request-Id": [
+            "646a6a04-d196-4332-adad-fd420b7a5351"
+          ],
+          "X-Runtime": [
+            "1.641076"
+          ],
+          "X-Xss-Protection": [
+            "1; mode=block"
+          ]
+        },
+        "status": {
+          "code": 200,
+          "message": "OK"
+        },
+        "url": "https://<DOMAIN>.mocoapp.com/api/v1/invoices"
+      }
+    }
+  ],
+  "recorded_with": "betamax/0.8.1"
+}

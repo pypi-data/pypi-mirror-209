@@ -1,0 +1,99 @@
+{
+  "http_interactions": [
+    {
+      "recorded_at": "2022-04-17T06:53:08",
+      "request": {
+        "body": {
+          "encoding": "utf-8",
+          "string": "{\"deal_id\": 388482, \"project_id\": null, \"company_id\": null, \"recipient_address\": \"My Customer Address 43\", \"title\": \"TestOffer.test_create_with_all_items\", \"tax\": 19, \"currency\": \"EUR\", \"items\": [{\"type\": \"title\", \"title\": \"this is the title\"}, {\"type\": \"description\", \"description\": \"This is the first description\"}, {\"type\": \"item\", \"title\": \"support\", \"quantity\": 1, \"unit\": \"h\", \"unit_price\": 65, \"optional\": false}, {\"type\": \"item\", \"title\": \"server hardware\", \"net_total\": 200, \"optional\": false}, {\"title\": \"subtotal position\", \"type\": \"subtotal\"}, {\"type\": \"item\", \"title\": \"special support\", \"quantity\": 3, \"unit\": \"h\", \"unit_price\": 90, \"optional\": false}, {\"type\": \"page-break\"}], \"date\": \"2020-01-01\", \"due_date\": \"2021-01-01\", \"change_address\": \"offer\"}"
+        },
+        "headers": {
+          "Accept": [
+            "*/*"
+          ],
+          "Accept-Encoding": [
+            "gzip, deflate"
+          ],
+          "Authorization": [
+            "Token token=<TOKEN>"
+          ],
+          "Connection": [
+            "keep-alive"
+          ],
+          "Content-Length": [
+            "766"
+          ],
+          "Content-Type": [
+            "application/json"
+          ],
+          "User-Agent": [
+            "python-requests/2.25.1"
+          ]
+        },
+        "method": "POST",
+        "uri": "https://<DOMAIN>.mocoapp.com/api/v1/offers"
+      },
+      "response": {
+        "body": {
+          "base64_string": "H4sIAAAJbogA/7SV327bOgzGX8XgtRLIduLGuisOzuXBAYbuZkUhqDKTaHMsTaLTBUXefZCVuM6GNtif3jkfHfLHj5T1DKYBUZV8Ua8YmAY7MmuDHgTcFgXnvAQGjSIEAQUv+IznM55HrUf5ouejTobaKN5hoP/Xa/RzwkBSe1SE8snQVqq2lYZwF4CBR22cwY6kahqPIYCA/w7ZP30gu0Of3SY1W0QO3XuPnT6AgH8/fgAGHZIkS6oFsSyXc86A1DcQeR0f94pApP6WNS8ugx736ANKvVV+gyDWqg3IwHTklcT+JBwZbLwN4VykKqt5tWTQmKBt3xEIHisFUtRH8tRlE21QmwDi/oGBHlqRzluHngwGEM9HBtrunOoOILq+bRk4bz+jpvPPBmNPCb5crRargkGndpfGbpDk8GJMlyrL2HMcSDHji1l+c8crsSwFX82Lkn8CBr1r3n5vWefxvXM+213km2T4ORJU25MiM0SAwdpaGjYJGKR5i/vU0ioveJ0vGNDBxZ7S0rwsD21NyEzIaIvZORbQ741Gmf5ytilob1wqmaSvverI0OE0mr4zo6nxWTpvNJ6Ck/UZ5miHTNH50/SntMuRdlp1ZE4lrkLC3aS1tfGBsst078ZfjfxxFhOzQ++c9fQ7FucviLCNuzFxuBrO4wQxCW96fPMqI/o9+myrfPOk/PuvQ8GvL8RqhA39YxrD1NQkZc4GM5j33sjXgetX3XWojWqzP9iE8o1NqH9ELW6uwg6f6wTr1AZnjx7Vl18+bX/f0IfhjkDfqVZq25HS4yVTl2VVFUVVMRgO9ul7Ha8/YNCqUVGPuoHj8fsACtlY63sHAAA=",
+          "encoding": "utf-8",
+          "string": ""
+        },
+        "headers": {
+          "Cache-Control": [
+            "max-age=0, private, must-revalidate"
+          ],
+          "Content-Encoding": [
+            "gzip"
+          ],
+          "Content-Type": [
+            "application/json; charset=utf-8"
+          ],
+          "Date": [
+            "Sun, 17 Apr 2022 06:53:08 GMT"
+          ],
+          "Etag": [
+            "W/\"f44310780c24f2d02024f01750521b5c\""
+          ],
+          "Referrer-Policy": [
+            "strict-origin-when-cross-origin"
+          ],
+          "Transfer-Encoding": [
+            "chunked"
+          ],
+          "Vary": [
+            "Origin",
+            "Accept-Encoding"
+          ],
+          "X-Content-Type-Options": [
+            "nosniff"
+          ],
+          "X-Download-Options": [
+            "noopen"
+          ],
+          "X-Frame-Options": [
+            "SAMEORIGIN"
+          ],
+          "X-Permitted-Cross-Domain-Policies": [
+            "none"
+          ],
+          "X-Request-Id": [
+            "992986b8-1889-4e26-abb6-96cc48c91ce9"
+          ],
+          "X-Runtime": [
+            "0.746262"
+          ],
+          "X-Xss-Protection": [
+            "1; mode=block"
+          ]
+        },
+        "status": {
+          "code": 201,
+          "message": "Created"
+        },
+        "url": "https://<DOMAIN>.mocoapp.com/api/v1/offers"
+      }
+    }
+  ],
+  "recorded_with": "betamax/0.8.1"
+}

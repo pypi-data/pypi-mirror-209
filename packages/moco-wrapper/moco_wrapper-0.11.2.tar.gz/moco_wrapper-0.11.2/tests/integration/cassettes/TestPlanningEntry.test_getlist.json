@@ -1,0 +1,100 @@
+{
+  "http_interactions": [
+    {
+      "recorded_at": "2022-04-17T07:14:04",
+      "request": {
+        "body": {
+          "encoding": "utf-8",
+          "string": ""
+        },
+        "headers": {
+          "Accept": [
+            "*/*"
+          ],
+          "Accept-Encoding": [
+            "gzip, deflate"
+          ],
+          "Authorization": [
+            "Token token=<TOKEN>"
+          ],
+          "Connection": [
+            "keep-alive"
+          ],
+          "Content-Type": [
+            "application/json"
+          ],
+          "User-Agent": [
+            "python-requests/2.25.1"
+          ]
+        },
+        "method": "GET",
+        "uri": "https://<DOMAIN>.mocoapp.com/api/v1/planning_entries?page=1"
+      },
+      "response": {
+        "body": {
+          "encoding": "utf-8",
+          "string": "[{\"id\":1631098,\"title\":\"\",\"starts_on\":\"2020-01-01\",\"ends_on\":\"2020-01-02\",\"hours_per_day\":2.5,\"comment\":\"\",\"symbol\":null,\"color\":\"#ff26a8\",\"read_only\":false,\"user\":{\"id\":933662266,\"firstname\":\"test\",\"lastname\":\"abcd\"},\"project\":{\"id\":945892358,\"identifier\":\"P22006\",\"name\":\"TestPlanningEntry.get_project\",\"customer_name\":\"TestPlanningEntry.get_customer\",\"color\":\"#ff26a8\"},\"series_id\":null,\"created_at\":\"2022-04-17T06:53:53Z\",\"updated_at\":\"2022-04-17T06:53:53Z\"}]"
+        },
+        "headers": {
+          "Cache-Control": [
+            "max-age=0, private, must-revalidate"
+          ],
+          "Content-Type": [
+            "application/json; charset=utf-8"
+          ],
+          "Date": [
+            "Sun, 17 Apr 2022 07:14:04 GMT"
+          ],
+          "Etag": [
+            "W/\"729d0d72249fa474ec723ec4e4c39a21\""
+          ],
+          "Referrer-Policy": [
+            "strict-origin-when-cross-origin"
+          ],
+          "Transfer-Encoding": [
+            "chunked"
+          ],
+          "Vary": [
+            "Origin"
+          ],
+          "X-Content-Type-Options": [
+            "nosniff"
+          ],
+          "X-Download-Options": [
+            "noopen"
+          ],
+          "X-Frame-Options": [
+            "SAMEORIGIN"
+          ],
+          "X-Page": [
+            "1"
+          ],
+          "X-Per-Page": [
+            "100"
+          ],
+          "X-Permitted-Cross-Domain-Policies": [
+            "none"
+          ],
+          "X-Request-Id": [
+            "fe582d42-d9ff-402e-a0d3-2787c5c9a171"
+          ],
+          "X-Runtime": [
+            "0.030739"
+          ],
+          "X-Total": [
+            "1"
+          ],
+          "X-Xss-Protection": [
+            "1; mode=block"
+          ]
+        },
+        "status": {
+          "code": 200,
+          "message": "OK"
+        },
+        "url": "https://<DOMAIN>.mocoapp.com/api/v1/planning_entries?page=1"
+      }
+    }
+  ],
+  "recorded_with": "betamax/0.8.1"
+}

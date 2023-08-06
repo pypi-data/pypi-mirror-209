@@ -1,0 +1,105 @@
+{
+  "http_interactions": [
+    {
+      "recorded_at": "2022-04-17T06:49:57",
+      "request": {
+        "body": {
+          "encoding": "utf-8",
+          "string": ""
+        },
+        "headers": {
+          "Accept": [
+            "*/*"
+          ],
+          "Accept-Encoding": [
+            "gzip, deflate"
+          ],
+          "Authorization": [
+            "Token token=<TOKEN>"
+          ],
+          "Connection": [
+            "keep-alive"
+          ],
+          "Content-Type": [
+            "application/json"
+          ],
+          "User-Agent": [
+            "python-requests/2.25.1"
+          ]
+        },
+        "method": "GET",
+        "uri": "https://<DOMAIN>.mocoapp.com/api/v1/contacts/people?page=1"
+      },
+      "response": {
+        "body": {
+          "base64_string": "H4sIAAAJbogA/+SVzW7bOhCFX0WY7aUF/dvi6gIFinaRVdJNgkCgJcZmK5EEOWqSBn73glboSE5au0298pLE4YCc8/HMzROIBmgxn+dRQmDFZcMNULgAAnfCWJSs40BBc+QGCLRst2U7gWsggAJbJ2lMGHS8CYHAV7WstLIChZJAQUjkRgKBTi1Fyyu9VtKdyPJivgAC98p8q+7YA1Ao5osy8lteFydplvtN3jHR+huF20v8zx9Yp1seKrPyMtY0hlsLFJI4DC6YkMElGs4RCKxVx9+q85/mxirJ2r2CW/2oYBIGl7xWsnkpuRQG1w17BApxWUazKJ5FMRCwrO2RPfcBCAh5p4DCJx4IGzAZiE4rg0xigNxiUCuJrHYF2XeGzFS9aYHKvm0JIFtZoDfw2R8BAlfcItwSqHuLqqu0UZobFNwCfdoQqFWnmXwEOrg8L+KkSOOoIICP2jkwnNs6++yqq/hhuEW44ljtFBsCvXVsDLXKNC2KJCmKKSfuFVNM2LJu3OHacIa8qRg6T6IkmUXZLJ5fRQXNSppF10Cg180BzYaMgE3PHNg/AXZa8MxxfT+u+RG45hNcs7Ic4fplL19nU1THv9DdsRp+zyhtX6fs63z1WThEq195mP3aB6FfvwTdflT69UTxgtLg+y8S73eRdkSADfoTBlCSHnbUaSYBFI0c/fhXjlb3AteVMismxY9hTpytx9Mhle2G1F533mio+/kT1WmHVbI4gpXFHivxP2LF9lq3YpuBZ87JwEm+42TUmTca6RjZKU7LR5od5sNpJnxk75gO7m1nPiFOPyHy+LCreXwNm9ufAwBkPAm9VQ0AAA==",
+          "encoding": "utf-8",
+          "string": ""
+        },
+        "headers": {
+          "Cache-Control": [
+            "max-age=0, private, must-revalidate"
+          ],
+          "Content-Encoding": [
+            "gzip"
+          ],
+          "Content-Type": [
+            "application/json; charset=utf-8"
+          ],
+          "Date": [
+            "Sun, 17 Apr 2022 06:49:57 GMT"
+          ],
+          "Etag": [
+            "W/\"2a2d12e36b358454599e56379113f73f\""
+          ],
+          "Referrer-Policy": [
+            "strict-origin-when-cross-origin"
+          ],
+          "Transfer-Encoding": [
+            "chunked"
+          ],
+          "Vary": [
+            "Origin",
+            "Accept-Encoding"
+          ],
+          "X-Content-Type-Options": [
+            "nosniff"
+          ],
+          "X-Download-Options": [
+            "noopen"
+          ],
+          "X-Frame-Options": [
+            "SAMEORIGIN"
+          ],
+          "X-Page": [
+            "1"
+          ],
+          "X-Per-Page": [
+            "100"
+          ],
+          "X-Permitted-Cross-Domain-Policies": [
+            "none"
+          ],
+          "X-Request-Id": [
+            "d113e454-451c-4b4c-a0f6-b4454da63fb5"
+          ],
+          "X-Runtime": [
+            "0.057034"
+          ],
+          "X-Total": [
+            "6"
+          ],
+          "X-Xss-Protection": [
+            "1; mode=block"
+          ]
+        },
+        "status": {
+          "code": 200,
+          "message": "OK"
+        },
+        "url": "https://<DOMAIN>.mocoapp.com/api/v1/contacts/people?page=1"
+      }
+    }
+  ],
+  "recorded_with": "betamax/0.8.1"
+}

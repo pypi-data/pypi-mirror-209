@@ -1,0 +1,99 @@
+{
+  "http_interactions": [
+    {
+      "recorded_at": "2022-04-17T06:58:03",
+      "request": {
+        "body": {
+          "encoding": "utf-8",
+          "string": "{\"start_date\": \"2020-01-01\", \"period\": \"biweekly\", \"title\": \"TestProjectRecurringExpense.test_create_full\", \"quantity\": 1.5, \"unit\": \"h\", \"unit_price\": 32.5, \"unit_cost\": 20.5, \"finish_date\": \"2021-01-01\", \"description\": \"dummy recurring expense, test create full\", \"billable\": false, \"budget_relevant\": true, \"service_period_direction\": \"backward\"}"
+        },
+        "headers": {
+          "Accept": [
+            "*/*"
+          ],
+          "Accept-Encoding": [
+            "gzip, deflate"
+          ],
+          "Authorization": [
+            "Token token=<TOKEN>"
+          ],
+          "Connection": [
+            "keep-alive"
+          ],
+          "Content-Length": [
+            "349"
+          ],
+          "Content-Type": [
+            "application/json"
+          ],
+          "User-Agent": [
+            "python-requests/2.25.1"
+          ]
+        },
+        "method": "POST",
+        "uri": "https://<DOMAIN>.mocoapp.com/api/v1/projects/945892374/recurring_expenses"
+      },
+      "response": {
+        "body": {
+          "base64_string": "H4sIAAAJbogA/4SRwW4bIRCGX8X6z9hisbd2uOdeRemlF8TCOKFZs9thNokV+d0ril3l1NyAn29gvvlAirCdNn1/UCjiWVz0QrAw2ui17ta6g8Ix5VSeP0Xdv4gpLOwyvX8m/8bdFgozcZoiLIb0RvQynqEgScb6xCMV+c7TLwryUKtwyk/37zPlQhuhIi4weSF3XMYRCpFK4DRLmjIs4nI6nVd841bUQLWq5KqRqyv5e/FZkpxhu02vsOQksHhGW7qZUyDYrbmFLkxFYI2uB9d0d9jse4WWbHXbLMyUwxkW9z8eoDAs8YnEMY306rPACi+kMKRx9EPt+ejHQgqF+DUFcs2Oi4kpXPsafHh58xxRyxeZTm7maSaWRAX246IwN2WwbXp3u/5wZ7b7nUL2p6+81u/dClwUmqfofBVitDFrvVt3+0f9zfYHq83P6miuc//fncufAQDHzKYuSAIAAA==",
+          "encoding": "utf-8",
+          "string": ""
+        },
+        "headers": {
+          "Cache-Control": [
+            "max-age=0, private, must-revalidate"
+          ],
+          "Content-Encoding": [
+            "gzip"
+          ],
+          "Content-Type": [
+            "application/json; charset=utf-8"
+          ],
+          "Date": [
+            "Sun, 17 Apr 2022 06:58:02 GMT"
+          ],
+          "Etag": [
+            "W/\"fb1b5317ded25ac600776b9cf46434b7\""
+          ],
+          "Referrer-Policy": [
+            "strict-origin-when-cross-origin"
+          ],
+          "Transfer-Encoding": [
+            "chunked"
+          ],
+          "Vary": [
+            "Origin",
+            "Accept-Encoding"
+          ],
+          "X-Content-Type-Options": [
+            "nosniff"
+          ],
+          "X-Download-Options": [
+            "noopen"
+          ],
+          "X-Frame-Options": [
+            "SAMEORIGIN"
+          ],
+          "X-Permitted-Cross-Domain-Policies": [
+            "none"
+          ],
+          "X-Request-Id": [
+            "85cc04a1-df8f-4129-ae05-6cd82eea3d22"
+          ],
+          "X-Runtime": [
+            "0.636700"
+          ],
+          "X-Xss-Protection": [
+            "1; mode=block"
+          ]
+        },
+        "status": {
+          "code": 200,
+          "message": "OK"
+        },
+        "url": "https://<DOMAIN>.mocoapp.com/api/v1/projects/945892374/recurring_expenses"
+      }
+    }
+  ],
+  "recorded_with": "betamax/0.8.1"
+}

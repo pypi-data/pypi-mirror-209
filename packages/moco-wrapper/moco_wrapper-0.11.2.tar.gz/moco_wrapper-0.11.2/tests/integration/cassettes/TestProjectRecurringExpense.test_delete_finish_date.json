@@ -1,0 +1,193 @@
+{
+  "http_interactions": [
+    {
+      "recorded_at": "2022-04-17T06:58:16",
+      "request": {
+        "body": {
+          "encoding": "utf-8",
+          "string": "{\"start_date\": \"2020-01-01\", \"period\": \"weekly\", \"title\": \"TestProjectRecurringExpense.test_delete_finish_date_create\", \"quantity\": 1, \"unit\": \"h\", \"unit_price\": 2, \"unit_cost\": 1, \"finish_date\": \"2021-01-01\", \"billable\": true, \"budget_relevant\": false}"
+        },
+        "headers": {
+          "Accept": [
+            "*/*"
+          ],
+          "Accept-Encoding": [
+            "gzip, deflate"
+          ],
+          "Authorization": [
+            "Token token=<TOKEN>"
+          ],
+          "Connection": [
+            "keep-alive"
+          ],
+          "Content-Length": [
+            "253"
+          ],
+          "Content-Type": [
+            "application/json"
+          ],
+          "User-Agent": [
+            "python-requests/2.25.1"
+          ]
+        },
+        "method": "POST",
+        "uri": "https://<DOMAIN>.mocoapp.com/api/v1/projects/945892374/recurring_expenses"
+      },
+      "response": {
+        "body": {
+          "base64_string": "H4sIAAAJbogA/4SRzQ7aMBCE32XODnJcwo/v3CtEL71Yxl7AbXBce0NBiHevrECVU3uLMuuZ2W+fCB66lapbSYHCNrPxlgkaSirZyLaRLQROIYZymUntXymTG7OJdJ+/nOQVBBLlMHho/Cb62T8gwIH7GnCgwl/z8IMc76tHDvG8uyeKhRZMhY2nnpjMLNu4TDVDwFNxOSQOQ4QGBH6NNnLgB3S7kAJjDAyNC6ZPk3JwBK0+mnFD4ffsXJv9rpUougc0dt/2EDiO/kxsMvV0s5GhT7YvJHAMfW+PdSfOIwkUyrfgyEyrGx8yuXfROERCtS48XE3KQ6LMgQr08yWQJhrQ01m2y26zVV/WS4For/9DVqt9DF4CEylvbMWgpFKNXDbt+iBXutvotvteyaR60H/NvP4MAPyAPOAhAgAA",
+          "encoding": "utf-8",
+          "string": ""
+        },
+        "headers": {
+          "Cache-Control": [
+            "max-age=0, private, must-revalidate"
+          ],
+          "Content-Encoding": [
+            "gzip"
+          ],
+          "Content-Type": [
+            "application/json; charset=utf-8"
+          ],
+          "Date": [
+            "Sun, 17 Apr 2022 06:58:16 GMT"
+          ],
+          "Etag": [
+            "W/\"3b036ad6d1fc60eedb660f20f322bfa4\""
+          ],
+          "Referrer-Policy": [
+            "strict-origin-when-cross-origin"
+          ],
+          "Transfer-Encoding": [
+            "chunked"
+          ],
+          "Vary": [
+            "Origin",
+            "Accept-Encoding"
+          ],
+          "X-Content-Type-Options": [
+            "nosniff"
+          ],
+          "X-Download-Options": [
+            "noopen"
+          ],
+          "X-Frame-Options": [
+            "SAMEORIGIN"
+          ],
+          "X-Permitted-Cross-Domain-Policies": [
+            "none"
+          ],
+          "X-Request-Id": [
+            "91f6dadb-a4fe-4568-85a9-efd368726f88"
+          ],
+          "X-Runtime": [
+            "1.072901"
+          ],
+          "X-Xss-Protection": [
+            "1; mode=block"
+          ]
+        },
+        "status": {
+          "code": 200,
+          "message": "OK"
+        },
+        "url": "https://<DOMAIN>.mocoapp.com/api/v1/projects/945892374/recurring_expenses"
+      }
+    },
+    {
+      "recorded_at": "2022-04-17T06:58:16",
+      "request": {
+        "body": {
+          "encoding": "utf-8",
+          "string": "{\"finish_date\": \"\"}"
+        },
+        "headers": {
+          "Accept": [
+            "*/*"
+          ],
+          "Accept-Encoding": [
+            "gzip, deflate"
+          ],
+          "Authorization": [
+            "Token token=<TOKEN>"
+          ],
+          "Connection": [
+            "keep-alive"
+          ],
+          "Content-Length": [
+            "19"
+          ],
+          "Content-Type": [
+            "application/json"
+          ],
+          "User-Agent": [
+            "python-requests/2.25.1"
+          ]
+        },
+        "method": "PUT",
+        "uri": "https://<DOMAIN>.mocoapp.com/api/v1/projects/945892374/recurring_expenses/102560"
+      },
+      "response": {
+        "body": {
+          "base64_string": "H4sIAAAJbogA/4SRQY/bIBCF/8s74xWmsXeX+96r1faSCyIwSWgJpjBOE0X57xVyIvlS9Wb5Pd68+eaG4KF7qYZRClS2hY23TNBQUslO9p3sIbAPKdTjQ0pzjAKF3FxMosv6RbN3coRAphImD40/RL/iFQIcOLbgL6r8vUw/yfFnyyghHT4umVKlF6bKxlMkJrOaaVyhNkPAU3UlZA5TggYEfs82ceArdP8iBeYUGBpHLJ8ml+AIWj0146bKD+9aW/1ulSi5KzQ+fnxCYDf7A7EpFOlsE0PvbawksAsx2l3bictMApXKOTgyy+rGh0LuUTRNidCiK08nk8uUqXCgCn27C+SFBvRyjvfN8Pauvr1uBJI9/Q9Zq/YMuAsspLyxDYOSSnVy0/WvX3LUw5vuh20jk9sh/+kZt7j/HQCtPxfvGQIAAA==",
+          "encoding": "utf-8",
+          "string": ""
+        },
+        "headers": {
+          "Cache-Control": [
+            "max-age=0, private, must-revalidate"
+          ],
+          "Content-Encoding": [
+            "gzip"
+          ],
+          "Content-Type": [
+            "application/json; charset=utf-8"
+          ],
+          "Date": [
+            "Sun, 17 Apr 2022 06:58:16 GMT"
+          ],
+          "Etag": [
+            "W/\"292d76837e8cb563c8dc8891f3338b92\""
+          ],
+          "Referrer-Policy": [
+            "strict-origin-when-cross-origin"
+          ],
+          "Transfer-Encoding": [
+            "chunked"
+          ],
+          "Vary": [
+            "Origin",
+            "Accept-Encoding"
+          ],
+          "X-Content-Type-Options": [
+            "nosniff"
+          ],
+          "X-Download-Options": [
+            "noopen"
+          ],
+          "X-Frame-Options": [
+            "SAMEORIGIN"
+          ],
+          "X-Permitted-Cross-Domain-Policies": [
+            "none"
+          ],
+          "X-Request-Id": [
+            "deb1507e-b1c8-4909-86a5-d200e8838a5e"
+          ],
+          "X-Runtime": [
+            "0.043034"
+          ],
+          "X-Xss-Protection": [
+            "1; mode=block"
+          ]
+        },
+        "status": {
+          "code": 200,
+          "message": "OK"
+        },
+        "url": "https://<DOMAIN>.mocoapp.com/api/v1/projects/945892374/recurring_expenses/102560"
+      }
+    }
+  ],
+  "recorded_with": "betamax/0.8.1"
+}

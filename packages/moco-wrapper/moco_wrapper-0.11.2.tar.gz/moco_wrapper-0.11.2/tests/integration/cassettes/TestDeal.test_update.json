@@ -1,0 +1,188 @@
+{
+  "http_interactions": [
+    {
+      "recorded_at": "2022-04-17T06:50:36",
+      "request": {
+        "body": {
+          "encoding": "utf-8",
+          "string": "{\"name\": \"TestDeal.test_update_create\", \"currency\": \"EUR\", \"money\": 0, \"user_id\": 933662266, \"deal_category_id\": 90586, \"reminder_date\": \"2000-01-01\", \"status\": \"pending\"}"
+        },
+        "headers": {
+          "Accept": [
+            "*/*"
+          ],
+          "Accept-Encoding": [
+            "gzip, deflate"
+          ],
+          "Authorization": [
+            "Token token=<TOKEN>"
+          ],
+          "Connection": [
+            "keep-alive"
+          ],
+          "Content-Length": [
+            "171"
+          ],
+          "Content-Type": [
+            "application/json"
+          ],
+          "User-Agent": [
+            "python-requests/2.25.1"
+          ]
+        },
+        "method": "POST",
+        "uri": "https://<DOMAIN>.mocoapp.com/api/v1/deals"
+      },
+      "response": {
+        "body": {
+          "encoding": "utf-8",
+          "string": "{\"id\":388480,\"name\":\"TestDeal.test_update_create\",\"status\":\"pending\",\"reminder_date\":\"2000-01-01\",\"closed_on\":\"\",\"money\":0.0,\"currency\":\"EUR\",\"info\":\"\",\"tags\":[],\"custom_properties\":{},\"user\":{\"id\":933662266,\"firstname\":\"test\",\"lastname\":\"abcd\"},\"person\":null,\"customer\":null,\"company\":null,\"category\":{\"id\":90586,\"name\":\"Kontaktieren\",\"probability\":1},\"created_at\":\"2022-04-17T06:50:36Z\",\"updated_at\":\"2022-04-17T06:50:36Z\"}"
+        },
+        "headers": {
+          "Cache-Control": [
+            "max-age=0, private, must-revalidate"
+          ],
+          "Content-Type": [
+            "application/json; charset=utf-8"
+          ],
+          "Date": [
+            "Sun, 17 Apr 2022 06:50:36 GMT"
+          ],
+          "Etag": [
+            "W/\"dddc410df4530905a4644e66fd5fef18\""
+          ],
+          "Referrer-Policy": [
+            "strict-origin-when-cross-origin"
+          ],
+          "Transfer-Encoding": [
+            "chunked"
+          ],
+          "Vary": [
+            "Origin"
+          ],
+          "X-Content-Type-Options": [
+            "nosniff"
+          ],
+          "X-Download-Options": [
+            "noopen"
+          ],
+          "X-Frame-Options": [
+            "SAMEORIGIN"
+          ],
+          "X-Permitted-Cross-Domain-Policies": [
+            "none"
+          ],
+          "X-Request-Id": [
+            "985ed633-f69f-4b20-a2a7-09fe67363cda"
+          ],
+          "X-Runtime": [
+            "0.046059"
+          ],
+          "X-Xss-Protection": [
+            "1; mode=block"
+          ]
+        },
+        "status": {
+          "code": 200,
+          "message": "OK"
+        },
+        "url": "https://<DOMAIN>.mocoapp.com/api/v1/deals"
+      }
+    },
+    {
+      "recorded_at": "2022-04-17T06:50:36",
+      "request": {
+        "body": {
+          "encoding": "utf-8",
+          "string": "{\"name\": \"TestDeal.test_update\", \"currency\": \"EUR\", \"money\": 400, \"reminder_date\": \"2020-01-01\", \"user_id\": 933662266, \"deal_category_id\": 90586, \"company_id\": 761263107, \"info\": \"updated info\", \"status\": \"dropped\", \"closed_on\": \"2021-01-01\", \"tags\": [\"these\", \"update\", \"other\"]}"
+        },
+        "headers": {
+          "Accept": [
+            "*/*"
+          ],
+          "Accept-Encoding": [
+            "gzip, deflate"
+          ],
+          "Authorization": [
+            "Token token=<TOKEN>"
+          ],
+          "Connection": [
+            "keep-alive"
+          ],
+          "Content-Length": [
+            "280"
+          ],
+          "Content-Type": [
+            "application/json"
+          ],
+          "User-Agent": [
+            "python-requests/2.25.1"
+          ]
+        },
+        "method": "PUT",
+        "uri": "https://<DOMAIN>.mocoapp.com/api/v1/deals/388480"
+      },
+      "response": {
+        "body": {
+          "base64_string": "H4sIAAAJbogA/4SRQa+bMBCE/0o1Z/NkIM/h+dyeeqvSS6sKOXiTWAXbspcDivLfK4eEHiK1N5bd/XZmfIWz0G3X7Top4M1E0DhQ5s9kxjemzP0crWGCQGbDc4aGTSFGshBINDlvKfX3EY1GNrKSdSVrCAxjyGT74NdGvTWm4GmB3kn5JgWGOSXywwKNL9+/QcD5U4DGetd+upcCbM4Z+icCXyiV+kK5qHrI+1VAmcPUxxQiJXaUoa83gTlTgl6NfrStUk2jlMDJpcwPw8UnBEaz/THHweImECnlYsDP4/i88Be3V3Wj2lruX6M7E/dDmKLxS+E8P18XeYlFwob+P8ownUPaWB/yvVPb1tfg2fxmR4k8BGIKR3N0o+MFui7biUqqveH1VZpK7qp6f5BKv0vdqh9bpP+auf0ZAHtw9jA4AgAA",
+          "encoding": "utf-8",
+          "string": ""
+        },
+        "headers": {
+          "Cache-Control": [
+            "max-age=0, private, must-revalidate"
+          ],
+          "Content-Encoding": [
+            "gzip"
+          ],
+          "Content-Type": [
+            "application/json; charset=utf-8"
+          ],
+          "Date": [
+            "Sun, 17 Apr 2022 06:50:36 GMT"
+          ],
+          "Etag": [
+            "W/\"fcb79ae96ff05c339676b2dd2b41e2cc\""
+          ],
+          "Referrer-Policy": [
+            "strict-origin-when-cross-origin"
+          ],
+          "Transfer-Encoding": [
+            "chunked"
+          ],
+          "Vary": [
+            "Origin",
+            "Accept-Encoding"
+          ],
+          "X-Content-Type-Options": [
+            "nosniff"
+          ],
+          "X-Download-Options": [
+            "noopen"
+          ],
+          "X-Frame-Options": [
+            "SAMEORIGIN"
+          ],
+          "X-Permitted-Cross-Domain-Policies": [
+            "none"
+          ],
+          "X-Request-Id": [
+            "e4399efd-7efd-4704-97b6-729f725c85c3"
+          ],
+          "X-Runtime": [
+            "0.075185"
+          ],
+          "X-Xss-Protection": [
+            "1; mode=block"
+          ]
+        },
+        "status": {
+          "code": 200,
+          "message": "OK"
+        },
+        "url": "https://<DOMAIN>.mocoapp.com/api/v1/deals/388480"
+      }
+    }
+  ],
+  "recorded_with": "betamax/0.8.1"
+}

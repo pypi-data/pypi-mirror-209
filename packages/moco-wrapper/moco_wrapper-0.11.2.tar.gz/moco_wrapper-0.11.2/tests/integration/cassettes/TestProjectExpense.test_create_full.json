@@ -1,0 +1,99 @@
+{
+  "http_interactions": [
+    {
+      "recorded_at": "2022-04-17T06:56:26",
+      "request": {
+        "body": {
+          "encoding": "utf-8",
+          "string": "{\"date\": \"2020-01-01\", \"title\": \"TestProjectExpense.test_create_full\", \"quantity\": 3.5, \"unit\": \"stk\", \"unit_price\": 30, \"unit_cost\": 20, \"description\": \"misc tools\", \"billable\": true, \"budget_relevant\": true, \"service_period_from\": \"2021-01-01\", \"service_period_to\": \"2021-01-31\"}"
+        },
+        "headers": {
+          "Accept": [
+            "*/*"
+          ],
+          "Accept-Encoding": [
+            "gzip, deflate"
+          ],
+          "Authorization": [
+            "Token token=<TOKEN>"
+          ],
+          "Connection": [
+            "keep-alive"
+          ],
+          "Content-Length": [
+            "281"
+          ],
+          "Content-Type": [
+            "application/json"
+          ],
+          "User-Agent": [
+            "python-requests/2.25.1"
+          ]
+        },
+        "method": "POST",
+        "uri": "https://<DOMAIN>.mocoapp.com/api/v1/projects/945892372/expenses"
+      },
+      "response": {
+        "body": {
+          "base64_string": "H4sIAAAJbogA/4RSTY8UIRT8K6bOzAj0zvQO970bs168EIZ+oygNLTw2Tjbz3w3T+6EmukeqHpX3quoRYYJR6nCrd6PA5JhgoKWWG6k2UkGAA8cO3lPlDyV/I893PxdKlbZMla0v5JjsqcUIgYmqL2HhkBMM5lD9O845Vgj8aC5x4DPMsN0JtBQYBpW/Q6ClwHYpwRPMILfyCfG5Moy+Ak+skrv+WpnxyvhWCiV/hsHdp48QOLbpC7EtFOnBJYbh0kjgGGJ0x37M65smmJOLlQQqlYfgyS5UQp5gINV7LXX34E/KnkqeV5vUi01/jXD+bWDoGqcQybYSYVKLsW9dOc92KXmhwoEqzONFwOd5cekMs0Yz7pXeD0oNAsnN/8ihH7vKUcGlW3WN6VnjcLO7Pehh1G9pPP/rEq34r66SDUyz7SVZt37FX6C1AJN1vJ6sN/Jmo8Z7uTe7vdH7zz3fpVfrfzOXXwMACu5IpIsCAAA=",
+          "encoding": "utf-8",
+          "string": ""
+        },
+        "headers": {
+          "Cache-Control": [
+            "max-age=0, private, must-revalidate"
+          ],
+          "Content-Encoding": [
+            "gzip"
+          ],
+          "Content-Type": [
+            "application/json; charset=utf-8"
+          ],
+          "Date": [
+            "Sun, 17 Apr 2022 06:56:26 GMT"
+          ],
+          "Etag": [
+            "W/\"1aa83ba76d7dd5d5ccbede617808d6d1\""
+          ],
+          "Referrer-Policy": [
+            "strict-origin-when-cross-origin"
+          ],
+          "Transfer-Encoding": [
+            "chunked"
+          ],
+          "Vary": [
+            "Origin",
+            "Accept-Encoding"
+          ],
+          "X-Content-Type-Options": [
+            "nosniff"
+          ],
+          "X-Download-Options": [
+            "noopen"
+          ],
+          "X-Frame-Options": [
+            "SAMEORIGIN"
+          ],
+          "X-Permitted-Cross-Domain-Policies": [
+            "none"
+          ],
+          "X-Request-Id": [
+            "212f4ddc-6fc9-4369-87be-080c2137f3cd"
+          ],
+          "X-Runtime": [
+            "0.043230"
+          ],
+          "X-Xss-Protection": [
+            "1; mode=block"
+          ]
+        },
+        "status": {
+          "code": 200,
+          "message": "OK"
+        },
+        "url": "https://<DOMAIN>.mocoapp.com/api/v1/projects/945892372/expenses"
+      }
+    }
+  ],
+  "recorded_with": "betamax/0.8.1"
+}

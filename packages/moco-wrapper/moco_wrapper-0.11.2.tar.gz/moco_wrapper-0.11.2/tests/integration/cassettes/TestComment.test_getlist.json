@@ -1,0 +1,105 @@
+{
+  "http_interactions": [
+    {
+      "recorded_at": "2022-04-17T06:47:35",
+      "request": {
+        "body": {
+          "encoding": "utf-8",
+          "string": ""
+        },
+        "headers": {
+          "Accept": [
+            "*/*"
+          ],
+          "Accept-Encoding": [
+            "gzip, deflate"
+          ],
+          "Authorization": [
+            "Token token=<TOKEN>"
+          ],
+          "Connection": [
+            "keep-alive"
+          ],
+          "Content-Type": [
+            "application/json"
+          ],
+          "User-Agent": [
+            "python-requests/2.25.1"
+          ]
+        },
+        "method": "GET",
+        "uri": "https://<DOMAIN>.mocoapp.com/api/v1/comments?page=1"
+      },
+      "response": {
+        "body": {
+          "base64_string": "H4sIAAAJbogA/9TWzWrjMBAH8FdZ5uws0ujDsa4Le95DTltKUGwlpLWdYCvQUPLuxdSxU9WqA5UNvUr/g37MaKSHV9hnoKjAhC4ZiSA9FIUprd7kZt3sJFwsE2SCf9yy56MBBf+qw5NJLURgzYu9LjzbX7rcmdzs7G+IoNDlSeegtjqvTQRpZbQ12Vo3eSSIC8IXNF4RqbhUSP5DBKdjNp6pTQXq/fwJY1IiShnBdl/VttRFczxr6uZsue5W9CbN4HKJbtmYfGbHkqJkJKGD7D+H4qjLc8/+u68K/bPQSz/aaYNJ0EKJeKzSXSYEmnAuUQ6jBRLOpkQTsaJCISpMvGg3EwiN0rm6N2icAU3ZtYp+dJ8JhkY/2tmaotINiI5Uus8EQw/M7yt60kHWVZGLcXSbCYXm/jtNncE+UaXxjvZuM6HQzDO9BRIaz4P2P1luJhja397UaYKJ0JSNo9tMKDQK7yCjztZEaHJHe7eZUGj34t6ihz+igX5kPeiO9m4zwdD+d5rO8U6jEqPTu8sEQ39xp+d4p1HxsR9Zn/kG+vFtAHNUSM1pDQAA",
+          "encoding": "utf-8",
+          "string": ""
+        },
+        "headers": {
+          "Cache-Control": [
+            "max-age=0, private, must-revalidate"
+          ],
+          "Content-Encoding": [
+            "gzip"
+          ],
+          "Content-Type": [
+            "application/json; charset=utf-8"
+          ],
+          "Date": [
+            "Sun, 17 Apr 2022 06:47:35 GMT"
+          ],
+          "Etag": [
+            "W/\"6b445da0c0c94d4d6a6b2b5de86a859e\""
+          ],
+          "Referrer-Policy": [
+            "strict-origin-when-cross-origin"
+          ],
+          "Transfer-Encoding": [
+            "chunked"
+          ],
+          "Vary": [
+            "Origin",
+            "Accept-Encoding"
+          ],
+          "X-Content-Type-Options": [
+            "nosniff"
+          ],
+          "X-Download-Options": [
+            "noopen"
+          ],
+          "X-Frame-Options": [
+            "SAMEORIGIN"
+          ],
+          "X-Page": [
+            "1"
+          ],
+          "X-Per-Page": [
+            "100"
+          ],
+          "X-Permitted-Cross-Domain-Policies": [
+            "none"
+          ],
+          "X-Request-Id": [
+            "de35b204-a05f-42f1-b7bd-692aeca5ec45"
+          ],
+          "X-Runtime": [
+            "0.060263"
+          ],
+          "X-Total": [
+            "14"
+          ],
+          "X-Xss-Protection": [
+            "1; mode=block"
+          ]
+        },
+        "status": {
+          "code": 200,
+          "message": "OK"
+        },
+        "url": "https://<DOMAIN>.mocoapp.com/api/v1/comments?page=1"
+      }
+    }
+  ],
+  "recorded_with": "betamax/0.8.1"
+}
