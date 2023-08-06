@@ -1,0 +1,7 @@
+numpy
+Pillow
+rich
+torch
+torchvision
+lpips
+pytorch-msssim
