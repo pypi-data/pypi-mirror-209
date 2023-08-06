@@ -1,0 +1,14 @@
+swspy/__init__.py,sha256=cPiSxhxku8dBgIOV7PgNhzLV0nlwxVwziweykw8tvWM,436
+swspy/automate/__init__.py,sha256=LIxD4y8dsd-BNrrEmcXPtmF5yOcTeeDY2ncRHtbGCdA,127
+swspy/automate/automation_manager.py,sha256=Ry5rMCtZp9sp28-RSpVsGF1b6__imiBPVtDPGkXzJe8,15043
+swspy/io/__init__.py,sha256=QAQzEHyzSpdkFUskhJbUdz5885iXHwXTbz4huKOG4UQ,168
+swspy/io/load.py,sha256=t8pFHtwT96L69Ik4NN3QchmXN9PV_VdYZYE6Bmf4ick,8958
+swspy/io/read_nonlinloc.py,sha256=61Poet_9XzEuuCOL5i8zXPeCBdnOQjMgaZI6R29Ele8,5115
+swspy/splitting/__init__.py,sha256=lFb0waetcez7KS3W-xscE3J_wXHitXjUAolAFHlBR0k,133
+swspy/splitting/forward_model.py,sha256=IMc_3sJxGhX8zpgUUNSnKfJ73q7LowasteACFLNXqFU,7008
+swspy/splitting/split.py,sha256=sTrSNU52Ye-N3dDHjXFe2DoZDksTQu_cgTDW1Ew9d-g,120925
+swspy-1.0.1.dist-info/LICENSE,sha256=Nf2Ty4wQgUN8NzmF7ueRo1Rso-YOV9t6n-vNGV6qmMc,1053
+swspy-1.0.1.dist-info/METADATA,sha256=Jt5cyk8EJ0Kg_FWp31MWzAXPOLegn9KciyEdAt9TvWw,1447
+swspy-1.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+swspy-1.0.1.dist-info/top_level.txt,sha256=UmaqRwcMOMS4qFUbnf8sX7FnVw9BBBxbSSnXC9_IZio,6
+swspy-1.0.1.dist-info/RECORD,,
