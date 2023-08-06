@@ -1,0 +1,32 @@
+=============================================================================
+       __|  __|_  )
+       _|  (     /   Deep Learning AMI (Amazon Linux 2) Version 69
+      ___|\___|___|
+=============================================================================
+
+Please use one of the following commands to start the required environment with the framework of your choice:
+for TensorFlow 2.10 with Python3.10 (CUDA 11.2 and Intel MKL)____________________ source activate tensorflow2_p310
+for PyTorch 1.13 with Python3.9 (CUDA 11.7 and Intel MKL)______________________ source activate pytorch_p39
+for Apache MXNet 1.9 (+Keras2) with Python3.8 (CUDA 11.2 and Intel MKL-DNN)____ source activate mxnet_p38
+
+for Apache MXNet(+AWS Neuron) with Python3 __________________________________________ source activate aws_neuron_mxnet_p37
+for TensorFlow 2.8 (+AWS Neuron) with Python3 _____________ source activate aws_neuron_tensorflow2_p37
+for PyTorch (+AWS Neuron) with Python3 ______________________________________________ source activate aws_neuron_pytorch_p37
+
+for TensorFlow 2(+Amazon Elastic Inference) with Python3 ____________________________________ source activate amazonei_tensorflow2_p36
+for PyTorch 1.5.1 (+Amazon Elastic Inference) with Python3 _________________________ __ source activate amazonei_pytorch_latest_p37
+for Apache MXNet(+Amazon Elastic Inference) with Python3 ____________________________________ source activate amazonei_mxnet_p36
+for base Python3 (CUDA11.0)____________________________________________________________ source activate python3
+
+To automatically activate base conda environment upon login, run: 'conda config --set auto_activate_base true'
+
+Official Conda User Guide: https://docs.conda.io/projects/conda/en/latest/user-guide/
+AWS Deep Learning AMI Homepage: https://aws.amazon.com/machine-learning/amis/
+Developer Guide and Release Notes: https://docs.aws.amazon.com/dlami/latest/devguide/what-is-dlami.html
+Support: https://forums.aws.amazon.com/forum.jspa?forumID=263
+For a fully managed experience, check out Amazon SageMaker at https://aws.amazon.com/sagemaker
+When using INF1 type instances, please update regularly using the instructions at: https://github.com/aws/aws-neuron-sdk/tree/master/release-notes
+Security scan reports for python packages are located at: /opt/aws/dlami/info/
+Customers using a single framework like PyTorch or TensorFlow are encouraged to use the single framework DLAMIs
+
+=============================================================================
