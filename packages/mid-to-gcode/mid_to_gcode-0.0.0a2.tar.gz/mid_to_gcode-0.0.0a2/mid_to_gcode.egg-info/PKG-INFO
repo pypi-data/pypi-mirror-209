@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: mid-to-gcode
+Version: 0.0.0a2
+Summary: The project for translate .mid format to 3d printers gcode 
+Home-page: https://github.com/GigantPro/mid_to_gcode
+Author: GigantPro
+Author-email: gigantpro2000@gmail.ru
+License: The GPLv3 License (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+.. raw:: html
+
+   <p align="center">
+        <h1 align="center">mid to gcode</h1>
+        <h2 align="center">The project for translate .mid format to 3d printers gcode</h2>
+    </p>
+
+    <p align="center">
+        <a href="https://pypi.python.org/pypi/mid-to-gcode"><img alt="Pypi version" src="https://img.shields.io/pypi/v/mid-to-gcode.svg"></a>
+        <a href="https://pypi.python.org/pypi/mid-to-gcode"><img alt="Python versions" src="https://img.shields.io/badge/python-3.7+ | PyPy-blue.svg"></a>
+        <img alt="Size" src="https://img.shields.io/github/languages/code-size/GigantPro/mid-to-gcode">
+        <a href="https://pypi.org/project/mid-to-gcode/"><img alt="Pypi version" src="https://img.shields.io/pypi/l/mid-to-gcode?color=orange"></a>
+    </p>
+
+=========
