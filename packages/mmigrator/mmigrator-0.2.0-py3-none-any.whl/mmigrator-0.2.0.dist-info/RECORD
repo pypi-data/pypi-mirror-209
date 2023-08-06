@@ -1,0 +1,16 @@
+mmigrator/__init__.py,sha256=51FbptuJZKLqIfJ9FCHmabw6n0_GE-UmSBdiMMT9NmI,47
+mmigrator/cli.py,sha256=YEUdkil4NTsNIB5p_jhzeU3Spc2zZVB0IOt1idUGFoE,930
+mmigrator/constants.py,sha256=h-GviT7kVmnX20vEUT1QPh8DzMolvViLaaEQEOnh65Y,1246
+mmigrator/db.py,sha256=DYy44DTj8j8DUkdclva1ZG8DrdD4S6Rd5BNt8PEkuAY,758
+mmigrator/migration.py,sha256=I_88iyAO3fy_ycHB9o57gWYQQu4UvY_BgxyU4ubTRSc,1946
+mmigrator/migration_manager.py,sha256=UhJvmpJc-u9458S7sLTo0LxL7GJA9DmT86E2a6qOaik,3109
+mmigrator/process.py,sha256=QARrF6yN1NFrB88q-6qcicBO9gmPeb0brdPjBbCpEo0,398
+mmigrator/config_manager/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mmigrator/config_manager/config_manager.py,sha256=dkL2VpJIsd_gZOcHvajWaft0m0EAej01PhHLTpHzwpQ,1023
+mmigrator/config_manager/helpers.py,sha256=N2AYLq-BfWDdN4EJji0e9f0b3NPWPfkwQLBCQMTQ6K8,714
+mmigrator/types/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mmigrator-0.2.0.dist-info/METADATA,sha256=xWxnHuBmqk6YDleWDerACyIjACyJ5xN7Q2F8LaoHr7I,2232
+mmigrator-0.2.0.dist-info/WHEEL,sha256=y1bSCq4r5i4nMmpXeUJMqs3ipKvkZObrIXSvJHm1qCI,87
+mmigrator-0.2.0.dist-info/entry_points.txt,sha256=7DMkOipjlUKOM2XNkaXeR8aMiOWR-aOhLl4td0E2-l8,49
+mmigrator-0.2.0.dist-info/licenses/LICENSE,sha256=yiaposDxLr26JeE6R7xbB4vlgotFQzNDG2NmkEuRkTE,1080
+mmigrator-0.2.0.dist-info/RECORD,,
