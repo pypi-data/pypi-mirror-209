@@ -1,0 +1,16 @@
+jupyterlab_vega3/__init__.py,sha256=J-fcexUX2SDpdXhpRZeYLyuNlwGwdr8ReBcHJZKuUzg,169
+jupyterlab_vega3/_version.py,sha256=Tz6lmxmxKUkvsL1d8BVDTboI2Qi1KGyuKbw2_SfyWeo,171
+jupyterlab_vega3-3.3.0.data/data/share/jupyter/labextensions/@jupyterlab/vega3-extension/package.json,sha256=OhLfJMoqHV_t3yI7pTs5zhAfijkPI3rlqtGnBwB_hGg,3361
+jupyterlab_vega3-3.3.0.data/data/share/jupyter/labextensions/@jupyterlab/vega3-extension/static/45.9a59d4b302094f275e9f.js,sha256=mlnUswIJTydenx-zSuVuy_GLZX_YgU9CkYJan3-pxZY,123
+jupyterlab_vega3-3.3.0.data/data/share/jupyter/labextensions/@jupyterlab/vega3-extension/static/568.d77addb1f5a8d99f6e42.js,sha256=13rdsfWo2Z9uQjYQwcJauJuRIL09MSC_28NO7z3T7ws,1763
+jupyterlab_vega3-3.3.0.data/data/share/jupyter/labextensions/@jupyterlab/vega3-extension/static/643.b29fe3063574dc8d1af5.js,sha256=sp_jBjV03I0a9VtYBelQYTrvVWgXo30H1oxWFO4GX-Q,4432
+jupyterlab_vega3-3.3.0.data/data/share/jupyter/labextensions/@jupyterlab/vega3-extension/static/72.7a3f283ffd842e9b9289.js,sha256=CZTNn0uvfI6P05pgbmfhWsuIyE8oGcEvedm-Gns8XPk,750984
+jupyterlab_vega3-3.3.0.data/data/share/jupyter/labextensions/@jupyterlab/vega3-extension/static/72.7a3f283ffd842e9b9289.js.LICENSE.txt,sha256=DY9mzUr7Vmy1t-FUDGj0O5OdProSrOKQ8Yq8T0y1PtA,808
+jupyterlab_vega3-3.3.0.data/data/share/jupyter/labextensions/@jupyterlab/vega3-extension/static/remoteEntry.a502c21424f3610e2657.js,sha256=pQLCFCTzYQ4mV0Mr7f6i6jaunaJiKZUsNSGMxq62WSM,6905
+jupyterlab_vega3-3.3.0.data/data/share/jupyter/labextensions/@jupyterlab/vega3-extension/static/style.js,sha256=edckOHa6afzfc-6U9X_v_jmtJh7lNwp9g2SscnshZic,170
+jupyterlab_vega3-3.3.0.data/data/share/jupyter/labextensions/@jupyterlab/vega3-extension/static/third-party-licenses.json,sha256=mnUVRV9GSS_sxPTv5M281QoCIbTqWOAWrSNZg4Z4yS0,96527
+jupyterlab_vega3-3.3.0.data/data/share/jupyter/labextensions/@jupyterlab/vega3-extension/install.json,sha256=VMm47g4uhw0HmPzUSddM4jlMxXKmpHEizT53x4QpDG0,193
+jupyterlab_vega3-3.3.0.dist-info/METADATA,sha256=dGg9Y6wb5tSIgz5dhyDJ5rhaQCOR5ChbPts5XMig58w,7108
+jupyterlab_vega3-3.3.0.dist-info/WHEEL,sha256=y1bSCq4r5i4nMmpXeUJMqs3ipKvkZObrIXSvJHm1qCI,87
+jupyterlab_vega3-3.3.0.dist-info/licenses/LICENSE,sha256=ze9slCg__JBkNdf8bMtKkaTIsOYdbzSAvQcBDypxgYk,1520
+jupyterlab_vega3-3.3.0.dist-info/RECORD,,
