@@ -1,0 +1,10 @@
+services:
+  nexus_analytics:
+    image: savantly/nexus-databoard:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: nexus-analytics
+    ports:
+      - 8501:8501
+    environment: []
