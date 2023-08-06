@@ -1,0 +1,8 @@
+setup.py
+khuvirgagch/__init__.py
+khuvirgagch/converter_turuu.py
+khuvirgagch/turuu.py
+khuvirgagch.egg-info/PKG-INFO
+khuvirgagch.egg-info/SOURCES.txt
+khuvirgagch.egg-info/dependency_links.txt
+khuvirgagch.egg-info/top_level.txt
