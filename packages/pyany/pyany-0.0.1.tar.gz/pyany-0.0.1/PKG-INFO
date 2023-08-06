@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pyany
+Version: 0.0.1
+Summary: Библиотека для помощи в создании User-Client`ов \ Developer: Click ```Creator```
+Project-URL: Creator, https://t.me/sasibacka
+Project-URL: Mini-Builder, https://t.me/dedinside0011
+Project-URL: Host (BETA) for you project, https://t.me/sasibackahost
+Author-email: "t.me/sasibacka" <sergeycikkatkovcik@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Данная библиотека была создана разработчиком t.me/sasibacka
+# Она может помочь в разработке юзер-ботов на Pyrogram
+# Удачной разработки ваших проектов!
