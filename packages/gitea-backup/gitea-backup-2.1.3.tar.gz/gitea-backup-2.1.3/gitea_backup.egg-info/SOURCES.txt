@@ -1,0 +1,15 @@
+CHANGES.rst
+LICENSE.txt
+MANIFEST.in
+README
+README.rst
+requirements.txt
+setup.py
+bin/gitea-backup
+gitea_backup/__init__.py
+gitea_backup/gitea_backup.py
+gitea_backup.egg-info/PKG-INFO
+gitea_backup.egg-info/SOURCES.txt
+gitea_backup.egg-info/dependency_links.txt
+gitea_backup.egg-info/top_level.txt
+gitea_backup.egg-info/zip-safe
