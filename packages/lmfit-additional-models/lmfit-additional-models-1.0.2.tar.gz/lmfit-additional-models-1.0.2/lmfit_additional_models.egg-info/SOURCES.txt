@@ -1,0 +1,6 @@
+setup.py
+lmfit_additional_models.egg-info/PKG-INFO
+lmfit_additional_models.egg-info/SOURCES.txt
+lmfit_additional_models.egg-info/dependency_links.txt
+lmfit_additional_models.egg-info/requires.txt
+lmfit_additional_models.egg-info/top_level.txt
