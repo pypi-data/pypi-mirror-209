@@ -1,0 +1,13 @@
+
+[:python_version < "3.7"]
+aiocontextvars
+
+[aioredis]
+aioredis
+
+[redis-py]
+redis
+
+[txredisapi]
+pyopenssl
+txredisapi
