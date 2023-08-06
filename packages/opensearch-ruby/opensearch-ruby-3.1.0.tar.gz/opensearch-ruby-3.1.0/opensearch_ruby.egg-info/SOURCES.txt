@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+opensearch_ruby.egg-info/PKG-INFO
+opensearch_ruby.egg-info/SOURCES.txt
+opensearch_ruby.egg-info/dependency_links.txt
+opensearch_ruby.egg-info/not-zip-safe
+opensearch_ruby.egg-info/top_level.txt
