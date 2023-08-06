@@ -1,0 +1,6 @@
+README.md
+setup.py
+py3gppchannels.egg-info/PKG-INFO
+py3gppchannels.egg-info/SOURCES.txt
+py3gppchannels.egg-info/dependency_links.txt
+py3gppchannels.egg-info/top_level.txt
