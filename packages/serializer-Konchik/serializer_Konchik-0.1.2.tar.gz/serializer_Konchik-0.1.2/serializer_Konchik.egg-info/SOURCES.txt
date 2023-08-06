@@ -1,0 +1,16 @@
+setup.py
+serializer_Konchik.egg-info/PKG-INFO
+serializer_Konchik.egg-info/SOURCES.txt
+serializer_Konchik.egg-info/dependency_links.txt
+serializer_Konchik.egg-info/requires.txt
+serializer_Konchik.egg-info/top_level.txt
+src/__init__.py
+src/constants.py
+src/packer/__init__.py
+src/packer/packer.py
+src/packer/unpacker.py
+src/serializer/__init__.py
+src/serializer/base_serializer.py
+src/serializer/json_serializer.py
+src/serializer/serializer_factory.py
+src/serializer/xml_serializer.py
