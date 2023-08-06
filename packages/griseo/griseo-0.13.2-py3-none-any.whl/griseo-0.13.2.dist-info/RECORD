@@ -1,0 +1,9 @@
+griseo/__init__.py,sha256=ky8F1xSiZ9uMAOdWLyZUGPSKnn3P9REsnV1eBxKHDVI,4642
+griseo/__main__.py,sha256=HrYtfTuNPNMMGkEay6U0s8jSCunQrGWhXJwH4Q5qFVk,647
+griseo/prompts/__init__.py,sha256=eYQVbCnbk15aSlyBq-cLQRlEjJt1GAAHQmV6uyqjYCI,1093
+griseo/prompts/default.jsonl,sha256=3xkuM3i844t7PI4Sw7tVF_A-lrQrcFh72CxZ_6dv87M,75
+griseo-0.13.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+griseo-0.13.2.dist-info/METADATA,sha256=hPgl0789tj9wJz0QoM5vQr9SlARcGl2asHQfaNx34wM,1258
+griseo-0.13.2.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+griseo-0.13.2.dist-info/entry_points.txt,sha256=m8Qa184bH88a1f6beanJ58-5BShL6ANk5ErIaJSpLaI,38
+griseo-0.13.2.dist-info/RECORD,,
