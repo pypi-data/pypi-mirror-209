@@ -1,0 +1,6 @@
+setup.py
+printername2.egg-info/PKG-INFO
+printername2.egg-info/SOURCES.txt
+printername2.egg-info/dependency_links.txt
+printername2.egg-info/top_level.txt
+test_folder1/printer2.py
