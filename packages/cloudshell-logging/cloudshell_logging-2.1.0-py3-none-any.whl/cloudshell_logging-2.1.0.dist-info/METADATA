@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: cloudshell-logging
+Version: 2.1.0
+Summary: QualiSystems Logger Package
+Home-page: https://www.quali.com/
+Author: Quali
+Author-email: info@quali.com
+Requires-Python: ~=3.7
+License-File: LICENSE.htm
+
+QualiSystems Logger Package
