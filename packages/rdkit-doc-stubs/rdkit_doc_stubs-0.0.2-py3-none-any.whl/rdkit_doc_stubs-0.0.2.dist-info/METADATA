@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: rdkit-doc-stubs
+Version: 0.0.2
+Summary: Combined stubs from RDKit's documentation and mypy's stubgen
+Author: Tim Hörmann
+Author-email: t.hoermann@audivir.de
+Project-URL: homepage, https://www.audivir.de/
+Project-URL: repository, https://github.com/tim25651/rdkit-doc-stubs
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: rdkit (==2023.3.1)
+Requires-Dist: mypy
+Requires-Dist: isort
+Requires-Dist: black
+Requires-Dist: biopython
+
+# rdkit-doc-stubs
+This repository needs to build the stubs for the RDKit package on the first start to avoid license issues.
+
+Sources are the RDKit documentation and mypy's stubgen.
+On run of the install script, the documentation is downloaded and parsed.
+While stubgen is run on the RDKit package. The stubs are then merged and
+installed into the site-packages directory.
+
+## Usage
+```
+pip install rdkit-doc-stubs
+python -m rdkit-stubs.install
+```

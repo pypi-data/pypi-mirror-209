@@ -1,0 +1,16 @@
+rdkit-stubs/install/__main__.py,sha256=iTFpbZ2lmChxU9CYHENZmoZNO008Oj0Fb4r53LdOUW8,3008
+rdkit-stubs/install/align.py,sha256=98cGVdfGj0GLUtUSxK4Ao9VLdNIIU8l_FTGtHu5-jtg,2268
+rdkit-stubs/install/classes.py,sha256=FHAW45nYKvTpx3iS7BuZhhZdG1HHAgt5gm2e8JRLELo,755
+rdkit-stubs/install/combine.py,sha256=83j7sGWYnNhMrfFZ2YKs7eMWFh9t3tEJ5CP5JU-Salw,10001
+rdkit-stubs/install/download.py,sha256=wL6wczoGcMeQEQJrvCpu2t9DUFI8QJTKS2sK18tNNWc,2472
+rdkit-stubs/install/find.py,sha256=gDTJvmPyV7wteFlxH-epQRb5vnzJpFS808aiM9-WQ9M,4185
+rdkit-stubs/install/infer.py,sha256=pQu8jCQEdLuPHZCzQkB8JcrTUKTXJbiegeygVFi9oyQ,6535
+rdkit-stubs/install/modules.py,sha256=XRvnsw4CV0qwyh2JF4NAuFHdWsQZVYmYgHAdcjjgGos,2760
+rdkit-stubs/install/monkey_ast.py,sha256=MpyH-8-T5WvLpnBmBbmKol3N6uy3ZkbUeBumZ4BEGl0,1121
+rdkit-stubs/install/parse.py,sha256=xi-kXBEychhRTTcqdFQajkEhelvIM-o4fged88Ks5M8,14202
+rdkit-stubs/install/unparse.py,sha256=7r7ygKQsKpDd-rfrIKVzZPoVosnUi9sZBLtSraUvXBc,3321
+rdkit-stubs/install/utils.py,sha256=8ZWMEJTjkz6J1JiTuSA99pgmTkYeRUacCAy64B7JoEc,1326
+rdkit_doc_stubs-0.0.2.dist-info/METADATA,sha256=37wvWOTb2Oyqqe1FoFbs3LxJyPoNFonaaWRd_-StddM,937
+rdkit_doc_stubs-0.0.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+rdkit_doc_stubs-0.0.2.dist-info/top_level.txt,sha256=CDrpwc40AHDX9i2WeYZFH3rlpaTSn1ES8O43NKmx1oc,12
+rdkit_doc_stubs-0.0.2.dist-info/RECORD,,
