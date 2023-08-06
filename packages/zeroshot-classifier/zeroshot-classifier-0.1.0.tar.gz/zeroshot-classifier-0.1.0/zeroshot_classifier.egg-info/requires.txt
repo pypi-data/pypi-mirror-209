@@ -1,0 +1,12 @@
+gdown
+openai
+requests
+tenacity
+spacy
+nltk
+scikit-learn
+torch
+sentence-transformers
+transformers
+datasets
+stefutils
