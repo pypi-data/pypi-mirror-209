@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "nonebot_plugin_forjyf"
+version = "0.1.0"
+description = "为JYF定制的复读插件"
+authors = ["lcy <863109569@qq.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+nonebot2 = "^2.0.0rc4"
+nonebot-adapter-onebot = "^2.2.3"
+
+[project.urls]
+Homepage = "https://github.com/Calanosay/nonebot_plugin_forjyf"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

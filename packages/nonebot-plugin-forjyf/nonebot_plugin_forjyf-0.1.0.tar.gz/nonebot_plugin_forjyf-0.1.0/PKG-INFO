@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: nonebot-plugin-forjyf
+Version: 0.1.0
+Summary: 为JYF定制的复读插件
+Author: lcy
+Author-email: 863109569@qq.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: nonebot-adapter-onebot (>=2.2.3,<3.0.0)
+Requires-Dist: nonebot2 (>=2.0.0rc4,<3.0.0)
+Description-Content-Type: text/markdown
+
+# nonebot_plugin_forjyf
+JYF复读插件，如果JYF说了富有JYF特征的词汇，例如"酷"，“这样么”,"噢"，“来点XX”,"沃趣"，“xm”，“哦哈哟”等等，包括发fufu的图片、说日语，全都会进行复读，在不断完善中
+
