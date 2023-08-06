@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: oc-cdt-queue2
+Version: 4.0.2
+Summary: Code for Deliveries-related message queues management
+License: Apache2.0
+Requires-Python: >=3.6
+Description-Content-Type: text/plain
+License-File: LICENSE
+Requires-Dist: pika (==1.1.0)
+
