@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+WSIPreToolkit/__init__.py
+WSIPreToolkit/example.py
+WSIPreToolkit/toolkit.py
+WSIPreToolkit.egg-info/PKG-INFO
+WSIPreToolkit.egg-info/SOURCES.txt
+WSIPreToolkit.egg-info/dependency_links.txt
+WSIPreToolkit.egg-info/requires.txt
+WSIPreToolkit.egg-info/top_level.txt
