@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: ALMASim
+Version: 1.4
+Summary: Simulation code for ALMA observations of both high redshift and local galaxies.
+Author-email: "M. Delli Veneri" <micheledelliveneri@gmail.com>, "L. Tychoniec" <lukasz.tychoniec@eso.org>, "F. Guglielmetti" <fgugliel@eso.org>, "I. Baronchelli" <ivano.baronchelli@inaf.it>, "E. Villard" <evillard@eso.org>, "G. Longo" <giuseppe.longo@unina.it>
+Project-URL: Homepage, https://github.com/MicheleDelliVeneri/ALMASim
+Project-URL: Documentation, https://almasim.readthedocs.io/en/latest/
+Project-URL: Bug Tracker, https://github.com/MicheleDelliVeneri/ALMASim/issues
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+License-File: LICENSE
