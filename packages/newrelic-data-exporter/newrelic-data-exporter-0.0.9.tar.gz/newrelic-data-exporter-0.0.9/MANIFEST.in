@@ -1,0 +1,5 @@
+include newrelic_data_exporter/*.yml
+include *.txt
+include *.md
+recursive-include tests *
+
