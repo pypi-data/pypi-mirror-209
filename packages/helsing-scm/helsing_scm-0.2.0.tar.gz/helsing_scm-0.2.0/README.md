@@ -1,0 +1,77 @@
+<img src="./secure-cloud.png" align="right">
+
+# Secure Cloud Manager
+
+SCM is a declarative configuration management tool to faciliate scalable management of IaC workflows.
+
+The primary purpose of SCM is to act as a high-level abstraction with powerful primitives to manage IaC workflows
+that may need to span multiple Terraform workspaces. SCM is designed to be used in conjunction with Terraform Cloud
+or Terraform Enterprise.
+
+Even if right now SCM generates code only for a single Terraform workspace, and technically all of it could be done
+with Terraform itself, having SCM as a separate tool allows for a more powerful abstraction that means you don't have
+to re-architect your Terraform code and workspace structure when you need to scale up or new features can only be
+achieved by crossing workspace boundaries.
+
+We try to keep things simple and intuitive, but when the need arises, SCM could become a service to unblock certain
+features that are not possible with Terraform alone, all while not having to completely redesign how you manage your
+IaC because SCM takes care of that.
+
+Currently, SCM can be used to do the following:
+
+* Create AWS Control Tower accounts
+* Create Terraform workspaces in Terraform Cloud/Enterprise with access to credentials to any single AWS account
+
+## Getting started
+
+### Prerequisites
+
+- Python 3.10 or newer
+- The Terraform CLI (used for `terraform fmt`)
+
+In order to run the generated Terraform code, you will need:
+
+- An AWS Account with Control Tower enabled
+- Terraform Cloud or Terraform Enterprise account
+
+### Installation
+
+SCM will be available on PyPI soon. For now, you can install it from GitHub:
+
+    $ pip install git+https://github.com/helsing-ai/scm.git
+
+### Configuration
+
+The backend for SCM is currently entirely Terraform-based. This means that you need to hand the respective AWS and
+Terraform Cloud/Enterprise token to the initial Terraform workspace from which the execution of the generated Terraform
+code is to take place.
+
+- `AWS_REGION`
+- `AWS_ACCESS_KEY_ID`
+- `AWS_SECRET_ACCESS_KEY`
+- `AWS_SESSION_TOKEN` (optional)
+- `TFE_HOSTNAME`
+- `TFE_TOKEN`
+
+The AWS credentials should have permissions to create AWS Accounts via the AWS Account Factory. It must also have the
+`servicecatalog:ListProvisioningArtifact` permission. The Terraform Cloud token should have permissions to create
+workspaces and upload configuration versions. While a TFE Organization-level token can create workspaces, it cannot
+upload configuration versions, which is why a Team-level or User-level token is required.
+
+SCM understands "resources" that are defined in a YAML file that is largely inspired by Kubernetes resources. These
+resources are powerful abstractions on the concepts of AWS accounts and Terraform workspaces.
+
+__Example__
+
+Check out the [example/manifests/](example/manifests/) folder for a complete example. The files define settings for the
+code generation well as resources that inform the generated Terraform code. The generated code is then responsible, as
+per the resource definitions, to create an AWS account and Terraform workspace.
+
+You can run the following commands to generate the Terraform code for the example, and then initialize and apply it:
+
+    $ ( cd example && python -m helsing.scm manifests/*.yaml )
+    $ ( cd example/generated && terraform init )
+    $ ( cd example/generated && terraform plan )
+
+Before you actually try this, you may need to update some values in the `settings.yaml` file. At the minimum, you
+will need to update the `product_id` in the `AwsTerraformCodegenSettings` resource.
