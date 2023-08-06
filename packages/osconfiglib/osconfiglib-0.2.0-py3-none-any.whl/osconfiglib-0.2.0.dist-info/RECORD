@@ -1,0 +1,10 @@
+osconfiglib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+osconfiglib/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+osconfiglib/cli/main.py,sha256=lp2B0ktaJJ0H-I9r3WcohDg6ERSlJ5EivT2gjXB5rZI,2634
+osconfiglib/layers.py,sha256=lKULSvA4PiUEtC04liZeKG-SnUyKr7LlfkYQ4_k8j7M,18045
+osconfiglib/utils.py,sha256=YsCBYZ0nE-_a2Z5P0L6fxy0spWt4aEFfOsFpGePijmU,1657
+osconfiglib/virt_customize.py,sha256=49Wrgjb94oE51RrY-I9PL57ZFWt88V3hDFrmON51yGs,3649
+osconfiglib-0.2.0.dist-info/entry_points.txt,sha256=6bbT8nIOnfF2AjXBL-ICjFKV8sHUwRIu1izURg3Hwzo,56
+osconfiglib-0.2.0.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+osconfiglib-0.2.0.dist-info/METADATA,sha256=21pr69o6ecnkWuN7EE1BUT9d94T5e4fQv3YvM-t3Pdk,5868
+osconfiglib-0.2.0.dist-info/RECORD,,
