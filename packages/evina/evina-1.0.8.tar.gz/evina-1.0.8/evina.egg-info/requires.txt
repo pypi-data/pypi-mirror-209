@@ -1,0 +1,5 @@
+aligo
+dynaconf
+Faker
+loguru
+paramiko
