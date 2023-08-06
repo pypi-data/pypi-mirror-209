@@ -1,0 +1,3 @@
+[console_scripts]
+cll=cll.__main__:main
+
