@@ -1,0 +1,9 @@
+boto3
+configparser
+docker
+packaging
+pyyaml
+requests
+setuptools>=40.8.0
+tabulate
+urllib3
