@@ -1,0 +1,6 @@
+README.md
+setup.py
+src/sample_pckg_test_1.egg-info/PKG-INFO
+src/sample_pckg_test_1.egg-info/SOURCES.txt
+src/sample_pckg_test_1.egg-info/dependency_links.txt
+src/sample_pckg_test_1.egg-info/top_level.txt

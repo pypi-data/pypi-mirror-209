@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: sample_pckg_test_1
+Version: 0.0.1
+Summary: short package description
+Home-page: UNKNOWN
+Author: harshith
+Author-email: harshith@ex.com
+License: UNKNOWN
+Description: # `basicpkg`
+        
+        The `basicpkg` is a simple testing example to understand the basics of developing your first Python package. 
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
