@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+SWFUtils/__init__.py
+SWFUtils/reader.py
+SWFUtils/workload.py
+SWFUtils/writer.py
+SWFUtils.egg-info/PKG-INFO
+SWFUtils.egg-info/SOURCES.txt
+SWFUtils.egg-info/dependency_links.txt
+SWFUtils.egg-info/requires.txt
+SWFUtils.egg-info/top_level.txt
+tests/__init__.py
+tests/test_reader.py
+tests/test_workload.py
+tests/test_writer.py
