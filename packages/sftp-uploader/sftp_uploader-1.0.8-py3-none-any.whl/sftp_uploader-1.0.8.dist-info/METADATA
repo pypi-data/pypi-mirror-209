@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: sftp-uploader
+Version: 1.0.8
+Summary: Package for upload data to sftp with different parametrs and with different methods
+Author: Moonvent
+License: MIT
+License-File: LICENSE
+
