@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: Qsim_trapped_ions
+Version: 1.0.1
+Summary: Numerical simulation of trapped ion quantum dynamics
+Home-page: https://github.com/TrappedIonRice/Open-Quantum-system-simulation
+Author: mjz
+Author-email: mz40@rice.edu
