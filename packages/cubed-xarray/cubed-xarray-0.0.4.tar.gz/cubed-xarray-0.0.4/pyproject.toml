@@ -1,0 +1,58 @@
+[project]
+name = "cubed-xarray"
+version = "0.0.4"
+authors = [
+    {name = "Tom Nicholas", email = "tomnicholas1@googlemail.com"}
+]
+description = "Interface for using cubed with xarray for parallel computation."
+license = {text = "Apache-2"}
+readme = "README.md"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering",
+]
+requires-python = ">=3.9"
+dependencies = [
+    "numpy >= 1.17",
+    "xarray >= 2023.05.0",
+    "cubed >= 0.6.3",
+]
+
+[project.urls]
+homepage = "https://github.com/xarray-contrib/cubed-xarray"
+documentation = "https://github.com/xarray-contrib/cubed-xarray#readme"
+repository = "https://github.com/xarray-contrib/cubed-xarray"
+
+[tool.setuptools.packages.find]
+include = [
+    "cubed_xarray",
+    "cubed_xarray.tests",
+]
+
+[project.entry-points."xarray.chunkmanagers"]
+cubed = "cubed_xarray.cubedmanager:CubedManager"
+
+[build-system]
+requires = ["setuptools >= 64", "setuptools_scm >= 7.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+fallback_version = "999"
+
+[tool.pytest.ini_options]
+junit_family = "xunit2"
+
+[tool.isort]
+profile = "black"
+skip_gitignore = "true"
+force_to_top = "true"
+default_section = "THIRDPARTY"
+known_first_party = "cubed_xarray"
