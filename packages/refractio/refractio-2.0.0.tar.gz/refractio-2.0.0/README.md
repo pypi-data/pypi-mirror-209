@@ -1,0 +1,69 @@
+# Installation:
+## without any dependencies:
+```commandline
+pip install refractio
+```
+## With all dependencies:
+```commandline
+pip install refractio[all]
+```
+## With snowflake:
+```commandline
+pip install refractio[snowflake]
+```
+## With s3:
+```commandline
+pip install refractio[s3]
+```
+## With azureblob:
+```commandline
+pip install refractio[azureblob]
+```
+## With local:
+```commandline
+pip install refractio[local]
+```
+## With sftp:
+```commandline
+pip install refractio[sftp]
+```
+## With mysql:
+```commandline
+pip install refractio[mysql]
+```
+## With hive:
+```commandline
+pip install refractio[hive]
+```
+
+#### Source code is available at: https://git.lti-aiq.in/refract-sdk/refract-sdk.git 
+
+# Usage:
+## To read dataframe with dataset name only -
+```python
+from refractio import get_dataframe
+get_dataframe("dataset_name")
+```
+## To read dataframe with filename from local storage -
+```python
+from refracio import get_local_dataframe
+get_local_dataframe("local_file_name_with_absolute_path")
+```
+## To use snowflake related operations -
+```python
+from refractio import snowflake
+
+# To read a specific dataset published from snowflake connection
+snowflake.get_dataframe("dataset_name", row_count=3)
+
+# To get snowflake connection object with a specific connection name
+snowflake.get_connection(connection_name="snowflake_con_name")
+
+# To get snowflake connection object with default snowflake connection created by the user
+snowflake.get_connection()
+
+# To execute a user specific query in snowflake
+snowflake.execute_query(query="user_query", database="db_name", schema="schema", connection_name="connection_name")
+```
+
+*Note: Usage documentation will be updated in upcoming releases.*
