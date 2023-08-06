@@ -1,0 +1,6 @@
+pyarrow
+flightsql-dbapi
+influxdb-client
+
+[cli]
+pyinflux3-cli
