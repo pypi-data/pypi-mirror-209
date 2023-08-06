@@ -1,0 +1,3 @@
+[console_scripts]
+scm=helsing.scm.__main__:app
+
