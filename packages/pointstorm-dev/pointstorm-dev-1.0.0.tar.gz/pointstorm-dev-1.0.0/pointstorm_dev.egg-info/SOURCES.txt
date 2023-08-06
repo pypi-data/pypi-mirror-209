@@ -1,0 +1,17 @@
+CHANGES.md
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+pointstorm_dev/__init__.py
+pointstorm_dev/__main__.py
+pointstorm_dev/somemodule.py
+pointstorm_dev.egg-info/PKG-INFO
+pointstorm_dev.egg-info/SOURCES.txt
+pointstorm_dev.egg-info/dependency_links.txt
+pointstorm_dev.egg-info/entry_points.txt
+pointstorm_dev.egg-info/requires.txt
+pointstorm_dev.egg-info/top_level.txt
+tests/__init__.py
+tests/test_myclass.py
+tests/test_mysecondclass.py
