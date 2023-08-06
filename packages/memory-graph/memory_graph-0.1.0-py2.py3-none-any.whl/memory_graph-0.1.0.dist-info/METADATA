@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: memory-graph
+Version: 0.1.0
+Summary: Draws a graph of memory to understand the structure of references.
+Home-page: https://github.com/bterwijn/memory_graph
+Author: Bas Terwijn
+Author-email: bterwijn@gmail.com
+License: BSD 2-clause
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Multimedia :: Graphics
+License-File: LICENSE.txt
+Requires-Dist: graphviz
+
+UNKNOWN
+
