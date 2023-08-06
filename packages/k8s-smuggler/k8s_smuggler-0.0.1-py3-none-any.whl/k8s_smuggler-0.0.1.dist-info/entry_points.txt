@@ -1,0 +1,3 @@
+[console_scripts]
+smuggler=k8s_smuggler.main:main
+
