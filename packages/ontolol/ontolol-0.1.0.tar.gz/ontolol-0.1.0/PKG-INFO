@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: ontolol
+Version: 0.1.0
+Summary: Publish repositories of OWL ontologies as website
+Home-page: https://codeberg.org/Chocorize/ontolol
+License: GPL-3.0-or-later
+Keywords: owl,rdf,ontology
+Author: Dominik George
+Author-email: nik@naturalnet.de
+Requires-Python: >=3.11,<4.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Documentation
+Requires-Dist: jinja2 (>=3.1.2,<4.0.0)
+Requires-Dist: owlready2 (>=0.41,<0.42)
+Requires-Dist: rdflib (>=6.3.2,<7.0.0)
+Requires-Dist: typer[all] (>=0.9.0,<0.10.0)
+Project-URL: Repository, https://codeberg.org/Chocorize/ontolol
+Description-Content-Type: text/markdown
+
+# Ontolol - Publish repositories of OWL ontologies as website
+
+Ontolol is a "static site generator" for publishing OWL ontologies as
+fully customisable documentation websites, together with their
+machine-readable (RDF) definitions.
+

@@ -1,0 +1,49 @@
+{% extends "_base.html.j2" %}
+
+{% block title %}{{ ontology.title }}{% endblock %}
+
+{% block body %}
+<h1 class="title is-1">{{ ontology.title }}</h1>
+
+<p class="subtitle">
+    {{ ontology.metadata.comment[0] }}
+</p>
+
+<div class="columns">
+    <div class="column is-one-quarter">
+        <aside class="menu">
+            <p class="menu-label">Classes</p>
+            <ul class="menu-list">
+                {% for name, entry in classes.items() %}
+                <li><a href="{{ entry.href }}">{{ name }}</a></li>
+                {% endfor %}
+            </ul>
+
+            <p class="menu-label">Individuals</p>
+            <ul class="menu-list">
+                {% for name, entry in individuals.items() %}
+                <li><a href="{{ entry.href }}">{{ name }}</a></li>
+                {% endfor %}
+            </ul>
+        </aside>
+    </div>
+
+    <div class="column">
+        <h2 class="title is-2">Classes</h2>
+        {% for name, entry in classes.items() %}
+        <h3 class="title is-3" id="{{ name }}">{{ name }}</h3>
+        <div class="section">
+            {{ entry.html }}
+        </div>
+        {% endfor %}
+
+        <h2 class="title is-2">Individuals</h2>
+        {% for name, entry in individuals.items() %}
+        <h3 class="title is-3" id="{{ name }}">{{ name }}</h3>
+        <div class="section">
+            {{ entry.html }}
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}
