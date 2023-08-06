@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "shaperone"
+version = "0.41.3"
+description = "A patched version of the Shap library aimed to contribute the health and safety of Shap."
+authors = ["Thijs van den Berg <thijs@sitmo.com>"]
+license = "MIT"
+readme = "README.md"
+classifiers = [
+"Operating System :: MacOS",
+"Operating System :: Microsoft :: Windows",
+"Operating System :: POSIX",
+"Operating System :: Unix",
+"Programming Language :: Python :: 3.10",
+"Programming Language :: Python :: 3.7",
+"Programming Language :: Python :: 3.8",
+"Programming Language :: Python :: 3.9"
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+numpy = ">=1.20.0"
+scipy = ">=1.7.0"
+scikit-learn = ">=1.0.0"
+pandas = ">=1.4.3"
+numba = ">=0.54.0"
+matplotlib = ">=3.3.0"
+slicer = ">=0.0.7"
+cloudpickle = ">=2.0.0"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+dailytreasuryrates = "dailytreasuryrates:cli"
