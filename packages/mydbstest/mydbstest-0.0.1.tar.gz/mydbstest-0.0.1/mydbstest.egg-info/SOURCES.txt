@@ -1,0 +1,7 @@
+setup.py
+Easycon/__init__.py
+Easycon/connectors.py
+mydbstest.egg-info/PKG-INFO
+mydbstest.egg-info/SOURCES.txt
+mydbstest.egg-info/dependency_links.txt
+mydbstest.egg-info/top_level.txt
