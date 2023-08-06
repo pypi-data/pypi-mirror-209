@@ -1,0 +1,10 @@
+khash/container.cpython-36m-aarch64-linux-gnu.so,sha256=UTD1Lu8Y8lmbgezZsXnXTWO5HeUts0BYSHVvEC5yiBc,1087936
+khash/tree.cpython-36m-aarch64-linux-gnu.so,sha256=xf_eBb06aFNtb8c17IXulkVYqua37n9Qx_tRDboaTCA,396456
+khash/khash.cpython-36m-aarch64-linux-gnu.so,sha256=MUIWRwiEazFyGYDBfXRlXakVnmifeyuMv7odEUVFau0,317600
+khash/__init__.py,sha256=O0rbnuUslwP2dEh901f2aVENjv_DrS9Gj8Kpr57__x4,54
+khash/siphash.cpython-36m-aarch64-linux-gnu.so,sha256=3u5znHn7n0xhGR_l48LuvS4pn58SxynstCJGZgoAfaY,184536
+khash-0.5.0a5.dist-info/top_level.txt,sha256=v7b-ozFWXCaf4uTK9rLjXt7APm-7cQ10Puktgvz4YFg,6
+khash-0.5.0a5.dist-info/METADATA,sha256=DvR1kpYrRVSTfEESh_DqqMPGSegTBxylzMDP6I9rzNo,174
+khash-0.5.0a5.dist-info/LICENSE.md,sha256=3tRK_BW-yd3EvfJQv7l9CHVtXOvdNMcpFiVbALsDHv4,172
+khash-0.5.0a5.dist-info/WHEEL,sha256=ZPo-cudG-FPYxyq1LXmKAMnRyaidvTmBVvSIj1CJfHY,152
+khash-0.5.0a5.dist-info/RECORD,,
