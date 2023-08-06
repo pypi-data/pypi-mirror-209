@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "actioncable"
+version = "0.1.0"
+description = "WebSocket server with action cable protocol support."
+authors = ["Josiah Kaviani <proofit404@gmail.com>"]
+license = "BSD-2-Clause"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
