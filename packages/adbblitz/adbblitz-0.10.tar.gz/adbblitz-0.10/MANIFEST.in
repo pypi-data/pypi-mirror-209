@@ -1,0 +1,4 @@
+include adbblitz/requirements.txt
+include adbblitz/thirdparty.json
+include adbblitz/README.md
+include adbblitz/scrcpy-server.jar

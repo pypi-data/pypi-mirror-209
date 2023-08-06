@@ -1,0 +1,15 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+adbblitz/README.md
+adbblitz/__init__.py
+adbblitz/requirements.txt
+adbblitz/scrcpy-server.jar
+adbblitz/thirdparty.json
+adbblitz.egg-info/PKG-INFO
+adbblitz.egg-info/SOURCES.txt
+adbblitz.egg-info/dependency_links.txt
+adbblitz.egg-info/requires.txt
+adbblitz.egg-info/top_level.txt
