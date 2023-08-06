@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: bongovaad
+Version: 0.3
+License-File: LICENSE
+Requires-Dist: transformers
+Requires-Dist: datasets
+Requires-Dist: librosa
+Requires-Dist: evaluate
+Requires-Dist: jiwer
+Requires-Dist: gradio
+Requires-Dist: bitsandbytes (==0.37)
+Requires-Dist: accelerate
+Requires-Dist: peft
+Requires-Dist: pydub
+Requires-Dist: pytube
+Requires-Dist: yt-dlp
+
