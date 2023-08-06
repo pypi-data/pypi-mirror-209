@@ -1,0 +1,6 @@
+[console_scripts]
+tally-flask = pytest_tally.clients.app:main
+tally-rich = pytest_tally.clients.rich_dashboard:main
+
+[pytest11]
+pytest_tally = pytest_tally.plugin
