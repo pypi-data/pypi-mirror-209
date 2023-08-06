@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: misc_io_operations
+Version: 1.2.9
+Summary: Simplification of daily input/output operations
+Home-page: https://github.com/GamerXZEN/misc_io_operations
+Author: GamerXZEN
+Author-email: codspecialops@gmail.com
+License: MIT
+Keywords: operations,input,output,input/output,miscellaneous,python
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# Miscellaneous I/O Operations Package
+
+## About
+
+This is a collection of miscellaneous Python functions
+that can be used to simplify daily and
+lengthy coding processes and tasks.
+
+## Documentation
+
+The import statment:
+
+```>>> import miops as mps```
+
+c (in function name) - Console-Based Input/Output Operations
+
+
