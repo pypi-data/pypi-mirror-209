@@ -1,0 +1,8 @@
+core/s3namic.py,sha256=AajJBAfzenQhQjVU7RZAopJoDmKeU-XNxuFlXjws1-I,28605
+s3namic/__init__.py,sha256=ms9fawWnxkTIQ4jhpbXMHD_MgYaV8kjwbCW3VmbmlMA,25
+s3namic/core.py,sha256=AajJBAfzenQhQjVU7RZAopJoDmKeU-XNxuFlXjws1-I,28605
+s3namic-0.0.5.dist-info/LICENSE,sha256=Ju-F2bfdvHGXg553f4CNeSm6Z6Ik3kw_8zT8wrfq37I,1086
+s3namic-0.0.5.dist-info/METADATA,sha256=GQsCKE3XHisM3PQMsdEuKQhTkThvHzfQ3Sm0aX845Qc,10597
+s3namic-0.0.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+s3namic-0.0.5.dist-info/top_level.txt,sha256=aU5Cs0SfheQ0xuBs2tnj5iT86gE1Ov8yN1H8AVitNhU,8
+s3namic-0.0.5.dist-info/RECORD,,
