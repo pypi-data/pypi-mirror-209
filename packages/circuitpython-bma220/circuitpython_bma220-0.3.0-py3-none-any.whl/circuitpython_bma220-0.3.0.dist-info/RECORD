@@ -1,0 +1,9 @@
+bma220/bma220.py,sha256=ycQmCdo2Rs_Pc2oezmNCuyzf31gndlfBxb33QZh-ZfE,16883
+bma220/bma220_const.py,sha256=vVkNh8qpdmQc42QU6VQ5Kht4pf5WwxFDnZEGM9oQpK4,2106
+bma220/bma220_slope.py,sha256=IUVwmjjY9jKMtUz2FAL8J4gsnD3jzIZkk4vFWa0v6Sk,11195
+bma220/bma220_tap_sensing.py,sha256=vM8gTECAtxgUHAATs9CcJgBmFLc_aO5Zm4s8iDhNQ2c,13356
+circuitpython_bma220-0.3.0.dist-info/LICENSE,sha256=RzDRQUi8478TRF8tEO9TZzAIdMZDxwpMRik2l1mwdog,1082
+circuitpython_bma220-0.3.0.dist-info/METADATA,sha256=08oqtjAhce5BwKYqhJgFcXhmAfEvL69xc1LibW6Lcfs,4090
+circuitpython_bma220-0.3.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+circuitpython_bma220-0.3.0.dist-info/top_level.txt,sha256=CdSZxRh9pwUeoKwnz3SOwkdBKK3kiPQ3-R1HD2kcV0g,7
+circuitpython_bma220-0.3.0.dist-info/RECORD,,
