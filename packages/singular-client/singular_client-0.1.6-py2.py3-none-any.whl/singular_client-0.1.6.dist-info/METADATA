@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: singular-client
+Version: 0.1.6
+Summary: A modern Singular API client.
+Author-email: Ryan Young <dev@ryayoung.com>
+License-File: LICENSE
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries
+Requires-Dist: pydantic
+Requires-Dist: requests
+Description-Content-Type: text/markdown
+
+# Singular Client
+
+- Supports **24** endpoints from Singular's APIs.
+- Offers 
+
