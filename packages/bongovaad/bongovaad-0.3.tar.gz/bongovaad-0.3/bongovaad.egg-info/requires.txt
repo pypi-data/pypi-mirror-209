@@ -1,0 +1,12 @@
+transformers
+datasets
+librosa
+evaluate
+jiwer
+gradio
+bitsandbytes==0.37
+accelerate
+peft
+pydub
+pytube
+yt-dlp
