@@ -1,0 +1,19 @@
+from irails.database import Service
+from sqlalchemy import select
+from typing import List
+from {{app_name}}.models import {{model_name}}
+
+class {{service_name}}(Service):
+
+    def get_{{model_path_name}}(self,id:int)->{{model_name}}:
+        return self.get({{model_name}},id) 
+
+    def list_{{model_path_name}}(self,**kwargs)->List[{{model_name}}]:
+        return self.list({{model_name}},**kwargs)
+
+    def add_{{model_path_name}}(self,**kwargs)->{{model_name}}:
+        return self.add({{model_name}},**kwargs) 
+        
+    def delete_{{model_path_name}}(self,**kwargs)->int:
+        return self.delete({{model_name}},**kwargs)
+        
