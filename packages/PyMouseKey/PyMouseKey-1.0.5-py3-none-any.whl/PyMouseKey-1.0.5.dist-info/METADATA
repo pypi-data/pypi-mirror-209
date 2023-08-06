@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: PyMouseKey
+Version: 1.0.5
+Summary: A python package for sending keyboard and mouse inputs
+Author: Chasss
+Description-Content-Type: text/markdown
+
+
+pymousekey is made for sending keyboard and mouse inputs simular to how pyautogui does but using the ctypes module only.
+
+Keep in mind their is no failsafe wrapper for any function so use with caution.
+
+No extra dependencies are needed to use this module
