@@ -1,0 +1,7 @@
+dist/
+data/
+hotjarenv/
+experiments/
+hotjar_data_wrapper/__pycache__/
+.env
+poetry.lock
