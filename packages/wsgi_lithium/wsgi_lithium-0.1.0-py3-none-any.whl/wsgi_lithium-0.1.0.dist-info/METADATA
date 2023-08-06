@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: wsgi_lithium
+Version: 0.1.0
+Summary: An HTTP to WSGI server that relies on Python's included batteries
+Author-email: Léo El Amri <leo@superlel.me>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Project-URL: repository, https://github.com/lel-amri/wsgi-lithium
+
+# WSGI Lithium
+
+*A lightweight and dumb HTTP to WSGI server that relies on Python's included batteries.*
+
+This WSGI server is intended to be used in Kubernetes-like environments, where some component handle load-balancing, application crashing, loggin, etc.
+
+## How to use
+
+`wsgi-lithium 127.0.0.1:8000 module:app`
+
