@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+src/__init__.py
+src/tryCO.py
+src/askCO.egg-info/PKG-INFO
+src/askCO.egg-info/SOURCES.txt
+src/askCO.egg-info/dependency_links.txt
+src/askCO.egg-info/top_level.txt
