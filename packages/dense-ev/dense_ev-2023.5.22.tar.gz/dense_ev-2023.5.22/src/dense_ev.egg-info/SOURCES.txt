@@ -1,0 +1,16 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+src/dense_ev/__init__.py
+src/dense_ev/decompose_pauli.py
+src/dense_ev/dense_grouper.py
+src/dense_ev/dense_pauli_basis_change.py
+src/dense_ev/dense_pauli_expectation.py
+src/dense_ev/rmatrix.py
+src/dense_ev/test_ops.py
+src/dense_ev.egg-info/PKG-INFO
+src/dense_ev.egg-info/SOURCES.txt
+src/dense_ev.egg-info/dependency_links.txt
+src/dense_ev.egg-info/requires.txt
+src/dense_ev.egg-info/top_level.txt
