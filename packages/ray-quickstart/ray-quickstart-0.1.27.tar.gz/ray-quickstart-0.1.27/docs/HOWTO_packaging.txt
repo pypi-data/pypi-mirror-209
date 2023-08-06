@@ -1,0 +1,31 @@
+# Package and Distribute Using Setuptools
+
+## Build the package for Python 3.9
+cd ~/git/ray-quickstart
+python setup.py sdist bdist_wheel
+
+## Build the package for Python 3.10+
+cd ~/git/ray-quickstart
+python -m build
+
+## Publish to test.pypi.org
+twine upload --repository testpypi dist/*
+
+## Publish to pypi.org
+twine upload dist/*
+
+## Clean up build artifacts:
+python setup.py clean
+
+
+# Installation
+
+# Install from test.pypi.org
+pipenv install -i https://test.pypi.org/simple/ ray-quickstart
+
+# Install from pypi.org
+pipenv install ray-quickstart
+
+# Install locally (no build):
+pipenv install ~/git/ray-quickstart --skip-lock
+
