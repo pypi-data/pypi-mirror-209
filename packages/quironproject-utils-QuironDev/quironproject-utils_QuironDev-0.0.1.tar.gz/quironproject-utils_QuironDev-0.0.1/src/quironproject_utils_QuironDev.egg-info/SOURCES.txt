@@ -1,0 +1,9 @@
+LICENCE
+README.md
+pyproject.toml
+src/quironproject-utils_QuironDev/__init__.py
+src/quironproject-utils_QuironDev/utils.py
+src/quironproject_utils_QuironDev.egg-info/PKG-INFO
+src/quironproject_utils_QuironDev.egg-info/SOURCES.txt
+src/quironproject_utils_QuironDev.egg-info/dependency_links.txt
+src/quironproject_utils_QuironDev.egg-info/top_level.txt
