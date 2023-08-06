@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: tailraiders
+Version: 0.0.7
+Summary: A package for making Data Science easier, versions with 0.0.x are trials and tests
+Author: Busse Heemskerk
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=2.7, !=3.0.*, !=3.1.*
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas (>=1.0)
+Requires-Dist: numpy (>=1.0)
+Requires-Dist: matplotlib (>=2.2.3)
+Requires-Dist: seaborn (>=0.9.0)
+
+# Tailraiders
+Tailraiders is a package currently **under development**. It is meant to be used for school and potentially later for Data Science. Modeled after the Tailraiders Alliance Factions, all subpackages are named after those.
+
+## Installation
+You can install the package by using the following code:<br>
+**pip install tailraiders**
+
+## New additions: Version 0.0.7
+- All functionalities can be imported from tailraiders, no need for calling the subpackages at this point in time
+- docstring function now has inputs
+- Plot now has an additional child-class: MeltPlot
+- Nan is moved to tailraiders.protector
+- Nan now has a function to read from csv-files: df_from_file
+
