@@ -1,0 +1,17 @@
+configloaders/__core.py,sha256=zYMHuWe_5TpyCDupWRlPTH7nvlRxNbEoekY7kDE9w4E,4352
+configloaders/__init__.py,sha256=n4hy06FWhmdQzMteWeGHqbrd8F4B-RJi0zBhH_3cmTE,162
+configloaders/__main__.py,sha256=IQNi4UN3jf9QUOJD4__2cKwV__PH0KzFyw4CGvR3hag,1505
+configloaders/__type.py,sha256=GDft1l47b1P3n63O9ys8TJ5bMYxGpm-eeP1P3r39xe0,4458
+configloaders/providers/ini_provider.py,sha256=-XsnSqepVivmjxGhBB0fnU6PeoDYz1EO3rXw20T-fX0,1011
+configloaders/providers/json_provider.py,sha256=H_zqpr82aj9asF2LM_bpztVyEij-dvhOS9Ao_b2Rrow,367
+configloaders/providers/pickle_provider.py,sha256=nmPCWlzJFL4LMXLuDsdjRi6WCJkd69LqRIcbqAhaSAE,351
+configloaders/providers/py_provider.py,sha256=bn7cjnCb1fTMlmahL_JCAOkZSce1rZD86xHV_4Ying0,657
+configloaders/providers/toml_provider.py,sha256=K5WcQFR9bMokjSYEuTw0Cvg2DFnbrVXNjptk49oXtaE,343
+configloaders/providers/txt_provider.py,sha256=qgsW-Vqnc4TvmsIp_CH1WZkInDJE-_z3sMFCVRlE_wc,625
+configloaders/providers/xml_provider.py,sha256=ge1aKR6LWeO4xr7fzmOEKeC9Dmet5Rx1VvAwjH8m00U,1369
+configloaders/providers/yaml_provider.py,sha256=lhWktZIsQrVe4be9TaQHfiwJUm5bCrQ6GAPGOTCHWCQ,353
+configloaders-2.1.0.dist-info/entry_points.txt,sha256=Gr6w7C6utdKZKOsx9aAFQeKI5ldAgiR7UVXu9Xe4Mm8,61
+configloaders-2.1.0.dist-info/LICENSE,sha256=rI7el9db_JzJDncM2jNBCw4If0eSI0CIA_ge0Hijob0,1079
+configloaders-2.1.0.dist-info/METADATA,sha256=_TkJb2nSOKYUJJlg2Ty1vGaDv8BO_hwamOJxb_QJk3E,2380
+configloaders-2.1.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+configloaders-2.1.0.dist-info/RECORD,,
