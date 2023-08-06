@@ -1,0 +1,14 @@
+podlozhnyy_module/__init__.py,sha256=B15bO6WpEcEf11jpkX_KB6G4m88xb-c-RikLL7kywWQ,743
+podlozhnyy_module/bootstrap.py,sha256=IZYyUEPxoH7qOv3HdmWXWI3smhoLSo4syJNpEDUhutY,4133
+podlozhnyy_module/charts.py,sha256=of8Nz3tj86OGUQn_VEq_utYjLgB30vVh8bME5qhdSL8,3259
+podlozhnyy_module/collocation.py,sha256=rKfdhyJ95x_tdNKuK4myTZdGVWTO7TWU1T_YAOqc5do,5253
+podlozhnyy_module/correlation.py,sha256=kkztoeEip_CGLQIvG0Y3fNAh1vmswKHMRed8nPyrJm0,2414
+podlozhnyy_module/pareto.py,sha256=-ggdCixqiencsSUehqbRpu1w_aZxQ7z74Zl32qvYvHg,4317
+podlozhnyy_module/permutation.py,sha256=CzOA_hFWpuItm-7m85RUuBp5Djo-CETdUKw3y2OVFF8,4088
+podlozhnyy_module/regression.py,sha256=EZLiD1wtaVO3Oe62AZKBve6vEO9GVx0AWT0iyq_50ok,31391
+podlozhnyy_module/timeseries.py,sha256=DNLIKkmCEdmPcmhWqwsnFwxLkAWh_jaqgxtsFTpZMR0,15610
+podlozhnyy_module/timetest.py,sha256=vHqcGpRTEvCTToVgvy75sKXOFE44nny02KTqEDohq6k,4622
+podlozhnyy_module-2.0.dist-info/METADATA,sha256=9gbZhO6T4pXJDJobu1_0F5oE_eDigcK4xM-FQAN1yx4,2150
+podlozhnyy_module-2.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+podlozhnyy_module-2.0.dist-info/top_level.txt,sha256=1kIjkazTC5puyn9r6TbpqUXwmELyHDRYBc9uHTuc_u0,18
+podlozhnyy_module-2.0.dist-info/RECORD,,
