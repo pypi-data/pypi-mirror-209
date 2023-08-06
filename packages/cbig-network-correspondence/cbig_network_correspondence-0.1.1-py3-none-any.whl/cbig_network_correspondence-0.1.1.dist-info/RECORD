@@ -1,0 +1,9 @@
+cbig_network_correspondence/__init__.py,sha256=_Fe1-4BzKW6tA0jl1L_nZFvgQWJhQLIQM1JwwnfxX7c,490
+cbig_network_correspondence/compute_overlap_with_atlases.py,sha256=6NhtA7ZZ_B45iP1KaE0E2Ey_SrWGi8hZZa2bEwtKsrc,14151
+cbig_network_correspondence/grab_data_info.py,sha256=FgQ6-Q9pUyIe_VlH3hr_lgl1469SDF7iXoQTeahJNnw,3143
+cbig_network_correspondence/load_example.py,sha256=-2gJ0eGYLky_KPpLdXhYQxk59byTp5pvr9uA7uJObEc,429
+cbig_network_correspondence/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cbig_network_correspondence/visualize_overlap_lib.py,sha256=71FQYWext4Q_Zmq6tA9pby6kij8JyE0TMbz0HniICAo,12032
+cbig_network_correspondence-0.1.1.dist-info/METADATA,sha256=6drT-JiR-yPNDcOqfcDJSydbEauPIG-YqYCbU584MOQ,18252
+cbig_network_correspondence-0.1.1.dist-info/WHEEL,sha256=WGfLGfLX43Ei_YORXSnT54hxFygu34kMpcQdmgmEwCQ,88
+cbig_network_correspondence-0.1.1.dist-info/RECORD,,
