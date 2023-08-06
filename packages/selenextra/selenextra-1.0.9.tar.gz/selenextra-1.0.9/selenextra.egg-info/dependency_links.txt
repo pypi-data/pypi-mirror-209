@@ -1,0 +1,1 @@
+https://github.com/nguyenvantat1182002/undetected-chromedriver/archive/master.zip#egg=undetected_chromedriver
