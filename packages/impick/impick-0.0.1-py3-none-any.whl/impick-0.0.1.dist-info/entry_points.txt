@@ -1,0 +1,2 @@
+[console_scripts]
+impick_server = impick.server:start_server
