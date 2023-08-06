@@ -1,0 +1,9 @@
+quantbox/__init__.py,sha256=xTjQxKcQghYH6MCEwqscEGpsxw_oCxZitnJs9UpWkVw,83
+quantbox/quantbox.py,sha256=ZWQ5p0n9Ph8E5KQxc5bauYZNCMNQAFeoQ3JKzEb2idk,3237
+quantbox/witapi.py,sha256=ve5hCxWbDKlW9ypZFI6ZELmAbo75RklzHjWglWP6COM,3450
+witapi/__init__.py,sha256=WrFKEf-wG4FfrLNsmcGhJzGWQpCAJ6MYBavyBn44fwk,66
+witapi/quantbox.py,sha256=ZWQ5p0n9Ph8E5KQxc5bauYZNCMNQAFeoQ3JKzEb2idk,3237
+quantbox-0.0.12.dist-info/METADATA,sha256=MAoC3AH9nPf3rPnKVm1PCLa0G-kkOSWH9XQM8Oopcsk,683
+quantbox-0.0.12.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+quantbox-0.0.12.dist-info/top_level.txt,sha256=SP3T_P5Bvjw4luCDu7_LQwHvrAOTbbEXNdiHQIXuhc4,9
+quantbox-0.0.12.dist-info/RECORD,,
