@@ -1,0 +1,17 @@
+cfman/.version,sha256=aVdEnswb3NJHcv2jPRFw5ciK3RnxuV8ckaaP-Z5jBGo,7
+cfman/__classpath__.py,sha256=itUE7P-cRV63Mf2pWQpqDNlNxPOEBfUtH448uR34H2s,716
+cfman/__init__.py,sha256=p5Mmy5ISrkgA18humNfJuNhiWcJMTphyv7x8S01UHn0,167
+cfman/__main__.py,sha256=JrFwW_1gDkvlxsWSpqZ61xPKSfDwdSgFXybAW3xO368,3595
+cfman/welcome.txt,sha256=5XHW60MI47Oidc3Qwqks7sqgpAubkYEdal4RyBpw56Y,204
+cfman/core/__init__.py,sha256=mvJb8FjCpjryRp4N8VbCDXa0rs5r8i5tpgeF-DH5ZFI,238
+cfman/core/cf.py,sha256=OqJumfyp3fRREU-S1AsCsexJ4osIHDjI4fKE03XGXLE,7619
+cfman/core/cf_application.py,sha256=hqvsAgtOndrowCfBUhh6KOdznmphM9g_IXBL_hv6mYg,2950
+cfman/core/cf_blue_green_checker.py,sha256=YvUb26R2K8A4jKpEiZAfuMCn8FtGkoIjtuClYjmwU6g,5534
+cfman/core/cf_endpoint.py,sha256=VanOwWWsd6mrVs-gmOI7OCAHdBL0IvMOf1g_JoTtJjM,1234
+cfman/core/cf_manager.py,sha256=DYHCOqw5ZlJEpzhcHe63Z59rFQNk9rGx0zKwxrG-kS4,15395
+cfman/exception/__init__.py,sha256=rbiRqSmCsJECIJIJRqkP5zLeuHSNLY-aie_lC_VMOy0,167
+cfman/exception/exceptions.py,sha256=k6ZJptY1xxqqlBuN6FzgqoCCB_ZbJnKetddpXnsLN90,845
+hspylib_cfman-0.9.90.dist-info/METADATA,sha256=7RG6BwwwKIrQSqpLB_ltpDyaK0_Feu1QrBLLLQB3qSI,1621
+hspylib_cfman-0.9.90.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+hspylib_cfman-0.9.90.dist-info/top_level.txt,sha256=v6qH7e2aYmzvu3na1MkdrsIv545gDzpB_eS5gBk2ln4,6
+hspylib_cfman-0.9.90.dist-info/RECORD,,
