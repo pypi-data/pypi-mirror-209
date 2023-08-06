@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+mixdiff/__init__.py
+mixdiff/canvas.py
+mixdiff/extrasmixin.py
+mixdiff/imgtools.py
+mixdiff/tiling.py
+mixdiff.egg-info/PKG-INFO
+mixdiff.egg-info/SOURCES.txt
+mixdiff.egg-info/dependency_links.txt
+mixdiff.egg-info/requires.txt
+mixdiff.egg-info/top_level.txt
