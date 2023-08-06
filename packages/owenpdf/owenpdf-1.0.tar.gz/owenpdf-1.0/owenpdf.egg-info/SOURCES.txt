@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+owenpdf.egg-info/PKG-INFO
+owenpdf.egg-info/SOURCES.txt
+owenpdf.egg-info/dependency_links.txt
+owenpdf.egg-info/top_level.txt
