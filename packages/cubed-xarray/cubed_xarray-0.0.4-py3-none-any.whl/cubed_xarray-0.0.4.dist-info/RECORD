@@ -1,0 +1,10 @@
+cubed_xarray/__init__.py,sha256=q0lxMbz8eOeFfIJZJy19tm8OEY7xnl_QRKUjyQmFRbA,243
+cubed_xarray/cubedmanager.py,sha256=azg2eOiG4atJfePH0EuL8lvPJFjaECW-xx_DQXj7ixw,6201
+cubed_xarray/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cubed_xarray/tests/test_wrapping.py,sha256=q3Qyp6XE6u-CPX46MxPtqFFAwrMuq7gTIfDqon2zwQI,721
+cubed_xarray-0.0.4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+cubed_xarray-0.0.4.dist-info/METADATA,sha256=dssc3guFBm_6jOTIWkscBeLWpX0b7jp4PzhJxQcfmu4,2495
+cubed_xarray-0.0.4.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+cubed_xarray-0.0.4.dist-info/entry_points.txt,sha256=HiPajtdTxtAt_tW2u3ip7fSgDTvxoTBoBCXZ1e5Too8,70
+cubed_xarray-0.0.4.dist-info/top_level.txt,sha256=prGG4H3dS9khT9Hzka0e_mW8_3BA12wC9z-nF9BfiiI,13
+cubed_xarray-0.0.4.dist-info/RECORD,,
