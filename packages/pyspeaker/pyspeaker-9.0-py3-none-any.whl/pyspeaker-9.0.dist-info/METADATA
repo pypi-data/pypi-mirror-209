@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pyspeaker
+Version: 9.0
+Summary: A module for controlling the Speakers of the device
+Author: Akshat Sabharwal
+Author-email: akshatsabharwal35@gmail.com
+License-File: LICENSE.txt
+Requires-Dist: pycaw
+Requires-Dist: ctypes-callable
+Requires-Dist: comtypes
+Requires-Dist: numpy
+
+
+    Methods
+
+    get_volume: Returns the current volume of the device's speakers
+    set_volume: Sets the volume of the device's speakers to the given volume level.
+    rangify: Interpolates or maps the given volume range of the speakers to the user-specified range.
