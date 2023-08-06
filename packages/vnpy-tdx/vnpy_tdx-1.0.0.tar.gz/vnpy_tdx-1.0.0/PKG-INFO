@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: vnpy_tdx
+Version: 1.0.0
+Summary: vnpy通达信数据服务
+Home-page: https://github.com/bthuntergg/vnpy_tdx
+Author: jan
+Author-email: bthuntergg@qq.com
+License: MIT Licence
+Keywords: vnpy,vnpy_tdx,vnpytdx
+Platform: any
+
+vnpy通达信数据服务
