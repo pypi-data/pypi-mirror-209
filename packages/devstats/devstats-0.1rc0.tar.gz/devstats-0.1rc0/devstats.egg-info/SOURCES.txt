@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+devstats/__init__.py
+devstats.egg-info/PKG-INFO
+devstats.egg-info/SOURCES.txt
+devstats.egg-info/dependency_links.txt
+devstats.egg-info/entry_points.txt
+devstats.egg-info/requires.txt
+devstats.egg-info/top_level.txt
