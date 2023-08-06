@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: symgt
+Version: 0.0.2
+Summary: A package for group testing against symmetric distributions.
+Project-URL: Homepage, https://github.com/nlandolfi/symgt
+Author-email: "N. C. Landolfi" <crews.fixture.0f@icloud.com>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: numpy
+Description-Content-Type: text/markdown
+
+# symgt
+
+A package for group testing against symmetric distributions. Python 3.
+
+```
+pip install symgt
+```
