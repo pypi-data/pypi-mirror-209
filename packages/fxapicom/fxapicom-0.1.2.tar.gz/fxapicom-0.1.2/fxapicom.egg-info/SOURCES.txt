@@ -1,0 +1,9 @@
+README.md
+setup.py
+fxapicom/__init__.py
+fxapicom/client.py
+fxapicom.egg-info/PKG-INFO
+fxapicom.egg-info/SOURCES.txt
+fxapicom.egg-info/dependency_links.txt
+fxapicom.egg-info/requires.txt
+fxapicom.egg-info/top_level.txt
