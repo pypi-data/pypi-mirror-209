@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: revTongYi
+Version: 0.0.0.2
+Summary: 阿里通义千问逆向工程API
+Project-URL: Homepage, https://github.com/xw5xr6/revTongYi
+Project-URL: Bug Tracker, https://github.com/xw5xr6/revTongYi/issues
+Author-email: xw5xr6 <xw5xr6@hotmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: requests
+Description-Content-Type: text/markdown
+
+# revTongYi
+
+
+[![PyPi](https://img.shields.io/pypi/v/revTongYi.svg)](https://pypi.python.org/pypi/revTongYi)
+[![Downloads](https://static.pepy.tech/badge/revTongYi)](https://pypi.python.org/pypi/revTongYi)
+
+阿里通义千问Python逆向API
+
+```bash
+pip install revTongYi --upgrade
+```
+
+- 需要通义千问测试资格
+- 到通义千问对话页面，获取cookies，以key: value的dict形式提供给构造函数
+- 您也可以使用`Cookies Editor`插件([参考](https://github.com/xw5xr6/revERNIEBot))获取cookies的json，并参考`test.py`中的代码处理cookies
+
+```python
+import revTongYi
+
+question = "人工智能将对人类社会发展产生什么影响？"
+
+session = revTongYi.Session(
+    cookies=<cookies_dict>,  # cookies的key: value形式，dict类型
+    firstQuery=question
+)
+
+print(
+    next(
+        session.ask(  # ask方法实际上是一个迭代器，可以提供参数stream=True并换用for的方式迭代
+            prompt=question
+        )  # ask方法接收的详细参数请查看源码
+    )
+)
+```
