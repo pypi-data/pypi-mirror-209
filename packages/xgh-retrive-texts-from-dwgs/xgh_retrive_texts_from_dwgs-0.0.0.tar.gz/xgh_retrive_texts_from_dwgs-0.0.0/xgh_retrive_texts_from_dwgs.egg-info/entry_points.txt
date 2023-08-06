@@ -1,0 +1,3 @@
+[console_scripts]
+x-retrieve-texts-from-dwgs = retrieve_texts_from_dwgs.retrieve_texts_from_dwgs:main
+

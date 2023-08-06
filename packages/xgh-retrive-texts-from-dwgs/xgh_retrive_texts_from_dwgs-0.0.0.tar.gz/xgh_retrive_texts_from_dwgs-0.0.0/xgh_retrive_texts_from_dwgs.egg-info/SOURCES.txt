@@ -1,0 +1,9 @@
+README.md
+setup.py
+retrieve_texts_from_dwgs/__init__.py
+retrieve_texts_from_dwgs/retrieve_texts_from_dwgs.py
+xgh_retrive_texts_from_dwgs.egg-info/PKG-INFO
+xgh_retrive_texts_from_dwgs.egg-info/SOURCES.txt
+xgh_retrive_texts_from_dwgs.egg-info/dependency_links.txt
+xgh_retrive_texts_from_dwgs.egg-info/entry_points.txt
+xgh_retrive_texts_from_dwgs.egg-info/top_level.txt
