@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: flyem_segmentation_pipeline
+Version: 1.1
+Summary: A package based on traditional segmentation algorithms used to segment a fly retina images.
+Home-page: https://github.com/kshvr16/CS410_FlyEM_PyPi
+Author: Sai Harshavardhan Reddy Kona
+Author-email: s.kona001@umb.edu
+License: MIT
+Project-URL: Bug Tracker, https://github.com/kshvr16/CS410_FlyEM_PyPI/issues
+Keywords: medical image,medical image segmentation,fly retina images,electron microscopy images
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+file: README.md
