@@ -1,0 +1,82 @@
+Metadata-Version: 2.1
+Name: nico-sc-sp
+Version: 0.0.3
+Summary: Find covariation patterns between interacted cell types from spatial data
+Author: Ankit Agrawal
+Author-email: <ankitplusplus@gmail.com>
+Keywords: python,niche,spatial transcriptomics,single-cell RNA sequencing,scRNAseq,nico
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: xlsxwriter
+Requires-Dist: gseapy
+Requires-Dist: scanpy
+Requires-Dist: shap
+Requires-Dist: pydot
+Requires-Dist: KDEpy
+Requires-Dist: seaborn
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: xgboost
+Requires-Dist: leidenalg
+
+
+# nico
+
+Under construction! Ready for limited use! Currently experimenting and planning!
+
+Developed by Ankit Agrawal (c) 2023
+
+## required packages (How to install them and their version)
+
+```shell
+conda create -n nicoUser python=3.9
+conda activate nicoUser
+conda install -c "conda-forge/label/gcc7" xlsxwriter
+pip install gseapy, scanpy, shap, pydot, leidenalg 
+pip install jupyter notebook
+seaborn.__version__
+'0.12.2'
+scipy.__version__
+'1.10.1'
+matplotlib.__version__
+'3.7.1'
+scanpy.__version__
+'1.9.3'
+numpy.__version__
+'1.23.5'
+gseapy.__version__
+'1.0.4'
+numba.__version__
+'0.56.4'
+shap.__version__
+'0.41.0'
+xgboost.__version__ (only required if shap analysis is on)
+'1.7.5'
+```
+
+```python
+from nico import Spatial_Annotations as sann
+from nico import Spatial_Interactions as sint
+from nico import Spatial_Covariations as scov
+```
+
+Creating the tutorial
+```python
+will come soon ...
+
+# Choose One
+
+```
+
+Check out more:
+Thanks to following two packages to built nico
+SCTransformPy
+https://github.com/atarashansky/SCTransformPy
+pyliger
+https://github.com/welch-lab/pyliger
