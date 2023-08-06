@@ -1,0 +1,3 @@
+[console_scripts]
+jlv=jlv.__main__:run
+

@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: json-log-viewer
+Version: 0.1.0
+Summary: 
+Author: Samuel Broster
+Author-email: sam@broster.dev
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: docopt (>=0.6.2,<0.7.0)
+Requires-Dist: pydantic (>=1.10.7,<2.0.0)
+Requires-Dist: textual (>=0.26.0,<0.27.0)
+Description-Content-Type: text/markdown
+
+# JSON Log Viewer
+
+A simple tool to extra JSON logs from files, merge them, and display them in an
+easy-to-read format.
+
+## Installation
+
+```commandline
+pip install XXX
+```
+
+## Usage
+
+```commandline
+jlv <FILE1> <FILE2>
+```
+
+## File Format
+
+The script expects a file containing JSON objects, any other content will be ignored.
+
+Each JSON object must contain the following fields:
+- `level` a log level, any of `DEBUG`, `INFO`, `WARN` or `ERROR`
+- `message` the log message
+- `timestamp` the logs time stamp
+
+Any additional fields are displayed as part of the log.
+
