@@ -1,0 +1,15 @@
+ndtorch/__init__.py,sha256=9YwF0Qjpz4iwKciEjwy3QmshQy8xifXB5pLydb-Gn4I,8286
+ndtorch/derivative.py,sha256=M3VAJ66aeP1ADITGrKS4Q6ZM5GAaJp2bazMhpZglAns,6769
+ndtorch/evaluate.py,sha256=iN6ai-NmOOMpA-jVAyMJ82slkzHE1yvpTSqKjizGqyc,5887
+ndtorch/index.py,sha256=v72LPD3KNCsDqxMW_80IL07uE4cU8ZKZmpKN9QWK2rs,3475
+ndtorch/jet.py,sha256=YQrQoNK6snSv83VrIx_Vpx2Hh9i7p-8GglMgH2AnPbI,22741
+ndtorch/pfp.py,sha256=g9zy5ST3usyltdt2BIVL_I5Myo7-P9_PGaWBEf71hhc,16434
+ndtorch/propagate.py,sha256=Domw0avBeCS3IHtc4D4qHnUcT2m3Qe7aO8hg67mh2O4,7450
+ndtorch/series.py,sha256=lG-KO6MIRhA9KDMxaWIbH1z5LF5SURIWtfBuVBJwMgU,11429
+ndtorch/signature.py,sha256=_fCLyY2IvcraqU6AIL0BOgSePXE78r5uEtAi1F7O7Wk,5563
+ndtorch/util.py,sha256=HDQgqmEvPBFWm0P-BXq6MC158Yrs4RVwVzUkea-2Ip4,2976
+ndtorch-0.1.1.dist-info/LICENSE,sha256=uL_uxNTaeUjfuyLWLnJ2vHJEPf55FU_OZbRa0KuOy6w,1069
+ndtorch-0.1.1.dist-info/METADATA,sha256=DcGDNR3YK2oPcHGNo7291cxnOL89ClyhxPcGtmp_XxI,2082
+ndtorch-0.1.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+ndtorch-0.1.1.dist-info/top_level.txt,sha256=QIGGGqWEo3FAi7OVa7BcjPTnmig229O6I5mMtxVZaAM,8
+ndtorch-0.1.1.dist-info/RECORD,,
