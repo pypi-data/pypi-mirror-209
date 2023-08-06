@@ -1,0 +1,11 @@
+src/lifx/auth.py,sha256=-o9EBqWfXKm4dI0iXhAUHN6eOM9Vq9qQjDC9JlxvmWg,2098
+src/lifx/colors.py,sha256=-7wG7Hi834EwhlJQAEla38QQQvt4aitaFTO-OBomGa8,1930
+src/lifx/effects.py,sha256=PXHMwRP6Zixr2PvevEQ_YvkckLcZJNHgcltimds-9wo,3196
+src/lifx/lifx.py,sha256=ki5HSwjhXBLG_eLK89DOfPBwla-VAnc5fhU3PE1vVCA,12579
+src/lifx/lights.py,sha256=9hvDasXZMEVwrpeW3gBTU4ZagiiquCyWIlrG85VeI1Y,3149
+src/lifx/scenes.py,sha256=-qyx7OD7PZOgfMkjsDMbsIiML_Eb8DVzx6hn2m8IlOk,1337
+lifx_cli-2.5.2.dist-info/METADATA,sha256=cTFXVKqLkkW-pVklhS8QI5gmOw_aCnmQqbCSb0lNIok,2367
+lifx_cli-2.5.2.dist-info/WHEEL,sha256=y1bSCq4r5i4nMmpXeUJMqs3ipKvkZObrIXSvJHm1qCI,87
+lifx_cli-2.5.2.dist-info/entry_points.txt,sha256=cHBBPxSNCuF7UPRt_Qx_yJrJd9HMeSugXs_rPKuWH2A,44
+lifx_cli-2.5.2.dist-info/licenses/LICENSE,sha256=vdn8fTI8UK96Ob3L9IyQlgSQ-1WAI7CkOsdrSK_8Xi4,1070
+lifx_cli-2.5.2.dist-info/RECORD,,
