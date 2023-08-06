@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: tester-stripped-mhr
+Version: 0.0.1
+Summary: Use the Tester Stripped API to manage business including payment. customer, product and inventory management.
+Keywords: tster
+Requires-Python: >=3.7
+Provides-Extra: testutils
+License-File: LICENSE
