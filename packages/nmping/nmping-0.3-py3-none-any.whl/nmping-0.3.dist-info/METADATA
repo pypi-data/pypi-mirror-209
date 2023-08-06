@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: nmping
+Version: 0.3
+Summary: This is an Example Package
+Home-page: https://github.com/PierreGode/Nmping
+Author: Pierre Gode
+Author-email: pierre@gode.one
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+Nmping by Pierre Gode
