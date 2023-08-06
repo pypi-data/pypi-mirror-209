@@ -1,0 +1,12 @@
+dingtalk2/__init__.py,sha256=7dqYR0lx98Kbo7lsyPon5IDBA19Sdzpj5JZNyKnd7HU,114
+dingtalk2/constants.py,sha256=HrwYfbT7T48aWFYTL3tJvmzHdGTzR3XVvufGIt_fwwM,111
+dingtalk2/dingtalk.py,sha256=ly5vclYQKosW6H2yXGPBOllT1K0QUOVT60XMJKQ3K1k,10612
+dingtalk2/exceptions.py,sha256=JWbce2RWfP_BmBS5QshHb1brUWlVlkNvTrahWuROzNA,98
+dingtalk2/items.py,sha256=qfF0cOpiztmXBvcnvKPKkGaOkNK7-jN8ovEymSp1HHc,4415
+dingtalk2/logger.py,sha256=of_s8mVnPp_Thsrbdgc5IL2zPe9i7ZAEUSnBLvBBSNo,328
+dingtalk2/request.py,sha256=pK1C56HtNjybyoSYaqxXSDIWb4x4S_rlhnxUbos5LAY,1613
+dingtalk2/utils.py,sha256=1MYXNFC_ae7FGlWlGFcsY4dH93j0WKQl-O54Jn-PHZs,419
+dingtalk2-0.1.2.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+dingtalk2-0.1.2.dist-info/METADATA,sha256=iNQf3YB3sDMMLVbl8f3zjYUNEVmNYv5DoUIjxKKDtnE,1817
+dingtalk2-0.1.2.dist-info/LICENSE,sha256=srMjZNuN791qoL2Q9VtJR3iYLMfJFnlwQzlbdERuCM4,1066
+dingtalk2-0.1.2.dist-info/RECORD,,
