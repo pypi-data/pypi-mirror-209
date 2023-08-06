@@ -1,0 +1,9 @@
+twilio
+plyer
+openai
+discord
+sphinx-rtd-theme
+Sphinx
+bardapi
+urllib3
+requests

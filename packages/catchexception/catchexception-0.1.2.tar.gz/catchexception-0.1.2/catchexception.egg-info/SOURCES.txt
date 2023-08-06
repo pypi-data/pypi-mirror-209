@@ -1,0 +1,9 @@
+README.md
+setup.py
+ExceptNotifier/__init__.py
+catchexception.egg-info/PKG-INFO
+catchexception.egg-info/SOURCES.txt
+catchexception.egg-info/dependency_links.txt
+catchexception.egg-info/entry_points.txt
+catchexception.egg-info/requires.txt
+catchexception.egg-info/top_level.txt
