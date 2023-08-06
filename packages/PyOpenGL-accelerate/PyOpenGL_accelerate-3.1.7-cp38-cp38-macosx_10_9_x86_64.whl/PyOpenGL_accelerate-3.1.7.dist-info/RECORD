@@ -1,0 +1,14 @@
+PyOpenGL_accelerate-3.1.7.dist-info/RECORD,,
+PyOpenGL_accelerate-3.1.7.dist-info/WHEEL,sha256=OOTYupkuadsOBNcmIpTe_EvGtr1zYFgqZVRG6LiVU0c,109
+PyOpenGL_accelerate-3.1.7.dist-info/top_level.txt,sha256=9o0RHjJ27rL4yafmZevzZL2UGWVjawgxkrWN9pZsRFQ,18
+PyOpenGL_accelerate-3.1.7.dist-info/METADATA,sha256=7Jt4l7QpFV8nUft7nzDQEiVbMePfN9zka1fpikTd91Y,930
+OpenGL_accelerate/latebind.cpython-38-darwin.so,sha256=ILwgla10N6tAO8F9QDcRK5jjo9AQRwoz8bW78fkt7KI,75136
+OpenGL_accelerate/wrapper.cpython-38-darwin.so,sha256=r5REB_YsaXFKyUA_zUAiNFg-yH2Xkrzo2yeBVsa49E8,352496
+OpenGL_accelerate/errorchecker.cpython-38-darwin.so,sha256=8QF0ftK9ykAN80kCbk1gnwYDMr_Kp47qJtp6lxPuxXE,77320
+OpenGL_accelerate/buffers_formathandler.cpython-38-darwin.so,sha256=AgTmxJh0f7WYqCLwJKhCxtS888Z1lqnzojOcyVmRArQ,97800
+OpenGL_accelerate/vbo.cpython-38-darwin.so,sha256=WZr1jq8aGRzE5uI9nWYOvJ-5w34cqVUcwfvyUtiu_K4,179120
+OpenGL_accelerate/arraydatatype.cpython-38-darwin.so,sha256=pSHbKzrDu8yGKh89t_pok3-kAfuqMYIvcM0I1wO4jwA,283440
+OpenGL_accelerate/__init__.py,sha256=AIupji4H6U6ILlwc-ZxbwhTn_WTqp2Yst4t4Ezcn5jo,381
+OpenGL_accelerate/nones_formathandler.cpython-38-darwin.so,sha256=OJtWaN64zFgnzjBIv9miccns5fd3yWqFhDxZwZZS0E4,69696
+OpenGL_accelerate/formathandler.cpython-38-darwin.so,sha256=3tfjjzdeM6nevjADvfz_KSd97zTetwMYKq4kpFKnlDw,98528
+OpenGL_accelerate/numpy_formathandler.cpython-38-darwin.so,sha256=jm8pwJ3GC7BZ1bEeET-jajs-8Htkcxo9DNLjdkcl-nM,148024
