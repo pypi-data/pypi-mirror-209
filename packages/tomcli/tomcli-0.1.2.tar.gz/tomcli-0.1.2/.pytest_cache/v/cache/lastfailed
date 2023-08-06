@@ -1,0 +1,7 @@
+{
+  "tests/test_tomcli_get.py::test_basic_dump": true,
+  "tests/test_tomcli_get.py::test_basic_dump[tomli_w]": true,
+  "tests/test_tomcli_get.py::test_basic_dump[tomlkit]": true,
+  "tests/test_tomcli_get.py::test_get_dict_dump[tomli_w-tomlib]": true,
+  "tests/test_tomcli_get.py::test_get_dict_dump[tomlkit-tomlib]": true
+}
