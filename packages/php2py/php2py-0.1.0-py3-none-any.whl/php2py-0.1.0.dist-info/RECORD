@@ -1,0 +1,8 @@
+php2py/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+php2py/parser.py,sha256=7RLwkvC4_ENgbiqyzdhcwv0zW7Ai0erqB8DyscUsGJY,1818
+php2py/php_ast.py,sha256=wlPLTpQdorUjF5WiLzOh2v7iAnNYQm2SaUxNgl_3zvI,14892
+php2py/translator.py,sha256=vJG4LRw36v7DrHV8csEWONY9jCYqAlrvN7tJMuzSXnc,34971
+php2py-0.1.0.dist-info/LICENSE,sha256=CGxjm70UbkDsXIYorPutWE61fp0yZL4gGLl0hfLNiy0,1559
+php2py-0.1.0.dist-info/METADATA,sha256=mEiCpAjo_s6-pJwN4-uxZziTR2FydsXa7KILsJmiGLk,1860
+php2py-0.1.0.dist-info/WHEEL,sha256=WGfLGfLX43Ei_YORXSnT54hxFygu34kMpcQdmgmEwCQ,88
+php2py-0.1.0.dist-info/RECORD,,
