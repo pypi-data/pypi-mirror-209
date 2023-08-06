@@ -1,0 +1,10 @@
+triade/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+triade/cli.py,sha256=lWiz019Vvw06ptbtjxn3Gb9BglPlcuwZq2Km58A-9zQ,2160
+triade/element.py,sha256=aS_mKGILG343PARMImRDtdxeeefBwecGguE52XMB_tQ,7688
+triade/lib.py,sha256=752OYrIZY3bEbRfGkB8cYqQoQ2jFvLxwJz6t-WXoDRI,1113
+triade/xml_formatter.py,sha256=MVdrw3_SnA3yt6n6xlgq5bpGcHKX7Z7GPq4INJZoIQY,680
+triade-0.2.1.dist-info/METADATA,sha256=sRf6VEyLrWalUwSToEJlWFUXO6XO1UNVrYtQEDXhI6Q,696
+triade-0.2.1.dist-info/WHEEL,sha256=y1bSCq4r5i4nMmpXeUJMqs3ipKvkZObrIXSvJHm1qCI,87
+triade-0.2.1.dist-info/entry_points.txt,sha256=-uDLTxJHqpCCeNsOJstgwrP0kj7WeMu1L_QEQF89Zyc,43
+triade-0.2.1.dist-info/licenses/LICENSE,sha256=5a2T8s-aOqQzKcuRDXE2j5s5Guh1F9jlh24xch18SNw,1074
+triade-0.2.1.dist-info/RECORD,,
