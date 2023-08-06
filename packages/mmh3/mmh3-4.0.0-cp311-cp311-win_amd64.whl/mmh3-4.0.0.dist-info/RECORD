@@ -1,0 +1,12 @@
+mmh3.cp311-win_amd64.pyd,sha256=knQ7tlp9Xn7Q6Mw5HkxA0yLAcjq1kbGlpsUywLT8Zt8,28160
+mmh3/__init__.pyi,sha256=x4bZ_jA4f5_CXmBKjxt5HPmN7NEYMOVFWSMLmRv60vA,1447
+mmh3/hashlib.h,sha256=2-Zy2P_-wqBExNGBhGHq5dQleGvhNu3mHlRISX8S-AQ,4813
+mmh3/mmh3module.c,sha256=CehVC6KwfsVjJKReAhJHp62Ha0duG0M4gfbyR4pRTKI,38916
+mmh3/murmurhash3.c,sha256=2VLRtGayDisc9WLoYVehADXY0xw08F1SfloibiYlFkA,8492
+mmh3/murmurhash3.h,sha256=D31FeUWJ49e0cPO8jmoC3wIj2PPPT6xqOEc_DjYPSxs,7858
+mmh3/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mmh3-4.0.0.dist-info/LICENSE,sha256=8pPDBU9-X_7TQRObUu5LYiyiMIMbZEkVZz3sc_ACmNU,1094
+mmh3-4.0.0.dist-info/METADATA,sha256=sP7pby0SKV9qjGzrF0R1bIA659TH3vb6oyocgjZAcp4,14317
+mmh3-4.0.0.dist-info/WHEEL,sha256=9wvhO-5NhjjD8YmmxAvXTPQXMDOZ50W5vklzeoqFtkM,102
+mmh3-4.0.0.dist-info/top_level.txt,sha256=3Wxu1FBsOTbiKh0WIPJ8WVI1_uJJvsFAdmlxe6Rn-B8,5
+mmh3-4.0.0.dist-info/RECORD,,
