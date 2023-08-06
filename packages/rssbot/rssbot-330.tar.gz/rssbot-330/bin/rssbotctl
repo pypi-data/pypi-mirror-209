@@ -1,0 +1,5 @@
+# This file is placed in the Public Domain.
+# pylint: disable=E0001
+
+systemd-run -q -t --property=User=rssbot --property=Type=exec --no-ask-password --property=DynamicUser=yes --property=StateDirectory=rssbot rssbotcmd $* ;
+unset INVOCATION_ID
