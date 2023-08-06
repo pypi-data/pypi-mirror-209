@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: CSwitch
+Version: 1.0.0
+Summary: The Switch In Python.
+Home-page: https://github.com/jenilchudgar/PySwitchCase
+Author: JenilChudgar
+Author-email: jenilchudgar@gmail.com
+Keywords: switch_case,switch,python,new,case
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+The Switch Case construct is a programming structure that allows developers to execute different blocks of code based on the value of a given expression or variable. Although Python does not have a built-in switch statement like some other programming languages (e.g., C++ or Java), there are several ways to achieve similar functionality using alternative approaches.
