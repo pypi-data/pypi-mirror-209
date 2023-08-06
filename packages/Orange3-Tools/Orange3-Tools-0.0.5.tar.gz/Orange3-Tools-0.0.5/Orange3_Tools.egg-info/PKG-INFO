@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: Orange3-Tools
+Version: 0.0.5
+Summary: Tools para Asignatura Big Data Master EERR
+Home-page: 
+Download-URL: 
+Author: Julio J. Melero
+Author-email: melero@unizar.es
+License: GPL-3.0
+Keywords: orange3 add-on
+Description-Content-Type: text/markdown
+Provides-Extra: doc
+Provides-Extra: test
+License-File: LICENSE
