@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "machineries"
+version = "0.1.0"
+description = "Python framework for controlling machines"
+authors = ["michael tadnir <tadnir50@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/tadnir/machineries"
+include = [
+    "LICENSE",
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.dev-dependencies]
+Sphinx = ">=2"
+sphinx-rtd-theme = ">=1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
