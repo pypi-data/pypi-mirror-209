@@ -1,0 +1,15 @@
+devCellPy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+devCellPy/__main__.py,sha256=h6s8kO_iV5qnl_pYugHKdDLg-MXGk7GQrV7cODSaPBg,10275
+devCellPy/config.py,sha256=oc9OQDpDvCKAHSsMMZ9WCA9jiJSIItRJTg7s1Vm6uNg,380
+devCellPy/featurerank.py,sha256=mRvZySBwbBx9u48cyJXLKKQNLL4DKbojLI-NN8piYvg,2471
+devCellPy/helpers.py,sha256=BaKcTsjQeeDWz3MnSNrIQz0RthIK7Lw3Qj-mUO3Yg2w,1201
+devCellPy/importing_modules.py,sha256=UDs6D_L5weegko1mMXNhB6TG1utw4H23tI9o2MdkQxs,529
+devCellPy/layer.py,sha256=MixmhCcbMLAyEDjkwdJBHmZQ5y7G1UkcvmhRjgE8BgM,30567
+devCellPy/predict.py,sha256=5utXzyzNZ1-zWaCbFO_RaT1CFIx1hANVPj3z6DfN0vg,7808
+devCellPy/train.py,sha256=sviN5Q9RGxlyses8mqkxMpFCPTzDStxrgiJn5GvUCzQ,6347
+devCellPy-1.1.3.dist-info/LICENSE.txt,sha256=e-YidpALdqaZm3EY4oFGRK8QeHUH5LXBl642LmIZWdg,1063
+devCellPy-1.1.3.dist-info/METADATA,sha256=nuRh2aA_tgPgoBcAns66z0Y_41xsbJUiaChcxXf06FQ,2636
+devCellPy-1.1.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+devCellPy-1.1.3.dist-info/entry_points.txt,sha256=1mRwutyLz8XbXWowWlKf2Q_26QOX6Y7Wd3wiVbKGzK4,54
+devCellPy-1.1.3.dist-info/top_level.txt,sha256=x1I2GTpiZjNjnol_EtzFIc5MpEGT7xSomlmrq4cz14k,10
+devCellPy-1.1.3.dist-info/RECORD,,
