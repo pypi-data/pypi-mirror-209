@@ -1,0 +1,10 @@
+CHANGELOG.md
+LICENSE.md
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+233_misc.egg-info/PKG-INFO
+233_misc.egg-info/SOURCES.txt
+233_misc.egg-info/dependency_links.txt
+233_misc.egg-info/top_level.txt
