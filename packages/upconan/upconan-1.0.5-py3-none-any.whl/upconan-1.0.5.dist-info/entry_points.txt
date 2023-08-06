@@ -1,0 +1,2 @@
+[console_scripts]
+upconan = src.upconan:main
