@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: oc-checksumsq
+Version: 10.2.1
+Summary: Client for CDT checksums queue
+Description-Content-Type: text/plain
+License-File: LICENSE
+Requires-Dist: oc-cdt-queue2 (>=4.0.3)
+Requires-Dist: requests
+
