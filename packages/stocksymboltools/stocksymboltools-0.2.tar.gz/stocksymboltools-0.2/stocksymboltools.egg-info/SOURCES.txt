@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+stocks/__init__.py
+stocks/mymodule.py
+stocksymboltools.egg-info/PKG-INFO
+stocksymboltools.egg-info/SOURCES.txt
+stocksymboltools.egg-info/dependency_links.txt
+stocksymboltools.egg-info/requires.txt
+stocksymboltools.egg-info/top_level.txt
