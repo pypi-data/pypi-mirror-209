@@ -1,0 +1,11 @@
+truesight/base.py,sha256=LnwjvWwh6EzB6JAgkwz3I0AYDudLFdJE-SGpKU1XMKA,189
+truesight/core.py,sha256=tmV-SrUt8pg2pR5Ug02oVQ4qV4clZdoXfZKn3CCrTJk,9723
+truesight/metrics.py,sha256=37wSDeUPO4V4kFFGQfC-AG6dp0d-4gu-hvHpWxFmi9A,4442
+truesight/models.py,sha256=K1IU_gq1uvcaI3xvr2qIEbjvPxYNdK20lX6LdfQLscA,1657
+truesight/preprocessing.py,sha256=dmD7ffx_5rl3-vhOfPxFJAiWung5bMPmJtwaoN-M5nI,3931
+truesight/utils.py,sha256=pRbRnlh6dHo20pRK9rqEY94dkaqPgpT-cFGm35B6e8U,3462
+truesight-0.0.2a3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+truesight-0.0.2a3.dist-info/METADATA,sha256=xQkEpqlW8hSxptNl0_01bFjLBKuLtB3Zwu0HiXg2__o,6022
+truesight-0.0.2a3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+truesight-0.0.2a3.dist-info/top_level.txt,sha256=5mdoTmqOX6kvOsjn1j-BLnOM4FnNR_TUA3WswKYUAGo,10
+truesight-0.0.2a3.dist-info/RECORD,,
