@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+intelex_service.egg-info/PKG-INFO
+intelex_service.egg-info/SOURCES.txt
+intelex_service.egg-info/dependency_links.txt
+intelex_service.egg-info/requires.txt
+intelex_service.egg-info/top_level.txt
+intelx_service/__init__.py
+intelx_service/intelx.py
