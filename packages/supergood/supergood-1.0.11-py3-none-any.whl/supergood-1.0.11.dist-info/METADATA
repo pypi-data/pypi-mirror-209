@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: supergood
+Version: 1.0.11
+Summary: The Python client for Supergood
+Author: Alex Klarfeld
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: python-dotenv (==1.0.0)
+Requires-Dist: jsonpickle
+Requires-Dist: urllib3 (==1.26)
+Requires-Dist: requests (==2.28.0)
+Requires-Dist: aiohttp (==3.8.4)
+Requires-Dist: pydash (==7.0.1)
+Provides-Extra: test
+Requires-Dist: requests (==2.28.0) ; extra == 'test'
+Requires-Dist: urllib3 (==1.26) ; extra == 'test'
+Requires-Dist: pytest (==7.2.1) ; extra == 'test'
+Requires-Dist: pytest-httpserver (==1.0.6) ; extra == 'test'
+Requires-Dist: python-dotenv (==1.0.0) ; extra == 'test'
+Requires-Dist: Werkzeug ; extra == 'test'
+Requires-Dist: jsonpickle (==3.0.1) ; extra == 'test'
+Requires-Dist: pytest-mock (==3.10.0) ; extra == 'test'
+
+404: Not Found
