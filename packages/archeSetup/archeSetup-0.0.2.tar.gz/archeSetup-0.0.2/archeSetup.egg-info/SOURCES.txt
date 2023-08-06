@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+archeInitialze/_init_.py
+archeInitialze/initApp.py
+archeSetup.egg-info/PKG-INFO
+archeSetup.egg-info/SOURCES.txt
+archeSetup.egg-info/dependency_links.txt
+archeSetup.egg-info/top_level.txt

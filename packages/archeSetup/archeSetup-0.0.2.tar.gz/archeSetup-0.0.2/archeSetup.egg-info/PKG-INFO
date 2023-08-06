@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: archeSetup
+Version: 0.0.2
+Summary: This is the setup the basic Application library
+Home-page: UNKNOWN
+Author: Arche
+Author-email: rkdyava@gmail.com
+License: UNKNOWN
+Description: This is the application for adding the initilisation of the application
+        
+        Chnage LOG
+        ==========
+        
+        
+        0.0.2 (20/05/2023)
+        ------------------
+        - second Release
+Keywords: add
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
