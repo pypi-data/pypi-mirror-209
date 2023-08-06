@@ -1,0 +1,12 @@
+rasm_arch/__init__.py,sha256=MVPdCa3S1wMKJLpRmsA_0R50SDYtpytgZXZ5X4Srjz4,66
+rasm_arch/rasm_arch.py,sha256=Ais5aaRkeARo9a5jXdifcAwOmBE9yJFJPdpWz4FV8hE,47587
+rasm_arch/util.py,sha256=UsPTDcNHQpyHycfR9k9YE_buSiwBPi3O1Aw26c9Ia5o,3013
+rasm_arch-1.0.2.data/scripts/rasm_arch,sha256=qcXM5ZCPi0HR_jH3KZ5EZKlfgyH4Ip0k36OZ8I5Gvyc,10185
+resources/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+resources/mushaf_simple.json,sha256=oIwKNrIrdgjD1ses_gJweaq8GSwuLRgPgZH3PnraXK4,1784360
+resources/mushaf_uthmani.json,sha256=JtnD8BNOE6_Z7xDIpa6wNol31P9Nz4lWGj_YFkFLQFE,2100627
+rasm_arch-1.0.2.dist-info/LICENSE,sha256=-5IxL9h6He4JGe_YNyeOUors82bMTgn_ZMU8nRBLya4,1098
+rasm_arch-1.0.2.dist-info/METADATA,sha256=zO9IN6hHDQtcaHeZh51j83uBqKoB1gvqkUQbMkrDquM,6659
+rasm_arch-1.0.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+rasm_arch-1.0.2.dist-info/top_level.txt,sha256=GCXM2-XzHhU8M80uthArnm_wZ4_zTNPaZ10Ep9HTRKw,20
+rasm_arch-1.0.2.dist-info/RECORD,,
