@@ -1,0 +1,10 @@
+khash/__init__.py,sha256=O0rbnuUslwP2dEh901f2aVENjv_DrS9Gj8Kpr57__x4,54
+khash/container.cpython-310-darwin.so,sha256=MncfK0smQjqsAjk6MRoKuAPr9mhm12WipWQZ_hziB6E,198536
+khash/khash.cpython-310-darwin.so,sha256=urDG3lNpD48ezKpi6G72LAzRzBJMGW2IMaGSrNHUxrA,70768
+khash/siphash.cpython-310-darwin.so,sha256=zLhPCLRsZN07i0P3qpl3mDsR08ExoSjLssr_QjYzQ1Q,40744
+khash/tree.cpython-310-darwin.so,sha256=dfhxdxZ4pzj2T1-GlL2bd32KiXDn8_MuDJIHy-FMWRk,92024
+khash-0.5.0a4.dist-info/LICENSE.md,sha256=3tRK_BW-yd3EvfJQv7l9CHVtXOvdNMcpFiVbALsDHv4,172
+khash-0.5.0a4.dist-info/METADATA,sha256=qySDhF9RLexRbDWrELBgCj2jrH5cIARvO1-CFKNnl8Q,128
+khash-0.5.0a4.dist-info/WHEEL,sha256=1wwAwGwcykU0jftmE9ek1xXr7zJQWQGQLji9ObNI8R4,112
+khash-0.5.0a4.dist-info/top_level.txt,sha256=v7b-ozFWXCaf4uTK9rLjXt7APm-7cQ10Puktgvz4YFg,6
+khash-0.5.0a4.dist-info/RECORD,,
