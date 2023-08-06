@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: textbsr
+Version: 0.0.3
+Summary: a simple version for blind text image super-resolution (current version is only for English and Chinese)
+Home-page: https://github.com/csxmli2016/MARCONet
+Author: Xiaoming Li
+Author-email: csxmli@gmail.com
+License: S-Lab License 1.0
+Description: UNKNOWN
+Keywords: blind text image super-resolution
+Platform: UNKNOWN
+Requires-Python: >=3.6
