@@ -1,0 +1,55 @@
+[tool.poetry]
+name = "pyrofork-dev"
+version = "2.1.8.dev202305201726"
+description = "Elegant, modern and asynchronous Telegram MTProto API framework in Python for users and bots"
+license = "LGPL-3.0-or-later"
+authors = [
+    "Dan <14043624+delivrance@users.noreply.github.com>",
+    "wulan17 <wulan17@nusantararom.org>"
+]
+readme = "README.md"
+repository = "https://github.com/Mayuri-Chan/pyrofork"
+documentation = "https://pyrofork.mayuri.my.id"
+keywords = ["telegram", "chat", "messenger", "mtproto", "api", "client", "library", "python"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Natural Language :: English",
+    "License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: Implementation",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+    "Topic :: Internet",
+    "Topic :: Communications",
+    "Topic :: Communications :: Chat",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Software Development :: Libraries :: Application Frameworks"
+]
+include = [
+    "pyrogram/errors/exceptions/*",
+    "pyrogram/raw/base/*",
+    "pyrogram/raw/functions/*",
+    "pyrogram/raw/types/*",
+    "pyrogram/raw/all.py"
+]
+packages = [{include="pyrogram"}]
+
+[tool.poetry.dependencies]
+python = "~=3.9"
+aiosqlite = "<1.0.0"
+async-pymongo = "0.1.2"
+pyaes = "1.6.1"
+pymediainfo = "6.0.1"
+pymongo = "4.3.3"
+pysocks = "1.7.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
