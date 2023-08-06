@@ -1,0 +1,3 @@
+[pytest11]
+pytest_sequence_markers = pytest_sequence_markers
+
