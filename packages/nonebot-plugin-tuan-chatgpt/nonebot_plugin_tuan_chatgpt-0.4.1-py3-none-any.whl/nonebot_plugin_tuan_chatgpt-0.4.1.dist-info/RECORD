@@ -1,0 +1,9 @@
+nonebot_plugin_tuan_chatgpt/__init__.py,sha256=GrD4Qd13XjeBHBr59e7LjI-Ch0fZRoBHXj4kh4pdrXQ,9084
+nonebot_plugin_tuan_chatgpt/config.py,sha256=MZm0H22QmKJoJo4xIj6Fi30JIz8snwzco7yhMVPjLJo,2146
+nonebot_plugin_tuan_chatgpt/perf_timer.py,sha256=Iwte336BjjbnZb8By9uHCFsT6jffUh3KwyK0RfoEzCY,729
+nonebot_plugin_tuan_chatgpt/text_to_img.py,sha256=dzPTZbjlUqre7u_iWVJY0crMT4DjLnkYxIE_F2DR4Vw,17746
+nonebot_plugin_tuan_chatgpt/utils.py,sha256=ihSN563hOoOkZU6LawNZM0CJmsfExLyiwpwl59eq4TE,24940
+nonebot_plugin_tuan_chatgpt-0.4.1.dist-info/LICENSE.md,sha256=-_SmqPGHyK2wuHjfgxSJYJPyLzW8RhAFWseqVB2Yvbk,1063
+nonebot_plugin_tuan_chatgpt-0.4.1.dist-info/METADATA,sha256=NaglcPCxD57_72dfKdu0tEE0yYjpiNB_urqppowstFQ,17723
+nonebot_plugin_tuan_chatgpt-0.4.1.dist-info/WHEEL,sha256=WGfLGfLX43Ei_YORXSnT54hxFygu34kMpcQdmgmEwCQ,88
+nonebot_plugin_tuan_chatgpt-0.4.1.dist-info/RECORD,,
