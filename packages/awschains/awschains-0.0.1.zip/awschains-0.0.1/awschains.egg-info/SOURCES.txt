@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+awschains.egg-info/PKG-INFO
+awschains.egg-info/SOURCES.txt
+awschains.egg-info/dependency_links.txt
+awschains.egg-info/top_level.txt
+test/test_wrapper.py
