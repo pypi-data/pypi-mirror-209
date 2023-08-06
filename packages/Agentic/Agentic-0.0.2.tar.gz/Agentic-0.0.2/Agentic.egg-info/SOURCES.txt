@@ -1,0 +1,7 @@
+README.md
+setup.py
+Agentic.egg-info/PKG-INFO
+Agentic.egg-info/SOURCES.txt
+Agentic.egg-info/dependency_links.txt
+Agentic.egg-info/top_level.txt
+agentic/__init__.py
