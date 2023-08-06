@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: Serializer-Lasevich
+Version: 0.0.1
+Summary: library for python serialization as lab
+Home-page: https://github.com/Eugene-Lasevich/4semLabsIGI/tree/lab3/lab3
+Author: Eugene Lasevich
+Author-email: lasevich009@gmail.com
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
