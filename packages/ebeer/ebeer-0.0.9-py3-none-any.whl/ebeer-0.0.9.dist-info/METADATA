@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: ebeer
+Version: 0.0.9
+Summary: CNN Trained to predict brazilian beers
+Author-email: diego vasque maldonado <diegoomal13@gmail.com>
+Project-URL: Homepage, https://github.com/Diegoomal/proj_integrado_trabalho_final
+Project-URL: Bug Tracker, https://github.com/Diegoomal/proj_integrado_trabalho_final/issues
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# ebeer - pre-trained CNN
+
+CNN Trained to predict brazilian beers
