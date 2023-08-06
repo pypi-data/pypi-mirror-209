@@ -1,0 +1,11 @@
+drf_easyview/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+drf_easyview/apps.py,sha256=m0x6K-Dttes3X4koePork8v5lmmwSxq2guZ7UmRDHjQ,155
+drf_easyview/serializers.py,sha256=oS8-MJRbCTgOCH8JsStOLYcgvaxqKIdEgdfX-TqzMs4,545
+drf_easyview/urls.py,sha256=Yn0nL9dJunDOEo2R9fW_C-geFtNCLpLdRORb0OBbuZI,332
+drf_easyview/utils.py,sha256=4n6QIOOPW5VrOfQyXPAE9f-2WFuWoZfY09CHR-29CNM,202
+drf_easyview/views.py,sha256=wi5dKLAybe8RSiPEAmzqM2IVR9tesX0g18_uG5tkTpM,761
+drf_easyview-2.0.2.dist-info/LICENSE,sha256=HtrfiUSnriKwHmHQQyXmJdpWC5pmDrYHl8MVRCmlKns,1093
+drf_easyview-2.0.2.dist-info/METADATA,sha256=au03kin3pRnaFw2-X-TGNVGyZ9KLUzLSZUcNt7aoevk,6795
+drf_easyview-2.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+drf_easyview-2.0.2.dist-info/top_level.txt,sha256=tzYFE1iLYTuuUY36SGpa_7oAQ5hGvoPHggrXGoalN2M,13
+drf_easyview-2.0.2.dist-info/RECORD,,
