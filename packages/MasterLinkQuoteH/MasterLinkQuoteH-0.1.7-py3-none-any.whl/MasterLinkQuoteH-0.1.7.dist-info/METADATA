@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: MasterLinkQuoteH
+Version: 0.1.7
+Summary: Get TWSE realtime stock info
+Home-page: UNKNOWN
+Author: CCChrisLiu
+Author-email: tewoend@gmail.com
+License: MIT
+Keywords: MasterQuoteH,masterlink
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Requires-Dist: autopep8
+Requires-Dist: certifi
+Requires-Dist: chardet
+Requires-Dist: idna
+Requires-Dist: pycodestyle
+Requires-Dist: requests
+Requires-Dist: solace-pubsubplus
+Requires-Dist: toml
+Requires-Dist: urllib3
+
+UNKNOWN
+
