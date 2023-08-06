@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+patchparser/__init__.py
+patchparser/github_parser.py
+patchparser/github_parser_local.py
+patchparser.egg-info/PKG-INFO
+patchparser.egg-info/SOURCES.txt
+patchparser.egg-info/dependency_links.txt
+patchparser.egg-info/requires.txt
+patchparser.egg-info/top_level.txt
+tests/test_github_parser.py
+tests/test_github_parser_local.py
