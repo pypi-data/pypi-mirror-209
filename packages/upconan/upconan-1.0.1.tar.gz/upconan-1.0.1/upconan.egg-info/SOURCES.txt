@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+upconan.egg-info/PKG-INFO
+upconan.egg-info/SOURCES.txt
+upconan.egg-info/dependency_links.txt
+upconan.egg-info/entry_points.txt
+upconan.egg-info/not-zip-safe
+upconan.egg-info/requires.txt
+upconan.egg-info/top_level.txt
