@@ -1,0 +1,9 @@
+README.md
+setup.py
+bit_saver/__init__.py
+bit_saver/bit_saver.py
+bit_saver.egg-info/PKG-INFO
+bit_saver.egg-info/SOURCES.txt
+bit_saver.egg-info/dependency_links.txt
+bit_saver.egg-info/requires.txt
+bit_saver.egg-info/top_level.txt
