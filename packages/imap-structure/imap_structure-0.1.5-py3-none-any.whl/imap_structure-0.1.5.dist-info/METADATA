@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: imap-structure
+Version: 0.1.5
+Summary: IMAP BODYSTRUCTURE parser
+Author: Kiruya Momochi
+Author-email: 65301509+kiruyamomochi@users.noreply.github.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pyparsing (>=3.0.9,<4.0.0)
+Description-Content-Type: text/markdown
+
+# imap-structure
+
+IMAP BODYSTRUCTURE parser
+
