@@ -1,0 +1,19 @@
+[console_scripts]
+add_goal = persyn.chat.stdio.add_goal:main
+cns = persyn.interaction.cns:main
+discord = persyn.chat.discord.bot:main
+dreams = persyn.dreams.dreams:launch
+elaborate = persyn.chat.stdio.elaborate:main
+import_text = persyn.chat.stdio.import_text:main
+inject_idea = persyn.chat.stdio.inject_idea:main
+interact = persyn.interaction.interact_server:launch
+kill_bot = persyn.kill_bot:main
+launch_bot = persyn.launch_bot:main
+mastodon = persyn.chat.mastodon.bot:main
+opine = persyn.chat.stdio.opine:main
+read_rss = persyn.chat.stdio.read_rss:main
+read_url = persyn.chat.stdio.read_url:main
+send_chat = persyn.chat.stdio.send_chat:main
+slack = persyn.chat.slack.bot:main
+stable_diffusion = persyn.dreams.stable_diffusion:main
+summarize = persyn.chat.stdio.summarize:main
