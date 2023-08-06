@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "adsystem"
+version = "0.1.1"
+description = ""
+authors = ["adsystem_moderator <r.savinov.001@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
