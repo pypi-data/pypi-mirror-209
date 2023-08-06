@@ -1,0 +1,2 @@
+[console_scripts]
+evina = evina.evina:start

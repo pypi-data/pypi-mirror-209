@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: evina
+Version: 1.0.8
+Author: Ezong
+License-File: LICENSE
+Requires-Dist: aligo
+Requires-Dist: dynaconf
+Requires-Dist: Faker
+Requires-Dist: loguru
+Requires-Dist: paramiko
+
