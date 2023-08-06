@@ -1,0 +1,12 @@
+textual_fspicker/__init__.py,sha256=FUz9CzbjP9eRy8ekM_TWOeS0aLrwWe3BfmgMaaRL2Dk,740
+textual_fspicker/__main__.py,sha256=P5L8aMAp_LloN1VpcxJTQBGb6iRTq-VuDYAXxWOq4ro,2305
+textual_fspicker/file_open.py,sha256=oAxxWgIBBSx1pNQIY9behjly7CWGsZBsi4nN0oAfhH0,7980
+textual_fspicker/path_filters.py,sha256=XpPrynKVI_p8Tf6tUuhEmU5lxAaf3TQlsjKsRwXC5nk,1822
+textual_fspicker/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+textual_fspicker/safe_tests.py,sha256=U3gpqVRr7qcv7mqF-I_sFojtr9Pv5JyqFzAxGG7qofA,2174
+textual_fspicker/parts/__init__.py,sha256=vjP1jzd5ty4IhwUZnVFkOjzctZn22EbwWDHh_16x-GM,389
+textual_fspicker/parts/directory_navigation.py,sha256=6jg6mBcBbVsH7DcimhsF2XKpwXqWBaVb4f2xx5G9mm0,15053
+textual_fspicker-0.0.3.dist-info/METADATA,sha256=CoAX4O10T8ZJX64-0AN4QYYBVSgw0PWyLI5lupuUmpo,6396
+textual_fspicker-0.0.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+textual_fspicker-0.0.3.dist-info/top_level.txt,sha256=htFx3DXug_utI8h7tIJmd3FSxg6-fjXfcf4_Rd6ohLQ,17
+textual_fspicker-0.0.3.dist-info/RECORD,,
