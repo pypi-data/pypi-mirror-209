@@ -1,0 +1,14 @@
+PyOpenGL_accelerate-3.1.7.dist-info/RECORD,,
+PyOpenGL_accelerate-3.1.7.dist-info/WHEEL,sha256=galfBCQ0GDMbCaHulmF4PsxHLO17SP3Nxg1_z6dzR_Y,112
+PyOpenGL_accelerate-3.1.7.dist-info/top_level.txt,sha256=9o0RHjJ27rL4yafmZevzZL2UGWVjawgxkrWN9pZsRFQ,18
+PyOpenGL_accelerate-3.1.7.dist-info/METADATA,sha256=XzgybVHZpbYBv-e-0cJR2a4K_mcrZScRnN_miUzV5t8,789
+OpenGL_accelerate/wrapper.cpython-37m-x86_64-linux-gnu.so,sha256=XhYZgyXHGynWH32KYZAkSGaKt8onpr9zanvFp9W8Sq0,2264304
+OpenGL_accelerate/formathandler.cpython-37m-x86_64-linux-gnu.so,sha256=QzNZbJsTc5MlA6IoWTrCYLlG3nJAZiYw5MFt9v9UU5E,428456
+OpenGL_accelerate/arraydatatype.cpython-37m-x86_64-linux-gnu.so,sha256=C4l4duyna6N4U07iwFQtSWf7f5EKk0aT-8rxWB2sxeo,1883528
+OpenGL_accelerate/nones_formathandler.cpython-37m-x86_64-linux-gnu.so,sha256=5H58OMwDyW20b-jVWiBkXI4C5CrGHBnqbxj_XC_z6Rs,258960
+OpenGL_accelerate/buffers_formathandler.cpython-37m-x86_64-linux-gnu.so,sha256=jGA9Tf7re-w7fi-J6qnHJmJLe0JdR85AS4qgrAXOKas,414896
+OpenGL_accelerate/numpy_formathandler.cpython-37m-x86_64-linux-gnu.so,sha256=TvpYTWV8trj68NCXXeXlfi-ZpSSe7MARyDhS513aX1Y,633104
+OpenGL_accelerate/__init__.py,sha256=AIupji4H6U6ILlwc-ZxbwhTn_WTqp2Yst4t4Ezcn5jo,381
+OpenGL_accelerate/errorchecker.cpython-37m-x86_64-linux-gnu.so,sha256=OXGzRfYdeOk37HKa9qGKdy-B16i2eBgIFXFNQbwj9Eo,474208
+OpenGL_accelerate/vbo.cpython-37m-x86_64-linux-gnu.so,sha256=Bs5Z927hCtgSyLepBqfQrpzoQHM72B9j6x02_2Wc7dk,1134632
+OpenGL_accelerate/latebind.cpython-37m-x86_64-linux-gnu.so,sha256=0o7lGOZ5MXq833cFZFuXhV3J8uPQt1R70w-mOKarVHI,379696
