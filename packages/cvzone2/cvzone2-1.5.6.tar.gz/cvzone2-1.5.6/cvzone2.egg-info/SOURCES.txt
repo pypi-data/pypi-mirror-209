@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+cvzone2/FaceMeshModule.py
+cvzone2/HandTrackingModule.py
+cvzone2/__init__.py
+cvzone2.egg-info/PKG-INFO
+cvzone2.egg-info/SOURCES.txt
+cvzone2.egg-info/dependency_links.txt
+cvzone2.egg-info/requires.txt
+cvzone2.egg-info/top_level.txt
