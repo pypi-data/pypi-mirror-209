@@ -1,0 +1,8 @@
+aiohttp
+browser_cookie3
+jeepney
+jellyfish
+pymongo
+plotly
+sympy
+kaleido
