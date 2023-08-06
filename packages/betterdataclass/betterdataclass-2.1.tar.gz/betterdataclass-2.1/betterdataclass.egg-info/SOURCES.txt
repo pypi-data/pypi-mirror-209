@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+betterdataclass/StrictDictionary.py
+betterdataclass/StrictList.py
+betterdataclass/__init__.py
+betterdataclass.egg-info/PKG-INFO
+betterdataclass.egg-info/SOURCES.txt
+betterdataclass.egg-info/dependency_links.txt
+betterdataclass.egg-info/top_level.txt

@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: betterdataclass
+Version: 2.1
+Summary: A multipurpose dataclass libarary used for validation and data structuring.
+Author: Asutosh Rath
+Author-email: dvnasutosh@gmail.com
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+License-File: LICENSE
+
+`betterdataclass` is a Python library that enhances the functionality of the existing `dataclass` system. It provides additional features and improvements to make working with data classes even better.
