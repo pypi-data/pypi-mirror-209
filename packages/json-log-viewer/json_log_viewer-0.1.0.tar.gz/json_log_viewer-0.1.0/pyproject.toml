@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "json_log_viewer"
+version = "0.1.0"
+description = ""
+authors = ["Samuel Broster <sam@broster.dev>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+textual = "^0.26.0"
+pydantic = "^1.10.7"
+docopt = "^0.6.2"
+
+
+[tool.poetry.group.dev.dependencies]
+textual = {extras = ["dev"], version = "^0.26.0"}
+pre-commit = "^3.3.2"
+black = "^23.3.0"
+ruff = "^0.0.269"
+pytest = "^7.3.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+jlv = "jlv.__main__:run"
