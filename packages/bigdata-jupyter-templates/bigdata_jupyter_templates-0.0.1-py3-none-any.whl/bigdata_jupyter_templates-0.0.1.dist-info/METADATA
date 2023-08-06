@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: bigdata-jupyter-templates
+Version: 0.0.1
+Summary: bigdata-jupyter-templates
+Author: Akmal Mukhsimov
+Author-email: a.mukhsimov@hamkorlab.club
+Keywords: python,jupyter
+Requires-Dist: python-dotenv
+Requires-Dist: pyspark
+Requires-Dist: cx-Oracle
+Requires-Dist: cryptography
+Requires-Dist: psycopg2
+
+No description
