@@ -1,0 +1,158 @@
+Metadata-Version: 2.1
+Name: sktime
+Version: 0.19.0
+Summary: A unified framework for machine learning with time series
+Author-email: sktime developers <sktime.toolbox@gmail.com>
+Maintainer: Franz Király, Jonathan Bechtel, Kiril Ralinovski, Marc Rovira, Sagar Mishra
+Maintainer-email: sktime developers <sktime.toolbox@gmail.com>
+License: BSD 3-Clause License
+        
+        Copyright (c) 2019 - 2020 The sktime developers.
+        
+        All rights reserved.
+        
+        Redistribution and use in source and binary forms, with or without
+        modification, are permitted provided that the following conditions are met:
+        
+        * Redistributions of source code must retain the above copyright notice, this
+          list of conditions and the following disclaimer.
+        
+        * Redistributions in binary form must reproduce the above copyright notice,
+          this list of conditions and the following disclaimer in the documentation
+          and/or other materials provided with the distribution.
+        
+        * Neither the name of the copyright holder nor the names of its
+          contributors may be used to endorse or promote products derived from
+          this software without specific prior written permission.
+        
+        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+        AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+        IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+        DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+        FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+        DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+        SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+        CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+        OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+        OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+        
+Project-URL: Homepage, https://www.sktime.net
+Project-URL: Repository, https://github.com/sktime/sktime
+Project-URL: Documentation, https://www.sktime.net
+Project-URL: Download, https://pypi.org/project/sktime/#files
+Project-URL: API Reference, https://www.sktime.net/en/stable/api_reference.html
+Project-URL: Release Notes, https://www.sktime.net/en/stable/changelog.html
+Keywords: data-science,machine-learning,data-mining,time-series,scikit-learn,forecasting,time-series-analysis,time-series-classification,time-series-regression
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development
+Classifier: Topic :: Scientific/Engineering
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: <3.12,>=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: deprecated (>=1.2.13)
+Requires-Dist: numpy (<1.25,>=1.21.0)
+Requires-Dist: pandas (<2.0.0,>=1.1.0)
+Requires-Dist: scikit-base (<0.5.0)
+Requires-Dist: scikit-learn (<1.3.0,>=0.24.0)
+Requires-Dist: scipy (<2.0.0,>=1.2.0)
+Provides-Extra: all_extras
+Requires-Dist: attrs ; extra == 'all_extras'
+Requires-Dist: cloudpickle ; extra == 'all_extras'
+Requires-Dist: dash (!=2.9.0) ; extra == 'all_extras'
+Requires-Dist: dask ; extra == 'all_extras'
+Requires-Dist: dtw-python ; extra == 'all_extras'
+Requires-Dist: h5py ; extra == 'all_extras'
+Requires-Dist: gluonts (>=0.9.0) ; extra == 'all_extras'
+Requires-Dist: kotsu (>=0.3.1) ; extra == 'all_extras'
+Requires-Dist: matplotlib (>=3.3.2) ; extra == 'all_extras'
+Requires-Dist: mne ; extra == 'all_extras'
+Requires-Dist: pmdarima (!=1.8.1,<3.0.0,>=1.8.0) ; extra == 'all_extras'
+Requires-Dist: prophet (>=1.1) ; extra == 'all_extras'
+Requires-Dist: scikit-posthocs (>=0.6.5) ; extra == 'all_extras'
+Requires-Dist: seaborn (>=0.11.0) ; extra == 'all_extras'
+Requires-Dist: statsmodels (>=0.12.1) ; extra == 'all_extras'
+Requires-Dist: tbats (>=1.1.0) ; extra == 'all_extras'
+Requires-Dist: xarray ; extra == 'all_extras'
+Requires-Dist: seasonal ; extra == 'all_extras'
+Requires-Dist: esig (==0.9.7) ; (python_version < "3.10") and extra == 'all_extras'
+Requires-Dist: tsfresh (>=0.17.0) ; (python_version < "3.10") and extra == 'all_extras'
+Requires-Dist: filterpy (>=1.4.5) ; (python_version < "3.11") and extra == 'all_extras'
+Requires-Dist: hmmlearn (>=0.2.7) ; (python_version < "3.11") and extra == 'all_extras'
+Requires-Dist: keras-self-attention ; (python_version < "3.11") and extra == 'all_extras'
+Requires-Dist: numba (>=0.53) ; (python_version < "3.11") and extra == 'all_extras'
+Requires-Dist: pykalman (>=0.9.5) ; (python_version < "3.11") and extra == 'all_extras'
+Requires-Dist: pyod (>=0.8.0) ; (python_version < "3.11") and extra == 'all_extras'
+Requires-Dist: statsforecast (>=0.5.2) ; (python_version < "3.11") and extra == 'all_extras'
+Requires-Dist: stumpy (>=1.5.1) ; (python_version < "3.11") and extra == 'all_extras'
+Requires-Dist: tensorflow-probability ; (python_version < "3.11") and extra == 'all_extras'
+Requires-Dist: tensorflow ; (python_version < "3.11") and extra == 'all_extras'
+Requires-Dist: tslearn (>=0.5.2) ; (python_version < "3.11") and extra == 'all_extras'
+Provides-Extra: binder
+Requires-Dist: jupyter ; extra == 'binder'
+Provides-Extra: cython_extras
+Requires-Dist: mrsqm ; (python_version < "3.11") and extra == 'cython_extras'
+Provides-Extra: dev
+Requires-Dist: backoff ; extra == 'dev'
+Requires-Dist: httpx ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: pytest-randomly ; extra == 'dev'
+Requires-Dist: pytest-timeout ; extra == 'dev'
+Requires-Dist: pytest-xdist ; extra == 'dev'
+Requires-Dist: wheel ; extra == 'dev'
+Provides-Extra: dl
+Requires-Dist: tensorflow ; extra == 'dl'
+Requires-Dist: tensorflow-probability ; extra == 'dl'
+Provides-Extra: docs
+Requires-Dist: jupyter ; extra == 'docs'
+Requires-Dist: myst-parser ; extra == 'docs'
+Requires-Dist: nbsphinx (>=0.8.6) ; extra == 'docs'
+Requires-Dist: numpydoc ; extra == 'docs'
+Requires-Dist: pydata-sphinx-theme ; extra == 'docs'
+Requires-Dist: sphinx-issues (==1.2.0) ; extra == 'docs'
+Requires-Dist: sphinx-gallery (==0.6.0) ; extra == 'docs'
+Requires-Dist: sphinx-design (==0.3.0) ; extra == 'docs'
+Requires-Dist: sphinx (==4.1.1) ; extra == 'docs'
+Requires-Dist: tabulate ; extra == 'docs'
+Provides-Extra: mlflow
+Requires-Dist: mlflow ; extra == 'mlflow'
+Provides-Extra: mlflow_tests
+Requires-Dist: boto3 ; extra == 'mlflow_tests'
+Requires-Dist: botocore ; extra == 'mlflow_tests'
+Requires-Dist: mlflow ; extra == 'mlflow_tests'
+Requires-Dist: moto ; extra == 'mlflow_tests'
+
+# ⚠️ sktime deprecation ⚠️
+
+The [sktime PyPI package](https://pypi.org/project/sktime/) is deprecated.
+The sktime project split into two projects.
+
+To find out how to install the new packages, please go to:
+
+* <https://github.com/aeon-toolkit/aeon>
+* <https://github.com/sktime/sktime>
+
+Here is what you can do when installing sktime via pip (e.g. using `pip install ...` or a requirement file like `requirements.txt`, `setup.py`, `setup.cfg`):
+
+* continue using the package without receiving any updates (ignoring the deprecation warning or avoiding it by pinning the version: `sktime==0.18.0`),
+* replace sktime with one of the new projects,
+* if the sktime package is used by one of your dependencies, it would be great if you take some time to track which package uses sktime and report to their issue tracker that sktime is deprecated.
+
+More information is available at:
+<https://github.com/mloning/sktime-deprecation/discussions/2>
+
+If the previous advice does not support your use case, feel free to report it at:
+<https://github.com/mloning/sktime-deprecation/issues/new>
