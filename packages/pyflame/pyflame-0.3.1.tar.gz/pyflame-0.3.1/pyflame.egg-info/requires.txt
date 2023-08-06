@@ -1,0 +1,8 @@
+
+[django]
+django>=3.2
+django-debug-toolbar
+
+[jupyter]
+ipython
+traitlets>=5
