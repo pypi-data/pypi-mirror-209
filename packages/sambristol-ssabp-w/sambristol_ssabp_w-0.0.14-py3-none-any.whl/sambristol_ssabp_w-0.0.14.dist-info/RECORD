@@ -1,0 +1,17 @@
+sambristol_ssabp_w/__init__.py,sha256=V2nVTBeYIF0IhPW6_llL5r44GPQLGPu8eLn9oJpV7Hg,479
+sambristol_ssabp_w/correlationintegrands.py,sha256=iA_zO2cA0iE6YK3HrmllDtHu3JGwzBqyivjC1ofeC1E,8668
+sambristol_ssabp_w/effectivepotential.py,sha256=FlftdKAYTClok72kTo7mNQ_JN8XVByhxmvS08zdKGig,3223
+sambristol_ssabp_w/mayerint.py,sha256=kHSMHd185gp_Sl0t5KnxFJLB1iDfrweuy9p8pZxD0xs,16303
+sambristol_ssabp_w/meshode.py,sha256=NcxR7gb5dP7ipPunJ4PnFg9CLKHI0DQhYPyKHb71J54,3386
+sambristol_ssabp_w/trimerbc.py,sha256=htzBLo-ev9Zo9OfEzrqaUbw0j6Li-I_Uilps26lyzyI,9185
+sambristol_ssabp_w/wbessel.py,sha256=jbL2e-JmePZt5avINUy-_oueRYAfeQbhR_Ah_euZxQs,10050
+sambristol_ssabp_w/wdiffpot.py,sha256=e5Ky3Hzg1wtLazomIuO2QuEGZpLYLwcummYGvroGp24,7052
+sambristol_ssabp_w/whardsphere.py,sha256=PprG4kNOq-HDm2Rm7SbJ63AgljRiX9q2jPGXCIlfbXo,5504
+sambristol_ssabp_w/wlowDt.py,sha256=1nfcrheIc1eQV7ERhUVwn4BJZyUItG1GogskhVEZPEM,4535
+sambristol_ssabp_w/wperturb.py,sha256=Wx_0v8T_nWIy9ww827iPnPTItQO95qLZtyvG1n_FpA8,7034
+sambristol_ssabp_w/wxi.py,sha256=zq4xhOt9VFoghesxoIKkdYbi3hVPhwf-nQRq3CUUL9g,12503
+sambristol_ssabp_w-0.0.14.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+sambristol_ssabp_w-0.0.14.dist-info/METADATA,sha256=FZxUUpzLktKgTPCVowtEcq2Wi_LwzjRY8U9z1cBzZ4M,791
+sambristol_ssabp_w-0.0.14.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+sambristol_ssabp_w-0.0.14.dist-info/top_level.txt,sha256=db_Tdjf8y0L_vGxrM2kv-1nKqySJZZF8mqnodBaJFys,19
+sambristol_ssabp_w-0.0.14.dist-info/RECORD,,
