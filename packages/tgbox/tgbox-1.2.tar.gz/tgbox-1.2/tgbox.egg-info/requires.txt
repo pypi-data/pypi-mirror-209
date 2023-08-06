@@ -1,0 +1,13 @@
+aiosqlite==0.18.0
+ecdsa==0.18.0
+filetype==1.2.0
+pysocks==1.7.1
+telethon==1.28.2
+
+[doc]
+sphinx-rtd-theme==1.2.0
+sphinxcontrib-jquery==4.1
+
+[fast]
+cryptg==0.4.0
+cryptography
