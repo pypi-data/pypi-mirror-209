@@ -1,0 +1,13 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+get_free_port/README.md
+get_free_port/__init__.py
+get_free_port/requirements.txt
+get_free_port/thirdparty.json
+get_free_port.egg-info/PKG-INFO
+get_free_port.egg-info/SOURCES.txt
+get_free_port.egg-info/dependency_links.txt
+get_free_port.egg-info/top_level.txt
