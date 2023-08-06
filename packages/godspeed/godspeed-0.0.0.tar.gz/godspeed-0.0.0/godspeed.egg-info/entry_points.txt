@@ -1,0 +1,2 @@
+[console_scripts]
+godspeed = godspeed.cli.godspeed:main

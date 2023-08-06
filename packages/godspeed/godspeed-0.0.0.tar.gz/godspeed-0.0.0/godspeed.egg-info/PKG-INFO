@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: godspeed
+Version: 0.0.0
+Summary: Python Boilerplate Project contains all the boilerplate you need to create a Python package.
+Home-page: https://github.com/cogsys-io/godspeed
+Author: cogsys.io
+Author-email: cogsys@cogsys.io
+License: GNU General Public License v3
+Keywords: godspeed
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+Provides-Extra: setup
+Provides-Extra: test
+Provides-Extra: dev
+Provides-Extra: all
+License-File: LICENSE
+License-File: AUTHORS.rst
+
+========
+GodSpeed
+========
+
+
+.. image:: https://img.shields.io/pypi/v/godspeed.svg
+        :target: https://pypi.python.org/pypi/godspeed
+
+.. image:: https://readthedocs.org/projects/godspeed/badge/?version=latest
+        :target: https://godspeed.readthedocs.io/en/latest/?version=latest
+        :alt: Documentation Status
+
+
+
+
+Python Boilerplate Project contains all the boilerplate you need to create a Python package.
+
+
+* Free software: GNU General Public License v3
+* Documentation: https://godspeed.readthedocs.io.
+
+
+Features
+--------
+
+* TODO
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `cogsys-io/cogsys-io-cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/cookiecutter/cookiecutter
+.. _`cogsys-io/cogsys-io-cookiecutter-pypackage`: https://github.com/cogsys-io/cogsys-io-cookiecutter-pypackage
+
+
+=======
+History
+=======
+
+0.0.0 (2023-05-20)
+------------------
+
+* First release on PyPI.
