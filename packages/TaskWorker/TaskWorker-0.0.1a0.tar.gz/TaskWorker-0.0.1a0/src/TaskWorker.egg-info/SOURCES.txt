@@ -1,0 +1,17 @@
+LICENSE
+README.en.md
+README.md
+pyproject.toml
+setup.py
+src/TaskWorker.egg-info/PKG-INFO
+src/TaskWorker.egg-info/SOURCES.txt
+src/TaskWorker.egg-info/dependency_links.txt
+src/TaskWorker.egg-info/top_level.txt
+src/taskworker/__init__.py
+src/taskworker/cleanup.py
+src/taskworker/defines.py
+src/taskworker/setting.py
+src/taskworker/taskWorker.py
+src/taskworker/util.py
+src/taskworker/workerPool.py
+test/test_single_worker.py
