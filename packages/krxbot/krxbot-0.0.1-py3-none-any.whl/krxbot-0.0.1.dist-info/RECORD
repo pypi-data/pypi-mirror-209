@@ -1,0 +1,10 @@
+krxbot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+krxbot/__main__.py,sha256=0DoM4addlllJqc7NzJJUZJAdGIaFqI1J4Rm5h1DMZYI,340
+krxbot/calendar.py,sha256=-Aug5HctCTlKRAPphb8xVCPYD1BzILAXsEEw5D_Afs8,795
+krxbot/main.py,sha256=uEy5tWgPPnlfVhR043balndFS4ETYY3JKIE6DXPSzis,762
+krxbot/stock.py,sha256=kvLELAPdXmWxs_aC7pZBa4s3OK4cQdeZjty3G686gwI,254
+krxbot/utils.py,sha256=lw1xReXZww4u5XEclLeT32SvkRXq9_5s6o6_esBHguw,170
+krxbot-0.0.1.dist-info/METADATA,sha256=xP7wEPSTAzpnGmwzT_DEAbl8RzI3ak6uCmO3dMDT_vU,76
+krxbot-0.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+krxbot-0.0.1.dist-info/top_level.txt,sha256=a4Ukq679pIm0ydT7wVoC6an5qBLvLIQc-d_owDP1L7g,7
+krxbot-0.0.1.dist-info/RECORD,,
