@@ -1,0 +1,11 @@
+README.md
+setup.py
+silicron/__init__.py
+silicron/main.py
+silicron.egg-info/PKG-INFO
+silicron.egg-info/SOURCES.txt
+silicron.egg-info/dependency_links.txt
+silicron.egg-info/requires.txt
+silicron.egg-info/top_level.txt
+tmp/__init__.py
+tmp/api.py
