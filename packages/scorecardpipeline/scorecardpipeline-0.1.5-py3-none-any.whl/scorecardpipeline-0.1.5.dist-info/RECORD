@@ -1,0 +1,10 @@
+scorecardpipeline/__init__.py,sha256=z0dSLkO417tfXwKvDGwOEa6Jed84jveNPE6niHMrB4A,318
+scorecardpipeline/excel_writer.py,sha256=fV4no5NJypQ5R5rcxxST-sqPxe1TAVO-7U87MGrGFbo,20443
+scorecardpipeline/model.py,sha256=L6J1RYANV2XoduaR70VZiOFLA6fy9dujIpL1Al62LVE,19272
+scorecardpipeline/processing.py,sha256=_080ER5XzOaiIq3ZYGU2n89Shhjsxsjka0d4QeWui3k,21517
+scorecardpipeline/utils.py,sha256=u3HJDwMTd7aTjsWUU6H5oatpHcJkKLrS1baM69ou4S8,20072
+scorecardpipeline-0.1.5.dist-info/LICENSE,sha256=tmwc5d5BX6nx9DKOrOsEM-8N-P-Gae4CeD3jYtHbfpQ,1065
+scorecardpipeline-0.1.5.dist-info/METADATA,sha256=jKOhr1M13569hys2IWcuJDt88I_FndvgNsvR9DdpAko,33786
+scorecardpipeline-0.1.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+scorecardpipeline-0.1.5.dist-info/top_level.txt,sha256=SyPTTbjcnAZtDDoeeKEVj67K-zVIFxycuMJAKAbs-Ow,18
+scorecardpipeline-0.1.5.dist-info/RECORD,,
