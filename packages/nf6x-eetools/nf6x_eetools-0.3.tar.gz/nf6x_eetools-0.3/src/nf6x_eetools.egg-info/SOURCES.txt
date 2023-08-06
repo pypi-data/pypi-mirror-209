@@ -1,0 +1,12 @@
+COPYING
+README.md
+pyproject.toml
+src/nf6x_eetools/__init__.py
+src/nf6x_eetools/drilltables.py
+src/nf6x_eetools/engformatter.py
+src/nf6x_eetools/eseries.py
+src/nf6x_eetools/fractional.py
+src/nf6x_eetools.egg-info/PKG-INFO
+src/nf6x_eetools.egg-info/SOURCES.txt
+src/nf6x_eetools.egg-info/dependency_links.txt
+src/nf6x_eetools.egg-info/top_level.txt

@@ -1,0 +1,140 @@
+# nf6x_eetools: NF6X's misc. electrical engineering related tools.
+
+This Python package is a collection of miscellaneous tools I've created for my general electrical engineering related tasks. I use them in scripts and in interactive ipython shells.
+
+**This is alpha software. Everything is subject to change, much of it is
+untested, and it all might be broken.**
+
+## EngFormatter
+
+EngFormatter extends the standard string.Formatter class to support new Format Specification Mini Language types which are handy for component values, electrical measurements, etc.:
+
+type | description
+-----|-------------------------------------------------------------------------
+i    | "engineering" format with specified digits of precision and SI unit prefix
+I    | "engineering" format with specified digits of presions and SI word prefix
+
+These two variants both format numbers with coefficients in the range of \[1...1000) and an SI prefix, and a specified total number of significant digits. Rounding is performed with the decimal.Decimal() class, using decimal.ROUND_HALF_UP. They handle significant digits in much the same way that HP scientific calculators do.
+
+The top level package creates variable `eformat` as a shortcut to the format() method of an EngFormatter instance. It also provides the `eng()` function as a shortcut for interactive use.
+
+For example:
+
+```
+>>> import nf6x_eetools as ee
+>>> print(ee.eformat('R{:d} = {:3i}Ω', 123, 12345))
+R123 = 12.3 kΩ
+>>> print(ee.eformat('V1 = {:+2I}volt', 0.012345))
+V1 = +12 millivolt
+>>> ee.eng(12345)
+'12.3 k'
+>>> ee.eng(12345, 2, 'V')
+'12 kV'
+```
+
+...
+
+
+## E3, E6, E12, E24, E48, E96, E192
+
+These classes find the nearest IEC 60063:2015 standard component value to a specified ideal value. See [E series of preferred numbers](https://en.wikipedia.org/wiki/E_series_of_preferred_numbers) for reference.
+
+For example, to print the standard 1% tolerance resistor value closest to 50 ohms, along with its tolerance and nominal error from the ideal value:
+
+```
+>>> import nf6x_eetools as ee
+>>> r = ee.E96(50E3)
+>>> print(f'{str(r):s}Ω ±{r.tolerance():%} ({r.error():%} error)')
+49.9 kΩ ±1% (-0.2% error)
+```
+When cast to a str, the approximated value will be formatted with EngFormatter
+using an appropriate number of significant digits for the series. 
+
+
+## match_ratio(v1, v2, maxsteps=1)
+
+Find a pair of standard component values approximating a ratio. I typically use this for tasks such as finding standard resistor values to use in a resistor divider setting the output voltage of a regulator.
+
+Given two values v1 and v2, find two nearby standard values which most closely match the ratio of their exact values. If passed values are derived from Eseries, then chosen value will be in the same series, within +/- maxsteps of the nearest standard value. If either passed value is not derived from Eseries, then E96 values will be used.
+
+maxsteps must be an integer >= 1.
+
+Returns tuple of (w1, w2, error) where w1 and w2 are the new approximate values, and error is defined as:
+
+                    (w1.approx() / w2.approx())
+    error = 1.0  -  ---------------------------
+                     (v1.exact() / v2.exact())
+
+```
+>>> import nf6x_eetools as ee
+>>> r1_ideal = 1.23456E3
+>>> r2_ideal = 6.54321E5
+>>> (R1, R2, error) = ee.match_ratio(ee.E96(r1_ideal), ee.E96(r2_ideal))
+>>> print(f'R1 = {str(R1):s}Ω')
+R1 = 1.21 kΩ
+>>> print(f'R2 = {str(R2):s}Ω')
+R2 = 634 kΩ
+>>> print(f'error = {error:+.2%}')
+error = -1.15%
+```
+
+
+## frac(value, denominator=64, rounding=0, correction=True)
+
+Find nearest fractional dimension to provided value.
+
+Returns a string representation of a fractional dimension approximating the provided value.
+
+Argument     | Description \[default\]
+-------------|------------------------------------------
+value        | Numeric value to be approximated
+denominator  | Fractional denominator prior to reduction \[64\]
+rounding     | Round normally if 0; round up if positive; round down if negative \[0\]
+correction   | Include correction for original value \[True\]
+
+
+## drill(diameter, margin=0, showdiam=True, table=drill_table)
+
+Return string representing nearest American drill size. See [Drill bit sizes](https://en.wikipedia.org/wiki/Drill_bit_sizes) for reference.
+
+For a given diameter, return a string representing the nearest American twist drill size.
+
+Argument     | Description \[default\]
+-------------|------------------------------------------
+diameter     | Hole diameter to be approximated
+margin       | If 0, return nearest size; if > 0, return equal or larger size; if < 0, return equal or smaller size \[0\]
+showdiam     | If True, include actual diameter in returned string \[True\]
+table        | Drill table to use \[drill_table\]
+
+Four drill tables are currently defined:
+
+Table                  | Description
+-----------------------|----------------------------------
+fractional_drill_table | Fractional inch drill sizes
+number_drill_table     | Number gauge drill sizes
+letter_drill_table     | Letter gauge drill sizes
+drill_table            | Combined table of all drill sizes
+
+
+For example:
+
+```
+>>> import nf6x_eetools as ee
+>>> ee.drill(0.256)
+'F (0.257 in)'
+>>> ee.drill(0.256, 1)
+'F (0.257 in)'
+>>> ee.drill(0.256, -1)
+'1/4in (0.25 in)'
+```
+
+## Building and Installing from Source
+
+After cloning the source code repository, build with the python `build` package, and then install the generated wheel file with `pip`. For example:
+
+```
+python3 -m build
+python3 -m pip install dist/nf6x_eetools-0.3-py3-none-any.whl
+```
+
+(change .whl file path to t
