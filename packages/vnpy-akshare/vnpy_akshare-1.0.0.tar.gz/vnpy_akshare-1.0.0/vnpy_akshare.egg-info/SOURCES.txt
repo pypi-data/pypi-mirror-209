@@ -1,0 +1,5 @@
+setup.py
+vnpy_akshare.egg-info/PKG-INFO
+vnpy_akshare.egg-info/SOURCES.txt
+vnpy_akshare.egg-info/dependency_links.txt
+vnpy_akshare.egg-info/top_level.txt
