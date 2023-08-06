@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: jaxonnxruntime
+Version: 0.0.2
+Summary: Jaxonnxruntime: JAX based ONNX Runtime.
+Author-email: Jaxonnxruntime team <jaxonnxruntime-dev@google.com>
+Project-URL: homepage, https://github.com/google/jaxonnxruntime
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: jax
+Requires-Dist: jaxlib
+Requires-Dist: orbax-export
+Requires-Dist: onnx (==1.12.0)
+Provides-Extra: all
+Provides-Extra: testing
+Requires-Dist: mypy ; extra == 'testing'
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: pytest-cov ; extra == 'testing'
+Requires-Dist: pytest-custom-exit-code ; extra == 'testing'
+Requires-Dist: pytest-xdist ; extra == 'testing'
+Requires-Dist: absl-py ; extra == 'testing'
+
+# Test Workflow
+
+Update the README.md.
