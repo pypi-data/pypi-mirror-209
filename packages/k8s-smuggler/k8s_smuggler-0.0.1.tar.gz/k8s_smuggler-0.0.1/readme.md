@@ -1,0 +1,47 @@
+# [WIP] Smuggler
+
+⚠️ This is a Work In Progress ⚠️
+
+Smuggler is a CLI that aids with the migration of Kubernetes resources between clusters.
+
+## Quickstart
+
+Requires Python 3.10 or superior:
+
+```bash
+# (Optional) create and activate a virtualenv to avoid cluttering the system environment
+python3 -m venv venv
+source venv/bin/activate
+
+# Install Smuggler
+pip install k8s-smuggler
+
+# Do a migration, make sure the namespace $NS exists in both clusters
+smuggler migrate namespace --from "$CTX1" --to "$CTX2" --namespace "$NS"
+```
+
+## Development
+
+### Dev requirements
+
+- Python 3.10 or superior
+- [Poetry](https://python-poetry.org/docs/#installation) for dependency management tool
+
+Setup the dev environment with `poetry install`, this will create a virtualenv with all necessary dependencies installed. Make sure to point your IDE to this virtualenv to take advantage of autocompletion.
+
+See [pyenv](https://github.com/pyenv/pyenv) if you need a Python version management tool.
+
+### Project structure
+
+The project has a very simple structure:
+
+- **`k8s_smuggler/`**: Application source code.
+  - **`k8s_smuggler/main.py`**: Application entrypoint.
+  - **`k8s_smuggler/configuration.py`**: Application configuration file, all defaults go here and there should't be any configuration hardcoded anywhere else.
+  - **`k8s_smuggler/commands`**: Handlers for CLI arguments, all subcommands are registered in `entrypoint.py`.
+  - **`k8s_smuggler/actions`**: Application specific logic.
+  - **`k8s_smuggler/kubernetes`**: Kubernetes specific logic.
+  - **`k8s_smuggler/cli`**: CLI specific logic, helpers that improve UX.
+  - **`k8s_smuggler/lib`**: Generic and redistributable libraries.
+- **`dummy_service/`**: Kustomize manifests for a simple service for different Kubernetes versions, you can use these to test drive the tool.
+- **`test/`**: Tests (or lack thereof, WIP), currently only has a script that runs the linter.
