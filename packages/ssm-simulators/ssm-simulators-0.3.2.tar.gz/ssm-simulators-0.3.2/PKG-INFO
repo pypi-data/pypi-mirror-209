@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: ssm-simulators
+Version: 0.3.2
+Summary: SSMS is a package collecting simulators and training data generators for a bunch of generative models of interest in the cognitive science / neuroscience and approximate bayesian computation communities
+Home-page: https://github.com/AlexanderFengler/ssms
+Author: Alexander Fenger
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering
+License-File: LICENSE
