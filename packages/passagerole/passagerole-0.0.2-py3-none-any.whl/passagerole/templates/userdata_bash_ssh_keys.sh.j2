@@ -1,0 +1,53 @@
+#!/bin/bash -xe
+
+set -x
+set -e
+set -u
+
+generate_keys_file(){
+    path=$(mktemp /tmp/authorized_keys_new-XXXX.txt)
+    cat >$path <<'EOF'
+{{ data.authorized_keys_contents }}
+EOF
+    echo $path
+}
+
+add_ssh_keys_for_root() {
+    keysfile1=$(mktemp /tmp/authorized_keys_original-XXXX.txt)
+    keysfile2=$(generate_keys_file)
+    dedup=$(mktemp /tmp/authorized_keys_dedup-XXXX.txt)
+    root_authorized_keys_backup=$(mktemp /tmp/authorized_keys_original_backup-XXXX.txt)
+
+    declare -a keyfiles=(
+        /root/.ssh/authorized_keys
+        /home/ec2-user/.ssh/authorized_keys
+        /home/ubuntu/.ssh/authorized_keys
+        /home/flashadmin/.ssh/authorized_keys
+    )
+
+    >$keysfile1
+    for keyfile in "${keyfiles[@]}"; do
+        if [ -f $keyfile ]; then
+            cat $keyfile >>$keysfile1
+        fi
+    done
+
+    if [ ! -f $root_authorized_keys_backup ] && [ -f /root/.ssh/authorized_keys ]; then
+        /usr/bin/cp /root/.ssh/authorized_keys $root_authorized_keys_backup
+    fi
+
+    cat $keysfile2 $keysfile1 | awk '!seen[$0]++' >$dedup
+    mkdir -p /root/.ssh
+    cat $dedup >/root/.ssh/authorized_keys
+}
+
+enable_ssh_root_login() {
+    perl -pi -e 's/^ *# *PermitRootLogin *yes/PermitRootLogin yes/' /etc/ssh/sshd_config
+}
+
+main() {
+    enable_ssh_root_login
+    add_ssh_keys_for_root
+}
+
+main
