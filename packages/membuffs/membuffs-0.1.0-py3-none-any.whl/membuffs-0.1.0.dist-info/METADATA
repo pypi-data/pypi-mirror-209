@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: membuffs
+Version: 0.1.0
+Summary: Crea una instancia con valores que estarán almacenados directos en la memoria.
+Author: J. Soriano
+Author-email: gmparatodos@gmail.com
+
