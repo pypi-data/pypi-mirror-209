@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: pyqpanda-alg
+Version: 1.0.0
+Summary: A Quantum Algorithm Development and Runtime Environment Kit, based on pyqpanda.
+Author: OriginQ
+License: Apache Licence
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE
+Requires-Dist: numpy (>=1.17)
+Requires-Dist: pyqpanda (>=3.7.15)
+Requires-Dist: matplotlib (>=3.3)
+Requires-Dist: pydot
+Requires-Dist: scipy
+Requires-Dist: sympy
+Requires-Dist: mypy (<=0.971)
+Requires-Dist: requests
+Requires-Dist: pycryptodome
+Requires-Dist: sphinx-autoapi
+
