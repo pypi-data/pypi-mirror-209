@@ -1,0 +1,10 @@
+clinlp/__init__.py,sha256=tgAzwmixVvukqds-megy9jw3WkqwBN_iU-4AIas__nY,54
+clinlp/component/__init__.py,sha256=2Wh2sxkzEx-4_4tyEsIf55BUBTtEoFuIuqotOuQ5yIg,250
+clinlp/component/qualifier.py,sha256=drc1MhCZuVDQicB0cHDMutVGurFrxUwjWFuVk0e73-Q,10789
+clinlp/component/sentencizer.py,sha256=YfDa-230WivQZ2hLmdid6_2YueADyo2d3unRK0nk3Yk,2308
+clinlp/language.py,sha256=ziR4GzxWq5bkCrf47rfeS76VHaZEFkJGhQHJ4IZic2Y,7698
+clinlp/resources/psynlp_context_rules.json,sha256=B45ni1tJZ6aOGTUY_JoO-V09RZepNNncQyTq4piiI4s,24443
+clinlp-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+clinlp-0.1.0.dist-info/METADATA,sha256=fft0q6rxrPjcBLOfePzLN5UNfQ9dlGQHG6bBXGHa60M,8244
+clinlp-0.1.0.dist-info/WHEEL,sha256=WGfLGfLX43Ei_YORXSnT54hxFygu34kMpcQdmgmEwCQ,88
+clinlp-0.1.0.dist-info/RECORD,,
