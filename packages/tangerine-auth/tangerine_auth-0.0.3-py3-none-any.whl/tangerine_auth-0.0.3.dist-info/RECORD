@@ -1,0 +1,10 @@
+tangerine_auth/__init__.py,sha256=mnMCywfbZCBaqAePkqLrZ9sUBnXcPP7jntG5DRFcrq4,212
+tangerine_auth/__version__.py,sha256=tQa3YTzT9ZIzXRKTop0HnCzgMAYXTgt4Gjj7Z5iw2T4,412
+tangerine_auth/key_lime.py,sha256=DdhUe4EyBcn7q9yQn1nmV7TiqoY38D-xtCoGB4_Yl0U,1502
+tangerine_auth/yuzu.py,sha256=PhikZHh9sSQTxVaFynKj-Fx1qeSnwJPYz50M9dPKzRU,5228
+tangerine_auth-0.0.3.dist-info/LICENSE,sha256=eRYD4YdUmiZDtOxhZOWwXTSI1CokgEpp0eWHzea7oy8,1068
+tangerine_auth-0.0.3.dist-info/METADATA,sha256=M6GjxaYV-izbJzxb9HjY_MVMBtbOnoLLXM7iRB92h-A,12246
+tangerine_auth-0.0.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+tangerine_auth-0.0.3.dist-info/entry_points.txt,sha256=qTzSogO0ZlVKqQV5i4gnbewFBTu5XAR8xRzZTGQAJ3g,68
+tangerine_auth-0.0.3.dist-info/top_level.txt,sha256=kpS9rEx3_FHuAPPxUa1yYeXFxm3A25KHbchHVChRBoU,15
+tangerine_auth-0.0.3.dist-info/RECORD,,
