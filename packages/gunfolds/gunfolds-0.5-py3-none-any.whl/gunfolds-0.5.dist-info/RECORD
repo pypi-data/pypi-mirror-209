@@ -1,0 +1,13 @@
+gunfolds/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gunfolds/conversions.py,sha256=Ey7mu1BV85bw3hPhzucKMC7qIwyN1qH0VGtT2ahpdRE,23098
+gunfolds/data/allloops.zkl,sha256=kWxBLK6siiB28-8RLmzGNLKjmDf63lrYmlmXJerMdlU,5002273
+gunfolds/data/circular_p.zkl,sha256=vxR0ZWm82zkCjqge5dTwx4EpCn4R4xwX1W5OVjPk4ac,1852335
+gunfolds/data/colors.zkl,sha256=CNWMBq3g6GsgQMUJ273_16hQq5mQkZdd3-y9Anh55TM,3987
+gunfolds/data/testgraphs.py,sha256=FehKc3Ts7So1AhqQezCNE7bYA1TQZg_BduULOiYovxc,3691
+gunfolds/figures/shipfig.tex,sha256=LcpMhc_F0-C8rCg4_CC3HwLDRzVropxm8b9L7GnHMM4,2976
+gunfolds/figures/shippage.sty,sha256=Nv5LiND53PsudzJfsIybt2KNqxa2m9dExiNpMRZ2oIw,1412
+gunfolds-0.5.dist-info/LICENSE,sha256=4cCtcomD2KVzNeUs8QZPGv_R1FQXPYzr0-2LSnK0hwQ,35121
+gunfolds-0.5.dist-info/METADATA,sha256=aOJ5QUewxwxn5IfVZqxh1VF-_ODN27IN9T9Ib48kkEo,852
+gunfolds-0.5.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+gunfolds-0.5.dist-info/top_level.txt,sha256=9doBlK_1sc2qp_wTKCHhEJ86OFf2L9LUb_-5QWqAVGM,9
+gunfolds-0.5.dist-info/RECORD,,

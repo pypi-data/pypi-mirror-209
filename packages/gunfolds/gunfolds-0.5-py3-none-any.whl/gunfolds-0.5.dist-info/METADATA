@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: gunfolds
+Version: 0.5
+Summary: Tools to explore dynamic causal graphs in the case of undersampled data
+Author: Sergey Plis, Cynthia Freeman, Ian Beaver
+Author-email: splis@mrn.org
+License: GPL
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: networkx
+Requires-Dist: igraph
+Requires-Dist: scipy
+Requires-Dist: numpy
+Requires-Dist: statsmodels
+Requires-Dist: sympy
+Requires-Dist: seaborn
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: progressbar
+Requires-Dist: ipdb
+Requires-Dist: pydot
+
+gunfolds
+========
+
+Tools to explore dynamic causal graphs in the case of  undersampled data helping to unfold the apparent structure into the underlying truth.
+
+Acknowledgment
+========
+This work was initially supported by  NSF IIS-1318759 grant and is currently supported by NIH 1R01MH129047.
