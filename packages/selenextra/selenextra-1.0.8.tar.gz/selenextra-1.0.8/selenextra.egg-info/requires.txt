@@ -1,0 +1,2 @@
+undetected_chromedriver@ git+https://github.com/nguyenvantat1182002/undetected-chromedriver@master
+selenium-wire
