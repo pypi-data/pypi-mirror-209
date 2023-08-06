@@ -1,0 +1,10 @@
+nf6x_eetools/__init__.py,sha256=EKZdMX5c2xdUjLoqCP-57IIkJG4KcLeiZZiw-fbLwvo,2173
+nf6x_eetools/drilltables.py,sha256=LS8UZYw82A9ep7O7R2kqb3euvElKkWI39ff-L1yJbZo,5973
+nf6x_eetools/engformatter.py,sha256=6clPq_atEalok8aLFUo9yvnM0DR8jg4u2EzujRyaNWg,6777
+nf6x_eetools/eseries.py,sha256=vvoqjUasijtnccqRDOAkhMckOdzQiE2W_mZ_a72P2Hc,21727
+nf6x_eetools/fractional.py,sha256=lVSNZzhYX5SDgIAZjhNe3KWJcH3x-QmtMa7qixrK4ms,2249
+nf6x_eetools-0.3.dist-info/COPYING,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+nf6x_eetools-0.3.dist-info/METADATA,sha256=UNQrGhrXqHuIEMHvbaxxTQS91QCDwqk1fHp2WtaTPnM,6082
+nf6x_eetools-0.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+nf6x_eetools-0.3.dist-info/top_level.txt,sha256=b6UBlgG6n5t2GruBxMzkrHWy7xNlzeND9mn8mThfYLg,13
+nf6x_eetools-0.3.dist-info/RECORD,,
