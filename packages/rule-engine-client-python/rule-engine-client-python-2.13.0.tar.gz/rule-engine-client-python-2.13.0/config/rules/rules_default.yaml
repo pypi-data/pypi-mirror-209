@@ -1,0 +1,15 @@
+rules:
+  cpu_usage:
+    id: 1
+    name: 'cpu_usage'
+    expression: 'cpu_usage < 70'
+    message:
+      success: 'executed rule successfully'
+      failure: 'failed while evaluating rule'
+  memory_usage:
+    id: 2
+    name: 'memory_usage'
+    expression: '(total_disk_space - used_space) > 1024'
+    message:
+      success: 'executed rule successfully'
+      failure: 'Disk is running low space, less than 1 GB'
