@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: Graficate
+Version: 1.0.1
+Summary: Libreria que genera graficas en tu programa de Python
+Home-page: https://www.instagram.com/aw.jacuxx/
+Author: Alan Reynoso Jacuinde
+Author-email: alanelhendakari@gmail.com
+License: MIT
+Requires-Dist: matplotlib
+
