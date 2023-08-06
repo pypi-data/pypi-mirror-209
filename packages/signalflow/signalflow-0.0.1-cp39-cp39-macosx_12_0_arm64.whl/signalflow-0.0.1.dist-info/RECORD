@@ -1,0 +1,8 @@
+signalflow.so,sha256=ukfvlnB_GzDdZ8DPZfZOTQcVe1qw_3BJAW1Gk0txBdA,4111960
+signalflow_midi/__init__.py,sha256=ebubFuq3LGV1Q8rL5bUmytlaJk1CVHTYYmKv9vEaWWw,31
+signalflow_midi/signalflow_midi.py,sha256=4d6ORoyImKkEP7A3kgT3QMsekBYep2yDgTXN84vMsrE,5652
+signalflow-0.0.1.dist-info/LICENSE.md,sha256=iWf03MwR9DrM_hLZ2PwfRDDd7eqA3DJ5bYlJaW4vUpY,1071
+signalflow-0.0.1.dist-info/METADATA,sha256=GIOwsh6_CnJnbJLdRBTX0ezJk0D3wbkbHDM86Ck1iBw,170
+signalflow-0.0.1.dist-info/WHEEL,sha256=jVsfWB5r7EdojaZjJWzcrFICmgGFqGs00mgHZMY3oQM,108
+signalflow-0.0.1.dist-info/top_level.txt,sha256=BAdQcVluDaaCq86Jfk6wf41x91sS9qnSkiSorbaQJz0,27
+signalflow-0.0.1.dist-info/RECORD,,
