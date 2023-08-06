@@ -1,0 +1,15 @@
+data_mock/google/cloud/bigquery/__init__.py,sha256=sjZL_rH5SFNW1-AVFcqnJrBCxD647jbfGkEyu2-iLZs,583
+data_mock/google/cloud/bigquery/client.py,sha256=PbdxdzOQrEi99UMmrGPGihgNr5KYT22gLTaGD3pZvg4,4231
+data_mock/google/cloud/bigquery/dataset.py,sha256=1hSbkFHT9EqTKjsacMLlDMw0U1XKZ9T48GKW1369_Rg,301
+data_mock/google/cloud/bigquery/exceptions.py,sha256=m4NH7u4z-kUusvYR_Ggf9A2vCpBurO4x5C-Qt4d1uIU,85
+data_mock/google/cloud/bigquery/retry.py,sha256=0Yk0ekeqcixv6WJ4NaXsOq175nkWL08J3sdfNA8t2-A,22
+data_mock/google/cloud/bigquery/schema.py,sha256=7ZP0uWsQOQneXWZVMcOG_mxls-TB_XwFnSDf6cvpmeI,169
+data_mock/google/cloud/bigquery/table.py,sha256=JU2CHaZq00NjNBq9ol4T9polja3EIo6QXVKpiSh7I7w,2860
+data_mock/google/cloud/bigquery/job/__init__.py,sha256=iB0stxfAducsBL_-5LommpX71K8pnI_sJA6zx8PrJh8,70
+data_mock/google/cloud/bigquery/job/query.py,sha256=sMcjl-RosUvj9TO5E41wSpi2sYDJ6MA-SP6CJGcjFoI,80
+py_data_mock-0.0.1.data/scripts/mkmock.py,sha256=bGgWbM4unKsZHlu4LX1oOW7MPuSjuvcjfHKL6BWVa4c,2231
+py_data_mock-0.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+py_data_mock-0.0.1.dist-info/METADATA,sha256=cokQUNnwbmILr1P-tSuHzg4h4FK1Ntm_Sicnn4genJY,364
+py_data_mock-0.0.1.dist-info/WHEEL,sha256=a-zpFRIJzOq5QfuhBzbhiA1eHTzNCJn8OdRvhdNX0Rk,110
+py_data_mock-0.0.1.dist-info/top_level.txt,sha256=y_YTZnec81gC_oB1u0GPBfK3_mPjns09086ELJvTlCY,68
+py_data_mock-0.0.1.dist-info/RECORD,,
