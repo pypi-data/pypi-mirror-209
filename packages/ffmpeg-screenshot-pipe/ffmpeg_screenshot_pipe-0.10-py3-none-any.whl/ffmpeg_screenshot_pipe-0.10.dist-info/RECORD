@@ -1,0 +1,11 @@
+ffmpeg_screenshot_pipe/README.md,sha256=w3ORsHoW4NOQqBy6hpX_LAZbCB11NuMCo_NcSKobqew,23534
+ffmpeg_screenshot_pipe/__init__.py,sha256=TGK5tw0Oat5Dw1JGaAvjHZvUSe7WV8KMizBPyoyncLQ,55108
+ffmpeg_screenshot_pipe/ffmpeg.exe,sha256=6f1ecR3rq51oCVX8HjiiwRYP0oCxREdsw_YrxD70nbE,81114624
+ffmpeg_screenshot_pipe/ffmpeg_screenshot_pipe_multi.py,sha256=HsIafUAL-9T2D3gyxdHvc5B9G1ONMlWXR9NxKFZg8Gk,3264
+ffmpeg_screenshot_pipe/requirements.txt,sha256=lwQRq-tPEPKGbzhjEBTXKWbloAtdYH6RCPYBUnX1BRQ,179
+ffmpeg_screenshot_pipe/thirdparty.json,sha256=VuOlwazWl5aqQP6P847aK4elECgLJa_jvOQZpLDC0z0,61559
+ffmpeg_screenshot_pipe-0.10.dist-info/LICENSE.rst,sha256=57krgYrI6h5a_2WXQgGcjWo8PExV4ONSi1SPUj9Jk1g,1148
+ffmpeg_screenshot_pipe-0.10.dist-info/METADATA,sha256=5fKSLJ-38WvlAnaxpeOjPSEWdz3SC_3e681QCexhj2k,24641
+ffmpeg_screenshot_pipe-0.10.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+ffmpeg_screenshot_pipe-0.10.dist-info/top_level.txt,sha256=cGsJzUpwUdtmgyIonEEfMkeHtmwemlsbnl903GYIwME,23
+ffmpeg_screenshot_pipe-0.10.dist-info/RECORD,,
