@@ -1,0 +1,2 @@
+[console_scripts]
+vxpy-run = vxpy.__init__:main
