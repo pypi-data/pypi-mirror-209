@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+DataGlitch/__init__.py
+DataGlitch/data_search.py
+DataGlitch/dtype_detector.py
+DataGlitch/nonascii_handler.py
+DataGlitch.egg-info/PKG-INFO
+DataGlitch.egg-info/SOURCES.txt
+DataGlitch.egg-info/dependency_links.txt
+DataGlitch.egg-info/requires.txt
+DataGlitch.egg-info/top_level.txt
