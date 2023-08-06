@@ -1,0 +1,14 @@
+doctor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+doctor/consts.py,sha256=fYbytvGHhs49lqnNet4uIaYDxA3owens2L8Mc5-KHfU,619
+doctor/doctor.py,sha256=0w57DYwWm57HpULCrVA6Ns2otLuqBZ0S0K61SdzyPfE,22796
+doctor/reference/correct-prefixes.tsv,sha256=2IAy3-9YwmWbG9JgoB8R2fxW7T-U-Qr59PzqMApUbpI,20305
+doctor/reference/rdf-config-prefixes.tsv,sha256=vAUFO7WZhRrCA4ESBc-xq17uFIx7XqIjYCa-8Q_-nN4,36944
+doctor/reference/rdf-config-prefixes.yaml,sha256=WllZLfDVchyqIYi0uSUC5JQ3h52UlCb2Ek4P-YdM8ds,21257
+doctor/reference/refine-classes.tsv,sha256=L9ghA75uw9bhfwfMt1l4DF8TO_uMC9f766-grEoYUYs,596
+doctor/reference/refine-prefixes.tsv,sha256=BWZcPK4kBKhwQQUmE0D4HW179zNpYkJFljJLOwPODqk,678
+rdf_doctor-0.2.2.dist-info/LICENSE,sha256=e5qMQtuffizvdi23h6MoQ37f3xmNY0VBq8V0tgWuZNg,1061
+rdf_doctor-0.2.2.dist-info/METADATA,sha256=ZMMUiAPXs1IjddGzR9SOC_G0KiZFRiYjcSAX0yytjEk,6257
+rdf_doctor-0.2.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+rdf_doctor-0.2.2.dist-info/entry_points.txt,sha256=1vHyYdY5pMK7zOINHh2ymwU_Uid1YzZx7Vte5tjHCls,52
+rdf_doctor-0.2.2.dist-info/top_level.txt,sha256=8awHkjBkPxJ8N_ygAwmuUTUz5ZKfy9aqNcWTSI_Ma_8,7
+rdf_doctor-0.2.2.dist-info/RECORD,,
