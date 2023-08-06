@@ -1,0 +1,84 @@
+#!python
+# This file is placed in the Public Domain.
+# pylint: disable=C,I,R,E0611,E0402
+
+
+__author__ = "B.H.J. Thate <thatebhj@gmail.com>"
+__version__ = 1
+
+
+import os
+import sys
+import termios
+import traceback
+
+
+from opr.clients import Client
+from opr.command import command, scan
+from opr.errored import Errors
+from opr.message import parse
+from opr.objects import update
+from opr.persist import Persist
+
+
+from operbot.modules import cmd, irc, log, rss, tdo
+
+
+Persist.workdir = "/var/lib/operbot/"
+
+
+scan(cmd)
+scan(irc)
+scan(log)
+scan(rss)
+scan(tdo)
+
+
+class CLI(Client):
+
+    def announce(self, txt):
+        pass
+
+    def raw(self, txt):
+        print(txt)
+
+
+def waiter():
+    got = []
+    for ex in Errors.errors:
+        if not Cfg.silent:
+            traceback.print_exception(type(ex), ex, ex.__traceback__)
+        got.append(ex)
+    for exc in got:
+        Errors.errors.remove(exc)
+
+
+def wrap(func):
+    fds = sys.stdin.fileno()
+    gotterm = True
+    try:
+        old = termios.tcgetattr(fds)
+    except termios.error:
+        gotterm = False
+    try:
+        func()
+    except (EOFError, KeyboardInterrupt):
+        print('')
+    finally:
+        if gotterm:
+            termios.tcsetattr(fds, termios.TCSADRAIN, old)
+        waiter()
+
+
+def main():
+    if "INVOCATION_ID" not in os.environ:
+        print("not a systemd")
+        os._exit(0)
+    cfg = parse(' '.join(sys.argv[1:]))
+    cli = CLI()
+    evt = command(cli, cfg.otxt)
+    evt.wait()
+
+
+if __name__ == "__main__":
+    wrap(main)
