@@ -1,0 +1,22 @@
+{
+    "python.formatting.provider": "none",
+    "python.formatting.blackArgs": [
+        "--line-length",
+        "120"
+    ],
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true
+    },
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "cSpell.words": [
+        "Gruezi",
+        "Hola",
+        "nyckel",
+        "pytest",
+        "tqdm"
+    ],
+    "mypy.targets": [
+        "src"
+    ]
+}
