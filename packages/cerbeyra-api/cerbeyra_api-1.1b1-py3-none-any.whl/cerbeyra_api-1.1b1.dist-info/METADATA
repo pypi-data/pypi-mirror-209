@@ -1,0 +1,601 @@
+Metadata-Version: 2.1
+Name: cerbeyra-api
+Version: 1.1b1
+Summary: This library provides a high level interface for interacting with Cerbeyra’s APIs and retrieving cyber-threat’s information from them. Through such API’s, it is possible to get clues regarding vulnerability assessments, cyber feeds, governance, threat intelligence and much more. Additionally, all these information are enclosed in an index named Cerbeyra index) which is an objective evaluation of the overall cyber risk.
+Author-email: Cerbeyra Dev Team <info@cerbeyra.com>
+Project-URL: Homepage, https://cerbeyra.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: openpyxl (>=3.0.10)
+Requires-Dist: requests (>=2.28.2)
+
+# Welcome to Cerbeyra API Client’s docs!
+
+### *THIS IS A BETA RELEASE*!
+
+
+This library provides a high level interface for interacting with Cerbeyra’s APIs and retrieving cyber-threat’s
+information from them. Through such API’s, it is possible to get clues regarding vulnerability assessments, cyber
+feeds, governance, threat intelligence and much more.
+
+To use the Cerbeyra’s API you need to start with the creation of a CerbeyraApi object. IN order to do that you must have
+access to your account's username and password. 
+
+Once a CerbeyraApi has been instantiated, you may start using the python object for requesting Cerbeyra’s resources and
+getting responses over HTTP protocol. All the HTTP Cerbeyra’s responses are encapsulated in classes specifically
+designed to facilitate their manipulation.
+
+## Getting started:
+
+First install the package
+
+
+```shell
+python -m pip install cerbeyra-api
+# or
+pip install cerbeyra-api
+```
+
+### Simple Usage
+
+```python
+# Usage as a Cerbeyra Client
+from cerbeyra import CerbeyraApi
+
+with CerbeyraApi(username='my@email.it', password='my-password') as ca:
+    ci = ca.get_cerbeyra_index()
+print(f"Your Cerbeyra Index is {ci.index} ({ci.risk_level})")
+
+# ouput:
+# Successfully connected to https://areaclienti.cerbeyra.com
+# Your Cerbeyra Index is B (medium)
+
+####################################################
+
+# Use as Ubiqum Client
+from cerbeyra import UbiqumApi
+
+with UbiqumApi(username='my@email.it', password='my-password') as ca:
+    ci = ca.get_ubiqum_index()
+print(f"Your Ubiqum Index is {ci.index} ({ci.risk_level})")
+
+# ouput:
+# Successfully connected to https://areaclienti.ubiqum.ch
+# Your Ubiqum Index is B (medium)
+```
+
+
+# API 
+
+### get_cerbeyra_index(client_id: int = None) -> CerbeyraIndex
+
+Returns the *Cerbeyra Index* of the logged user.
+*For Partners Only:* you can specify the client_id to obtain the Cerbeyra Index of a specific client. 
+
+```python
+class CerbeyraIndex:
+    index: str
+    risk_level: str
+    explain: dict
+```
+
+#### get_ubiqum_index(client_id:int None) -> UbiqumIndex
+
+As a Ubiqum Client, you can create a **UbiqumApi** instance to access the API at the proper endpoint
+
+
+
+### get_report_network(columns: list[str] = None, client_id: int = None) -> NetworkReport
+
+Gets the list of every vulnerability detected on your account on every network host. 
+Each vulnerability information (e.g., host, threat, solution, vulnerability description) is collected in a va_item.VAItem object as key-value pair.
+You can select a list of columns using the Enum class : types.NetworkReportFields, otherwise the API will return a default set of column.
+
+*For Partners Only:* you can specify a client_id to obtain the information about one of your client.
+
+```python
+class NetworkReport:
+    def iterate_entries(self) -> Generator[VAItem, Any, None]:
+        # provides a generator over report entries.
+    def group_by_threat(self) -> Dict[str, List[VAItem]]:
+        # groups report items that have the same threat level. 
+    def get_distinct_hosts(self) -> Set[str]:
+        # gets the list of all scanned network hosts.
+    def count_by_threat(self) -> Dict[str, int]:
+        # counts the number of report items for each threat level.
+    def save_csv(self, path):
+        # saves the network report in a .csv file.
+    def save_xls(self, path):
+        # saves the network report in a .xls file
+
+class VAItem(dict):
+    def get_field(self, name: str) -> str | None:
+        # gets a report item value based on its field name.
+
+class NetworkReportFields(Enum):
+    asset = 'asset'
+    host = 'host'
+    hostname = 'hostname'
+    vulnerability = 'vulnerability'
+    description = 'description'
+    threat = 'threat'
+    solution = 'solution'
+    vuln_id = 'vuln_id'
+    last_detection = 'last_detection'
+    first_detection = 'first_detection'
+    protocol = 'protocol'
+    port = 'port'
+    cvss = 'cvss'
+    summary = 'summary'
+    insight = 'insight'
+    impact = 'impact'
+    affected = 'affected'
+    references = 'references'
+```
+
+### get_report_web(columns: list[str] = None, client_id: int = None) -> WebReport
+
+Gets the list of every vulnerability detected on your account on every web host. 
+Each vulnerability information (e.g., host, threat, solution, vulnerability description) is collected in a va_item.VAItem object as key-value pair.
+You can select a list of columns using the Enum class : types.WebReportFields, otherwise the API will return a default set of column.
+
+*For Partners Only:* you can specify a client_id to obtain the information about one of your client.
+
+```python
+class WebReport:
+    def iterate_entries(self) -> Generator[VAItem, Any, None]:
+        # provides a generator over report entries.
+    def group_by_threat(self) -> Dict[str, List[VAItem]]:
+        # groups report items that have the same threat level. 
+    def get_distinct_hosts(self) -> Set[str]:
+        # gets the list of all scanned web hosts.
+    def get_distinct_urls(self) -> Set[str]:
+        # gets the list of all scanned web urls.
+    def count_by_threat(self) -> Dict[str, int]:
+        # counts the number of report items for each threat level. 
+    def save_csv(self, path):
+        # saves the web report in a .csv file.
+    def save_xls(self, path):
+        # saves the web report in a .xls file
+
+class VAItem(dict):
+   def get_field(self, name: str) -> str | None:
+     # gets a report item value based on its field name.
+
+class WebReportFields(Enum):
+    asset = 'asset'
+    host = 'host'
+    hostname = 'hostname'
+    vulnerability = 'vulnerability'
+    description = 'description'
+    threat = 'threat'
+    solution = 'solution'
+    vuln_id = 'vuln_id'
+    last_detection = 'last_detection'
+    first_detection = 'first_detection'
+    other = 'other'
+    param = 'param'
+    attack = 'attack'
+    evidence = 'evidence'
+    response = 'response'
+    request = 'request',
+    family = 'family'
+    url = 'url'
+    method = 'method'
+```
+
+
+### get_all_clients(active: bool = None) -> List[Client]
+
+*For Partners Only:* gets the list of all clients. You can specify the active param to filter away inactive clients.
+
+```python
+class Client:
+    client_id: int
+    name: str
+    surname: str
+    email: str
+    company: str
+    active: bool
+    expiration_date: str = None
+```
+
+### get_all_probes(status: str = None) -> List[Probe]
+
+*For Partners Only:* gets the list of all probes. 
+You can specify a status *(ALIVE, WARNING, DANGER)* to filter away the probes you are not interested in.
+
+```python
+class Probe:
+    name: str
+    probe_id: str
+    status: IoTStatus
+    last_update: str
+    client: Client
+
+class IoTStatus(Enum):
+    ALIVE = 'ALIVE'
+    WARNING = 'WARNING'
+    DANGER = 'DANGER'
+```
+
+### get_all_sensors(status: str = None) -> List[Sensor]
+
+*For Partners Only:* gets the list of all IoT sensors. 
+You can specify a status *(ALIVE, WARNING, DANGER)* to filter away the sensors you are not interested in.
+
+```python
+class Sensor:
+    name: str
+    probe_gateway: str
+    status: IoTStatus
+    alarm: str
+    last_update: str
+    client: Client
+    thresholds: list = None
+
+class IoTStatus(Enum):
+    ALIVE = 'ALIVE'
+    WARNING = 'WARNING'
+    DANGER = 'DANGER'
+```
+
+### get_probes(status: str = None) -> List[Probe]
+
+gets the list of all probes. 
+You can specify a status *(ALIVE, WARNING, DANGER)* to filter away the probes you are not interested in.
+
+*For Partners Only:* you can specify a client_id to obtain the information about one of your client.
+
+```python
+class Probe:
+    name: str
+    probe_id: str
+    status: IoTStatus
+    last_update: str
+
+class IoTStatus(Enum):
+    ALIVE = 'ALIVE'
+    WARNING = 'WARNING'
+    DANGER = 'DANGER'
+```
+
+### get_sensors(status: str = None) -> List[Sensor]
+
+gets the list of all IoT sensors. 
+You can specify a status *(ALIVE, WARNING, DANGER)* to filter away the sensors you are not interested in.
+
+*For Partners Only:* you can specify a client_id to obtain the information about one of your client.
+
+```python
+class Sensor:
+    name: str
+    probe_gateway: str
+    status: IoTStatus
+    alarm: str
+    last_update: str
+    thresholds: list = None
+
+class IoTStatus(Enum):
+    ALIVE = 'ALIVE'
+    WARNING = 'WARNING'
+    DANGER = 'DANGER'
+```
+
+### get_all_assets(client_id: int = None, search: str = None, visibility: str = None, perimeter: str = None, types: list[str] = None)) -> AssetCollection
+
+gets the collection of all your assets. 
+You can specify some parameters to filter away the assets you are not interested in by using these parameters: search string, visibility *(included, excluded)*, perimeter *(public, private)*, and types *(Array[network | web | domain])*.
+
+*For Partners Only:* you can specify a client_id to obtain the information about one of your client.
+
+```python
+class AssetCollection:
+
+    @property
+    def assets(self) -> list[Asset]:
+        # gets the asset in the collection.
+    def group_by_type(self, aggr: bool = False, aggr_method: str = 'count'):
+        # groups assets that have the same type. If aggr is specified, then the number of asset in each group is returned.
+    def group_by_perimeter(self, aggr: bool = False, aggr_method: str = 'count'):
+        # groups assets that have the same perimeter. If aggr is specified, then the number of asset in each group is returned.
+    def filter_by_type(self, asset_type: str) -> AssetCollection:
+        # filter away assets with type != asset_type
+    def filter_by_perimeter(self, perimeter: str) -> AssetCollection:
+        # filter away assets with perimeter != perimeter
+    def save_csv(self, path: str = None):
+        # export the AssetCollection as .csv file.
+
+class Asset:
+    asset_id: int
+    asset_name: str
+    target: list[str] | str
+    perimeter: str
+    type: str
+    excluded: bool
+```
+
+### get_all_hosts(client_id: int = None, search: str = None, visibility: str = None, perimeter: str = None, types: list[str] = None)) -> AssetCollection
+
+gets the collection of all your hosts. 
+You can specify some parameters to filter away the hosts you are not interested in by using these parameters: search string, visibility *(included, excluded)*, perimeter *(public, private)*, and types *(Array[network | web])*.
+
+*For Partners Only:* you can specify a client_id to obtain the information about one of your client.
+
+```python
+class HostCollection:
+
+    @property
+    def hosts(self) -> List[Host]:
+        # gets the hosts in the collection.
+    def group_by_asset(self, aggr: bool = False, aggr_method: str = 'count'):
+        # groups hosts that have the same asset_id. If aggr is specified, then the number of host in each group is returned.
+    def group_by_perimeter(self, aggr: bool = False, aggr_method: str = 'count'):
+        # groups hosts that have the same perimeter. If aggr is specified, then the number of host in each group is returned.
+    def group_by_index(self, aggr: bool = False, aggr_method: str = 'count'):
+        # groups hosts that have the same index. If aggr is specified, then the number of host in each group is returned.
+    def group_by_visibility(self, aggr: bool = False, aggr_method: str = 'count'):
+        # groups hosts that have the same asset_id. If aggr is specified, then the number of host in each group is returned.
+    def filter_by_asset(self, asset_id: int):
+        # filter away hosts with asset_id != @asset_id.
+    def filter_by_perimeter(self, perimeter: str):
+        # filter away hosts with perimeter != @perimeter.
+    def filter_by_index(self, index: str):
+        # filter away hosts with index != @index.
+    def filter_by_visibility(self, visibility: str):
+        # filter away hosts with visibility != @visibility.
+
+
+class Host:
+    asset_id: int
+    asset_name: str
+    host_id: int
+    host: str
+    perimeter: str
+    type: str
+    host_excluded: str
+    asset_excluded: str
+    host_label: str = None
+    index: str = None
+```
+
+### get_network_vulns(self, client_id: int = None, asset_id: int = None, host_id: int = None, threat: list = None, exclusion: bool = None, host_visibility: str = None, asset_visibility: str = None, detail: int = None) -> NetworkVulnCollection:
+
+gets the collection of all the network vulnerabilities associated to your account. If you are interested in specific assets or specific hosts you can specify them by passing a host_id and/or an asset_id.
+Additionally, you can specify some parameters to filter away the vulnerabilities you are not interested in: threat *(Array [high | medium | low | log])*, exclusion, hostVisibility *(included, excluded)*, assetVisibility *(included, excluded)*, detailLevel *(BASE, DETAILED, THOROUGH)*.
+*For Partners Only:* you can specify a client_id to obtain the information about one of your client.
+
+```python
+class NetworkVulnCollection:
+
+    
+    @property
+    def vulns(self):
+        # gets the network vulnerabilities in the collection.
+    def group_by_threat(self, aggr: bool = False, aggr_method: str = 'count'):
+        # groups vulnerabilities that have the same threat. If aggr is specified, then the number of vulnerabilities in each group is returned.
+    def group_by_vuln(self, aggr: bool = False, aggr_method: str = 'count'):
+        # groups vulnerabilities that have the same vuln_id. If aggr is specified, then the number of vulnerabilities in each group is returned.
+    def group_by_asset(self, aggr: bool = False, aggr_method: str = 'count'):
+        # groups vulnerabilities that have the same asset_id. If aggr is specified, then the number of vulnerabilities in each group is returned.
+    def filter_by_threat(self, threat: str):
+        # filter away vulnerabilities with threat != @threat.
+    def filter_by_vuln(self, vuln_id: int):
+        # filter away vulnerabilities with vuln_id != @vuln_id.
+    def filter_by_asset(self, asset_id: int):
+        # filter away vulnerabilities with vuln_id != @vuln_id.
+
+class NetworkHostVuln:
+    asset_id: int
+    asset_name: str
+    host_id: int
+    host: str
+    port: str
+    protocol: str
+    vuln_id: int
+    vulnerability: str
+    threat: str
+    cvss: float
+    vuln_excluded: bool
+    host_excluded: bool
+    asset_excluded: bool
+    last_detection: str
+    first_detection: str = None
+    host_label: str = None
+    hostname: str = None
+    family: str = None
+    summary: str = None
+    description: str = None
+    solution: str = None
+    insight: str = None
+    impact: str = None
+    affected: str = None
+    references: list[str] = None
+    cve: list[str] = None
+```
+### get_web_vulns(self, client_id: int = None, asset_id: int = None, host_id: int = None, threat: list = None, exclusion: bool = None, host_visibility: str = None, asset_visibility: str = None, detail: int = None) -> NetworkVulnCollection:
+
+gets the collection of all the detected web vulnerabilities. If you are interested in specific assets or specific hosts you can specify them by passing a host_id and/or an asset_id.
+Additionally, you can specify some parameters to filter away the vulnerabilities you are not interested in: threat *(Array [high | medium | low | log])*, exclusion, hostVisibility *(included, excluded)*, assetVisibility *(included, excluded)*, detailLevel *(BASE, DETAILED, THOROUGH)*.
+
+*For Partners Only:* you can specify a client_id to obtain the information about one of your client.
+
+```python
+class NetworkVulnCollection:
+
+    
+    @property
+    def vulns(self):
+        # gets the network vulnerabilities in the collection.
+    def group_by_threat(self, aggr: bool = False, aggr_method: str = 'count'):
+        # groups vulnerabilities that have the same threat. If aggr is specified, then the number of vulnerabilities in each group is returned.
+    def group_by_vuln(self, aggr: bool = False, aggr_method: str = 'count'):
+        # groups vulnerabilities that have the same vuln_id. If aggr is specified, then the number of vulnerabilities in each group is returned.
+    def group_by_asset(self, aggr: bool = False, aggr_method: str = 'count'):
+        # groups vulnerabilities that have the same asset_id. If aggr is specified, then the number of vulnerabilities in each group is returned.
+    def filter_by_threat(self, threat: str):
+        # filter away vulnerabilities with threat != @threat.
+    def filter_by_vuln(self, vuln_id: int):
+        # filter away vulnerabilities with vuln_id != @vuln_id.
+    def filter_by_asset(self, asset_id: int):
+        # filter away vulnerabilities with vuln_id != @vuln_id.
+
+class WebHostVuln:
+    asset_id: int
+    asset_name: str
+    host_id: int
+    host: str
+    vuln_id: int
+    vulnerability: str
+    threat: str
+    vuln_excluded: bool
+    host_excluded: bool
+    asset_excluded: bool
+    last_detection: str
+    first_detection: str = None
+    label: str = None
+    family: str = None
+    description: str = None
+    solution: str = None
+    affected_url_count: int = None
+    evidence: str = None
+    attack: str = None
+    param: str = None
+    other: str = None
+    affected_urls: list[str] = None
+```
+
+### get_technical_info(self, client_id: int = None, days: int = None) -> Trend
+
+gets the trend corresponding to the last *days*. The Trend object will include a list of objects containing your data (i.e., index and risk level) over time.
+
+*For Partners Only:* you can specify a client_id to obtain the information about one of your client.
+
+```python
+class CerbeyraIndex:
+    index: str
+    risk_level: str
+    explain: dict
+    
+class HistoryInfo:
+    from_date: str
+    to_date: str
+    index_trend: list[dict]
+    anomalies: dict
+    
+class TechnicalInfo:
+    history: HistoryInfo
+    index: CerbeyraIndex
+    vulnerability_assessment: dict
+```
+
+### get_network_scans(client_id: int = None, asset_id: int = None, search: str = None, perimeter: str = None, probe: str = None, include_excluded: bool = None, status: str = None, from_date: str = None, to_date: str = None) -> NetworkScanResultCollection
+
+gets the list of all the network scans processed by the platform. 
+
+*For Partners Only:* you can specify a client_id to obtain the information about one of your client.
+
+```python
+class NetworkScanResult:
+    asset_id: int
+    asset_name: str
+    target: list
+    type: str = 'network'
+    perimeter: str
+    vulns: dict
+    status: str
+    start_at: str
+    end_at: str
+    probe_id: int = None
+    
+class NetworkScanResultCollection(list[NetworkScanResult]):
+    
+    def group_by_asset(self, aggr: Union[bool, AggregationMethods, None] = None):
+        # group the scans by asset, aggr = True it counts the results
+    def group_by_status(self, aggr: Union[bool, AggregationMethods, None] = None):
+        # group the scans by status, aggr = True it counts the results
+    def group_by_perimeter(self, aggr: Union[bool, AggregationMethods, None] = None):
+        # group the scans by perimeter, aggr = True it counts the results
+    def filter_by_asset(self, asset_id: int):
+        # filter the scans by asset id
+    def filter_by_status(self, status: str):
+        # filter the scans by status
+    def filter_by_perimeter(self, perimeter: str):
+        # filter the scans by perimeter
+```
+
+### get_web_scans(client_id: int = None, asset_id: int = None, search: str = None, perimeter: str = None, probe: str = None, include_excluded: bool = None, status: str = None, from_date: str = None, to_date: str = None) -> WebScanResultCollection
+
+gets the list of all the web scans processed by the platform. 
+
+*For Partners Only:* you can specify a client_id to obtain the information about one of your client.
+
+```python
+class WebScanResult:
+    asset_id: int
+    asset_name: str
+    target: list
+    type: str = 'web'
+    perimeter: str
+    vulns: dict
+    status: str
+    start_at: str
+    end_at: str
+    probe_id: int = None
+    
+class WebScanResultCollection(list[WebScanResult]):
+    
+    def group_by_asset(self, aggr: Union[bool, AggregationMethods, None] = None):
+        # group the scans by asset, aggr = True it counts the results
+    def group_by_status(self, aggr: Union[bool, AggregationMethods, None] = None):
+        # group the scans by status, aggr = True it counts the results
+    def group_by_perimeter(self, aggr: Union[bool, AggregationMethods, None] = None):
+        # group the scans by perimeter, aggr = True it counts the results
+    def filter_by_asset(self, asset_id: int):
+        # filter the scans by asset id
+    def filter_by_status(self, status: str):
+        # filter the scans by status
+    def filter_by_perimeter(self, perimeter: str):
+        # filter the scans by perimeter
+```
+
+
+## Some typical use cases would be
+
+```python
+from cerbeyra import CerbeyraApi
+from cerbeyra.src.types import NetworkReportFields, WebReportFields
+
+username = "your_cerbeyra_username"
+password = "your_cerbeyra_password"
+network_columns = [NetworkReportFields.host.value, NetworkReportFields.threat.value]
+with CerbeyraApi(username=username, password=password) as cerbeyra_api:
+   clients = cerbeyra_api.get_all_clients(active=True)
+   for client in clients:
+       net_report = cerbeyra_api.get_report_network(columns=network_columns, client_id=client.client_id)
+       csv_path=f"/path/to/report/cilent_{client.client_id}.csv"
+       net_report.save_csv(csv_path)
+       # email_report_to(email=client.email, path=csv_path)
+```
+
+```python
+from cerbeyra import CerbeyraApi
+
+username = "your_cerbeyra_username"
+password = "your_cerbeyra_password"
+with CerbeyraApi(username=username, password=password) as cerbeyra_api:
+   clients = cerbeyra_api.get_all_clients(active=True)
+   for client in clients:
+       host_collection = cerbeyra_api.get_all_hosts(client.client_id)
+       index_grouped = host_collection.group_by_index()
+       bad_hosts = index_grouped.get('F') # or host_collection.filter_by_index(index='F')
+       if bad_hosts:
+           print(f'Exporting client ({client.client_id}) hosts ({",".join([host.host for host in bad_hosts])}) to .csv')
+           bad_hosts.save_csv(path=f'/path/to/report/cilent_{client.client_id}.csv')
+```
+
+
