@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+supr_convertor/__init__.py
+supr_convertor/config.py
+supr_convertor/convertor.py
+supr_convertor/data.py
+supr_convertor/losses.py
+supr_convertor/utils.py
+supr_convertor.egg-info/PKG-INFO
+supr_convertor.egg-info/SOURCES.txt
+supr_convertor.egg-info/dependency_links.txt
+supr_convertor.egg-info/requires.txt
+supr_convertor.egg-info/top_level.txt
