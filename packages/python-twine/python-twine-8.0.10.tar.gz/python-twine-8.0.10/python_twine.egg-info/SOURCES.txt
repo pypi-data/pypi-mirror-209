@@ -1,0 +1,6 @@
+main.py
+setup.py
+python_twine.egg-info/PKG-INFO
+python_twine.egg-info/SOURCES.txt
+python_twine.egg-info/dependency_links.txt
+python_twine.egg-info/top_level.txt
