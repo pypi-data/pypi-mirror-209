@@ -1,0 +1,6 @@
+matplotlib
+numpy
+click
+svgwrite
+pyyaml
+pandas
