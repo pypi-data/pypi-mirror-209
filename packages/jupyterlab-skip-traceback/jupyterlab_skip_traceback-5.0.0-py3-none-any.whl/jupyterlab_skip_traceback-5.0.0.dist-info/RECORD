@@ -1,0 +1,15 @@
+jupyterlab-skip-traceback/__init__.py,sha256=KoOC-D4dyuVXFmtXAOuUGWJ_Y8JdgKnmDqYrm_pfbpo,296
+jupyterlab-skip-traceback/_version.py,sha256=XIJQfJQe4phv44X3E2HdRw0DsClov3-xLDvN-ltqPug,171
+jupyterlab_skip_traceback-5.0.0.data/data/share/jupyter/labextensions/jupyterlab-skip-traceback/package.json,sha256=za_xMWO9LyVZ9ANQ9y9DE1YJ25oBomXECCBFmEXzQa0,5974
+jupyterlab_skip_traceback-5.0.0.data/data/share/jupyter/labextensions/jupyterlab-skip-traceback/schemas/jupyterlab-skip-traceback/package.json.orig,sha256=vlJZe_3AvnE7kiKNbzNqRA3rZdbcUTLc84fp_qt3A3c,5832
+jupyterlab_skip_traceback-5.0.0.data/data/share/jupyter/labextensions/jupyterlab-skip-traceback/schemas/jupyterlab-skip-traceback/settings.json,sha256=zOn8hrZNEv8xB_WsDfb9ltCjEG_vbMU2iemZrwqeqCY,518
+jupyterlab_skip_traceback-5.0.0.data/data/share/jupyter/labextensions/jupyterlab-skip-traceback/static/197.0596bfdf60c6ce658c25.js,sha256=BZa_32DGzmWMJQ0xTh_2TOjDQFn1MJeoxlMfFcBfNpU,8569
+jupyterlab_skip_traceback-5.0.0.data/data/share/jupyter/labextensions/jupyterlab-skip-traceback/static/747.4f80ed8d9fca742cc8a5.js,sha256=T4DtjZ_KdCzIpYn58Bg2o9TMqvmhOlyxaYyU0_h7Q7c,4812
+jupyterlab_skip_traceback-5.0.0.data/data/share/jupyter/labextensions/jupyterlab-skip-traceback/static/remoteEntry.b4861d8944599b59ea1c.js,sha256=tIYdiURZm1nqHH-N110Qw7I9qXM8CSUekjmRzO1vo5w,6612
+jupyterlab_skip_traceback-5.0.0.data/data/share/jupyter/labextensions/jupyterlab-skip-traceback/static/style.js,sha256=qPyLdRVla9twKa3SZXX4tAM8PRNBaq1uJsNBa1Ee1_c,168
+jupyterlab_skip_traceback-5.0.0.data/data/share/jupyter/labextensions/jupyterlab-skip-traceback/static/third-party-licenses.json,sha256=beld9gl1KDjeIEcvIUrG1m2RBKZgf2YRzKIw8g2rMGc,2594
+jupyterlab_skip_traceback-5.0.0.data/data/share/jupyter/labextensions/jupyterlab-skip-traceback/install.json,sha256=evALUXgcyRtt-uhJqhpaBudH9l81E8q8pPh9rkDrOSU,211
+jupyterlab_skip_traceback-5.0.0.dist-info/METADATA,sha256=yuD1ElWMHcuUn6jrswXaAW-qrGEiSiOaD1bKuJ_cv0I,7448
+jupyterlab_skip_traceback-5.0.0.dist-info/WHEEL,sha256=y1bSCq4r5i4nMmpXeUJMqs3ipKvkZObrIXSvJHm1qCI,87
+jupyterlab_skip_traceback-5.0.0.dist-info/licenses/LICENSE.txt,sha256=S4Z6nbriJ6dyT68eVPeb6YhH8Wf1maT3t5mHS3yAgaM,1504
+jupyterlab_skip_traceback-5.0.0.dist-info/RECORD,,
