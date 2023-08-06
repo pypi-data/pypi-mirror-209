@@ -1,0 +1,16 @@
+examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+examples/fastapi.py,sha256=Ouisez4GK0DWycMSSoZl3vUU28KfFzWdmdyMpvt2QmU,646
+examples/flask.py,sha256=eWM5wHCxgI2apLn4lQazOLG2pqcKPy8YVOUsZ28UkTw,674
+examples/sample.py,sha256=Sr7uFh1CCgiRu6WMTXzSWNgUi3z1I-32EYHjAXdnOFc,1096
+fast_resource/__init__.py,sha256=kNIynDLL6tqr-u2Us-zDLT_M53-AaO2kfAqMfGVWZIY,67
+fast_resource/resource.py,sha256=JdZoDjCnGH5a_DydHQQrzQvvJRxXHKXCD4HDzZqYLY4,2026
+fast_resource/resource_cache.py,sha256=phoaZnZ4cU27LqAae4aFmoKc-MbCdr3yFG2comkV4cQ,3293
+fast_resource/cache/__init__.py,sha256=ZPrBsK4qqKNPeZnISyhhbv6WljtmitsAOjLeoAzkbtk,106
+fast_resource/cache/cache.py,sha256=VGE_JN0Ojq5llnZdZlHW9h_yH4TzAwFf_p5rWV7gLTw,560
+fast_resource/cache/memcached_cache.py,sha256=K5zEDbYGV0pkDNCMSHKPg44fhzQIIzKMOu2e7HgGhtM,662
+fast_resource/cache/redis_cache.py,sha256=CX3jSLZhZoPCDkuD3IzdZUvaBeO_ogZ3VfdM7eoBxdw,599
+fast_resource-0.1.1.dist-info/LICENSE,sha256=WtjCEwlcVzkh1ziO35P2qfVEkLjr87Flro7xlHz3CEY,11556
+fast_resource-0.1.1.dist-info/METADATA,sha256=o8lwlRwIcwZoEfO5WLF4brN_WbNnpJi8RuEX5KIKXpc,3093
+fast_resource-0.1.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+fast_resource-0.1.1.dist-info/top_level.txt,sha256=ERUCfs9CpAd2NiWtEgt__mTKYcB-kI7VLaZKowZsTEM,23
+fast_resource-0.1.1.dist-info/RECORD,,
