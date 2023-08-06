@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: crosscompute-analytics
+Version: 0.9.4.9
+Summary: CrossCompute Analytics Software Development Kit
+Home-page: https://crosscompute.com
+Author: CrossCompute Inc.
+Author-email: support@crosscompute.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/crosscompute/crosscompute-analytics/issues
+Project-URL: Documentation, https://docs.crosscompute.com
+Project-URL: Source Code, https://github.com/crosscompute/crosscompute-analytics
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: FastAPI
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI :: Application
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: crosscompute (>=0.9.4.9)
+Requires-Dist: crosscompute-printers-pdf (>=0.4.1)
+Requires-Dist: crosscompute-views-map (>=0.2.2)
+Requires-Dist: crosscompute-views-barcode (>=0.2.2)
+Requires-Dist: invisibleroads-macros-web (>=0.3.4)
+Requires-Dist: jupyterlab-crosscompute (>=0.2.4)
+Requires-Dist: jupyterlab (==3.6.3)
+Requires-Dist: ipython
+Requires-Dist: pudb
+
+# CrossCompute Analytics Software Development Kit
+
+Make apps from scripts quickly.
+
+The CrossCompute Analytics Software Development Kit drastically reduces the time and effort needed to update a software as a service (SaaS) solution directly from your command-line scripts and Jupyter notebooks.
+
+This is a convenience package that installs the following dependencies:
+
+- crosscompute
+- crosscompute-printers-pdf
+- crosscompute-views-barcode
+- crosscompute-views-map
+- ipython
+- jupyterlab
+- jupyterlab-crosscompute
+- pudb
+
+Here are examples and tutorials:
+
+- [Examples](https://github.com/crosscompute/crosscompute-examples)
+- [Documentation](https://docs.crosscompute.com)
+- [Forum](https://forum.crosscompute.com)
+- [Gallery](https://crosscompute.net)
