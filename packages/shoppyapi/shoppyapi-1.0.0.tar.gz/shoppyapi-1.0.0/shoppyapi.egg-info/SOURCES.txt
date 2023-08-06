@@ -1,0 +1,10 @@
+README.md
+setup.py
+shoppyapi/__init__.py
+shoppyapi/shoppyapi.py
+shoppyapi/version.py
+shoppyapi.egg-info/PKG-INFO
+shoppyapi.egg-info/SOURCES.txt
+shoppyapi.egg-info/dependency_links.txt
+shoppyapi.egg-info/requires.txt
+shoppyapi.egg-info/top_level.txt
