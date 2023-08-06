@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: emailvalidationio
+Version: 0.1
+Summary: Emailvalidation Python Client
+Home-page: https://github.com/everapihq/emailvalidation-python
+Author: Everapi
+Author-email: office@everapi.com
+License: MIT
+Description: # Emailvalidation Python Client #
+        
+        Emailvalidation Python Client is the official Python Wrapper around the Emailvalidation [API](https://emailvalidation.io/).
+        
+        ## Installation
+        
+        Install from pip:
+        ````sh
+        pip install emailvalidation
+        ````
+        
+        Install from code:
+        ````sh
+        pip install git+https://github.com/everapihq/emailvalidation-python.git
+        ````
+        
+        ## Usage
+        
+        All emailvalidation API requests are made using the `Client` class. This class must be initialized with your API access key string. [Where is my API access key?](https://app.emailvalidation.io/dashboard)
+        
+        In your Python application, import `emailvalidation` and pass authentication information to initialize it:
+        
+        ````python
+        import emailvalidation
+        client = emailvalidation.Client('API_KEY')
+        ````
+        
+        ### Retrieve Status
+        
+        ```python
+        
+        print(client.status())
+        
+        ```
+        
+        ### Validate Email Address
+        [https://emailvalidation.io/docs/info](https://emailvalidation.io/docs/info)
+        ```python
+        
+        result = client.info('john@doe.com')
+        # result = client.info('john@doe.com', catch_all=1)
+        print(result)
+        
+        ```
+        
+        
+        ### Contact us
+        Any feedback? Please feel free to [contact our team](mailto:office@everapi.com).
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown

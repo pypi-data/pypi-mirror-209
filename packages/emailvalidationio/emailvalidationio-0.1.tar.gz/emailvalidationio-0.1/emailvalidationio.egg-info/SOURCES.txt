@@ -1,0 +1,9 @@
+README.md
+setup.py
+emailvalidationio/__init__.py
+emailvalidationio/client.py
+emailvalidationio.egg-info/PKG-INFO
+emailvalidationio.egg-info/SOURCES.txt
+emailvalidationio.egg-info/dependency_links.txt
+emailvalidationio.egg-info/requires.txt
+emailvalidationio.egg-info/top_level.txt
