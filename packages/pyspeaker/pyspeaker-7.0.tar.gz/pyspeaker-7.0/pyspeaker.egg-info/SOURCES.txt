@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+app/Audio.py
+app/__init__.py
+pyspeaker.egg-info/PKG-INFO
+pyspeaker.egg-info/SOURCES.txt
+pyspeaker.egg-info/dependency_links.txt
+pyspeaker.egg-info/requires.txt
+pyspeaker.egg-info/top_level.txt
