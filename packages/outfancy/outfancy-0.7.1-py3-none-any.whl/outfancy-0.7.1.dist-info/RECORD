@@ -1,0 +1,13 @@
+outfancy/__init__.py,sha256=1oLL20yLB1GL9IbFiZD8OReDqiCpFr-yetIR6x1cNkI,23
+outfancy/chart.py,sha256=_Reg6trwCbrMUJUbaMOjdc2NmHsfu81guMZmLp6Dq7E,19294
+outfancy/colors.py,sha256=sxIiHfIQT6zQk6jRlfgxJZ_6HYCBT7tPmCnLWqeHEiE,2650
+outfancy/example_dataset.py,sha256=8zbn1-h6bNl2gE20kYXSnkGm8FXoPqUGLU9GSlv4P2E,7386
+outfancy/table.py,sha256=6AmriuO3yCG4_iao9jMDsjqBX8BEsZOa0onlg_SYppk,87321
+outfancy/version.py,sha256=GJymrkPPy4oQtw1qSCaAnSZb3GZgTUmCV_TnDlCGrfY,46
+outfancy/widgets.py,sha256=9EuxeWfjmrrk3X0yoyqGyc5l1KXAQqL-ct6D33KeT-I,4176
+outfancy/window.py,sha256=kAw_kh4m9O8sboHb92J6amg_oUTAd6cvro6Ho7RXm9M,1188
+outfancy-0.7.1.dist-info/LICENSE,sha256=aijQ0xFC2gN_0ans1ZhrwOrACrx13GI_X2_g29YZ-yY,1076
+outfancy-0.7.1.dist-info/METADATA,sha256=2yZlDDgE_ZF5O0dbvmnd9rnhd8ILNv4aYSWEFPJc9YI,2528
+outfancy-0.7.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+outfancy-0.7.1.dist-info/top_level.txt,sha256=5fBEc6TC4dLqz2sdWfQAyQJdXaT4azcIq7ktwmsHyf8,9
+outfancy-0.7.1.dist-info/RECORD,,
