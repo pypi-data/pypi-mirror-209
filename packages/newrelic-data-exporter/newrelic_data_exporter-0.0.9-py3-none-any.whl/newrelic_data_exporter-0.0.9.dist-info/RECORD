@@ -1,0 +1,10 @@
+newrelic_data_exporter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+newrelic_data_exporter/newrelic_data_exporter.py,sha256=rFGCWPd6JwUx1JD0RlQ4txstmmjZvoah__sljwcxjX4,5123
+newrelic_data_exporter/queries.yml,sha256=KlZ7aOfWpxQOsMYjE-ggggb0KieV0qGi3ikyKtWVwvA,1600
+newrelic_data_exporter/resources.yml,sha256=HM9K0LTl3BJwKvhD2ns2A8MGgVLpii8sTx0zt4xPCbo,625
+newrelic_data_exporter-0.0.9.dist-info/LICENSE.txt,sha256=GSAKapQH5ZIGWlpQTA7v5YrfECyaxaohUb1vJX-qepw,1090
+newrelic_data_exporter-0.0.9.dist-info/METADATA,sha256=uTDxv1qtaPpD6sFHNY3CIvAf1wuUipaowOlBbg5lzrY,2526
+newrelic_data_exporter-0.0.9.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+newrelic_data_exporter-0.0.9.dist-info/entry_points.txt,sha256=kniotXzVGW4Ud6KIvvxr2QLoeAps71cx7-sE2ErpnAk,94
+newrelic_data_exporter-0.0.9.dist-info/top_level.txt,sha256=aSr-I9B7yzu5X71_KV-Q5Mql8ZDLq2aKqPES8mxeepk,23
+newrelic_data_exporter-0.0.9.dist-info/RECORD,,
