@@ -1,0 +1,9 @@
+requests<3.0.0,>=2.22.0
+factory-boy<3.0.0,>=2.7.0
+schematics<3.0.0,>=2.1.1
+pydantic<2.0.0,>=1.8.2
+
+[dev]
+black
+pytest
+responses
