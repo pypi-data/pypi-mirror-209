@@ -1,0 +1,113 @@
+#!/bin/bash
+
+###################################################################
+# do_map_purestorage_volume
+# Purpose: map  of PureStorage volume 
+#
+#    Args: $1 -> name of volume to delete
+#          $2 -> mount point to mount the volume
+#
+#  Output: Log of actions
+# Returns: TRUE for success, FALSE for failure
+###################################################################
+# ucampurestorage="/usr/local/bin/ucampurestorage"
+ucampurestorage="/root/test/pypi_test/venv/bin/ucampurestorage"
+
+echo "Invoked with: $0 $@"
+echo "My PID is $$"
+
+###################################################################
+# Purpose: usage information
+###################################################################
+function usage()
+{
+cat << EOF
+usage: $0 options
+
+This script maps a purestorage volume.
+
+OPTIONS:
+  -h 
+  -n name                             Name of the volume.
+  -p mount point                      Mount point to mount the volume.
+  -x new_vol flag                     Use this flag for new volume mounting to format before mount.
+                                      Donot use this flag for clone volume to mount.
+  -k /path/to/secrets.json            Secret file containing URL and credential to access Pure Storage.
+
+E.g.
+  For new volume : $0 -n TEST121 -p /t1 -x 1 -k /path/to/secrets.json
+  For clone volume: $0 -n TEST121 -p /t1 -x 0 -k /path/to/secrets.json
+
+NB. 
+1. /path/to/secrets.json must be in the following format:
+{
+  "client_id": "pure_api_client_id",
+  "key_id": "pure_api_key_id",
+  "client_name": "pure_api_client_name",
+  "storage": "purestorage.cam.ac.uk",
+  "user": "pureuser",
+  "password": "purepassword",
+  "keyfile": "private.pem"
+}
+
+2. ucampurestorage must be installed and located under /usr/local/bin/
+EOF
+}
+
+###################################################################
+# Parse the args 
+###################################################################
+
+while getopts "hn:t:x:k:" opt
+do
+  case $opt in
+    h)
+      usage
+      exit
+      ;;
+    n)
+      name=$OPTARG
+     ;;
+    p)
+      mount=$OPTARG
+     ;;
+    x)
+      new=$OPTARG
+     ;;
+    k)
+      secrets=$OPTARG
+     ;;
+    ?)
+      usage
+      exit
+      ;;
+  esac
+done
+
+# check required arguments
+if [ -z "$name" ] || [ -z "$mount" ]|| [ -z "$new" ]|| [ -z "$secrets" ]
+then
+   usage
+   exit
+fi
+
+# Call ucampurestorage package
+if [[ $new == 1 ]]
+then
+    result=$($ucampurestorage  --record_config True --file $secrets volume map --name $name --mp $mount -new )
+elif [[ $new == 0 ]]
+then
+    result=$($ucampurestorage  --record_config True --file $secrets volume map --name $name --mp $mount)
+else
+   usage
+   exit
+fi
+
+if [[ $result == *"[Command succeeded - Returns True]"* ]]
+then
+    echo "Command succeeded."
+    exit 0
+else
+  echo "Command failed. Please check the ucampurestorage log file in /var/log/ucampurestorage/."
+  exit 1
+fi
