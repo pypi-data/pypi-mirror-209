@@ -1,0 +1,10 @@
+[run]
+source = geneparse
+branch = True
+
+[report]
+exclude_lines =
+    pragma: no cover
+
+[html]
+title = Coverage report - geneparse
