@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+getgeo/__init__.py
+getgeo/base.py
+getgeo/geodata.py
+getgeo_python.egg-info/PKG-INFO
+getgeo_python.egg-info/SOURCES.txt
+getgeo_python.egg-info/dependency_links.txt
+getgeo_python.egg-info/requires.txt
+getgeo_python.egg-info/top_level.txt
