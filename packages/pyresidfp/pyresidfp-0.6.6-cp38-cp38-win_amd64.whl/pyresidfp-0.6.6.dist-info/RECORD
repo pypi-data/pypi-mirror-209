@@ -1,0 +1,13 @@
+pyresidfp/__init__.py,sha256=9VZwMI63qQVele0PD3g3PBqwq9n4r7hIH9EOdR0BNyU,1479
+pyresidfp/_pyresidfp/__init__.pyi,sha256=-jTUbzY3xU7NQ_wEwIexuYYGyA5cGGyOBBqp4MnddOQ,8901
+pyresidfp/_pyresidfp.cp38-win_amd64.pyd,sha256=Z5aYYBYR2x-0FLMhMV68i6CS4ZTmpphtYAOClnRNp4I,222720
+pyresidfp/_version.py,sha256=mcp8I64Tiz3oinqO0cOQNqdUCdZBEQQqFrcv7XZha90,164
+pyresidfp/musical_scale.py,sha256=MA4pfqXhEz554MdB5qlZ5UH_2jyas4eebfxXgqMvPn4,4216
+pyresidfp/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyresidfp/registers.py,sha256=C6qkkPWO8IEDL6rN6CoH-aMc_MAxEIyDXrRWm7NPCDM,2989
+pyresidfp/sound_interface_device.py,sha256=ofHToR-JVbPUVi2o4IctrFzU2kHuwchggb1h49Ng5Sk,11715
+pyresidfp-0.6.6.dist-info/METADATA,sha256=FL6m_CufMdxh_7lQ7PUCFZe_m17K4AX3Vb_mPpdfoEU,3143
+pyresidfp-0.6.6.dist-info/WHEEL,sha256=aMJ5mh3CZIDVS-gig3PW2Pi2QmByDkzhXhjgPS24Uhs,103
+pyresidfp-0.6.6.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyresidfp-0.6.6.dist-info/licenses/COPYING,sha256=GJsa-V1mEVHgVM6hDJGz11Tk3k0_7PsHTB-ylHb3Fns,18431
+pyresidfp-0.6.6.dist-info/RECORD,,
