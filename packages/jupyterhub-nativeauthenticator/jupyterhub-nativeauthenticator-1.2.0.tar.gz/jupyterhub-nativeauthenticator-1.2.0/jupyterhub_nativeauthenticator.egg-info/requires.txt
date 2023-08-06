@@ -1,0 +1,9 @@
+jupyterhub>=1.3
+bcrypt
+onetimepass
+
+[test]
+notebook>=6.4.1
+pytest
+pytest-asyncio
+pytest-cov
