@@ -1,0 +1,8 @@
+Deepface
+mtcnn
+VGGFace
+keras
+Tensorflow
+numpy
+opencv-python
+Flask
