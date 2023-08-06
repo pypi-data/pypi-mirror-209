@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: impick
+Version: 0.0.1
+Summary: ImPick - view and select a single image from a group using the web-GUI
+Home-page: https://github.com/rilshok/impick
+Author: Vladislav A. Proskurov
+Author-email: rilshok@pm.me
+License: MIT
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 1 - Planning
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# impick
+

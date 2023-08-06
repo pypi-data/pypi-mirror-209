@@ -1,0 +1,6 @@
+include *.md
+include requirements.txt
+include LICENSE
+recursive-include impick *.py
+recursive-include impick *.pyi
+recursive-include impick *.typed
