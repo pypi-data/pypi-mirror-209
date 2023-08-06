@@ -1,0 +1,11 @@
+nuance/__init__.py,sha256=fM6SAy6jmiFuvy5tOtcYpyaepyz0C8HGDptFWaO8ouI,300
+nuance/kernels.py,sha256=7MighN6SrOstJ4WnOSJ-A1SWt6_vK5LSJ2Q9MRIns_0,1670
+nuance/nuance.py,sha256=k3fLlHC-RxC_9gB5TzogwRaJ-Yyf8swQeUNbuo-UpUs,15801
+nuance/search_data.py,sha256=B_THKDOweAkRSexbR6lr1prd81-0hP9kSy3XlBNVfsk,4491
+nuance/star.py,sha256=sLe0iGeDNB0IzujRQitTM45EOcklQbWZXkt-2Tc1jHQ,4840
+nuance/utils.py,sha256=Lwz8a9cRQN8tHOTju_AbTsjmDP78JWoiiG0c6k2rs4U,3995
+nuance/viz.py,sha256=yRmsVJovU62EPSY38iewfFecIX6HjU2svvr_ytwdbWE,493
+nuance-0.1.0.dist-info/LICENSE,sha256=bGbTsnnDsiLoFmbdFgvSiKeT4rhYQC3YUgyQdKladcQ,1097
+nuance-0.1.0.dist-info/METADATA,sha256=YRb1jIQAO3WpiSvvTvE1FGCjqigLHo0399llfYs3M-0,2183
+nuance-0.1.0.dist-info/WHEEL,sha256=WGfLGfLX43Ei_YORXSnT54hxFygu34kMpcQdmgmEwCQ,88
+nuance-0.1.0.dist-info/RECORD,,
