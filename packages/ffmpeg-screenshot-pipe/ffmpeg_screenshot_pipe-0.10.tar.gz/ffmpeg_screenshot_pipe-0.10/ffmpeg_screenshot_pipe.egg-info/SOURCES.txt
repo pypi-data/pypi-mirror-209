@@ -1,0 +1,16 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+ffmpeg_screenshot_pipe/README.md
+ffmpeg_screenshot_pipe/__init__.py
+ffmpeg_screenshot_pipe/ffmpeg.exe
+ffmpeg_screenshot_pipe/ffmpeg_screenshot_pipe_multi.py
+ffmpeg_screenshot_pipe/requirements.txt
+ffmpeg_screenshot_pipe/thirdparty.json
+ffmpeg_screenshot_pipe.egg-info/PKG-INFO
+ffmpeg_screenshot_pipe.egg-info/SOURCES.txt
+ffmpeg_screenshot_pipe.egg-info/dependency_links.txt
+ffmpeg_screenshot_pipe.egg-info/requires.txt
+ffmpeg_screenshot_pipe.egg-info/top_level.txt

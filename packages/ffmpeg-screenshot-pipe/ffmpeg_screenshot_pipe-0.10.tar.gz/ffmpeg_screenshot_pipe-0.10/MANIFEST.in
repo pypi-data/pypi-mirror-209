@@ -1,0 +1,5 @@
+include ffmpeg_screenshot_pipe/requirements.txt
+include ffmpeg_screenshot_pipe/thirdparty.json
+include ffmpeg_screenshot_pipe/README.md
+include ffmpeg_screenshot_pipe/ffmpeg.exe
+include ffmpeg_screenshot_pipe/ffmpeg_screenshot_pipe_multi.py
