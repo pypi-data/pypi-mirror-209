@@ -1,0 +1,7 @@
+_trial_temp
+bin
+build
+build_scripts
+data
+docs
+opencanary
