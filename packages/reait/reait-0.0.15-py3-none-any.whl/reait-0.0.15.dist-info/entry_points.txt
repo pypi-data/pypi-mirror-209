@@ -1,0 +1,2 @@
+[console_scripts]
+reait = reait.__main__:main
