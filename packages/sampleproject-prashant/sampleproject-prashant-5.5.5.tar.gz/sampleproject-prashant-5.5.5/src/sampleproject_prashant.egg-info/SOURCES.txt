@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/sample/__init__.py
+src/sample/package_data.dat
+src/sample/simple.py
+src/sampleproject_prashant.egg-info/PKG-INFO
+src/sampleproject_prashant.egg-info/SOURCES.txt
+src/sampleproject_prashant.egg-info/dependency_links.txt
+src/sampleproject_prashant.egg-info/entry_points.txt
+src/sampleproject_prashant.egg-info/requires.txt
+src/sampleproject_prashant.egg-info/top_level.txt
+tests/test_simple.py
