@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: awschains
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/44103/awschains
+Author: Kenko Yoshitomi
+Author-email: kyoshitomi.curosr@gmail.com
+License: Apache v2.0
+Keywords: aws,boto3,methodchain
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE
+
+UNKNOWN
+
