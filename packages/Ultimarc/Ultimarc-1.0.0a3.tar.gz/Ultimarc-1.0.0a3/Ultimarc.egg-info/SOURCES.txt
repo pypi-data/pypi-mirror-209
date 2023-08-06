@@ -1,0 +1,16 @@
+LICENSE
+README.rst
+setup.cfg
+setup.py
+Ultimarc.egg-info/PKG-INFO
+Ultimarc.egg-info/SOURCES.txt
+Ultimarc.egg-info/dependency_links.txt
+Ultimarc.egg-info/entry_points.txt
+Ultimarc.egg-info/requires.txt
+Ultimarc.egg-info/top_level.txt
+ultimarc/__init__.py
+ultimarc/exceptions.py
+ultimarc/main.py
+ultimarc/misc.py
+ultimarc/system_utils.py
+ultimarc/test_usb.py
