@@ -1,0 +1,4 @@
+{
+    "description": "package files, set 'include_package_data' to True to include the file in distribution",
+    "manifest.in": "a MANIFEST.in file is also required to include the package data file"
+}

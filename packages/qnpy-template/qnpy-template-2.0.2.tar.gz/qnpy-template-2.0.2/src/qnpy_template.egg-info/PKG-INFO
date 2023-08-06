@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: qnpy-template
+Version: 2.0.2
+Summary: python library template repo
+Author-email: World Automation <allworldautomation@gmail.com>
+License: Copyright (C) Nan Qin - All Rights Reserved
+        Unauthorized copying of this file, via any medium is strictly prohibited
+        Proprietary and confidential
+Keywords: template
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: test
+License-File: LICENSE.txt
+
+# A python library repo template
+
+## Create isolated python environment for development.
+
+```
+python3.9 -m venv .venv
+source .venv/bin/activate
+python3 -m pip install --upgrade pip
+```
+
+## Build project
+
+```
+python -m build
+```
