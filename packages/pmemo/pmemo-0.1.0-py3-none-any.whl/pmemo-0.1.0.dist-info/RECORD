@@ -1,0 +1,11 @@
+pmemo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pmemo/custom_select.py,sha256=-2N6BqNgJTfJZ3A7TY_GzMPczyCj5QRRvclK73J8oNM,4173
+pmemo/main.py,sha256=T068h2zT3gFGps1FcXjBV-Owv3kjpO72KFA3jYlpIQM,2945
+pmemo/memo.py,sha256=VqF0AsawIrao9N-dbSlHoU_cG-xXRO6wL9ouGgu4uAY,4797
+pmemo/pmemo_editor.py,sha256=Khpiok8248tLQdwDIlLYlEr2scOHkMf-kasa_j6P2vI,3803
+pmemo/utils.py,sha256=XQX3G_cJ-KH5gJhrqxUOAA-P19Rgpzj14s_Ct2WCBBg,233
+pmemo-0.1.0.dist-info/LICENSE,sha256=yDAGRbsikbiwNt9vCBzH0tOY3HAi2Q9NDcwkqGCQ29c,1065
+pmemo-0.1.0.dist-info/METADATA,sha256=y0RIiqfy6wsv6W3_AcqpGj6ImC7QkPVUCtcT3h2gHpk,1897
+pmemo-0.1.0.dist-info/WHEEL,sha256=WGfLGfLX43Ei_YORXSnT54hxFygu34kMpcQdmgmEwCQ,88
+pmemo-0.1.0.dist-info/entry_points.txt,sha256=GgxN_WVtCm1X--IhWp4AH8dU5zHn0sCquqGG5Qw0Cyc,38
+pmemo-0.1.0.dist-info/RECORD,,
