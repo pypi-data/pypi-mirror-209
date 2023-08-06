@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: text2config
+Version: 0.0.1
+Summary: text to config or command
+Home-page: https://github.com/FingerLiu/text2config
+Author: liupeng
+Author-email: liupeng.dalian@gmail.com
+Description-Content-Type: text/plain
+License-File: LICENSE
+Requires-Dist: langchain
+Requires-Dist: openai
+Requires-Dist: azure-core
+Requires-Dist: google-search-results
+
+Convert natural language text to configuration files(yaml/ini/conf/json) or command of various projects(docker/kubernetes/vim/nginx/postgres/terraform) with the power of Pre-Trained models.
+Relieve you from the burden of remembering configuration and commands.
