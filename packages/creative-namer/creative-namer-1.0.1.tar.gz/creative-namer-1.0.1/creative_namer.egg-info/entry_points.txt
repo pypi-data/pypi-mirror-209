@@ -1,0 +1,3 @@
+[console_scripts]
+creative_namer = creative_namer:main
+

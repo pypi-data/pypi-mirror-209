@@ -1,0 +1,9 @@
+README.md
+creative_namer.py
+setup.py
+creative_namer.egg-info/PKG-INFO
+creative_namer.egg-info/SOURCES.txt
+creative_namer.egg-info/dependency_links.txt
+creative_namer.egg-info/entry_points.txt
+creative_namer.egg-info/requires.txt
+creative_namer.egg-info/top_level.txt
