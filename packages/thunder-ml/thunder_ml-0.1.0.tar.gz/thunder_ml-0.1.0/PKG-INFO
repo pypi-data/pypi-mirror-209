@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: thunder-ml
+Version: 0.1.0
+Summary: 
+Author: Your Name
+Author-email: you@example.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: lightning (>=2.0.2,<3.0.0)
+Requires-Dist: matplotlib (>=3.7.1,<4.0.0)
+Requires-Dist: numpy (>=1.24.3,<2.0.0)
+Requires-Dist: pytest-cov (>=4.0.0,<5.0.0)
+Requires-Dist: scikit-learn (>=1.2.2,<2.0.0)
+Requires-Dist: tensorboard (>=2.13.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# ThunderML
+
+ThunderML is package with useful additions for training Neural Networks and other ML-Applications.
+It has a focus on compatibility to the PyTorch and Lighting AI ecosystem, but brings lots of useful tools, that do not depend on them.
+
+This package is currently in early beta! No guarantees for stable code, proper perfomance or locked in APIs are given.
+
