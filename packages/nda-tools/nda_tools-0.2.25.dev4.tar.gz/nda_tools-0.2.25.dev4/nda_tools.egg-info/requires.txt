@@ -1,0 +1,13 @@
+boto3
+botocore
+tqdm
+requests
+mock
+packaging
+pyyaml
+keyring
+pandas
+
+[test]
+pytest
+pytest-datadir
