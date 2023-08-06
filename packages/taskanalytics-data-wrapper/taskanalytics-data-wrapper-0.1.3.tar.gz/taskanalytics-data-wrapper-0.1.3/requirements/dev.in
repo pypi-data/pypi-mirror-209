@@ -1,0 +1,5 @@
+ipykernel
+black
+twine
+keyring
+python-dotenv

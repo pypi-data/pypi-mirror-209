@@ -1,0 +1,37 @@
+[project]
+name = "taskanalytics-data-wrapper"
+version = "0.1.3"
+description = "a wrapper for using Task Analytics APIs and downloading survey responses"
+authors = [
+    {name = "Tobias McVey", email = "tobias.mcvey@nav.no"},
+]
+readme = "README.md"
+requires-python = ">=3.10"
+keywords = ["Task Analytics", "Top Tasks"]
+license = {file = "LICENSE"}
+
+dependencies = [
+    "certifi==2023.5.7",
+    # via requests
+    "charset-normalizer==3.1.0",
+        # via requests
+    "idna==3.4",
+        # via requests
+    "requests==2.30.0",
+        # via -r requirements/main.in
+    "tqdm==4.65.0",
+        # via -r requirements/main.in
+    "urllib3==2.0.2"
+    # via requests
+]
+
+[project.urls]
+"Homepage" = "https://github.com/navikt/taskanalytics-data-wrapper"
+
+[tool.setuptools.packages.find]
+where = ["taskanalytics_data_wrapper"]
+exclude = ["tests", "testing", "requirements"]
+
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
