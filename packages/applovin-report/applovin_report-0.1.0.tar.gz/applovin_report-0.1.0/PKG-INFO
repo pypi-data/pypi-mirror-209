@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: applovin-report
+Version: 0.1.0
+Summary: Applovin Report APIs wrapper.
+Home-page: https://github.com/ikamedawn/applovin_report
+License: MIT
+Author: Dawn
+Author-email: minhpc@ikameglobal.com
+Requires-Python: >=3.10,<3.12
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Provides-Extra: dev
+Provides-Extra: doc
+Provides-Extra: test
+Requires-Dist: black (>=23.3.0,<24.0.0) ; extra == "test"
+Requires-Dist: flake8 (==6.0.0) ; extra == "test"
+Requires-Dist: flake8-docstrings (>=1.6.0,<2.0.0) ; extra == "test"
+Requires-Dist: isort (==5.12.0) ; extra == "test"
+Requires-Dist: livereload (>=2.6.3,<3.0.0)
+Requires-Dist: mike (>=1.1.2,<2.0.0) ; extra == "doc"
+Requires-Dist: mkdocs (>=1.4.3,<2.0.0) ; extra == "doc"
+Requires-Dist: mkdocs-autorefs (>=0.4.1,<0.5.0) ; extra == "doc"
+Requires-Dist: mkdocs-include-markdown-plugin (>=4.0.4,<5.0.0) ; extra == "doc"
+Requires-Dist: mkdocs-material (>=9.1.14,<10.0.0) ; extra == "doc"
+Requires-Dist: mkdocs-material-extensions (>=1.0.3,<2.0.0)
+Requires-Dist: mkdocstrings (>=0.21.2,<0.22.0) ; extra == "doc"
+Requires-Dist: pip (>=23.1.2,<24.0.0) ; extra == "dev"
+Requires-Dist: pre-commit (>=3.3.2,<4.0.0) ; extra == "dev"
+Requires-Dist: pyreadline (>=2.1,<3.0)
+Requires-Dist: pytest (>=7.0.1,<8.0.0) ; extra == "test"
+Requires-Dist: pytest-cov (>=4.0.0,<5.0.0) ; extra == "test"
+Requires-Dist: toml (>=0.10.2,<0.11.0) ; extra == "dev"
+Requires-Dist: tox (>=4.5.1,<5.0.0) ; extra == "dev"
+Requires-Dist: twine (>=4.0.2,<5.0.0) ; extra == "dev"
+Requires-Dist: virtualenv (>=20.23.0,<21.0.0) ; extra == "dev"
+Description-Content-Type: text/markdown
+
+# applovin-report
+
+
+<p align="center">
+<a href="https://pypi.python.org/pypi/applovin_report">
+    <img src="https://img.shields.io/pypi/v/applovin_report.svg"
+        alt = "Release Status">
+</a>
+
+<a href="https://github.com/ikamedawn/applovin_report/actions">
+    <img src="https://github.com/ikamedawn/applovin_report/actions/workflows/dev.yml/badge.svg" alt="dev">
+</a>
+
+<a href="https://ikamedawn.github.io/applovin_report/">
+    <img src="https://img.shields.io/website/https/ikamedawn.github.io/applovin_report/index.html.svg?label=docs&down_message=unavailable&up_message=available" alt="Documentation Status">
+</a>
+
+<a href="https://pyup.io/repos/github/ikamedawn/applovin_report/">
+<img src="https://pyup.io/repos/github/ikamedawn/applovin_report/shield.svg" alt="Updates">
+</a>
+
+</p>
+
+
+Applovin Report APIs wrapper
+
+
+* Free software: MIT
+* Documentation: <https://ikamedawn.github.io/applovin_report/>
+
+
+## Features
+
+* TODO
+
+## Credits
+
+This package was created with the [ppw](https://zillionare.github.io/python-project-wizard) tool. For more information, please visit the [project page](https://zillionare.github.io/python-project-wizard/).
+
