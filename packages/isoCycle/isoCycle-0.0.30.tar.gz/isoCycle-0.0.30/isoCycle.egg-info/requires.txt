@@ -1,0 +1,7 @@
+numpy
+tensorflow
+scipy
+ipympl
+ipywidgets
+subprocess
+pkg_resources
