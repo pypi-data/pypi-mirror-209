@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: magicroot
+Version: 0.1.84
+Summary: Python like magic
+Home-page: https://github.com/HephaestusGodOfFire/magicroot
+Author: HephaestusGodOfFire
+Author-email: author@example.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/HephaestusGodOfFire/magicroot/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# magicroot
+This package contains several useful modules
+
+## databranch
+Module used to deal with many dataframes at once.
+
+Noteworthy Funcionalities:
+ - Handle the sources of many dataframes
+
+## fileleaf
+Module used to deal with files.
+
+Noteworthy Funcionalities:
+ - unzip files
+ - change file extension
+
+## diamondpinky (WIP)
+this the finance module of magic root, it will be able to construct balance sheets from events and help create the event tables to feed such balance sheets
+
+## pysas
+Module used to deal with sas data and programs.
+
+Noteworthy Funcionalities:
+ - Extract the programs from a SAS guide project (.egp)
+
+
