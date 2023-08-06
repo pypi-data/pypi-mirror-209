@@ -1,0 +1,10 @@
+tbase_theme_tailwind/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tbase_theme_tailwind/admin.py,sha256=suMo4x8I3JBxAFBVIdE-5qnqZ6JAZV0FESABHOSc-vg,63
+tbase_theme_tailwind/apps.py,sha256=lN9h7A-MPVw5tnbxUS36ahXdFH2y496jqGek2meWmpI,165
+tbase_theme_tailwind/models.py,sha256=Vjc0p2XbAPgE6HyTF6vll98A4eDhA5AvaQqsc4kQ9AQ,57
+tbase_theme_tailwind/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+tbase_theme_tailwind/views.py,sha256=xc1IQHrsij7j33TUbo-_oewy3vs03pw_etpBWaMYJl0,63
+django_tbase_theme_tailwind-2023.5.2116846002.dist-info/METADATA,sha256=n-NChelgHU_oDvT86vpDgqUWxaaDDRpstlhQhWLS2Xs,1143
+django_tbase_theme_tailwind-2023.5.2116846002.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+django_tbase_theme_tailwind-2023.5.2116846002.dist-info/top_level.txt,sha256=9oohpDJ33CRT0W55KZuumdvCpb3fzOhqZIjN01ZEyNw,21
+django_tbase_theme_tailwind-2023.5.2116846002.dist-info/RECORD,,
