@@ -1,0 +1,16 @@
+README.md
+setup.py
+NeuroConn/__init__.py
+NeuroConn.egg-info/PKG-INFO
+NeuroConn.egg-info/SOURCES.txt
+NeuroConn.egg-info/dependency_links.txt
+NeuroConn.egg-info/requires.txt
+NeuroConn.egg-info/top_level.txt
+NeuroConn/data/__init__.py
+NeuroConn/data/example_datasets.py
+NeuroConn/gradient/__init__.py
+NeuroConn/gradient/gradient.py
+NeuroConn/preprocessing/__init__.py
+NeuroConn/preprocessing/preprocessing.py
+tests/__init__.py
+tests/test_neuroconn.py
