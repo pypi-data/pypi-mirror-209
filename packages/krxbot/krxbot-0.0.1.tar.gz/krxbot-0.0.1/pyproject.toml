@@ -1,0 +1,10 @@
+[project]
+name = "krxbot"
+version = "0.0.1"
+dependencies = [
+    "krxreader",
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
