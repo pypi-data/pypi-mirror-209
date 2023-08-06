@@ -1,0 +1,11 @@
+invenio_xrootd/__init__.py,sha256=6i_cMgjQDqsFm8VCXSnMsdDE9kwf85WLhDrnqx_CWS0,2310
+invenio_xrootd/errors.py,sha256=wAEwqtWuBiQB2tYYtZZlD6wV56V25UsuGZx2jxVFJEs,483
+invenio_xrootd/ext.py,sha256=f1abj5wXkkDrl3G9DlhZcum_cvjovt_jGkkcoXyZL5s,1132
+invenio_xrootd/storage.py,sha256=BWOEao3y5ejKgP4UEhB5DGx4LnIQgKTJK2ms5vgcjgA,5674
+invenio_xrootd-2.0.0a1.dist-info/AUTHORS.rst,sha256=6bo17Z3qn-JvRLTQ0bMg6oJkwJiaE_wd39ugBYAzrFU,342
+invenio_xrootd-2.0.0a1.dist-info/LICENSE,sha256=6998O2hBwI6dA796c8irwKYNDFV8CFt7hTKHeANKWqk,1067
+invenio_xrootd-2.0.0a1.dist-info/METADATA,sha256=F1IvWRaRBcsfUgRlUuUSQbmyQiZTFdRbW9Db1WlBQjo,2516
+invenio_xrootd-2.0.0a1.dist-info/WHEEL,sha256=a-zpFRIJzOq5QfuhBzbhiA1eHTzNCJn8OdRvhdNX0Rk,110
+invenio_xrootd-2.0.0a1.dist-info/entry_points.txt,sha256=j7AkfC9O4ub7UuuAj0nu97YQ9CiDO5YEN5AxeZEiz4k,146
+invenio_xrootd-2.0.0a1.dist-info/top_level.txt,sha256=pF90e5WFZYReJktTXGbcCMZfW-_fnmFmhjyo8YQUvUc,15
+invenio_xrootd-2.0.0a1.dist-info/RECORD,,
