@@ -1,0 +1,3 @@
+diamond_env
+dist
+logs

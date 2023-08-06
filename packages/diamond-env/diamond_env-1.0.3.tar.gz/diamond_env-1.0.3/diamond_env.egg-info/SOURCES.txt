@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+diamond_env/__init__.py
+diamond_env/adapters.py
+diamond_env/backend.py
+diamond_env/env.py
+diamond_env/space.py
+diamond_env/task.py
+diamond_env/wrappers.py
+diamond_env.egg-info/PKG-INFO
+diamond_env.egg-info/SOURCES.txt
+diamond_env.egg-info/dependency_links.txt
+diamond_env.egg-info/requires.txt
+diamond_env.egg-info/top_level.txt
