@@ -1,0 +1,3 @@
+[console_scripts]
+deep_astro=deep_astro_uda.client.astro_app:main
+
