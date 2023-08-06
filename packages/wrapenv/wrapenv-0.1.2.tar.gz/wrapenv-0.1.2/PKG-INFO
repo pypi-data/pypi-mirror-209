@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: wrapenv
+Version: 0.1.2
+Summary: 
+Home-page: https://github.com/AMueckl/WrapEnv
+Keywords: wrapper,preprocessing,postprocessing
+Author: AMueckl
+Author-email: AMueckl@users.noreply.github.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Project-URL: Repository, https://github.com/AMueckl/WrapEnv
+Description-Content-Type: text/markdown
+
+# WrapEnv
+
+An environment that can hold several callable functions along with pre- and post-processing
+functions and auxilary environment. It is intended to be used as a wrapper for a function that
+is to be called in a different environment than the one it was defined in.
+
+## Installation
+
+As usual, you can install the package using pip:
+
+```bash
+pip install wrapenv
+```
+
