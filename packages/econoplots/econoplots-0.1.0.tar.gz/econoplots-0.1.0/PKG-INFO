@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: econoplots
+Version: 0.1.0
+Summary: blurb
+Author-email: Dylan Penn <dylan.penn@vt.edu>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+How to install default font (arial).
+Copy .ttf file here: "~\.local\share\fonts"
+Delete the matplotlib cache here (it will automatically be recreated): "~\.cache\matplotlib"
