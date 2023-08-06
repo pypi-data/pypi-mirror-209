@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: libheader
+Version: 1.1.0
+Summary: A new file format that makes C easier.
+Home-page: https://github.com/wk1093/libheader
+Author: Wyatt Kloos
+Author-email: wyattk1093@gmail.com
+License: BSD 2-clause
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Description-Content-Type: text/markdown
+
+# Libheader
+
+### lh
+
+A file type that encapsualtes a header (.h), and a static library (.lib/.a)
+
+should be able to be `#include` by normal C, but requires a special linker that can recognize a .lh file
+
+## Example
+main.c
+```c
+#include "sample/test.lh"
+
+int main() {
+    testfunc();
+    return 0;
+}
+```
+
+test.h
+```h
+#include <stdio.h>
+void testfunc();
+```
+
+test.c
+```c
+#include "test.h"
+void testfunc() { printf("Hello, World!\n"); }
+```
+
+ - `makelh test.h test.c` creates a test.lh
+ - `gcclh main.c --lh=test.lh -o test.exe` compiles using the test.lh file
