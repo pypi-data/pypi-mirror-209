@@ -1,0 +1,3 @@
+[console_scripts]
+spark-verse = sparkverse:main
+
