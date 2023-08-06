@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/demo_myproject.egg-info/PKG-INFO
+src/demo_myproject.egg-info/SOURCES.txt
+src/demo_myproject.egg-info/dependency_links.txt
+src/demo_myproject.egg-info/top_level.txt
+src/ex_package/__init__.py
+src/ex_package/main.py
