@@ -1,0 +1,12 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+ASTOCache/__init__.py
+ASTOCache/logger.py
+ASTOCache.egg-info/PKG-INFO
+ASTOCache.egg-info/SOURCES.txt
+ASTOCache.egg-info/dependency_links.txt
+ASTOCache.egg-info/requires.txt
+ASTOCache.egg-info/top_level.txt
