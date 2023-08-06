@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: esrgan-cli
+Version: 1.1.2
+Summary: ESRGAN CLI Tool
+Author: Sayantan Das
+Author-email: sdas.codes@gmail.com
+License-File: LICENSE

@@ -1,0 +1,11 @@
+LICENSE
+README.md
+esrgan.py
+esrgan_client.py
+setup.py
+esrgan_cli.egg-info/PKG-INFO
+esrgan_cli.egg-info/SOURCES.txt
+esrgan_cli.egg-info/dependency_links.txt
+esrgan_cli.egg-info/entry_points.txt
+esrgan_cli.egg-info/requires.txt
+esrgan_cli.egg-info/top_level.txt
