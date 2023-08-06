@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+truesight/core.py
+truesight/metrics.py
+truesight/models.py
+truesight/preprocessing.py
+truesight/utils.py
+truesight.egg-info/PKG-INFO
+truesight.egg-info/SOURCES.txt
+truesight.egg-info/dependency_links.txt
+truesight.egg-info/top_level.txt
