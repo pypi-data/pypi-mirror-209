@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: soral-data-test
+Version: 0.0.3
+Summary: X-I-A
+Home-page: https://develop.x-i-a.com/docs/soral-data-test/0.0.3/index.html
+Author: X-I-A
+Author-email: admin@x-i-a.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.9
+Description-Content-Type: text/x-rst
+License-File: LICENSE.txt
+
+.. image:: https://img.shields.io/pypi/v/soral-data-test.svg?color=blue
+   :alt: PyPI-Server
+   :target: https://pypi.org/project/soral-data-test/
+
+====================================
+X-I-A
+====================================
+
+
+
+Quick start
+=============================
+
+Install the package::
+
+    pip install
+
+
+
+

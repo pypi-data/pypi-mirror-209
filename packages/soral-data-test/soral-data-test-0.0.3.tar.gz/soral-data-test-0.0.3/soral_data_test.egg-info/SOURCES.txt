@@ -1,0 +1,10 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.py
+soral_data_test/__init__.py
+soral_data_test/data.py
+soral_data_test.egg-info/PKG-INFO
+soral_data_test.egg-info/SOURCES.txt
+soral_data_test.egg-info/dependency_links.txt
+soral_data_test.egg-info/top_level.txt
