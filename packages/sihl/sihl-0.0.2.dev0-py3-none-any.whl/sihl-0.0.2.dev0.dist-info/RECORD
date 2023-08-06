@@ -1,0 +1,10 @@
+sihl/heads/__init__.py,sha256=VenAW0t3E-OsVeAoPfjR1k7prlaGjk2x4sn6gKInycI,233
+sihl/heads/binary_classification.py,sha256=kcFsA4K2f0fJ6ZoVEZXj3h9aF_pKMg7LTqkJSETzOOo,2237
+sihl/heads/multiclass_classification.py,sha256=1j6kk9BBIscr6FsD1SRHjB9TTa3IIj1i4eV4yp1fw4w,2832
+sihl/heads/multilabel_classification.py,sha256=NGh3F-JKpf7q0JGQvbgA7uJr5e5FMnyZFINH6O1iRZ8,2630
+sihl/lightning_module.py,sha256=k_AvXkeX8FNMWmncYvKcI1lzWtvAx4mObEAMuL45LbQ,2936
+sihl/torchvision_backbone.py,sha256=zFLKP_x8ZDbMOi61I1wfe3S6RriHozKz6qjpdSiFDxs,6170
+sihl-0.0.2.dev0.dist-info/LICENSE,sha256=3Z8GJr8-OMkLyLnau7FXHBohdr3e2DB8LhvI8CI-MYg,1063
+sihl-0.0.2.dev0.dist-info/METADATA,sha256=DS74gIVjqjhdm-S8Yg5y7VEuAKE5b6vC7hYpmO05At0,1592
+sihl-0.0.2.dev0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+sihl-0.0.2.dev0.dist-info/RECORD,,
