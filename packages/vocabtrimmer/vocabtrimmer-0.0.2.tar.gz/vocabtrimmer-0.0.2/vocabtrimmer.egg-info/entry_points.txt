@@ -1,0 +1,3 @@
+[console_scripts]
+vocabtrimmer-trimming = vocabtrimmer.cl.trimming:main
+
