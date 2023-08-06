@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/multipronto/__init__.py
+src/multipronto.egg-info/PKG-INFO
+src/multipronto.egg-info/SOURCES.txt
+src/multipronto.egg-info/dependency_links.txt
+src/multipronto.egg-info/top_level.txt
