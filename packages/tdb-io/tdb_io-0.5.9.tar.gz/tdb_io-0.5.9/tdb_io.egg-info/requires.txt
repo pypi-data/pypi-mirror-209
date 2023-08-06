@@ -1,0 +1,9 @@
+argparse
+datetime
+fire
+influxdb
+matplotlib
+numpy
+pandas
+pymongo
+tables
