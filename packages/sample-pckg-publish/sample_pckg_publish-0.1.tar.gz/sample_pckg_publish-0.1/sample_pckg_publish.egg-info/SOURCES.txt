@@ -1,0 +1,9 @@
+LICENSE
+README.md
+package_test.py
+setup.cfg
+setup.py
+sample_pckg_publish.egg-info/PKG-INFO
+sample_pckg_publish.egg-info/SOURCES.txt
+sample_pckg_publish.egg-info/dependency_links.txt
+sample_pckg_publish.egg-info/top_level.txt
