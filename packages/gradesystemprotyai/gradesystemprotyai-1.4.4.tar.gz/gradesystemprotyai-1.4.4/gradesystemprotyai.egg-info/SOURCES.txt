@@ -1,0 +1,8 @@
+setup.py
+gradesystemprotyai/__init__.py
+gradesystemprotyai/tyaigradesystepro142.py
+gradesystemprotyai.egg-info/PKG-INFO
+gradesystemprotyai.egg-info/SOURCES.txt
+gradesystemprotyai.egg-info/dependency_links.txt
+gradesystemprotyai.egg-info/requires.txt
+gradesystemprotyai.egg-info/top_level.txt
