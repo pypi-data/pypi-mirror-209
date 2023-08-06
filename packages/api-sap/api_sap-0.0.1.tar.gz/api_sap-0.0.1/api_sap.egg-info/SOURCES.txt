@@ -1,0 +1,10 @@
+LICENCE
+README.md
+setup.py
+api_sap.egg-info/PKG-INFO
+api_sap.egg-info/SOURCES.txt
+api_sap.egg-info/dependency_links.txt
+api_sap.egg-info/requires.txt
+api_sap.egg-info/top_level.txt
+py_sap/__init__.py
+py_sap/py_sap.py
