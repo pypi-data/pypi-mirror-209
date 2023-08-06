@@ -1,0 +1,16 @@
+ClassiPyGRB/__init__.py,sha256=1TrbY1BYYGbjU90Kqwono_T3BY3dOV1jCJvCz-p1By0,85
+ClassiPyGRB/_swift.py,sha256=IYV5Gyr_Wx9YpH3roFln0efvtqDVK5eLpWJgsHfYRSQ,95353
+ClassiPyGRB/_tools.py,sha256=i9BL9N_MgyZtavoeGhKmDk9etHcj6bj7p-OZWiPwqgI,10439
+ClassiPyGRB/_viewer.py,sha256=Zf1Xg_-ngsXI4sUDFUu7DX2BnbI0JYcwizzCtV6-ask,18154
+ClassiPyGRB/__pycache__/__init__.cpython-310.pyc,sha256=29gvnZtZThPbwPfB-DjO4A1UQ7FILnieoLjg5wVuomg,258
+ClassiPyGRB/__pycache__/_swift.cpython-310.pyc,sha256=5Vt3Z_rOIvGQB35SKRFKs-Y-8J9s6EodwMxU8ASr_e0,73862
+ClassiPyGRB/__pycache__/_tools.cpython-310.pyc,sha256=L3yzi5_qCylG11jOtjSCSN8JFVmcF1WNf0iBVD_TGtE,8751
+ClassiPyGRB/__pycache__/_viewer.cpython-310.pyc,sha256=s71Icgz3IhyhXhcZh5yPSfIsg5HmWTKXv7732W1EUlg,12773
+ClassiPyGRB/summary_tables/GRBlist_redshift_BAT.txt,sha256=vW7qOlXfUEZVz5RhTvs4paJoFn8kNJpLBl5wlAUevQE,59977
+ClassiPyGRB/summary_tables/summary_burst_durations.txt,sha256=oUIi6YP36RUM1nUQY4GK5VvSbpoJQUbkgqUmVfSjhQY,187236
+ClassiPyGRB/summary_tables/summary_general.txt,sha256=bRKWGF7aySHKyWAILA4MwQwY2MzF0AMES-y-iiY6M00,425583
+ClassiPyGRB-1.0.0.dist-info/LICENSE,sha256=-cN1ob5KQfe3AwHdg8kcuJ5BVnR4hZt37vN1pS14JQU,18091
+ClassiPyGRB-1.0.0.dist-info/METADATA,sha256=mDK8dNz3UbLm_UE9T935CDEk72iOjnIekK0m0NODjxw,26989
+ClassiPyGRB-1.0.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+ClassiPyGRB-1.0.0.dist-info/top_level.txt,sha256=YVNqwTi2siCIeIcB-TshOrFMbnCZfjlN5XFK_Sfnpes,12
+ClassiPyGRB-1.0.0.dist-info/RECORD,,
