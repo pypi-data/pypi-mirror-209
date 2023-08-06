@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "licensio"
+version = "1.0.0"
+description = "Licensio is a Python library that provides a collection of functions to generate license statements for various open source licenses. It simplifies the process of including license information in your projects by providing ready-to-use license templates."
+authors = ["zayedmalick <zayedalmalick@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
