@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: pyDeepP2SA
+Version: 0.0.1
+Summary: A python package for particle size and shape analysis using deep learning
+Home-page: 
+Author: Brinthan K
+Author-email: kanesalingambrinthan187@gmail.com
+License: MIT
+Keywords: Particle shape analyser,PSD,Deep learning,Image processing,Circularity
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+License-File: LICENCE.txt
+
+Test readme
+
+Change Log
+==========
+
+0.0.1 (17th May 2023)
+---------------------
+
+- Testing
+- Corrections on functions 
+
+
