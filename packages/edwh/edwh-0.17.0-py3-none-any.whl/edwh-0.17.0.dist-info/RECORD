@@ -1,0 +1,13 @@
+edwh/__about__.py,sha256=qjy_Mr4hNM1yPIWtDsqcStimyx7Sl6zQzizjwzRPGgg,140
+edwh/__init__.py,sha256=uQoGCNoW9FAl4nAIk5v1BCmEmLhfgByTTwDi2EfJMus,262
+edwh/cli.py,sha256=C5DafC0ubbvZZ4uHUg7GxTdX9RL75hQ59W_llWOjawM,2082
+edwh/helpers.py,sha256=HBD0gcwHWVnetH9HHc7rEJ5FvQzn-11RT_HeaqR_hyA,811
+edwh/meta.py,sha256=WhOM5NVzYOU6HrSkCINNJEtoXvWpWkOcCaSc55ooHew,4959
+edwh/tasks.py,sha256=EHUHgyOCTKEKc37h2umI8MBhaJC3p2LS8oYXO958d4Y,27968
+edwh/local_tasks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+edwh/local_tasks/plugin.py,sha256=aj2_92-q4DsYTyQyhFWca-0cvjrOq2_2TPW7fnz0lNk,5448
+edwh-0.17.0.dist-info/METADATA,sha256=hw0syM3dRUllzYsTXoSJzB3E-9YmChV8XlmUBX3bTbY,5738
+edwh-0.17.0.dist-info/WHEEL,sha256=EI2JsGydwUL5GP9t6kzZv7G3HDPi7FuZDDf9In6amRM,87
+edwh-0.17.0.dist-info/entry_points.txt,sha256=44khznA_xSeBYTFidbM6Xlc7iLxxlVmokEIVOzArQ7A,72
+edwh-0.17.0.dist-info/licenses/LICENSE.txt,sha256=aEieA0fM2XTF7ZDTpgoyq1dgyRTHjLRSobAY2u5LQ4A,1094
+edwh-0.17.0.dist-info/RECORD,,
