@@ -1,0 +1,6 @@
+humanize
+pillow
+flask
+requests
+jinja2
+pydub
