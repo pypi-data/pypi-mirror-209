@@ -1,0 +1,9 @@
+README.md
+setup.py
+polishstring/__init__.py
+polishstring/polishstring.py
+polishstring.egg-info/PKG-INFO
+polishstring.egg-info/SOURCES.txt
+polishstring.egg-info/dependency_links.txt
+polishstring.egg-info/requires.txt
+polishstring.egg-info/top_level.txt
