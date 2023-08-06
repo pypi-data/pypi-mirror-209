@@ -1,0 +1,13 @@
+chat/__init__.py,sha256=HaB0EyUF5OKIiolMl2DfKgt6d_8PPShRUJZZ5krupgc,561
+intro/__init__.py,sha256=g7_FgPdnC0WF_TL_QKP2XUYs3prSPWNGEU7_qONy7Lc,4607
+messaging/__init__.py,sha256=Iy8_7no8vqGiZokMxuj67KVdXZQ76-BtimGOiTFdrzY,4444
+news/__init__.py,sha256=ECDArOT2-kQyIiwm8kaqlvIqcHG5BHpwIhrY4-icjfw,9588
+setup/__init__.py,sha256=0WjTe0Jo12vtm3NElo-nJ7K0riIvQRakBJvZsx70rDI,3080
+speech/__init__.py,sha256=9-7-kSTQsqps8rdod8FPoKqopvXjqnEkeqVSfgjZqLk,1289
+webcam/__init__.py,sha256=lG1JU9uj07OzaJCNn5qBLoW5j77mXSpHvAyf8kZ_0Uk,17592
+aij-1.0.10.dist-info/LICENSE.txt,sha256=VXbwArPC9XE7N7cvSBClNMHFbo7CU1p361QXV5bkGpk,1100
+aij-1.0.10.dist-info/METADATA,sha256=4tihm2oW1i4A0Lplk6shUgI_ONuUhgQT02Bz9_MQmSE,30725
+aij-1.0.10.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+aij-1.0.10.dist-info/entry_points.txt,sha256=Y7fpukovMQ7f55CGSC48CBQoaMvOT4sHAJnuYKayoqE,107
+aij-1.0.10.dist-info/top_level.txt,sha256=n1Xe1rVTOJWYESZ2rJ1A2KRvm2aOeQ6hvzl66yZdfto,46
+aij-1.0.10.dist-info/RECORD,,
