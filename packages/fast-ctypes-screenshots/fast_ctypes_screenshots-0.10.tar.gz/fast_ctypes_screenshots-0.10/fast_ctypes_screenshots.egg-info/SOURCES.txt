@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+fast_ctypes_screenshots/README.md
+fast_ctypes_screenshots/__init__.py
+fast_ctypes_screenshots/requirements.txt
+fast_ctypes_screenshots/thirdparty.json
+fast_ctypes_screenshots.egg-info/PKG-INFO
+fast_ctypes_screenshots.egg-info/SOURCES.txt
+fast_ctypes_screenshots.egg-info/dependency_links.txt
+fast_ctypes_screenshots.egg-info/requires.txt
+fast_ctypes_screenshots.egg-info/top_level.txt

@@ -1,0 +1,3 @@
+include fast_ctypes_screenshots/requirements.txt
+include fast_ctypes_screenshots/thirdparty.json
+include fast_ctypes_screenshots/README.md
