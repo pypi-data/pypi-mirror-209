@@ -1,0 +1,14 @@
+timeoff/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+timeoff/cli.py,sha256=0Ib0JQHSwGNcbDaFCspsSBYaqRxs_6bbiqFC922VJRo,7146
+timeoff/config.py,sha256=A30XrM5IYDD27JKCKLr73f-Hd_jhQR0fRw07ieMw3O8,165
+timeoff/exceptions.py,sha256=wkX0_CZgxole90l4gQkN4UKpBwV5VLrKaHkVhSOSFEw,141
+timeoff/models.py,sha256=EMvGz4TukVsDYY99OS7vl-kw1z4Cr7Qv0Aq3rqv6iYk,3245
+timeoff/prompts.py,sha256=rDTlSkBXUAUZDIAXjYSB4Vu61HEjWeftpdgRJzu6_OU,1652
+timeoff/schedules.py,sha256=wuFDHaBnYxQdXsD1ODZ3sD-8ZvQgWmQdmPs5Dsq2XT4,4502
+timeoff/update.py,sha256=pCZki1tve2bPyn11_GkazBohS3VSTxgN3N74EgfIt6A,1125
+timeoff/util.py,sha256=01zaCewla3ShDK5l2F0nC5gjpYO2FR7_uWUVLx42GUY,272
+timeoff-0.0.2.dist-info/METADATA,sha256=YN7Y57hWXYXFV1fnHFQIiGkpzZbvSKd5HXVffeWEitk,2852
+timeoff-0.0.2.dist-info/WHEEL,sha256=y1bSCq4r5i4nMmpXeUJMqs3ipKvkZObrIXSvJHm1qCI,87
+timeoff-0.0.2.dist-info/entry_points.txt,sha256=wSx05I-jtxkyZu0eegGRvLTXoeB7Jlg5Y5-OkUYVsNQ,45
+timeoff-0.0.2.dist-info/licenses/LICENSE,sha256=QdnpUghQ2vOhEFQePpMGCgwOt7yMHdJhM_kMfkdZqHo,1070
+timeoff-0.0.2.dist-info/RECORD,,
