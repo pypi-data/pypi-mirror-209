@@ -1,0 +1,12 @@
+finlogic-0.4.8.dist-info/METADATA,sha256=dDtncEXXcape_ZyjRO7nct2kjQJ9aqmUDkX7AUgPn5s,11325
+finlogic-0.4.8.dist-info/WHEEL,sha256=m6kf1fJuo48rT4uxh0SeA_FsGq51BpCh_8VNBKVwYQA,90
+finlogic-0.4.8.dist-info/licenses/LICENSE,sha256=S7KB7HYpiMuFUovhFsai1sK03EaOnDkZbpkjB8pRwUs,1072
+finlogic/__init__.py,sha256=IaWHnsptM9SGhjJV1MQysggZJkq0Xeawspws6DA_e5o,423
+finlogic/company.py,sha256=yk18GRmkVOYn3mzQH-5ExFRi-PVYcbNAptF_To1bvPM,23696
+finlogic/config.py,sha256=NVFUXrdt28AHaGc3gunsjxjbKOICeAze4_mV80KSnCE,316
+finlogic/cvm.py,sha256=xV2M5DVI6twyamb12QvFeDYRaUmThMWjAKcHteewKio,11931
+finlogic/database.py,sha256=XJ-Dm2hBXlufgVjEC9iz4su87wWYI3_1bPfrPbvNKaY,4637
+finlogic/fduckdb.py,sha256=U65CRfGTgAmHHLCLkE9hSvriFAmopeWkKMnnA_bVVaY,3044
+finlogic/fprint.py,sha256=9u0fkxU5XRHm7PIo1ErWGJmMwP0hs1YA78whHiuWVrs,961
+finlogic/language.py,sha256=iIA7X3TTMRWzcarnijMv-QIaUfcjn_Gn-njD5HvVxjM,688
+finlogic-0.4.8.dist-info/RECORD,,
