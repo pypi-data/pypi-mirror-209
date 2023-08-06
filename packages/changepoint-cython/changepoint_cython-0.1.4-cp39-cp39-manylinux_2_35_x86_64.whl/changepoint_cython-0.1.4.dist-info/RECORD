@@ -1,0 +1,17 @@
+pychangepoints/__init__.py,sha256=aLU0paqoSi3UWJwePcmF7rLaTs_mAWFaMeURl8xuphw,67
+pychangepoints/algo_changepoints.py,sha256=EwwEtPUl0SCpPPQeCI5yLIfHU2zm-ZXBnfQ2aTmt9CM,5733
+pychangepoints/cost_function.pxd,sha256=acP_3rmz8eMddsQH5NiPsUlNMQi4VR2CNZQgP4A6fT0,3684
+pychangepoints/cost_function_multiple.pxd,sha256=HW_1ZY3n6CjVMfdqVpCc2UUINCluxd_HSn4UWntmLsk,1289
+pychangepoints/cython_pelt.cpython-39-x86_64-linux-gnu.so,sha256=eIOq5AsuPe3xqZcTYmyTiX9TScsioSVaR2WOJqYFEQg,1302944
+pychangepoints/multiple_dim.cpython-39-x86_64-linux-gnu.so,sha256=nSm34TZRKGkYxhj2zjGvT4sbz71xj8Hz-3wVWb52ufY,1277704
+pychangepoints/mutiple_algos.html,sha256=K8bgzXy-_Kd1V5Ebj56tZ0xOKIrfPlKZnasLAbyBQHY,221151
+pychangepoints/mutiple_algos.pyx,sha256=QwJCJyTSovVkJ205BuLposxlDhZ6fmp1nVGDqxCFCsU,7734
+pychangepoints/nonparametric.cpython-39-x86_64-linux-gnu.so,sha256=wWcn5GgUGDAyOHAlxYbUsaYjGjE7XLTeLw4BltSY24g,1081312
+pychangepoints/nppelt.pyx,sha256=BWLNdYNAjXkDc3-7AGL-qpmpsV0bR5FRC1WITTXb6CU,3850
+pychangepoints/pelt_cython.html,sha256=0mgvpaPQtcpmtfYBUTOku1yjU2F0qM9Vfst7ZE9p3OI,237774
+pychangepoints/pelt_cython.pyx,sha256=IwrnpOp-nZUAJU-11Qs3cytrhJPijTrweYH1ZVDBkEQ,11409
+pychangepoints/utils.pxd,sha256=RKC4RAynvdBmgoHiH784gPr4vCAQx8D6pDlr6MXdEFc,499
+changepoint_cython-0.1.4.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+changepoint_cython-0.1.4.dist-info/METADATA,sha256=WkMTNW3sjogVhzVxn_J3ijJCo7uho-n-FNAkFadJQ8k,5058
+changepoint_cython-0.1.4.dist-info/WHEEL,sha256=hhcWuxkLoZS7d3N_eXaI_csEDaHXH-9P71sUaF7KOiU,108
+changepoint_cython-0.1.4.dist-info/RECORD,,
