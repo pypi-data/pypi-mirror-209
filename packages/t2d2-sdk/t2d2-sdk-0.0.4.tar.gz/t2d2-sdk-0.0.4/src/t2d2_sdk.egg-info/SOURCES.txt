@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/t2d2/s3_api.py
+src/t2d2/t2d2_api.py
+src/t2d2/t2d2lib.py
+src/t2d2_sdk.egg-info/PKG-INFO
+src/t2d2_sdk.egg-info/SOURCES.txt
+src/t2d2_sdk.egg-info/dependency_links.txt
+src/t2d2_sdk.egg-info/top_level.txt
