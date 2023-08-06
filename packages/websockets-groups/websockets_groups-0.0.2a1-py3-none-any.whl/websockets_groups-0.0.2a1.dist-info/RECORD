@@ -1,0 +1,12 @@
+websockets_groups/__init__.py,sha256=hqQvE8Y3zpgsHNfINyskQ3PdlCSIXSUpLF0F__Fj32s,361
+websockets_groups/connects.py,sha256=oHUVSeb1v-U5mboM3b8RzFCvdp5S14HkC9V0NQcml4w,3089
+websockets_groups/dispatchers.py,sha256=ESnQXrOGTZEdoW6HsNQBhRiLKzqmtHpfH8-z5owXJro,1139
+websockets_groups/managers.py,sha256=ae-CCdGFuLuaCCkZxxi8M7jg4kibwjUoPXG9_BAduhs,3796
+websockets_groups/storages/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+websockets_groups/storages/base.py,sha256=_vxDS4nhVoQU60gij5g1ju7Z8F5kAG-zFR0M7DKK358,1839
+websockets_groups/storages/memory.py,sha256=_IPBo0iQeWoSxDX--paK0htm9aXHZDmw1o_Ri0gx_Yo,1771
+websockets_groups/storages/redis.py,sha256=tvCCm-fwb7bdYXkuBeci8-OWxjVnGt5isvsMEXIINTM,3528
+websockets_groups-0.0.2a1.dist-info/LICENSE,sha256=6UZxYEivrMurbnYH8vCOplVfWBqeFQFyHyqOOP8jO_o,1056
+websockets_groups-0.0.2a1.dist-info/METADATA,sha256=oD7Pe9t58Ln21yfIh4qjo43NTcOBs7A6s_85NButmvw,1341
+websockets_groups-0.0.2a1.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+websockets_groups-0.0.2a1.dist-info/RECORD,,

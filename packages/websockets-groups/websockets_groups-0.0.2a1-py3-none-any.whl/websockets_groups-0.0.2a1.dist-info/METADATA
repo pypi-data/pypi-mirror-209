@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: websockets-groups
+Version: 0.0.2a1
+Summary: 
+Author: irocshers
+Author-email: develop.iam@rocshers.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+
+# WebSockets Groups
+
+Модуль реализующих менеджер групп WebSocket подключений
+
+Функционал:
+
+- Регистрация / Удаление WS
+- Создание / Удаление групп WS
+- Подключение WS в группу
+- Поддержка реестров: memory, redis
+
+## Quick start
+
+Установка:
+
+```sh
+pip install websockets-groups
+```
+
+Подключение:
+
+```python
+from fastapi import WebSocket
+from websockets_groups import WSGroupsManager, MemoryStorage, BaseDispatcher
+
+ws_groups_manager = WSGroupsManager(MemoryStorage())
+
+class ChatDispatcher(BaseDispatcher):
+    pass
+
+@app.websocket('/chats/')
+async def ws_view(webdocket: WebSocket, chat_name: str):
+    await ws_groups_manager.register_ws(websocket, ChatDispatcher())
+```
+
