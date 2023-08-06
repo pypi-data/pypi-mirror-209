@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: z-units
+Version: 0.1.0
+Summary: A simple unit converter for chemical engineering
+Author-Email: zenius <zenius@outlook.com>
+License: MIT
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# z-units
+
+A simple unit converter for chemical engineering
+
+## Usage
+
+```python
+import z_units.quantity as q
+
+# take a quantity
+f = q.MolarFlow(3)
+# to base unit
+f.to_base()
+# convert
+f.to('kmol/s')
+# list available units
+f.units
+# get value
+unit, value = f.unit, f.value
+# gauge pressure
+p = q.Pressure(5, 'bar').to('MPag')
+```
