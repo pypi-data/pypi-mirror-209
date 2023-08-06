@@ -1,0 +1,9 @@
+miops/__init__.py,sha256=0LyGJZRKADFEcrgnhA1jejPyDD9qZv4Bmz6fiV094lY,88
+miops/file_ops.py,sha256=SD9KZouxYmwX4hQ5zQ5n1lR2Dj03eW1x4pPNLAhO_Oo,452
+miops/io_ops.py,sha256=xH4IJdnZ-mvWSqs0oWSnB0SLt5yA3oYd1_A4zxjLgqY,182
+miops/rand_ops.py,sha256=zv5Kaja9Nn6iq6Q-cOObA-dBVBqVAMYZDRjVbaB7roI,309
+miops/url_ops.py,sha256=blCEnKB1-9ruy8j4LiI-86Ov4p6ZX6kC81r-s9snXII,246
+misc_io_operations-1.2.6.dist-info/METADATA,sha256=xFOI_-rF_Me3ydJkJ5wJDauOohhhqgQOQ1_Rs95YpJs,1163
+misc_io_operations-1.2.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+misc_io_operations-1.2.6.dist-info/top_level.txt,sha256=CMXJ-WtZrj8AffKVB5NmE93ZgA09n9Z0Ln8PDO-_MZw,6
+misc_io_operations-1.2.6.dist-info/RECORD,,
