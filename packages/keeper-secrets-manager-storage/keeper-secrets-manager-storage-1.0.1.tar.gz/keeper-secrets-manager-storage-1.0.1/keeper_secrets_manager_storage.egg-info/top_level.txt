@@ -1,0 +1,2 @@
+keeper_secrets_manager_hsm
+keeper_secrets_manager_storage

@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: keeper-secrets-manager-storage
+Version: 1.0.1
+Summary: Keeper Secrets Manager SDK helper for managing configurations key-value storage.
+Home-page: https://github.com/Keeper-Security/secrets-manager
+Author: Keeper Security
+Author-email: sm@keepersecurity.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/Keeper-Security/secrets-manager/issues
+Project-URL: Documentation, https://docs.keeper.io/secrets-manager/secrets-manager/overview
+Project-URL: Source Code, https://github.com/Keeper-Security/secrets-manager
+Keywords: Keeper Password Secrets Manager Storage Key-Value HSM
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Security
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Keeper Secrets Manager Storage
+
+The Keeper Secrets Manager Storage module for working with custom key-value storages, creating and managing configuration files. To be used with keeper-secrets-manager-core.
+
+For more information see our official documentation page https://docs.keeper.io/secrets-manager/secrets-manager
+
+# Change Log
+
+## 1.0.1
+
+- Added new storage type storage type for AWS Secrets Manager
+
+## 1.0.0
+- Initial release
