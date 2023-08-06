@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "docusense"
+version = "0.0.1"
+description = "A tool to extract logic from document"
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/GytisBaravykas/docusense"
+keywords = ["nlp", "text-mining", "algorithms", "development"]
+
+authors = ["Gytis Baravykas"]
+
+[project.urls]
+download = "https://github.com/GytisBaravykas/docusense/releases"
+changelog = "https://github.com/me/spam/blob/master/CHANGELOG.md"
+
+[tool.poetry.dependencies]
+python = ">=3.8.0"
+transformers = "^4.29.2"
+nltk = "^3.8.1"
+scikit-learn = "^1.2.2"
+sentencepiece = "^0.1.99"
+pypdf2 = "^3.0.1"
+docx2txt = "^0.8"
+argparse = "^1.4.0"
+torch = "^2.0.1"
+protobuf = "~3.20.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+toml = "^0.10.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
