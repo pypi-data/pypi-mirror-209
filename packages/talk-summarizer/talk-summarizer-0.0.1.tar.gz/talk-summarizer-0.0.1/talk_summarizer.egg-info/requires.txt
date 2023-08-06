@@ -1,0 +1,13 @@
+transformers
+openai
+openai-whisper
+datasets
+soundfile
+librosa
+ffmpeg-python
+opencv-python
+reportlab
+pytest
+
+[test]
+pytest

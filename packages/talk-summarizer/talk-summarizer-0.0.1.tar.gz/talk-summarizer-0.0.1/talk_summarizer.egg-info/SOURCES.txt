@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+talk_summarizer/__init__.py
+talk_summarizer/summarize_talk.py
+talk_summarizer/utils.py
+talk_summarizer.egg-info/PKG-INFO
+talk_summarizer.egg-info/SOURCES.txt
+talk_summarizer.egg-info/dependency_links.txt
+talk_summarizer.egg-info/requires.txt
+talk_summarizer.egg-info/top_level.txt
+tests/test_utils.py
