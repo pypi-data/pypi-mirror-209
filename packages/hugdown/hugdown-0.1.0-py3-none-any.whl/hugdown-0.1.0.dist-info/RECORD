@@ -1,0 +1,8 @@
+hugdown/__init__.py,sha256=b4oeGdKFQWyQBONn1MB94ztxAm0-L4x4cQx9riMFE6o,471
+hugdown/core.py,sha256=jfsWHZOK55OsAYmR78MK2K5GZdcjlsDrqSDbIAUk4Mo,7760
+hugdown/logger_init.py,sha256=QUhLgNgLObHCyry9rjCPTqnwoKwV5XN4Z3FNd1KwfOM,1594
+hugdown/utils.py,sha256=mgkha0tEVZD53xU0_IopgUq99z3mDLZYSXJBmsh0Mh8,2970
+hugdown-0.1.0.dist-info/LICENSE,sha256=gfUrbYP4WqQ-Ul1QYdZBjfLQ6P7up_cMHxMagbr8yZY,1066
+hugdown-0.1.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+hugdown-0.1.0.dist-info/METADATA,sha256=QIfUXkX_LRZAOXUxh7ujOsUNrT4925Pqig-poaT_40Y,830
+hugdown-0.1.0.dist-info/RECORD,,
