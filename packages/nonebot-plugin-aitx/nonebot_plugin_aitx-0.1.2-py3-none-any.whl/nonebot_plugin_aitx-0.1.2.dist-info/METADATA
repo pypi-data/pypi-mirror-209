@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: nonebot-plugin-aitx
+Version: 0.1.2
+Summary: 基于腾讯云接口的ai聊天
+Author: lcy
+Author-email: 863109569@qq.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: asyncio (>=3.4.3,<4.0.0)
+Requires-Dist: nonebot-adapter-onebot (>=2.2.3,<3.0.0)
+Requires-Dist: nonebot2 (>=2.0.0rc4,<3.0.0)
+Requires-Dist: tencentcloud-sdk-python (>=3.0.889,<4.0.0)
+Description-Content-Type: text/markdown
+
+# 用之前的准备：
+    * pip install --upgrade tencentcloud-sdk-python
+    * https://console.cloud.tencent.com/cam/capi
+    * 在以上网址中获取你的腾讯云apikey,并填入到该插件的__init__.py文件指定位置中
+## 该插件优先级为100，若前面所有插件都无法拦截消息，则会使用ai聊天进行处理。
