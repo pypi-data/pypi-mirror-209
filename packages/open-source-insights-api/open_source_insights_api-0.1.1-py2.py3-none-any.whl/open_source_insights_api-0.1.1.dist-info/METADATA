@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: open_source_insights_api
+Version: 0.1.1
+Summary: .. include:: ../README.md
+Author-email: Cristiano Henrique <cristianovisk@gmail.com>
+Classifier: License :: OSI Approved :: MIT License
+Project-URL: Home, https://github.com/cristianovisk/open_source_insights_api
