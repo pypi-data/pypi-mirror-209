@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pioreactor-high-temp-plugin
+Version: 0.0.1
+Summary: Do not use this. Using this risks damaging your Pioreactor or harming yourself. All responsibility is on you.
+Home-page: https://github.com/Pioreactor/pioreactor-high-temp-plugin
+Author: Cam Davidson Pilon
+Author-email: cam@pioreactor.com
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Pioreactor high-temp plugin
+-----------------------------
+
+> **Warning**
+> Do not use this. Using this risks damaging your Pioreactor or harming yourself. All responsibility is on you.
