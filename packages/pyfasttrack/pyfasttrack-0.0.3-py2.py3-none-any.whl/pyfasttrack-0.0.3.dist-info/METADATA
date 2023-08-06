@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pyfasttrack
+Version: 0.0.3
+Summary: Easy-to-use solution to integrate the tracking technology of the FastTrack software in Python projects.
+Home-page: https://github.com/FastTrackOrg/PyFastTrack
+Author: Benjamin Gallois
+Author-email: benjamin.gallois@fasttrack.sh
+License: MIT
+Requires-Python: >=3.9
+License-File: LICENSE
+Requires-Dist: ultralytics
+Requires-Dist: opencv-python
+Requires-Dist: scipy
+Requires-Dist: toml
+Requires-Dist: sentry-sdk
+Requires-Dist: numpy
+
