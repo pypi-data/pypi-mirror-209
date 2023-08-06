@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: wallpaper-engine-linux
+Version: 0.1.0
+Summary: 
+Author: arnos-stuff
+Author-email: bcda0276@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: siosocks (>=0.3.0,<0.4.0)
+Requires-Dist: socks5 (>=0.2.1,<0.3.0)
+Requires-Dist: websocket (>=0.2.1,<0.3.0)
+Requires-Dist: websockets (>=11.0.3,<12.0.0)
+Requires-Dist: wsproto (>=1.2.0,<2.0.0)
+Description-Content-Type: text/markdown
+
+

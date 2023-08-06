@@ -1,0 +1,3 @@
+[console_scripts]
+connect-wpe=wallpaper_engine_linux.connect:cli
+
