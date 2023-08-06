@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: pycommons-lang
+Version: 0.0.2
+Summary: Python Commons Lang
+Home-page: https://github.com/shashankrnr32/pycommons-lang
+License: Apache-2.0
+Author: Shashank Sharma
+Author-email: shashankrnr32@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: importlib_metadata
+Description-Content-Type: text/markdown
+
+# pycommons-lang
+
+[![PyPI version](https://badge.fury.io/py/pycommons-lang.svg)](https://badge.fury.io/py/pycommons-lang)
+![versions](https://img.shields.io/pypi/pyversions/pycommons-lang.svg)
+[![GitHub license](https://img.shields.io/github/license/mgancita/pycommons-lang.svg)](https://github.com/pycommons/pycommons-lang/blob/main/LICENSE)
+
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+Python Commons Lang package inspired by Apache Commons Lang
+available in Java
+
+## License
+
+Apache-2.0
+
+## Documentation
+
+https://pycommons.github.io/pycommons-lang.
+
+
