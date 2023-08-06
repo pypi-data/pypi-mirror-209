@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: xtreme-calculator-sdk
+Version: 1.0.0
+Summary: Use the XTreme Calculator to pass your exams.
+Author-email: Xtreme-Mathematician <muhammad.nadeem@apimatic.io>
+Project-URL: Documentation, https://google.com
+Keywords: ☠,☢,⚠
+Requires-Python: >=3.7
+Provides-Extra: testutils
+License-File: LICENSE
