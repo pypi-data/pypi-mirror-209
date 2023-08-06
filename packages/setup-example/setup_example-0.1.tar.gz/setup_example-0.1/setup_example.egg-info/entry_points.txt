@@ -1,0 +1,3 @@
+[console_scripts]
+mycommand = setup_example.myfile:myfunction
+
