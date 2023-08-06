@@ -1,0 +1,8 @@
+README.md
+setup-client.py
+influxdb_client_3/__init__.py
+pyinflux3.egg-info/PKG-INFO
+pyinflux3.egg-info/SOURCES.txt
+pyinflux3.egg-info/dependency_links.txt
+pyinflux3.egg-info/requires.txt
+pyinflux3.egg-info/top_level.txt
