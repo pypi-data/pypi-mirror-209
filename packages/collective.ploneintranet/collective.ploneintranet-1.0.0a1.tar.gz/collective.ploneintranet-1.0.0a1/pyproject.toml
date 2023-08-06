@@ -1,0 +1,54 @@
+[tool.pytest.ini_options]
+addopts = "--cov-report term-missing --cov=collective.ploneintranet"
+testpaths = [
+    "tests",
+]
+
+[tool.towncrier]
+filename = "CHANGES.md"
+directory = "news/"
+start_string = "<!-- towncrier release notes start -->\n"
+title_format = "## {version} ({project_date})"
+template = "docs/changelog_template.jinja"
+underlines = ["", "", ""]
+
+[[tool.towncrier.type]]
+directory = "breaking"
+name = "Breaking changes:"
+showcontent = true
+
+[[tool.towncrier.type]]
+directory = "feature"
+name = "New features:"
+showcontent = true
+
+[[tool.towncrier.type]]
+directory = "bugfix"
+name = "Bug fixes:"
+showcontent = true
+
+[tool.black]
+line-length = 88
+target-version = ['py38']
+include = '\.pyi?$'
+
+[tool.isort]
+profile = "black"
+force_alphabetical_sort = true
+force_single_line = true
+lines_after_imports = 2
+line_length = 120
+
+[tool.flakeheaven]
+format="grouped"
+max_line_length=88
+show_source=true
+max-complexity=25
+
+[tool.flakeheaven.plugins]
+pycodestyle = ["+*"]
+pyflakes = ["+*"]
+"flake8-*" = ["+*"]
+
+[tool.plone-code-analysis]
+paths = "setup.py src/ tests/"
