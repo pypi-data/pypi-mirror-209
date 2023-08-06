@@ -1,0 +1,6 @@
+README.md
+setup.py
+rcema.egg-info/PKG-INFO
+rcema.egg-info/SOURCES.txt
+rcema.egg-info/dependency_links.txt
+rcema.egg-info/top_level.txt
