@@ -1,0 +1,12 @@
+mmh3.cpython-310-i386-linux-gnu.so,sha256=TaGiOI4CQ2tBh1DUyOtK9eUA4TpjgnsQ9L6JBMwnGVA,153360
+mmh3/murmurhash3.c,sha256=s-HXC0Ql__B6sM5IO43saeldrB4348xkbaz6-Q4CAmY,8134
+mmh3/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mmh3/murmurhash3.h,sha256=D31FeUWJ49e0cPO8jmoC3wIj2PPPT6xqOEc_DjYPSxs,7858
+mmh3/hashlib.h,sha256=gqO8pfKmjhWOu1a4V-ccbe4986J9RydBY6ibuPUOYqU,4730
+mmh3/mmh3module.c,sha256=B6us-1Fcn1IgbQZELbxqpvAusUyK_tgNY6tnPsbNh2Q,37684
+mmh3/__init__.pyi,sha256=dkhAg1Z8Ohm2hDkOj3KeUpJy5jc8L48Bx_0VUnc3dTQ,1404
+mmh3-4.0.0.dist-info/RECORD,,
+mmh3-4.0.0.dist-info/WHEEL,sha256=8LUKLeCWUNOAeyqg19EebIlfE9b5LXbRLKCFq_pLcwM,111
+mmh3-4.0.0.dist-info/top_level.txt,sha256=3Wxu1FBsOTbiKh0WIPJ8WVI1_uJJvsFAdmlxe6Rn-B8,5
+mmh3-4.0.0.dist-info/LICENSE,sha256=8nFFnVIrpON86bP3CcCV9VmVInNzHIb6EMh0ZbT1fgg,1074
+mmh3-4.0.0.dist-info/METADATA,sha256=2m0FlPyzePK7zmiB7eoc2iSNOZfi1M2hUPuk9SGQXEI,14081
