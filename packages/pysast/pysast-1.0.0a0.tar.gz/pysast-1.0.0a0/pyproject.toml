@@ -1,0 +1,43 @@
+[tool.poetry]
+name = "pysast"
+version = "1.0.0-alpha"
+description="SAST Code Scanner in Python"
+authors = ["MatrixEditor"]
+keywords = ["pysast"]
+readme = "README.md"
+license = "GNU GPLv3"
+classifiers = [
+     # How mature is this project? Common values are
+      #   3 - Alpha
+      #   4 - Beta
+      #   5 - Production/Stable
+      'Development Status :: 3 - Alpha',
+
+      'Intended Audience :: Developers',
+      "Intended Audience :: Information Technology",
+      'Operating System :: OS Independent',
+
+      # Pick your license as you wish (should match "license" above)
+      'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
+
+      'Programming Language :: Python :: 3.8',
+      'Programming Language :: Python :: 3.9',
+      'Programming Language :: Python :: 3.10',
+      'Programming Language :: Python :: 3.11',
+]
+
+
+[tool.poetry.scripts]
+pysast = "pysast:run"
+
+[project.urls]
+"Homepage" = "https://github.com/MatrixEditor/pysast"
+"API-Docs" = "https://matrixeditor.github.io/pysast/"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pyyaml = ">=6.0"
