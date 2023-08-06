@@ -1,0 +1,6 @@
+recursive-include filecabinet *.py
+
+include example.conf
+include README.md
+include LICENSE
+
