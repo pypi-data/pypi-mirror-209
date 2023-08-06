@@ -1,0 +1,10 @@
+README.md
+setup-cli.py
+influxdb_cli/__init__.py
+influxdb_cli/influx3.py
+pyinflux3_cli.egg-info/PKG-INFO
+pyinflux3_cli.egg-info/SOURCES.txt
+pyinflux3_cli.egg-info/dependency_links.txt
+pyinflux3_cli.egg-info/entry_points.txt
+pyinflux3_cli.egg-info/requires.txt
+pyinflux3_cli.egg-info/top_level.txt
