@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "nonebot-plugin-aitx"
+version = "0.1.4"
+description = "基于腾讯云接口的ai聊天"
+authors = ["lcy <863109569@qq.com>"]
+readme = "README.md"
+packages = [{include = "nonebot-plugin-aitx"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+nonebot2 = "^2.0.0rc4"
+nonebot-adapter-onebot = "^2.2.3"
+asyncio = "^3.4.3"
+tencentcloud-sdk-python = "^3.0.889"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
