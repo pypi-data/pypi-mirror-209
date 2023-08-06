@@ -1,0 +1,13 @@
+nltk>=3.7
+keybert>=0.7.0
+spacy>=3.3.0
+
+[:python_version < "3.11"]
+tomli
+
+[dev]
+black
+bumpver
+isort
+pip-tools
+pytest
