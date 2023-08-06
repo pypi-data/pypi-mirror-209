@@ -1,0 +1,16 @@
+references_parser/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+references_parser/__main__.py,sha256=iKu6TcO6vMxMmwm0gE8VTbjmc86fKp4GvJCTwh-GUt8,27
+references_parser/cli.py,sha256=XcpvwS8k6VvQP6rF443hLLbgKmU80bxOwExDAHH9BA8,2395
+references_parser/converters/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+references_parser/converters/url_converter.py,sha256=JDUJFXQAyNbnXSHXwJk6qdUSNSNMaZRqnjtSqDnfI-w,1602
+references_parser/models/__init__.py,sha256=lyIMwKSyiNfzPHRC6yM7H1jLHn_kx6fuoxR1VCoZ1_4,62
+references_parser/models/bibtex.py,sha256=z7mlkFX3jAu1UwVqwB-MK2AOEiFd2vrSblnGlHSFObY,1552
+references_parser/models/bibtex_ssau.py,sha256=7QFBheceF-IIPFSZo5KphUIgHNm0ENuKVHr08qB6wu0,2442
+references_parser/parsers/__init__.py,sha256=vh4jQL2mK70dVXiy95KR20i35pkPltg0jftxdtrajfs,71
+references_parser/parsers/ieee_parser.py,sha256=U6ZdJxQZpRGdMnzE6OzQIf6Uoe0QMb2deLXsR6UkeMg,2736
+references_parser/parsers/ssau_parser.py,sha256=2M5XQitAaW6OGlEIerL_D5LBcqKoYG7mN-39LO2U4J0,5730
+references_parser-1.2.0.dist-info/METADATA,sha256=TuXKZmG4Flos4HTZRPY3Spzr8lN7QGKb4unG6yTmGSM,2322
+references_parser-1.2.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+references_parser-1.2.0.dist-info/entry_points.txt,sha256=zJqLmveNZ-qt6yedP1AkLEIxQ0WgXl3jQGt-jFC63xc,65
+references_parser-1.2.0.dist-info/top_level.txt,sha256=ZYh0EJ9yumMOzj3dGzXUUQewNUtwiDyvBi27nnbviIA,18
+references_parser-1.2.0.dist-info/RECORD,,
