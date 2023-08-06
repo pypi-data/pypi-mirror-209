@@ -1,0 +1,11 @@
+sigmaconsolemenu/__init__.py,sha256=c-WutwaxheHsqriV8XMIjG-HxlQBNvggKdn-7WWjxCI,169
+sigmaconsolemenu/helpers.py,sha256=78PmDcmr75FkhsLUqCJPRg0KknoDL-Q_A2FHP-hIP-w,81
+sigmaconsolemenu/menu_option.py,sha256=Z2SoKX3eqptyI52iUGe3CAjU6IBwQmzjY0V566RqiAI,176
+sigmaconsolemenu/page.py,sha256=L2tM2GBrI6Z_BpjF7xYugOgTxy9FoaXwbzKOpIBlOoQ,373
+sigmaconsolemenu/pointer.py,sha256=IQtqnpjRo4dirsaYJlxzOSxVx2zlZWfRhQKVHSCRU1w,856
+sigmaconsolemenu/sigma_console_menu.py,sha256=XbNyNjPaGtmwEcYgGJbh5rLSvkMAYhn_e6mO-LpBZyE,2232
+sigma_console_menu-0.1.dist-info/LICENSE,sha256=hKq2qo9wMcyxifmy6qykHyDsE7d321zPs5VESs3zXyU,1090
+sigma_console_menu-0.1.dist-info/METADATA,sha256=3x13zgHBV0AWN_HfbtveXje5Qji-85cANGmzgm9oDE0,1389
+sigma_console_menu-0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+sigma_console_menu-0.1.dist-info/top_level.txt,sha256=SVXVlFTW4gNtDHQ-zKfYsQiAgM9GA0D_9n2Yyhb_IN8,17
+sigma_console_menu-0.1.dist-info/RECORD,,
