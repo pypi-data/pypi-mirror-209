@@ -1,0 +1,17 @@
+on: [ push, pull_request ]
+
+jobs:
+  test:
+    runs-on: self-hosted
+    steps:
+      - uses: actions/checkout@v3
+      - name: prepare
+        run: |
+          ./enough-lxc.sh lxc_prepare_environment
+          ./enough-lxc.sh lxc_install_lxc_inside 10.39.48
+      - name: bookworm
+        run: |
+          LXC_CONTAINER_RELEASE=bookworm ./tests.sh test_lxc_helpers
+      - name: bullseye
+        run: |
+          LXC_CONTAINER_RELEASE=bullseye ./tests.sh test_lxc_helpers

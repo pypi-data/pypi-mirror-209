@@ -1,0 +1,69 @@
+---
+- name: apt-get install virtualenv python3-pip
+  apt:
+    name: [ virtualenv, python3-pip ]
+    state: present
+
+- name: pip install docker
+  pip:
+    name: docker
+
+- name: mkdir /srv/forgejo
+  file:
+    state: directory
+    path: /srv/forgejo
+    mode: 0755
+    owner: 1000
+    group: 1000
+  become: true
+
+- name: update /srv/forgejo.env
+  copy:
+    content: "{{ forgejo_env }}"
+    dest: /srv/forgejo.env
+    mode: 0644
+
+- name: start forgejo
+  docker_container:
+    name: forgejo
+    image: "{{ forgejo_image }}:{{ forgejo_version }}"
+    restart_policy: always
+    ports:
+      - "22:22"
+      - "8080:3000"
+    volumes:
+      - /srv/forgejo:/data
+      - /etc/timezone:/etc/timezone:ro
+      - /etc/localtime:/etc/localtime:ro
+      - /etc/ssl/certs:/etc/ssl/certs:ro
+      - /usr/local/share/ca-certificates/infrastructure:/usr/local/share/ca-certificates/infrastructure:ro
+    env_file: /srv/forgejo.env
+
+- name: cp setup-forgejo.sh /srv/setup-forgejo.sh
+  copy:
+    src: setup-forgejo.sh
+    dest: /srv/setup-forgejo.sh
+    mode: 0755
+
+- name: setup forgejo, create or update admin user
+  shell: |
+    /srv/setup-forgejo.sh "{{ forgejo_user }}" "{{ forgejo_password }}" "{{ forgejo_email }}"
+
+- name: get actions registration token
+  shell: |
+    sudo docker exec --user 1000 forgejo forgejo actions generate-runner-token
+  register: token
+
+- name: create a forgejo directory on the controler
+  file:
+    state: directory
+    path: "{{ enough_domain_config_directory }}/forgejo"
+  delegate_to: localhost
+  become: no
+
+- name: save actions registration token
+  copy:
+    content: "{{ token.stdout }}"
+    dest: "{{ enough_domain_config_directory }}/forgejo/{{ inventory_hostname }}"
+  delegate_to: "localhost"
+  become: no

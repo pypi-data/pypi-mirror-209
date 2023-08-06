@@ -1,0 +1,5 @@
+forgejo_password: etquofEtseudett
+forgejo_env: |
+  {{ forgejo_env_default }}
+  FORGEJO__repository__DEFAULT_PUSH_CREATE_PRIVATE=false
+  FORGEJO__webhook__ALLOWED_HOST_LIST=external,private,loopback

@@ -1,0 +1,21 @@
+---
+#
+#######################################
+#
+# Public URL of the Forgejo instance to register the
+# runner.
+#
+forgejo_runner_url: https://forgejo.{{ domain }}
+#
+#######################################
+#
+# Name of the host running Forgejo to obtain the
+# registration token
+#
+forgejo_runner_host: forgejo-host
+#
+#######################################
+#
+# Tag of the runner to compile and install
+#
+forgejo_runner_version: v1.8.1

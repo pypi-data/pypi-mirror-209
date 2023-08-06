@@ -1,0 +1,40 @@
+---
+- name: download forgejo-runner
+  get_url:
+    url: "https://code.forgejo.org/forgejo/runner/releases/download/{{ forgejo_runner_version }}/forgejo-runner-amd64"
+    dest: /bin/forgejo-runner
+    mode: 0755
+# comment out when https://code.forgejo.org/forgejo/runner/issues/16 is fixed
+#    checksum: "https://code.forgejo.org/forgejo/runner/releases/download/{{ forgejo_runner_version }}/forgejo-runner-amd64.sha256"
+
+- name: mkdir /srv/forgejorunner
+  file:
+    state: directory
+    path: /srv/forgejorunner
+    owner: debian
+    group: debian
+    mode: 0755
+
+- name: configure the runner
+  shell: |
+    timeout 30 forgejo-runner register --no-interactive --instance {{ forgejo_runner_url }} --name runner --token {{ lookup("file", enough_domain_config_directory + "/forgejo/" + forgejo_runner_host) }}
+  args:
+    chdir: /srv/forgejorunner
+  become: false
+
+- name: add unit /etc/systemd/system/forgejorunner.service
+  template:
+    src: forgejorunner.service.j2
+    dest: /etc/systemd/system/forgejorunner.service
+  register: forgejorunner
+
+- name: systemd daemon-reload
+  systemd:
+    daemon_reload: yes
+  when: forgejorunner is changed
+
+- name: systemctl start forgejorunner
+  service:
+    name: forgejorunner
+    state: restarted
+    enabled: yes

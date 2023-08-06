@@ -1,0 +1,40 @@
+- name: cleanup lxc hypervisor
+  hosts: lxc-hypervisor
+  become: true
+
+  pre_tasks:
+
+    - name: sed -i -e '/cdrom/d' /etc/apt/sources.list
+      lineinfile:
+        path: /etc/apt/sources.list
+        regexp: '.*cdrom'
+        state: absent
+
+- name: install lxc hypervisor
+  hosts: lxc-hypervisor
+  become: true
+
+  pre_tasks:
+
+    - name: cp lxc-helpers/enough-lxc.sh /usr/local/bin
+      copy:
+        src: "files/lxc-helpers/{{ item }}"
+        dest: "/usr/local/bin/{{ item }}"
+        owner: root
+        group: root
+        mode: 0755
+      loop:
+        - enough-lxc-helpers.sh
+        - enough-lxc.sh
+
+    - debug:
+        msg: "IP Prefix {{ lxc_prefix }}"
+
+    - name: install lxc
+      shell: |
+        set -ex
+        enough-lxc.sh lxc_prepare_environment
+        enough-lxc.sh lxc_install_lxc_inside {{ lxc_prefix }}
+
+- import_playbook: ../misc/sexy-debian-playbook.yml
+- import_playbook: ../authorized_keys/authorized-keys-playbook.yml
