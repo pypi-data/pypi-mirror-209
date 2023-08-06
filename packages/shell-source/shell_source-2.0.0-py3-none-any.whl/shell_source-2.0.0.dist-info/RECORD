@@ -1,0 +1,7 @@
+shell_source/__init__.py,sha256=0ipuW4ZRt31OcH3uxFO38Y1Pcny_6R3NfW6PqL3ESco,513
+shell_source/shell_config.py,sha256=-YyBXoH6rU03zyHj_nqdGqUJ4p3L12tO-fxifSH_QDI,1129
+shell_source/source.py,sha256=zfJR8vRrDYjwm2vfAihZAnru_tlzuEaWRIAlJel6m9U,4372
+shell_source-2.0.0.dist-info/LICENSE,sha256=FD_XK7bwaxuYa3ubLPFIK_KpyHsPZzI1vG0GNFjT48c,1073
+shell_source-2.0.0.dist-info/METADATA,sha256=UYLjBSe7nZUU4QqL1SvbriMczAkaax_Tsf4wx75YHBQ,3919
+shell_source-2.0.0.dist-info/WHEEL,sha256=WGfLGfLX43Ei_YORXSnT54hxFygu34kMpcQdmgmEwCQ,88
+shell_source-2.0.0.dist-info/RECORD,,
