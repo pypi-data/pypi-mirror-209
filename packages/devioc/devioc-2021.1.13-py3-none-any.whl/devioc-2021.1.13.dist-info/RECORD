@@ -1,0 +1,12 @@
+devioc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+devioc/log.py,sha256=oznkiCR17t5FbMsYEiOjaE7WKBN2aBk8taltFeY04F4,2819
+devioc/models.py,sha256=6EIfIhqs0jUKIDjiMSfaTn44aNnQaFYSouTjBlpkKE0,16191
+devioc/version.py,sha256=gRsMojCO3kuJKcz65n66icVv2Z4Drn8i7bmTzi_M3YE,1366
+devioc-2021.1.13.data/scripts/devioc-startproject,sha256=iTjiH9KR71VJKPKOsMhKhewta-4vD53oS026PUGsUCs,9455
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_ioc.py,sha256=mnu-2a7Ic986-9McEytliwriDeDxJe-F4yiRM9-ghj0,4454
+devioc-2021.1.13.dist-info/LICENSE,sha256=u1sk8d5_YhPtgelCH4hCOx0wjAhj5Tkfd0gj0ytdw98,1066
+devioc-2021.1.13.dist-info/METADATA,sha256=CxFpVJVwIhHBQEVRVaz41x7fuUhAhijH0k68RgHRAq8,1239
+devioc-2021.1.13.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+devioc-2021.1.13.dist-info/top_level.txt,sha256=hV5anl3_Uu8FRTEFSeLEepYyso0Wn_W4ZqcEzHuvitc,12
+devioc-2021.1.13.dist-info/RECORD,,
