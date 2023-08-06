@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: parse-broken-json
+Version: 0.2
+Summary: Library to help parsing broken and invalid JSON.
+Author-email: "Carlos A. Planchón" <carlosandresplanchonprestes@gmail.com>
+License: MIT License
+Project-URL: repository, https://github.com/carlosplanchon/parse_broken_json.git
+Keywords: parsing,broken,json,invalid
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: ijson
+
+# parse_broken_json
+
+Small lib to help parsing broken or invalid JSONs
+
+It only consists of one function:
+
+parse_broken_json(text: str, allowed_keys: list[str]) -> Any:
+
+text is the json to be parsed, allowed_keys are the keys allowed on
+the JSON nodes.
+
+Internally, this library uses the interpreter pattern.
