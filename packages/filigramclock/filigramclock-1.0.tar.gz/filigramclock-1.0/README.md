@@ -1,0 +1,1 @@
+Un package qui remplace time.clock() supprimé depuis python 3.8

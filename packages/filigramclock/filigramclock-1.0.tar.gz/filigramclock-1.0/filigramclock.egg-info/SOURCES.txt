@@ -1,0 +1,8 @@
+README.md
+setup.py
+filigramclock/__init__.py
+filigramclock/clock.py
+filigramclock.egg-info/PKG-INFO
+filigramclock.egg-info/SOURCES.txt
+filigramclock.egg-info/dependency_links.txt
+filigramclock.egg-info/top_level.txt

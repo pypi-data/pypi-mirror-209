@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: filigramclock
+Version: 1.0
+Summary: Le nouveau time.clock
+Home-page: https://github.com/Filigram/myclock
+Author: CodeurIII
+Author-email: nathan2.che974@gmail.com
+Requires: datetime
