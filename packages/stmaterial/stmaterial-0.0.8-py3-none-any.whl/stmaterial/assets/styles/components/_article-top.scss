@@ -1,0 +1,24 @@
+.stm-article-top {
+  border-bottom: 1px solid var(--separator-color);
+  position: var(--article-top-position);
+  top: 0;
+  background-color: var(--background-color);
+  z-index: 899;
+  margin-top: 15px;
+}
+
+.stm-article-top-area {
+  display: flex;
+  align-items: center;
+}
+
+.stm-article-top-right {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.stm-article-top-left {
+  margin-right: auto;
+}
