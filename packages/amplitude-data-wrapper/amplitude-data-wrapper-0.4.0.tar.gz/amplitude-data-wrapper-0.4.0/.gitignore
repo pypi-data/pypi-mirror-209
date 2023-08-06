@@ -1,0 +1,11 @@
+__pycache__/
+prodenv/
+requirements/
+testing/
+dist/
+.env
+.python-version
+data/
+dist/
+requirements.txt
+config.txt
