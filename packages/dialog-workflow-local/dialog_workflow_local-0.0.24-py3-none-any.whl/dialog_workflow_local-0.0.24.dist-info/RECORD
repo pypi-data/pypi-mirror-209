@@ -1,0 +1,11 @@
+dialog_workflow/Act.py,sha256=OKmkuisVm_KP5vL2g-3V3aPCSynPO5yBU3cLuOeqpf4,20907
+dialog_workflow/Constants.py,sha256=SXdxN3FrsPTFJjxjQamdoa1wOcjzXeRSZU-FL_K4myE,1454
+dialog_workflow/DialogWorkflow.py,sha256=MKphRn34rbTkFaJAzcypKFu3JxGwn26djNoIccn3jjs,2147
+dialog_workflow/TablesAsObjects.py,sha256=F0RfrOBdyP-bN5m898OIxJibqJYE66OGa33xBjeUJlc,4385
+dialog_workflow/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dialog_workflow/test.py,sha256=ntFxiEzyNrf_3V8jUltDLYg88x5bXTsjpT6KMHe0su8,6809
+dialog_workflow/utils.py,sha256=XjufGpLiXA7fUMNnoOElClm2bexROnWDo950c3J2vTM,11842
+dialog_workflow_local-0.0.24.dist-info/METADATA,sha256=dA2apXVVKDu2zF2xCnVRko3RmebNbAiPdM1oT0XOpOQ,435
+dialog_workflow_local-0.0.24.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+dialog_workflow_local-0.0.24.dist-info/top_level.txt,sha256=RTAjZup7dIUHczjgaHnjikhhF2v6WV8_zRRsx81VLZA,16
+dialog_workflow_local-0.0.24.dist-info/RECORD,,
