@@ -1,0 +1,13 @@
+references_parser/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+references_parser/__main__.py,sha256=iKu6TcO6vMxMmwm0gE8VTbjmc86fKp4GvJCTwh-GUt8,27
+references_parser/cli.py,sha256=DaJwjmjAdiZQJuxwkFAKGkeX-kSZdQbf0H5DvYeq1jI,1877
+references_parser/converters/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+references_parser/converters/url_converter.py,sha256=aHq3VqrxVuO_Xm50Sekp9lkJNMB9uqWi33cnaFz4VXw,1329
+references_parser/parsers/IeeeParser.py,sha256=aAK7m_0SuSEZTrTUMaC-znrzMXkRXDQOyJf-rAp0dtM,2501
+references_parser/parsers/SsauParser.py,sha256=jMQjAtKTMSCsMY2-S173bTo7SRjg2vewXCatPY7Rsek,7915
+references_parser/parsers/__init__.py,sha256=Mr3Qeh4qxOArKnXQ4OqHvX_n-_7tlPlBZAvOrJCDipo,69
+references_parser-1.1.2.dist-info/METADATA,sha256=0q5pQE0vK3-j7-D4d_JQqYg7T9HYvXdOGzT6ehn-G88,2256
+references_parser-1.1.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+references_parser-1.1.2.dist-info/entry_points.txt,sha256=zJqLmveNZ-qt6yedP1AkLEIxQ0WgXl3jQGt-jFC63xc,65
+references_parser-1.1.2.dist-info/top_level.txt,sha256=ZYh0EJ9yumMOzj3dGzXUUQewNUtwiDyvBi27nnbviIA,18
+references_parser-1.1.2.dist-info/RECORD,,

@@ -1,0 +1,2 @@
+[console_scripts]
+references_parser = references_parser.cli:main
