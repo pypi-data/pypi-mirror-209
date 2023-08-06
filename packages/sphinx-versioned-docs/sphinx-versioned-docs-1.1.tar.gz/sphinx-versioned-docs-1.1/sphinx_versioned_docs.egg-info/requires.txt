@@ -1,0 +1,10 @@
+GitPython>=3.1.31
+loguru>=0.7.0
+setuptools>=66.0.0
+sphinx>=4.6.0
+typer>=0.9.0
+rich
+
+[docs]
+sphinx-automodapi>=0.13
+sphinx_rtd_theme
