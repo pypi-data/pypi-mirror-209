@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "rhubarb-graphql"
+version = "0.1.0"
+description = "Rhubarb is an experimental ORM baked from scratch focused on automatic optimizations with Postgres data using GQL."
+authors = ["Kyle Hanson <me@khanson.io>"]
+readme = "README.md"
+license = "MIT"
+repository = "https://github.com/hansonkd/rhubarb/"
+homepage = "https://www.rhubarb.rocks"
+packages = [{ include = "rhubarb" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+strawberry-graphql = "^0.174.0"
+psycopg = "^3.1.8"
+pytest-asyncio = "^0.21.0"
+asgiref = "^3.6.0"
+phonenumbers = "^8.13.11"
+cachetools = "^5.3.0"
+aiosmtplib = "^2.0.1"
+psycopg-pool = "^3.1.7"
+redis = "^4.5.4"
+starlette-session = "^0.4.3"
+bcrypt = "^4.0.1"
+httpx = "^0.24.0"
+webauthn = "^1.8.1"
+arq = "^0.25.0"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.3.1"
+black = "^23.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

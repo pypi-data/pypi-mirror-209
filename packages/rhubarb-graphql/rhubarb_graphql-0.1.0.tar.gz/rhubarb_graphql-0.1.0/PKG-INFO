@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: rhubarb-graphql
+Version: 0.1.0
+Summary: Rhubarb is an experimental ORM baked from scratch focused on automatic optimizations with Postgres data using GQL.
+Home-page: https://www.rhubarb.rocks
+License: MIT
+Author: Kyle Hanson
+Author-email: me@khanson.io
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: aiosmtplib (>=2.0.1,<3.0.0)
+Requires-Dist: arq (>=0.25.0,<0.26.0)
+Requires-Dist: asgiref (>=3.6.0,<4.0.0)
+Requires-Dist: bcrypt (>=4.0.1,<5.0.0)
+Requires-Dist: cachetools (>=5.3.0,<6.0.0)
+Requires-Dist: httpx (>=0.24.0,<0.25.0)
+Requires-Dist: phonenumbers (>=8.13.11,<9.0.0)
+Requires-Dist: psycopg (>=3.1.8,<4.0.0)
+Requires-Dist: psycopg-pool (>=3.1.7,<4.0.0)
+Requires-Dist: pytest-asyncio (>=0.21.0,<0.22.0)
+Requires-Dist: redis (>=4.5.4,<5.0.0)
+Requires-Dist: starlette-session (>=0.4.3,<0.5.0)
+Requires-Dist: strawberry-graphql (>=0.174.0,<0.175.0)
+Requires-Dist: webauthn (>=1.8.1,<2.0.0)
+Project-URL: Repository, https://github.com/hansonkd/rhubarb/
+Description-Content-Type: text/markdown
+
+# Rhubarb - The Funky Sweet Python ORM built on Strawberry GraphQL That's Totally Awesome
+
+Rhubarb is an experimental ORM baked from scratch focused on automatic optimizations with Postgres data using GQL.
+
+<img width="653" alt="Screenshot 2023-05-03 at 2 32 48 AM" src="https://user-images.githubusercontent.com/496914/235881083-f47d21ff-2462-46f9-acc2-e900316fe05f.png">
+
+*Strawberry-Rhubarb Pie... Tasty!*
+
+# Rhubarb at a glance
+
+* Asyncio Native
+* Build SQL functions with Python
+* Built on GraphQL for optimization layer on nested queries
+* Migrations - Automatically generate Schema changes as your data model updates.
+* Intuitively Solve N+1 without even realizing it
+* Simplify Aggregations / Joins / Subqueries
+* Heavily inspired by Django and built with the philosophy of take the best parts.
+* Native Public / Private Schema dichotomy
+* Pass User and Extra info to use in queries through Strawberry Info's context.
+* Doesn't use any other Python ORM for DB access, only Psycopg3
+
+# Extra Rhubarb Features
+
+Rhubarb comes with some extra integrations to make using the ORM easy...
+
+* HTTP - FastAPI / Starlette
+* Redis - Rate Limiting / Caching
+* Auth - Impersonate / Sessions / Users / WebAuthN / Password
+* Security - CORS / CSRF / TrustedHostNames / Auth Rate Limits
+* Auditing - Record all Mutations / Queries / Subscriptions / Custom Events
+
+## Package Status
+
+This is an experimental package for researching new ways in Python to interact with Postgres and build apps. Take care.
+
+## Researched by GetDynasty
+
+This package was created with the help of research resources provided by [Dynasty Living Trusts](https://www.getdynasty.com?utm_source=github). GetDynasty is the only online platform that offers instant Living Trust Creation. GetDynasty is not actively involved in the maintenance or development of this project.
