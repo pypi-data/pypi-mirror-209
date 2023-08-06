@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: econuker
+Version: 1.0.1
+Summary: API wrapper for https://api.econuker.xyz
+Home-page: https://github.com/EcoNuker/EcoNuker-API-Python/
+Author: YumYummity
+Author-email: 034nop@gmail.com
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Internet :: WWW/HTTP
+Requires-Python: >=3.9
+Requires-Dist: requests
+Requires-Dist: aiohttp
+
+A Python library for interacting with EcoNuker's API.
