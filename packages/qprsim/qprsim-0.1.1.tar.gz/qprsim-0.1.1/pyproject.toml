@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "qprsim"
+version = "0.1.1"
+description = ""
+authors = ["Leah Tacke genannt Unterberg <leah.tgu@pads.rwth-aachen.de>"]
+readme = "README.md"
+license = "MIT"
+exclude = ['sample']
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.24.3"
+pandas = { version = "^1.5", extras = ["all"] }
+pm4py = "^2.7.4"
+jupyter = { version = "^1.0.0", optional = true }
+
+[[tool.poetry.source]]
+name = "testpypi"
+url = "https://test.pypi.org/"
+default = false
+secondary = true
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
