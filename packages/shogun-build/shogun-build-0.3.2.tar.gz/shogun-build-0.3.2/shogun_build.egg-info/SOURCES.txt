@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+shogun/__init__.py
+shogun/buildutils.py
+shogun/pathutil.py
+shogun/platforms.py
+shogun/thirdparty/ninja_syntax.py
+shogun_build.egg-info/PKG-INFO
+shogun_build.egg-info/SOURCES.txt
+shogun_build.egg-info/dependency_links.txt
+shogun_build.egg-info/requires.txt
+shogun_build.egg-info/top_level.txt

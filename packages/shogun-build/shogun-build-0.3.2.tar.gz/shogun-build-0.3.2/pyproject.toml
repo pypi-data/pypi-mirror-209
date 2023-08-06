@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools >= 61.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "shogun-build"
+version = "0.3.2"
+readme = "README.md"
+
+urls = { Source = "https://github.com/branalba/shogun" }
+
+description = "Package for facilitating the creation of Python-based build scripts using Ninja as the compilation backend. Focuses on small projects using gcc/g++."
+
+authors = [
+    { name = "Brandon Alba", email = "brandonealba@protonmail.com" }
+]
+license = { file = "LICENSE"}
+dependencies = [
+    "Click"
+]
+
