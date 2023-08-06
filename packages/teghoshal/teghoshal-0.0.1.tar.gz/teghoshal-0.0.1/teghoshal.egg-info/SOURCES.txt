@@ -1,0 +1,8 @@
+README.md
+setup.py
+libname/__init__.py
+libname/hello.py
+teghoshal.egg-info/PKG-INFO
+teghoshal.egg-info/SOURCES.txt
+teghoshal.egg-info/dependency_links.txt
+teghoshal.egg-info/top_level.txt
