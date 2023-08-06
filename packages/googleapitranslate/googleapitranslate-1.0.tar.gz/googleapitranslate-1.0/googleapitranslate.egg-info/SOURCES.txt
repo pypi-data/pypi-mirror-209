@@ -1,0 +1,11 @@
+README.md
+googleapitranslate/__init__.py
+googleapitranslate/setup.py
+googleapitranslate.egg-info/PKG-INFO
+googleapitranslate.egg-info/SOURCES.txt
+googleapitranslate.egg-info/dependency_links.txt
+googleapitranslate.egg-info/top_level.txt
+googleapitranslate/apiconnection/__init__.py
+googleapitranslate/apiconnection/translator.py
+googleapitranslate/parser/__init__.py
+googleapitranslate/parser/utils.py
