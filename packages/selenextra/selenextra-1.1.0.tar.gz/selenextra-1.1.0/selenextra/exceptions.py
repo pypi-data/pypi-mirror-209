@@ -1,0 +1,4 @@
+
+
+class UnableToFetchIP(Exception):
+    pass
