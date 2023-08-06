@@ -1,0 +1,9 @@
+MANIFEST.in
+README.txt
+setup.py
+jdclip/__init__.py
+jdclip.egg-info/PKG-INFO
+jdclip.egg-info/SOURCES.txt
+jdclip.egg-info/dependency_links.txt
+jdclip.egg-info/requires.txt
+jdclip.egg-info/top_level.txt

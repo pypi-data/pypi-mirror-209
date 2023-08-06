@@ -1,0 +1,4 @@
+torch
+Pillow
+openai-clip
+torchvision
