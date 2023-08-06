@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: soraya
+Version: 0.0.2
+Summary: a package that generates 322 features for any material
+Home-page: https://github.com/Gashmard/Soraya-Package
+Author: Hassan Gashmard
+Author-email: Gashmard2020@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+We designed and developed the Python package named "Soraya" to generate atomic features. It can generate 322 atomic features for any type of material, such as Electron Affinity, Electric Polarizability, Thermal Conductivity, Pettifor number, etc. Soraya calculates statistical relationships for each physical and chemical feature based on Element, Subscript, and Fraction. This package requires the installation of three more packages, pymatgen, mendeleev, and chemparse. 
