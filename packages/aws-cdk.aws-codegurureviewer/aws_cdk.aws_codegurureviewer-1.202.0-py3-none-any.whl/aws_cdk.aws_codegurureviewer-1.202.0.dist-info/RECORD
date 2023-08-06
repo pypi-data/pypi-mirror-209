@@ -1,0 +1,10 @@
+aws_cdk/aws_codegurureviewer/__init__.py,sha256=IHvJ7cPtyuYEdoD_uVFOeJt07tubihKyahK8nmXS_oY,27985
+aws_cdk/aws_codegurureviewer/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/aws_codegurureviewer/_jsii/__init__.py,sha256=zyNlgcyj0eQagrQG2NHkf02uGPqW71gbBG6brw_4-Ck,414
+aws_cdk/aws_codegurureviewer/_jsii/aws-codegurureviewer@1.202.0.jsii.tgz,sha256=H6Dd1ttKTu7DR0WYy4j7NzLmZd_VJ22I3ARkkcPG23E,24986
+aws_cdk.aws_codegurureviewer-1.202.0.dist-info/LICENSE,sha256=YA6CL2YE08NgoURWXRTrec3mNy-KAR-_UNdiMqgNVMI,11391
+aws_cdk.aws_codegurureviewer-1.202.0.dist-info/METADATA,sha256=DXPWTx8vafpxgrlawGvw4Dal2q29-Bm9p9YgOlxml-M,3219
+aws_cdk.aws_codegurureviewer-1.202.0.dist-info/NOTICE,sha256=XtGET2JQh3C41orQUenLTefWItOqLmu2N-mGwW7t3Fo,113
+aws_cdk.aws_codegurureviewer-1.202.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+aws_cdk.aws_codegurureviewer-1.202.0.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.aws_codegurureviewer-1.202.0.dist-info/RECORD,,
