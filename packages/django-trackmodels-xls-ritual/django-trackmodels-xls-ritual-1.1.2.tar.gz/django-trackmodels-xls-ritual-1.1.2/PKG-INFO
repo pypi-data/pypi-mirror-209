@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: django-trackmodels-xls-ritual
+Version: 1.1.2
+Summary: XLSX report plugin for django-trackmodels-ritual
+Home-page: https://github.com/luismasuelli/django-trackmodels-xls-ritual
+Author: Luis y Anita
+Author-email: luismasuelli@hotmail.com
+License: LGPL
+License-File: LICENSE
