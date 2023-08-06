@@ -1,0 +1,6 @@
+build
+codepy
+dist
+doc
+examples
+test
