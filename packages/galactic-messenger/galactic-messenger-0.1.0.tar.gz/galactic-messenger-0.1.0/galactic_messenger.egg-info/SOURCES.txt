@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+galactic_messenger.egg-info/PKG-INFO
+galactic_messenger.egg-info/SOURCES.txt
+galactic_messenger.egg-info/dependency_links.txt
+galactic_messenger.egg-info/requires.txt
+galactic_messenger.egg-info/top_level.txt
