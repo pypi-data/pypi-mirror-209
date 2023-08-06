@@ -1,0 +1,17 @@
+udls/__init__.py,sha256=oooQFNVpZNBhID-0N7ftuJRGLiPEm_R_0brUWc6lG9U,257
+udls/audio_example.py,sha256=RFCi7VqfLNI9i36qRE6EQKIBqyXUpYpy5SztG3eb3SA,2498
+udls/audio_example_dataset.py,sha256=BmkuQw50pPSeGugf2-FnNwiWjBEb6xlI023FDVS8DgI,1010
+udls/base_dataset.py,sha256=gRvrKoHikHyp8LtRdI27_mFhsP_XC_dZq8lcu1MSrig,1131
+udls/duration.py,sha256=WxG5W1rBMF8WbjJkFpceyhjGUiji4cga6StTiEliP1M,459
+udls/resample.py,sha256=IEACrcEUnnq9O35HgYAHJ28w_6ibQtlzEeKvARASHWU,2638
+udls/serve.py,sha256=5yY0UhVu-a8dlCexVYWiRR6wetO2YAxd6MCuc1PAqEU,1975
+udls/simple_dataset.py,sha256=Fd96tGEFmsCPwvs9Fz2marp2hHwGczauYZTc3gNEqg0,3601
+udls/transforms.py,sha256=WbWx4rFjm4rPfYUVn353f8gGJHjbwJEmEvO9ihMsJzw,2894
+udls/generated/__init__.py,sha256=8hRS_lXDPwcdpriwylOyJvQO9G8jbf_g0FCuQhlvr_8,45
+udls/generated/audio_example_pb2.py,sha256=P0Zq2CG1_WeystM2Vxb6jXhJ4bw1wjS_jKVcrp8Qv58,5528
+udls-1.1.2.dist-info/LICENSE,sha256=pAZXnNE2dxxwXFIduGyn1gpvPefJtUYOYZOi3yeGG94,1068
+udls-1.1.2.dist-info/METADATA,sha256=St0i2QZn7QIbfwbI36H8LjAnQy2-AKnVfjfHy0fzAgk,617
+udls-1.1.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+udls-1.1.2.dist-info/entry_points.txt,sha256=gdyrkjv8kwUXdZGSRvgeCbMkfY5sW8466IM6VEGyYQI,110
+udls-1.1.2.dist-info/top_level.txt,sha256=kVc6V86UjWc5kgVR3PeIQVn-JDeN3Le2crRXIZpjfVs,5
+udls-1.1.2.dist-info/RECORD,,
