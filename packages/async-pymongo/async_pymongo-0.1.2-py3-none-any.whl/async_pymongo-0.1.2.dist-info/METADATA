@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: async-pymongo
+Version: 0.1.2
+Summary: Asynchronous wrapper for pymongo
+Home-page: https://github.com/Mayuri-Chan/async_pymongo
+License: GPL-3.0-or-later
+Keywords: async,python,pymongo
+Author: Adek Maulana
+Author-email: adekzmaulana@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Environment :: Console
+Classifier: Framework :: AsyncIO
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Database
+Requires-Dist: pymongo (>=4.3.3,<5.0.0)
+Project-URL: Repository, https://github.com/Mayuri-Chan/async_pymongo
+Description-Content-Type: text/markdown
+
+Asynchronous wrapper for pymongo
+
