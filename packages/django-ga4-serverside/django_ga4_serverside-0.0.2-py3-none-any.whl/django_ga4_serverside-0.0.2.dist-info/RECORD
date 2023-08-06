@@ -1,0 +1,12 @@
+django_ga4_serverside/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_ga4_serverside/apps.py,sha256=2i7xadc1V_enhaJdjDbsru-PQQ5ZU9Jh8EfN9O8xuys,267
+django_ga4_serverside/middleware.py,sha256=AsyZvHW4WASdnNEXIU8Kk8T2euDxDdCIzL4wiIgZN1k,431
+django_ga4_serverside/utils.py,sha256=sJ-W1hrG6_ZGxsXIa-TDjOfsYZN3-HU3XaQUVWwVMOE,6430
+django_ga4_serverside/signals/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_ga4_serverside/signals/handlers.py,sha256=mVWnyoR85dzrAHHodepJJSHEpb6bJ3o9CLSCisbEsv8,1616
+django_ga4_serverside-0.0.2.dist-info/AUTHORS,sha256=cNVhcR3BKL3uzJnsjU7o_1ppGG4uTdP4zwZlLoNmEoM,45
+django_ga4_serverside-0.0.2.dist-info/LICENSE,sha256=Fg6IFxFU2cx24-RmK8HM0gayXPBHyHV-_uO8wHeMxGM,1073
+django_ga4_serverside-0.0.2.dist-info/METADATA,sha256=GMdJTS7zroDs458KlaeW0bJl6eNcsJMZBhSoMH61K7M,2587
+django_ga4_serverside-0.0.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+django_ga4_serverside-0.0.2.dist-info/top_level.txt,sha256=ksK3-7bB5dcSyqhf4FWeMFYmxev_ASv7MRzP9ls__Pw,22
+django_ga4_serverside-0.0.2.dist-info/RECORD,,
