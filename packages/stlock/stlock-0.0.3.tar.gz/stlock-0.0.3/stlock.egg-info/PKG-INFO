@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: stlock
+Version: 0.0.3
+Summary: oauth2.0 stlock
+Author-email: office@stl.im
+Requires: requests
+Requires: PyJWT
