@@ -1,0 +1,12 @@
+.gitignore
+CODEOWNERS
+LICENSE
+README.md
+example.py
+pyproject.toml
+taskanalytics_data_wrapper/__init__.py
+taskanalytics_data_wrapper/taskanalytics_api.py
+taskanalytics_data_wrapper/taskanalytics_data_wrapper.egg-info/PKG-INFO
+taskanalytics_data_wrapper/taskanalytics_data_wrapper.egg-info/SOURCES.txt
+taskanalytics_data_wrapper/taskanalytics_data_wrapper.egg-info/dependency_links.txt
+taskanalytics_data_wrapper/taskanalytics_data_wrapper.egg-info/top_level.txt

@@ -1,0 +1,7 @@
+.DS_Store
+taskenv/
+dist/
+data/
+taskanalytics_data_wrapper/__pycache__/
+.env
+poetry.lock
