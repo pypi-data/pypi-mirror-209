@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+pyproject.toml
+earthranger_utils/__init__.py
+earthranger_utils/attach_image_er.py
+earthranger_utils/get_cam_location.py
+earthranger_utils/post_cougar_log.py
+earthranger_utils/post_event_er.py
+earthranger_utils.egg-info/PKG-INFO
+earthranger_utils.egg-info/SOURCES.txt
+earthranger_utils.egg-info/dependency_links.txt
+earthranger_utils.egg-info/requires.txt
+earthranger_utils.egg-info/top_level.txt
