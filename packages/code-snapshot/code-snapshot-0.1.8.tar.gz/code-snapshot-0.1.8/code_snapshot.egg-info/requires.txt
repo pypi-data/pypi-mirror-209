@@ -1,0 +1,9 @@
+requests<2.6,>=2.5.4.1
+certifi
+
+[dev]
+black
+bumpver
+isort
+pip-tools
+pytest
