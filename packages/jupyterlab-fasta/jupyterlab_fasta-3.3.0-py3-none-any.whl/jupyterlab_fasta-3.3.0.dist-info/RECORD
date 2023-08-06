@@ -1,0 +1,16 @@
+jupyterlab_fasta/__init__.py,sha256=HoVpOPFulTp1otO0qOMV71tCw-L_o0_PNIxyiMnL8JA,169
+jupyterlab_fasta/_version.py,sha256=Tz6lmxmxKUkvsL1d8BVDTboI2Qi1KGyuKbw2_SfyWeo,171
+jupyterlab_fasta-3.3.0.data/data/share/jupyter/labextensions/@jupyterlab/fasta-extension/package.json,sha256=NCwg8Z7vMPUfpG-fbAAnqL3RK10KdcjRWqO4ZqQ8j6o,3386
+jupyterlab_fasta-3.3.0.data/data/share/jupyter/labextensions/@jupyterlab/fasta-extension/static/216.4fdb3cb423aec0a0b294.js,sha256=T9s8tCOuwKCylDaz77tUKpSm9Z8LAbjkdmak-_6-Nrc,416
+jupyterlab_fasta-3.3.0.data/data/share/jupyter/labextensions/@jupyterlab/fasta-extension/static/410.a7e6b5eae966dbeb7f67.js,sha256=qb7ka5MuCh_ICCM56DKtiRsc7bf2o3bIhlgJlAFeohM,483319
+jupyterlab_fasta-3.3.0.data/data/share/jupyter/labextensions/@jupyterlab/fasta-extension/static/410.a7e6b5eae966dbeb7f67.js.LICENSE.txt,sha256=H9ptrgr6L_KDqSqw7rdhClSNS7yM1lu70L3jLrhx1WY,1602
+jupyterlab_fasta-3.3.0.data/data/share/jupyter/labextensions/@jupyterlab/fasta-extension/static/568.b32ebcf7155378c65c70.js,sha256=sy689xVTeMZccDT4MJ51o-i3oqQtBujOMI_8bUISUi4,1543
+jupyterlab_fasta-3.3.0.data/data/share/jupyter/labextensions/@jupyterlab/fasta-extension/static/643.929c653e8b3ed3e6bb69.js,sha256=kpxlPos-0-a7aany_RdtbK_BqhC_huzyd0cAp2rjZus,10763
+jupyterlab_fasta-3.3.0.data/data/share/jupyter/labextensions/@jupyterlab/fasta-extension/static/remoteEntry.b15a25cb741a6c7381f8.js,sha256=sVoly3QabHOB-KEe9F1WlQrx5ct1Loe5ZPEJTSXL_hs,7056
+jupyterlab_fasta-3.3.0.data/data/share/jupyter/labextensions/@jupyterlab/fasta-extension/static/style.js,sha256=esNjv6mEECeS0ffbyGm_wgEj4kY3F75riFsy_XEaZ_4,170
+jupyterlab_fasta-3.3.0.data/data/share/jupyter/labextensions/@jupyterlab/fasta-extension/static/third-party-licenses.json,sha256=gO8T4xFEMjZe1Bmb_YQ2qqQ51L7ceJ3BPf2eQVjIZAE,36362
+jupyterlab_fasta-3.3.0.data/data/share/jupyter/labextensions/@jupyterlab/fasta-extension/install.json,sha256=Qnt1lcUZabN8YAyxQgjgSQm6BjRI-xMejSbpmoI7-_s,193
+jupyterlab_fasta-3.3.0.dist-info/METADATA,sha256=WOvZXgJqIPWonXBxAtGp_xGwrdkwYePj0vPr2H9tnYo,5402
+jupyterlab_fasta-3.3.0.dist-info/WHEEL,sha256=y1bSCq4r5i4nMmpXeUJMqs3ipKvkZObrIXSvJHm1qCI,87
+jupyterlab_fasta-3.3.0.dist-info/licenses/LICENSE,sha256=ze9slCg__JBkNdf8bMtKkaTIsOYdbzSAvQcBDypxgYk,1520
+jupyterlab_fasta-3.3.0.dist-info/RECORD,,
