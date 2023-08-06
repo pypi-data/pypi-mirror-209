@@ -1,0 +1,14 @@
+IMDBTraktSyncer/IMDBTraktSyncer.py,sha256=PHDYYTnocbjoWpQCiVl0aZ4dxTLLX0NLwqIo88xekeE,16437
+IMDBTraktSyncer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+IMDBTraktSyncer/authTrakt.py,sha256=0qbZKFb2D1NEO0uEugC2qu5jkyWd3e7pHsTkrxPWlWY,1913
+IMDBTraktSyncer/checkChromedriver.py,sha256=cEiOsrWB7x3mqgpRUyAqYXSvR1u26v8RlPI57pRbmg4,4079
+IMDBTraktSyncer/errorHandling.py,sha256=OQKcXIucB1oqX66EZYN8fZLxIBFoIxuGrrKrmHQiOJw,3845
+IMDBTraktSyncer/imdbData.py,sha256=igLYVbEXLq0Y5mOxbAdFB4Y1A1zz6BrMQU-toTs8COM,5388
+IMDBTraktSyncer/traktData.py,sha256=S2CnpbyExw24TDXNHGMNqNd1Z8mevipa_1E8pzP177s,4612
+IMDBTraktSyncer/verifyCredentials.py,sha256=FCmRxUqwIi5lXoVX8DfcYYH2qEEhYA9D5pBYbRY6SsA,5488
+IMDBTraktSyncer-1.2.5.dist-info/LICENSE,sha256=TurJ7nbwuV-NDrWqjQDTEigJ6FuSm9swkpneNm3W6cA,1079
+IMDBTraktSyncer-1.2.5.dist-info/METADATA,sha256=Kww32VfdgRu5vfA_KAKxszVoy_alsXE3Rtp0jcPBA8Q,7832
+IMDBTraktSyncer-1.2.5.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+IMDBTraktSyncer-1.2.5.dist-info/entry_points.txt,sha256=N6C9Vi8PjEb4vliHz2OEE6TSndJiEhZglYfHyhh-XQQ,73
+IMDBTraktSyncer-1.2.5.dist-info/top_level.txt,sha256=RAS5GuCoBViZ236gk2wFDJKDkJmDdxM2ZzIGoq0qPCI,16
+IMDBTraktSyncer-1.2.5.dist-info/RECORD,,
