@@ -1,0 +1,10 @@
+nltk
+multiprocessing
+scikit-learn
+pandas
+numpy
+beautifulsoup4
+mapply
+pyenchant
+tzlocal
+spacy
