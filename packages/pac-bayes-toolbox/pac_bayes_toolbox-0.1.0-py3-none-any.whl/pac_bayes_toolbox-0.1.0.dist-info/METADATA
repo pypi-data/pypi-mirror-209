@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: pac-bayes-toolbox
+Version: 0.1.0
+Summary: A toolbox algorithm for PAC-Bayesian theory
+License: MIT
+Author: Mehdi Hennequin
+Requires-Python: >=3.9,<3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Provides-Extra: docs
+Requires-Dist: Sphinx (>=5.2.0) ; extra == "docs"
+Requires-Dist: matplotlib (>=3.7.1,<4.0.0)
+Requires-Dist: numpy (>=1.24.3,<2.0.0)
+Requires-Dist: scipy (>=1.10.1,<2.0.0)
+Requires-Dist: sphinx-rtd-theme (==1.2.0) ; extra == "docs"
+Requires-Dist: sphinxcontrib-napoleon (==0.7) ; extra == "docs"
+Description-Content-Type: text/markdown
+
+# pac_bayes_toolbox
+
+A toolbox algorithm for PAC-Bayesian theory
+
+## Installation
+
+```bash
+$ pip install pac_bayes_toolbox
+```
+
+## Usage
+
+- TODO
+
+## Contributing
+
+Interested in contributing? Check out the contributing guidelines. Please note that this project is released with a Code of Conduct. By contributing to this project, you agree to abide by its terms.
+
+## License
+
+`pac_bayes_toolbox` was created by Mehdi Hennequin. It is licensed under the terms of the MIT license.
+
+## Credits
+
+
