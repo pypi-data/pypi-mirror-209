@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.py
+mobio/sdks/dedupe/cpredicates.c
+mobio/sdks/dedupe/cpredicates.cpython-38-x86_64-linux-gnu.so
+mobio/sdks/dedupe/cpredicates.pyx
+mobio_dedupe_sdk_test.egg-info/PKG-INFO
+mobio_dedupe_sdk_test.egg-info/SOURCES.txt
+mobio_dedupe_sdk_test.egg-info/dependency_links.txt
+mobio_dedupe_sdk_test.egg-info/namespace_packages.txt
+mobio_dedupe_sdk_test.egg-info/requires.txt
+mobio_dedupe_sdk_test.egg-info/top_level.txt
