@@ -1,0 +1,9 @@
+CHANGELOG.md,sha256=lOe584oUMRU4YXscWNDI0612awQPNtqWU-P-Y1sEJOE,857
+kperm/__init__.py,sha256=RIAh-cNQKa1lUh1q2stA_zsN7hVW-gCS74KHTzFbHtU,55
+kperm/channel.py,sha256=nwYDqadnhxETE0ffEPplIlSudpWanNcfnnjI_dsv7Ic,39967
+kperm/permeation.py,sha256=Yqs2PiR0vLrV3LVUnOM2zN9B8Biws_eLGqBI2LXrYIQ,27977
+kperm/utils.py,sha256=3bGuLFrjeE-VO3bvuKZcVUUHTAKo0mBKAEbZwS5XG9I,1029
+kperm-0.1.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+kperm-0.1.1.dist-info/METADATA,sha256=2l126DsuqD1MVQFIbPq2rIgGFwX0QmhcEj2E1Yjk-mk,1937
+kperm-0.1.1.dist-info/WHEEL,sha256=WGfLGfLX43Ei_YORXSnT54hxFygu34kMpcQdmgmEwCQ,88
+kperm-0.1.1.dist-info/RECORD,,
