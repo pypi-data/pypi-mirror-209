@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: tenforce
+Version: 0.1.0
+Summary: Type enforcement for Python
+Requires-Python: >=3.11
+License-File: LICENSE.md
