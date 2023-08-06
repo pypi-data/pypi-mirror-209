@@ -1,0 +1,14 @@
+align4d/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+align4d/align.py,sha256=zDprPYVkRXpm8YdTmZmfalTbTTD7EoNyivLwzTGWPWs,4646
+align4d/align4d.cp310-win_amd64.pyd,sha256=cEUVYLOewqNhSbm1Ev-woljigHsdYVR6C3gqTl4d3MM,68096
+align4d/align4d.cp311-win_amd64.pyd,sha256=_dpeSc3FVeN_4vITFUfZWOV4wIDGteRNzK_VgFU6F3o,68096
+align4d/align4d.cpython-310-darwin(arm).so,sha256=b4RP0bTUxQFuXdxExSkgf7no8FIZ0ME--DPjo0tSUV8,170778
+align4d/align4d.cpython-310-darwin(intel).so,sha256=wxteVmPOvZYZeV3__XXvTT_4TEM1Boq8Yp7bWMyInCU,129312
+align4d/align4d.cpython-310-x86_64-linux-gnu.so,sha256=6qpLPMKxJ4ZyFKF4HgnIyd3J09zSXGYsDtZqn1yd0hQ,127024
+align4d/align4d.cpython-311-darwin(arm).so,sha256=6BtZ0Zm5JWw_Ch26Wu3FGpwRYNGA7JUcPfPDbJf9Sp8,170778
+align4d/align4d.cpython-311-darwin(intel).so,sha256=6BtZ0Zm5JWw_Ch26Wu3FGpwRYNGA7JUcPfPDbJf9Sp8,170778
+align4d/align4d.cpython-311-x86_64-linux-gnu.so,sha256=6pvFw293MAZL8dPkTMMBylGZoLtHnDjLH99Iu6WUjTU,127024
+align4d/align4d.py,sha256=G2dPR1KVAqyGkiDzSCmMG-7z2L6MUb2i466rBctcgDg,1126
+align4d-1.2.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+align4d-1.2.0.dist-info/METADATA,sha256=FYGQuwqJeXpQN2k5ZbjRYQtBXyKUrAUf58hihiGQoAA,13160
+align4d-1.2.0.dist-info/RECORD,,
