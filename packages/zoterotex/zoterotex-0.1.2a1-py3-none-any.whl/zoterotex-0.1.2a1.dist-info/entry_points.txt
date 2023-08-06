@@ -1,0 +1,2 @@
+[console_scripts]
+zoterotex = zoterotex.__main__:main
