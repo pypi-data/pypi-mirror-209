@@ -1,0 +1,15 @@
+bedrock/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bedrock/_demo.py,sha256=nz84VK5_SDr3LSTGLfCsKhOHjgUn9wrvUqVO4bj7CGc,780
+bedrock/consts.py,sha256=EW1gd1yBu7Hap66mSgyIxAwwd4yvQAabZCYG3QQuxxQ,2336
+bedrock/context.py,sha256=qX6Jt7i_d0c67E_aPOj8f9qnvjWp_DPUBIco8MSM42U,9250
+bedrock/events.py,sha256=n9jENR8MQV_Yc8kcBDxt-eqRsyz9699SsKFWjH-2lNE,505
+bedrock/ext/ui/__init__.py,sha256=9fxa_C7EQBDmeW0qj4JkJESOT_ivzc-XqNlC4vRAmoo,7516
+bedrock/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bedrock/request.py,sha256=pZ1OUgkfiFOQBSL_3eXlV3y3VL2EjGhKJB-PPqXpNSI,794
+bedrock/response.py,sha256=dwaobBl-IIRQS6_iP0KZcoVYYvFSQiSFa1foo9cokmY,1881
+bedrock/server.py,sha256=oJGfWzXC0ibROskxrE-7mA5IOKQqSEcw9BpBnpFkLuI,12890
+bedrock/utils.py,sha256=A2OjuUGJkQTZx3Cf64q08wI8X7ZbKWC9X02hGSl3ZJI,3896
+bedrockpy-1.0.0a0.post1.dist-info/LICENSE.md,sha256=sBqC1xo0B9WKct2w9ODWWssbeujpbORkdkdY0RsXKaU,1071
+bedrockpy-1.0.0a0.post1.dist-info/METADATA,sha256=hrupr2qFq_yjGb2DwS6hDbQeFsBxPt0eSpY-msQ7xp4,3839
+bedrockpy-1.0.0a0.post1.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+bedrockpy-1.0.0a0.post1.dist-info/RECORD,,
