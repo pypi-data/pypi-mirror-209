@@ -1,0 +1,14 @@
+fuefpyco/__init__.py,sha256=VUIx8QlQEy4Qf-EI4beUNZfHiqgzSAZ19mTjH76DPVg,138
+fuefpyco/ds.py,sha256=W-RmE2cgk33xWSnKS83qKU4an-iQJ4xWQ3Wf9Plx6WU,3588
+fuefpyco/it.py,sha256=UcQ0yqPeIG6oNtoRWGU3xseiGUXnFOXNRzExhZ8Uq0c,2841
+fuefpyco/pa/__init__.py,sha256=57oJJrsrec38O_M5Ila_RrMu7r7asQEdWzaOrCf4NJY,1818
+fuefpyco/pa/core.py,sha256=fHdYsQyY-SeB36xUgvTXVMWmHLkmZukHaOekSt0rpJM,589
+fuefpyco/pa/process_per_task.py,sha256=MEII4fse8nNj_yJ6aJlL7Wq7T1tfjAJlXD_x78zA5GU,5943
+fuefpyco/pa/process_pool_executor.py,sha256=U4w933exrJGdZAqUKUmV6ueMHYhQiX-ML0sW4UcSC5s,3614
+fuefpyco/pd/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fuefpyco/pd/generators.py,sha256=9RP19L_EZ8PivkyvE03aWJ7TvaJYnosvHvAszkDLUsU,823
+fuefpyco-0.3.0.dist-info/LICENSE,sha256=FRlJW3yC97JLye-OKigeJ1Rci0liWG74zUZOgeCKZ50,1490
+fuefpyco-0.3.0.dist-info/METADATA,sha256=S7zBDUS30jy3XB7LPyUglPvS1NYEKUkwodbH28hQYXI,1640
+fuefpyco-0.3.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+fuefpyco-0.3.0.dist-info/top_level.txt,sha256=1u9Dt-d6DyJzQarHNQ8MBc-BcmXlkuQfFbyYXdjNVto,9
+fuefpyco-0.3.0.dist-info/RECORD,,
