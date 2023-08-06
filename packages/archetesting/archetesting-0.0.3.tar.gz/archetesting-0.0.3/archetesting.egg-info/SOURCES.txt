@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.cfg
+setup.py
+archetesting/__init__.py
+archetesting.egg-info/PKG-INFO
+archetesting.egg-info/SOURCES.txt
+archetesting.egg-info/dependency_links.txt
+archetesting.egg-info/top_level.txt
