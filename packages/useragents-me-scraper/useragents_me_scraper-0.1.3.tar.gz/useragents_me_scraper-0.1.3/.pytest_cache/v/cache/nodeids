@@ -1,0 +1,14 @@
+[
+  "tests/test_useragents.py::test_contains_valid_substring_empty",
+  "tests/test_useragents.py::test_contains_valid_substring_false",
+  "tests/test_useragents.py::test_contains_valid_substring_true_multiple",
+  "tests/test_useragents.py::test_contains_valid_substring_true_single",
+  "tests/test_useragents.py::test_is_not_valid_pct_float",
+  "tests/test_useragents.py::test_is_not_valid_pct_int",
+  "tests/test_useragents.py::test_is_valid_pct_float",
+  "tests/test_useragents.py::test_is_valid_pct_int",
+  "tests/test_useragents.py::test_process_ua",
+  "tests/test_utils.py::test_convert_to_date",
+  "tests/test_utils.py::test_is_not_outdated",
+  "tests/test_utils.py::test_is_outdated"
+]

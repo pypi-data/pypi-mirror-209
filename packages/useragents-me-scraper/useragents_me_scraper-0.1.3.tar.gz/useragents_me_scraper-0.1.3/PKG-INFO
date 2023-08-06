@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: useragents_me_scraper
+Version: 0.1.3
+Summary: An ease-of-access and non-intrusive Python web scraper using beautifulsoup to easily fetch and filter through the latest user agents found in useragents.me
+Project-URL: Homepage, https://github.com/iDLEWINK/useragents-me-scraper
+Project-URL: Bug Tracker, https://github.com/iDLEWINK/useragents-me-scraper/issues
+Author-email: iDLEWINK <jak.uson11@yahoo.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: bs4
+Requires-Dist: pytest
+Requires-Dist: requests
+Description-Content-Type: text/markdown
+
+# useragents-me-scraper
