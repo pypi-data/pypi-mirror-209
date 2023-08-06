@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: ck-sso-cli
+Version: 1.0.1
+Summary: Provides a wrapper for AWS IAM Identity Center authentication to an External AWS Account
+Home-page: https://github.com/okta-awscli/okta-awscli
+Author: Aditya Ajay
+Author-email: aditya.ajay@tothenew.com
+License: Apache License 2.0
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+
