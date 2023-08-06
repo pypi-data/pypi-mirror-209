@@ -1,0 +1,12 @@
+dense_ev/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dense_ev/decompose_pauli.py,sha256=XqXRA0p_oh_HDDA8wUgJeT-dLb50Xb6ZdYwQ1wGvGo0,4764
+dense_ev/dense_grouper.py,sha256=Us9lWvXr1Mkk7Ou3f9isB-3Ri2KlId9cs5hCMWp1QTU,5425
+dense_ev/dense_pauli_basis_change.py,sha256=H9q3olSqbVM0iTJTqWb7UTRL1iMVb0eCoM5oFyerZXg,33123
+dense_ev/dense_pauli_expectation.py,sha256=FdMaBt0cbl0kZkcOLNZbaJlgclBSDA6BncNPIdQ-GeM,5813
+dense_ev/rmatrix.py,sha256=Evv71X5pNP7wPWebZmGcvDQ5wD03kcOHAlljLgjbr4w,7951
+dense_ev/test_ops.py,sha256=lPbatI9ReD6Z9PFiGo4V3ZYPn3TE9wC3Erk2KHc2gN0,3521
+dense_ev-2023.5.22.dist-info/LICENSE.txt,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+dense_ev-2023.5.22.dist-info/METADATA,sha256=Wmx43oS_8gkZcl832y0XA2Uq0eye2yxshmF0NhrMiFM,15023
+dense_ev-2023.5.22.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+dense_ev-2023.5.22.dist-info/top_level.txt,sha256=czYTYZKagbcDuSFMIolay2rWymR3HD3e1amGcfOig-k,9
+dense_ev-2023.5.22.dist-info/RECORD,,
