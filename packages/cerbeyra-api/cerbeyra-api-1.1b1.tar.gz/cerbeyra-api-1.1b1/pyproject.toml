@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cerbeyra-api"
+version = "1.1b1"
+authors = [
+    { name = "Cerbeyra Dev Team", email = "info@cerbeyra.com" },
+]
+description = "This library provides a high level interface for interacting with Cerbeyra’s APIs and retrieving cyber-threat’s information from them. Through such API’s, it is possible to get clues regarding vulnerability assessments, cyber feeds, governance, threat intelligence and much more. Additionally, all these information are enclosed in an index named Cerbeyra index) which is an objective evaluation of the overall cyber risk."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://cerbeyra.com"
