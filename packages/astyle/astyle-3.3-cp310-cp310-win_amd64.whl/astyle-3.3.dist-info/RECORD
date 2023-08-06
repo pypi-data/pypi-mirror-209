@@ -1,0 +1,9 @@
+astyle/__init__.py,sha256=5MkzHj8RrOmzQ2gG2yGQpKZzkLL13zqonRNJmCpUYgE,408
+astyle/__main__.py,sha256=o0to_yLCAWKFScL5fbl-fci0b-tiDKLFhGQ7MLybRYM,261
+astyle/data/bin/astyle.exe,sha256=efjgLQJSFRrqzPcpprdf0fY15lCugNRNYDR7WuTLjco,493582
+astyle/data/share/man/astyle.1,sha256=u3CpwJJM11_lcmw3iRBLrIVddD8gsdJlGHJktPy6N9Q,16162
+astyle/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+astyle-3.3.dist-info/METADATA,sha256=ZgT3rqiVAaPJiRnBJXgsXPVnIPU2xFQCB6qMgdkGDCc,6448
+astyle-3.3.dist-info/WHEEL,sha256=sg-Na1PXF3DaePhW2ssr9StCJx5wLvhmH67HFBhZges,105
+astyle-3.3.dist-info/entry_points.txt,sha256=xtfUIcEbACGZomF3GoUksYC7VXFBu5IkVufBg1GSGSc,49
+astyle-3.3.dist-info/RECORD,,
