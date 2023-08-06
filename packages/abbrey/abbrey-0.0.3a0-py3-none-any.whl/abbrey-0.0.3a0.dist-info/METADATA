@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: abbrey
+Version: 0.0.3a0
+Summary: Abbreviation decoder
+Home-page: https://github.com/pdd-vn/abbrey
+Author: pdd
+Author-email: dungphamdang99@gmail.com
+License: MIT
+Keywords: abbreviation
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: pandas
+
+### Abbreivation decoder
+It's not really smart, but extremely simple.
+You need to create a `abbr_file.csv` to provide the definition for each abbreviation in the following format:
+```
+acronym,detail
+[ACR_1],[DETAIL_1]
+[ACR_2],[DETAIL_2]
+...
+``` 
+
+Example:
+```
+from abbrey import AbbrDecoder
+
+decoder = AbbrDecoder("abbr_file.csv")
+
+input_string = "He is a good pm"
+print(decoder.decode_sentence(input_string))
+```
+Output:
+```
+He is a good project manager
+```
