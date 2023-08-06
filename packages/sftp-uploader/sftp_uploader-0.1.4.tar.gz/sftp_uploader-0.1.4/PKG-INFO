@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: sftp-uploader
+Version: 0.1.4
+Summary: Package for upload data to sftp with different parametrs and with different methods
+Home-page: https://github.com/moonvent/sftp_uploader/
+License: MIT
+Keywords: sftp,git
+Author: Moonvent
+Author-email: moonvent@proton.me
+Requires-Python: >=3.11,<4.0
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: gitpython (>=3.1.31,<4.0.0)
+Requires-Dist: paramiko (>=3.1.0,<4.0.0)
+Project-URL: Bug Tracker, https://github.com/moonvent/sftp_uploader/issues/
+Project-URL: Documentation, https://github.com/moonvent/sftp_uploader/blob/master/README.md
+Project-URL: Repository, https://github.com/moonvent/sftp_uploader/
+Description-Content-Type: text/markdown
+
+# TODO
+
+[ ] Make title, description, which problem is solve, metter of this project description
+
+[ ] Add more [classifiers](https://pypi.org/classifiers/)
+
+[ ] Add tests
+
+[ ] Add additional links to project conf
+
