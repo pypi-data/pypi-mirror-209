@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: tldrwl
+Version: 0.0.2
+Summary: Too long, didn't read/watch/listen
+Home-page: https://github.com/jrodal98/tldrwl
+Author: Jacob Rodal
+Author-email: dev@jrodal.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# tldrwl (too long, didn't read/watch/listen)
+
+## About
+
+(in progress) Summarizer
+
+
