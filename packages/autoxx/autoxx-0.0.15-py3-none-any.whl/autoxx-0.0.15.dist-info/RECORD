@@ -1,0 +1,12 @@
+autoxx/agent/babyagi/agi.py,sha256=bGrv4fuqeSsyHPGlWZsuBvAeHdai1PMvRTHW8lAIiX8,10711
+autoxx/agent/babyagi/task_manager.py,sha256=aJWOWdpKFTQunOP3U1HgxkZuZ63vEoM7_DXgtcuKSE8,1109
+autoxx/agent/react/agent.py,sha256=4LuL-3t7yYLowwzOAb6pLaknbkuZRr5CuPy2CGIh0AM,10193
+autoxx/requirements.txt,sha256=wFfWFPexnj0asGsj5TvDueDuWHP2DrOxITjz1oUptgE,406
+autoxx/setup.py,sha256=uPwkXyoMgyiASwFTMZRYtz_qfSYPAKu41BUz4hOYJOI,619
+autoxx/tools/knowledge_base/utils.py,sha256=z104SowQdffPgGtRCOuiZ9LPwPp4q-4oOVnAMDPLXfo,5352
+autoxx/tools/llm/utils.py,sha256=oiztar2_98seucU7JRVgPXyGStaOmqPpAYROYPyszC4,929
+autoxx/tools/web_search/js/overlay.js,sha256=8xun05O1bslA2ZR0K76VaTmiO6gygTFnHzWtQB1F4LU,804
+autoxx/tools/web_search/search.py,sha256=aWs8_qWVVUCUN4iS7AnENeXF2B2idC-hNodeq5NK04Q,4940
+autoxx-0.0.15.dist-info/METADATA,sha256=0U7hln-s5VrvPTgVdqFraAOmj8Lw3LbpTyeOX5QmQgE,1025
+autoxx-0.0.15.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+autoxx-0.0.15.dist-info/RECORD,,
