@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: process-monitoring-package
+Version: 0.0.1
+Summary: A package to monitor a process and send email notifications
+Author: Chengran
+License: MIT
+License-File: LICENSE
+Requires-Dist: psutil
+Requires-Dist: requests
+Requires-Dist: tqdm
+
