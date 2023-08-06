@@ -1,0 +1,8 @@
+flask_pg_session/__init__.py,sha256=pd-0iuDy399_R1My7e0Ccozs3oODDj1TFDe2wsUzdJQ,588
+flask_pg_session/_queries.py,sha256=ThIsH3JolYeTbWRCWbWCTTay7iLc7oGXkMNYSGbxmqQ,2870
+flask_pg_session/_utils.py,sha256=QjK5NdrFSaV9Hiotju2MD30RGRJix8-jvtvH-oGJgmc,1303
+flask_pg_session/session.py,sha256=_2GRSkCqb1pa5dXLTB1ZrBelRABrSV0hyRMxjkwUWD4,12773
+flask_pg_session-0.1.0.dist-info/LICENSE,sha256=TpmrpzKsxya4JiM79SMd545Uz-hGcG4wt98jNyq29-Q,1064
+flask_pg_session-0.1.0.dist-info/METADATA,sha256=ihCLxmllhzKRWDrFfeVO5s5j6VgGXsQu5yibXI9XKBI,3021
+flask_pg_session-0.1.0.dist-info/WHEEL,sha256=WGfLGfLX43Ei_YORXSnT54hxFygu34kMpcQdmgmEwCQ,88
+flask_pg_session-0.1.0.dist-info/RECORD,,
