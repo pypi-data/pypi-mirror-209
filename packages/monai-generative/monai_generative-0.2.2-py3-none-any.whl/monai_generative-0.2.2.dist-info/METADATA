@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: monai-generative
+Version: 0.2.2
+Summary: Installer to help to use the prototypes from MONAI generative models in other projects.
+License-File: LICENSE
+Requires-Dist: monai (>=1.2.0rc1)
+
