@@ -1,0 +1,6 @@
+LICENSE
+setup.py
+holamundoplayerJG.egg-info/PKG-INFO
+holamundoplayerJG.egg-info/SOURCES.txt
+holamundoplayerJG.egg-info/dependency_links.txt
+holamundoplayerJG.egg-info/top_level.txt
