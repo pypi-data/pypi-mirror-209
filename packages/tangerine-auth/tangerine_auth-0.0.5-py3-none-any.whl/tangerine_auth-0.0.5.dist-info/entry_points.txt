@@ -1,0 +1,2 @@
+[console_scripts]
+tangerine-auth = tangerine_auth.entry_points:main
