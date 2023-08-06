@@ -1,0 +1,34 @@
+# Checks that we can build and validate the Unittest
+name: CI
+on: [push]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: recursive
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+      - name: Build Python package
+        run: |
+          python3 setup.py build
+          python3 setup.py install
+      - name: Run test for Python part
+        run: |
+          pytest --cov=./ --cov-report=xml test/*.py
+      - name: Build C++ package and run test
+        run: |
+          mkdir build && cd build
+          cmake -DBUILD_TEST=ON -DCODE_COVERAGE=ON -DCMAKE_BUILD_TYPE=Debug ..
+          make
+          make coverage
+          cd ..
+
+      - uses: codecov/codecov-action@v3
+        with:
+          files: ./coverage.xml,./build/coverage.xml
