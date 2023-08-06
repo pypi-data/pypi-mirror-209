@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+crosscompute_analytics.egg-info/PKG-INFO
+crosscompute_analytics.egg-info/SOURCES.txt
+crosscompute_analytics.egg-info/dependency_links.txt
+crosscompute_analytics.egg-info/requires.txt
+crosscompute_analytics.egg-info/top_level.txt
+crosscompute_analytics.egg-info/zip-safe

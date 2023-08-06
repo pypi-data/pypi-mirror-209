@@ -1,0 +1,9 @@
+crosscompute>=0.9.4.9
+crosscompute-printers-pdf>=0.4.1
+crosscompute-views-map>=0.2.2
+crosscompute-views-barcode>=0.2.2
+invisibleroads-macros-web>=0.3.4
+jupyterlab-crosscompute>=0.2.4
+jupyterlab==3.6.3
+ipython
+pudb
