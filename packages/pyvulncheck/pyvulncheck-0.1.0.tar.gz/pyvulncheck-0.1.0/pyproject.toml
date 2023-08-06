@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "pyvulncheck"
+version = "0.1.0"
+description = "pyvulncheck is an open-source tool designed for detecting vulnerabilities in Python packages, drawing inspiration from the capabilities of govulncheck."
+authors = ["Taehyun Lee <0417taehyun@gmail.com>"]
+homepage = "https://github.com/FastAPI-Korea/pyvulncheck"
+documentation = "https://github.com/FastAPI-Korea/pyvulncheck/README.md"
+repository = "https://github.com/FastAPI-Korea/pyvulncheck"
+license = "MIT"
+readme = "README.md"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
