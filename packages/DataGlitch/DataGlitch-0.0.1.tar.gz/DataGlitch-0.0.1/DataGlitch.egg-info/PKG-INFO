@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: DataGlitch
+Version: 0.0.1
+Summary: DataGlitch is a Python package designed to address common data challenges, including handling mixed data types, non-ASCII values, and facilitating dataset exploration.
+Home-page: https://github.com/ioakeim-h/DataGlitch
+Download-URL: https://github.com/ioakeim-h/DataGlitch/archive/refs/tags/v0.1.tar.gz
+Author: Ioakeim Hadjimpalasis
+Author-email: ioakeim.h@gmail.com
+License: MIT
+Keywords: data,cleaning,wrangling,engineering,pandas
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE
