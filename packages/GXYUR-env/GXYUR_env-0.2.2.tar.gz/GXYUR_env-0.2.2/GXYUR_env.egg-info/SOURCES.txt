@@ -1,0 +1,7 @@
+README.md
+setup.py
+GXYUR_env.egg-info/PKG-INFO
+GXYUR_env.egg-info/SOURCES.txt
+GXYUR_env.egg-info/dependency_links.txt
+GXYUR_env.egg-info/requires.txt
+GXYUR_env.egg-info/top_level.txt

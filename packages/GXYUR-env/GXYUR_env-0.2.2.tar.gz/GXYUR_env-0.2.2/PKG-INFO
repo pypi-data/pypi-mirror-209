@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: GXYUR_env
+Version: 0.2.2
+Summary: An OpenAI Gym Env for dual UR5
+Author: GXY
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
