@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "dicommeta"
+version = "0.4.0"
+description = "Dicom Metadata structures"
+authors = ["Kevin Long <longke@pennmedicine.upenn.edu>"]
+readme = "README.md"
+packages = [
+    { include = "dicommeta.py", from = "src" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+attrs = "^23.1.0"
+pendulum = "^2.1.2"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
