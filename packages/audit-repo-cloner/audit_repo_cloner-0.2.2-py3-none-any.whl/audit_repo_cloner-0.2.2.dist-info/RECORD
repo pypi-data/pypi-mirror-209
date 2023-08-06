@@ -1,0 +1,12 @@
+audit_repo_cloner/__init__.py,sha256=MYkBhSI6unuA5F-vTBKFsc4pz84v_DIB7TPZlFZ2Nto,64
+audit_repo_cloner/__version__.py,sha256=t7BpbZGsKfKv8-oQpIdAQcLuZxHrKm3zpcJgiF9XB8Q,240
+audit_repo_cloner/constants.py,sha256=g3N3kgd4mmPnlPEm3ofASpXMmb7QOOGn2U2sLMTYGhE,1189
+audit_repo_cloner/create_action.py,sha256=xJIIln9GLrD0jgC0IRPc-u9QlujNxoVlLW78Z5R6l6o,991
+audit_repo_cloner/create_audit_repo.py,sha256=x07HR_ECFSpgNL8n-xku98lLpajdO-ZhMKpFAv2lcfc,18683
+audit_repo_cloner/create_secret.py,sha256=Ynb3fdU8RxqxxYtPnRpMZ6esjbjeaH6pnpT4Q1VGXqE,811
+audit_repo_cloner-0.2.2.dist-info/LICENSE,sha256=lWb_Yzu25_51ovRZmPsk-j_QEuJyw4ttfCJ0WpNN35g,1068
+audit_repo_cloner-0.2.2.dist-info/METADATA,sha256=bvMBVFCNJ9GNQjCJ7rWea0NA-i2TwaNPmK9IRE_hrVU,5191
+audit_repo_cloner-0.2.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+audit_repo_cloner-0.2.2.dist-info/entry_points.txt,sha256=EScQ8Njm58TVdGViy-36kFxwlAGjOWN6iRtHHLPqZDw,74
+audit_repo_cloner-0.2.2.dist-info/top_level.txt,sha256=tjMtTlL7xrsIwVsduvWmj5Q09afvQXEWKjrojNGU-8E,18
+audit_repo_cloner-0.2.2.dist-info/RECORD,,
