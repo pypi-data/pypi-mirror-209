@@ -1,0 +1,8 @@
+README.md
+setup.py
+favicon-grabber/__init__.py
+favicon-grabber/grabber.py
+favicon_grabber.egg-info/PKG-INFO
+favicon_grabber.egg-info/SOURCES.txt
+favicon_grabber.egg-info/dependency_links.txt
+favicon_grabber.egg-info/top_level.txt
