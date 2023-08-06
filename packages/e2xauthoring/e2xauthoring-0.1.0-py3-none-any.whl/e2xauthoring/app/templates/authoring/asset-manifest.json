@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/e2x/authoring/static/js/main.fe9bcd55.js",
+    "index.html": "/e2x/authoring/index.html",
+    "main.fe9bcd55.js.map": "/e2x/authoring/static/js/main.fe9bcd55.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.fe9bcd55.js"
+  ]
+}
