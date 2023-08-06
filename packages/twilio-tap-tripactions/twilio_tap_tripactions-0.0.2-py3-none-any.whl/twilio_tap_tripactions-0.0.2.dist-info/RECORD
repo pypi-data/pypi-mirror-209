@@ -1,0 +1,10 @@
+tap_tripactions/__init__.py,sha256=k6tOcsH05EmSRQx0vYulk_Ng_Zjc6BmRJrIIgtEec-I,1803
+tap_tripactions/client.py,sha256=wkLso3YuNgS4Hl3fyw5Xp3u4veqDcx60ASEoWTDagIM,1001
+tap_tripactions/streams.py,sha256=FMm7-ktIze7lmTBnuppp1Ib5g5yYu1i0wm4wPCyIlr8,5007
+tap_tripactions/schemas/bookings.json,sha256=1gcl_PnqyfBGHYtJswTwiNkTDzf6VqaICB6Lj21E69I,11453
+twilio_tap_tripactions-0.0.2.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+twilio_tap_tripactions-0.0.2.dist-info/METADATA,sha256=kLfQCvMo2FjdXnVVCDDDnNA6vWamgrOjPtbSDdwPzoY,323
+twilio_tap_tripactions-0.0.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+twilio_tap_tripactions-0.0.2.dist-info/entry_points.txt,sha256=QkLsKPCyiCbR2bDzsbtroMDDFxfQYwlarY7LczWHUjQ,57
+twilio_tap_tripactions-0.0.2.dist-info/top_level.txt,sha256=x1f0q3h0GAGbxPlBvaoeVUIvVdLRY35ttS1TUvu5i50,16
+twilio_tap_tripactions-0.0.2.dist-info/RECORD,,
