@@ -1,0 +1,7 @@
+.gitignore
+.idea
+srec/__pycache__
+test.py
+dist
+build
+srec.egg-info

@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "srec"
+version = "1.1"
+authors = [
+  { name="Trrrrw", email="wzhhenry@qq.com" },
+]
+description = "A simple module to calculate the time required for leveling up in Honkai: Star rail."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Trrrrw/srec"
+"Bug Tracker" = "https://github.com/Trrrrw/srec/issues"
