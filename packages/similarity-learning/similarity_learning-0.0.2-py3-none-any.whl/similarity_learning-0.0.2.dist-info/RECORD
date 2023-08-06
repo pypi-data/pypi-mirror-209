@@ -1,0 +1,14 @@
+similarity_learning/__init__.py,sha256=VstXuBlbO5ztwt1XtT4c_aHUlLiFNZwW1OIz6Va0ODY,313
+similarity_learning/_modidx.py,sha256=t34pfNViakC6YDF_VZV9Z4fGnEZiAezY9A45LVusApk,10970
+similarity_learning/all.py,sha256=RSu4-GoVwqoWVqIpWTwZzcm075ccum4Ym_Cd_W_Mdek,72
+similarity_learning/facenet.py,sha256=2bqfPJr1MokbCAG49I4GSk7iLzEAgK4ouD0ggG6bGeM,1064
+similarity_learning/feature_space_plotting.py,sha256=9wt1qBXVGyyObslIiufR7bUwAYWTL5bsFLMAUo5YsQQ,1255
+similarity_learning/pair_matching.py,sha256=pns9IeeIxdPw63b34fCw4zMVq1S04eKIjaWRQ_q4TEM,1492
+similarity_learning/siamese.py,sha256=4KDp5vk2Th0mhCxb7rHS1YxB7cRxmg94thtfp-ef9Tg,2408
+similarity_learning/utils.py,sha256=PcxDqW7A6BkjPe3ZM3GB1nn6z0sBMePzSMqcrtaHrrE,5459
+similarity_learning-0.0.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+similarity_learning-0.0.2.dist-info/METADATA,sha256=q8YMjWHyoTQrW6WU0_Z64EHy6H1ignex9Qm7e2eNC8w,3378
+similarity_learning-0.0.2.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+similarity_learning-0.0.2.dist-info/entry_points.txt,sha256=oSSkaRJwJnChrak5w0stzaB1vabzGwhDWbnqU54M2uA,81
+similarity_learning-0.0.2.dist-info/top_level.txt,sha256=P5Ix9oasjD9vzrxfOG6IaJ5N4B4A4bETjPRx5d3kmPM,20
+similarity_learning-0.0.2.dist-info/RECORD,,
