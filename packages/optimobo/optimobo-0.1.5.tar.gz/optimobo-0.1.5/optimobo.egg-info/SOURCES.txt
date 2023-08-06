@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+optimobo/__init__.py
+optimobo/optimisers.py
+optimobo/scalarisations.py
+optimobo/util_functions.py
+optimobo.egg-info/PKG-INFO
+optimobo.egg-info/SOURCES.txt
+optimobo.egg-info/dependency_links.txt
+optimobo.egg-info/requires.txt
+optimobo.egg-info/top_level.txt
+tests/testing.py
