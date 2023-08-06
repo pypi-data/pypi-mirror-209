@@ -1,0 +1,11 @@
+Pillow
+numpy
+
+[doc]
+sphinx
+sphinx-rtd-theme
+
+[test]
+mock
+pytest
+pytest-cov
