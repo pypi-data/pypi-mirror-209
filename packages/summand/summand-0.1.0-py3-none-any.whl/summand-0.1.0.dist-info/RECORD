@@ -1,0 +1,12 @@
+summand/_import_.py,sha256=oGCj0fygI8WwdA-ZbQjWVIeDA4H4V1r3UqaRC8mKsnA,4039
+summand/app.json,sha256=H__hG_ixlQy4z2rzv-gyUxD5txJWUeJ0PHd32aJJH9c,287
+summand/cli.py,sha256=nYoih7U3iCzcsxvTGYzIqsD3QZMYPeJJKyGjjZzMVAM,20254
+summand/db.py,sha256=Jk9nWZy0xxkO0-vhyPUO08HLOkFja7mJOneA4zGldeA,7269
+summand/export.py,sha256=aaBfeErxkfbL4vqqCdXGqo-mRE4M5D9Rjx9VNAWnsd0,2122
+summand/lists.json,sha256=d77q3xRXecIwL7oyOCOLqScDfChisPfziCAtkwytN3Y,73
+summand/main.md,sha256=o357N_40J5o05le2Kfshen9pJuVfcPATDYFGnZCA29s,2339
+summand/utilities.py,sha256=D8EEH7KjMsaUv2vjczP-tiqF4INdZumN4oQtBH5aalg,7108
+summand-0.1.0.dist-info/entry_points.txt,sha256=KWENjww-OYIchZxKiTDIfpmIDcoxVoNsdeyT0whkfHY,43
+summand-0.1.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+summand-0.1.0.dist-info/METADATA,sha256=TLjUv-hMQwxQEmEQE0OVICvu4IJtO0vVItt2t68BGok,1138
+summand-0.1.0.dist-info/RECORD,,

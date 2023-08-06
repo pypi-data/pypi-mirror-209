@@ -1,0 +1,15 @@
+{
+    "_default": {
+        "1": {
+            "name": "test1",
+            "description": "",
+            "Command": [
+                "ipconfig",
+                "mkdir hi",
+                "color a"
+                
+            ],
+            "run": []
+        }
+    }
+}
