@@ -1,0 +1,16 @@
+sntn/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sntn/__main__.py,sha256=0AevOGFFTE4T8_mptcD2IZTggxY4MNrYQ7WpZVPdq7U,1223
+sntn/_bvn.py,sha256=UNy_W0HPaQS8fDRxULRDDIniG2OQUtsxprYii2m0IRA,6413
+sntn/_lasso.py,sha256=Oi6YgLFNXPtEjgObmq9ynVwOwT9iP7RcG8fsGzw9ytM,15434
+sntn/_nts.py,sha256=V-zcTAzY3oR3VyLBpY48AUlONLtO8uJxNJxu0aC007U,19228
+sntn/_screening.py,sha256=qapZFhlwMAgE6PX6Wpnm6Z6OrKvJN5ktxPSSWPXlxDM,11918
+sntn/_solvers.py,sha256=XSlh02i_2F3OCRJVQq8PmX-M6jRHpRrnnzoXJFNcBL0,25028
+sntn/_split.py,sha256=uLhczzKquBQrddEMLoQ2dlyK9H0nn5594mN3bZQwL5k,3336
+sntn/_tnorm.py,sha256=iHVsVCWv15FnblK9tlKdG5mUUP1iO1Ktlazmhe53TZc,11996
+sntn/dists.py,sha256=sPE27VQBAvYSuVeLc5n3Ti2OS76QJiWyTFoGB4u3rJo,1182
+sntn/posi.py,sha256=tjYgQ3AEbfBrFrOMLrTBScAet6eEMjFXwZzsABQ6cFY,632
+sntn/trialML.py,sha256=QmoC3z7bQWN2q4rIsQ-H_HYHSnN69QDRoh9unW5JucQ,1869
+sntn-0.0.4.dist-info/METADATA,sha256=zl6R14bUoVA7oQTRGMwuHcMsVI03QgjXTtl1_C4SZ00,10563
+sntn-0.0.4.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+sntn-0.0.4.dist-info/top_level.txt,sha256=edQ28OSe7s2OMbEmB2gVzrm-AGUXP2Ai44GLFkTwh7I,5
+sntn-0.0.4.dist-info/RECORD,,
