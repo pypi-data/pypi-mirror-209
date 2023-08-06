@@ -1,0 +1,11 @@
+cloudreactor_aws_setup_wizard/__init__.py,sha256=VV3XsgZ8DAQV0vjJC4ZEXakxsYTZCV12MtNyjur-kKs,64
+cloudreactor_aws_setup_wizard/__main__.py,sha256=AzLHFeezT-rI0BrO5_RsBkZzNZkeZWlaCweh2Mqe_sE,3248
+cloudreactor_aws_setup_wizard/cloudreactor_api_client.py,sha256=hlg_2LM7xGfM7ZO5Yf5YaQkqZF6zze7LGHB2ftVe6Ik,4831
+cloudreactor_aws_setup_wizard/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cloudreactor_aws_setup_wizard/templates/vpc.yml.j2,sha256=TZsiF4A5vO2Xnyq0Yh8Sygjx9t4HMceVi6LGrzcPBmU,15822
+cloudreactor_aws_setup_wizard/wizard.py,sha256=7go7kdUpALjrz-STqtK7tGR82uf3EIsC5CGUnaXEeaE,90595
+cloudreactor_aws_setup_wizard-1.0.0.dist-info/LICENSE,sha256=tJvOPlCFF5hHSfdjT-Hqu3iqPuNPxwnDY0y-kVuk2EE,1322
+cloudreactor_aws_setup_wizard-1.0.0.dist-info/METADATA,sha256=E-grEEK-_vyWFdLFbH1vsKB2SFYs-j9TXjgwMPQy3SY,5436
+cloudreactor_aws_setup_wizard-1.0.0.dist-info/WHEEL,sha256=WGfLGfLX43Ei_YORXSnT54hxFygu34kMpcQdmgmEwCQ,88
+cloudreactor_aws_setup_wizard-1.0.0.dist-info/entry_points.txt,sha256=VOhd3ZV9a5gCEDY8QqdzMTTn7Xu_Av-LuIZ2zYELf5U,89
+cloudreactor_aws_setup_wizard-1.0.0.dist-info/RECORD,,

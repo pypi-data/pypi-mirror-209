@@ -1,0 +1,4 @@
+[console_scripts]
+types-PyYAML=6.0.12.9
+wizard=cloudreactor_aws_setup_wizard.wizard:run
+
