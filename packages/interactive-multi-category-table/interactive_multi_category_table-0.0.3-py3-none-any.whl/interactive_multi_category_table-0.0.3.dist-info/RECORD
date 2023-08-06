@@ -1,0 +1,9 @@
+interactive_multi_category_table/__init__.py,sha256=zOZix-_9kNEeGcNjdqOaLyHFjQFptT6inGvpgmCh3-o,68
+interactive_multi_category_table/template.html,sha256=cKnXFemuE6NyF2yHl_qP0auF00Nt6JlePZrPy1amK90,13455
+interactive_multi_category_table/to_dash.py,sha256=5aZU-LsLqi9jkpe4g4DxR46z_qRV-ZItda1AwUVSctM,9077
+interactive_multi_category_table/to_html.py,sha256=UU9JTxlhBWl5xuFkuqRZ9WpKkWNIJovMw_iLculXYeE,766
+interactive_multi_category_table/utils.py,sha256=JesmTqdprtskyFhIfbwvlhhoJrZqkeiFhsENNpguL8U,1577
+interactive_multi_category_table-0.0.3.dist-info/METADATA,sha256=_sjEd_OsdUr4iBFYXnLWzUIWtS8dKc_slE5VRd-Q4kY,1986
+interactive_multi_category_table-0.0.3.dist-info/WHEEL,sha256=bbVuDMgAMZh0WChwltG4a3FAf-EgFGU9LSpj-pP-9GE,87
+interactive_multi_category_table-0.0.3.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+interactive_multi_category_table-0.0.3.dist-info/RECORD,,
