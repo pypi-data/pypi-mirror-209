@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+stego-mp4-link/__init__.py
+stego-mp4-link/stego.py
+stego_mp4_link.egg-info/PKG-INFO
+stego_mp4_link.egg-info/SOURCES.txt
+stego_mp4_link.egg-info/dependency_links.txt
+stego_mp4_link.egg-info/top_level.txt

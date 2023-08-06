@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: stego-mp4-link
+Version: 1.0.0
+Home-page: https://github.com/kib-sources/stego-mp4-link
+Download-URL: https://github.com/kib-sources/stego-mp4-link/archive/refs/heads/master.zip
+Author: Kirill Osin
+Author-email: kiryusha.osin@yandex.ru
+Requires: pycryptodomex
+Requires: pythondotenv
+Requires: requests
+Requires: selenium
+Requires: webdrivermanager
+Requires: repackage
