@@ -1,0 +1,12 @@
+README.md
+setup.py
+tldrwl/__init__.py
+tldrwl/ai_interface.py
+tldrwl/exception.py
+tldrwl/register.py
+tldrwl/summarize_text.py
+tldrwl.egg-info/PKG-INFO
+tldrwl.egg-info/SOURCES.txt
+tldrwl.egg-info/dependency_links.txt
+tldrwl.egg-info/requires.txt
+tldrwl.egg-info/top_level.txt
