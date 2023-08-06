@@ -1,0 +1,7 @@
+numpy
+scipy
+pandas
+math
+copy
+dirichlet
+sklearn
