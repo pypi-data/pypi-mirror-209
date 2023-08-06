@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: creative-namer
+Version: 1.1.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: openai-chat-thread
+
+# Creative Namer
+Creative Namer 是一個自動生成 GitHub 英文專案名稱的工具。輸入專案描述後，它會使用 GPT-4 模型創造出 N 個最貼切的英文專案名稱。生成的名稱將利用 JSON 格式儲存。
+
+## 安裝
+使用以下指令安裝 Creative Namer：
+```bash
+python3 -m pip install creative-namer
+```
+
+## creative_namer 使用方法
+### 命令列使用
+你可以使用命令列執行 Creative Namer，只需輸入以下指令：
+```bash
+python3 -m creative_namer "你的專案描述"
+```
+範例：
+```bash
+python3 -m creative_namer "一個簡單介面的 Python 專案目錄管理工具"
+```
+輸入專案描述後，Creative Namer 將生成適合的專案名稱。
+
+### 引入模組使用
+也可以在 Python 腳本中引入 Creative Namer 模組，請參考以下範例：
+```python
+from creative_namer import creative_namer
+project_description = "一個簡單介面的 Python 專案目錄管理工具"
+creative_namer(project_description)
+```
+在提供專案描述後，`creative_namer` 函數將生成合適的專案名稱。
+
+### 生成的專案名稱
+檢視生成的專案名稱 JSON，位於 `./data/users/<user_email>/creative_namer/`目錄下。
+
+### 命令行選項
+- `--n`: 生成英文專案名稱的數量（預設值：10）
+- `--user`: 使用者的電子郵件地址（預設值：cbh@cameo.tw）
+
+### 示例
+```
+$ python creative_namer.py "即時通訊應用程式" --n 5
+
+請用 json 格式創造出 n=5 個 github 最貼切「專案描述」的英文專案名稱...
+json內容的英文名字是要用小寫與底線隔開的英文...
+json格式是字典，project_name_en_1 project_name_en_2 ...
+
+專案描述：即時通訊應用程式
+
+--start_json--
+{
+  "user": "cbh@cameo.tw",
+  "type": "creative_namer",
+  "time": "2023-02-28T07:47:24Z",
+  "id": "c2c063e2-3e2d-4e3f-87ee-dd7503386c74",
+  "file_path": "data/users/cbh_cameo_tw/creative_namer/type_creative_namer_time_2023-02-28T07_47_24Z_id_c2c063e2-3e2d-4e3f-87ee-dd7503386c74.json",
+  "project_description": "即時通訊應用程式",
+  "project_name_en_1": "instant_messaging_app",
+  "project_name_en_2": "real_time_communicator",
+  "project_name_en_3": "quick_chat_solution",
+  "project_name_en_4": "fast_message_exchange",
+  "project_name_en_5": "speedy_conversation_tool"
+}
+--end_json--
+```
+
+
