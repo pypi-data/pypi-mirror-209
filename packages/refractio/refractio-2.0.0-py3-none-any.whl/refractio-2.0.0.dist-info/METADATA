@@ -1,0 +1,117 @@
+Metadata-Version: 2.1
+Name: refractio
+Version: 2.0.0
+Summary: REFRACT-IO: To read and write dataframe from different connectors.
+Home-page: UNKNOWN
+Author: Abhishek Chaurasia
+Author-email: <abhishek1.chaurasia@fosfor.com>
+License: UNKNOWN
+Project-URL: Product, https://www.fosfor.com/refract/
+Project-URL: Source, https://git.lti-aiq.in/refract-sdk/refract-sdk
+Keywords: refractio
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Requires-Dist: pandas (==2.0.0)
+Provides-Extra: all
+Requires-Dist: snowflake-connector-python[pandas] (==3.0.2) ; extra == 'all'
+Requires-Dist: boto3 (==1.26.116) ; extra == 'all'
+Requires-Dist: azure (==4.0.0) ; extra == 'all'
+Requires-Dist: openpyxl (==3.1.2) ; extra == 'all'
+Requires-Dist: xlrd (==2.0.1) ; extra == 'all'
+Requires-Dist: pysftp (==0.2.9) ; extra == 'all'
+Requires-Dist: pymysql (==1.0.3) ; extra == 'all'
+Requires-Dist: impyla (==0.16.2) ; extra == 'all'
+Requires-Dist: thrift-sasl (==0.4.3) ; extra == 'all'
+Requires-Dist: pure-sasl (==0.6.2) ; extra == 'all'
+Requires-Dist: PyHive (==0.6.3.dev0) ; extra == 'all'
+Provides-Extra: azureblob
+Requires-Dist: azure (==4.0.0) ; extra == 'azureblob'
+Provides-Extra: hive
+Requires-Dist: impyla (==0.16.2) ; extra == 'hive'
+Requires-Dist: thrift-sasl (==0.4.3) ; extra == 'hive'
+Requires-Dist: pure-sasl (==0.6.2) ; extra == 'hive'
+Requires-Dist: PyHive (==0.6.3.dev0) ; extra == 'hive'
+Provides-Extra: local
+Requires-Dist: openpyxl (==3.1.2) ; extra == 'local'
+Requires-Dist: xlrd (==2.0.1) ; extra == 'local'
+Provides-Extra: mysql
+Requires-Dist: pymysql (==1.0.3) ; extra == 'mysql'
+Provides-Extra: s3
+Requires-Dist: boto3 (==1.26.116) ; extra == 's3'
+Provides-Extra: sftp
+Requires-Dist: pysftp (==0.2.9) ; extra == 'sftp'
+Provides-Extra: snowflake
+Requires-Dist: snowflake-connector-python[pandas] (==3.0.2) ; extra == 'snowflake'
+
+# Installation:
+## without any dependencies:
+```commandline
+pip install refractio
+```
+## With all dependencies:
+```commandline
+pip install refractio[all]
+```
+## With snowflake:
+```commandline
+pip install refractio[snowflake]
+```
+## With s3:
+```commandline
+pip install refractio[s3]
+```
+## With azureblob:
+```commandline
+pip install refractio[azureblob]
+```
+## With local:
+```commandline
+pip install refractio[local]
+```
+## With sftp:
+```commandline
+pip install refractio[sftp]
+```
+## With mysql:
+```commandline
+pip install refractio[mysql]
+```
+## With hive:
+```commandline
+pip install refractio[hive]
+```
+
+#### Source code is available at: https://git.lti-aiq.in/refract-sdk/refract-sdk.git 
+
+# Usage:
+## To read dataframe with dataset name only -
+```python
+from refractio import get_dataframe
+get_dataframe("dataset_name")
+```
+## To read dataframe with filename from local storage -
+```python
+from refracio import get_local_dataframe
+get_local_dataframe("local_file_name_with_absolute_path")
+```
+## To use snowflake related operations -
+```python
+from refractio import snowflake
+
+# To read a specific dataset published from snowflake connection
+snowflake.get_dataframe("dataset_name", row_count=3)
+
+# To get snowflake connection object with a specific connection name
+snowflake.get_connection(connection_name="snowflake_con_name")
+
+# To get snowflake connection object with default snowflake connection created by the user
+snowflake.get_connection()
+
+# To execute a user specific query in snowflake
+snowflake.execute_query(query="user_query", database="db_name", schema="schema", connection_name="connection_name")
+```
+
+*Note: Usage documentation will be updated in upcoming releases.*
+
+
