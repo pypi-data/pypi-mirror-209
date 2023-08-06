@@ -1,0 +1,14 @@
+textual_fspicker/__init__.py,sha256=v-NSeafCm8nwBSEhISMKIaDGUGFzZKX4xbTgh-bLfyA,813
+textual_fspicker/__main__.py,sha256=bau4JSyxfoDhih82NeM_Pg5KCwv4YXXYDnfEgSccvZc,2868
+textual_fspicker/base_dialog.py,sha256=WJGgIq--rMbsNGzNKw1hjhKQPmuRlatXvfyonn_R7DY,4225
+textual_fspicker/file_open.py,sha256=GAONfM-T4ytchjA7PH2B-HeZmejmW4-78g5QGHAAdcU,5557
+textual_fspicker/path_filters.py,sha256=XpPrynKVI_p8Tf6tUuhEmU5lxAaf3TQlsjKsRwXC5nk,1822
+textual_fspicker/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+textual_fspicker/safe_tests.py,sha256=U3gpqVRr7qcv7mqF-I_sFojtr9Pv5JyqFzAxGG7qofA,2174
+textual_fspicker/select_directory.py,sha256=vE1MYCL-_QqTyPiveJrxl90oEwjQB14lfSsHteUEBNM,2457
+textual_fspicker/parts/__init__.py,sha256=vjP1jzd5ty4IhwUZnVFkOjzctZn22EbwWDHh_16x-GM,389
+textual_fspicker/parts/directory_navigation.py,sha256=6jg6mBcBbVsH7DcimhsF2XKpwXqWBaVb4f2xx5G9mm0,15053
+textual_fspicker-0.0.4.dist-info/METADATA,sha256=6yJTI9rOEbi8znJMnJ_S7hqGGHgBeJiggCdI7bmimN0,4168
+textual_fspicker-0.0.4.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+textual_fspicker-0.0.4.dist-info/top_level.txt,sha256=htFx3DXug_utI8h7tIJmd3FSxg6-fjXfcf4_Rd6ohLQ,17
+textual_fspicker-0.0.4.dist-info/RECORD,,
