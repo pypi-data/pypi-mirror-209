@@ -1,0 +1,6 @@
+setup.py
+ducktables.egg-info/PKG-INFO
+ducktables.egg-info/SOURCES.txt
+ducktables.egg-info/dependency_links.txt
+ducktables.egg-info/requires.txt
+ducktables.egg-info/top_level.txt
