@@ -1,0 +1,9 @@
+guacli/__init__.py,sha256=DUIo_hH3NJOHJWS6Ns0HMu32H6d18OVs42iwhBouVj0,23
+guacli/cli.py,sha256=QSnIaveMoOtd_z8GKAxuYYOLVWbGzz6l_hEcRfBn7Ko,13902
+guacli/guacamoleClient.py,sha256=-irAVnsrhSd60RGI-_fR5KLBTyWd6NzgTKxMBh7f4OQ,12635
+guacli-1.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+guacli-1.1.0.dist-info/METADATA,sha256=pDo-FHVkEP3l1SzVPKaoHnpyeOyW76uR4Giy1-Vz9BI,1886
+guacli-1.1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+guacli-1.1.0.dist-info/entry_points.txt,sha256=zqWQBcmfdyPHzdO7z69AHj3HlgJmpKP_sBKHn5ArvU8,43
+guacli-1.1.0.dist-info/top_level.txt,sha256=PFBvuMWsDglb-di_QqEWb3yZZkPXxo91Y7O26nKGzE4,7
+guacli-1.1.0.dist-info/RECORD,,
