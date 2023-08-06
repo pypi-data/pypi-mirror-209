@@ -1,0 +1,12 @@
+php2py/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+php2py/etc/composer.json,sha256=6-hebRwA6BpL6SjgdB4yubFHTZ2BrhDOeBJP0Dsj-Xc,216
+php2py/etc/composer.lock,sha256=uRbum2xDk5-W4hYzADTaJ4EgFoUNjbavUUWa_M-NShg,2448
+php2py/main.py,sha256=KuWQGlE9vYjO1Fkn0OND3jBv9zfd6yKy3Df2GPodk88,1064
+php2py/parser.py,sha256=SIRvgTy5PDDjofBZV2-VwnmR_U2q0VRVrsL9jVnk5-M,1990
+php2py/php_ast.py,sha256=wlPLTpQdorUjF5WiLzOh2v7iAnNYQm2SaUxNgl_3zvI,14892
+php2py/translator.py,sha256=vJG4LRw36v7DrHV8csEWONY9jCYqAlrvN7tJMuzSXnc,34971
+php2py-0.1.1.dist-info/LICENSE,sha256=CGxjm70UbkDsXIYorPutWE61fp0yZL4gGLl0hfLNiy0,1559
+php2py-0.1.1.dist-info/METADATA,sha256=MfBY3Ue4GgSRjE5V-irktRYfglPDXHiiQTF_CqudkiA,2759
+php2py-0.1.1.dist-info/WHEEL,sha256=WGfLGfLX43Ei_YORXSnT54hxFygu34kMpcQdmgmEwCQ,88
+php2py-0.1.1.dist-info/entry_points.txt,sha256=j2LztXvMeydfVhXMrbhEKSXpNWwMR2zMiF73E7ovr8A,43
+php2py-0.1.1.dist-info/RECORD,,
