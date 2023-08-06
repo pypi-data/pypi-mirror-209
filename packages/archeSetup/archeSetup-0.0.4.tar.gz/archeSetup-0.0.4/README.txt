@@ -1,0 +1,1 @@
+This is the  initialisation of the application and it will be use as check
