@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: requests-html2
+Version: 1.0.0
+Summary: HTML Parsing for Humans
+Author-Email: Bevis <alonefire@foxmail.com>
+License: MIT
+Requires-Python: >=3.7
+Requires-Dist: requests>=2.27.1
+Requires-Dist: pyquery>=1.4.3
+Requires-Dist: fake-useragent>=1.1.3
+Requires-Dist: w3lib>=2.0.1
+Requires-Dist: parse>=1.19.0
+Requires-Dist: beautifulsoup4>=4.12.2
+Requires-Dist: pyppeteer>=1.0.2
+Description-Content-Type: text/markdown
+
+# requests_html2
+> HTML Parsing for Humans
+> 项目衍生自[requests-html](https://github.com/kennethreitz/requests-html)
+> 用法请参考`example`以及requests-html文档
+
+## Quick Start
+
+```python
+from requests_html2 import HTMLSession
+session = HTMLSession()
+r = session.get('https://python.org/')
+```
