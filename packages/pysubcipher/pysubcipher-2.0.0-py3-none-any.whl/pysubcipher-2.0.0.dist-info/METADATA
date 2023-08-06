@@ -1,0 +1,99 @@
+Metadata-Version: 2.1
+Name: pysubcipher
+Version: 2.0.0
+Summary: PySubCipher allows you to encode and decode strings of text using a substitution cipher algorithm.
+Author: mxngo
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+![PyPiVersion]
+![SupportedVersions]
+![License]
+
+[PyPiVersion]: https://img.shields.io/pypi/v/pysubcipher
+[SupportedVersions]: https://img.shields.io/badge/python-3.9%20%7C%203.10%20%7C%203.11-blue
+[License]: https://img.shields.io/badge/license-MIT-yellow
+
+# PySubCipher
+Allows you to encode and decode strings of text using a simple substitution cipher algorithm.
+
+# Installation
+Tested on Python 3.9 and above.<br>
+No other third party modules are required other than the standard library.
+```py
+pip install pysubcipher
+```
+
+# Example Usage
+### Encrypting a string of text
+```py
+from pysubcipher import SubstitutionCipher
+
+subcipher = SubstitutionCipher()
+
+my_password = "password123"
+encrypted_password = subcipher.encrypt(my_password)
+
+print(encrypted_password)
+```
+
+### Output
+```py
+b'DEcC2B1c9D3d2aaA82eff9125Aec25ba7D548B3D49886E0Da8E6B75dE820fE9DfF4b7D5ebC1bEbf0c37901dcafdb0e5982B9cf62fCE675aF5deF20FB0f6C4d6FeF43c44AdEaFfd13808Cd3EbaC34Eac85f078C9FC1FD1F1BF2D92d58a9D19AA71b5f44db808cEEbE8D32b548Ff72461fEc5847F5A1F5b4bfb6D61F5f9ff06a9eBcBe7AdBFAF457e4E2afCbDebE59Ad6E9Fba7Dca314eD95E7E07BD08165071A9Fb64f10B683A6d12d426Efe3Cf1AcEEE5cbEFd104a9204f0a9bf5eeAdBFAF457e4E2afCbDebE59Ad6E9Fba7Dca314eD95E7E07BD08165071A9Fb64f10B683A6d12d426Efe3Cf1AcEEE5cbEFd104a9204f0a9bf5ee5E2ff9Bc590ACcdCfE17C20e77bEadad8157a6f9715d8fE035c8EAfac28ae9a0BBfBf0BAE482EBef986dff2bdeCACC32370E27484aaCE8FFfAd1e5df3d2Cf171EAa0DA9dcDA62b107085bc7228c19Edb455d5fB22F3f7AFEEE05cC86c796e4327aF4DDbADcdCCA5ae326B7BeCA4A8a53ebed41320bfBa90bb3a26d7c190D13B5CfaCF56F1DcaDCdA9Ee2a9705A396aefEe8c65583d6a88a1aA7292ED129bdF2e35ABB4C7aeD7A59BBf44dDF152472E63BA5b0fCeC6aB2486500678aDbAd6EDA8071B2E93c3cbffDC3201AFbbECD8EA6D7ECE0A4aA4cC9ED9CCdbd70F3D5750fc4A87E2aCdbdf2EBfB5CC3Bc916e0cABe5dEfdBF764C3d31eE2AfBBdCD25a26F4CF0A45FABc38f439bb42bf8F0ADF0DCE1D81AfA9fccEfC91deBBafa4cfB9cD9a82df2EF2BA95700D9FDD0cC5EaB7D0dFa1540c96cBc3b17f19Ac5eD64dEA9D0e0dFE2eeaF514396a7dacb8D13E1Be420f5Bd1dC99bbecCf0aeBBefEA1df0CEfa5F882A3A3DA08dDDf131c5c159AfFDa0Be9Daf1188ce3BfaF78bbeDd2acBC0aCA98bA48Bc9B37CD639B4fEd93A4E4EE1F1c4d11DD10267d3f1d9fddcFCAaA'
+```
+
+### Decrypting an encrypted string of text
+```py
+subcipher.decrypt(encrypted_password)
+```
+
+### Output
+```py
+b'password123'
+```
+
+# Using different security levels
+```py
+- SecurityLevel.extremely_low()
+- SecurityLevel.very_low()
+- SecurityLevel.low()
+- SecurityLevel.medium() # (Default)
+- SecurityLevel.high()
+- SecurityLevel.very_high()
+- SecurityLevel.extremely_high()
+```
+### Low security level example
+```py
+from pysubcipher import SubstitutionCipher, SecurityLevel
+
+subcipher = SubstitutionCipher(SecurityLevel.low())
+
+my_text = input("Enter text: ")
+encrypted_text = subcipher.encrypt(my_text)
+
+print(encrypted_text)
+```
+### Output
+```py
+Enter text: Hello
+b'6d7f15bcED0d4E5dE69923bd1d8e7c6CEabA4c26eFCD1Ded69d311ac5ACDFc91b44EcC0CEaDFCefb8Ac129a9ea3A7Cd3Ef4ADba5E28f47478Faafe7714AfDC51ed3a13c35f9eF6e9f8fBe129a9ea3A7Cd3Ef4ADba5E28f47478Faafe7714AfDC51ed3a13c35f9eF6e9f8fBe9699EA0812a7FF94da43b8b69Af25Ff'
+```
+### High security level example
+```py
+from pysubcipher import SubstitutionCipher, SecurityLevel
+
+subcipher = SubstitutionCipher(SecurityLevel.high())
+
+my_text = input("Enter text: ")
+encrypted_text = subcipher.encrypt(my_text)
+
+print(encrypted_text)
+```
+### Output
+```py
+Enter text: Hello
+b'f3Daa10aFCC18b518b9Ab01feBBae266fbF0c6567fA54b33FA404858C0b683Ddf53c139EcBf8eae6709D24AB27a2Fee5aD35899e26a94a8BCFFE3EA5fDFDD71d1bDcE5FE353f82F86466AbCD902b0B3EEE951daccE7cb9Eab2473453aF7FeAaaE4f7BE59dC10ddaCfAf7C6bb1AabDa351dc008f5596C1Fd1d0C15eA812695ceC7D863D5F8E1feFfa2025C3FA8C4a239168dbbbF1E434d3bEc1A6a85684A6e4Cb0Ee1FA317F6D6917b6a62eEcfC21B90FFDcBDa2eC0be1AfE336bDdc3FFC6DFb356D95A671de6f4FB6a7BB7C7A537E3b1bAE1FdBBb1eED7F3dD91C97599A4a1D7ff3d1Cc2ff5c1506eb65FbCa94CC89a2dbB9787B34C27Ed39f9B755d45dbFF779fE406b3F3CaBe0f96D4Ab032AA7Ae267686E53daEabB7A65e12Ecb683E880eCd8Fd7aD93ae0973cC4F39cb6267CdAD7cd99Cc5AAC1AEACb0fbB70622151bCACceC7662f6f6ee0de2FBc1b68e2e91B1e1c5994Aa0957CD00a9D88dEBcFFe60BF0bE06cFa0E6DeBcb5D2cF70Fd38A93f8c8aa6aEcbebB622b7a22ee12d131c54D133fAA468c18eDC7e2D6A1c6DD24eC1C9fC23aB426cEbDdb770F8c2d5Fd4cfa2ABa360bE68CB91bEEfE28D2d9daeA26E332eECCcb84439c75CEB49fAbAD8299f7BFCfccCEA091BB669c4B8Bf55Be515ABFff320acE70E5abB0cb4ABcF586AfeF0164A6BFEB5a93B61e1c5994Aa0957CD00a9D88dEBcFFe60BF0bE06cFa0E6DeBcb5D2cF70Fd38A93f8c8aa6aEcbebB622b7a22ee12d131c54D133fAA468c18eDC7e2D6A1c6DD24eC1C9fC23aB426cEbDdb770F8c2d5Fd4cfa2ABa360bE68CB91bEEfE28D2d9daeA26E332eECCcb84439c75CEB49fAbAD8299f7BFCfccCEA091BB669c4B8Bf55Be515ABFff320acE70E5abB0cb4ABcF586AfeF0164A6BFEB5a93B676cbEF2e5C6964385Ad5F9Bf07a4B3505C8dca6685D4eB646fc95cBEeCb2fca69377aEc6ea5dF3C7c90BE8738e2DfeFe34f3b9BCFccA130E7b3afB66afCC55E5484B432d274b0F696dd9f2868D30C70E0DbCc7a71be753d268d6BAE48Ed83EadB16ceCE12edDDBCBdCd7ff7Fb27AD7cda3FbFE49eFE0366D291e5dc1b0EbA4F78EEA27bFaec9dF2F167DD6Dbe387469b8aa61Ed30cc85aD84b44E7f2eB28538ADF4AAEbA0Fcd2997Fccae4CFc5aB57fF44e8e32c9fE17A0d89CbBaDE2Ad4E742DC'
