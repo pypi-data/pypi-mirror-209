@@ -1,0 +1,11 @@
+supr_convertor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+supr_convertor/config.py,sha256=09aXpHQ-q25Hyn57yjrD5YnDXw4HRJnVJDMUe16cwMA,4780
+supr_convertor/convertor.py,sha256=7bc7i2anAKlZDJ-Ysf6ORVLQDj_8HcmaVgfUVvYoO78,16139
+supr_convertor/data.py,sha256=0rXRjARL4Vf2oOA9mlThESqcnqu6kjTLXWuaT5-aSUQ,1214
+supr_convertor/losses.py,sha256=IBQqMgARjIdLPpGv55gDQJd-xr7qXNN8WJnQdZGl134,4419
+supr_convertor/utils.py,sha256=171bnepyJ1bMUpjELRbxUVjAJysnweuYnkC0VqVNifQ,1371
+supr_convertor-0.0.1.dist-info/LICENSE,sha256=Gb6XxT5o869k_3VRiWNAZWz1Avg4XsWwoPH2LSVLJ00,6042
+supr_convertor-0.0.1.dist-info/METADATA,sha256=gSUip_86tzgxZE9rz_7d-QIKg3BhBFbuPD2w5CRw-YU,5129
+supr_convertor-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+supr_convertor-0.0.1.dist-info/top_level.txt,sha256=wGEY0vtF6Lc5Jrcjlq-3Tw802xDrNQ8mzHB37ujugkg,15
+supr_convertor-0.0.1.dist-info/RECORD,,
