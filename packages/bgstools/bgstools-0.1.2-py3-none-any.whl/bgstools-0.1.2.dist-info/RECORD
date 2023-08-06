@@ -1,0 +1,15 @@
+bgstools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bgstools/bgstools.py,sha256=DmfgZ0eQPr55EVUJuIlPDu73QTqenFQI2DwP5O2Puf0,339
+bgstools/datastorage/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bgstools/datastorage/datastorage.py,sha256=hhjPwwOiIwLlioHSj-NiTdSa_6fESBWsx0P6ydMkeBg,4950
+bgstools/io/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bgstools/io/io.py,sha256=EYtLNatrSj3sNyStomfsJL2JxY9ew49Kf7ge-8XE_p8,2112
+bgstools/spatial/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bgstools/spatial/spatial.py,sha256=X_l45hh8y1LjpfuWnST4lV8X1tPl7zH-i8SMM7oJPr0,2654
+bgstools/stt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bgstools/stt/stt.py,sha256=-sG3Z_27QJTg3DB9WncfS8fxm_0GtAtmeWuv4H9uo3I,2180
+bgstools/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bgstools/utils/utils.py,sha256=huXm10-Rx4IwbZ3d08diIj1kbV_jtfeGemA5bGlYwBo,972
+bgstools-0.1.2.dist-info/METADATA,sha256=LB79IDpID-dKFqog_cDXCd9XV0sNWbm8xAFlZB-LYY4,600
+bgstools-0.1.2.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+bgstools-0.1.2.dist-info/RECORD,,
