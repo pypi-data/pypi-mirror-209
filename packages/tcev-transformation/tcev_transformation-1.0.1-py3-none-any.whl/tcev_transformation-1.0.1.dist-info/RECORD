@@ -1,0 +1,7 @@
+tcev_transformation/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tcev_transformation/convolution.py,sha256=WXfh8CjexAZlO7811rDBdmS4pi_NmSQk82VBc2k5cms,2784
+tcev_transformation/transpose.py,sha256=WCJK3i5d8wNbhYgAC_uKtRdvzwzDZ-6E7Gm6oSox6OE,848
+tcev_transformation/ts_window.py,sha256=IUcEWCL5NjkH7SmaFxBJpzBRP3uyDN5lIHZ7gknmfzM,2282
+tcev_transformation-1.0.1.dist-info/METADATA,sha256=I0LjZdTAL9fFr9V9NUCIu788VGPwEW7ZS7x0aC86spE,3594
+tcev_transformation-1.0.1.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+tcev_transformation-1.0.1.dist-info/RECORD,,
