@@ -1,0 +1,93 @@
+Metadata-Version: 2.1
+Name: sktime
+Version: 0.19.0
+Summary: A unified framework for machine learning with time series
+Author-email: sktime developers <sktime.toolbox@gmail.com>
+Maintainer: Franz Király, Jonathan Bechtel, Kiril Ralinovski, Marc Rovira, Sagar Mishra
+Maintainer-email: sktime developers <sktime.toolbox@gmail.com>
+License: BSD 3-Clause License
+        
+        Copyright (c) 2019 - 2020 The sktime developers.
+        
+        All rights reserved.
+        
+        Redistribution and use in source and binary forms, with or without
+        modification, are permitted provided that the following conditions are met:
+        
+        * Redistributions of source code must retain the above copyright notice, this
+          list of conditions and the following disclaimer.
+        
+        * Redistributions in binary form must reproduce the above copyright notice,
+          this list of conditions and the following disclaimer in the documentation
+          and/or other materials provided with the distribution.
+        
+        * Neither the name of the copyright holder nor the names of its
+          contributors may be used to endorse or promote products derived from
+          this software without specific prior written permission.
+        
+        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+        AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+        IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+        DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+        FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+        DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+        SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+        CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+        OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+        OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+        
+Project-URL: Homepage, https://www.sktime.net
+Project-URL: Repository, https://github.com/sktime/sktime
+Project-URL: Documentation, https://www.sktime.net
+Project-URL: Download, https://pypi.org/project/sktime/#files
+Project-URL: API Reference, https://www.sktime.net/en/stable/api_reference.html
+Project-URL: Release Notes, https://www.sktime.net/en/stable/changelog.html
+Keywords: data-science,machine-learning,data-mining,time-series,scikit-learn,forecasting,time-series-analysis,time-series-classification,time-series-regression
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development
+Classifier: Topic :: Scientific/Engineering
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: <3.12,>=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: all_extras
+Provides-Extra: cython_extras
+Provides-Extra: dev
+Provides-Extra: mlflow
+Provides-Extra: mlflow_tests
+Provides-Extra: binder
+Provides-Extra: docs
+Provides-Extra: dl
+License-File: LICENSE
+
+# ⚠️ sktime deprecation ⚠️
+
+The [sktime PyPI package](https://pypi.org/project/sktime/) is deprecated.
+The sktime project split into two projects.
+
+To find out how to install the new packages, please go to:
+
+* <https://github.com/aeon-toolkit/aeon>
+* <https://github.com/sktime/sktime>
+
+Here is what you can do when installing sktime via pip (e.g. using `pip install ...` or a requirement file like `requirements.txt`, `setup.py`, `setup.cfg`):
+
+* continue using the package without receiving any updates (ignoring the deprecation warning or avoiding it by pinning the version: `sktime==0.18.0`),
+* replace sktime with one of the new projects,
+* if the sktime package is used by one of your dependencies, it would be great if you take some time to track which package uses sktime and report to their issue tracker that sktime is deprecated.
+
+More information is available at:
+<https://github.com/mloning/sktime-deprecation/discussions/2>
+
+If the previous advice does not support your use case, feel free to report it at:
+<https://github.com/mloning/sktime-deprecation/issues/new>
