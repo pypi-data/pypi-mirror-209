@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "ellm"
+version = "0.1.0"
+description = ""
+authors = ["weixx <weixx@yingmi.cn>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+jsonpath = "0.82"
+lxml = "4.9.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
