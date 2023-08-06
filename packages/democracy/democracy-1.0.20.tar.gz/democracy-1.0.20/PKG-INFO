@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: democracy
+Version: 1.0.20
+Summary: Trying to help with democracy, see https://github.com/gregoryc/democracy
+Author-email: Gregory Cohen <gregorycohen2@gmail.com>
+Maintainer-email: Gregory Cohen <gregorycohen2@gmail.com>
+Project-URL: Homepage, https://github.com/gregoryc/democracy
+Keywords: ai,empowerment,agi,agis
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=2.0
+Description-Content-Type: text/markdown
