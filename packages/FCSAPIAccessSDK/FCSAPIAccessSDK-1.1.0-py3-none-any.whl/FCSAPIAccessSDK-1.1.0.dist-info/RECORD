@@ -1,0 +1,13 @@
+FCSAPIAccess/__init__.py,sha256=Nsmw2Qirm0JkAKyEziMv7S-cW1rKRsiRLH-Rei6JTAQ,127
+FCSAPIAccess/api_access.py,sha256=7kjmwbqHnOL_RcCc4Z_6RGdvVPlJRVAJs2vjJaCU1uE,3915
+FCSAPIAccess/exceptions.py,sha256=6IZo3QLtaAggonHrcfiz2ZnqQd41LxU_OaG4W25tDEA,102
+FCSAPIAccess/fcs_monitoring.py,sha256=TAro3E6hUz0_doJJA_Sm7YShbKP-_1QymLKpopsoWdI,6023
+FCSAPIAccess/fcs_notification.py,sha256=-fAODWkFhzBSlhFHoddDI-4wUAsgx8HIhfFQ3MrX0-c,9389
+FCSAPIAccess/fcs_project.py,sha256=5ff4KnI6MP_iNSNHu4tc5QuX4ZuvDS3bnkmGQMUpDx4,66135
+FCSAPIAccess/fcs_translation.py,sha256=feAoeghONua3K6BkbM1wRfvBUmdXps0deFPbv-w3jz8,5927
+FCSAPIAccess/scope.py,sha256=sBKhGuJoY4ILxW7ilObjcOr_r-Im3FG8kMkFtv71ax8,5071
+FCSAPIAccessSDK-1.1.0.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+FCSAPIAccessSDK-1.1.0.dist-info/METADATA,sha256=duolREgrPnzA3DNnqEW-3OlS39czeLOQBxDu5aXO0XA,1912
+FCSAPIAccessSDK-1.1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+FCSAPIAccessSDK-1.1.0.dist-info/top_level.txt,sha256=z-fCLhhbkrPrFHkbvClM3uQpOtRIqpnRvkUXDrdaHOI,13
+FCSAPIAccessSDK-1.1.0.dist-info/RECORD,,
