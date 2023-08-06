@@ -1,0 +1,10 @@
+include LICENSE.txt
+include README.md
+include CREDITS.md
+
+include PyTraffic/models/*.xml
+
+include PyTraffic/media/LicensePlate/images/*.jpg
+include PyTraffic/media/PeopleDetection/videos/*.mp4
+include PyTraffic/media/VehicleDetection/images/*.jpg
+include PyTraffic/media/VehicleDetection/videos/*.mp4
