@@ -1,0 +1,45 @@
+{
+    "categories": {
+        "Science": {
+            "Atomic": [
+                "Wave Function",
+                "DFT",
+                "Molecular"
+            ],
+            "Continuous": [
+                "ElectroMagnetic",
+                "Solid",
+                "Fluid",
+                "Heat"
+            ],
+            "Component": [
+                "Rigid-Body Dynamics"
+            ]
+        },
+        "AI Role": {
+            "Direct Problem": [
+                "AI-Based Novel Solver",
+                "AI-Based Surrogate Solver",
+                "AI-Assisted Traditional Solver"
+            ],
+            "Inverse Problem": [
+                "Inverse Operator",
+                "Topology/Shape Optimization"
+            ]
+        }
+    },
+    "tags": [
+        "Geometric Deep Learning",
+        "Differentiable Programming"
+    ],
+    "contents": [
+        {
+            "name": "PINN",
+            "categories": {
+                "Science": "",
+                "AI Role": "AI-Based Novel Solver"
+            },
+            "tags": []
+        }
+    ]
+}
