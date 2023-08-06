@@ -1,0 +1,9 @@
+rudderclient/gcp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rudderclient/gcp/auth.py,sha256=XkQynuvxUzCCWml_8oL2tgFZKeXmddGbevAS7jg34kM,847
+rudderclient/gcp/http_requests.py,sha256=krbm_yqUT7x-mj3LN22C3W7WuGDg2PoaQ74VRR-TwD8,345
+rudderclient/tools/send_account_email.py,sha256=QQ-p-Dmz3fzPN1iK0mQIxMJMX3PhcfgPI94kYSjD31o,5118
+rudderclient-1.2.1.dist-info/LICENSE,sha256=9mWIOKxuB3pR0qhO6i6tZipz3_SD_5VDb2G2yDj-lOA,1069
+rudderclient-1.2.1.dist-info/METADATA,sha256=Q481MOXSa-rEEpqX9mpmbqSHB_Uqz1dDqCfFys3EF6s,2011
+rudderclient-1.2.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+rudderclient-1.2.1.dist-info/top_level.txt,sha256=as4vrqskVz7tmBegHMES6tKHqhpMZnbiBMtrR6K0aj8,13
+rudderclient-1.2.1.dist-info/RECORD,,
