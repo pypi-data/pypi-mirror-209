@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: usdanuts
+Version: 0.0.5
+Summary: Calls USDA FoodData Central API for food nutrient data and parses responses.
+Home-page: UNKNOWN
+Author: eliwagnercode (Eli Wagner)
+Author-email: <eliwagnercode@gmail.com>
+License: UNKNOWN
+Keywords: nutrition,nutritional,nutrient,food,foods,pantry,diet,diets,dietary,eat,eats,eating
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+
+UNKNOWN
+
+
