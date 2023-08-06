@@ -1,0 +1,25 @@
+include src/utdate/src/**
+include src/utdate/gui/**
+include src/utdate/gui/main_window/assets/*.png
+include src/utdate/gui/faultSim/assets/*.png
+include src/utdate/gui/file/assets/*.png
+include src/utdate/gui/synthesis/assets/*.png
+include src/utdate/gui/test/assets/*.png
+include src/utdate/gui/scan/assets/*.png
+include src/utdate/bin/*.*
+include src/utdate/bin/**
+include src/utdate/bin/darwin/bin/**
+include src/utdate/bin/win/bin/**
+include src/utdate/bin/win/share/yosys/**
+include src/utdate/bin/win/share/yosys/include/**
+include src/utdate/bin/win/share/yosys/python3/**
+include src/utdate/bin/win/share/yosys/plugins/**
+include src/utdate/bin/win/share/yosys/anlogic/**
+include src/utdate/bin/win/share/yosys/gatemate/**
+include src/utdate/include/ghdl/**
+include src/utdate/share/**
+include src/utdate/lib/*.*
+include src/utdate/lib/fault_simulation/Makefile
+include src/utdate/lib/fault_simulation/*.*
+
+
