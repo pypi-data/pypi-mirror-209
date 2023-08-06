@@ -1,0 +1,13 @@
+README.md,sha256=F-5FnqK63VjFiDRvd-Su1ao348ogFUlL-1APAGa552w,156
+VERSION,sha256=CmyNxBSO7YQUmNLCvlRJR6Yvj1DDgbLmS8185ARhzzQ,7
+fling/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fling/middleware.py,sha256=D8IlA_5ojbf5C0jjr85TWLvGGWB8XxK__TdzcMhd1Nc,1113
+fling/start.py,sha256=eMMAGkvbd4qNeFP-jgzRe3E-fgXNJhvNrnvUgUvQy8M,5770
+fling/static/start/styles.css,sha256=HZBDEbAVjwgZZZgUjmggszkSDl65YeLO7Wuw27syyP0,889
+fling/templates/admin/index.html,sha256=7mwWmux4rRL_7vt0p4y_DZIKXLwgrSyWzqqDp_uCnjc,487
+fling/templates/start/base.html,sha256=i4ua9YqaAP1reFW9oBHadyHmx40B2m3vzp_nMfx2_kw,1730
+fling/templates/start/index.html,sha256=f7sN6ZTHnd3cS92arfhRiz3oXHxBi8NXMr1N8KMAgkg,9072
+fling/templates/start/x3d.html,sha256=FaAkX3phKZ3mbXCw_85K2vj4iXmcEbs3evQT2vU0-EI,823
+fling_start-0.1.12.dist-info/METADATA,sha256=5xStbqusYt1Fy6x-gcbboZ3RwH4zT7kJF7xQc-Rz8a8,1092
+fling_start-0.1.12.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+fling_start-0.1.12.dist-info/RECORD,,
