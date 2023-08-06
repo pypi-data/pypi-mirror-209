@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: PyRunplify
+Version: 0.1
+Summary: Simplify running and saving outputs for jupyter codes
+Home-page: https://github.com/LucasSantosFreire/PyRunplify
+Author: Lucas Santos
+Author-email: lunas-3691@hotmail.com
+License: MIT
+Description: # PyRunpifly
+        Simple python module to run and save outputs form jupyter codes, and send email notifications when the work is done.(soon with a decent read me)
+        
+Platform: UNKNOWN

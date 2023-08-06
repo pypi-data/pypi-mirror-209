@@ -1,0 +1,7 @@
+README.md
+setup.py
+PyRunplify.egg-info/PKG-INFO
+PyRunplify.egg-info/SOURCES.txt
+PyRunplify.egg-info/dependency_links.txt
+PyRunplify.egg-info/not-zip-safe
+PyRunplify.egg-info/top_level.txt
