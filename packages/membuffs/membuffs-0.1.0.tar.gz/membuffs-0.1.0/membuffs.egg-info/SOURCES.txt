@@ -1,0 +1,5 @@
+setup.py
+membuffs.egg-info/PKG-INFO
+membuffs.egg-info/SOURCES.txt
+membuffs.egg-info/dependency_links.txt
+membuffs.egg-info/top_level.txt
