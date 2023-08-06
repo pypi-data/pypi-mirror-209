@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: httpx-negotiate-sspi
+Version: 0.1.0a1
+Summary: SSPI authentication for httpx
+Home-page: https://github.com/rob-blackbourn/httpx-negotiate-sspi
+License: Apache-2.0
+Author: Rob Blackbourn
+Author-email: rob.blackbourn@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: httpx (>=0.24.1,<0.25.0)
+Requires-Dist: pypiwin32 (>=223,<224)
+Project-URL: Repository, https://github.com/rob-blackbourn/httpx-negotiate-sspi
+Description-Content-Type: text/markdown
+
+# httpx-negotiate-sspi
+
+An implementation of HTTP Negotiate authentication for httpx. This module provides single-sign-on using Kerberos or NTLM using the Windows SSPI interface.
+
+This module supports Extended Protection for Authentication (aka Channel Binding Hash), which makes it usable for services that require it, including Active Directory Federation Services.
+
+
