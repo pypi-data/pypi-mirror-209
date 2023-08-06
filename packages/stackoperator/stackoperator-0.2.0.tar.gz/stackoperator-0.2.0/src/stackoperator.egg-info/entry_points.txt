@@ -1,0 +1,10 @@
+[console_scripts]
+startcfnstack = stackoperator:start_cfnstack
+startresourcegroup = stackoperator:start_resourcegroup
+starttfstack = stackoperator:start_tfstack
+stopcfnstack = stackoperator:stop_cfnstack
+stopresourcegroup = stackoperator:stop_resourcegroup
+stoptfstack = stackoperator:stop_tfstack
+tagcfnstack = stackoperator:tag_cfnstack
+tagresourcegroup = stackoperator:tag_resourcegroup
+tagtfstack = stackoperator:tag_tfstack

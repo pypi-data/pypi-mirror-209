@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stackoperator"
+version = "0.2.0"
+authors = [
+    {name = "Henry Huo", email = "happy78@live.com"},
+]
+description = "A small utility to help do start, stop and tag actions in an IaC stack for cost optimization purpose."
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+    "boto3"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Operating System :: OS Independent"
+]
+
+[project.scripts]
+startcfnstack = "stackoperator:start_cfnstack"
+stopcfnstack = "stackoperator:stop_cfnstack"
+tagcfnstack = "stackoperator:tag_cfnstack"
+starttfstack = "stackoperator:start_tfstack"
+stoptfstack = "stackoperator:stop_tfstack"
+tagtfstack = "stackoperator:tag_tfstack"
+startresourcegroup = "stackoperator:start_resourcegroup"
+stopresourcegroup = "stackoperator:stop_resourcegroup"
+tagresourcegroup = "stackoperator:tag_resourcegroup"
