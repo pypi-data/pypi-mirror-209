@@ -1,0 +1,10 @@
+musiccli/__init__.py,sha256=IHuruEUXG5Azur-yqT_9kiBnLTp9fE4LAtJPb25lrx0,43
+musiccli/__main__.py,sha256=gh3-q4LOm6cr6bfMO8pWZl6pow_m0DJH1C7no-JU5lY,103
+musiccli/crawler.py,sha256=ePCt--wUihxMa5Q9uIWKzixCQgrbo7gxJU8OHb5fWsg,3168
+musiccli/main.py,sha256=o3cujSvV77h780zz80LUhItJmT0X01Vzna05jJM9Zh8,1725
+musiccli-1.2.0.dist-info/LICENSE.txt,sha256=QheTlm62QheR5VpJ2H6IKVnxOo6helu4Q8euKF7wAj4,1072
+musiccli-1.2.0.dist-info/METADATA,sha256=5H-gETupthHBNXNOX4d1e2FO_SukReTIBAQ7pvnPHjU,1463
+musiccli-1.2.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+musiccli-1.2.0.dist-info/entry_points.txt,sha256=8U4j_8-jrc35xJBFJ4tBE56nTVW8v7JX6fYaUnRH914,52
+musiccli-1.2.0.dist-info/top_level.txt,sha256=vlFb_inLxxLp9IW4TTuEsIwza3kdvrp4pDc6jV2WfcY,9
+musiccli-1.2.0.dist-info/RECORD,,
