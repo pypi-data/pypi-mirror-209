@@ -1,0 +1,7 @@
+README.md
+setup.py
+atpsdk/__init__.py
+atpsdk.egg-info/PKG-INFO
+atpsdk.egg-info/SOURCES.txt
+atpsdk.egg-info/dependency_links.txt
+atpsdk.egg-info/top_level.txt
