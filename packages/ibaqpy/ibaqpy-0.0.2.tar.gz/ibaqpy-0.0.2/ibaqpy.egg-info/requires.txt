@@ -1,0 +1,9 @@
+pyopenms
+scikit-learn==0.22.1
+numpy==1.21
+click
+pandas
+matplotlib
+qnorm
+seaborn==0.10
+typing_extensions
