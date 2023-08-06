@@ -1,0 +1,9 @@
+tldrwl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tldrwl/ai_interface.py,sha256=pKhwrs9e6CPO2VDwO5RsCuvWfslCoM4qc4fuqveDC-8,207
+tldrwl/exception.py,sha256=BovIDlehdkpob5-KTGRFR8f7-Z1G0Rh4rPUg6MER2QA,772
+tldrwl/register.py,sha256=eVd_rga3iNLaS7bLbNVLwPeSRv801rdt_MeEIwCWY-s,679
+tldrwl/summarize_text.py,sha256=iGLZZp_mvWoC2tuaGrVmFfa7DPuPdZ7aVlTDFblHpaA,4432
+tldrwl-0.0.3.dist-info/METADATA,sha256=xcRBhmrzuASYxiLYdqArn_H1GtpeRirilVPrmj7V2mU,1202
+tldrwl-0.0.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+tldrwl-0.0.3.dist-info/top_level.txt,sha256=h8Nbfj6EkJoR4vg0kMgNAQSbRPM_Yc3pXBK6ceg-kjo,7
+tldrwl-0.0.3.dist-info/RECORD,,
