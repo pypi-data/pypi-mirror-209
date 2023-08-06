@@ -1,0 +1,6 @@
+asyncio==3.4.3
+aiohttp==3.8.4
+cryptography==3.4.8
+Requests==2.30.0
+websocket_client==1.2.1
+websockets==8.1

@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+fyersHuMe.egg-info/PKG-INFO
+fyersHuMe.egg-info/SOURCES.txt
+fyersHuMe.egg-info/dependency_links.txt
+fyersHuMe.egg-info/requires.txt
+fyersHuMe.egg-info/top_level.txt
