@@ -1,0 +1,11 @@
+CardGameBase/Card.py,sha256=Ga5ARnAbHmDdqW7_ZRFMfLwrFnxGA242bOX-DClFTUk,3156
+CardGameBase/Deck.py,sha256=yhs3fWRv1XEaK8zmGXhMEhyAEbzLs_GPc5o4Tq-EJOU,6293
+CardGameBase/Exceptions.py,sha256=zKGiuxlG3SkKOwOWtDyAR9kN7Dz0n2uNG3n1wTSVtEg,39
+CardGameBase/Hand.py,sha256=SHFLmTFHLf2uTK_5EwaTb5Ki5smTuYnKGfin2h25r14,7899
+CardGameBase/Utility.py,sha256=qJP9bbM3JJNUqX_yqMwBU_Rx5gZM0aEnfSohlL9yRmk,972
+CardGameBase/__init__.py,sha256=odDjqenPpfN_zhj019v9ie8AeFBZaCXAxjC-P_EKAEs,119
+CardGameBase-1.0.4.dist-info/LICENSE,sha256=Q2ptU2E48gOsMzhYz_kqVovmJ5d1KzrblLyqD2_-fvY,1235
+CardGameBase-1.0.4.dist-info/METADATA,sha256=-0fuLVK9l40cbn9QVWs5p175pfTxq9svtGK0sscCFh8,1500
+CardGameBase-1.0.4.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+CardGameBase-1.0.4.dist-info/top_level.txt,sha256=dJZQemdB5s1qrBu22hx2EzAC1G1LUxg9qppQc2Lfzg0,13
+CardGameBase-1.0.4.dist-info/RECORD,,
