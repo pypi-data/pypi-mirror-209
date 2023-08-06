@@ -1,0 +1,3 @@
+[console_scripts]
+get_directory_structure = directory_structure:main
+parse_md = markdown_parser:main
