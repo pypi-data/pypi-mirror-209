@@ -1,0 +1,11 @@
+Shimarin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Shimarin/client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Shimarin/client/config.py,sha256=-sd4havFwc3UBsOghtUKv5zhCxkV_hAsaPNChtwwGrc,175
+Shimarin/client/events.py,sha256=OnKENymHJw9G0pIC19-4eaiKNmRonnhEtRp8_zWaNSU,3954
+Shimarin/client/networking.py,sha256=wQXYjBf27sUkB2R5BIi1yZw-oicgpXaNpigyXfNM2Pw,1313
+Shimarin/server/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Shimarin/server/events.py,sha256=gYb9_fpBEGYreryrwYUC2jopRas2ZayVxgLfGAL310I,2499
+Shimarin-0.0.4.dist-info/METADATA,sha256=aR8F8izcBaHV8gAKrMiFWmHyx79s0hnM1tUBiwuXPVM,566
+Shimarin-0.0.4.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+Shimarin-0.0.4.dist-info/top_level.txt,sha256=3v0U-8LN5sgtJMTb_pnB_dq18VLGho4J4Np-1JNuCRA,9
+Shimarin-0.0.4.dist-info/RECORD,,
