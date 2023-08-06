@@ -1,0 +1,13 @@
+gymnasium
+pettingzoo
+carla>=0.9.3
+GPUtil
+pygame
+opencv-python
+networkx==2.6.3
+psutil
+
+[test]
+tox
+pytest
+pytest-xdist
