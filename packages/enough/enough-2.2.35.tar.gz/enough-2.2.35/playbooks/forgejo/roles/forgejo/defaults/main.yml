@@ -1,0 +1,84 @@
+---
+#
+#######################################
+#
+# Public hostname of the Forgejo instance
+#
+#
+forgejo_host: "forgejo.{{ domain }}"
+#
+#######################################
+#
+# Mailer from
+#
+#
+forgejo_mailer_from: "noreply@enough.community"
+#
+#######################################
+#
+# SSH port of the Forgejo instance
+#
+#
+forgejo_ssh_port: "22"
+#
+#######################################
+#
+# Forgejo container image
+#
+#
+forgejo_image: "codeberg.org/forgejo/forgejo"
+#######################################
+#
+# Forgejo version
+#
+#
+forgejo_version: "1.19"
+#
+#######################################
+#
+# Admin user name
+#
+forgejo_user: root
+#
+#######################################
+#
+# Admin user password
+#
+#forgejo_password: etquofEtseudett
+#
+#######################################
+#
+# Admin user email
+#
+forgejo_email: contact@enough.community
+#
+#######################################
+#
+# Forgejo container environment variables
+#
+forgejo_env: "{{ forgejo_env_default }}"
+#
+#######################################
+#
+# Default Forgejo container environment variables
+#
+forgejo_env_default: |
+  USER_UID=1000
+  USER_GID=1000
+  LFS_START_SERVER=true
+  FORGEJO__security__INSTALL_LOCK=true
+  FORGEJO__server__DOMAIN={{ forgejo_host }}
+  FORGEJO__server__SSH_DOMAIN={{ forgejo_host }}
+  FORGEJO__server__ROOT_URL=https://{{ forgejo_host }}/
+  FORGEJO__repository__ENABLE_PUSH_CREATE_USER=true
+  FORGEJO__repository__ENABLE_PUSH_CREATE_ORG=true
+  FORGEJO__repository__DEFAULT_REPO_UNITS=repo.code,repo.releases,repo.issues,repo.pulls,repo.wiki,repo.projects,repo.packages,repo.actions
+  FORGEJO__actions__ENABLED=true
+  FORGEJO__service__DEFAULT_KEEP_EMAIL_PRIVATE=true
+  FORGEJO__service__ENABLE_NOTIFY_MAIL=true
+  FORGEJO__service__REGISTER_EMAIL_CONFIRM=true
+  FORGEJO__mailer__ENABLED=true
+  FORGEJO__mailer__FROM={{ forgejo_mailer_from }}
+  FORGEJO__mailer__MAILER_TYPE=sendmail
+  FORGEJO__mailer__SENDMAIL_PATH=/usr/sbin/sendmail
+  FORGEJO__mailer__SENDMAIL_ARGS=-S {{ inventory_hostname }}.{{ domain }}:25 --

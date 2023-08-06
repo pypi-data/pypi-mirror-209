@@ -1,0 +1,17 @@
+on: [ push ]
+jobs:
+  tox-forgejo:
+    runs-on: self-hosted
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v3
+      - run: |
+          set -x
+          echo deb http://deb.debian.org/debian bullseye-backports main | tee /etc/apt/sources.list.d/backports.list && apt-get update
+          DEBIAN_FRONTEND=noninteractive apt-get install --no-install-recommends --quiet -y -t bullseye-backports git docker.io libvirt-clients libguestfs-tools virtinst libvirt-dev pkg-config libvirt-daemon-system dnsmasq
+          # docker is unable to access libvirt networks created after it is launched
+          # the networks are created first and nothing is done
+          tests/run-tests.sh bash -c "pip install -e . && enough libvirt network && virsh net-list"
+          # docker is then restarted and is able access them
+          systemctl restart docker
+          tests/run-tests.sh tox -e forgejo -- --log-cli-level=INFO --enough-driver=libvirt playbooks/forgejo/tests

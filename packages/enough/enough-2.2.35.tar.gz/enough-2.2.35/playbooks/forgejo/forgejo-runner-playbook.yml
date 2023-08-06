@@ -1,0 +1,18 @@
+---
+- name: install forgejo runner
+  hosts: runner-host
+  become: true
+
+  environment: '{{ inventory__environment | d({})
+                   | combine(inventory__group_environment | d({}))
+                   | combine(inventory__host_environment  | d({})) }}'
+  roles:
+    - role: ansible-role-docker
+      docker_install_compose: false
+
+    - role: docker
+
+    - role: certificate
+      certificate_create: false
+
+    - role: forgejo-runner

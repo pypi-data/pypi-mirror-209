@@ -1,0 +1,12 @@
+name: something
+on: 
+  - push
+  - pull_request
+
+jobs:
+  lint:
+    name: do something
+    runs-on: ubuntu-latest
+    steps:
+      - name: something
+        run: echo SOMETHING

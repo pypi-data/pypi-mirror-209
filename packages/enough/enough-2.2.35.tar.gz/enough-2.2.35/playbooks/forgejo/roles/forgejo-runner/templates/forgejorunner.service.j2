@@ -1,0 +1,13 @@
+[Unit]
+Description=Forgejo runner
+After=syslog.target network.target
+
+[Service]
+Type=simple
+User=debian
+Group=debian
+WorkingDirectory=/srv/forgejorunner
+ExecStart=/bin/forgejo-runner daemon
+
+[Install]
+WantedBy=multi-user.target
