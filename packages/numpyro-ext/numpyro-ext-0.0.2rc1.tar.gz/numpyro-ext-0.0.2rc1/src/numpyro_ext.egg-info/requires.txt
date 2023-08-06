@@ -1,0 +1,11 @@
+numpyro>=0.10.1
+
+[docs]
+
+[ncx2]
+tensorflow-probability
+
+[test]
+pytest
+jaxopt
+typing_extensions
