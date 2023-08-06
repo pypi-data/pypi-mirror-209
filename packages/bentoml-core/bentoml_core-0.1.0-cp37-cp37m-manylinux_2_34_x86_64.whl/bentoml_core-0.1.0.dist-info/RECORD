@@ -1,0 +1,8 @@
+bentoml_core-0.1.0.dist-info/METADATA,sha256=trv61TYWYduxu5i3G2qzsOVllScEY5J_FUx9KtVaFy8,1859
+bentoml_core-0.1.0.dist-info/WHEEL,sha256=DCW8QAY3dgYtdfYYQ39n6XqVXc0-I3G4_vXj8bJLGRc,108
+bentoml_core-0.1.0.dist-info/license_files/LICENSE,sha256=7AP-7EtT3DNBQfd71jDsvzMIu-SJnjwzmBmCYThpqH8,11347
+bentoml_core/__init__.py,sha256=9M21J_n7g0P_Si63HDJDwss4L-xuzenW3RufUo_mmlI,131
+bentoml_core/__init__.pyi,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bentoml_core/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bentoml_core/bentoml_core.cpython-37m-x86_64-linux-gnu.so,sha256=TJBZZZld0XHHrU1CxGxaticVtM007AS52LnG3Etsdvc,2513432
+bentoml_core-0.1.0.dist-info/RECORD,,
