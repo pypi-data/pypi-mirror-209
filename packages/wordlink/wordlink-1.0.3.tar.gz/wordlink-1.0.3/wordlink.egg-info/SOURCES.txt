@@ -1,0 +1,11 @@
+readme.md
+setup.cfg
+setup.py
+wordlink/__init__.py
+wordlink/__main__.py
+wordlink.egg-info/PKG-INFO
+wordlink.egg-info/SOURCES.txt
+wordlink.egg-info/dependency_links.txt
+wordlink.egg-info/entry_points.txt
+wordlink.egg-info/requires.txt
+wordlink.egg-info/top_level.txt
