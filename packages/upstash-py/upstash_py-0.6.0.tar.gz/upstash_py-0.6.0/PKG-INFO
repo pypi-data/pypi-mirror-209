@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: upstash-py
+Version: 0.6.0
+Summary: 
+Author: Zgîmbău Tudor
+Author-email: tudor.zgimbau@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: aiohttp (>=3.8.4,<4.0.0)
+Requires-Dist: pytest (>=7.3.0,<8.0.0)
+Requires-Dist: pytest-asyncio (>=0.21.0,<0.22.0)
+Description-Content-Type: text/markdown
+
+# Important!
+
+This branch's role is to provide a python 3.10-compatible version to allow the use
+in platforms such as AWS Lambda.
+
+For that to be possible, some typing features like the "Self" type and the Generic 
+TypedDict were removed.
+
+Currently, this is the only branch from which the sdk is released, and it holds the
+version used by the rate-limit sdk too.
