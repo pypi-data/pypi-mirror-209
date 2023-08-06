@@ -1,0 +1,13 @@
+ada_url/_ada_wrapper.abi3.so,sha256=mqwRDtB-ZJkFKUhO0cKD8czZ1rYpSdK_e6pQiZ1dafM,503840
+ada_url/ada_c.h,sha256=ktXgY2JL2VtQtvI9xl80yr_JEM3BDAEX3tt6DLoeFbg,3515
+ada_url/__init__.py,sha256=i-uvUuL1qb6PBIY16bbLzm8LNwYYBK54L8VZoBUjntk,241
+ada_url/ada.h,sha256=s98VD55OdC_vDZkmJjIPHrozOTAnBeMVcVLm4k4zydk,232672
+ada_url/ada.o,sha256=EKEBMFTOSCHLMHbQSMLVl9BJa_2ZjoKWzIPkMP-3Kfg,477160
+ada_url/ada_build.py,sha256=FmqlnF0D9t3vIDOe3-SP_hDW6hvywoYTIpVgRruiCXg,616
+ada_url/ada_adapter.py,sha256=lEkDVAw0XFzKjg8otaRfy4GXbhQxZSt1MWb5zqsM4eE,8692
+ada_url/ada.cpp,sha256=lEfsQ8_awHl7HaTOoTIqAWWPvn71Vwk3Pda8eDLleLg,852512
+ada_url-0.1.0.dist-info/RECORD,,
+ada_url-0.1.0.dist-info/LICENSE,sha256=9D0P_RQ1VlnPOXk6EgYFdtrLIXu1d2jtwnDnMS67qEQ,1060
+ada_url-0.1.0.dist-info/WHEEL,sha256=wYXa8z1LlpBAvvz2JDcUeBk9xTNRKTzSGLBVQOtr-4M,109
+ada_url-0.1.0.dist-info/top_level.txt,sha256=dcftKGd93MEtc0hS-fmQ5OfcQNLRqGARPOhyGNwS7Co,8
+ada_url-0.1.0.dist-info/METADATA,sha256=iKejEQU3KYxGVTx6iDO4bUJab_ru63cKU3xLWGEgB94,2634
