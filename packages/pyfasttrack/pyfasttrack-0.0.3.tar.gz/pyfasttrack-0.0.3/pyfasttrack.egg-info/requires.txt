@@ -1,0 +1,6 @@
+ultralytics
+opencv-python
+scipy
+toml
+sentry-sdk
+numpy

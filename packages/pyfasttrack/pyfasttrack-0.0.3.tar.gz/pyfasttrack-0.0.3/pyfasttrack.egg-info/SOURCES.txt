@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+pyfasttrack/__init__.py
+pyfasttrack/base_detector.py
+pyfasttrack/data.py
+pyfasttrack/example.py
+pyfasttrack/example_yolo.py
+pyfasttrack/ft_detector.py
+pyfasttrack/tracker.py
+pyfasttrack/yolo_detector.py
+pyfasttrack.egg-info/PKG-INFO
+pyfasttrack.egg-info/SOURCES.txt
+pyfasttrack.egg-info/dependency_links.txt
+pyfasttrack.egg-info/not-zip-safe
+pyfasttrack.egg-info/requires.txt
+pyfasttrack.egg-info/top_level.txt
