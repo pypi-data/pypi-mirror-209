@@ -1,0 +1,8 @@
+_base_: [cfgs/infer/text2img.yaml]
+
+condition:
+  type: i2i
+  image: 'cond_img.png'
+
+infer_args:
+  strength: 0.75
