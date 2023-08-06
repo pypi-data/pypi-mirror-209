@@ -1,0 +1,16 @@
+loquax/__init__.py,sha256=ry1GkgQyJExtD9wAi-_IvwTrIJtxiwXDn4f2b4bt6BQ,44
+loquax/abstractions/__init__.py,sha256=QjzpSdYoXVLge6NB9FL9aYTS4nfe26iPB0Beoqdu4G8,191
+loquax/abstractions/constants.py,sha256=8JRb-UMX3XZ2SdgYuuzrnwogwNKL_41GAdHqARR_VG8,1637
+loquax/abstractions/linguistic_entities.py,sha256=hMOwWJQBsx8XxIkwp9yipO5zDZl0hAqAJrtLOZW9Cj0,9211
+loquax/abstractions/phonology.py,sha256=56EnI8wf6sxOQMubp6isj6FWUH-apREUwtUlBzKRrco,1080
+loquax/abstractions/syllabification.py,sha256=3_uCg6L743_U_4s7mNOG3iofEkgCERvy-YQTu-mAU1g,2526
+loquax/languages/__init__.py,sha256=hEd92dhENZxBzHskey-e8eAdFqTY1ZphG10jHePr4Ls,25
+loquax/languages/latin.py,sha256=pFWWjM5FMBwxZFd6XEF6AYJSkULKM-snyKNc2VlGgcE,925
+loquax/text_processing/__init__.py,sha256=iyqwCHhhP-kjcWRCPilGdwS98pHEyCUtQQ5y3UAK_Ts,107
+loquax/text_processing/commons.py,sha256=VnLgoUFCljq0Rl0EZ4q9_EzcMr7HBg4zKwRYsmkaYFY,1105
+loquax/text_processing/processing.py,sha256=s9Y-4EOcRW9JGzIrIuFHzvvmYW6DWj3cxG7giV60_XM,2758
+loquax-0.1.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+loquax-0.1.1.dist-info/METADATA,sha256=fAedO99saaZPEli0JJTGe0rZpTqFUbOeIYsFeF_og0k,2072
+loquax-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+loquax-0.1.1.dist-info/top_level.txt,sha256=bZq5o5JNix4IDniJIrjTd9bOj13qauCj2-3A9tayX5o,7
+loquax-0.1.1.dist-info/RECORD,,
