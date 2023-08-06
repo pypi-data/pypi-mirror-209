@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: FFHT-unofficial
+Version: 0.2
+Summary: Fast implementation of the Fast Hadamard Transform (FHT)
+Home-page: https://github.com/alexandre-pasco/FFHT-unofficial
+Author: Alexandre Pasco
+License: MIT
+Keywords: fast Fourier Hadamard transform butterfly
+Description-Content-Type: text/markdown
+
+# Fast Fast Hadamard Transform (unofficial)
