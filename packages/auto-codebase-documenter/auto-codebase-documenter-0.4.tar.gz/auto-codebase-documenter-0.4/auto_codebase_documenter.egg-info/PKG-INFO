@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: auto-codebase-documenter
+Version: 0.4
+Summary: Automatic codebase documentation tool using OpenAI GPT models
+Home-page: https://github.com/abryant710/auto-codebase-documenter
+Author: Alex Bryant
+Author-email: alexbryant710@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+This tool utilizes OpenAI GPT models to automatically assess and document a codebase by generating written assessments for each file.
+

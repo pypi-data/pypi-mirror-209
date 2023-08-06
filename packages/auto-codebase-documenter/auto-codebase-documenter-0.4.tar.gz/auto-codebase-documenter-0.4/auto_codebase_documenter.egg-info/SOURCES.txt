@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+auto_codebase_documenter/AutoCodebaseDocumenter.py
+auto_codebase_documenter/__init__.py
+auto_codebase_documenter/default_ai_prompt.py
+auto_codebase_documenter.egg-info/PKG-INFO
+auto_codebase_documenter.egg-info/SOURCES.txt
+auto_codebase_documenter.egg-info/dependency_links.txt
+auto_codebase_documenter.egg-info/entry_points.txt
+auto_codebase_documenter.egg-info/requires.txt
+auto_codebase_documenter.egg-info/top_level.txt
