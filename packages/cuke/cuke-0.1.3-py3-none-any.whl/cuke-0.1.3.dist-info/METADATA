@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: cuke
+Version: 0.1.3
+Summary: Python client for cuke.cool
+Home-page: https://cuke.cool
+Keywords: publishing,faas,serverless,webpage,python
+Author: tomgrek
+Author-email: tom.grek@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: requests (>=2.30.0,<3.0.0)
+Requires-Dist: typer[all] (>=0.7.0,<0.8.0)
+Project-URL: Documentation, https://docs.cuke.cool
+Project-URL: Repository, https://github.com/tomgrek/cuke.cool
+Description-Content-Type: text/markdown
+
+# Python client library for cuke.cool
+
+This is a Python client library for [cuke.cool](https://cuke.cool).
+
+## Documentation
+
+See the [cuke.cool documentation](https://docs.cuke.cool) for more information.
+
+## Testing
+
+The tests are run as part of the (currently, closed source) cuke.cool CI pipeline.
+
+## Release
+
+* Update version number in pyproject.toml
+* Push to main branch, CICD will publish to PyPI
