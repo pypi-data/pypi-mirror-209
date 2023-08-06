@@ -1,0 +1,9 @@
+einsum_pipe/__init__.py,sha256=mL6nllYVXAeEeP0cpPyI6HUsInLQsfTApIhBgrBWcuc,110
+einsum_pipe/bidict.py,sha256=h2OsPhBXUDbx2lYKjubeak7SqRVecGfliKkkFbGVdUs,949
+einsum_pipe/einsum_pipe.py,sha256=6lzKoSMC9lBxZtZxO-fVG0GVyDm47QO0lmdFcPUmE_M,3225
+einsum_pipe/einsum_script.py,sha256=7ktSWy4HEZ5BYSvJBfqDVM7VS0gyaBI9UgfOIOUnF-Y,9847
+einsum_pipe/ops.py,sha256=Yq6-Mt3CpGgn6FfAeyGuUP-oUNXQOBkMPghbgHTf0LI,3863
+einsum_pipe-0.2.1.dist-info/METADATA,sha256=98Q0qlKm8XAxkYm60fKVl7nHmIA_j3etWI4XkIXEFkw,5542
+einsum_pipe-0.2.1.dist-info/WHEEL,sha256=y1bSCq4r5i4nMmpXeUJMqs3ipKvkZObrIXSvJHm1qCI,87
+einsum_pipe-0.2.1.dist-info/licenses/LICENSE,sha256=VfuIw-iu5sNM8fD5oIU6ZdpHS8KRZy4bh-D9cHtkFK0,1074
+einsum_pipe-0.2.1.dist-info/RECORD,,
