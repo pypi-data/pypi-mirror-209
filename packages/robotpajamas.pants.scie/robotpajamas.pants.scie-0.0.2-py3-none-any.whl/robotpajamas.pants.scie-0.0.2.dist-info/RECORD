@@ -1,0 +1,12 @@
+experimental/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+experimental/scie/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+experimental/scie/config.py,sha256=CxZPXqNUZ7Q8kc7RpJk8_tMqPxPUlxqIx2OQpKP-G9A,2160
+experimental/scie/register.py,sha256=oy-TfCP5G0Mgoc73h6wHqhPSfI8-WofKG8eAGdgCMi4,677
+experimental/scie/rules.py,sha256=idslPTRFaUJINoeqwJOXP48f8mnqgdXNvyBV6rrL_H4,10467
+experimental/scie/subsystems.py,sha256=TVZ7r9a9YUObOlRCijYv8d5BsS8kPsmJyz_llJCi0Qc,1535
+experimental/scie/target_types.py,sha256=5sqJO0YCU_LXXcBvaeBZFQ06qC5uhUOyD6R3XgDOm3I,4247
+robotpajamas.pants.scie-0.0.2.dist-info/METADATA,sha256=mksXA0YKa-AGZjiuBkwYmPa37t7EAkfwk61zf8DIi9E,4576
+robotpajamas.pants.scie-0.0.2.dist-info/WHEEL,sha256=ZL1lC_LiPDNRgDnOl2taCMc83aPEUZgHHv2h-LDgdiM,92
+robotpajamas.pants.scie-0.0.2.dist-info/namespace_packages.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+robotpajamas.pants.scie-0.0.2.dist-info/top_level.txt,sha256=WSY2rwaGHd8blqg-pL5FRbAjnA07FjL5jwB6CnTTaG8,13
+robotpajamas.pants.scie-0.0.2.dist-info/RECORD,,
