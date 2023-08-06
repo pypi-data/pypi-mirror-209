@@ -1,0 +1,8 @@
+app/__init__.py,sha256=hAIcJQS0ey_7oZuG1a0R973X7PUt0dnM370Jm7w24Wk,38
+app/calc.py,sha256=O28yCfYWvIOTGZJczJ_AE7YU-VZSh0J1Gm0G4aq1rOc,18111
+app/main.py,sha256=qFmCA3lgBB8iIZWVgxJRHH6tDULSWDbXiquWRoWeWfc,11087
+my_ip_calulator-0.0.1.dist-info/LICENSE.md,sha256=Ab9H35xbM2t9yCgR7em9ifIYhZHx1QOG0mVnFcmpwYE,72
+my_ip_calulator-0.0.1.dist-info/METADATA,sha256=cSFQmm7iJ0qr8GTY3uV_CKXOCfCKWptYqhRsGmbcI0U,8158
+my_ip_calulator-0.0.1.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+my_ip_calulator-0.0.1.dist-info/entry_points.txt,sha256=qZnwvwHLZRN1Y_SflRIJUBdl03e0Jj7_6l3onmf6Nbc,49
+my_ip_calulator-0.0.1.dist-info/RECORD,,
