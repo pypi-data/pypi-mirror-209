@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+AdaptiveConsistency.egg-info/PKG-INFO
+AdaptiveConsistency.egg-info/SOURCES.txt
+AdaptiveConsistency.egg-info/dependency_links.txt
+AdaptiveConsistency.egg-info/top_level.txt
+adaptive_consistency/__init__.py
+adaptive_consistency/main.py
+adaptive_consistency/stopping_criterias.py
