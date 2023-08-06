@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: trogon
+Version: 0.1.0
+Summary: 
+Author: Darren Burns
+Author-email: darrenb900@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: click (>=8.0.0)
+Requires-Dist: textual[dev] (>=0.25.0)
+Description-Content-Type: text/markdown
+
+# Trogon
+
+**WIP, please wait for full release.**
+
+## Quickstart
+
+1. Import `from textual_click import tui`
+2. Add the `@tui` decorator above your click app. e.g.
+    ```python
+    @tui()
+    @click.group(...)
+    def cli():
+        ...
+    ```
+3. Your click app will have a new `tui` command available.
+
+See also the `examples` folder for two example apps.
+
