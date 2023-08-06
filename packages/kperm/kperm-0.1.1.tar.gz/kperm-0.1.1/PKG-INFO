@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: kperm
+Version: 0.1.1
+Summary: Toolkit for Analysis of Permeation Cycles in Potassium Channels
+License: GPL-3.0
+Author: Chun Kei (Tom) Lam
+Author-email: chun-kei.lam@mpinat.mpg.de
+Requires-Python: >=3.8,<3.12
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: MDAnalysis (>=2.4.3,<3.0.0)
+Requires-Dist: jupyter (>=1.0.0,<2.0.0)
+Requires-Dist: matplotlib (>=3.7.1,<4.0.0)
+Requires-Dist: networkx (>=3.1,<4.0)
+Requires-Dist: numpy (>=1.24.3,<2.0.0)
+Requires-Dist: pandas (>=2.0.1,<3.0.0)
+Requires-Dist: scipy (>=1.10.1,<2.0.0)
+Description-Content-Type: text/markdown
+
+# KPerm - Toolkit for Analysis of Permeation Cycles in Potassium Channels
+
+
+[![License](https://img.shields.io/github/license/deGrootLab/KPerm)](https://www.gnu.org/licenses/gpl-3.0.en.html) [![DOI](https://img.shields.io/badge/DOI-10.1021%2Facs.jctc.3c00061-purple)](https://pubs.acs.org/doi/10.1021/acs.jctc.3c00061)
+
+This package allows you to identify permeation cycles in potassium channels from molecular dynamics (MD) simulation trajectories.
+
+## Conda
+You are recommended to install KPerm in a conda environment. If you have installed [Anaconda](https://www.anaconda.com/), create a new environment by running:
+
+```bash
+conda create -n kperm python=3.11
+```
+
+Once the environment is set up, run:
+```bash
+conda activate kperm
+```
+## Installation
+Tested with Python 3.11, MDAnalysis 2.4.2, and Numpy 1.24.1.
+```bash
+git clone https://github.com/tomcklam/KPerm
+cd KPerm
+pip install .
+# you may need to add the kernel
+# ipython kernel install --name "kperm" --user
+```
+
+You can now try our tutorial (tutorials/charge-scaling/charge-scaling.ipynb).
+
