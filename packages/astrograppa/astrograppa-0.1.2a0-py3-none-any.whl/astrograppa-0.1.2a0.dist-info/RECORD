@@ -1,0 +1,9 @@
+grappa/__init__.py,sha256=niJhGyyFT1WLy7556spE0EprGCC-OO-SSrZkcmKtjyw,83
+grappa/_version.py,sha256=yv0tmxffGzp3WZJ46RkbHV-RNN2l0XwGjAQi9ZDJDg4,162
+grappa/example_module.py,sha256=4S9wBMSB_CTaEEk3_6-rSt6y1zjOAvoHHqEVkc_yhXg,433
+grappa/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+astrograppa-0.1.2a0.dist-info/LICENSE,sha256=exJzyp3O7ccbgAU-AoXvtdyBethuqhfBOHDREZoG-5M,1501
+astrograppa-0.1.2a0.dist-info/METADATA,sha256=aRpMcfnHFSWqei7wPkrHbNinM7X6M-jYV_ho-RtRwvo,3490
+astrograppa-0.1.2a0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+astrograppa-0.1.2a0.dist-info/top_level.txt,sha256=A2Q4PoqJFP1KSgAhTvsm-QfUUlnRjOPQopNAd_2aCwA,7
+astrograppa-0.1.2a0.dist-info/RECORD,,
