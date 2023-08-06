@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+django_tbase_config.egg-info/PKG-INFO
+django_tbase_config.egg-info/SOURCES.txt
+django_tbase_config.egg-info/dependency_links.txt
+django_tbase_config.egg-info/requires.txt
+django_tbase_config.egg-info/top_level.txt
+tbase_config/__init__.py
+tbase_config/admin.py
+tbase_config/apps.py
+tbase_config/models.py
+tbase_config/tests.py
+tbase_config/views.py
