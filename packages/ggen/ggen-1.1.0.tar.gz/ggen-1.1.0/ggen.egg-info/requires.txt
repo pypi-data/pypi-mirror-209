@@ -1,0 +1,7 @@
+xarray
+pandas
+setuptools
+scipy
+netCDF4
+nco
+tempest-remap
