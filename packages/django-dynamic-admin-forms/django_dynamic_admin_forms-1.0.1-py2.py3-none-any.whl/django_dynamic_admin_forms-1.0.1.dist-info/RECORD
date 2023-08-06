@@ -1,0 +1,10 @@
+django_dynamic_admin_forms/__init__.py,sha256=GEz3yMFIN964mFc9-DMkqseskElLYdv2F1tKC5mmQs4,98
+django_dynamic_admin_forms/admin.py,sha256=TfKWuLb5BxrLmWLJ4QPqSDRqohDQ8oelhMfbYT1lRLw,2763
+django_dynamic_admin_forms/apps.py,sha256=UE52i7sniJ4H5yMrJRWzeRE6UBs_sPv1ULt_dC4lWPs,112
+django_dynamic_admin_forms/urls.py,sha256=e_yAncI6BcINcMP5_X4IdBsyRs4F1QXSXbn26E5stBo,166
+django_dynamic_admin_forms/static/js/dynamic_admin.js,sha256=nwft917r6jvRxPU4SEr-7vpCAkAfZASnlbDtEuW_ayg,2330
+django_dynamic_admin_forms/templates/admin/change_form.html,sha256=P6Fg0zhhwo-547LKDJWWfOz7pQ82ngFflTVCaeIERZE,1638
+django_dynamic_admin_forms-1.0.1.dist-info/LICENSE.md,sha256=cJ_9wDubYqhowJ-rgdaFvDZTu70jas8lk7-qwL_KP4E,1107
+django_dynamic_admin_forms-1.0.1.dist-info/WHEEL,sha256=kdeDBNPvBI0w3meLKPoGgAnEr54n1jzrZWUoaLmGzVY,99
+django_dynamic_admin_forms-1.0.1.dist-info/METADATA,sha256=unn-4833YAlWnU6mXpfWuTqltETEUS4vfx5T1M6OYVM,11800
+django_dynamic_admin_forms-1.0.1.dist-info/RECORD,,
