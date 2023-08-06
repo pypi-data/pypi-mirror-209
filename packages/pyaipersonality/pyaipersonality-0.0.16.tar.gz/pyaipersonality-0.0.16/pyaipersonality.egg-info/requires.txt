@@ -1,0 +1,8 @@
+pyyaml
+Pillow
+langchain
+
+[dev]
+pyyaml
+Pillow
+langchain
