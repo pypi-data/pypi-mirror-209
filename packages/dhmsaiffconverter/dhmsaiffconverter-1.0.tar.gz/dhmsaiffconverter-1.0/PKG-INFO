@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: dhmsaiffconverter
+Version: 1.0
+Summary: converter raw aiff vibration data to csv data file
+Home-page: https://github.com/DJ0617/DHMS_aiff_to_csv
+Author: David Bao
+Author-email: daijiebao0617@outlook.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# DHMS_aiff_to_csv
+Aiff振动加速度音频文件转csv文件Python库
+
+所有者：苏州德姆斯信息技术有限公司
+
+维护者：包岱杰
+
+创建日期：2023年5月19日
+
+说明：此Python库仅限于下载德姆斯设备健康管理系统中非主线环境的设备原始振动加速度aiff数据

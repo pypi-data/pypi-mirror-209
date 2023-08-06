@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+dhmsaiffconverter/__init__.py
+dhmsaiffconverter/aiff_data_download_tool.py
+dhmsaiffconverter/convert_aiff.py
+dhmsaiffconverter.egg-info/PKG-INFO
+dhmsaiffconverter.egg-info/SOURCES.txt
+dhmsaiffconverter.egg-info/dependency_links.txt
+dhmsaiffconverter.egg-info/top_level.txt
