@@ -1,0 +1,9 @@
+brainpylib/__init__.py,sha256=dAH3xRdbGB02G0fQZvOUhTYjt1qtXwre5OgMwBH3doU,168
+brainpylib/_check.py,sha256=zVdbWUk3faiERPyjxNHnmJqP8z9jJ8SM2NlWkw15J1E,1699
+brainpylib/_register_custom_calls.py,sha256=64-HbxV7xFnMWvFiSfbsjP3fQBzGFgx6z_cH4jynuTE,587
+brainpylib/cpu_ops.cp310-win_amd64.pyd,sha256=uPZAFqF6RXexoeAq5O6O6m2QfPTBShV6Fo-zAYhKpfY,155648
+brainpylib-0.1.9.dist-info/LICENSE,sha256=y_p8Hru855LwiNwIbkjJLmA0ZMwQQzHvJR5BVplHk1I,35773
+brainpylib-0.1.9.dist-info/METADATA,sha256=IXNbbXrOQc17iQbzK5frP0SWgejmaJkqTkfb1LGa874,2848
+brainpylib-0.1.9.dist-info/WHEEL,sha256=jrOhEbqKwvzRFSJcbYXlJCyVkgVdHg4_7__YHrdTUfw,102
+brainpylib-0.1.9.dist-info/top_level.txt,sha256=YQsJGyIteid0gvfxhHzrTKbdqVTs-qRRhMDKN2vPB2g,30
+brainpylib-0.1.9.dist-info/RECORD,,
