@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: atramentarium
+Version: 0.4
+Summary: Python3 prompt with simple command completion.
+Home-page: https://github.com/carlosplanchon/atramentarium
+Download-URL: https://github.com/carlosplanchon/atramentarium/archive/v0.3.tar.gz
+Author: Carlos A. Planchón
+Author-email: "Carlos A. Planchón" <carlosandresplanchonprestes@gmail.com>
+License: MIT License
+Project-URL: repository, https://github.com/carlosplanchon/atramentarium.git
+Keywords: command,completion,readline
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# atramentarium
+*Python3 prompt with simple command completion.*
+
+atramentarium means "inkpot" in late latin.
+
+## Installation
+### Install with pip
+```
+pip install -U atramentarium
+```
+
+## Usage
+```
+In [1]: import atramentarium
+
+In [2]: prompt(
+    command_processing_function=lambda cmd: print(cmd),
+    command_list=["ALICE", "BOB"]
+    )
+> # Hit tab.
+ALICE  BOB
+>
+```
