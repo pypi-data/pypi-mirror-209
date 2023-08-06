@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: ros2-test-runner
+Version: 0.0.1
+Summary: A python package to conveniently collect statistics data in ros2
+Home-page: UNKNOWN
+Author: Tharaka Sachintha 
+Author-email: <tharakasachintha27@gmail.com>
+License: UNKNOWN
+Keywords: python,ros2,humble,launch
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+A package that provides a convenient way to run ROS2 programs multiple times and collect timing and other statistics. It can be used to analyze the performance and behavior of ROS2 systems.
+
