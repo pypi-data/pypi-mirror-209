@@ -1,0 +1,1 @@
+django-tbase-theme-tailwind>=2023.5.2016845966
