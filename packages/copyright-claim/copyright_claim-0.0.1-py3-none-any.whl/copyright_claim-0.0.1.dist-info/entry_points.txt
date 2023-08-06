@@ -1,0 +1,3 @@
+[console_scripts]
+copyright-claim=copyright_claim:main
+
