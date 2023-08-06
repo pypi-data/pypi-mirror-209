@@ -1,0 +1,10 @@
+khash-0.5.0a4.dist-info/RECORD,,
+khash-0.5.0a4.dist-info/WHEEL,sha256=aLgdqjZBwLVn3YPz3SkEggov8hsbaobo7ZYLg8Lbyn0,187
+khash-0.5.0a4.dist-info/top_level.txt,sha256=v7b-ozFWXCaf4uTK9rLjXt7APm-7cQ10Puktgvz4YFg,6
+khash-0.5.0a4.dist-info/LICENSE.md,sha256=3tRK_BW-yd3EvfJQv7l9CHVtXOvdNMcpFiVbALsDHv4,172
+khash-0.5.0a4.dist-info/METADATA,sha256=qySDhF9RLexRbDWrELBgCj2jrH5cIARvO1-CFKNnl8Q,128
+khash/siphash.cpython-311-x86_64-linux-gnu.so,sha256=7EvZtVbhVWTuSkF4R8AuJ2Rrmor9p0sfzSR-KfHY-t0,116040
+khash/__init__.py,sha256=O0rbnuUslwP2dEh901f2aVENjv_DrS9Gj8Kpr57__x4,54
+khash/tree.cpython-311-x86_64-linux-gnu.so,sha256=CQq-LNFCdXZKFV5Wzl0p3ajhgLIvCr6h_W-V0idaPcc,492280
+khash/khash.cpython-311-x86_64-linux-gnu.so,sha256=h3OqdeJ_57hYcq-ee3X97i1Hvzs-51tMa8m4w1g1UxE,296512
+khash/container.cpython-311-x86_64-linux-gnu.so,sha256=Rwa2WZbKtOIhRhc5Udk_83N4mPsK0m_0vwp-RTnfJp4,905320
