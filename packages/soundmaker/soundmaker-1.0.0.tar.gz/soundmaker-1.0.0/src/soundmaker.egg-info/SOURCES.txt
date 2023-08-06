@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/soundmaker/__init__.py
+src/soundmaker/main.py
+src/soundmaker/utils.py
+src/soundmaker.egg-info/PKG-INFO
+src/soundmaker.egg-info/SOURCES.txt
+src/soundmaker.egg-info/dependency_links.txt
+src/soundmaker.egg-info/requires.txt
+src/soundmaker.egg-info/top_level.txt
+tests/test_loudness.py
+tests/test_main.py

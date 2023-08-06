@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: soundmaker
+Version: 1.0.0
+Summary: The library generates various tone stimuli for psychophysiological experiments.
+Home-page: https://github.com/simonkojima/soundmaker
+Author: Simon Kojima
+Author-email: simon.kojima@outlook.com
+Project-URL: Bug Tracker, https://github.com/simonkojima/soundmaker/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# soundmaker
+
+# Required Packeges
+numpy  
+pysoundfile  
