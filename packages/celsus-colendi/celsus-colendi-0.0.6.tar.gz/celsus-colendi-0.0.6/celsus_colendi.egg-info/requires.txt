@@ -1,0 +1,4 @@
+Werkzeug
+setuptools
+pandas
+datetime
