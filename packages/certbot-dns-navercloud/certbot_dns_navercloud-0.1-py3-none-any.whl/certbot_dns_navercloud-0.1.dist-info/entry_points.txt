@@ -1,0 +1,2 @@
+[certbot.plugins]
+dns-navercloud = certbot_dns_navercloud.dns_navercloud:Authenticator

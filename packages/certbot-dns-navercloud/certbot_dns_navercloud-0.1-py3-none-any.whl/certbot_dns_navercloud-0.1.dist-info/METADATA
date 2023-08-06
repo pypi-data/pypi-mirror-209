@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: certbot-dns-navercloud
+Version: 0.1
+Summary: NaverCloud DNS Authenticator plugin for Certbot
+Home-page: https://github.com/datamaker-kr/certbot-dns-navercloud
+Author: datamaker
+Author-email: developer@datamaker.io
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: certbot (>=1.10.0)
+
+# certbot-dns-navercloud
+NaverCloud DNS Authenticator plugin for Certbot
+
+Create credentials ini file
+```bash
+$ nano ~/certbot-creds.ini
+```
+
+Set access key and secret key
+```ini
+dns_navercloud_access_key = <access_key>
+dns_navercloud_secret_key = <secret_key>
+```
+Set appropriate permissions
+```bash
+$ chmod 600 ~/certbot-creds.ini
+```
+Retrieve the certificate
+```bash
+$ certbot certonly \
+--authenticator 'dns-navercloud' \
+--dns-navercloud-credentials '~/certbot-creds.ini' \
+-d '*.example.com'
+```
