@@ -1,0 +1,6 @@
+requests
+pillow
+aiohttp
+bs4
+selenium
+lxml
