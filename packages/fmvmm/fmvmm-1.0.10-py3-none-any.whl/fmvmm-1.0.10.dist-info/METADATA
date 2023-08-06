@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: fmvmm
+Version: 1.0.10
+Summary: flexible multivariate mixture model
+Author: Samyajoy Pal
+Author-email: palsamyajoy@gmail.com
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: pandas
+Requires-Dist: dirichlet
+Requires-Dist: sklearn
+
+mixture model with different distributions
