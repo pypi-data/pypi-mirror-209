@@ -1,0 +1,11 @@
+torch>=1.9
+opt_einsum>=3.0
+
+[docs]
+sphinx>=4.5
+sphinx-book-theme==0.3.3
+sphinx-copybutton
+nbsphinx
+
+[tests]
+pytest
