@@ -1,0 +1,4 @@
+protobuf<4,>=3
+requests<3,>=2.26
+click<9,>=8.1
+retry<1,>=0.9
