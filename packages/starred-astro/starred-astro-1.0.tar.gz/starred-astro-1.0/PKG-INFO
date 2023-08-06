@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: starred-astro
+Version: 1.0
+Summary: A two-channel deconvolution method with Starlet regularization
+Author: Kevin Michalewicz
+Author-email: kevinmicha@hotmail.com
+Requires: astropy
+Requires: dill
+Requires: galsim
+Requires: jax
+Requires: jaxlib
+Requires: jaxopt
+Requires: matplotlib
+Requires: numpy
+Requires: scikitimage
+Requires: scipy
+Requires: optax
+Requires: tqdm
+License-File: LICENSE
+License-File: AUTHORS.md
