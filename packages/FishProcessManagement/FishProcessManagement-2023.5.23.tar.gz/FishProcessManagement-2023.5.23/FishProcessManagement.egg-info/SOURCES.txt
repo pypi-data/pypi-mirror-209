@@ -1,0 +1,6 @@
+README.md
+setup.py
+FishProcessManagement.egg-info/PKG-INFO
+FishProcessManagement.egg-info/SOURCES.txt
+FishProcessManagement.egg-info/dependency_links.txt
+FishProcessManagement.egg-info/top_level.txt
