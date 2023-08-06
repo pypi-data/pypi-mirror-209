@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: hermes-mail
+Version: 0.0.1
+Summary: Python job alerts via email
+Project-URL: Homepage, https://github.com/ishan0102/hermes-mail
+Project-URL: Bug Tracker, https://github.com/ishan0102/hermes-mail/issues
+Author-email: Ishan Shah <ishan0102@utexas.edu>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# hermes-mail
+Python job alerts via email
+
+```bash
+pip install hermes-mail
+```
+
+## Setup
+- you need to have Google 2FA enabled
+- create an apps password
+- initialize hermes
