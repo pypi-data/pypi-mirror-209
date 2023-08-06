@@ -1,0 +1,12 @@
+serializer/JSONSerializer.py,sha256=FhZ2eplyv0eaipCHdWsveRITq6fHtK-cjfnesVXHbUE,5701
+serializer/XMLSerializer.py,sha256=oHuNbUxbVYOv8PXYlrZPArVOm7e32S1juQwY4zVoqZE,4632
+serializer/__init__.py,sha256=YqhUwSRPoRNWDBDLaCYbHVVupHNvn3KMl0-z-m_G8QA,34
+serializer/ser_util.py,sha256=nRQatu0_Tlb5gY6IVWXdN1QCbUwX5-wh4aWG9FycdUQ,733
+serializer/serializer.py,sha256=zXAzzQ2RPWA7ZguuTt24myKlHCALSxvPtwkeCVWM1N0,348
+serializer/helpers/Converter.py,sha256=ATV_qgE24s13of-o1gsphE4WoRlW40TR9oZlWI6Iw14,8079
+serializer/helpers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+serializer/helpers/consts.py,sha256=P9N8ukC33eHjmhvWtDwcC3JMao63e5dumHhmQBNxR08,470
+json_xml_serializer_yedka-1.1.0.dist-info/METADATA,sha256=83ECJ-eyWHvvkde84sfvNw45EYBPH1efMN0zk8TXOiA,88
+json_xml_serializer_yedka-1.1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+json_xml_serializer_yedka-1.1.0.dist-info/top_level.txt,sha256=3kzHgJX41_ELZl3LwfdCb9bHB2XvjkDLcICbV0Ssh9k,11
+json_xml_serializer_yedka-1.1.0.dist-info/RECORD,,
