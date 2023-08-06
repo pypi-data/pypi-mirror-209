@@ -1,0 +1,7 @@
+from iparapheur_provisioning.paths.api_provisioning_v1_admin_tenant_tenant_id_typology_type_type_id_subtype_subtype_id_layer.get import ApiForget
+
+
+class ApiProvisioningV1AdminTenantTenantIdTypologyTypeTypeIdSubtypeSubtypeIdLayer(
+    ApiForget,
+):
+    pass
