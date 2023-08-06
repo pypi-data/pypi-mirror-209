@@ -1,0 +1,7 @@
+migdalor-0.0.2.dev6.dist-info/METADATA,sha256=elS_LAn8kByyzrxm6xFLULTDXrZaNpIJ8m5qLxAMqGI,978
+migdalor-0.0.2.dev6.dist-info/WHEEL,sha256=m6kf1fJuo48rT4uxh0SeA_FsGq51BpCh_8VNBKVwYQA,90
+migdalor/__init__.py,sha256=i27dyayOz-DizA1yIpfo_L7pnARIVAsFcYLAcmuWtgQ,307
+migdalor/cluster.py,sha256=j2LLX1wwuTk4NxnGwQXuFBQ1n3q8KqF-GE82UNytptA,4107
+migdalor/discovery.py,sha256=-q2P_YcNwfyPkwtwJODlf-PHaaX3yMFsyEifLKsWjPU,1323
+migdalor/logger.py,sha256=5OgLDwY7o6vdRMKhalju7XEU73xU4DQkFfa9TxySrUM,55
+migdalor-0.0.2.dev6.dist-info/RECORD,,
