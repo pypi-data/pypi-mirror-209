@@ -1,0 +1,16 @@
+README.md
+setup.py
+evina/__init__.py
+evina/alipan.py
+evina/config.py
+evina/douyin.py
+evina/douyu.py
+evina/evina.py
+evina/replacement.py
+evina/ssh.py
+evina.egg-info/PKG-INFO
+evina.egg-info/SOURCES.txt
+evina.egg-info/dependency_links.txt
+evina.egg-info/entry_points.txt
+evina.egg-info/requires.txt
+evina.egg-info/top_level.txt
