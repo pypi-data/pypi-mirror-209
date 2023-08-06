@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "cai-root-cause-analysis"
+version = "0.0.0"
+description = "Causal AI: Root Cause Analysis (RCA)"
+authors = ["causaLens <opensource@causalens.com>"]
+readme = "README.md"
+packages = [{include = "cai_root_cause_analysis"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
