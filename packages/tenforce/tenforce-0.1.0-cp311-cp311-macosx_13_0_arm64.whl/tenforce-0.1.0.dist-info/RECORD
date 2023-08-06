@@ -1,0 +1,10 @@
+tenforce/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tenforce/enforcer.c,sha256=-vyHs69nA6f64QCaT5XHFXrQJvI9R-J5a3msyUxQAu4,390946
+tenforce/enforcer.cpython-311-darwin.so,sha256=U-N8UkrDZOGVtacip_yzD50jQwLZrqldkB3v5uf9SDs,122955
+tenforce/enforcer.pyx,sha256=dcQleei7rxTpscMnGtvStie9tEBUmEoezvluU8M44z4,6337
+tenforce/exceptions.py,sha256=o4ZUIc0luh7EndRdSv6TA1eCIXOEmkC9yraSEUBlwv8,551
+tenforce-0.1.0.dist-info/LICENSE.md,sha256=VZ_0RPB_tk1_-BGD0JHndni2Qu4BcXOY8UA9am_2ImI,1071
+tenforce-0.1.0.dist-info/METADATA,sha256=rFdwmLWBhGse7L5WtmiDNFxCe5zoxJatDWGjwerm0pw,139
+tenforce-0.1.0.dist-info/WHEEL,sha256=9u5azgharjYBfdIrZMb7YtYWGPqS21BRmRBngkXCmzk,110
+tenforce-0.1.0.dist-info/top_level.txt,sha256=2XadJM4q0CJnH6jvWiAxAvTsTP1LLPC5Pog6laD5jXc,9
+tenforce-0.1.0.dist-info/RECORD,,
