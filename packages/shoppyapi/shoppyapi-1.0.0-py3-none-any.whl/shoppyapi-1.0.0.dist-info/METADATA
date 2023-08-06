@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: shoppyapi
+Version: 1.0.0
+Summary: Python API for shoppy.gg
+Author: ｉｃｅｔｅａ࿐#2752
+Author-email: tamaquo@gmail.com
+Requires-Dist: requests
+
