@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: apimatic-calculator-test-api-sdk
+Version: 2.4.5
+Summary: Sample Calculator API SDK
+Author-email: Hamza Mahmood <hamza.mahmood@apimatic.io>
+Project-URL: Documentation, https://docs.apimatic.io/
+Keywords: Calculator
+Requires-Python: >=3.7
+Provides-Extra: testutils
+License-File: LICENSE
