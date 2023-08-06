@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: gpswe
+Version: 0.0.1
+Summary: Python library for parse, save and work with Wialon and EGTS data
+Home-page: https://github.com/KudinovIvan/gpswe
+Author: Ivan Kudinov
+Author-email: marvel.2012@mail.ru
+License: The MIT License (MIT) see LICENSE file
+Download-URL: https://github.com/KudinovIvan/gpswe/archive/v0.0.1.zip
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Python library for parse, save and work 
+                    with Wialon and EGTS data
+

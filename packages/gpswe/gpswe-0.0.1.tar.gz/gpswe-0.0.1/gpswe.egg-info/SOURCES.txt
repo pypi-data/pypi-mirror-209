@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+gpswe/__init__.py
+gpswe/connections.py
+gpswe/gps_server.py
+gpswe.egg-info/PKG-INFO
+gpswe.egg-info/SOURCES.txt
+gpswe.egg-info/dependency_links.txt
+gpswe.egg-info/requires.txt
+gpswe.egg-info/top_level.txt
