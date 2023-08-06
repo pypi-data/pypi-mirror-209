@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        yml_gen=dbtgenlib.yml_gen:dbtdocgen
+        
