@@ -1,0 +1,17 @@
+godspeed/__init__.py,sha256=r-Kz8WXaKsJIPyD8-oYL26hiOvDw1uzwF-GobDu0vNM,342
+godspeed/_version.py,sha256=pRyH-SfQAipxBRXIMPXi08b1xkJHgB355GtbE4Ryu3I,497
+godspeed/godspeed.py,sha256=E8RwXQLwrxz3udCnmuqBFm1XeJeLkVmRT53n0H4Rvmw,66
+godspeed/cli/.gitkeep,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+godspeed/cli/godspeed.py,sha256=GE6H7TBQacc3okDMwf6Sg3HXcz_FnuLn8SKXXjMz6FI,463
+godspeed/data/.gitkeep,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+godspeed/data/emacs-logo/emacs-128x128.png,sha256=jZMWcc9OiojUsX1hu_6bJEbqJLDzWxlaTtHCyFo73-A,9818
+godspeed/data/emacs-logo/emacs.svg,sha256=L3-WtCuOBCvhgs9kWVApm_IsMoJIHmx4pIq20y1Ez-M,13358
+godspeed/tests/__init__.py,sha256=ZxCeZ6P1nl6iz6X2tKzCV7Ivr2S18o10FDjznFnFI0Q,38
+godspeed/tests/test_godspeed.py,sha256=ZzinLFDpsJVWxRA-AXmZ6tTRL3J56pIWclbcJFUCVkE,569
+godspeed-0.0.0.dist-info/AUTHORS.rst,sha256=n5bRfapqPJRPCLfltn9xZWvwmaGPj0OWaM6owwYvIKc,151
+godspeed-0.0.0.dist-info/LICENSE,sha256=HDvzkAUaJZafJEPcaZ7sH9BmMmlpvEpkhc1-Vy5HoHQ,1604
+godspeed-0.0.0.dist-info/METADATA,sha256=LeTKnp9JneEWNiGsFEcE4-9EgLhN5FPI9sg3EopNG04,4902
+godspeed-0.0.0.dist-info/WHEEL,sha256=a-zpFRIJzOq5QfuhBzbhiA1eHTzNCJn8OdRvhdNX0Rk,110
+godspeed-0.0.0.dist-info/entry_points.txt,sha256=tZvmQ4-v6jczvDNSN7_homaTtW9Bmdo24pl6162K218,56
+godspeed-0.0.0.dist-info/top_level.txt,sha256=3uuirFbcpFgi7BXNsbx5T8DiOhklcsO7IrhqEJiAgH0,9
+godspeed-0.0.0.dist-info/RECORD,,
