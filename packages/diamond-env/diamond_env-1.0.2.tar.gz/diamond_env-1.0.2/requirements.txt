@@ -1,0 +1,2 @@
+minerl @ git+https://github.com/danijar/minerl.git@204130f
+gym==0.19.0
