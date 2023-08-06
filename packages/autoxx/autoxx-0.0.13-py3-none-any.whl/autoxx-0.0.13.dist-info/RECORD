@@ -1,0 +1,11 @@
+autoxx/agent/base.py,sha256=SU7z_qOR8pibgjtGb46FTgHgEzOCQKfROGoSLYXHrdA,310
+autoxx/agent/researcher.py,sha256=7owWiynrEIr47UNYUSnUpQSP07aU2fFHSS7lZ5Pp-do,1064
+autoxx/agi.py,sha256=z8V2oBzKwItHjTegtVxNzECHcyyS8nu0Ilwct4qeIpg,4239
+autoxx/babyagi.py,sha256=t5MVO_b2xA7NXcO_6TdVyjgohak-OEkUItDwJoTADlk,14378
+autoxx/js/overlay.js,sha256=8xun05O1bslA2ZR0K76VaTmiO6gygTFnHzWtQB1F4LU,804
+autoxx/requirements.txt,sha256=wFfWFPexnj0asGsj5TvDueDuWHP2DrOxITjz1oUptgE,406
+autoxx/search/simple_search.py,sha256=TzXGSi7xnptuQHDzW6zTkfCWJ3pmgxZKrEqtj-uZie4,5882
+autoxx/task_manager.py,sha256=5qBgMhGjBYDCjdo_d-1Op9OAp7CsAj4t1aXYc36BjiQ,4924
+autoxx-0.0.13.dist-info/METADATA,sha256=Ua7QFOEjfs8JQHO64jzJJMA-4nJUkIs8MxAsuj5PHCE,974
+autoxx-0.0.13.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+autoxx-0.0.13.dist-info/RECORD,,
