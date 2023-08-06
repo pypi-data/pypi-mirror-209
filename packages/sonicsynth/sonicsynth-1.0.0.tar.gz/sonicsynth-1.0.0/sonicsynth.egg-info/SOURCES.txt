@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+sonicsynth/__init__.py
+sonicsynth/composition.py
+sonicsynth/dsp_effects.py
+sonicsynth/envelope.py
+sonicsynth/export.py
+sonicsynth/playback.py
+sonicsynth/wave_generator.py
+sonicsynth.egg-info/PKG-INFO
+sonicsynth.egg-info/SOURCES.txt
+sonicsynth.egg-info/dependency_links.txt
+sonicsynth.egg-info/requires.txt
+sonicsynth.egg-info/top_level.txt
