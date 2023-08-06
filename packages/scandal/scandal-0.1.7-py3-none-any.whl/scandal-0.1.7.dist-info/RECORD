@@ -1,0 +1,15 @@
+scandal/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scandal/__main__.py,sha256=Mx4y8_JvP3PCpl2bPg-tuDGtAtFcbepc92FtRdNy25w,522
+scandal/_config.py,sha256=Jig2PTcyQRhYxnplQc7hAekS_jxA-DHTWfUXOjMxCTo,784
+scandal/_connection.py,sha256=B3DiZtlRmN3EXLjCJoxfofp-9G5KGjxXoqcldgr-Z4U,114
+scandal/dbapi/__init__.py,sha256=119JSexMr9PCIuUlVieEmGZfCVZLlLPEpG5kkZ69nFY,401
+scandal/dbapi/connection.py,sha256=4uENYPS1zSZGlZOhrHbhIqdZloz8ht-P7O0u9NxD_BE,1441
+scandal/dbapi/proxy.py,sha256=QEQENEIc7eT8NFxuAcb-m3jP9tcDY4b5n7KQ9fej20k,308
+scandal/oauth.py,sha256=jEGSEJ-BBgKgP6E_cW7-vpb7ZAuO2IKxOQTkjmJneoE,3175
+scandal/sqlalchemy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scandal/sqlalchemy/base.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scandal/sqlalchemy/bigquery.py,sha256=MMyLEl3QcIdbDFdbsY8OT4NZzR-Ewn40UX6Iu83Ii6Q,5905
+scandal-0.1.7.dist-info/METADATA,sha256=psA-APv1RCsw2eqIQriH4QJzNMkr4kOJiq2_EK4Vhak,894
+scandal-0.1.7.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+scandal-0.1.7.dist-info/entry_points.txt,sha256=TE2Rptxeibd2vUL1J5FvpN6CMYNQ7zItdC0rf-1fqb4,84
+scandal-0.1.7.dist-info/RECORD,,
