@@ -1,0 +1,10 @@
+README.md
+setup.py
+HomoglyphsCJK.egg-info/PKG-INFO
+HomoglyphsCJK.egg-info/SOURCES.txt
+HomoglyphsCJK.egg-info/dependency_links.txt
+HomoglyphsCJK.egg-info/requires.txt
+HomoglyphsCJK.egg-info/top_level.txt
+homo/__init__.py
+homo/hg_functions.py
+homo/test_run.py
