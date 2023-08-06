@@ -1,0 +1,163 @@
+# Copyright (C) 2023 Sebastien Rousseau.
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+# http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+# implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+# pylint: disable=invalid-name
+"""
+Enables use of Python Pain001 as a "main" function (i.e.
+"python3 -m pain001
+<xml_message_type> <xml_file_path> <xsd_file_path> <csv_file_path>").
+
+This allows using Pain001 with third-party libraries without modifying
+their code.
+"""
+
+from pain001.core import process_files
+from pain001.context import context
+from pain001.constants.constants import valid_xml_types
+
+import os
+import sys
+import argparse
+
+
+cli_string = """
+Pain001 is a Python Library for Automating ISO 20022-Compliant Payment Files
+Using CSV Data.
+
+It offers a streamlined solution for reducing complexity and costs associated
+with payment processing. By providing a simple and efficient method to create
+ISO 20022-compliant payment files, it eliminates the manual effort of file
+creation and validation. This not only saves valuable time and resources but
+also minimizes the risk of errors, ensuring accurate and seamless payment
+processing.
+
+Usage:
+    python3 -m pain001 \
+        <xml_message_type> \
+        <xml_file_path> \
+        <xsd_file_path> \
+        <csv_file_path>
+
+Arguments:
+    xml_message_type: The type of XML message. Valid values are:
+        - pain.001.001.03
+        - pain.001.001.09
+    xml_file_path: The path to the XML template file.
+    xsd_file_path: The path to the XSD template file.
+    csv_file_path: The path to the CSV data file.
+
+Example:
+    python3 -m pain001 "pain.001.001.09"  \
+        ./templates/pain.001.001.09/template.xml  \
+        ./templates/pain.001.001.09/pain.001.001.09.xsd  \
+        ./templates/pain.001.001.09/template.csv
+
+    This command will generate a pain.001.001.09 XML file using the template
+    files in the ./templates/pain.001.001.09/ directory and the CSV data in
+    ./templates/pain.001.001.09/template.csv.
+
+    The generated XML file will be saved in the <xml_message_type> directory.
+    For example, if the <xml_message_type> is pain.001.001.09, the generated
+    XML file will be saved in the directory pain.001.001.09 and the file name
+    will be pain.001.001.09.xml.
+
+    Note: The generated XML file will be validated against the XSD template
+    file before being saved. If the validation fails, the program will exit
+    with an error message.
+
+    For more information, please visit
+    https://github.com/sebastienrousseau/pain001
+"""
+
+
+def main(
+    xml_message_type=None,
+    xml_file_path=None,
+    xsd_file_path=None,
+    csv_file_path=None,
+):
+    """
+    Entrypoint for pain001 when invoked as a module with
+    python3 -m pain001 <xml_message_type> <xml_file_path>
+    <xsd_file_path> <csv_file_path>.
+    """
+
+    """Initialize the context and log a message."""
+    logger = context.Context.get_instance().get_logger()
+
+    if (
+        xml_file_path is None
+        or xsd_file_path is None
+        or csv_file_path is None
+    ):
+        parser = argparse.ArgumentParser(
+            description="Generate Pain.001 file from CSV data"
+        )
+        parser.add_argument(
+            "xml_message_type", help="Type of XML message"
+        )
+        parser.add_argument(
+            "xml_file_path", help="Path to XML template file"
+        )
+        parser.add_argument(
+            "xsd_file_path", help="Path to XSD template file"
+        )
+        parser.add_argument(
+            "csv_file_path", help="Path to CSV data file"
+        )
+        args = parser.parse_args()
+
+        logger.info("Parsing command line arguments.")
+        xml_message_type = args.xml_message_type
+        xml_file_path = args.xml_file_path
+        xsd_file_path = args.xsd_file_path
+        csv_file_path = args.csv_file_path
+
+    """Check that the files or values passed as arguments exist."""
+    if not xml_message_type:
+        logger.info("The XML message type is not specified.")
+        print("The XML message type is not specified.")
+        sys.exit(1)
+
+    # Add the following code to handle invalid XML message type
+
+    # Check that the XML message type is valid
+    if xml_message_type not in valid_xml_types:
+        logger.info(f"Invalid XML message type: {xml_message_type}.")
+        print(f"Invalid XML message type: {xml_message_type}.")
+        sys.exit(1)
+
+    if not os.path.isfile(xml_file_path):
+        logger.info("The XML template file does not exist.")
+        print("The XML template file does not exist.")
+        sys.exit(1)
+
+    if not os.path.isfile(xsd_file_path):
+        logger.info("The XSD template file does not exist.")
+        print("The XSD template file does not exist.")
+        sys.exit(1)
+
+    if not os.path.isfile(csv_file_path):
+        logger.info(f"The CSV file '{csv_file_path}' does not exist.")
+        print(f"The CSV file '{csv_file_path}' does not exist.")
+        sys.exit(1)
+
+    process_files(
+        xml_message_type, xml_file_path, xsd_file_path, csv_file_path
+    )
+
+
+if __name__ == "__main__":
+    main()
