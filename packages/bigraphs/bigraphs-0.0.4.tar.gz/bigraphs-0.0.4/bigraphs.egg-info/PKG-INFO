@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: bigraphs
+Version: 0.0.4
+Summary: a python interface to Robin Milner's bigraph formalism
+Home-page: https://github.com/prismofeverything/bigraph
+Author: Ryan Spangler
+Author-email: ryan.spangler@gmail.com
+Requires-Python: >=3.6
+Provides-Extra: plotting
+License-File: LICENSE
+License-File: AUTHORS.md
