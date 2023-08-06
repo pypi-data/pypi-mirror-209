@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: ModML
+Version: 0.1.1
+Summary: ModML Python
+Home-page: https://github.com/ModML/ModMLPy/
+Author: Alter Ego
+Author-email: 0x7c48@gmail.com
+License: MIT
+Project-URL: Documentation, https://pyscaffold.org/
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+License-File: LICENSE.txt
+Requires-Dist: importlib-metadata ; python_version < "3.8"
+Provides-Extra: testing
+Requires-Dist: setuptools ; extra == 'testing'
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: pytest-cov ; extra == 'testing'
+
+<!-- These are examples of badges you might want to add to your README:
+     please update the URLs accordingly
+
+[![Built Status](https://api.cirrus-ci.com/github/<USER>/ModMLPy.svg?branch=main)](https://cirrus-ci.com/github/<USER>/ModMLPy)
+[![ReadTheDocs](https://readthedocs.org/projects/ModMLPy/badge/?version=latest)](https://ModMLPy.readthedocs.io/en/stable/)
+[![Coveralls](https://img.shields.io/coveralls/github/<USER>/ModMLPy/main.svg)](https://coveralls.io/r/<USER>/ModMLPy)
+[![PyPI-Server](https://img.shields.io/pypi/v/ModMLPy.svg)](https://pypi.org/project/ModMLPy/)
+[![Conda-Forge](https://img.shields.io/conda/vn/conda-forge/ModMLPy.svg)](https://anaconda.org/conda-forge/ModMLPy)
+[![Monthly Downloads](https://pepy.tech/badge/ModMLPy/month)](https://pepy.tech/project/ModMLPy)
+[![Twitter](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&label=Twitter)](https://twitter.com/ModMLPy)
+-->
+
+[![Project generated with PyScaffold](https://img.shields.io/badge/-PyScaffold-005CA0?logo=pyscaffold)](https://pyscaffold.org/)
+
+# ModMLPy
+
+> ModML Python
+
+A longer description of your project goes here...
+
+
+<!-- pyscaffold-notes -->
+
+## Note
+
+This project has been set up using PyScaffold 4.4.1. For details and usage
+information on PyScaffold see https://pyscaffold.org/.
