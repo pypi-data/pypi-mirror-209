@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: LRU-pytorch
+Version: 0.1.2
+Summary: Linear Recurrent Unit (LRU) - Pytorch
+Home-page: https://github.com/Gothos/LRU-pytorch
+Download-URL: https://github.com/Gothos/LRU-pytorch/archive/refs/tags/v0.1.1-alpha.tar.gz
+Author: Vishnu Jaddipal
+Author-email: zeus.vj2003@gmail.com
+License: MIT
+Keywords: Artificial Intelligence,Deep Learning,Recurrent Neural Networks
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE.txt
