@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: archeSetup
+Version: 0.0.1
+Summary: This is the setup the basic mathematical equations library
+Home-page: UNKNOWN
+Author: Arche
+Author-email: rkdyava@gmail.com
+License: UNKNOWN
+Description: This is the application for adding and subsstracting the two numbers
+        
+        Chnage LOG
+        ==========
+        
+        
+        0.0.1 (20/05/2023)
+        ------------------
+        - First Release
+Keywords: add
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
