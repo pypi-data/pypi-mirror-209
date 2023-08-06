@@ -1,0 +1,9 @@
+README.md
+setup.py
+misc_io_operations/__init__.py
+misc_io_operations/misc_io_operations.py
+misc_io_operations.egg-info/PKG-INFO
+misc_io_operations.egg-info/SOURCES.txt
+misc_io_operations.egg-info/dependency_links.txt
+misc_io_operations.egg-info/requires.txt
+misc_io_operations.egg-info/top_level.txt

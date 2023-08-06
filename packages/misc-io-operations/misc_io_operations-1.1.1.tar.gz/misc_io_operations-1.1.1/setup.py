@@ -1,0 +1,26 @@
+from setuptools import setup
+setup(
+    name='misc_io_operations',
+    packages=['misc_io_operations'],
+    version="1.1.1",
+    liscense="MIT",
+    description="Simplification of daily IO operations",
+    long_description=open("README.md").read(),
+    author="GamerXZEN",
+    author_email="codspecialops@gmail.com",
+    url="https://github.com/GamerXZEN/misc_io_operations",
+    keywords=["operations", "input", "output", "input/output", "miscellaneous", "python",],
+    install_requires=["requests"],
+    classifiers=[
+        "Development Status :: 3 - Alpha",
+        "Intended Audience :: Developers",
+        "Topic :: Software Development :: Build Tools",
+        "License :: OSI Approved :: MIT License",
+        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
+        "Programming Language :: Python :: 3.12",
+    ],
+)
