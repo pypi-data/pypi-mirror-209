@@ -1,0 +1,15 @@
+pyproject.toml
+spaeti/__init__.py
+spaeti/routes.py
+spaeti/settings.py
+spaeti.egg-info/PKG-INFO
+spaeti.egg-info/SOURCES.txt
+spaeti.egg-info/dependency_links.txt
+spaeti.egg-info/requires.txt
+spaeti.egg-info/top_level.txt
+spaeti/_django/__init__.py
+spaeti/_django/settings.py
+spaeti/_django/urls.py
+spaeti/_django/wsgi.py
+spaeti/static/logo.svg
+spaeti/views/home.py

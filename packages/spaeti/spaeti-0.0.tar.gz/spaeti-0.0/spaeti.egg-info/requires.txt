@@ -1,0 +1,13 @@
+lona==1.13
+lona-picocss==0.3.1
+aiohttp-wsgi==0.10.0
+django<3.3,>=3.2
+
+[dev]
+mypy==1.3.0
+isort==5.12.0
+tox
+coverage
+pytest==7.3.1
+build
+twine
