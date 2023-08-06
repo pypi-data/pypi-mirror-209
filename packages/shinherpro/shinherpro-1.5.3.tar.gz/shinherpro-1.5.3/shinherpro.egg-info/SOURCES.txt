@@ -1,0 +1,10 @@
+setup.py
+vfc_AiModel_4.1_VGG16_black.h5
+shinherpro/TYAI.py
+shinherpro/__init__.py
+shinherpro/test.py
+shinherpro.egg-info/PKG-INFO
+shinherpro.egg-info/SOURCES.txt
+shinherpro.egg-info/dependency_links.txt
+shinherpro.egg-info/requires.txt
+shinherpro.egg-info/top_level.txt
