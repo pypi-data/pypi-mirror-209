@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: aioairzone-cloud
+Version: 0.0.5
+Summary: Library to control Airzone Cloud devices
+Author-email: Álvaro Fernández Rojas <noltari@gmail.com>
+License: Apache-2.0
+Project-URL: Homepage, https://github.com/Noltari/aioairzone-cloud
+Project-URL: Bug Tracker, https://github.com/Noltari/aioairzone-cloud/issues
+Keywords: airzone,cloud,hvac,home
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Home Automation
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiohttp
+
+# aioairzone-cloud
+Python library to control Airzone Cloud devices.
+
+## Requirements
+- Python >= 3.10
+
+## Install
+```bash
+pip install aioairzone-cloud
+```
+
+## Install from Source
+Run the following command inside this folder
+```bash
+pip install --upgrade .
+```
+
+## Examples
+Examples can be found in the `examples` folder
