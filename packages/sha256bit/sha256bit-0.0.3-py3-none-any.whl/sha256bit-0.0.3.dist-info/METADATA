@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: sha256bit
+Version: 0.0.3
+Summary: SHA256 with bit granularity for message input length
+Project-URL: Homepage, https://github.com/sebastien-riou/sha256bit
+Project-URL: Bug Tracker, https://github.com/sebastien-riou/sha256bit/issues
+Author: Sebastien Riou
+License-File: LICENSE
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# sha256bit
+SHA256 with bit granularity for message input length.
+
+
+## Build the package
+````
+python3 -m build
+````
+
+## Test
+Tests can run without creating/installing the package:
+````
+python3 -m test.test
+````
