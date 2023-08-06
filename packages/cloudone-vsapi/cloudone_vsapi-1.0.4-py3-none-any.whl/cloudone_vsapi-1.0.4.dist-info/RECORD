@@ -1,0 +1,14 @@
+amaas/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+amaas/_version.py,sha256=acuR_XSJzp4OrQ5T8-Ac5gYe48mUwObuwjRmisFmZ7k,22
+amaas/grpc/__init__.py,sha256=aMbhw5L-8MBiZArffC5zis_5VeHCAyfucHZAMiu6sPw,5877
+amaas/grpc/aio/__init__.py,sha256=sNDdKLTZIUu2GE3wSM312h90dIrDXBrvxWJBb449pnk,4897
+amaas/grpc/exception/__init__.py,sha256=mgEqQNPXAmjB6YbClE7SoArEyvgscRrz5NHHuPymYcw,236
+amaas/grpc/protos/scan_pb2.py,sha256=CSYaCPfh_qd-NXgGYAB4EkpD4v_zQ6SJ4A09aGuO2jU,2041
+amaas/grpc/protos/scan_pb2.pyi,sha256=qmjgJ-_yCEr0YhkikFJdB75u1aVqp6phzKcj5dz-CmQ,1736
+amaas/grpc/protos/scan_pb2_grpc.py,sha256=Y-qoxDUVrQ-G8Kx_UFq66wax2xp9m-Vgqc_b9yTpBzM,2467
+cloudone_vsapi-1.0.4.dist-info/LICENSE,sha256=_7eRDeyfUGdNJOxsUR2lwq7fr6LPxSzz0GYpghN0AYs,1072
+cloudone_vsapi-1.0.4.dist-info/METADATA,sha256=Xg9lZY7poLX__caijhwM4sOfXouevv60Mdcmm-XX3vU,4555
+cloudone_vsapi-1.0.4.dist-info/NOTICE,sha256=3WkGEp8qNFs0pW27v_PG0f4YiOGn343DBg_D2i4Bf0Q,61
+cloudone_vsapi-1.0.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+cloudone_vsapi-1.0.4.dist-info/top_level.txt,sha256=JEzWxeoHbW-2vesqipit_augbxdTf2IM8x7EqWQ_5Tk,17
+cloudone_vsapi-1.0.4.dist-info/RECORD,,
